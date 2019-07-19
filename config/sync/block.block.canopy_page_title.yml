@@ -1,0 +1,20 @@
+uuid: 4763539f-14ec-4fc0-8389-35831c8d5734
+langcode: en
+status: true
+dependencies:
+  theme:
+    - canopy
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: canopy_page_title
+theme: canopy
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

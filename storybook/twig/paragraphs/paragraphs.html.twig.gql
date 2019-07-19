@@ -1,0 +1,4 @@
+fragment Paragraph on Paragraph {
+  __typename
+  ...ParagraphText
+}

@@ -1,0 +1,10 @@
+uuid: 0bb53c94-7154-41d9-9294-4b515fb5abb8
+langcode: en
+status: true
+dependencies:
+  module:
+    - delivery
+id: delivery.token
+label: Token
+targetEntityType: delivery
+cache: true

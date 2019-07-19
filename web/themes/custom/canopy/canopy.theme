@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function canopy_preprocess_page(&$variables) {
+  if (!\Drupal::currentUser()->isAnonymous()) {
+    $variables['#attached']['library'][] = 'canopy/canopy';
+  }
+}

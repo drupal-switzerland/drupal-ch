@@ -1,0 +1,11 @@
+fragment MenuItem on MenuLink {
+  url {
+    path
+  }
+  label
+  description
+}
+
+fragment Header on Query {
+  __typename
+}

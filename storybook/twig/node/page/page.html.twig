@@ -1,0 +1,7 @@
+<div class="page">
+  {% if content %}
+    {% include '@storybook/paragraphs/paragraphs.html.twig' with {
+      paragraphs: content
+    } %}
+  {% endif %}
+</div>

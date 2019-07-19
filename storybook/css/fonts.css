@@ -1,0 +1,16 @@
+:root {
+  /* font sizing */
+  --font-xs: 1.4rem;
+  --font-p: 1.6rem;
+  --font-s: 1.8rem;
+  --font-h4: 2.2rem;
+  --font-h3: 2.4rem;
+  --font-h2: 2.8rem;
+  --font-h1: 3.8rem;
+  /* line height */
+  --line-height-default: 1.4;
+  --line-height-s: 1;
+  /* font family */
+  --font-family-regular: Helvetica, sans-serif;
+  --font-family-light: Verdana, sans-serif;
+}

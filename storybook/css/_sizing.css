@@ -1,0 +1,15 @@
+:root {
+  /* Spacing */
+  --space-100: 8px; /* Base margin size */
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-400: 32px;
+  --space-500: 40px;
+  --space-600: 48px;
+  --space-1000: 80px;
+  /* Header sizes */
+  --top-header-height: 42px;
+  --bottom-header-height: 95px;
+  /* Page max width */
+  --max-width: 1183px;
+}

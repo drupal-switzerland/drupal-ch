@@ -1,0 +1,4 @@
+name: drupal-ch
+recipe: drupal8
+config:
+  webroot: web

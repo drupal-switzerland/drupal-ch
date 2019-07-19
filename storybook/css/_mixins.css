@@ -1,0 +1,9 @@
+@define-mixin font-regular {
+  font-family: var(--font-family-regular);
+  font-weight: normal;
+}
+
+@define-mixin font-light {
+  font-family: var(--font-family-light);
+  font-weight: normal;
+}

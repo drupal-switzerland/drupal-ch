@@ -1,0 +1,96 @@
+/* Styles here are not used in the project, these are storybook specific styles */
+@import '../css/all.css';
+
+.story-wrapper {
+  padding: 0 var(--space-100);
+  margin-bottom: var(--space-500);
+
+  @media (--tablet-up) {
+    padding: 0 var(--space-500);
+    margin-bottom: var(--space-1000);
+  }
+
+  &.invert {
+    background-color: var(--black);
+    padding-bottom: var(--space-500);
+  }
+}
+
+.shadow-wrapper,
+.icons-wrapper,
+.color-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: var(--space-1000);
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.item {
+  margin: var(--space-300) var(--space-300) 0 0;
+  padding: var(--space-300);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  &--icon {
+    background-color: var(--light-grey);
+    border: 1px solid rgba(235, 235, 243, 1);
+    min-width: 300px;
+  }
+}
+
+.label {
+  margin-top: var(--space-300);
+}
+
+.color,
+.shadow {
+  display: block;
+  width: 240px;
+  height: 170px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.white {
+  background-color: var(--white);
+  border: 1px solid rgba(172, 172, 172, 0.3);
+}
+
+.dark-grey {
+  background-color: var(--dark-grey);
+}
+
+.light-grey {
+  background-color: var(--light-grey);
+}
+
+.grey {
+  background-color: var(--grey);
+}
+
+.black {
+  background-color: var(--black);
+}
+
+.shadow {
+  &-10 {
+    box-shadow: var(--shadow-10);
+  }
+
+  &-14 {
+    box-shadow: var(--shadow-14);
+  }
+}
+
+.light {
+  @mixin font-light;
+}
+
+.regular {
+  @mixin font-regular;
+}
+

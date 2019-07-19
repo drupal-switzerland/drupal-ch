@@ -1,0 +1,3 @@
+fragment Footer on Query {
+  __typename
+}

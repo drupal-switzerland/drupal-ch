@@ -1,0 +1,22 @@
+uuid: bd2339e4-6ed0-485f-9a18-6fc85c6b94ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - storybook
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: storybook_messages
+theme: storybook
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

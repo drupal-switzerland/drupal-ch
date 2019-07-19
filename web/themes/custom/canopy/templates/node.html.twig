@@ -1,0 +1,11 @@
+{#graphql
+  query ($node: String!) {
+    node:nodeById(id: $node) {
+      type:__typename
+      ...Page
+    }
+  }
+#}
+{% if graphql.node.type == 'NodePage' %}
+  {% include '@storybook/node/page/page.html.twig' with graphql.node %}
+{% endif %}

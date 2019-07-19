@@ -1,0 +1,101 @@
+.inner {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* To Vertically center child elements, apply these classes:
+   * "center-align" - centers at all screen sizes.
+   * "center-align center-align--tablet-up" - only centers at tablet and larger.
+   * "center-align center-align--desktop-up" - only centers at desktop.
+*/
+.center-align {
+  display: flex;
+  align-items: center;
+
+  /* Fix centering in IE */
+  &::after {
+    content: '';
+    min-height: inherit;
+    font-size: 0;
+  }
+
+  &--tablet-up {
+    display: block;
+
+    @media (--tablet-up) {
+      display: flex;
+    }
+  }
+
+  &--desktop-up {
+    display: block;
+
+    @media (--desktop-up) {
+      display: flex;
+    }
+  }
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (--tablet-up) {
+    flex-direction: row;
+  }
+
+  &__column {
+    width: 100%;
+
+    @media (--tablet-up) {
+      flex: 1 1 50%;
+    }
+  }
+}
+
+/* Use the .three-columns class to get:
+     * One column at mobile sizes
+     * Three columns at tablet and desktop sizes
+   Use the .three-columns--desktop-up class to get:
+     * One column at mobile and tablet sizes
+     * Three columns at desktop sizes
+     * DO NOT combine with the .three-columns class
+*/
+.three-columns {
+  @media (--tablet-up) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__column {
+      flex: 0 0 33.333%;
+    }
+  }
+
+  &--desktop-up {
+    @media (--desktop-up) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      &__column {
+        flex: 0 0 33.333%;
+      }
+    }
+  }
+
+  &--with-border {
+    .three-columns__column + .three-columns__column {
+      border-top: 1px solid grey;
+
+      @media (--tablet-up) {
+        border-left: 1px solid grey;
+        border-top: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+uuid: c02b605f-96cb-48da-99cf-dcd229491aec
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - canopy
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: canopy_content
+theme: canopy
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

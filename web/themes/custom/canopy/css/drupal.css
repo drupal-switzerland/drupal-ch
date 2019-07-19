@@ -1,0 +1,15 @@
+/* Local tasks (View, Edit, etc.) */
+#block-tabs ul {
+  margin-bottom: 2rem;
+}
+
+#block-tabs li {
+  background: #f2f1f0;
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.5em 1em;
+}
+
+#block-tabs a.is-active {
+  text-decoration: underline;
+}

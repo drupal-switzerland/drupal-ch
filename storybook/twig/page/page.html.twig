@@ -1,0 +1,15 @@
+<div class="page">
+  {% block header %}
+    {% include '@storybook/header/header.html.twig' %}
+  {% endblock %}
+
+  {% block content %}
+    <main class="main__content inner" id="main-content">
+      {{ page.content }}
+    </main>
+  {% endblock %}
+
+  {% block footer %}
+    {% include '@storybook/footer/footer.html.twig' %}
+  {% endblock %}
+</div>

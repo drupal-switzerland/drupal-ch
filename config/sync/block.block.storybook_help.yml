@@ -1,0 +1,22 @@
+uuid: 44c3bdbd-98fd-43d4-86cc-2d36723c30e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - storybook
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: storybook_help
+theme: storybook
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

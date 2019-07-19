@@ -1,0 +1,56 @@
+.messages {
+  padding: 15px 20px 15px 35px;
+  border: 1px solid;
+  border-width: 1px 1px 1px 0;
+  border-radius: 2px;
+  margin: 9px 0 10px 8px;
+  background: no-repeat 10px 17px;
+  font-size: 0.73em;
+  font-family:
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    'DejaVu Sans',
+    'Lucida Sans',
+    sans-serif;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  + .messages {
+    margin-top: 1.538em;
+  }
+
+  &--status {
+    border-color: #c9e1bd #c9e1bd #c9e1bd transparent;
+    background-color: #f3faef;
+    background-image: url(../../css/icons/messages-check.svg);
+    color: #325e1c;
+    box-shadow: -8px 0 0 #77b259;
+  }
+
+  &--warning {
+    border-color: #f4daa6 #f4daa6 #f4daa6 transparent;
+    background-color: #fdf8ed;
+    background-image: url(../../css/icons/messages-warning.svg);
+    color: #734c00;
+    box-shadow: -8px 0 0 #e09600;
+  }
+
+  &--error {
+    border-color: #f9c9bf #f9c9bf #f9c9bf transparent;
+    background-color: #fcf4f2;
+    background-image: url(../../css/icons/messages-error.svg);
+    color: #a51b00;
+    box-shadow: -8px 0 0 #e62600;
+  }
+
+  a {
+    color: #0074bd;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+      outline: 0;
+    }
+  }
+}

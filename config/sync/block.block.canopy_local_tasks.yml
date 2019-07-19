@@ -1,0 +1,22 @@
+uuid: 7c7875b5-efba-4b91-ad6b-0ed0f4151d9f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - canopy
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: canopy_local_tasks
+theme: canopy
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
