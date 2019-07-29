@@ -2394,7 +2394,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ckeditor5_sections.git",
-                "reference": "9af18ae88f557d020372c37d3969875f3f01f58f"
+                "reference": "04bbd536d11f894940142a714cbed047e599fd1d"
             },
             "require": {
                 "drupal/core": "*",
@@ -2409,8 +2409,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha14+54-dev",
-                    "datestamp": "1563992581",
+                    "version": "8.x-1.0-alpha14+55-dev",
+                    "datestamp": "1564327985",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2432,7 +2432,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ckeditor5_sections"
             },
-            "time": "2019-07-28T15:29:51+00:00"
+            "time": "2019-07-29T07:20:12+00:00"
         },
         {
             "name": "drupal/components",
@@ -3267,7 +3267,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/delivery.git",
-                "reference": "c1e14f5d3e6c33fd2f12485b58b43590bf74cac7"
+                "reference": "1b4baeacd34a23a95e2248af3e0d0a80da58f3d7"
             },
             "require": {
                 "drupal/core": "*",
@@ -3280,7 +3280,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1562684887",
+                    "datestamp": "1563203285",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -3302,7 +3302,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/delivery"
             },
-            "time": "2019-07-10T11:13:46+00:00"
+            "time": "2019-07-29T07:12:45+00:00"
         },
         {
             "name": "drupal/entity_reference_revisions",
@@ -4708,25 +4708,26 @@
         },
         {
             "name": "drupal/video_embed_field",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/video_embed_field.git",
-                "reference": "8.x-2.1"
+                "reference": "8.x-2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-2.1.zip",
-                "reference": "8.x-2.1",
-                "shasum": "fa1682741b4a1404df80c709ed8e40b7d8362d67"
+                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "1e76eeefb27f4166d3d119e8c27469bbf12c0f06"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8.7.0"
             },
             "require-dev": {
                 "drupal/colorbox": "*",
                 "drupal/media_entity": "*",
-                "drupal/media_entity_embeddable_video": "*"
+                "drupal/media_entity_embeddable_video": "*",
+                "drupal/video_embed_media": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -4734,7 +4735,7 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.1",
+                    "version": "8.x-2.2",
                     "datestamp": "1564103585",
                     "security-coverage": {
                         "status": "covered",
