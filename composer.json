@@ -91,8 +91,7 @@
                 "type:drupal-drush"
             ]
         },
-        "patches": {
-        },
+        "patches": [],
         "drupal-scaffold": {
             "initial": {
                 ".editorconfig": "../.editorconfig",

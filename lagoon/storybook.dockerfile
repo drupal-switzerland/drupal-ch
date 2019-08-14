@@ -7,3 +7,4 @@ RUN yarn run build-storybook
 
 FROM amazeeio/nginx
 COPY --from=nodebuilder /app/storybook/build /app
+
