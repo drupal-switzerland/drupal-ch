@@ -12,12 +12,10 @@ module:
   components: 0
   config: 0
   config_translation: 0
-  content_moderation: 0
   contextual: 0
   ctools: 0
   datetime: 0
   dblog: 0
-  delivery: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -62,10 +60,8 @@ module:
   video_embed_field: 0
   video_embed_media: 0
   views_ui: 0
-  workflows: 0
   workspaces: 0
   workspaces_allowed_languages: 0
-  workspaces_negotiator_path: 0
   menu_link_content: 1
   pathauto: 1
   content_translation: 10
