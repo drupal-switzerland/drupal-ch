@@ -1,0 +1,33 @@
+uuid: 7b1a0241-e745-4d3d-badb-0af3669c02a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_media.field_media
+    - field.field.paragraph.embed_media.field_position
+    - paragraphs.paragraphs_type.embed_media
+  module:
+    - media_library
+id: paragraph.embed_media.default
+targetEntityType: paragraph
+bundle: embed_media
+mode: default
+content:
+  field_media:
+    type: media_library_widget
+    weight: 0
+    settings:
+      media_types:
+        - image
+        - video
+    third_party_settings: {  }
+    region: content
+  field_position:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

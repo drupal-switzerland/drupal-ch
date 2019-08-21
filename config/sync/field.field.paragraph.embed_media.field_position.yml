@@ -1,0 +1,23 @@
+uuid: 6cd28400-2915-4de9-86d5-430c59a089d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_position
+    - paragraphs.paragraphs_type.embed_media
+  module:
+    - options
+id: paragraph.embed_media.field_position
+field_name: field_position
+entity_type: paragraph
+bundle: embed_media
+label: Position
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

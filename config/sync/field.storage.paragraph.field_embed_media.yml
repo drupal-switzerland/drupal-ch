@@ -1,0 +1,20 @@
+uuid: 0eeed8d2-4e9f-4a9c-a2da-ae5fd93c1ac6
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_embed_media
+field_name: field_embed_media
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

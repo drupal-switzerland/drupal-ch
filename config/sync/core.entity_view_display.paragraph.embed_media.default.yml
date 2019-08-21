@@ -1,0 +1,33 @@
+uuid: 21f8e860-3027-423d-8322-99e0bef0456b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_media.field_media
+    - field.field.paragraph.embed_media.field_position
+    - paragraphs.paragraphs_type.embed_media
+  module:
+    - options
+id: paragraph.embed_media.default
+targetEntityType: paragraph
+bundle: embed_media
+mode: default
+content:
+  field_media:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_position:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -3,15 +3,29 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.text.field_embed_media
     - field.field.paragraph.text.field_text
     - paragraphs.paragraphs_type.text
   module:
+    - paragraphs
     - text
 id: paragraph.text.default
 targetEntityType: paragraph
 bundle: text
 mode: default
 content:
+  field_embed_media:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
   field_text:
     weight: 0
     settings:
