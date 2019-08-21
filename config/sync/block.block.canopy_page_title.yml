@@ -1,15 +1,15 @@
-uuid: 4763539f-14ec-4fc0-8389-35831c8d5734
+uuid: 64b9a233-c07d-4056-ad50-fadb9a88d978
 langcode: en
 status: true
 dependencies:
   theme:
     - canopy
 _core:
-  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
 id: canopy_page_title
 theme: canopy
 region: content
-weight: -50
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

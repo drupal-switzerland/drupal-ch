@@ -1,15 +1,15 @@
-uuid: 6b2c8cc4-8689-4f80-b5b6-8b94cb27bc2e
+uuid: aad5341f-19bd-4bba-9e6a-d9478b7a2005
 langcode: en
 status: true
 dependencies:
   theme:
     - storybook
 _core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
 id: storybook_local_actions
 theme: storybook
 region: content
-weight: -20
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,4 +1,4 @@
-uuid: b05dc215-bc83-47a9-936e-b816aeb3b009
+uuid: 3478805a-4dd4-4bb5-9770-bd2fe5ce1383
 langcode: en
 status: true
 dependencies:
@@ -789,7 +789,7 @@ display:
         groups:
           1: AND
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -808,7 +808,7 @@ display:
       path: admin/content/moderated
       display_description: ''
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

@@ -1,15 +1,15 @@
-uuid: 6ca34bed-324c-4228-ae75-e8e892f95798
+uuid: e7d5cd2d-fc9d-4d17-983c-3297e8a8d39a
 langcode: en
 status: true
 dependencies:
   theme:
     - canopy
 _core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
 id: canopy_local_actions
 theme: canopy
 region: content
-weight: -20
+weight: -3
 provider: null
 plugin: local_actions_block
 settings:

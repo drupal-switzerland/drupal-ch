@@ -1,9 +1,8 @@
-uuid: 55d0b674-8f36-4a88-901c-9d677ae77bcd
+uuid: b9caebb1-f76d-4954-92a9-661a02017a6a
 langcode: en
 status: true
 dependencies:
   module:
-    - delivery
     - node
     - user
 _core:
@@ -534,81 +533,6 @@ display:
           plugin_id: node_status
           group: 1
           entity_type: node
-        default_langcode:
-          id: default_langcode
-          table: node_field_data
-          field: default_langcode
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value: '1'
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          entity_type: node
-          entity_field: default_langcode
-          plugin_id: boolean
-        current_workspace_filter:
-          id: current_workspace_filter
-          table: node_field_data
-          field: current_workspace_filter
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value: ''
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          entity_type: node
-          plugin_id: current_workspace_filter
       sorts: {  }
       title: Content
       empty:

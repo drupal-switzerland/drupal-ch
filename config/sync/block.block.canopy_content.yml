@@ -1,4 +1,4 @@
-uuid: c02b605f-96cb-48da-99cf-dcd229491aec
+uuid: c34212d3-e428-4da4-b82b-a44c93fbb9bd
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,10 @@ dependencies:
     - system
   theme:
     - canopy
-_core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: canopy_content
 theme: canopy
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: system_main_block
 settings:

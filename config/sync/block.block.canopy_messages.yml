@@ -1,4 +1,4 @@
-uuid: 58c3091f-206a-4a9b-89f3-824d4906f23b
+uuid: eee888c9-55f2-4045-a671-d53a5d5d0fa7
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - canopy
 _core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
 id: canopy_messages
 theme: canopy
-region: header
-weight: 0
+region: content
+weight: -2
 provider: null
 plugin: system_messages_block
 settings:

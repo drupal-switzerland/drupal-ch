@@ -1,4 +1,4 @@
-uuid: 8c9a5de2-b710-42a7-a9a3-b0ab48dd0ce0
+uuid: 65f7df18-a1c9-4d0c-8809-55144176a82a
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,9 @@ dependencies:
     module:
       - media_library
   module:
-    - ckeditor5_sections
-    - delivery
     - image
     - media
+    - media_library
     - user
 _core:
   default_config_hash: 5sfZZetHlReG1VQx9CbyIBhKFWYSZEU94dOy0yy0deE
@@ -323,43 +322,6 @@ display:
           entity_type: media
           entity_field: bundle
           plugin_id: bundle
-        current_workspace_filter:
-          id: current_workspace_filter
-          table: media_field_data
-          field: current_workspace_filter
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value: ''
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          entity_type: media
-          plugin_id: current_workspace_filter
       sorts:
         created:
           id: created
@@ -426,15 +388,12 @@ display:
     cache_metadata:
       max-age: 0
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - url.query_args
         - 'url.query_args:sort_by'
         - user.permissions
-      tags:
-        - 'config:core.entity_view_display.media.image.default'
-        - 'config:core.entity_view_display.media.image.media_library'
+      tags: {  }
   page:
     display_plugin: page
     id: page
@@ -452,7 +411,6 @@ display:
         weight: 5
         context: '0'
         menu_name: admin
-      rendering_language: '***LANGUAGE_language_interface***'
     cache_metadata:
       max-age: 0
       contexts:
@@ -461,9 +419,7 @@ display:
         - url.query_args
         - 'url.query_args:sort_by'
         - user.permissions
-      tags:
-        - 'config:core.entity_view_display.media.image.default'
-        - 'config:core.entity_view_display.media.image.media_library'
+      tags: {  }
   widget:
     display_plugin: page
     id: widget
@@ -666,43 +622,6 @@ display:
           entity_type: media
           entity_field: name
           plugin_id: string
-        current_workspace_filter:
-          id: current_workspace_filter
-          table: media_field_data
-          field: current_workspace_filter
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value: ''
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          entity_type: media
-          plugin_id: current_workspace_filter
       filter_groups:
         operator: AND
         groups:
@@ -767,7 +686,6 @@ display:
           plugin_id: display_link
           empty: true
       css_class: 'media-library-view js-media-library-view media-library-view--widget'
-      rendering_language: '***LANGUAGE_language_interface***'
     cache_metadata:
       max-age: -1
       contexts:
@@ -776,9 +694,7 @@ display:
         - url.query_args
         - 'url.query_args:sort_by'
         - user.permissions
-      tags:
-        - 'config:core.entity_view_display.media.image.default'
-        - 'config:core.entity_view_display.media.image.media_library'
+      tags: {  }
   widget_table:
     display_plugin: page
     id: widget_table
@@ -949,43 +865,6 @@ display:
           entity_type: media
           entity_field: name
           plugin_id: string
-        current_workspace_filter:
-          id: current_workspace_filter
-          table: media_field_data
-          field: current_workspace_filter
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value: ''
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          entity_type: media
-          plugin_id: current_workspace_filter
       filter_groups:
         operator: AND
         groups:
@@ -1050,10 +929,10 @@ display:
           plugin_id: display_link
           empty: true
       css_class: 'media-library-view js-media-library-view media-library-view--widget'
-      rendering_language: '***LANGUAGE_language_interface***'
     cache_metadata:
       max-age: -1
       contexts:
+        - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - url.query_args

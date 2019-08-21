@@ -1,4 +1,4 @@
-uuid: 7493c8d0-5e82-489b-9297-d1f3ada2dd09
+uuid: ac6a29c0-9776-4bfd-a117-b40795c77920
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - storybook
 _core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
 id: storybook_branding
 theme: storybook
 region: content

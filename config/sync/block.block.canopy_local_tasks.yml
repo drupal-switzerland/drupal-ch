@@ -1,15 +1,15 @@
-uuid: 7c7875b5-efba-4b91-ad6b-0ed0f4151d9f
+uuid: 512ddb3a-d57f-4640-98d6-6c41d212b43c
 langcode: en
 status: true
 dependencies:
   theme:
     - canopy
 _core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
 id: canopy_local_tasks
 theme: canopy
 region: content
-weight: -40
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

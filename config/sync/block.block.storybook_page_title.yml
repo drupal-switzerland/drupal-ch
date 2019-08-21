@@ -1,15 +1,15 @@
-uuid: c31b85b5-2531-4b0a-b09a-205b00dcedec
+uuid: d8600b2c-c8b9-4506-9ac7-7b763d909a5f
 langcode: en
 status: true
 dependencies:
   theme:
     - storybook
 _core:
-  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
 id: storybook_page_title
 theme: storybook
 region: content
-weight: -50
+weight: -30
 provider: null
 plugin: page_title_block
 settings:
