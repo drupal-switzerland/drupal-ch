@@ -1,7 +1,7 @@
 <div class="page">
-  {% if content %}
+  {% if paragraphContent %}
     {% include '@storybook/paragraphs/paragraphs.html.twig' with {
-      paragraphs: content
+      paragraphs: paragraphContent
     } %}
   {% endif %}
 </div>
