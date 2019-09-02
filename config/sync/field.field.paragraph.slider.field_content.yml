@@ -1,51 +1,43 @@
-uuid: 9585e206-b303-44c4-94d3-2cde40bf483c
+uuid: 93d53056-141f-42a4-a8ff-5a688ecc7e84
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_content
-    - node.type.page
-    - paragraphs.paragraphs_type.embed_media
+    - field.storage.paragraph.field_content
     - paragraphs.paragraphs_type.slide
+    - paragraphs.paragraphs_type.slider
   module:
     - entity_reference_revisions
-id: node.page.field_content
+id: paragraph.slider.field_content
 field_name: field_content
-entity_type: node
-bundle: page
+entity_type: paragraph
+bundle: slider
 label: Content
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
+    negate: 0
     target_bundles:
-      embed_media: embed_media
       slide: slide
     target_bundles_drag_drop:
-      text:
-        weight: 2
-        enabled: false
-      media:
-        weight: 7
-        enabled: false
-      gallery:
-        weight: 8
+      slider:
+        weight: 6
         enabled: false
       embed_media:
-        enabled: true
-        weight: 8
+        weight: 7
+        enabled: false
       multi_column:
-        weight: 9
+        weight: 8
         enabled: false
       slide:
         enabled: true
+        weight: 9
+      text:
         weight: 10
-      slider:
-        weight: 11
         enabled: false
 field_type: entity_reference_revisions

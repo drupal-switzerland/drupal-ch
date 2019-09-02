@@ -1,22 +1,22 @@
-uuid: 9585e206-b303-44c4-94d3-2cde40bf483c
+uuid: 6d25cfd5-77e9-4399-b587-2504b5d1779e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_content
-    - node.type.page
+    - node.type.blog
     - paragraphs.paragraphs_type.embed_media
     - paragraphs.paragraphs_type.slide
   module:
     - entity_reference_revisions
-id: node.page.field_content
+id: node.blog.field_content
 field_name: field_content
 entity_type: node
-bundle: page
+bundle: blog
 label: Content
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -27,24 +27,27 @@ settings:
       embed_media: embed_media
       slide: slide
     target_bundles_drag_drop:
+      embed_media:
+        enabled: true
+        weight: 4
+      multi_column:
+        weight: 5
+        enabled: false
       text:
-        weight: 2
+        weight: 6
         enabled: false
       media:
         weight: 7
         enabled: false
-      gallery:
-        weight: 8
-        enabled: false
-      embed_media:
-        enabled: true
-        weight: 8
-      multi_column:
+      image:
         weight: 9
         enabled: false
       slide:
         enabled: true
         weight: 10
+      gallery:
+        weight: 11
+        enabled: false
       slider:
         weight: 11
         enabled: false

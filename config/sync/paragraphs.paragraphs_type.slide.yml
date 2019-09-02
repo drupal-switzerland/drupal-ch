@@ -1,0 +1,9 @@
+uuid: 4edb5969-a76a-4069-b9b2-e7aaac3d2106
+langcode: en
+status: true
+dependencies: {  }
+id: slide
+label: Slide
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

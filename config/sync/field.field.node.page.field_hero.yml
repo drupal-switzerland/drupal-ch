@@ -1,19 +1,19 @@
-uuid: 9585e206-b303-44c4-94d3-2cde40bf483c
+uuid: 83135418-b304-4dd4-af34-7b801fe5b223
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_content
+    - field.storage.node.field_hero
     - node.type.page
-    - paragraphs.paragraphs_type.embed_media
-    - paragraphs.paragraphs_type.slide
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.slider
   module:
     - entity_reference_revisions
-id: node.page.field_content
-field_name: field_content
+id: node.page.field_hero
+field_name: field_hero
 entity_type: node
 bundle: page
-label: Content
+label: Hero
 description: ''
 required: false
 translatable: false
@@ -22,30 +22,33 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
+    negate: 0
     target_bundles:
-      embed_media: embed_media
-      slide: slide
+      image: image
+      slider: slider
     target_bundles_drag_drop:
+      embed_media:
+        weight: 4
+        enabled: false
+      multi_column:
+        weight: 5
+        enabled: false
       text:
-        weight: 2
+        weight: 6
         enabled: false
       media:
         weight: 7
         enabled: false
-      gallery:
-        weight: 8
-        enabled: false
-      embed_media:
+      image:
         enabled: true
-        weight: 8
-      multi_column:
         weight: 9
-        enabled: false
       slide:
-        enabled: true
         weight: 10
-      slider:
+        enabled: false
+      gallery:
         weight: 11
         enabled: false
+      slider:
+        enabled: true
+        weight: 11
 field_type: entity_reference_revisions
