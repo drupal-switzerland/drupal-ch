@@ -1,0 +1,15 @@
+uuid: 09cb4a93-6cee-47a2-a10e-6d6a0cb18e50
+langcode: en
+status: true
+dependencies: {  }
+name: square_medium
+label: 'Square Medium (600x600)'
+effects:
+  af96063b-9a01-40f9-bff8-8d24e6a3fd13:
+    uuid: af96063b-9a01-40f9-bff8-8d24e6a3fd13
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 600
+      anchor: center-center
