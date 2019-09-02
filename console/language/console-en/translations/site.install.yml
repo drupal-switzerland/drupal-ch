@@ -45,17 +45,17 @@ examples:
         --db-pass="dbp455"  \
         --db-port="3306"  \
         --site-name="Drupal 8"  \
-        --site-mail="admin@example.com"  \
+        --site-mail="development+drupal-ch@amazee.com"  \
         --account-name="admin"  \
-        --account-mail="admin@example.com"  \
+        --account-mail="development+drupal-ch@amazee.com"  \
         --account-pass="p455w0rd"
   - description: 'Install a drupal project using a mysql url'
     execution: |
       drupal site:install  standard  mysql://dbUser:dbPass@dbHost/dbName \
         --langcode="en"  \
         --site-name="Drupal 8"  \
-        --site-mail="admin@example.com"  \
+        --site-mail="development+drupal-ch@amazee.com"  \
         --account-name="admin"  \
-        --account-mail="admin@example.com"  \
+        --account-mail="development+drupal-ch@amazee.com"  \
         --account-pass="p455w0rd"
 
