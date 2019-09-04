@@ -4,4 +4,16 @@
   --dark-grey: #2e2e2e;
   --grey: #979797;
   --light-grey: #eaeaea;
+  --lighter-grey: #f5f5f8;
+  --aqua: #bfdbf7;
+  --light-blue: #d6fff6;
+  --blue: #1f7aba;
+  --dark-blue: #022b3a;
+  --red: #d03a65;
+
+  --primary-light: var(--blue);
+  --primary-dark: var(--dark-blue);
+  --secondary-light: var(--light-blue);
+  --secondary-dark: var(--aqua);
+  --tertiary-light: var(--red);
 }

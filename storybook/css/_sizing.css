@@ -1,5 +1,6 @@
 :root {
   /* Spacing */
+  --space-50: 4px;
   --space-100: 8px; /* Base margin size */
   --space-200: 16px;
   --space-300: 24px;
@@ -12,4 +13,6 @@
   --bottom-header-height: 95px;
   /* Page max width */
   --max-width: 1183px;
+  /* Button Spacing */
+  --space-default-btn: 12px;
 }

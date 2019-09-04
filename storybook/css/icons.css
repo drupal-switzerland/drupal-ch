@@ -1,0 +1,39 @@
+:root {
+  /* Icon sizes */
+  --icon-width-small: 18px;
+  --icon-width-medium: 25px;
+  --icon-width: 35px;
+  --icon-width-big: 45px;
+}
+
+.icon {
+  background-position: center center;
+  width: var(--icon-width);
+  height: var(--icon-width);
+  display: inline-block;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  &.small {
+    height: var(--icon-width-small);
+    width: var(--icon-width-small);
+  }
+
+  &.medium {
+    height: var(--icon-width-medium);
+    width: var(--icon-width-medium);
+  }
+
+  /* Normal icons. */
+  &.messages-check {
+    background-image: url(./icons/messages-check.svg);
+  }
+
+  &.messages-error {
+    background-image: url(./icons/messages-error.svg);
+  }
+
+  &.messages-warning {
+    background-image: url(./icons/messages-warning.svg);
+  }
+}

@@ -1,6 +1,5 @@
 /* Import base styles. */
-@import './css/settings.css';
+@import './css/all.css';
 
 /* Import components styles. */
-@import './editor/**/*.css';
 @import './twig/**/*.css';

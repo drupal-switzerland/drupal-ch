@@ -10,7 +10,6 @@ const common = require('./webpack.common');
 module.exports = {
   entry: {
     scripts: './storybook/scripts.ts',
-    editor: './storybook/editor.ts',
   },
   output: {
     filename: '[name].js',

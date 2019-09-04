@@ -6,7 +6,21 @@ const colors = [
   'dark-grey',
   'grey',
   'light-grey',
+  'lighter-grey',
   'white',
+  'aqua',
+  'light-blue',
+  'blue',
+  'dark-blue',
+  'red',
+];
+
+const colorScheme = [
+  'primary-light',
+  'primary-dark',
+  'secondary-light',
+  'secondary-dark',
+  'tertiary-light',
 ];
 
 const shadows = ['10', '14'];
@@ -27,6 +41,23 @@ storiesOf('Global styles', module)
     return `
       <div class="color-wrapper">
         ${colorHTML}
+      </div>
+    `;
+  })
+  .add('Color Scheme', () => {
+    let schemeHTML = '';
+    colorScheme.forEach(color => {
+      schemeHTML += `
+      <div class="item">
+        <div class="color ${color}"></div>
+        <p class="label p">${color}</p>
+      </div>
+    `;
+    });
+
+    return `
+      <div class="color-wrapper">
+        ${schemeHTML}
       </div>
     `;
   })

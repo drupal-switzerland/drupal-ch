@@ -1,0 +1,14 @@
+.form-item {
+  @mixin margin-bottom;
+
+  position: relative;
+}
+
+.form-actions {
+  @mixin margin-bottom;
+
+  :--buttons {
+    width: 100%;
+    margin-bottom: var(--space-50);
+  }
+}

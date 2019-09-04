@@ -1,0 +1,51 @@
+.js-form-type-checkbox {
+  input {
+    opacity: 0;
+    position: absolute;
+  }
+
+  input,
+  label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  label {
+    position: relative;
+  }
+
+  input + label::before {
+    content: '';
+    background: var(--white);
+    border: 1px solid var(--grey);
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    margin-top: -4px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 2px;
+  }
+
+  input:checked + label::before {
+    border-color: var(--blue);
+    background: var(--blue);
+  }
+
+  input:checked + label::after {
+    content: '';
+    width: 9px;
+    height: 9px;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    background-image: url(./icons/checkmark.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+  }
+}

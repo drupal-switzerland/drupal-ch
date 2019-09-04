@@ -1,0 +1,68 @@
+select:not([multiple]) {
+  @mixin font-light;
+
+  background-image: url(../css/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 1em 1em;
+  background-color: transparent;
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid var(--dark-blue);
+  width: 100%;
+  padding: var(--space-100) var(--space-600) var(--space-100) 0;
+  border-radius: 0;
+  color: var(--dark-blue);
+
+  /* Added to remove styles from IE. */
+  &::-ms-expand {
+    display: none;
+  }
+
+  @media (--desktop-down) {
+    max-width: 300px;
+    background-color: var(--white);
+    border: 1px solid var(--light-grey);
+    padding-left: var(--space-100);
+    background-position: right var(--space-100) center;
+  }
+}
+
+.js-form-type-radio {
+  input {
+    opacity: 0;
+    position: absolute;
+  }
+
+  input,
+  label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  label {
+    position: relative;
+  }
+
+  input + label::before {
+    content: '';
+    background: var(--white);
+    border: 1px solid var(--grey);
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    margin-top: -4px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  input:checked + label::before {
+    border-color: var(--blue);
+    background: var(--blue);
+    box-shadow: inset 0 0 0 3px var(--white);
+  }
+}

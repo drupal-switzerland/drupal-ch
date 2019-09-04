@@ -7,3 +7,12 @@ img {
   height: 100%;
   width: 100%;
 }
+
+/* Removes outline on touch devices. */
+@media (hover: none) and (pointer: coarse) {
+  :hover,
+  :focus {
+    /* stylelint-disable-next-line */
+    outline: 0 !important;
+  }
+}

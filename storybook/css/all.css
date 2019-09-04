@@ -17,6 +17,12 @@
 /* Load other global styles */
 @import './accessibility.css';
 @import './animation.css';
+@import './buttons.css';
+@import './checkbox.css';
+@import './forms.css';
 @import './global.css';
+@import './icons.css';
 @import './layouts.css';
+@import './logo.css';
+@import './radio.css';
 @import './typography.css';

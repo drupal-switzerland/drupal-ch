@@ -76,12 +76,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AmazeeLabs/silverback.git",
-                "reference": "949a65d2d085dc3a0cd30f20cb3b5c9baf3d054b"
+                "reference": "fdec40c1acf1e8f39b3a3a041c3062dd4c9107e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AmazeeLabs/silverback/zipball/949a65d2d085dc3a0cd30f20cb3b5c9baf3d054b",
-                "reference": "949a65d2d085dc3a0cd30f20cb3b5c9baf3d054b",
+                "url": "https://api.github.com/repos/AmazeeLabs/silverback/zipball/fdec40c1acf1e8f39b3a3a041c3062dd4c9107e7",
+                "reference": "fdec40c1acf1e8f39b3a3a041c3062dd4c9107e7",
                 "shasum": ""
             },
             "require": {
@@ -152,7 +152,7 @@
                 }
             ],
             "description": "Scaffolder for Amazee Silverback projects.",
-            "time": "2019-09-02T09:55:29+00:00"
+            "time": "2019-09-04T22:23:32+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -2877,16 +2877,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.7.6",
+            "version": "8.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "39164616332832e1456199d32fc3ed11562f4721"
+                "reference": "32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/39164616332832e1456199d32fc3ed11562f4721",
-                "reference": "39164616332832e1456199d32fc3ed11562f4721",
+                "url": "https://api.github.com/repos/drupal/core/zipball/32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92",
+                "reference": "32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92",
                 "shasum": ""
             },
             "require": {
@@ -2936,7 +2936,8 @@
                 "zendframework/zend-feed": "^2.4"
             },
             "conflict": {
-                "drush/drush": "<8.1.10"
+                "drush/drush": "<8.1.10",
+                "symfony/dom-crawler": ">=4"
             },
             "replace": {
                 "drupal/action": "self.version",
@@ -3127,7 +3128,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-08-07T19:19:20+00:00"
+            "time": "2019-09-04T10:26:35+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -10833,16 +10834,16 @@
         },
         {
             "name": "webflo/drupal-core-require-dev",
-            "version": "8.7.6",
+            "version": "8.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "d9e72ddd4b353727f6bf9293408bfaf429b7c69e"
+                "reference": "f535c939fee065b202ed5a84b15aa5385ba49d5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/d9e72ddd4b353727f6bf9293408bfaf429b7c69e",
-                "reference": "d9e72ddd4b353727f6bf9293408bfaf429b7c69e",
+                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/f535c939fee065b202ed5a84b15aa5385ba49d5e",
+                "reference": "f535c939fee065b202ed5a84b15aa5385ba49d5e",
                 "shasum": ""
             },
             "require": {
@@ -10850,7 +10851,7 @@
                 "behat/mink-goutte-driver": "^1.2",
                 "behat/mink-selenium2-driver": "1.3.x-dev",
                 "drupal/coder": "^8.3.1",
-                "drupal/core": "8.7.6",
+                "drupal/core": "8.7.7",
                 "jcalderonzumba/gastonjs": "^1.0.2",
                 "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
                 "justinrainbow/json-schema": "^5.2",
@@ -10867,7 +10868,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/core",
-            "time": "2019-08-07T19:31:42+00:00"
+            "time": "2019-09-04T10:31:38+00:00"
         }
     ],
     "aliases": [],

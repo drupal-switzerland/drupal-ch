@@ -47,8 +47,7 @@
     color: #0074bd;
     text-decoration: none;
 
-    &:focus,
-    &:hover {
+    &:--link-states {
       text-decoration: underline;
       outline: 0;
     }
