@@ -1,15 +1,15 @@
 /* Local tasks (View, Edit, etc.) */
-#block-tabs ul {
+#block-canopy-local-tasks ul {
   margin-bottom: 2rem;
 }
 
-#block-tabs li {
+#block-canopy-local-tasks li {
   background: #f2f1f0;
   display: inline-block;
   margin-right: 0.5em;
   padding: 0.5em 1em;
 }
 
-#block-tabs a.is-active {
+#block-canopy-local-tasks a.is-active {
   text-decoration: underline;
 }

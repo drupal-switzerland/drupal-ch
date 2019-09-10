@@ -39,6 +39,7 @@ module:
   menu_ui: 0
   metatag: 0
   node: 0
+  npm: 0
   options: 0
   page_cache: 0
   path: 0
@@ -58,6 +59,9 @@ module:
   update: 0
   user: 0
   video_embed_field: 0
+  webpack: 0
+  webpack_babel: 0
+  webpack_react: 0
   workflows: 0
   menu_link_content: 1
   views: 10
