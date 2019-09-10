@@ -9,7 +9,7 @@ dependencies:
 id: userlogin
 theme: canopy
 region: header
-weight: -3
+weight: -1
 provider: null
 plugin: user_login_block
 settings:
