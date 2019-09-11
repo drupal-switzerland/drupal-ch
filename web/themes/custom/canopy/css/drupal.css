@@ -13,3 +13,7 @@
 #block-canopy-local-tasks a.is-active {
   text-decoration: underline;
 }
+
+#block-canopy-branding {
+  width: 10em;
+}

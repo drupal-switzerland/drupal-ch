@@ -772,3 +772,8 @@ if ($env = getenv('SB_ENVIRONMENT')) {
     include $env_settings;
   }
 }
+
+$local_settings = $app_root . '/' . $site_path . '/settings.local.php';
+if (file_exists($local_settings)) {
+  include $local_settings;
+}

@@ -1,0 +1,16 @@
+fragment ParagraphSlider on ParagraphSlider {
+  content: fieldContent {
+    entity {
+      __typename
+      ...ParagraphSlide
+    }
+  }
+}
+
+fragment ParagraphSlide on ParagraphSlide {
+  media: fieldMedia {
+    entity {
+      __typename
+    }
+  }
+}

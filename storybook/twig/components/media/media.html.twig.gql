@@ -1,0 +1,7 @@
+fragment ParagraphMedia on ParagraphMedia {
+  media: fieldMedia {
+    entity {
+      __typename
+    }
+  }
+}

@@ -1,0 +1,3 @@
+fragment ParagraphGallery on ParagraphGallery {
+  title: fieldTitle
+}

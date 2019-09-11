@@ -1,6 +1,14 @@
 {# Sort by alphabetical order. #}
-{% if type == 'ParagraphText' %}
-  {% include '@storybook/components/text/text.html.twig' with component only %}
+{% if type == 'ParagraphGallery' %}
+  {% include '@storybook/components/gallery/gallery.html.twig' with component only %}
+{% elseif type == 'ParagraphImage' %}
+  {% include '@storybook/components/image/image.html.twig' with component only %}
+{% elseif type == 'ParagraphMedia' %}
+  {% include '@storybook/components/media/media.html.twig' with component only %}
 {% elseif type == 'ParagraphMultiColumn' %}
   {% include '@storybook/components/multi-column/multi-column.html.twig' with component only %}
+{% elseif type == 'ParagraphSlider' %}
+  {% include '@storybook/components/slider/slider.html.twig' with component only %}
+{% elseif type == 'ParagraphText' %}
+  {% include '@storybook/components/text/text.html.twig' with component only %}
 {% endif %}

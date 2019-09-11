@@ -1,5 +1,9 @@
 fragment Paragraph on Paragraph {
-  __typename
-  ...ParagraphText
+  type: __typename
+  ...ParagraphGallery
+  ...ParagraphImage
+  ...ParagraphMedia
   ...ParagraphMultiColumn
+  ...ParagraphSlider
+  ...ParagraphText
 }
