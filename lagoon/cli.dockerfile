@@ -1,11 +1,11 @@
 FROM amazeeio/php:7.2-cli-drupal as builder
-COPY composer.json composer.lock load.environment.php package.json yarn.lock /app/
+COPY composer.json composer.lock load.environment.php package.json package-lock.lock /app/
 COPY scripts /app/scripts
 COPY patches /app/patches
 RUN composer install --no-dev --prefer-dist
-RUN yarn install --pure-lockfile
+RUN npm ci
 COPY . /app
-RUN yarn run build-library && yarn run build-storybook
+RUN npm run build-library && npm run build-storybook
 RUN rm -rf /app/node_modules
 
 FROM amazeeio/php:7.2-cli-drupal
