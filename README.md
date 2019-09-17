@@ -78,6 +78,8 @@ Which one to use? `Docker with Lagoon` is the most reliable way to develop. `Loc
   `php --version`
   - Make sure you have [Composer](https://getcomposer.org/) installed
   `composer --version`
+  - Make sure you have [NPM](https://docs.npmjs.com/cli/install) installed
+  `npm --version`
 - Setup
   - Install dependencies
   `composer install`
@@ -85,8 +87,11 @@ Which one to use? `Docker with Lagoon` is the most reliable way to develop. `Loc
   ``direnv: error .envrc is blocked. Run `direnv allow` to approve its content.``
   - Run `direnv allow` (it will copy `.env.example` to `.env`, and load env vars)
   - Run `silverback setup` to initialize SQLite database and install Drupal from the existing configuration. This has to be done at least once. If there are issues with the command, try to run `silverback clear-cache` first.
-  - Run `drush webpack:build` to build libraries
+  - Run `drush webpack:build` to build Drupal module libraries
+  - Run `npm run build-library` to build frontend
   - Start the webserver with `drush serve`
 
 ## Frontend
 Components are developed in [Storybook](https://storybook.js.org/), see [Silverback docs](https://amazeelabs.github.io/silverback/development/storybook.html#using-the-theme) for more information.
+
+You can run Storybook locally with `npm run storybook`.
