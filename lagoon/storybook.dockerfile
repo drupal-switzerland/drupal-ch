@@ -1,6 +1,6 @@
 FROM amazeeio/node:10-builder as nodebuilder
 RUN mkdir -p /app/storybook
-COPY package.json package-lock.lock /app/
+COPY package.json package-lock.json /app/
 RUN npm ci --pure-lockfile
 COPY storybook /app/storybook/
 RUN npm run build-storybook

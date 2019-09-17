@@ -1,5 +1,5 @@
 FROM amazeeio/php:7.2-cli-drupal as builder
-COPY composer.json composer.lock load.environment.php package.json package-lock.lock /app/
+COPY composer.json composer.lock load.environment.php package.json package-lock.json /app/
 COPY scripts /app/scripts
 COPY patches /app/patches
 RUN composer install --no-dev --prefer-dist
