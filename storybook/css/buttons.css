@@ -54,7 +54,7 @@
 
     label {
       display: inline-block;
-      padding: var(--space-default-btn) var(--space-300) var(--space-default-btn) var(--space-600);
+      padding: var(--space-default-btn) var(--space-300) var(--space-default-btn) var(--space-500);
       cursor: pointer;
       border: 1px solid var(--light-grey);
       position: relative;
@@ -90,7 +90,7 @@
     color: var(--blue);
     background-color: var(--white);
     border-color: var(--blue);
-    padding: var(--space-default-btn) var(--space-300) var(--space-default-btn) var(--space-600);
+    padding: var(--space-default-btn) var(--space-300) var(--space-default-btn) var(--space-500);
     position: relative;
 
     &::before {

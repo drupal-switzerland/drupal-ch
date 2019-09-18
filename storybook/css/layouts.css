@@ -3,6 +3,7 @@
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
+  padding: 0 var(--space-400);
 
   @media (--desktop-down) {
     padding: 0 var(--space-200);

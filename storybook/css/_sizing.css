@@ -4,15 +4,13 @@
   --space-100: 8px; /* Base margin size */
   --space-200: 16px;
   --space-300: 24px;
-  --space-400: 32px;
   --space-500: 40px;
-  --space-600: 48px;
-  --space-1000: 80px;
+  --space-1200: 96px;
   /* Header sizes */
   --top-header-height: 42px;
   --bottom-header-height: 95px;
   /* Page max width */
-  --max-width: 1183px;
+  --max-width: 1280px;
   /* Button Spacing */
   --space-default-btn: 12px;
 }

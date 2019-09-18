@@ -10,7 +10,7 @@ select:not([multiple]) {
   border: none;
   border-bottom: 1px solid var(--dark-blue);
   width: 100%;
-  padding: var(--space-100) var(--space-600) var(--space-100) 0;
+  padding: var(--space-100) var(--space-500) var(--space-100) 0;
   border-radius: 0;
   color: var(--dark-blue);
 

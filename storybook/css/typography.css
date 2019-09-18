@@ -27,6 +27,7 @@ strong {
 a,
 button {
   line-height: var(--line-height-s);
+  cursor: pointer;
 }
 
 a,
