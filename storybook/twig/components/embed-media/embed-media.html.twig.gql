@@ -1,0 +1,8 @@
+fragment ParagraphEmbedMedia on ParagraphEmbedMedia {
+  media: fieldMedia {
+    entity {
+      ...Media
+    }
+  }
+  position: fieldPosition
+}

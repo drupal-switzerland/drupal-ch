@@ -1,0 +1,5 @@
+{% if imageStyle %}
+  <img class="{{ class }}" src="{{ attribute(mediaImage, imageStyle).url }}" alt="{{ mediaImage.alt }}" />
+{% else %}
+  <img class="{{ class }}" src="{{ mediaImage.url }}" alt="{{ mediaImage.alt }}" />
+{% endif %}

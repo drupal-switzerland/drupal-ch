@@ -5,3 +5,9 @@ fragment ParagraphMedia on ParagraphMedia {
     }
   }
 }
+
+fragment Media on Media {
+  ...MediaDocument
+  ...MediaImage
+  ...MediaVideo
+}

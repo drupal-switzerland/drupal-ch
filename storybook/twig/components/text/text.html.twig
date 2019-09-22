@@ -1,3 +1,19 @@
-<div class="text">
-  {{ text.processed | raw }}
-</div>
+<section class="text">
+  {% if embedMedia.entity is empty %}
+    {{ text.processed | raw }}
+  {% endif %}
+
+  {% if embedMedia.entity is not empty %}
+    <div class="two-columns {{ embedMedia.entity.position }}">
+      <div class="two-columns__column">
+        {% include '@storybook/components/embed-media/embed-media.html.twig' with {
+          media: embedMedia.entity
+        } only %}
+      </div>
+
+      <div class="two-columns__column text__content">
+        {{ text.processed | raw }}
+      </div>
+    </div>
+  {% endif %}
+</section>

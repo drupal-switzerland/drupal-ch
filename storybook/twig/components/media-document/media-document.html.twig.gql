@@ -1,0 +1,10 @@
+fragment MediaDocument on MediaDocument {
+  mediaFile: fieldMediaFile {
+    entity {
+      ...on File {
+        filename
+        url
+      }
+    }
+  }
+}

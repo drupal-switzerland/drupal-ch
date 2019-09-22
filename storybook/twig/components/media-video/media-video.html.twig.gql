@@ -1,0 +1,4 @@
+fragment MediaVideo on MediaVideo {
+  name
+  entityRendered
+}

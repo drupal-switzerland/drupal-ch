@@ -1,0 +1,24 @@
+fragment MediaImage on MediaImage {
+  mediaImage: fieldMediaImage {
+    url
+    alt
+    rectangularLarge: derivative(style: _169LARGE) {
+      ...ImageFields
+    }
+    squareLarge: derivative(style: SQUARELARGE) {
+      ...ImageFields
+    }
+    squareMedium: derivative(style: SQUAREMEDIUM) {
+      ...ImageFields
+    }
+    squareSmall: derivative(style: SQUARESMALL) {
+      ...ImageFields
+    }
+  }
+}
+
+fragment ImageFields on ImageResource {
+  url
+  height
+  width
+}

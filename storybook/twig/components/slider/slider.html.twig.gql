@@ -1,16 +1,7 @@
 fragment ParagraphSlider on ParagraphSlider {
-  content: fieldContent {
+  slider: fieldContent {
     entity {
-      __typename
       ...ParagraphSlide
-    }
-  }
-}
-
-fragment ParagraphSlide on ParagraphSlide {
-  media: fieldMedia {
-    entity {
-      __typename
     }
   }
 }

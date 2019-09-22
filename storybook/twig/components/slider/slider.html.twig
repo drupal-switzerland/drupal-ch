@@ -1,9 +1,8 @@
-<div class="multi-column">
-  {% for paragraph in column %}
-    {% set paragraph = paragraph.entity %}
-    {% include '@storybook/components/components.html.twig' with {
-      type: paragraph.__typename,
-      component: paragraph
+<zi-slider class="slider swiper-container">
+  <div class="swiper-wrapper">
+    {% include '@storybook/components/slider/slide/slide.html.twig' with {
+      slider: slider
     } only %}
-  {% endfor %}
-</div>
+  </div>
+  <div class="swiper-pagination"></div>
+</zi-slider>

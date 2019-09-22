@@ -1,0 +1,16 @@
+fragment ParagraphSlide on ParagraphSlide {
+  metatitle: fieldMetaTitle
+  link: fieldLink {
+    title
+    url {
+      path
+    }
+  }
+  media: fieldMedia {
+    entity {
+      ...MediaImage
+      ...MediaVideo
+    }
+  }
+  position: fieldPosition
+}
