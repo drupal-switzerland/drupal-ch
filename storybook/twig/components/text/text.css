@@ -1,6 +1,10 @@
 .text {
   @mixin component-margin-bottom;
 
+  .embed--right {
+    flex-direction: row-reverse;
+  }
+
   &__content {
     padding-top: var(--space-200);
 

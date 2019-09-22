@@ -1,3 +1,8 @@
 fragment ParagraphGallery on ParagraphGallery {
   title: fieldTitle
+  galleryImage: fieldGalleryImage {
+    entity {
+      ...MediaImage
+    }
+  }
 }

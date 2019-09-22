@@ -1,14 +1,19 @@
-{% if media.type == 'MediaImage' %}
-  {% include '@storybook/components/media-image/media-image.html.twig' with {
-    image: media.image,
-    imageStyle: 'rectangularLarge'
-  } only %}
-{% elseif media.type == 'MediaVideo' %}
-  {% include '@storybook/components/media-video/media-video.html.twig' with {
-    video: media.video
-  } only %}
-{% elseif media.type == 'MediaDocument' %}
-  {% include '@storybook/components/media-document/media-document.html.twig' with {
-    document: media.document
-  } only %}
+{% if content and content.media.entity %}
+  {% set media = content.media.entity %}
+  <section class="embed-media">
+    {% if media.type == 'MediaImage' %}
+      {% include '@storybook/components/media-image/media-image.html.twig' with {
+        mediaImage: media.mediaImage,
+        imageStyle: 'rectangularLarge'
+      } only %}
+    {% elseif media.type == 'MediaVideo' %}
+      {% include '@storybook/components/media-video/media-video.html.twig' with {
+        video: media.video
+      } only %}
+    {% elseif media.type == 'MediaDocument' %}
+      {% include '@storybook/components/media-document/media-document.html.twig' with {
+        document: media.document
+      } only %}
+    {% endif %}
+  </section>
 {% endif %}

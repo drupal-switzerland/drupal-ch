@@ -4,10 +4,10 @@
   {% endif %}
 
   {% if embedMedia.entity is not empty %}
-    <div class="two-columns {{ embedMedia.entity.position }}">
+    <div class="two-columns embed--{{ embedMedia.entity.position }}">
       <div class="two-columns__column">
         {% include '@storybook/components/embed-media/embed-media.html.twig' with {
-          media: embedMedia.entity
+          content: embedMedia.entity
         } only %}
       </div>
 

@@ -1,4 +1,5 @@
 fragment MediaDocument on MediaDocument {
+  type: __typename
   mediaFile: fieldMediaFile {
     entity {
       ...on File {

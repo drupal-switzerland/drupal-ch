@@ -1,5 +1,10 @@
 fragment Page on NodePage {
   title: entityLabel
+  hero: fieldHero {
+    entity {
+      ...Paragraph
+    }
+  }
   paragraphContent: fieldContent {
     entity {
       ...Paragraph

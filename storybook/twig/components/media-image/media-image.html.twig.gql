@@ -1,4 +1,5 @@
 fragment MediaImage on MediaImage {
+  type: __typename
   mediaImage: fieldMediaImage {
     url
     alt
