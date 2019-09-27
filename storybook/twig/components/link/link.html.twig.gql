@@ -1,0 +1,11 @@
+fragment ParagraphLink on ParagraphLink {
+  link: fieldLink {
+    title
+    uri
+    url {
+      path
+      routed
+    }
+  }
+  class: fieldLinkClass
+}

@@ -13,15 +13,22 @@ bundle: multi_column
 mode: default
 content:
   field_column:
-    type: entity_reference_paragraphs
+    type: paragraphs
     weight: 0
     settings:
-      title: Paragraph
-      title_plural: Paragraphs
+      title: Column
+      title_plural: Column
       edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: text
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
     third_party_settings: {  }
     region: content
 hidden:

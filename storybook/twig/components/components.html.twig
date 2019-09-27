@@ -3,6 +3,8 @@
   {% include '@storybook/components/gallery/gallery.html.twig' with component only %}
 {% elseif type == 'ParagraphImage' %}
   {% include '@storybook/components/image/image.html.twig' with component only %}
+{% elseif type == 'ParagraphLink' %}
+  {% include '@storybook/components/link/link.html.twig' with component only %}
 {% elseif type == 'ParagraphMedia' %}
   {% include '@storybook/components/media/media.html.twig' with component only %}
 {% elseif type == 'ParagraphMultiColumn' %}

@@ -2,6 +2,7 @@ fragment Paragraph on Paragraph {
   type: __typename
   ...ParagraphGallery
   ...ParagraphImage
+  ...ParagraphLink
   ...ParagraphMedia
   ...ParagraphMultiColumn
   ...ParagraphSlider

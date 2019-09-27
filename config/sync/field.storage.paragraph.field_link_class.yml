@@ -1,25 +1,28 @@
-uuid: e6eae052-3dd3-45d4-b12d-111793c10454
+uuid: 7cfb46fa-0f87-4256-b735-d50d4171f73d
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_position
-field_name: field_position
+id: paragraph.field_link_class
+field_name: field_link_class
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: left
-      label: Left
+      value: slack
+      label: Slack
     -
-      value: right
-      label: Right
+      value: drupal
+      label: Drupal
     -
-      value: background
-      label: Background
+      value: twitter
+      label: Twitter
+    -
+      value: meetup
+      label: Meetup
   allowed_values_function: ''
 module: options
 locked: false

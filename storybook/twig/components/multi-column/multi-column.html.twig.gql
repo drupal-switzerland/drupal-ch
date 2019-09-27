@@ -3,6 +3,7 @@ fragment ParagraphMultiColumn on ParagraphMultiColumn {
     entity {
       __typename
       ...ParagraphText
+      ...ParagraphMedia
     }
   }
 }
