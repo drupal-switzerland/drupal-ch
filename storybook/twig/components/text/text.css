@@ -28,4 +28,26 @@
   &__content.relative {
     position: relative;
   }
+
+  &__media {
+    position: relative;
+
+    &::after {
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      border: 0.2em solid var(--primary-light);
+    }
+  }
+
+  .embed--left .text__media::after {
+    bottom: -1.2em;
+    right: -1.2em;
+  }
+
+  .embed--right .text__media::after {
+    top: -1.2em;
+    left: -1.2em;
+  }
 }

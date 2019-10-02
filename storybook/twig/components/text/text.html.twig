@@ -1,7 +1,7 @@
-{% if embedMedia.entity is not empty and embedMedia.entity.position != 'background' %}
+{% if embedMedia.entity.media.entity is not empty and embedMedia.entity.position != 'background' %}
   <section class="text">
     <div class="two-columns embed--{{ embedMedia.entity.position }}">
-      <div class="two-columns__column">
+      <div class="two-columns__column text__media">
         {% include '@storybook/components/embed-media/embed-media.html.twig' with {
           content: embedMedia.entity,
           hideSection: true
