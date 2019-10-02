@@ -1,19 +1,26 @@
 {% if content and content.media.entity %}
   {% set media = content.media.entity %}
+  {% if hideSection != true %}
   <section class="embed-media">
+  {% endif %}
     {% if media.type == 'MediaImage' %}
       {% include '@storybook/components/media-image/media-image.html.twig' with {
         mediaImage: media.mediaImage,
-        imageStyle: 'rectangularLarge'
+        imageStyle: 'rectangularLarge',
+        class: class
       } only %}
     {% elseif media.type == 'MediaVideo' %}
       {% include '@storybook/components/media-video/media-video.html.twig' with {
-        video: media.video
+        video: media.video,
+        class: class
       } only %}
     {% elseif media.type == 'MediaDocument' %}
       {% include '@storybook/components/media-document/media-document.html.twig' with {
-        document: media.document
+        document: media.document,
+        class: class
       } only %}
     {% endif %}
+  {% if hideSection != true %}
   </section>
+  {% endif %}
 {% endif %}

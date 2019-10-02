@@ -1,1 +1,9 @@
-
+{% set classes = [
+  'button',
+  'button--' ~ class,
+] | join (' ') %}
+{% if link %}
+<a href="{{ link.url.path }}" class="{{ classes }}">
+  {{ link.title }}
+</a>
+{% endif %}

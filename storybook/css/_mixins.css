@@ -32,6 +32,10 @@
   }
 }
 
+@define-mixin section-padding {
+  padding: 2em;
+}
+
 @define-mixin link {
   color: var(--grey);
   text-decoration: none;
