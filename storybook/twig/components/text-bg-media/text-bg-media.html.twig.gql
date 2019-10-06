@@ -1,0 +1,16 @@
+fragment ParagraphTextBgMedia on ParagraphTextBgMedia {
+  title: fieldTitle
+  text: fieldText {
+    processed
+  }
+  media: fieldMedia {
+    entity {
+      ...Media
+    }
+  }
+  entityLink: fieldPtLink {
+    entity {
+      ...ParagraphLink
+    }
+  }
+}

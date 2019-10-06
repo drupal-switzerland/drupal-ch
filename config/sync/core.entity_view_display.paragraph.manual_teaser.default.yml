@@ -1,0 +1,56 @@
+uuid: 6537fd11-906b-4c2c-b240-b7688f91acd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.manual_teaser.field_image
+    - field.field.paragraph.manual_teaser.field_link
+    - field.field.paragraph.manual_teaser.field_teaser_text
+    - field.field.paragraph.manual_teaser.field_title
+    - paragraphs.paragraphs_type.manual_teaser
+  module:
+    - link
+id: paragraph.manual_teaser.default
+targetEntityType: paragraph
+bundle: manual_teaser
+mode: default
+content:
+  field_image:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_teaser_text:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

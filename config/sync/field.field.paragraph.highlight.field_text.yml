@@ -1,0 +1,21 @@
+uuid: b2cbeeab-47ca-4de5-9cae-a9a2c3376ad0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.highlight
+  module:
+    - text
+id: paragraph.highlight.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: highlight
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

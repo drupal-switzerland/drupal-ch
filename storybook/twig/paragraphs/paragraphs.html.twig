@@ -2,6 +2,7 @@
   {% set paragraph = paragraph.entity %}
   {% include '@storybook/components/components.html.twig' with {
     type: paragraph.type,
-    component: paragraph
+    component: paragraph,
+    class: class
   } only %}
 {% endfor %}

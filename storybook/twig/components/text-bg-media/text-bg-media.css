@@ -1,0 +1,39 @@
+.text {
+  @mixin component-margin-bottom;
+  @mixin section-padding;
+
+  &__content {
+    padding-top: var(--space-200);
+
+    @media (--desktop-up) {
+      padding-top: 0;
+      padding-left: var(--space-200);
+    }
+  }
+
+  .bg-media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &.relative,
+  &__content.relative {
+    position: relative;
+  }
+
+  &__media {
+    position: relative;
+
+    &::after {
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      border: 0.2em solid var(--primary-light);
+    }
+  }
+}

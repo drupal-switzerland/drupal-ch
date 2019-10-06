@@ -1,9 +1,7 @@
-<div class="image">
-  {% for paragraph in column %}
-    {% set paragraph = paragraph.entity %}
-    {% include '@storybook/components/components.html.twig' with {
-      type: paragraph.__typename,
-      component: paragraph
-    } only %}
-  {% endfor %}
+<div class="image {{ class }}">
+  {% include '@storybook/components/media-image/media-image.html.twig' with {
+    mediaImage: image.entity,
+    imageStyle: 'rectangularLarge',
+    class: class
+  } only %}
 </div>

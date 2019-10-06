@@ -1,0 +1,23 @@
+uuid: 967f1af4-c2ca-417c-8e96-b454949cd05d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.teaser.field_node_reference
+    - paragraphs.paragraphs_type.teaser
+id: paragraph.teaser.default
+targetEntityType: paragraph
+bundle: teaser
+mode: default
+content:
+  field_node_reference:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

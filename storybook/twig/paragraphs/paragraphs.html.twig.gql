@@ -7,4 +7,5 @@ fragment Paragraph on Paragraph {
   ...ParagraphMultiColumn
   ...ParagraphSlider
   ...ParagraphText
+  ...ParagraphTextBgMedia
 }

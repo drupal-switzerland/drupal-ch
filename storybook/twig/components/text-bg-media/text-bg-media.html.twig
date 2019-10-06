@@ -1,0 +1,31 @@
+{% if hideSection != true %}
+<section class="text relative {{class}}">
+{% else %}
+<div class="text relative {{class}}">
+{% endif %}
+  {% if media.entity is not empty %}
+    {% include '@storybook/components/media/media.html.twig' with {
+      content: media.entity,
+      class: 'bg-media',
+      hideSection: true
+    } only %}
+  {% endif %}
+  <div class="text__content relative">
+    {% if title %}
+      <h2>{{ title }}</h2>
+    {% endif %}
+    {% if text %}
+      <div class="text__content-text">{{ text.processed | raw }}</div>
+    {% endif %}
+    {% if entityLink is not empty %}
+      {% include '@storybook/components/link/link.html.twig' with {
+        link: entityLink.entity.link,
+        class: entityLink.entity.class
+      } only %}
+    {% endif %}
+  </div>
+{% if hideSection != true %}
+</section>
+{% else %}
+</div>
+{% endif %}

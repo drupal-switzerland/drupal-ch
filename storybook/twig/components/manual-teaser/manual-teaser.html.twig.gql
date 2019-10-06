@@ -1,0 +1,6 @@
+fragment ParagraphManualTeaser on ParagraphManualTeaser {
+  title: fieldTitle
+  text: fieldText {
+    processed
+  }
+}

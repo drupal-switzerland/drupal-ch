@@ -1,0 +1,6 @@
+fragment ParagraphHighlight on ParagraphHighlight {
+  title: fieldTitle
+  text: fieldText {
+    processed
+  }
+}

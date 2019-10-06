@@ -1,5 +1,9 @@
 {% if embedMedia.entity.media.entity is not empty and embedMedia.entity.position != 'background' %}
-  <section class="text">
+  {% if hideSection != true %}
+  <section class="text {{class}}">
+  {% else %}
+  <div class="text {{class}}">
+  {% endif %}
     <div class="two-columns embed--{{ embedMedia.entity.position }}">
       <div class="two-columns__column text__media">
         {% include '@storybook/components/embed-media/embed-media.html.twig' with {
@@ -21,9 +25,17 @@
         {% endif %}
       </div>
     </div>
+  {% if hideSection != true %}
   </section>
+  {% else %}
+  </div>
+  {% endif %}
 {% else %}
-  <section class="text relative">
+  {% if hideSection != true %}
+  <section class="text relative {{class}}">
+  {% else %}
+  <div class="text relative {{class}}">
+  {% endif %}
     {% if embedMedia.entity is not empty %}
       {% include '@storybook/components/embed-media/embed-media.html.twig' with {
         content: embedMedia.entity,
@@ -45,5 +57,9 @@
         } only %}
       {% endif %}
     </div>
+  {% if hideSection != true %}
   </section>
+  {% else %}
+  </div>
+  {% endif %}
 {% endif %}

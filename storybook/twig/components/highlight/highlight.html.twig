@@ -1,0 +1,18 @@
+{% if hideSection != true %}
+<section class="highlight relative {{class}}">
+{% else %}
+<div class="highlight relative {{class}}">
+{% endif %}
+  <div class="highlight__content relative">
+    {% if title %}
+      <h2>{{ title }}</h2>
+    {% endif %}
+    {% if text %}
+      <div class="highlight__content-text">{{ text.processed | raw }}</div>
+    {% endif %}
+  </div>
+{% if hideSection != true %}
+</section>
+{% else %}
+</div>
+{% endif %}

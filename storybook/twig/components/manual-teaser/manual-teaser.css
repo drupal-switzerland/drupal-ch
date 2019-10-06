@@ -1,0 +1,14 @@
+.manual-teaser {
+  @mixin component-margin-bottom;
+  @mixin section-padding;
+
+  &__content {
+    padding-top: var(--space-200);
+
+    @media (--desktop-up) {
+      padding-top: 0;
+      padding-left: var(--space-200);
+    }
+  }
+
+}

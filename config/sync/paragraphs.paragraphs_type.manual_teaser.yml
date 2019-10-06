@@ -1,0 +1,9 @@
+uuid: 1670406d-ed77-4a43-a201-eb811b9a8884
+langcode: en
+status: true
+dependencies: {  }
+id: manual_teaser
+label: 'Manual Teaser'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

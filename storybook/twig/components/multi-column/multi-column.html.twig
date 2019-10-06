@@ -1,9 +1,10 @@
-<div class="multi-column">
+<section class="multi-column">
   {% for paragraph in column %}
     {% set paragraph = paragraph.entity %}
     {% include '@storybook/components/components.html.twig' with {
       type: paragraph.__typename,
-      component: paragraph
+      component: paragraph,
+      hideSection: true
     } only %}
   {% endfor %}
-</div>
+</section>

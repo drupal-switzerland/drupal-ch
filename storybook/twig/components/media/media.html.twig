@@ -1,5 +1,6 @@
+{% if paragraphs is not empty %}
 <div class="media">
-  {% for paragraph in column %}
+  {% for paragraph in paragraphs %}
     {% set paragraph = paragraph.entity %}
     {% include '@storybook/components/components.html.twig' with {
       type: paragraph.__typename,
@@ -7,3 +8,19 @@
     } only %}
   {% endfor %}
 </div>
+{% elseif image is not empty %}
+<div class="image {{ class }}">
+  {% include '@storybook/components/media-image/media-image.html.twig' with {
+    mediaImage: image.entity,
+    imageStyle: 'rectangularLarge',
+    class: class
+  } only %}
+</div>
+{% elseif video is not empty %}
+<div class="video {{ class }}">
+  {% include '@storybook/components/media-video/media-video.html.twig' with {
+    video: video,
+    class: class
+  } only %}
+</div>
+{% endif %}
