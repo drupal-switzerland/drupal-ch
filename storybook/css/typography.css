@@ -38,20 +38,6 @@ a,
   overflow-wrap: break-word;
 }
 
-a::before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 4px;
-  background-color: currentColor;
-  opacity: 0;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
 /* stylelint-disable-next-line no-descending-specificity */
 a,
 a:--link-states {

@@ -1,11 +1,14 @@
 fragment Paragraph on Paragraph {
   type: __typename
   ...ParagraphGallery
+  ...ParagraphHighlight
   ...ParagraphImage
   ...ParagraphLink
+  ...ParagraphManualTeaser
   ...ParagraphMedia
   ...ParagraphMultiColumn
   ...ParagraphSlider
+  ...ParagraphTeaser
   ...ParagraphText
   ...ParagraphTextBgMedia
 }

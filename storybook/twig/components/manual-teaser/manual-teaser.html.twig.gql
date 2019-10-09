@@ -1,6 +1,17 @@
 fragment ParagraphManualTeaser on ParagraphManualTeaser {
   title: fieldTitle
-  text: fieldText {
-    processed
+  teaserText: fieldTeaserText
+  link: fieldLink {
+    title
+    uri
+    url {
+      path
+      routed
+    }
+  }
+  image: fieldImage {
+    entity {
+      ...MediaImage
+    }
   }
 }

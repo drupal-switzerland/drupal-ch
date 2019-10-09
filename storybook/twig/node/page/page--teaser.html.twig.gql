@@ -1,0 +1,3 @@
+fragment PageTeaser on NodePage {
+  title: entityLabel
+}

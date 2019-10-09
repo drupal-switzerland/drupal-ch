@@ -16,3 +16,9 @@
 {% else %}
 </div>
 {% endif %}
+
+
+{% include '@storybook/node/page/page--teaser.html.twig' with {
+  type: paragraph.__typename,
+  component: paragraph
+} only %}
