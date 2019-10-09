@@ -43,3 +43,6 @@ docker-compose.override.yml
 # Ignore silverback install-cache
 install-cache.zip
 
+# Ignore Drupal console
+/console/
+
