@@ -91,7 +91,11 @@
                 "type:drupal-drush"
             ]
         },
-        "patches": [],
+        "patches": {
+            "drupal/core": {
+                "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch"
+            }
+        },
         "drupal-scaffold": {
             "initial": {
                 ".editorconfig": "../.editorconfig",
