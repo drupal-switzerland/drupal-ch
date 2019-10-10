@@ -43,11 +43,6 @@ a,
 a:--link-states {
   text-decoration: none;
   color: var(--tertiary-light);
-  transition: color 0.3s ease, opacity 0.3s ease;
-  position: relative;
-  padding: 0.5rem 0;
-  opacity: 1;
-  transform: none;
 }
 
 h1,
