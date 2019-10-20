@@ -1,0 +1,56 @@
+uuid: 97b60b14-456f-4c02-b89f-67f07934331e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link_bg_media.field_media
+    - field.field.paragraph.link_bg_media.field_pt_link_multi
+    - field.field.paragraph.link_bg_media.field_title
+    - paragraphs.paragraphs_type.link_bg_media
+  module:
+    - media_library
+    - paragraphs
+id: paragraph.link_bg_media.default
+targetEntityType: paragraph
+bundle: link_bg_media
+mode: default
+content:
+  field_media:
+    weight: 2
+    settings:
+      media_types:
+        - image
+        - video
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_pt_link_multi:
+    type: paragraphs
+    weight: 1
+    settings:
+      title: Link
+      title_plural: Links
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: link
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

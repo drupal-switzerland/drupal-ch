@@ -1,0 +1,13 @@
+fragment ParagraphLinkBgMedia on ParagraphLinkBgMedia {
+  title: fieldTitle
+  media: fieldMedia {
+    entity {
+      ...Media
+    }
+  }
+  entityLinks: fieldPtLinkMulti {
+    entity {
+      ...ParagraphLink
+    }
+  }
+}

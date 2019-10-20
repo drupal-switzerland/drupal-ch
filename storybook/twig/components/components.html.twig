@@ -21,4 +21,6 @@
   {% include '@storybook/components/text/text.html.twig' with component %}
 {% elseif type == 'ParagraphTextBgMedia' %}
   {% include '@storybook/components/text-bg-media/text-bg-media.html.twig' with component %}
+{% elseif type == 'ParagraphLinkBgMedia' %}
+  {% include '@storybook/components/link-bg-media/link-bg-media.html.twig' with component %}
 {% endif %}

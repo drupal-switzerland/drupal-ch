@@ -1,0 +1,31 @@
+uuid: c4da4944-584c-48c8-825a-d87fd024f153
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media
+    - media.type.image
+    - media.type.video
+    - paragraphs.paragraphs_type.link_bg_media
+id: paragraph.link_bg_media.field_media
+field_name: field_media
+entity_type: paragraph
+bundle: link_bg_media
+label: Media
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      video: video
+    sort:
+      field: changed
+      direction: DESC
+    auto_create: true
+    auto_create_bundle: image
+field_type: entity_reference
