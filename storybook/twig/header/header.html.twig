@@ -8,9 +8,11 @@
   </a>
 
   {% if mainMenu %}
-    {% include '@storybook/menu/menu.html.twig' with {
-      type: 'mainMenu',
-      menu: mainMenu
-    } only %}
+    <div class="main-menu">
+      {% include '@storybook/menu/menu.html.twig' with {
+        type: 'mainMenu',
+        menu: mainMenu
+      } only %}
+    </div>
   {% endif %}
 </header>
