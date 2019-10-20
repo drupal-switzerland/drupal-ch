@@ -11,6 +11,10 @@
     }
   }
 
+  &.hero {
+    min-height: var(--max-height);
+  }
+
   .bg-media {
     position: absolute;
     top: 0;
