@@ -1,3 +1,9 @@
+{% if class == 'inner'
+  and media.entity is not empty
+  and text is empty
+%}
+  {% set class = '' %}
+{% endif %}
 {% set classes = [
   'text',
   'relative',
@@ -29,7 +35,7 @@
     {% elseif data.title and data.title.value is not empty and data.title.element is not empty %}
       <{{ data.title.element }}>{{ data.title.value }}</{{ data.title.element }}>
     {% endif %}
-    {% if text %}
+    {% if text and text is not empty %}
       <div class="text__content-text">{{ text.processed | raw }}</div>
     {% endif %}
     {% if entityLink is not empty %}

@@ -13,7 +13,8 @@
   {% endif %}
   {% if paragraphContent %}
     {% include '@storybook/paragraphs/paragraphs.html.twig' with {
-      paragraphs: paragraphContent
+      paragraphs: paragraphContent,
+      class: 'inner'
     } %}
   {% endif %}
 </div>
