@@ -1,4 +1,16 @@
 
 <header class="header">
-  {{ page.header }}
+  <a class="header__logo spacing" href="/">
+    {% include '@storybook/logo/logo.html.twig' %}
+    <h1 class="visually-hidden">
+      {{ 'Drupal Switzerland' | t }}
+    </h1>
+  </a>
+
+  {% if mainMenu %}
+    {% include '@storybook/menu/menu.html.twig' with {
+      type: 'mainMenu',
+      menu: mainMenu
+    } only %}
+  {% endif %}
 </header>

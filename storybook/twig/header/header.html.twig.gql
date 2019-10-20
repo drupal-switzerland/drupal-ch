@@ -1,3 +1,4 @@
 fragment Header on Query {
   __typename
+  ...MainMenu
 }

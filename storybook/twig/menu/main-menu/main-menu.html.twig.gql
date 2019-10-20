@@ -1,0 +1,13 @@
+fragment MainMenu on Query {
+  mainMenu: menuByName(name: "main") {
+    links {
+      ...MenuItem
+      links {
+        ...MenuItem
+        links {
+          ...MenuItem
+        }
+      }
+    }
+  }
+}
