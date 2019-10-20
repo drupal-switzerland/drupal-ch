@@ -1,8 +1,12 @@
-{% if embedMedia.entity.media.entity is not empty and embedMedia.entity.position != 'background' %}
+{% set classes = [
+  'text',
+  class
+]|join(' ') %}
+{% if embedMedia.entity.media.entity is not empty %}
   {% if hideSection != true %}
-  <section class="text {{class}}">
+  <section class="{{ classes }}">
   {% else %}
-  <div class="text {{class}}">
+  <div class="{{ classes }}">
   {% endif %}
     <div class="two-columns embed--{{ embedMedia.entity.position }}">
       <div class="two-columns__column text__media">
@@ -12,10 +16,10 @@
         } only %}
       </div>
       <div class="two-columns__column text__content">
-        {% if title %}
+        {% if title and title is not empty %}
           <h2>{{ title }}</h2>
         {% endif %}
-        {% if text %}
+        {% if text and text.processed is not empty %}
           <div class="text__content-text">{{ text.processed | raw }}</div>
         {% endif %}
         {% if entityLink is not empty %}
@@ -31,10 +35,11 @@
   </div>
   {% endif %}
 {% else %}
+  {% set classes = classes ~ ' relative' %}
   {% if hideSection != true %}
-  <section class="text relative {{class}}">
+  <section class="{{ classes }}">
   {% else %}
-  <div class="text relative {{class}}">
+  <div class="{{ classes }}">
   {% endif %}
     {% if embedMedia.entity is not empty %}
       {% include '@storybook/components/embed-media/embed-media.html.twig' with {
@@ -44,10 +49,10 @@
       } only %}
     {% endif %}
     <div class="text__content relative">
-      {% if title %}
+      {% if title and title is not empty %}
         <h2>{{ title }}</h2>
       {% endif %}
-      {% if text %}
+      {% if text and text.processed is not empty %}
         <div class="text__content-text">{{ text.processed | raw }}</div>
       {% endif %}
       {% if entityLink is not empty %}

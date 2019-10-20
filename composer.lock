@@ -3106,8 +3106,8 @@
                     "#3045177 workspace specific latest revision": "https://www.drupal.org/files/issues/2019-04-08/3045177-10.patch",
                     "#3037136 allow workspaces and content moderation to be installed together": "https://www.drupal.org/files/issues/2019-06-27/3037136-6.patch",
                     "#2803717 allow changes in content moderation without new revision": "https://www.drupal.org/files/issues/2019-04-17/2803717-48.patch",
-                    "#3065207 Allow modules to prevent deletion of an entity.": "https://www.drupal.org/files/issues/2019-07-02/3065207-5.patch",
-                    "Language negotiation weight": "https://www.drupal.org/files/issues/2018-10-17/3007386-language-negotiator-weight-2.patch"
+                    "Language negotiation weight": "https://www.drupal.org/files/issues/2018-10-17/3007386-language-negotiator-weight-2.patch",
+                    "#3065207 Allow modules to prevent deletion of an entity.": "https://www.drupal.org/files/issues/2019-07-02/3065207-5.patch"
                 }
             },
             "autoload": {

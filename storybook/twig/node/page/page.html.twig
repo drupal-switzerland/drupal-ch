@@ -2,7 +2,13 @@
   {% if hero %}
     {% include '@storybook/paragraphs/paragraphs.html.twig' with {
       paragraphs: [ hero ],
-      class: 'hero'
+      class: 'hero',
+      data: {
+        title: {
+          element: 'h1',
+          value: title
+        }
+      }
     } %}
   {% endif %}
   {% if paragraphContent %}

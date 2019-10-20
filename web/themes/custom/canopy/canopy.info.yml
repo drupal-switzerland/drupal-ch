@@ -10,3 +10,5 @@ regions:
   content: Content
   footer_top: Footer top
   footer_bottom: Footer bottom
+libraries:
+  - canopy/canopy

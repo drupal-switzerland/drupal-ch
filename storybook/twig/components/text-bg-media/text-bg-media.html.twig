@@ -1,18 +1,33 @@
+{% set classes = [
+  'text',
+  'relative',
+  class
+]|join(' ') %}
 {% if hideSection != true %}
-<section class="text relative {{class}}">
+<section class="{{ classes }}">
 {% else %}
-<div class="text relative {{class}}">
+<div class="{{ classes }}">
 {% endif %}
   {% if media.entity is not empty %}
-    {% include '@storybook/components/media/media.html.twig' with {
-      content: media.entity,
-      class: 'bg-media',
-      hideSection: true
-    } only %}
+    {% if media.entity.type == 'MediaImage' %}
+      {% include '@storybook/components/media-image/media-image.html.twig' with {
+        mediaImage: media.entity.mediaImage,
+        class: 'bg-media',
+        hideSection: true
+      } only %}
+    {% elseif media.entity.type == 'MediaVideo' %}
+      {% include '@storybook/components/media-video/media-video.html.twig' with {
+        mediaVideo: media.entity.mediaVideo,
+        class: 'bg-media',
+        hideSection: true
+      } only %}
+    {% endif %}
   {% endif %}
   <div class="text__content relative">
-    {% if title %}
+    {% if title and title is not empty %}
       <h2>{{ title }}</h2>
+    {% elseif data.title and data.title.value is not empty and data.title.element is not empty %}
+      <{{ data.title.element }}>{{ data.title.value }}</{{ data.title.element }}>
     {% endif %}
     {% if text %}
       <div class="text__content-text">{{ text.processed | raw }}</div>

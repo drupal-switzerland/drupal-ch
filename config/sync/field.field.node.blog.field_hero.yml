@@ -1,23 +1,23 @@
-uuid: 83135418-b304-4dd4-af34-7b801fe5b223
+uuid: 95cff4ba-7e1d-4712-a4c7-8e2e55db6bd2
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_hero
-    - node.type.page
+    - node.type.blog
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.slider
     - paragraphs.paragraphs_type.text_bg_media
   module:
     - entity_reference_revisions
-id: node.page.field_hero
+id: node.blog.field_hero
 field_name: field_hero
 entity_type: node
-bundle: page
+bundle: blog
 label: Hero
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -30,40 +30,40 @@ settings:
       text_bg_media: text_bg_media
     target_bundles_drag_drop:
       embed_media:
-        weight: 4
-        enabled: false
-      multi_column:
-        weight: 5
-        enabled: false
-      text:
-        weight: 6
-        enabled: false
-      media:
-        weight: 7
-        enabled: false
-      image:
-        enabled: true
-        weight: 9
-      slide:
-        weight: 10
+        weight: 14
         enabled: false
       gallery:
-        weight: 11
+        weight: 15
         enabled: false
-      slider:
-        enabled: true
-        weight: 11
       highlight:
         weight: 16
         enabled: false
+      image:
+        enabled: true
+        weight: 17
       link:
         weight: 18
         enabled: false
       manual_teaser:
         weight: 19
         enabled: false
+      media:
+        weight: 20
+        enabled: false
+      multi_column:
+        weight: 21
+        enabled: false
+      slide:
+        weight: 22
+        enabled: false
+      slider:
+        enabled: true
+        weight: 23
       teaser:
         weight: 24
+        enabled: false
+      text:
+        weight: 25
         enabled: false
       text_bg_media:
         enabled: true

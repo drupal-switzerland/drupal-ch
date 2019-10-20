@@ -17,9 +17,6 @@ settings:
     -
       value: right
       label: Right
-    -
-      value: background
-      label: Background
   allowed_values_function: ''
 module: options
 locked: false

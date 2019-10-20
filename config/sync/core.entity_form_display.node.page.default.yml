@@ -5,8 +5,10 @@ dependencies:
   config:
     - field.field.node.page.field_content
     - field.field.node.page.field_hero
+    - field.field.node.page.field_metatags
     - node.type.page
   module:
+    - metatag
     - paragraphs
     - path
 id: node.page.default
@@ -56,6 +58,12 @@ content:
         collapse_edit_all: collapse_edit_all
         add_above: '0'
     third_party_settings: {  }
+    region: content
+  field_metatags:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   langcode:
     type: language_select
