@@ -15,12 +15,12 @@ tasks:
         command: env
         service: cli
     - run:
-        name: IF no Drupal install via drush si
+        # If no DB, sync from Master branch.
+        name: If no Drupal installed - get database from Master
         command: |
-            if ! drush status --fields=bootstrap | grep -q "Successful"; then
-                # no drupal installed, we install drupal from scratch
-                drush si -y minimal --sites-subdir=default --existing-config --account-name=admin --account-pass=admin
-            fi
+          if [[ ${LAGOON_GIT_SAFE_BRANCH} != "master" ]] && ! drush status --fields=bootstrap | grep -q "Successful"; then
+              drush -y sql-sync @lagoon.master @self
+          fi
         service: cli
         shell: bash
     - run:
