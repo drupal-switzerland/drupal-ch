@@ -1,0 +1,43 @@
+uuid: eefccf9b-3434-496f-8100-19739436e814
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon_highlight.field_content_icon
+    - field.field.paragraph.icon_highlight.field_text
+    - field.field.paragraph.icon_highlight.field_title
+    - paragraphs.paragraphs_type.icon_highlight
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.icon_highlight.default
+targetEntityType: paragraph
+bundle: icon_highlight
+mode: default
+content:
+  field_content_icon:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

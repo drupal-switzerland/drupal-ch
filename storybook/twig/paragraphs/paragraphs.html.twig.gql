@@ -2,8 +2,11 @@ fragment Paragraph on Paragraph {
   type: __typename
   ...ParagraphGallery
   ...ParagraphHighlight
+  ...ParagraphIconHighlight
+  ...ParagraphIconTeaser
   ...ParagraphImage
   ...ParagraphLink
+  ...ParagraphLinkBgMedia
   ...ParagraphManualTeaser
   ...ParagraphMedia
   ...ParagraphMultiColumn
@@ -11,5 +14,4 @@ fragment Paragraph on Paragraph {
   ...ParagraphTeaser
   ...ParagraphText
   ...ParagraphTextBgMedia
-  ...ParagraphLinkBgMedia
 }

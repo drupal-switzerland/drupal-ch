@@ -5,10 +5,12 @@
  */
 function canopy_preprocess_page(&$variables) {
 
-  /** @var \Drupal\node\Entity\Node $node */
-  $node = $variables['node'];
+  if (array_key_exists('node', $variables)) {
+    /** @var \Drupal\node\Entity\Node $node */
+    $node = $variables['node'];
+  }
 
-  if ($node && $node->hasField('field_hero')) {
+  if (isset($node) && $node->hasField('field_hero')) {
     /** @var \Drupal\paragraphs\Entity\Paragraph $paragraph */
     $heroValue = $node->get('field_hero')->getValue();
     $paragraphID = reset($heroValue);

@@ -1,0 +1,23 @@
+{% if hideSection != true %}
+<section class="icon-teaser {{ class }}">
+{% else %}
+<div class="icon-teaser {{ class }}">
+{% endif %}
+  <div class="icon-teaser__content">
+    <div class="icon-teaser__icon">
+      {% if icon %}
+      <span class="icon-{{ icon }}"></span>
+      {% endif %}
+    </div>
+    {% if title %}
+      <h2>{{ title }}</h2>
+    {% endif %}
+    {% if text %}
+      <div class="icon-teaser__content-text">{{ text.processed | raw }}</div>
+    {% endif %}
+  </div>
+{% if hideSection != true %}
+</section>
+{% else %}
+</div>
+{% endif %}

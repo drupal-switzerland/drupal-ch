@@ -1,0 +1,21 @@
+uuid: ca70a976-b2d1-40aa-9398-4c871a43d6b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.icon_teaser
+  module:
+    - text
+id: paragraph.icon_teaser.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: icon_teaser
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,11 @@
+fragment ParagraphIconHighlight on ParagraphIconHighlight {
+  title: fieldTitle
+  text: fieldText {
+    processed
+  }
+  icon_content: fieldContentIcon {
+    entity {
+      ...ParagraphIconTeaser
+    }
+  }
+}

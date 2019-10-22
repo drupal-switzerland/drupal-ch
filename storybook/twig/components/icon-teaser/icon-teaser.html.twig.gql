@@ -1,0 +1,8 @@
+fragment ParagraphIconTeaser on ParagraphIconTeaser {
+  type: __typename
+  title: fieldTitle
+  text: fieldText {
+    processed
+  }
+  icon: fieldIcon
+}

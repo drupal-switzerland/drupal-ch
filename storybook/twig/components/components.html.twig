@@ -3,10 +3,16 @@
   {% include '@storybook/components/gallery/gallery.html.twig' with component %}
 {% elseif type == 'ParagraphHighlight' %}
   {% include '@storybook/components/highlight/highlight.html.twig' with component %}
+{% elseif type == 'ParagraphIconHighlight' %}
+  {% include '@storybook/components/icon-highlight/icon-highlight.html.twig' with component %}
+{% elseif type == 'ParagraphIconTeaser' %}
+  {% include '@storybook/components/icon-teaser/icon-teaser.html.twig' with component %}
 {% elseif type == 'ParagraphImage' %}
   {% include '@storybook/components/image/image.html.twig' with component %}
 {% elseif type == 'ParagraphLink' %}
   {% include '@storybook/components/link/link.html.twig' with component %}
+{% elseif type == 'ParagraphLinkBgMedia' %}
+  {% include '@storybook/components/link-bg-media/link-bg-media.html.twig' with component %}
 {% elseif type == 'ParagraphManualTeaser' %}
   {% include '@storybook/components/manual-teaser/manual-teaser.html.twig' with component %}
 {% elseif type == 'ParagraphMedia' %}
@@ -21,6 +27,4 @@
   {% include '@storybook/components/text/text.html.twig' with component %}
 {% elseif type == 'ParagraphTextBgMedia' %}
   {% include '@storybook/components/text-bg-media/text-bg-media.html.twig' with component %}
-{% elseif type == 'ParagraphLinkBgMedia' %}
-  {% include '@storybook/components/link-bg-media/link-bg-media.html.twig' with component %}
 {% endif %}

@@ -1,62 +1,38 @@
-uuid: 6d25cfd5-77e9-4399-b587-2504b5d1779e
+uuid: c13aff43-2b47-4cea-8bb8-09f92b74feb5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_content
-    - node.type.blog
-    - paragraphs.paragraphs_type.embed_media
+    - field.storage.paragraph.field_content_icon
+    - paragraphs.paragraphs_type.icon_highlight
     - paragraphs.paragraphs_type.icon_teaser
-    - paragraphs.paragraphs_type.link
-    - paragraphs.paragraphs_type.slide
   module:
     - entity_reference_revisions
-id: node.blog.field_content
-field_name: field_content
-entity_type: node
-bundle: blog
-label: Content
+id: paragraph.icon_highlight.field_content_icon
+field_name: field_content_icon
+entity_type: paragraph
+bundle: icon_highlight
+label: 'Content: Icon'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
+    negate: 0
     target_bundles:
-      embed_media: embed_media
-      slide: slide
       icon_teaser: icon_teaser
-      link: link
     target_bundles_drag_drop:
-      embed_media:
-        enabled: true
-        weight: 4
-      multi_column:
-        weight: 5
-        enabled: false
-      text:
-        weight: 6
-        enabled: false
-      media:
-        weight: 7
-        enabled: false
-      image:
-        weight: 9
-        enabled: false
-      slide:
-        enabled: true
-        weight: 10
-      gallery:
-        weight: 11
-        enabled: false
-      slider:
-        weight: 11
-        enabled: false
       icon_highlight:
         weight: 17
+        enabled: false
+      embed_media:
+        weight: 18
+        enabled: false
+      gallery:
+        weight: 19
         enabled: false
       highlight:
         weight: 20
@@ -64,17 +40,35 @@ settings:
       icon_teaser:
         enabled: true
         weight: 21
+      image:
+        weight: 22
+        enabled: false
       link:
-        enabled: true
         weight: 23
+        enabled: false
       link_bg_media:
         weight: 24
         enabled: false
       manual_teaser:
         weight: 25
         enabled: false
+      media:
+        weight: 26
+        enabled: false
+      multi_column:
+        weight: 27
+        enabled: false
+      slide:
+        weight: 28
+        enabled: false
+      slider:
+        weight: 29
+        enabled: false
       teaser:
         weight: 30
+        enabled: false
+      text:
+        weight: 31
         enabled: false
       text_bg_media:
         weight: 32

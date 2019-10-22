@@ -1,0 +1,21 @@
+uuid: fca3e6e7-48bb-4e9a-acfd-7f24257c3a63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.icon_highlight
+  module:
+    - text
+id: paragraph.icon_highlight.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: icon_highlight
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

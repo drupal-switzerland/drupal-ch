@@ -1,0 +1,29 @@
+{% if hideSection != true %}
+<section class="icon-highlight {{ class }}">
+{% else %}
+<div class="icon-highlight {{ class }}">
+{% endif %}
+  <div class="icon-highlight__content">
+    {% if title is not empty %}
+      <h2>{{ title }}</h2>
+    {% endif %}
+    {% if text is not empty %}
+      <div class="icon-highlight__content-text">{{ text.processed | raw }}</div>
+    {% endif %}
+    {% if icon_content %}
+      {% for paragraph in icon_content %}
+        {% set paragraph = paragraph.entity %}
+        {% include '@storybook/components/components.html.twig' with {
+          type: paragraph.type,
+          component: paragraph,
+          class: class,
+          data: data
+        } only %}
+      {% endfor %}
+    {% endif %}
+  </div>
+{% if hideSection != true %}
+</section>
+{% else %}
+</div>
+{% endif %}

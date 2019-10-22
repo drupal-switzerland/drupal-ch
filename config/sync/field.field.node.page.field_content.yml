@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_content
     - node.type.page
     - paragraphs.paragraphs_type.embed_media
+    - paragraphs.paragraphs_type.icon_teaser
     - paragraphs.paragraphs_type.link
     - paragraphs.paragraphs_type.slide
   module:
@@ -28,6 +29,7 @@ settings:
       embed_media: embed_media
       slide: slide
       link: link
+      icon_teaser: icon_teaser
     target_bundles_drag_drop:
       text:
         weight: 2
@@ -53,6 +55,9 @@ settings:
       link_bg_media:
         weight: 15
         enabled: false
+      icon_highlight:
+        weight: 17
+        enabled: false
       highlight:
         weight: 18
         enabled: false
@@ -62,6 +67,9 @@ settings:
       link:
         enabled: true
         weight: 20
+      icon_teaser:
+        enabled: true
+        weight: 21
       manual_teaser:
         weight: 21
         enabled: false
