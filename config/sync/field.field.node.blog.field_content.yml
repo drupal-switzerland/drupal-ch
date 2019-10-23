@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_content
     - node.type.blog
     - paragraphs.paragraphs_type.embed_media
+    - paragraphs.paragraphs_type.highlight_slide
     - paragraphs.paragraphs_type.icon_teaser
     - paragraphs.paragraphs_type.link
     - paragraphs.paragraphs_type.slide
@@ -28,6 +29,7 @@ settings:
     target_bundles:
       embed_media: embed_media
       slide: slide
+      highlight_slide: highlight_slide
       icon_teaser: icon_teaser
       link: link
     target_bundles_drag_drop:
@@ -49,21 +51,27 @@ settings:
       slide:
         enabled: true
         weight: 10
-      gallery:
+      slider:
         weight: 11
         enabled: false
-      slider:
+      gallery:
         weight: 11
         enabled: false
       icon_highlight:
         weight: 17
         enabled: false
+      highlight_slide:
+        enabled: true
+        weight: 19
       highlight:
         weight: 20
         enabled: false
       icon_teaser:
         enabled: true
         weight: 21
+      highlight_slider:
+        weight: 23
+        enabled: false
       link:
         enabled: true
         weight: 23

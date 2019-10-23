@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.highlight.field_meta_eyebrow
     - field.field.paragraph.highlight.field_text
     - field.field.paragraph.highlight.field_title
     - paragraphs.paragraphs_type.highlight
@@ -13,8 +14,16 @@ targetEntityType: paragraph
 bundle: highlight
 mode: default
 content:
-  field_text:
+  field_meta_eyebrow:
     weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_text:
+    weight: 2
     settings:
       rows: 5
       placeholder: ''

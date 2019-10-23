@@ -1,0 +1,31 @@
+uuid: 48f4eba3-413a-447f-99e6-6272cae1ad26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_multi
+    - media.type.image
+    - media.type.video
+    - paragraphs.paragraphs_type.highlight_slide
+id: paragraph.highlight_slide.field_media_multi
+field_name: field_media_multi
+entity_type: paragraph
+bundle: highlight_slide
+label: 'Media: Multiple'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      video: video
+    sort:
+      field: changed
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

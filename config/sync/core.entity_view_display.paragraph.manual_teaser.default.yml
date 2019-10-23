@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.manual_teaser.field_image
     - field.field.paragraph.manual_teaser.field_link
+    - field.field.paragraph.manual_teaser.field_meta_eyebrow
     - field.field.paragraph.manual_teaser.field_teaser_text
     - field.field.paragraph.manual_teaser.field_title
     - paragraphs.paragraphs_type.manual_teaser
@@ -16,7 +17,7 @@ bundle: manual_teaser
 mode: default
 content:
   field_image:
-    weight: 2
+    weight: 3
     label: hidden
     settings:
       view_mode: default
@@ -25,7 +26,7 @@ content:
     type: entity_reference_entity_view
     region: content
   field_link:
-    weight: 3
+    weight: 4
     label: hidden
     settings:
       trim_length: 80
@@ -36,8 +37,16 @@ content:
     third_party_settings: {  }
     type: link
     region: content
+  field_meta_eyebrow:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   field_teaser_text:
-    weight: 1
+    weight: 2
     label: hidden
     settings:
       link_to_entity: false
@@ -45,7 +54,7 @@ content:
     type: string
     region: content
   field_title:
-    weight: 0
+    weight: 1
     label: hidden
     settings:
       link_to_entity: false

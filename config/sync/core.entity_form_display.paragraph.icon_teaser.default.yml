@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.icon_teaser.field_icon
+    - field.field.paragraph.icon_teaser.field_meta_eyebrow
     - field.field.paragraph.icon_teaser.field_text
     - field.field.paragraph.icon_teaser.field_title
     - paragraphs.paragraphs_type.icon_teaser
@@ -20,8 +21,16 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
-  field_text:
+  field_meta_eyebrow:
     weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_text:
+    weight: 3
     settings:
       rows: 5
       placeholder: ''

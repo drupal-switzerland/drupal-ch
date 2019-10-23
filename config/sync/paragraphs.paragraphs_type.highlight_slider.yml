@@ -1,0 +1,9 @@
+uuid: 86242211-1de9-4e62-9686-8e53363f573b
+langcode: en
+status: true
+dependencies: {  }
+id: highlight_slider
+label: 'Highlight Slider'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

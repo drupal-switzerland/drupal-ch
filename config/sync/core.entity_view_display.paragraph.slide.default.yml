@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.slide.field_link
     - field.field.paragraph.slide.field_media
+    - field.field.paragraph.slide.field_meta_eyebrow
     - field.field.paragraph.slide.field_meta_title
     - field.field.paragraph.slide.field_position
     - paragraphs.paragraphs_type.slide
@@ -17,8 +18,8 @@ bundle: slide
 mode: default
 content:
   field_link:
-    weight: 2
-    label: above
+    weight: 3
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -30,23 +31,31 @@ content:
     region: content
   field_media:
     weight: 0
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_meta_title:
+  field_meta_eyebrow:
     weight: 1
-    label: above
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_meta_title:
+    weight: 2
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
   field_position:
-    weight: 3
-    label: above
+    weight: 4
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: list_default

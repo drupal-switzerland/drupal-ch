@@ -1,0 +1,9 @@
+uuid: 91e5521f-2bcb-44c1-9983-f7206aa1ed62
+langcode: en
+status: true
+dependencies: {  }
+id: highlight_slide
+label: 'Highlight Slide'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

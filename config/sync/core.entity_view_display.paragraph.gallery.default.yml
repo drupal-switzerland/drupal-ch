@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.gallery.field_gallery_image
+    - field.field.paragraph.gallery.field_meta_eyebrow
     - field.field.paragraph.gallery.field_title
     - paragraphs.paragraphs_type.gallery
 id: paragraph.gallery.default
@@ -13,12 +14,20 @@ mode: default
 content:
   field_gallery_image:
     type: entity_reference_entity_view
-    weight: 1
+    weight: 2
     label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    region: content
+  field_meta_eyebrow:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_title:
     weight: 0

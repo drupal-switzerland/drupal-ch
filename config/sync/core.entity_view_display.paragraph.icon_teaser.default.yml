@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.icon_teaser.field_icon
+    - field.field.paragraph.icon_teaser.field_meta_eyebrow
     - field.field.paragraph.icon_teaser.field_text
     - field.field.paragraph.icon_teaser.field_title
     - paragraphs.paragraphs_type.icon_teaser
@@ -22,15 +23,23 @@ content:
     third_party_settings: {  }
     type: list_key
     region: content
+  field_meta_eyebrow:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   field_text:
-    weight: 2
+    weight: 3
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_title:
-    weight: 1
+    weight: 2
     label: hidden
     settings:
       link_to_entity: false

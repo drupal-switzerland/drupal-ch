@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.gallery.field_gallery_image
+    - field.field.paragraph.gallery.field_meta_eyebrow
     - field.field.paragraph.gallery.field_title
     - paragraphs.paragraphs_type.gallery
   module:
@@ -15,10 +16,18 @@ mode: default
 content:
   field_gallery_image:
     type: media_library_widget
-    weight: 1
+    weight: 2
     settings:
       media_types: {  }
     third_party_settings: {  }
+    region: content
+  field_meta_eyebrow:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_title:
     weight: 0

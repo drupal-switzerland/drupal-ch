@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_content
     - node.type.page
     - paragraphs.paragraphs_type.embed_media
+    - paragraphs.paragraphs_type.highlight_slide
     - paragraphs.paragraphs_type.icon_teaser
     - paragraphs.paragraphs_type.link
     - paragraphs.paragraphs_type.slide
@@ -28,6 +29,7 @@ settings:
     target_bundles:
       embed_media: embed_media
       slide: slide
+      highlight_slide: highlight_slide
       link: link
       icon_teaser: icon_teaser
     target_bundles_drag_drop:
@@ -37,12 +39,12 @@ settings:
       media:
         weight: 7
         enabled: false
-      embed_media:
-        enabled: true
-        weight: 8
       gallery:
         weight: 8
         enabled: false
+      embed_media:
+        enabled: true
+        weight: 8
       multi_column:
         weight: 9
         enabled: false
@@ -61,17 +63,23 @@ settings:
       highlight:
         weight: 18
         enabled: false
+      highlight_slide:
+        enabled: true
+        weight: 19
       image:
         weight: 19
         enabled: false
       link:
         enabled: true
         weight: 20
+      manual_teaser:
+        weight: 21
+        enabled: false
       icon_teaser:
         enabled: true
         weight: 21
-      manual_teaser:
-        weight: 21
+      highlight_slider:
+        weight: 23
         enabled: false
       teaser:
         weight: 26

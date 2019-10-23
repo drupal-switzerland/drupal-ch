@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.text.field_embed_media
+    - field.field.paragraph.text.field_meta_eyebrow
     - field.field.paragraph.text.field_pt_link
     - field.field.paragraph.text.field_text
     - field.field.paragraph.text.field_title
@@ -18,7 +19,7 @@ mode: default
 content:
   field_embed_media:
     type: paragraphs
-    weight: 3
+    weight: 4
     settings:
       title: Media
       title_plural: Media
@@ -35,9 +36,17 @@ content:
         add_above: '0'
     third_party_settings: {  }
     region: content
+  field_meta_eyebrow:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_pt_link:
     type: paragraphs
-    weight: 2
+    weight: 3
     settings:
       title: Link
       title_plural: Link
@@ -55,7 +64,7 @@ content:
     third_party_settings: {  }
     region: content
   field_text:
-    weight: 1
+    weight: 2
     settings:
       rows: 5
       placeholder: ''

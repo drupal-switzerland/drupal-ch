@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.slide.field_link
     - field.field.paragraph.slide.field_media
+    - field.field.paragraph.slide.field_meta_eyebrow
     - field.field.paragraph.slide.field_meta_title
     - field.field.paragraph.slide.field_position
     - paragraphs.paragraphs_type.slide
@@ -17,7 +18,7 @@ bundle: slide
 mode: default
 content:
   field_link:
-    weight: 2
+    weight: 3
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -31,7 +32,7 @@ content:
     third_party_settings: {  }
     type: media_library_widget
     region: content
-  field_meta_title:
+  field_meta_eyebrow:
     weight: 1
     settings:
       size: 60
@@ -39,8 +40,16 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_meta_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_position:
-    weight: 3
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_select

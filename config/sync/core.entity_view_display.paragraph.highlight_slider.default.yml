@@ -1,0 +1,25 @@
+uuid: b48abdf7-23df-45e5-bb9d-e6f21a5cad4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.highlight_slider.field_content
+    - paragraphs.paragraphs_type.highlight_slider
+  module:
+    - entity_reference_revisions
+id: paragraph.highlight_slider.default
+targetEntityType: paragraph
+bundle: highlight_slider
+mode: default
+content:
+  field_content:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

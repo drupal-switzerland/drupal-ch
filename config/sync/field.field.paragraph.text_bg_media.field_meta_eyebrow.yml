@@ -1,0 +1,19 @@
+uuid: 04249d0f-79d6-4b66-941d-0be761ccd828
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meta_eyebrow
+    - paragraphs.paragraphs_type.text_bg_media
+id: paragraph.text_bg_media.field_meta_eyebrow
+field_name: field_meta_eyebrow
+entity_type: paragraph
+bundle: text_bg_media
+label: 'Meta Eyebrow'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: d7c51d54-3e42-43bd-b0da-a825d44f2f0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_position
+    - paragraphs.paragraphs_type.highlight_slide
+  module:
+    - options
+id: paragraph.highlight_slide.field_position
+field_name: field_position
+entity_type: paragraph
+bundle: highlight_slide
+label: Position
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

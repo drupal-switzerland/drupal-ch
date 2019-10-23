@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.link_bg_media.field_media
+    - field.field.paragraph.link_bg_media.field_meta_eyebrow
     - field.field.paragraph.link_bg_media.field_pt_link_multi
     - field.field.paragraph.link_bg_media.field_title
     - paragraphs.paragraphs_type.link_bg_media
@@ -16,7 +17,7 @@ bundle: link_bg_media
 mode: default
 content:
   field_media:
-    weight: 2
+    weight: 3
     settings:
       media_types:
         - image
@@ -24,9 +25,17 @@ content:
     third_party_settings: {  }
     type: media_library_widget
     region: content
+  field_meta_eyebrow:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_pt_link_multi:
     type: paragraphs
-    weight: 1
+    weight: 2
     settings:
       title: Link
       title_plural: Links

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.manual_teaser.field_image
     - field.field.paragraph.manual_teaser.field_link
+    - field.field.paragraph.manual_teaser.field_meta_eyebrow
     - field.field.paragraph.manual_teaser.field_teaser_text
     - field.field.paragraph.manual_teaser.field_title
     - paragraphs.paragraphs_type.manual_teaser
@@ -17,19 +18,27 @@ bundle: manual_teaser
 mode: default
 content:
   field_image:
-    weight: 3
+    weight: 4
     settings:
       media_types: {  }
     third_party_settings: {  }
     type: media_library_widget
     region: content
   field_link:
-    weight: 1
+    weight: 3
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_meta_eyebrow:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_teaser_text:
     weight: 2

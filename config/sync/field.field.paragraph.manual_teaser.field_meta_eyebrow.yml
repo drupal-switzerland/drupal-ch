@@ -1,0 +1,19 @@
+uuid: da197b75-bafe-4957-90aa-96873d341e85
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meta_eyebrow
+    - paragraphs.paragraphs_type.manual_teaser
+id: paragraph.manual_teaser.field_meta_eyebrow
+field_name: field_meta_eyebrow
+entity_type: paragraph
+bundle: manual_teaser
+label: 'Meta Eyebrow'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
