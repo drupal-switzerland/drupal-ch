@@ -1,8 +1,4 @@
-{% set classes = [
-  'footer-menu__navigation',
-  class
-]|join(' ') %}
-<nav class="{{ classes }}">
+<nav class="footer-menu__navigation inner">
   <ul class="footer-menu__items">
     {% for link in menu.links %}
       <li>

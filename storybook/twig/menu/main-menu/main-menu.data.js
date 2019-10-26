@@ -1,40 +1,42 @@
 export const mainMenu = {
-  links: [
-    {
-      url: {
-        path: '#',
-      },
-      label: 'Events',
-      links: [
-        {
-          url: {
-            path: '#',
-          },
-          label: 'Meetup',
-          type: 'title',
+  menu: {
+    links: [
+      {
+        url: {
+          path: '#',
         },
-      ],
-    },
-    {
-      url: {
-        path: '#',
+        label: 'Events',
+        links: [
+          {
+            url: {
+              path: '#',
+            },
+            label: 'Meetup',
+            type: 'title',
+          },
+        ],
       },
-      label: 'Drupal',
-      links: [],
-    },
-    {
-      url: {
-        path: '#',
+      {
+        url: {
+          path: '#',
+        },
+        label: 'Drupal',
+        links: [],
       },
-      label: 'About us',
-      links: [],
-    },
-    {
-      url: {
-        path: '#',
+      {
+        url: {
+          path: '#',
+        },
+        label: 'About us',
+        links: [],
       },
-      label: 'Contact',
-      links: [],
-    },
-  ],
+      {
+        url: {
+          path: '#',
+        },
+        label: 'Contact',
+        links: [],
+      },
+    ],
+  },
 };
