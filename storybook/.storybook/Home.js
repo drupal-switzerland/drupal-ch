@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/html';
 import Wrapper from '../utils/storybook/decorators/Wrapper';
 
-storiesOf('⌂ Home', module)
+storiesOf('About|⌂ Home', module)
   .addDecorator(Wrapper)
   .add('Welcome', () => `
     <div>

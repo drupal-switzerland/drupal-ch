@@ -22,7 +22,7 @@ const icons = {
   ],
 };
 
-storiesOf('Icons', module)
+storiesOf('Shared styles|Icons', module)
   .addDecorator(Wrapper)
   .add(
     'Normal',

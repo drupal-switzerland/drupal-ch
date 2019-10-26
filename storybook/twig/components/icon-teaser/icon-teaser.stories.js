@@ -4,6 +4,6 @@ import Wrapper from '../../../utils/storybook/decorators/Wrapper';
 import IconTeaser from './icon-teaser.html.twig';
 import { iconTeaser } from './icon-teaser.data';
 
-storiesOf('Components/Icon Teaser', module)
+storiesOf('Components|Teaser/Icon Teaser', module)
   .addDecorator(Wrapper)
   .add('Icon Teaser', () => IconTeaser({ ...iconTeaser }));

@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/html';
 import Wrapper from '../../../utils/storybook/decorators/Wrapper';
 
-storiesOf('Forms', module)
+storiesOf('Shared styles|Forms', module)
   .addDecorator(Wrapper)
   .add(
     'Drupal forms',

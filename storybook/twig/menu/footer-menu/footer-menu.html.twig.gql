@@ -1,0 +1,13 @@
+fragment FooterMenu on Query {
+  footerMenu: menuByName(name: "footer") {
+    links {
+      ...MenuItem
+      links {
+        ...MenuItem
+        links {
+          ...MenuItem
+        }
+      }
+    }
+  }
+}

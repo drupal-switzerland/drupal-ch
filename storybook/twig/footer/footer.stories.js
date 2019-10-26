@@ -5,5 +5,5 @@ import Footer from './footer.html.twig';
 export const graphql = {
 };
 
-storiesOf('Footer', module)
+storiesOf('Components|Regions/Footer', module)
   .add('Footer', () => Footer({ graphql }));

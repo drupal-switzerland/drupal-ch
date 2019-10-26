@@ -4,7 +4,7 @@ import Wrapper from '../../utils/storybook/decorators/Wrapper';
 import StatusMessages from './status-messages.html.twig';
 import { statusMessages } from './status-messages.data';
 
-storiesOf('Status messages', module)
+storiesOf('Shared styles|Status messages', module)
   .addDecorator(Wrapper)
   .add('Status messages', () => StatusMessages({
     ...statusMessages,

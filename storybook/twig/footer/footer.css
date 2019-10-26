@@ -1,0 +1,9 @@
+.footer {
+  @mixin section-padding;
+
+  background-color: var(--primary-dark);
+
+  & a {
+    color: var(--white);
+  }
+}

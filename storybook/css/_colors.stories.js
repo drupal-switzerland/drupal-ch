@@ -25,7 +25,7 @@ const colorScheme = [
 
 const shadows = ['10', '14'];
 
-storiesOf('Global styles', module)
+storiesOf('Shared styles|Global styles', module)
   .addDecorator(Wrapper)
   .add('Colors', () => {
     let colorHTML = '';

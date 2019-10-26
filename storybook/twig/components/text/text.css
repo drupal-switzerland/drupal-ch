@@ -2,6 +2,14 @@
   @mixin component-margin-bottom;
   @mixin section-padding;
 
+  &.hero {
+    .text__content h1 {
+      text-transform: uppercase;
+      color: var(--white);
+      font-size: var(--size-xl);
+    }
+  }
+
   .embed--right {
     flex-direction: row-reverse;
   }

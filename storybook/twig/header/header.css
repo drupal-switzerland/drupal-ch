@@ -1,0 +1,5 @@
+.header {
+  @mixin section-padding;
+
+  background-color: var(--lighter-grey);
+}

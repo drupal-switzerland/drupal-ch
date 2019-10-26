@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/html';
 import Wrapper from '../utils/storybook/decorators/Wrapper';
 
-storiesOf('Default styles', module)
+storiesOf('Shared styles|Default styles', module)
   .addDecorator(Wrapper)
   .add(
     'About',

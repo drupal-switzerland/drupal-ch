@@ -1,12 +1,12 @@
 {% set classes = [
-  'main-menu__navigation',
+  'footer-menu__navigation',
   class
 ]|join(' ') %}
 <nav class="{{ classes }}">
-  <ul class="main-menu__items">
+  <ul class="footer-menu__items">
     {% for link in menu.links %}
       <li>
-        <a class="main-menu__link" href="{{ link.url.path }}">
+        <a class="footer-menu__link" href="{{ link.url.path }}">
           {{ link.label }}
         </a>
       </li>

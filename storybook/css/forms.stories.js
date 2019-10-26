@@ -307,10 +307,10 @@ const defaultFormStyles = () => `
   </div>
 `;
 
-storiesOf('Default styles', module)
+storiesOf('Shared styles|Default styles', module)
   .addDecorator(Wrapper)
   .add('Forms', defaultFormStyles);
 
-storiesOf('Forms', module)
+storiesOf('Shared styles|Forms', module)
   .addDecorator(Wrapper)
   .add('Default styles', defaultFormStyles);

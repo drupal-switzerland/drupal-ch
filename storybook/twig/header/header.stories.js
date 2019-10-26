@@ -7,5 +7,5 @@ export const header = {
   },
 };
 
-storiesOf('Header', module)
+storiesOf('Components|Regions/Header', module)
   .add('Header', () => Header({ ...header }));

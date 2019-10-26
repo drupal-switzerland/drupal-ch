@@ -1,4 +1,10 @@
 <footer class="footer">
-  {{ page.footer_top }}
-  {{ page.footer_bottom }}
+  {% if footerMenu %}
+    <div class="footer-menu inner">
+      {% include '@storybook/menu/menu.html.twig' with {
+        type: 'footerMenu',
+        menu: footerMenu
+      } only %}
+    </div>
+  {% endif %}
 </footer>

@@ -1,3 +1,11 @@
-{% if type == 'mainMenu' %}
-  {% include '@storybook/menu/main-menu/main-menu.html.twig' with menu only %}
+{% if type == 'footerMenu' %}
+  {% include '@storybook/menu/footer-menu/footer-menu.html.twig' with {
+    menu: menu,
+    class: class
+  } only %}
+{% elseif type == 'mainMenu' %}
+  {% include '@storybook/menu/main-menu/main-menu.html.twig'  with {
+    menu: menu,
+    class: class
+  } only %}
 {% endif %}
