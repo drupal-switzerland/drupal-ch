@@ -20,6 +20,7 @@
         "amazeelabs/silverback": "dev-master",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/address": "~1.0",
+        "drupal/claro": "^1.0@beta",
         "drupal/config_ignore": "^2.1",
         "drupal/gin": "^1.0@alpha",
         "drupal/graphql": "3.x-dev",
