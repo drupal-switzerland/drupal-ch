@@ -60,32 +60,16 @@
   border: 1px solid rgba(172, 172, 172, 0.3);
 }
 
+.black {
+  background-color: var(--black);
+}
+
 .dark-grey {
   background-color: var(--dark-grey);
 }
 
 .light-grey {
   background-color: var(--light-grey);
-}
-
-.lighter-grey {
-  background-color: var(--lighter-grey);
-}
-
-.grey {
-  background-color: var(--grey);
-}
-
-.black {
-  background-color: var(--black);
-}
-
-.aqua {
-  background-color: var(--aqua);
-}
-
-.light-blue {
-  background-color: var(--light-blue);
 }
 
 .blue {
@@ -100,24 +84,12 @@
   background-color: var(--red);
 }
 
-.primary-light {
-  background-color: var(--primary-light);
+.primary {
+  background-color: var(--primary);
 }
 
 .primary-dark {
   background-color: var(--primary-dark);
-}
-
-.secondary-light {
-  background-color: var(--secondary-light);
-}
-
-.secondary-dark {
-  background-color: var(--secondary-dark);
-}
-
-.tertiary-light {
-  background-color: var(--tertiary-light);
 }
 
 .shadow {

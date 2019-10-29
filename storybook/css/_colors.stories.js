@@ -2,25 +2,18 @@ import { storiesOf } from '@storybook/html';
 import Wrapper from '../utils/storybook/decorators/Wrapper';
 
 const colors = [
+  'white',
   'black',
   'dark-grey',
-  'grey',
   'light-grey',
-  'lighter-grey',
-  'white',
-  'aqua',
-  'light-blue',
   'blue',
   'dark-blue',
   'red',
 ];
 
 const colorScheme = [
-  'primary-light',
+  'primary',
   'primary-dark',
-  'secondary-light',
-  'secondary-dark',
-  'tertiary-light',
 ];
 
 const shadows = ['10', '14'];
