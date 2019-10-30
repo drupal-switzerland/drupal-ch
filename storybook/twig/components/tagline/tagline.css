@@ -1,0 +1,18 @@
+.tagline {
+  font-weight: var(--weight-l);
+  text-transform: uppercase;
+  color: var(--dark-blue);
+  letter-spacing: var(--letter-spacing-extended);
+  margin-left: 32px;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -32px;
+    top: 9px;
+    width: 20px;
+    border-top: 2px solid var(--dark-blue);
+  }
+}

@@ -14,6 +14,15 @@
   /* line height */
   --line-height-default: 1.4;
   --line-height-s: 1;
+
+  /* letter spacing */
+  --letter-spacing-extended: 0.05em;
+
+  /* letter spacing */
+  --weight-s: 200;
+  --weight-m: 400;
+  --weight-l: 700;
+
   /* font family */
-  --font-family-regular: 'Gothic A1', Helvetica, sans-serif;
+  --font-family-regular: 'Gothic A1', 'Neue Helvetica', Helvetica, sans-serif;
 }
