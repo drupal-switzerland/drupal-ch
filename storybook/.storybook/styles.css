@@ -101,11 +101,3 @@
     box-shadow: var(--shadow-14);
   }
 }
-
-.light {
-  @mixin font-light;
-}
-
-.regular {
-  @mixin font-regular;
-}

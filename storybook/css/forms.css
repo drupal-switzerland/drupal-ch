@@ -1,6 +1,4 @@
 select:not([multiple]) {
-  @mixin font-light;
-
   background-image: url(../css/icons/arrow-down.svg);
   background-repeat: no-repeat;
   background-position: right center;
