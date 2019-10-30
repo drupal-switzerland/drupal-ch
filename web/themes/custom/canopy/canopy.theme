@@ -15,10 +15,12 @@ function canopy_preprocess_page(&$variables) {
     $heroValue = $node->get('field_hero')->getValue();
     $paragraphID = reset($heroValue);
     $paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($paragraphID['target_id']);
-    $paragraph_type = $paragraph->getType();
+    if ($paragraph) {
+      $paragraph_type = $paragraph->getType();
 
-    if ($paragraph_type == 'text_bg_media') {
-      unset($variables['page']['content']['canopy_page_title']);
+      if ($paragraph_type == 'text_bg_media') {
+        unset($variables['page']['content']['canopy_page_title']);
+      }
     }
   }
 }
