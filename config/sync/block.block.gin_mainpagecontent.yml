@@ -1,0 +1,20 @@
+uuid: 5a138a8b-1833-45db-b227-6b38bcea927f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gin
+id: gin_mainpagecontent
+theme: gin
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
