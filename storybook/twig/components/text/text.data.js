@@ -9,6 +9,7 @@ export const text = {
 
 export const textWithImage = {
   type: 'ParagraphText',
+  class: '',
   title: 'Sample Text PT',
   text: {
     processed: '<p>Accumsan est bibendum class et nascetur iaculis ac cras erat ad sociosqu himenaeos, ipsum platea vehicula ullamcorper habitasse dictum curabitur velit lobortis tempus. Ut consectetur ridiculus vestibulum dignissim dolor, congue faucibus feugiat sodales, netus non dictumst cubilia. Quis feugiat parturient class consectetur velit tellus faucibus, lectus consequat sapien massa cubilia ligula porta, scelerisque ipsum vehicula imperdiet auctor netus.</p>\n',
