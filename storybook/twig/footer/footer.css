@@ -2,6 +2,7 @@
   @mixin section-padding;
 
   background-color: var(--primary-dark);
+  background-color: var(--dark-blue);
 
   & a {
     color: var(--white);

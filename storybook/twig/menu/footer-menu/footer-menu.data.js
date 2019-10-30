@@ -6,15 +6,7 @@ export const footerMenu = {
           path: '#',
         },
         label: 'Events',
-        links: [
-          {
-            url: {
-              path: '#',
-            },
-            label: 'Meetup',
-            type: 'title',
-          },
-        ],
+        links: [],
       },
       {
         url: {

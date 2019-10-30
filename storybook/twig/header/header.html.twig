@@ -1,9 +1,7 @@
 <header class="header">
   <a class="header__logo spacing" href="/">
     {% include '@storybook/logo/logo.html.twig' %}
-    <h1 class="visually-hidden">
-      {{ 'Drupal Switzerland' | t }}
-    </h1>
+    <span class="header__logo--text">{{ 'Drupal Switzerland'|t }}</span>
   </a>
 
   {% if mainMenu %}

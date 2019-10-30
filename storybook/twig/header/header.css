@@ -1,5 +1,18 @@
 .header {
   @mixin section-padding;
 
-  background-color: var(--lighter-grey);
+  &__logo {
+    display: flex;
+    align-items: center;
+    color: var(--teal-blue);
+    font-weight: var(--weight-l);
+
+    &:hover {
+      color: var(--teal-blue);
+    }
+
+    &--text {
+      padding: var(--space-100) 0 0 var(--space-200);
+    }
+  }
 }

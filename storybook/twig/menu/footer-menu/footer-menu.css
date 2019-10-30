@@ -1,11 +1,7 @@
 .footer-menu {
-  display: inherit;
-
-  &__navigation {
+  &__items {
     display: flex;
-  }
-
-  ul {
+    flex-direction: column;
     list-style: none;
     margin: 0;
   }
