@@ -6,15 +6,8 @@ export const mainMenu = {
           path: '#',
         },
         label: 'Events',
-        links: [
-          {
-            url: {
-              path: '#',
-            },
-            label: 'Meetup',
-            type: 'title',
-          },
-        ],
+        links: [],
+        active: true,
       },
       {
         url: {

@@ -2,7 +2,7 @@
   <ul class="main-menu__items">
     {% for link in menu.links %}
       <li>
-        <a class="main-menu__link" href="{{ link.url.path }}">
+        <a class="main-menu__link {{ link.active ? 'active' }}" href="{{ link.url.path }}">
           {{ link.label }}
         </a>
       </li>

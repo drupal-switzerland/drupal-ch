@@ -1,12 +1,20 @@
 .main-menu {
-  display: inherit;
-
-  &__navigation {
+  &__items {
     display: flex;
-  }
-
-  ul {
     list-style: none;
     margin: 0;
+    font-weight: 700;
+  }
+
+  &__link {
+    display: inline-block;
+    color: var(--grey);
+    padding: var(--space-300) var(--space-400);
+    border-bottom: 3px solid transparent;
+
+    &.active {
+      color: var(--dark-blue);
+      border-color: var(--primary);
+    }
   }
 }
