@@ -5,14 +5,14 @@ export const footerMenu = {
         url: {
           path: '#',
         },
-        label: 'Events',
+        label: 'Code of Conduct',
         links: [],
       },
       {
         url: {
           path: '#',
         },
-        label: 'Drupal',
+        label: 'Terms & Conditions',
         links: [],
       },
       {

@@ -1,8 +1,24 @@
 .footer-menu {
   &__items {
-    display: flex;
-    flex-direction: column;
     list-style: none;
-    margin: 0;
+
+    @media (--desktop-up) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    & + & {
+      @media (--desktop-up) {
+        margin-left: var(--space-500);
+      }
+    }
+  }
+
+  &__link {
+    @media (--desktop-down) {
+      text-decoration: underline;
+    }
   }
 }
