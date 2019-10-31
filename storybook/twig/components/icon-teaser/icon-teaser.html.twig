@@ -1,7 +1,7 @@
 {% if hideSection != true %}
-<section class="icon-teaser {{ class }}">
+<section {{ componentId ? 'id='~ componentId : null }} class="icon-teaser {{ class }}">
 {% else %}
-<div class="icon-teaser {{ class }}">
+<div {{ componentId ? 'id='~ componentId : null }} class="icon-teaser {{ class }}">
 {% endif %}
   <div class="icon-teaser__content">
     <div class="icon-teaser__icon">

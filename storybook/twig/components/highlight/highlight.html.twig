@@ -1,7 +1,7 @@
 {% if hideSection != true %}
-<section class="highlight relative {{ class }}">
+<section {{ componentId ? 'id='~ componentId : null }} class="highlight relative {{ class }}">
 {% else %}
-<div class="highlight relative {{ class }}">
+<div {{ componentId ? 'id='~ componentId : null }} class="highlight relative {{ class }}">
 {% endif %}
   <div class="highlight__content relative">
     {% if title is not empty %}

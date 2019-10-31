@@ -1,4 +1,5 @@
-<div class="gallery">
+
+<div {{ componentId ? 'id='~ componentId : null }} class="gallery">
   {% for paragraph in paragraphs %}
     {% set paragraph = paragraph.entity %}
     {% include '@storybook/components/components.html.twig' with {
