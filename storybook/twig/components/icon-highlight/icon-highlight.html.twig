@@ -1,8 +1,4 @@
-{% if hideSection != true %}
 <section {{ componentId ? 'id='~ componentId : null }} class="icon-highlight {{ class }}">
-{% else %}
-<div {{ componentId ? 'id='~ componentId : null }} class="icon-highlight {{ class }}">
-{% endif %}
   <div class="icon-highlight__content">
     {% if title is not empty %}
       <h2>{{ title }}</h2>
@@ -22,8 +18,4 @@
       {% endfor %}
     {% endif %}
   </div>
-{% if hideSection != true %}
 </section>
-{% else %}
-</div>
-{% endif %}

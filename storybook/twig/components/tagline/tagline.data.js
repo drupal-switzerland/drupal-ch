@@ -1,6 +1,13 @@
 export const tagline = {
-  __typename: 'Tagline',
-  class: '',
-  tagline: 'Sample Tagline',
-  title: 'Some title',
+  large: {
+    __typename: 'Tagline',
+    tagline: 'Sample Tagline',
+    title: 'Some title',
+  },
+  small: {
+    __typename: 'Tagline',
+    tagline: 'Sample Tagline',
+    title: 'Some title',
+    variant: 'small',
+  },
 };

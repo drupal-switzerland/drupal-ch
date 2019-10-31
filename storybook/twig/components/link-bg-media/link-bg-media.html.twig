@@ -6,23 +6,17 @@
   'relative',
   class
 ]|join(' ') %}
-{% if hideSection != true %}
 <section {{ componentId ? 'id='~ componentId : null }} class="{{ classes }}">
-{% else %}
-<div {{ componentId ? 'id='~ componentId : null }} class="{{ classes }}">
-{% endif %}
   {% if media.entity is not empty %}
     {% if media.entity.type == 'MediaImage' %}
       {% include '@storybook/components/media-image/media-image.html.twig' with {
         mediaImage: media.entity.mediaImage,
-        class: 'bg-media',
-        hideSection: true
+        class: 'bg-media'
       } only %}
     {% elseif media.entity.type == 'MediaVideo' %}
       {% include '@storybook/components/media-video/media-video.html.twig' with {
         mediaVideo: media.entity.mediaVideo,
-        class: 'bg-media',
-        hideSection: true
+        class: 'bg-media'
       } only %}
     {% endif %}
   {% endif %}
@@ -39,8 +33,4 @@
       {% endfor %}
     {% endif %}
   </div>
-{% if hideSection != true %}
 </section>
-{% else %}
-</div>
-{% endif %}

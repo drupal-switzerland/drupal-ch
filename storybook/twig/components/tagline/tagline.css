@@ -9,7 +9,7 @@
     position: relative;
 
     &::before {
-      content: '';
+      content: "";
       display: inline-block;
       position: absolute;
       left: -32px;
@@ -30,13 +30,13 @@
     @media (--desktop-up) {
       font-size: var(--font-xl);
     }
-  }
 
-  &__title--small {
-    font-size: var(--font-m);
+    &--small {
+      font-size: var(--font-m);
 
-    @media (--desktop-up) {
-      font-size: var(--font-l);
+      @media (--desktop-up) {
+        font-size: var(--font-l);
+      }
     }
   }
 }

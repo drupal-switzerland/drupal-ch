@@ -6,4 +6,5 @@ import { tagline } from './tagline.data';
 
 storiesOf('Components|Tagline', module)
   .addDecorator(Wrapper)
-  .add('Tagline', () => Tagline({ ...tagline }));
+  .add('Large', () => Tagline({ ...tagline.large }))
+  .add('Small', () => Tagline({ ...tagline.small }));

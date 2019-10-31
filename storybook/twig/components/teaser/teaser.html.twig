@@ -1,8 +1,4 @@
-{% if hideSection != true %}
 <section {{ componentId ? 'id='~ componentId : null }} class="teaser relative {{ class }}">
-{% else %}
-<div {{ componentId ? 'id='~ componentId : null }} class="teaser relative {{ class }}">
-{% endif %}
   <div class="teaser__content relative">
     {% if title %}
       <h2>{{ title }}</h2>
@@ -11,12 +7,7 @@
       <div class="teaser__content-text">{{ text.processed | raw }}</div>
     {% endif %}
   </div>
-{% if hideSection != true %}
 </section>
-{% else %}
-</div>
-{% endif %}
-
 
 {% include '@storybook/node/page/page--teaser.html.twig' with {
   type: paragraph.__typename,

@@ -1,28 +1,27 @@
 {% set classes = [
   'text',
-  class
-]|join(' ') %}
+  class | default('')
+] | join(' ') %}
+
+{% set attributes = [
+  componentId ? 'id='~ componentId : '',
+  'class="' ~ classes
+] | join(' ') %}
+
 {% if embedMedia.entity.media.entity is not empty %}
-  {% if hideSection != true %}
-  <section {{ componentId ? 'id='~ componentId : null }} class="{{ classes }}">
-  {% else %}
-  <div {{ componentId ? 'id='~ componentId : null }} class="{{ classes }}">
-  {% endif %}
+  <section {{ attributes }}>
     <div class="two-columns embed--{{ embedMedia.entity.position }}">
       <div class="two-columns__column text__media">
         {% include '@storybook/components/embed-media/embed-media.html.twig' with {
-          content: embedMedia.entity,
-          hideSection: true
+          content: embedMedia.entity
         } only %}
       </div>
       <div class="two-columns__column text__content">
-        {% if tagline and tagline is not empty %}
-          <div class="tagline__tag">{{ tagline }}</div>
-        {% endif %}
-
-        {% if title and title is not empty %}
-          <h2 class="tagline__title tagline__title--small">{{ title }}</h2>
-        {% endif %}
+      {% include '@storybook/components/tagline/tagline.html.twig' with {
+          tagline: tagline,
+          title: title,
+          variant: 'small'
+        } only %}
         {% if text and text.processed is not empty %}
           <div class="text__content-text">{{ text.processed | raw }}</div>
         {% endif %}
@@ -33,23 +32,14 @@
         {% endif %}
       </div>
     </div>
-  {% if hideSection != true %}
   </section>
-  {% else %}
-  </div>
-  {% endif %}
 {% else %}
   {% set classes = classes ~ ' relative' %}
-  {% if hideSection != true %}
-  <section {{ componentId ? 'id='~ componentId : null }} class="{{ classes }}">
-  {% else %}
-  <div {{ componentId ? 'id='~ componentId : null }} class="{{ classes }}">
-  {% endif %}
+  <section {{ attributes }}>
     {% if embedMedia.entity is not empty %}
       {% include '@storybook/components/embed-media/embed-media.html.twig' with {
         content: embedMedia.entity,
-        class: 'bg-media',
-        hideSection: true
+        class: 'bg-media'
       } only %}
     {% endif %}
     <div class="text__content relative">
@@ -67,9 +57,5 @@
         } only %}
       {% endif %}
     </div>
-  {% if hideSection != true %}
   </section>
-  {% else %}
-  </div>
-  {% endif %}
 {% endif %}

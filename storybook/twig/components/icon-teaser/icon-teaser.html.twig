@@ -1,8 +1,4 @@
-{% if hideSection != true %}
 <section {{ componentId ? 'id='~ componentId : null }} class="icon-teaser {{ class }}">
-{% else %}
-<div {{ componentId ? 'id='~ componentId : null }} class="icon-teaser {{ class }}">
-{% endif %}
   <div class="icon-teaser__content">
     <div class="icon-teaser__icon">
       {% if icon %}
@@ -16,8 +12,4 @@
       <div class="icon-teaser__content-text">{{ text.processed | raw }}</div>
     {% endif %}
   </div>
-{% if hideSection != true %}
 </section>
-{% else %}
-</div>
-{% endif %}

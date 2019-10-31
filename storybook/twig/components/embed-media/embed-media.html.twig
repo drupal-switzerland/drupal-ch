@@ -1,8 +1,6 @@
 {% if content and content.media.entity %}
   {% set media = content.media.entity %}
-  {% if hideSection != true %}
   <section class="embed-media">
-  {% endif %}
   {% if media is not empty %}
     {% if media.type == 'MediaImage' %}
       {% include '@storybook/components/media-image/media-image.html.twig' with {
@@ -22,7 +20,5 @@
       } only %}
     {% endif %}
   {% endif %}
-  {% if hideSection != true %}
   </section>
-  {% endif %}
 {% endif %}
