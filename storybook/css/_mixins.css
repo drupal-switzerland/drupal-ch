@@ -3,27 +3,11 @@
   font-weight: var(--weight-m);
 }
 
-@define-mixin margin-top {
-  margin-top: var(--space-200);
+@define-mixin component-margin {
+  margin: var(--space-500) 0;
 
   @media (--desktop-up) {
-    margin-top: var(--space-300);
-  }
-}
-
-@define-mixin margin-bottom {
-  margin-bottom: var(--space-200);
-
-  @media (--desktop-up) {
-    margin-bottom: var(--space-300);
-  }
-}
-
-@define-mixin component-margin-bottom {
-  margin-bottom: var(--space-500);
-
-  @media (--desktop-up) {
-    margin-bottom: var(--space-1200);
+    margin: var(--space-1200) 0;
   }
 }
 

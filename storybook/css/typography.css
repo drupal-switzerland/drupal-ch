@@ -11,12 +11,6 @@ body {
   letter-spacing: 0.2px;
 }
 
-/* Page class is added to prevent styles affecting Drupal styles. */
-:--typographic-block-elements {
-  @mixin margin-top;
-  @mixin margin-bottom;
-}
-
 strong {
   font-weight: var(--weight-l);
 }

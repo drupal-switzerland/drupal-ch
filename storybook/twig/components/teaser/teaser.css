@@ -1,5 +1,5 @@
 .teaser {
-  @mixin component-margin-bottom;
+  @mixin component-margin;
   @mixin section-padding;
 
   &__content {

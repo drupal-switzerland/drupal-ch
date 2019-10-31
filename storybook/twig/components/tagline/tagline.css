@@ -1,5 +1,5 @@
 .tagline {
-  &-tag {
+  &__tag {
     font-size: var(--font-xxs);
     font-weight: var(--weight-l);
     text-transform: uppercase;
@@ -20,7 +20,7 @@
     }
   }
 
-  &-title {
+  &_title {
     text-transform: uppercase;
     font-weight: var(--weight-l);
     color: var(--dark-blue);
@@ -29,6 +29,14 @@
 
     @media (--desktop-up) {
       font-size: var(--font-xl);
+    }
+  }
+
+  &__title--small {
+    font-size: var(--font-m);
+
+    @media (--desktop-up) {
+      font-size: var(--font-l);
     }
   }
 }
