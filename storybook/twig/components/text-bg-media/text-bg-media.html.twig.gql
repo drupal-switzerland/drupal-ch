@@ -1,4 +1,5 @@
 fragment ParagraphTextBgMedia on ParagraphTextBgMedia {
+  componentId: fieldParagraphId
   title: fieldTitle
   text: fieldText {
     processed

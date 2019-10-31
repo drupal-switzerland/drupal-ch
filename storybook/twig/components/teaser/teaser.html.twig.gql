@@ -1,4 +1,5 @@
 fragment ParagraphTeaser on ParagraphTeaser {
+  componentId: fieldParagraphId
   fieldNodeReference {
     entity {
       ...PageTeaser

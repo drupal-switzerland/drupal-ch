@@ -1,4 +1,5 @@
 fragment ParagraphText on ParagraphText {
+  componentId: fieldParagraphId
   title: fieldTitle
   tagline: fieldMetaEyebrow
   text: fieldText {

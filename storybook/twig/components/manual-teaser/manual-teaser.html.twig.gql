@@ -1,4 +1,5 @@
 fragment ParagraphManualTeaser on ParagraphManualTeaser {
+  componentId: fieldParagraphId
   title: fieldTitle
   teaserText: fieldTeaserText
   link: fieldLink {

@@ -1,4 +1,5 @@
 fragment ParagraphLinkBgMedia on ParagraphLinkBgMedia {
+  componentId: fieldParagraphId
   title: fieldTitle
   media: fieldMedia {
     entity {

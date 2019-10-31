@@ -1,4 +1,5 @@
 fragment ParagraphHighlight on ParagraphHighlight {
+  componentId: fieldParagraphId
   title: fieldTitle
   text: fieldText {
     processed

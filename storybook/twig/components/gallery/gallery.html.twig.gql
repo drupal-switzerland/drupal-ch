@@ -1,4 +1,5 @@
 fragment ParagraphGallery on ParagraphGallery {
+  componentId: fieldParagraphId
   title: fieldTitle
   galleryImage: fieldGalleryImage {
     entity {
