@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.gallery.field_gallery_image
     - field.field.paragraph.gallery.field_meta_eyebrow
+    - field.field.paragraph.gallery.field_paragraph_id
     - field.field.paragraph.gallery.field_title
     - paragraphs.paragraphs_type.gallery
   module:
@@ -23,6 +24,14 @@ content:
     region: content
   field_meta_eyebrow:
     weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_id:
+    weight: -1
     settings:
       size: 60
       placeholder: ''

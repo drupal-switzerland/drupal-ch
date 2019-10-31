@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.gallery.field_gallery_image
     - field.field.paragraph.gallery.field_meta_eyebrow
+    - field.field.paragraph.gallery.field_paragraph_id
     - field.field.paragraph.gallery.field_title
     - paragraphs.paragraphs_type.gallery
 id: paragraph.gallery.default
@@ -38,4 +39,5 @@ content:
     type: string
     region: content
 hidden:
+  field_paragraph_id: true
   search_api_excerpt: true

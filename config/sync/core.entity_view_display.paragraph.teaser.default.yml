@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.teaser.field_node_reference
+    - field.field.paragraph.teaser.field_paragraph_id
     - paragraphs.paragraphs_type.teaser
 id: paragraph.teaser.default
 targetEntityType: paragraph
@@ -20,4 +21,5 @@ content:
     type: entity_reference_entity_view
     region: content
 hidden:
+  field_paragraph_id: true
   search_api_excerpt: true

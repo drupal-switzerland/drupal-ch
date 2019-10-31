@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.icon_highlight.field_content_icon
     - field.field.paragraph.icon_highlight.field_meta_eyebrow
+    - field.field.paragraph.icon_highlight.field_paragraph_id
     - field.field.paragraph.icon_highlight.field_pt_link
     - field.field.paragraph.icon_highlight.field_text
     - field.field.paragraph.icon_highlight.field_title
@@ -59,4 +60,5 @@ content:
     type: string
     region: content
 hidden:
+  field_paragraph_id: true
   search_api_excerpt: true

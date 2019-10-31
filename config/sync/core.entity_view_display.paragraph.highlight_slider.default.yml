@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.highlight_slider.field_content
+    - field.field.paragraph.highlight_slider.field_paragraph_id
     - paragraphs.paragraphs_type.highlight_slider
   module:
     - entity_reference_revisions
@@ -22,4 +23,5 @@ content:
     type: entity_reference_revisions_entity_view
     region: content
 hidden:
+  field_paragraph_id: true
   search_api_excerpt: true

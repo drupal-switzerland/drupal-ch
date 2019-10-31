@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.manual_teaser.field_image
     - field.field.paragraph.manual_teaser.field_link
     - field.field.paragraph.manual_teaser.field_meta_eyebrow
+    - field.field.paragraph.manual_teaser.field_paragraph_id
     - field.field.paragraph.manual_teaser.field_teaser_text
     - field.field.paragraph.manual_teaser.field_title
     - paragraphs.paragraphs_type.manual_teaser
@@ -62,4 +63,5 @@ content:
     type: string
     region: content
 hidden:
+  field_paragraph_id: true
   search_api_excerpt: true

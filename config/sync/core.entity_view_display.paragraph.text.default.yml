@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.text.field_embed_media
     - field.field.paragraph.text.field_meta_eyebrow
+    - field.field.paragraph.text.field_paragraph_id
     - field.field.paragraph.text.field_pt_link
     - field.field.paragraph.text.field_text
     - field.field.paragraph.text.field_title
@@ -59,4 +60,5 @@ content:
     type: string
     region: content
 hidden:
+  field_paragraph_id: true
   search_api_excerpt: true

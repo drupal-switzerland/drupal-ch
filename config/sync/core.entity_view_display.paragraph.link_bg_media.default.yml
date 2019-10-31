@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.link_bg_media.field_media
     - field.field.paragraph.link_bg_media.field_meta_eyebrow
+    - field.field.paragraph.link_bg_media.field_paragraph_id
     - field.field.paragraph.link_bg_media.field_pt_link_multi
     - field.field.paragraph.link_bg_media.field_title
     - paragraphs.paragraphs_type.link_bg_media
@@ -50,4 +51,5 @@ content:
     type: string
     region: content
 hidden:
+  field_paragraph_id: true
   search_api_excerpt: true

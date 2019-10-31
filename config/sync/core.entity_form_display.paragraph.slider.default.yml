@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.slider.field_content
+    - field.field.paragraph.slider.field_paragraph_id
     - paragraphs.paragraphs_type.slider
   module:
     - paragraphs
@@ -29,6 +30,14 @@ content:
         collapse_edit_all: collapse_edit_all
     third_party_settings: {  }
     type: paragraphs
+    region: content
+  field_paragraph_id:
+    weight: -1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true

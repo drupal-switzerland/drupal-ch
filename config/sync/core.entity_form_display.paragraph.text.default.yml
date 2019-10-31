@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.text.field_embed_media
     - field.field.paragraph.text.field_meta_eyebrow
+    - field.field.paragraph.text.field_paragraph_id
     - field.field.paragraph.text.field_pt_link
     - field.field.paragraph.text.field_text
     - field.field.paragraph.text.field_title
@@ -38,6 +39,14 @@ content:
     region: content
   field_meta_eyebrow:
     weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_id:
+    weight: -1
     settings:
       size: 60
       placeholder: ''

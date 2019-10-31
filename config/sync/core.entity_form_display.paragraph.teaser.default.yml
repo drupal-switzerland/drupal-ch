@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.teaser.field_node_reference
+    - field.field.paragraph.teaser.field_paragraph_id
     - paragraphs.paragraphs_type.teaser
 id: paragraph.teaser.default
 targetEntityType: paragraph
@@ -18,6 +19,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_paragraph_id:
+    weight: -1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true

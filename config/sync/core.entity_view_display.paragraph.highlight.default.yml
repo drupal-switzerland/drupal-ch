@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.highlight.field_meta_eyebrow
+    - field.field.paragraph.highlight.field_paragraph_id
     - field.field.paragraph.highlight.field_text
     - field.field.paragraph.highlight.field_title
     - paragraphs.paragraphs_type.highlight
@@ -38,4 +39,5 @@ content:
     type: string
     region: content
 hidden:
+  field_paragraph_id: true
   search_api_excerpt: true
