@@ -53,21 +53,12 @@
       } only %}
     {% endif %}
     <div class="text__content relative">        
-      <!-- TODO include tagline component -->
-        {# {% include '@storybook/components/tagline/tagline.html.twig' with {
+        {% include '@storybook/components/tagline/tagline.html.twig' with {
           tagline: tagline,
           title: title
-        } only %} #}
-      {% if tagline and tagline is not empty %}
-        <div class="tagline__tag">{{ tagline }}</div>
-      {% endif %}
-        
-      {% if title and title is not empty %}    
-        <h2 class="tagline__title">{{ title }}</h2>
-      {% endif %}
-      
+        } only %}
       {% if text and text.processed is not empty %}
-        <div class="text__content-text">{{ text.processed | raw }}</div>
+        <div class="text__content-text">{{ text.processed|raw }}</div>
       {% endif %}
       {% if entityLink is not empty %}
         {% include '@storybook/components/link/link.html.twig' with {

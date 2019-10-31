@@ -2,13 +2,21 @@
   @mixin component-margin;
   @mixin section-padding;
 
-  &__content {
-    padding-top: var(--space-200);
+  min-height: 200px;
+  text-align: center;
 
-    @media (--desktop-up) {
-      padding-top: 0;
-      padding-left: var(--space-200);
-    }
+  @media (--desktop-up) {
+    min-height: 450px;
+  }
+
+  &::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .bg-media {
@@ -20,20 +28,7 @@
     object-fit: cover;
   }
 
-  &.relative,
-  &__content.relative {
+  &.relative {
     position: relative;
-  }
-
-  &__media {
-    position: relative;
-
-    &::after {
-      content: '';
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      border: 0.2em solid var(--primary-light);
-    }
   }
 }

@@ -1,37 +1,11 @@
 .inner {
   width: 100%;
   max-width: var(--max-width);
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 0 var(--space-400);
 
   @media (--desktop-down) {
     padding: 0 var(--space-200);
-  }
-}
-
-/* To Vertically center child elements, apply these classes:
-   * "center-align" - centers at all screen sizes.
-   * "center-align center-align--desktop-up" - only centers at tablet and larger.
-   * "center-align center-align--desktop-up" - only centers at desktop.
-*/
-.center-align {
-  display: flex;
-  align-items: center;
-
-  /* Fix centering in IE */
-  &::after {
-    content: '';
-    min-height: inherit;
-    font-size: 0;
-  }
-
-  &--desktop-up {
-    display: block;
-
-    @media (--desktop-up) {
-      display: flex;
-    }
   }
 }
 

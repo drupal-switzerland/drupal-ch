@@ -20,7 +20,7 @@
     }
   }
 
-  &_title {
+  &__title {
     text-transform: uppercase;
     font-weight: var(--weight-l);
     color: var(--dark-blue);

@@ -1,4 +1,0 @@
-fragment Tagline on Tagline {
-  tagline: fieldMetaEyebrow
-  title: fieldTitle
-}

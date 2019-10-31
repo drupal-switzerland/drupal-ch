@@ -28,7 +28,7 @@
   {% endif %}
   <div class="text__content relative">
     {% if title and title is not empty %}
-      <h2>{{ title }}</h2>
+      <h2 class="title-white">{{ title }}</h2>
     {% elseif data.title and data.title.value is not empty and data.title.element is not empty %}
       <{{ data.title.element }}>{{ data.title.value }}</{{ data.title.element }}>
     {% endif %}

@@ -9,10 +9,7 @@
   --font-m: 3.2rem;
   --font-l: 4.4rem;
   --font-xl: 6.4rem;
-  --font-h4: 2.1rem;
-  --font-h3: 2.4rem;
-  --font-h2: 2.8rem;
-  --font-h1: var(--font-m);
+  --font-xxl: 9.6rem;
 
   /* line height */
   --line-height-default: 1.4;
