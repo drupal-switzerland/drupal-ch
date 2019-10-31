@@ -15,7 +15,7 @@ function getIcons(icons, isLogo = false) {
 }
 
 const icons = {
-  normal: [
+  messages: [
     'messages-check',
     'messages-error',
     'messages-warning',
@@ -25,10 +25,10 @@ const icons = {
 storiesOf('Shared styles|Icons', module)
   .addDecorator(Wrapper)
   .add(
-    'Normal',
+    'Message icons',
     () => `
       <div class="icons-wrapper">
-        ${getIcons(icons.normal)}
+        ${getIcons(icons.messages)}
       </div>
     `,
   );

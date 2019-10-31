@@ -1,0 +1,5 @@
+button,
+.button {
+  background-color: var(--primary);
+  font-size: var(--font-xs);
+}

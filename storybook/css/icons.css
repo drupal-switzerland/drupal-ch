@@ -26,14 +26,14 @@
 
   /* Normal icons. */
   &.messages-check {
-    background-image: url(./icons/messages-check.svg);
+    background-image: url(./../icons/messages-check.svg);
   }
 
   &.messages-error {
-    background-image: url(./icons/messages-error.svg);
+    background-image: url(./../icons/messages-error.svg);
   }
 
   &.messages-warning {
-    background-image: url(./icons/messages-warning.svg);
+    background-image: url(./../icons/messages-warning.svg);
   }
 }

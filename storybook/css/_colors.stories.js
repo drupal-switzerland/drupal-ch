@@ -9,9 +9,6 @@ const colors = [
   'blue',
   'dark-blue',
   'red',
-];
-
-const colorScheme = [
   'primary',
   'primary-dark',
 ];
@@ -34,23 +31,6 @@ storiesOf('Shared styles|Global styles', module)
     return `
       <div class="color-wrapper">
         ${colorHTML}
-      </div>
-    `;
-  })
-  .add('Color Scheme', () => {
-    let schemeHTML = '';
-    colorScheme.forEach(color => {
-      schemeHTML += `
-      <div class="item">
-        <div class="color ${color}"></div>
-        <p class="label p">${color}</p>
-      </div>
-    `;
-    });
-
-    return `
-      <div class="color-wrapper">
-        ${schemeHTML}
       </div>
     `;
   })

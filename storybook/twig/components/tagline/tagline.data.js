@@ -3,6 +3,6 @@ export const tagline = {
   class: '',
   tagline: {
     processed:
-      '<div class="tagline">Drupalistas</div>',
+      '<div class="tagline-tag">Drupalistas</div>',
   },
 };

@@ -1,5 +1,9 @@
+@import './buttons.css';
+@import './checkbox.css';
+@import './forms.css';
+
 select:not([multiple]) {
-  background-image: url(../css/icons/arrow-down.svg);
+  background-image: url(../../icons/arrow-down.svg);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 1em 1em;

@@ -22,7 +22,7 @@
   &--status {
     border-color: #c9e1bd #c9e1bd #c9e1bd transparent;
     background-color: #f3faef;
-    background-image: url(../../css/icons/messages-check.svg);
+    background-image: url(../../icons/messages-check.svg);
     color: #325e1c;
     box-shadow: -8px 0 0 #77b259;
   }
@@ -30,7 +30,7 @@
   &--warning {
     border-color: #f4daa6 #f4daa6 #f4daa6 transparent;
     background-color: #fdf8ed;
-    background-image: url(../../css/icons/messages-warning.svg);
+    background-image: url(../../icons/messages-warning.svg);
     color: #734c00;
     box-shadow: -8px 0 0 #e09600;
   }
@@ -38,7 +38,7 @@
   &--error {
     border-color: #f9c9bf #f9c9bf #f9c9bf transparent;
     background-color: #fcf4f2;
-    background-image: url(../../css/icons/messages-error.svg);
+    background-image: url(../../icons/messages-error.svg);
     color: #a51b00;
     box-shadow: -8px 0 0 #e62600;
   }

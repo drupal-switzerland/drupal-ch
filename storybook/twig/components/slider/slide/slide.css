@@ -1,36 +1,3 @@
 .slide {
-  &__content {
-    padding: var(--space-300) var(--space-300) var(--space-1000) var(--space-300);
 
-    @media (--desktop-up) {
-      width: 55%;
-      padding: var(--space-1300) var(--space-600);
-
-      &.image-left {
-        margin-left: auto;
-        text-align: right;
-
-        /* stylelint-disable-next-line max-nesting-depth */
-        a {
-          margin-left: auto;
-        }
-      }
-    }
-  }
-
-  &__image {
-    @media (--desktop-up) {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: -1;
-
-      img {
-        position: absolute;
-        object-fit: cover;
-      }
-    }
-  }
 }

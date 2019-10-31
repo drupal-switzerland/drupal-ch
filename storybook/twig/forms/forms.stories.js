@@ -1,52 +1,8 @@
 import { storiesOf } from '@storybook/html';
-import Wrapper from '../utils/storybook/decorators/Wrapper';
+import Wrapper from '../../utils/storybook/decorators/Wrapper';
 
 const defaultFormStyles = () => `
   <div class="two-columns wysiwyg forms">
-    <div class="two-columns__column story-wrapper">
-      <h2><u>Standard form elements</u></h2>
-      <h3>Buttons</h3>
-      <p>
-        <button type="button">Standard button</button>
-      </p>
-      <p>
-        <button type="submit">Submit button</button>
-      </p>
-      <p>
-        <button type="reset">Reset button</button>
-      </p>
-      <p>
-        <input type="button" value="Input button">
-      </p>
-      <p>
-        <input type="submit" value="Input submit button">
-      </p>
-      <p>
-        <input type="reset" value="Input reset button">
-      </p>
-    </div>
-    <div class="two-columns__column story-wrapper">
-      <h2><u>Disabled form elements</u></h2>
-      <h3>Buttons</h3>
-      <p>
-        <button type="button" disabled>Disabled button</button>
-      </p>
-      <p>
-        <button type="submit" disabled>Disabled submit button</button>
-      </p>
-      <p>
-        <button type="reset" disabled>Disabled reset button</button>
-      </p>
-      <p>
-        <input type="button" value="Disabled input button" disabled>
-      </p>
-      <p>
-        <input type="submit" value="Disabled input submit button" disabled>
-      </p>
-      <p>
-        <input type="reset" value="Disabled input reset button" disabled>
-      </p>
-    </div>
     <div class="two-columns__column story-wrapper">
       <h3>Inputs</h3>
       <p>
@@ -306,10 +262,6 @@ const defaultFormStyles = () => `
     </div>
   </div>
 `;
-
-storiesOf('Shared styles|Default styles', module)
-  .addDecorator(Wrapper)
-  .add('Forms', defaultFormStyles);
 
 storiesOf('Shared styles|Forms', module)
   .addDecorator(Wrapper)

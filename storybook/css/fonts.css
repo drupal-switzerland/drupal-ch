@@ -10,12 +10,14 @@
   --font-h3: 2.4rem;
   --font-h2: 2.8rem;
   --font-h1: 3.8rem;
-  --font-xl: 4.4rem;
+  --font-l: 4.4rem;
+  --font-xl: 6.4rem;
   /* line height */
   --line-height-default: 1.4;
   --line-height-s: 1;
 
   /* letter spacing */
+  --letter-spacing-medium: 0.02em;
   --letter-spacing-extended: 0.05em;
 
   /* letter spacing */
