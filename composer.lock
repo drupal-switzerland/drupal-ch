@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e244f1073b0936291ebd622dba6746b",
+    "content-hash": "920a70d635af39ff0ca5b7d93bf4648f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -12015,16 +12015,16 @@
         },
         {
             "name": "mikey179/vfsstream",
-            "version": "v1.6.7",
+            "version": "v1.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bovigo/vfsStream.git",
-                "reference": "2b544ac3a21bcc4dde5d90c4ae8d06f4319055fb"
+                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/2b544ac3a21bcc4dde5d90c4ae8d06f4319055fb",
-                "reference": "2b544ac3a21bcc4dde5d90c4ae8d06f4319055fb",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/231c73783ebb7dd9ec77916c10037eff5a2b6efe",
+                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe",
                 "shasum": ""
             },
             "require": {
@@ -12051,13 +12051,13 @@
             "authors": [
                 {
                     "name": "Frank Kleine",
-                    "role": "Developer",
-                    "homepage": "http://frankkleine.de/"
+                    "homepage": "http://frankkleine.de/",
+                    "role": "Developer"
                 }
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2019-08-01T01:38:37+00:00"
+            "time": "2019-10-30T15:31:00+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
