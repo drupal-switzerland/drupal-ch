@@ -1,5 +1,6 @@
 fragment ParagraphText on ParagraphText {
   title: fieldTitle
+  tagline: fieldMetaEyebrow
   text: fieldText {
     processed
   }

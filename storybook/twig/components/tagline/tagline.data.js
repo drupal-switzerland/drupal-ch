@@ -1,8 +1,6 @@
 export const tagline = {
   __typename: 'Tagline',
   class: '',
-  tagline: {
-    processed:
-      '<div class="tagline-tag">Drupalistas</div>',
-  },
+  tagline: 'Sample Tagline',
+  title: 'Some title',
 };

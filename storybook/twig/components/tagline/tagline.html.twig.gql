@@ -1,3 +1,4 @@
 fragment Tagline on Tagline {
-  title: fieldTagline
+  tagline: fieldMetaEyebrow
+  title: fieldTitle
 }

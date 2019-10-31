@@ -1,6 +1,8 @@
 export const text = {
   type: 'ParagraphText',
   class: '',
+  title: 'Sample Title',
+  tagline: 'Sample Tagline',
   text: {
     processed:
       '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
@@ -8,9 +10,9 @@ export const text = {
 };
 
 export const textWithImage = {
-  type: 'ParagraphText',
+  type: 'ParagraphTextWithImage',
   class: '',
-  title: 'Sample Text PT',
+  title: 'Sample Title',
   text: {
     processed: '<p>Accumsan est bibendum class et nascetur iaculis ac cras erat ad sociosqu himenaeos, ipsum platea vehicula ullamcorper habitasse dictum curabitur velit lobortis tempus. Ut consectetur ridiculus vestibulum dignissim dolor, congue faucibus feugiat sodales, netus non dictumst cubilia. Quis feugiat parturient class consectetur velit tellus faucibus, lectus consequat sapien massa cubilia ligula porta, scelerisque ipsum vehicula imperdiet auctor netus.</p>\n',
   },
