@@ -1,4 +1,4 @@
-<section {{ componentId ? 'id='~ componentId : null }} class="manual-teaser relative {{ class }}">
+<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="manual-teaser relative {{ class }}">
   <div class="manual-teaser__content relative">
     {% if title %}
       <h2>{{ title }}</h2>

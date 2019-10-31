@@ -9,7 +9,7 @@
   'relative',
   class
 ]|join(' ') %}
-<section {{ componentId ? 'id='~ componentId : null }} class="{{ classes }}">
+<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="{{ classes }}">
   {% if media.entity is not empty %}
     {% if media.entity.type == 'MediaImage' %}
       {% include '@storybook/components/media-image/media-image.html.twig' with {
