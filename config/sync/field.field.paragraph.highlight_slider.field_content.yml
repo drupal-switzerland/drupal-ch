@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.highlight_slide
     - paragraphs.paragraphs_type.highlight_slider
   module:
     - entity_reference_revisions
@@ -22,11 +23,11 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      highlight_slider: highlight_slider
+      highlight_slide: highlight_slide
     target_bundles_drag_drop:
       highlight_slide:
+        enabled: true
         weight: 19
-        enabled: false
       embed_media:
         weight: 20
         enabled: false
@@ -37,8 +38,8 @@ settings:
         weight: 22
         enabled: false
       highlight_slider:
-        enabled: true
         weight: 23
+        enabled: false
       icon_highlight:
         weight: 24
         enabled: false
