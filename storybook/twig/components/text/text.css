@@ -4,9 +4,29 @@
 
   &.hero {
     .text__content h1 {
+      position: relative;
+      z-index: 1;
       text-transform: uppercase;
       color: var(--white);
-      font-size: var(--size-xl);
+      font-size: var(--font-xl);
+      font-weight: bold;
+      text-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
+
+      @media (--desktop-up) {
+        font-size: var(--font-xxl);
+        max-width: 700px;
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
     }
   }
 
