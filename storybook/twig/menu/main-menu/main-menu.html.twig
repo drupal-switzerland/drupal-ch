@@ -1,6 +1,6 @@
 <nav class="main-menu__navigation">
   <ul class="main-menu__items">
-    {% for link in menu.links %}
+    {% for link in links %}
       <li>
         <a class="main-menu__link {{ link.active ? 'active' }}" href="{{ link.url.path }}">
           {{ link.label }}

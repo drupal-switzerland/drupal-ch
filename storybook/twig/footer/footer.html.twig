@@ -1,9 +1,9 @@
 <footer class="footer">
-  {% if footerMenu %}
+  {% if links %}
     <div class="footer-menu inner">
       {% include '@storybook/menu/menu.html.twig' with {
         type: 'footerMenu',
-        menu: footerMenu
+        links: links
       } only %}
     </div>
   {% endif %}

@@ -4,11 +4,11 @@
     <span class="header__logo--text">{{ 'Drupal Switzerland'|t }}</span>
   </a>
 
-  {% if mainMenu %}
+  {% if links %}
     <div class="main-menu">
       {% include '@storybook/menu/menu.html.twig' with {
         type: 'mainMenu',
-        menu: mainMenu
+        links: links
       } only %}
     </div>
   {% endif %}

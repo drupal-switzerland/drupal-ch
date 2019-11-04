@@ -1,13 +1,10 @@
-import { graphql as header } from '../header/header.stories';
-import { graphql as footer } from '../footer/footer.stories';
+import { mainMenu } from '../menu/main-menu/main-menu.data';
+import { footerMenu } from '../menu/footer-menu/footer-menu.data';
 
 export function node(content) {
   return {
-    ...header,
-    graphql: {
-      ...header.graphql,
-      ...footer,
-    },
+    mainMenu,
+    footerMenu,
     page: {
       content,
     },

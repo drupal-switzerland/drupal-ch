@@ -1,6 +1,6 @@
 <div class="page">
   {% block header %}
-    {% include '@storybook/header/header.html.twig' with graphql only %}
+    {% include '@storybook/header/header.html.twig' with mainMenu only %}
   {% endblock %}
 
   {% block content %}
@@ -10,6 +10,6 @@
   {% endblock %}
 
   {% block footer %}
-    {% include '@storybook/footer/footer.html.twig' with graphql only %}
+    {% include '@storybook/footer/footer.html.twig' with footerMenu only %}
   {% endblock %}
 </div>

@@ -1,34 +1,32 @@
 export const footerMenu = {
-  menu: {
-    links: [
-      {
-        url: {
-          path: '#',
-        },
-        label: 'Code of Conduct',
-        links: [],
+  links: [
+    {
+      url: {
+        path: '#',
       },
-      {
-        url: {
-          path: '#',
-        },
-        label: 'Terms & Conditions',
-        links: [],
+      label: 'Code of Conduct',
+      links: [],
+    },
+    {
+      url: {
+        path: '#',
       },
-      {
-        url: {
-          path: '#',
-        },
-        label: 'About us',
-        links: [],
+      label: 'Terms & Conditions',
+      links: [],
+    },
+    {
+      url: {
+        path: '#',
       },
-      {
-        url: {
-          path: '#',
-        },
-        label: 'Contact',
-        links: [],
+      label: 'About us',
+      links: [],
+    },
+    {
+      url: {
+        path: '#',
       },
-    ],
-  },
+      label: 'Contact',
+      links: [],
+    },
+  ],
 };
