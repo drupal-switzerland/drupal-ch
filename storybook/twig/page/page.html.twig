@@ -1,6 +1,8 @@
 <div class="page">
   {% block header %}
-    {% include '@storybook/header/header.html.twig' with mainMenu only %}
+    {% if mainMenu %}
+      {% include '@storybook/header/header.html.twig' with mainMenu only %}
+    {% endif %}
   {% endblock %}
 
   {% block content %}
@@ -10,6 +12,8 @@
   {% endblock %}
 
   {% block footer %}
-    {% include '@storybook/footer/footer.html.twig' with footerMenu only %}
+    {% if footerMenu %}
+      {% include '@storybook/footer/footer.html.twig' with footerMenu only %}
+    {% endif %}
   {% endblock %}
 </div>
