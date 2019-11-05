@@ -3,8 +3,10 @@ import { footerMenu } from '../menu/footer-menu/footer-menu.data';
 
 export function node(content) {
   return {
-    mainMenu,
-    footerMenu,
+    graphql: {
+      mainMenu,
+      footerMenu,
+    },
     page: {
       content,
     },

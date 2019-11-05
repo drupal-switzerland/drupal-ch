@@ -1,7 +1,7 @@
 <div class="page">
   {% block header %}
-    {% if mainMenu %}
-      {% include '@storybook/header/header.html.twig' with mainMenu only %}
+    {% if graphql.mainMenu %}
+      {% include '@storybook/header/header.html.twig' with graphql.mainMenu only %}
     {% endif %}
   {% endblock %}
 
@@ -12,8 +12,8 @@
   {% endblock %}
 
   {% block footer %}
-    {% if footerMenu %}
-      {% include '@storybook/footer/footer.html.twig' with footerMenu only %}
+    {% if graphql.footerMenu %}
+      {% include '@storybook/footer/footer.html.twig' with graphql.footerMenu only %}
     {% endif %}
   {% endblock %}
 </div>
