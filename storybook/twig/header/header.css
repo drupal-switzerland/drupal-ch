@@ -1,22 +1,17 @@
 .header {
-  @mixin section-padding;
-
-  position: sticky;
+  height: var(--header-height);
+  background-color: var(--white);
   display: flex;
   justify-content: space-between;
 
   &__logo {
     display: flex;
     align-items: center;
-    color: var(--teal-blue);
-    font-weight: var(--weight-l);
-
-    &:hover {
-      color: var(--teal-blue);
-    }
 
     &--text {
-      padding: var(--space-100) 0 0 var(--space-200);
+      color: var(--teal-blue);
+      font-weight: var(--weight-l);
+      padding-left: var(--space-200);
     }
   }
 }

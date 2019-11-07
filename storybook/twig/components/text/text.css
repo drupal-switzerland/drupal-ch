@@ -9,12 +9,12 @@
       text-transform: uppercase;
       color: var(--white);
       font-size: var(--font-xl);
-      font-weight: bold;
+      font-weight: var(--weight-l);
       text-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
 
       @media (--desktop-up) {
         font-size: var(--font-xxl);
-        max-width: 700px;
+        max-width: var(--weight-l);
       }
     }
 

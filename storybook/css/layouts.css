@@ -2,10 +2,10 @@
   width: 100%;
   max-width: var(--max-width);
   margin: auto;
-  padding: 0 var(--space-400);
+  padding: 0 var(--space-200);
 
-  @media (--desktop-down) {
-    padding: 0 var(--space-200);
+  @media (--desktop-up) {
+    padding: 0 var(--space-400);
   }
 }
 

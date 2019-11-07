@@ -1,7 +1,5 @@
 .footer-menu {
   &__items {
-    list-style: none;
-
     @media (--desktop-up) {
       display: flex;
       flex-wrap: wrap;
@@ -9,6 +7,12 @@
   }
 
   &__item {
+    @media (--desktop-down) {
+      &:not(:last-child) {
+        margin-bottom: var(--space-300);
+      }
+    }
+
     & + & {
       @media (--desktop-up) {
         margin-left: var(--space-500);
@@ -17,8 +21,16 @@
   }
 
   &__link {
+    color: var(--white);
+
+    &:--link-states {
+      color: var(--white);
+      text-decoration: underline;
+    }
+
     @media (--desktop-down) {
       text-decoration: underline;
+      margin-bottom: var(--space-300);
     }
   }
 }

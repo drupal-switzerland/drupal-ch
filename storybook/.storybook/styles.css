@@ -12,7 +12,6 @@
 
   &.invert {
     background-color: var(--black);
-    padding-bottom: var(--space-500);
   }
 }
 
