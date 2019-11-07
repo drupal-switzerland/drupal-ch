@@ -13,8 +13,6 @@ const colors = [
   'primary-dark',
 ];
 
-const shadows = ['10', '14'];
-
 storiesOf('Shared styles|Global styles', module)
   .addDecorator(Wrapper)
   .add('Colors', () => {
@@ -31,23 +29,6 @@ storiesOf('Shared styles|Global styles', module)
     return `
       <div class="color-wrapper">
         ${colorHTML}
-      </div>
-    `;
-  })
-  .add('Shadows', () => {
-    let shadowHTML = '';
-    shadows.forEach(shadow => {
-      shadowHTML += `
-      <div class="item">
-        <div class="shadow shadow-${shadow}"></div>
-        <p class="label p">Shadow ${shadow}%</p>
-      </div>
-    `;
-    });
-
-    return `
-      <div class="shadow-wrapper">
-        ${shadowHTML}
       </div>
     `;
   });

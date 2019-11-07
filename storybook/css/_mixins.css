@@ -15,25 +15,6 @@
   padding: 2em;
 }
 
-@define-mixin link {
-  color: var(--grey);
-  text-decoration: none;
-
-  &:--link-states {
-    color: var(--grey);
-    text-decoration: underline;
-  }
-}
-
-@define-mixin link-black {
-  color: var(--black);
-
-  &:--link-states {
-    color: var(--black);
-    text-decoration: underline;
-  }
-}
-
 @define-mixin aspect-ratio-16-9 {
   position: relative;
   padding-bottom: 56.25%;
@@ -53,4 +34,60 @@
   img {
     object-fit: cover;
   }
+}
+
+@define-mixin list {
+  /* stylelint-disable no-descending-specificity */
+  ol,
+  ul {
+    margin-left: var(--space-300);
+    margin-bottom: var(--space-300);
+
+    ol,
+    ul {
+      margin-top: var(--space-200);
+      margin-bottom: 0;
+    }
+
+    li {
+      margin-bottom: var(--space-200);
+    }
+  }
+
+  ol {
+    list-style-position: outside;
+
+    &:not([type]) {
+      list-style-type: decimal;
+    }
+
+    &:not([type]).is-lower-alpha {
+      list-style-type: lower-alpha;
+    }
+
+    &:not([type]).is-lower-roman {
+      list-style-type: lower-roman;
+    }
+
+    &:not([type]).is-upper-alpha {
+      list-style-type: upper-alpha;
+    }
+
+    &:not([type]).is-upper-roman {
+      list-style-type: upper-roman;
+    }
+  }
+
+  ul {
+    list-style: disc outside;
+
+    ul {
+      list-style-type: circle;
+
+      ul {
+        list-style-type: square;
+      }
+    }
+  }
+  /* stylelint-enable no-descending-specificity */
 }

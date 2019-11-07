@@ -46,8 +46,7 @@
   margin-top: var(--space-300);
 }
 
-.color,
-.shadow {
+.color {
   display: block;
   width: 240px;
   height: 170px;
@@ -90,14 +89,4 @@
 
 .primary-dark {
   background-color: var(--primary-dark);
-}
-
-.shadow {
-  &-10 {
-    box-shadow: var(--shadow-10);
-  }
-
-  &-14 {
-    box-shadow: var(--shadow-14);
-  }
 }

@@ -32,15 +32,4 @@
       flex: 0 0 33.333%;
     }
   }
-
-  &--with-border {
-    .three-columns__column + .three-columns__column {
-      border-top: 1px solid grey;
-
-      @media (--desktop-up) {
-        border-left: 1px solid grey;
-        border-top: 0;
-      }
-    }
-  }
 }

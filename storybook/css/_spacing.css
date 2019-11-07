@@ -8,9 +8,8 @@
   --space-500: 40px;
   --space-1200: 96px;
   /* Header sizes */
-  --top-header-height: 42px;
-  --bottom-header-height: 95px;
+  --header-height: 70px;
   /* Page max */
-  --max-width: 1280px;
+  --max-width: 1440px;
   --max-height: 70rem;
 }

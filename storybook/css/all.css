@@ -12,7 +12,6 @@
 @import './_colors.css';
 @import './_custom-selectors.css';
 @import './_spacing.css';
-@import './_shadows.css';
 
 /* Load other global styles */
 @import './accessibility.css';

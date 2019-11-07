@@ -31,17 +31,6 @@ storiesOf('Shared styles|Global styles', module)
           <p class="light small">I am small size</p>
           <p class="light">${lorem}</p>
         </div>
-        <div class="two-columns__column story-wrapper">
-          <h1 class="bold h4"><u>Light:</u></h1>
-          <h1 class="bold">Heading 1</h1>
-          <h2 class="bold">Heading 2</h2>
-          <h3 class="bold">Heading 3</h3>
-          <h4 class="bold">Heading 4</h4>
-          <h5 class="bold">Heading 5</h5>
-          <h6 class="bold">Heading 6</h6>
-          <p class="bold small">I am small size</p>
-          <p class="bold">${lorem}</p>
-        </div>
       </div>
     `,
   );

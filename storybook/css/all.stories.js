@@ -35,7 +35,14 @@ storiesOf('Shared styles|Default styles', module)
               <li>Phasellus iaculis neque</li>
               <li>Purus sodales ultricies</li>
               <li>Vestibulum laoreet porttitor sem</li>
-              <li>Ac tristique libero volutpat at</li>
+              <li>Ac tristique libero volutpat at
+                <ol>
+                  <li>Phasellus iaculis neque</li>
+                  <li>Purus sodales ultricies</li>
+                  <li>Vestibulum laoreet porttitor sem</li>
+                  <li>Ac tristique libero volutpat at</li>
+                </ol>
+              </li>
             </ol>
           </li>
           <li>Faucibus porta lacus fringilla vel</li>
@@ -54,7 +61,14 @@ storiesOf('Shared styles|Default styles', module)
               <li>Phasellus iaculis neque</li>
               <li>Purus sodales ultricies</li>
               <li>Vestibulum laoreet porttitor sem</li>
-              <li>Ac tristique libero volutpat at</li>
+              <li>Ac tristique libero volutpat at
+                <ul>
+                  <li>Phasellus iaculis neque</li>
+                  <li>Purus sodales ultricies</li>
+                  <li>Vestibulum laoreet porttitor sem</li>
+                  <li>Ac tristique libero volutpat at</li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li>Faucibus porta lacus fringilla vel</li>
