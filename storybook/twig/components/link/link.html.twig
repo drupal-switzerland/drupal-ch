@@ -1,9 +1,11 @@
 {% set classes = [
-  'button',
-  'button--' ~ class,
+  'action',
+  class ? 'action__icon action__icon--' ~ class : '',
+  isInvert ? 'invert' : ''
 ] | join (' ') %}
+
 {% if link %}
-<a href="{{ link.url.path }}" class="{{ classes }}">
-  {{ link.title }}
-</a>
+  <a href="{{ link.url.path }}" class="{{ classes }}">
+    {{ link.title }}
+  </a>
 {% endif %}

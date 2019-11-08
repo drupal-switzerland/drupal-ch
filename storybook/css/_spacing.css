@@ -6,10 +6,10 @@
   --space-300: 24px;
   --space-400: 32px;
   --space-500: 40px;
+  --space-700: 56px;
   --space-1200: 96px;
   /* Header sizes */
   --header-height: 70px;
   /* Page max */
   --max-width: 1440px;
-  --max-height: 70rem;
 }

@@ -19,3 +19,6 @@
 @import './icons.css';
 @import './layouts.css';
 @import './typography.css';
+
+/* Load actions styles */
+@import './action.css';

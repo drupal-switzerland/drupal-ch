@@ -8,19 +8,11 @@ body {
 
   font-size: var(--font-p);
   line-height: var(--line-height-default);
-  letter-spacing: 0.2px;
+  letter-spacing: var(--letter-spacing-medium);
 }
 
 strong {
   font-weight: var(--weight-l);
-}
-
-a,
-:--typographic-block-elements {
-  color: var(--black);
-  hyphens: auto;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 :--buttons,
@@ -29,21 +21,24 @@ a,
   line-height: var(--line-height-default);
 }
 
+a,
+:--typographic-block-elements {
+  color: var(--dark-blue);
+  hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  .invert & {
+    color: var(--white);
+  }
+}
+
 /* stylelint-disable-next-line no-descending-specificity */
 a,
 a:--link-states {
   text-decoration: none;
   color: var(--primary);
   cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--dark-blue);
 }
 
 h1,
