@@ -2,7 +2,6 @@
   &__tag {
     font-size: var(--font-xxs);
     font-weight: var(--weight-l);
-    text-transform: uppercase;
     color: var(--dark-blue);
     letter-spacing: var(--letter-spacing-extended);
     margin-left: 32px;
@@ -21,7 +20,6 @@
   }
 
   &__title {
-    text-transform: uppercase;
     font-weight: var(--weight-l);
     color: var(--dark-blue);
     letter-spacing: var(--letter-spacing-medium);
