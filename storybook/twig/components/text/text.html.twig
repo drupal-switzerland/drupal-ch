@@ -3,7 +3,7 @@
   <div class="two-columns {{ embedMedia.entity.position }} with{{ hasMedia ? '-media' : 'out-media' }}">
     <div class="two-columns__column">
       {% if hasMedia %}
-        <div class="text__media">
+        <div class="text__media {{ embedMedia.entity.media.entity.type == 'MediaImage' ? 'text__media--image' : '' }}">
           {% include '@storybook/components/embed-media/embed-media.html.twig' with embedMedia.entity only %}
         </div>
       {% else %}
