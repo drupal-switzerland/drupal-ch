@@ -1,72 +1,21 @@
 .text {
-  @mixin component-margin;
-  @mixin section-padding;
+  &.inner {
+    @mixin section-padding;
+  }
 
-  &.hero {
-    .text__content h1 {
-      position: relative;
-      z-index: 1;
-      text-transform: uppercase;
-      color: var(--white);
-      font-size: var(--font-xl);
-      font-weight: var(--weight-l);
-      text-shadow: rgba(0, 0, 0, 0.2) 0 0 20px;
+  .without-media {
+    .two-columns__column {
+      flex: 1 1 50%;
 
-      @media (--desktop-up) {
-        font-size: var(--font-xxl);
-        max-width: var(--weight-l);
+      &:first-child {
+        flex: 1 1 35%;
       }
     }
-
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 0;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-    }
-  }
-
-  .embed--right {
-    flex-direction: row-reverse;
-  }
-
-  .bg-media {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  &.relative,
-  &__content.relative {
-    position: relative;
   }
 
   &__media {
-    position: relative;
-
-    &::after {
-      content: '';
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      border: 0.2em solid var(--primary-light);
+    @media (--desktop-down) {
+      margin-bottom: var(--space-700);
     }
-  }
-
-  .embed--left .text__media::after {
-    bottom: -1.2em;
-    right: -1.2em;
-  }
-
-  .embed--right .text__media::after {
-    top: -1.2em;
-    left: -1.2em;
   }
 }

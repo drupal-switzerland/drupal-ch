@@ -1,61 +1,41 @@
-{% set classes = [
-  'text',
-  class | default('')
-] | join(' ') %}
-
-{% set attributes = [
-  componentId ? 'id='~ componentId : '',
-  'class="' ~ classes
-] | join(' ') %}
-
-{% if embedMedia.entity.media.entity is not empty %}
-  <section {{ attributes }}>
-    <div class="two-columns embed--{{ embedMedia.entity.position }}">
-      <div class="two-columns__column text__media">
-        {% include '@storybook/components/embed-media/embed-media.html.twig' with {
-          content: embedMedia.entity
-        } only %}
-      </div>
-      <div class="two-columns__column text__content">
-      {% include '@storybook/components/tagline/tagline.html.twig' with {
-          tagline: tagline,
-          title: title,
-          variant: 'small'
-        } only %}
-        {% if text and text.processed is not empty %}
-          <div class="text__content-text">{{ text.processed | raw }}</div>
+{% set hasMedia = embedMedia.entity.media is not empty %}
+<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="text inner">
+  <div class="two-columns {{ embedMedia.entity.position }} with{{ hasMedia ? '-media' : 'out-media' }}">
+    <div class="two-columns__column">
+      {% if hasMedia %}
+        <div class="text__media">
+          {% include '@storybook/components/embed-media/embed-media.html.twig' with embedMedia.entity only %}
+        </div>
+      {% else %}
+        <div class="text__tagline">
+          {% include '@storybook/components/tagline/tagline.html.twig' with {
+            tagline: tagline,
+            title: title
+          } only %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="two-columns__column">
+      <div class="text__content">
+        {% if hasMedia %}
+          {% include '@storybook/components/tagline/tagline.html.twig' with {
+            tagline: tagline,
+            title: title,
+            variant: 'small'
+          } only %}
         {% endif %}
+
+        {% if text and text.processed is not empty %}
+          <div class="text__content-text wysiwyg">{{ text.processed | raw }}</div>
+        {% endif %}
+
         {% if entityLink is not empty %}
           {% include '@storybook/components/link/link.html.twig' with {
-            component: entityLink.entity
+            link: entityLink.entity.link,
+            class: entityLink.entity.class
           } only %}
         {% endif %}
       </div>
     </div>
-  </section>
-{% else %}
-  {% set classes = classes ~ ' relative' %}
-  <section {{ attributes }}>
-    {% if embedMedia.entity is not empty %}
-      {% include '@storybook/components/embed-media/embed-media.html.twig' with {
-        content: embedMedia.entity,
-        class: 'bg-media'
-      } only %}
-    {% endif %}
-    <div class="text__content relative">
-        {% include '@storybook/components/tagline/tagline.html.twig' with {
-          tagline: tagline,
-          title: title
-        } only %}
-      {% if text and text.processed is not empty %}
-        <div class="text__content-text">{{ text.processed|raw }}</div>
-      {% endif %}
-      {% if entityLink is not empty %}
-        {% include '@storybook/components/link/link.html.twig' with {
-          link: entityLink.entity.link,
-          class: entityLink.entity.class
-        } only %}
-      {% endif %}
-    </div>
-  </section>
-{% endif %}
+  </div>
+</section>

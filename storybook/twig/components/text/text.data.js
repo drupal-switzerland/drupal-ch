@@ -1,67 +1,56 @@
-export const text = {
-  type: 'ParagraphText',
-  class: '',
-  title: 'Sample Title',
-  tagline: 'Sample Tagline',
-  text: {
-    processed:
-      '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
-  },
+import { linkData } from '../link/link.data';
+import { mediaImage } from '../media/media-image/media-image.data';
+import { mediaVideo } from '../media/media-video/media-video.data';
+
+export const textData = {
+  processed:
+    '<p>We are Drupal experts and newcomers from Switzerland. Our thriving and welcoming community collaborates on the open-source and content management framework Drupal. Together we use, build and exchange digital solutions for users.</p><p>We invite back-end & front-end developers as well as site builders, content editors, designers, business owners, project managers, usability experts, community enthusiasts and basically everyone interested in Drupal and the web to join us.</p>',
 };
 
-export const textWithImage = {
-  type: 'ParagraphTextWithImage',
-  class: '',
-  title: 'Sample Title',
-  tagline: 'Sample Tagline',
+const list = '<ul><li><a href="#">Zurich Drupal User Group</a></li><li><a href="#">Basel Drupal User Group</a></li><li><a href="#">Swiss Romand Drupal User Group</a></li><li><a href="#">Bodensee Drupal User Group</a></li></ul>';
+
+const textDefault = {
+  type: 'ParagraphText',
+  title: 'About us',
+  tagline: 'Association',
   text: {
-    processed: '<p>Accumsan est bibendum class et nascetur iaculis ac cras erat ad sociosqu himenaeos, ipsum platea vehicula ullamcorper habitasse dictum curabitur velit lobortis tempus. Ut consectetur ridiculus vestibulum dignissim dolor, congue faucibus feugiat sodales, netus non dictumst cubilia. Quis feugiat parturient class consectetur velit tellus faucibus, lectus consequat sapien massa cubilia ligula porta, scelerisque ipsum vehicula imperdiet auctor netus.</p>\n',
-  },
-  embedMedia: {
-    entity: {
-      media: {
-        entity: {
-          type: 'MediaImage',
-          mediaImage: {
-            url: 'https://via.placeholder.com/640x360?text=16:9',
-            alt: 'an image alt text',
-            rectangularLarge: {
-              url: 'https://via.placeholder.com/1350x2400?text=9:16',
-              height: 1350,
-              width: 2400,
-            },
-            squareLarge: {
-              url: 'https://via.placeholder.com/1200x1200?text=1:1',
-              height: 1200,
-              width: 1200,
-            },
-            squareMedium: {
-              url: 'https://via.placeholder.com/600x600?text=1:1',
-              height: 600,
-              width: 600,
-            },
-            squareSmall: {
-              url: 'https://via.placeholder.com/300x300?text=1:1',
-              height: 300,
-              width: 300,
-            },
-          },
-        },
-      },
-      position: 'left',
-    },
+    processed: `${textData.processed}${list}`,
   },
   entityLink: {
     entity: {
-      link: {
-        title: 'Some other page link text',
-        uri: 'entity:node/1',
-        url: {
-          path: '#test-anchor',
-          routed: true,
+      ...linkData,
+    },
+  },
+};
+
+export const text = {
+  default: {
+    ...textDefault,
+  },
+  withImage(position = 'right') {
+    return {
+      ...textDefault,
+      embedMedia: {
+        entity: {
+          position,
+          media: {
+            ...mediaImage,
+          },
         },
       },
-      class: 'slack',
-    },
+    };
+  },
+  withVideo(position = 'right') {
+    return {
+      ...textDefault,
+      embedMedia: {
+        entity: {
+          position,
+          media: {
+            ...mediaVideo,
+          },
+        },
+      },
+    };
   },
 };
