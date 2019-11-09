@@ -1,20 +1,14 @@
 <div class="page">
   {% if hero %}
     {% include '@storybook/paragraphs/paragraphs.html.twig' with {
-      paragraphs: [ hero ],
-      class: 'hero',
-      data: {
-        title: {
-          element: 'h1',
-          value: title
-        }
-      }
-    } %}
+      paragraphs: [hero],
+      isHero: true,
+      heroTitle: title
+    } only %}
   {% endif %}
   {% if paragraphContent %}
     {% include '@storybook/paragraphs/paragraphs.html.twig' with {
-      paragraphs: paragraphContent,
-      class: 'inner'
-    } %}
+      paragraphs: paragraphContent
+    } only %}
   {% endif %}
 </div>

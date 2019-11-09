@@ -1,13 +1,13 @@
-import { text, textWithImage } from '../../components/text/text.data';
+import { text } from '../../components/text/text.data';
 
 export const content = {
   title: 'Example Page title',
   paragraphContent: [
     {
-      entity: text,
+      entity: text.default,
     },
     {
-      entity: textWithImage,
+      entity: text.withImage,
     },
   ],
 };

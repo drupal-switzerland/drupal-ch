@@ -1,19 +1,17 @@
-<div class="page">
-  {% block header %}
-    {% if graphql.mainMenu %}
-      {% include '@storybook/header/header.html.twig' with graphql.mainMenu only %}
-    {% endif %}
-  {% endblock %}
+{% block header %}
+  {% if graphql.mainMenu %}
+    {% include '@storybook/header/header.html.twig' with graphql.mainMenu only %}
+  {% endif %}
+{% endblock %}
 
-  {% block content %}
-    <main class="page__main-content" id="main-content">
-      {{ page.content }}
-    </main>
-  {% endblock %}
+{% block content %}
+  <main id="main-content">
+    {{ page.content }}
+  </main>
+{% endblock %}
 
-  {% block footer %}
-    {% if graphql.footerMenu %}
-      {% include '@storybook/footer/footer.html.twig' with graphql.footerMenu only %}
-    {% endif %}
-  {% endblock %}
-</div>
+{% block footer %}
+  {% if graphql.footerMenu %}
+    {% include '@storybook/footer/footer.html.twig' with graphql.footerMenu only %}
+  {% endif %}
+{% endblock %}
