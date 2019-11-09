@@ -6,7 +6,7 @@ fragment ParagraphLinkBgMedia on ParagraphLinkBgMedia {
       ...Media
     }
   }
-  entityLinks: fieldPtLinkMulti {
+  links: fieldPtLinkMulti {
     entity {
       ...ParagraphLink
     }

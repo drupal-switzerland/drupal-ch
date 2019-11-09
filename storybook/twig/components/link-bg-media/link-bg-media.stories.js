@@ -4,6 +4,7 @@ import Wrapper from '../../../utils/storybook/decorators/Wrapper';
 import LinkBgMedia from './link-bg-media.html.twig';
 import { linkBgMedia } from './link-bg-media.data';
 
-storiesOf('Components|BG Media', module)
+storiesOf('Components|Link(s) with background media', module)
   .addDecorator(Wrapper)
-  .add('Link BG Media', () => LinkBgMedia({ ...linkBgMedia }));
+  .add('Default', () => LinkBgMedia({ ...linkBgMedia }))
+  .add('Without title', () => LinkBgMedia({ ...linkBgMedia, title: '' }));

@@ -1,36 +1,31 @@
-{% if class == 'inner' and media.entity is not empty %}
-  {% set class = '' %}
-{% endif %}
-{% set classes = [
-  'link-bg-media',
-  'relative',
-  class
-]|join(' ') %}
-<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="{{ classes }}">
+<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="link-bg-media invert">
   {% if media.entity is not empty %}
-    {% if media.entity.type == 'MediaImage' %}
-      {% include '@storybook/components/media-image/media-image.html.twig' with {
-        mediaImage: media.entity.mediaImage,
-        class: 'bg-media'
+    <div class="link-bg-media__media">
+      {% include '@storybook/components/embed-media/embed-media.html.twig' with {
+        media: media
       } only %}
-    {% elseif media.entity.type == 'MediaVideo' %}
-      {% include '@storybook/components/media-video/media-video.html.twig' with {
-        mediaVideo: media.entity.mediaVideo,
-        class: 'bg-media'
-      } only %}
-    {% endif %}
+    </div>
   {% endif %}
-  <div class="text__content relative">
-    {% if title and title is not empty %}
-      <h2 class="invert">{{ title }}</h2>
-    {% elseif data.title and data.title.value is not empty and data.title.element is not empty %}
-      <{{ data.title.element }}>{{ data.title.value }}</{{ data.title.element }}>
-    {% endif %}
-    {% if entityLinks is not empty %}
-      {% for entityLink in entityLinks %}
-      {% set entityLink = entityLink.entity %}
-        {% include '@storybook/components/link/link.html.twig' with entityLink only %}
-      {% endfor %}
-    {% endif %}
+
+  <div class="link-bg-media__content--wrapper inner">
+    <div class="link-bg-media__content">
+      {% if title %}
+        <h2>{{ title }}</h2>
+      {% endif %}
+
+      {% if links and links is not empty %}
+        <div class="link-bg-media__links">
+          {% for link in links %}
+            <div class="link-bg-media__link">
+              {% include '@storybook/components/link/link.html.twig' with {
+                link: link.entity.link,
+                class: link.entity.class,
+                isInvert: true
+              } only %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
   </div>
 </section>

@@ -6,4 +6,4 @@ import { manualTeaser } from './manual-teaser.data';
 
 storiesOf('Components|Teaser', module)
   .addDecorator(Wrapper)
-  .add('Manual Teaser', () => ManualTeaser({ ...manualTeaser }));
+  .add('Manual', () => ManualTeaser({ ...manualTeaser }));
