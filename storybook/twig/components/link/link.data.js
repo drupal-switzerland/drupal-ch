@@ -1,9 +1,10 @@
-const linkData = {
+export const linkData = {
   link: {
     url: {
       path: '#',
     },
-    title: 'Terms & Conditions',
+    uri: '#',
+    title: 'Learn more',
   },
 };
 

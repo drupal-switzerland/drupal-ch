@@ -1,11 +1,8 @@
-{% set classes = [
-  'action',
-  class ? 'action__icon action__icon--' ~ class : '',
-  isInvert ? 'invert' : ''
-] | join (' ') %}
-
 {% if link %}
-  <a href="{{ link.url.path }}" class="{{ classes }}">
+  <a href="{{ link.url.path }}" class="action {{ isInvert ? 'invert' : '' }}">
+    {% if class is not empty %}
+      <span class="icon {{ class }} small"></span>
+    {% endif %}
     {{ link.title }}
   </a>
 {% endif %}

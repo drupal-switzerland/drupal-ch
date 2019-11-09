@@ -5,7 +5,7 @@ import DarkWrapper from '../utils/storybook/decorators/DarkWrapper';
 import Link from '../twig/components/link/link.html.twig';
 import { link } from '../twig/components/link/link.data';
 
-storiesOf('Shared styles|Action', module)
+storiesOf('Shared styles|Actions', module)
   .addDecorator(Wrapper)
   .add(
     'Buttons',
@@ -33,7 +33,7 @@ storiesOf('Shared styles|Action', module)
     `,
   );
 
-storiesOf('Shared styles|Action', module)
+storiesOf('Shared styles|Actions', module)
   .addDecorator(Wrapper)
   .add(
     'Links',
@@ -47,7 +47,7 @@ storiesOf('Shared styles|Action', module)
     `,
   );
 
-storiesOf('Shared styles|Action', module)
+storiesOf('Shared styles|Actions', module)
   .addDecorator(DarkWrapper)
   .add(
     'Invert buttons',
@@ -75,7 +75,7 @@ storiesOf('Shared styles|Action', module)
     `,
   );
 
-storiesOf('Shared styles|Action', module)
+storiesOf('Shared styles|Actions', module)
   .addDecorator(DarkWrapper)
   .add(
     'Invert links',
