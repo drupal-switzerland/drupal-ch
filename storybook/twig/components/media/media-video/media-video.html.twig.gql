@@ -1,5 +1,5 @@
 fragment MediaVideo on MediaVideo {
   type: __typename
   name
-  entityRendered
+  video: entityRendered
 }

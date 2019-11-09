@@ -1,5 +1,6 @@
 export const mediaImage = {
   entity: {
+    type: 'MediaImage',
     mediaImage: {
       url: 'https://via.placeholder.com/640x360?text=16:9',
       alt: 'This is an alt text.',

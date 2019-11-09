@@ -1,26 +1,17 @@
-{% if paragraphs is not empty %}
-<div class="media">
-  {% for paragraph in paragraphs %}
-    {% set paragraph = paragraph.entity %}
-    {% include '@storybook/components/components.html.twig' with {
-      type: paragraph.__typename,
-      component: paragraph
-    } only %}
-  {% endfor %}
-</div>
-{% elseif image is not empty %}
-<div class="image {{ class }}">
-  {% include '@storybook/components/media-image/media-image.html.twig' with {
-    mediaImage: image.entity,
-    imageStyle: 'rectangularLarge',
-    class: class
-  } only %}
-</div>
-{% elseif video is not empty %}
-<div class="video {{ class }}">
-  {% include '@storybook/components/media-video/media-video.html.twig' with {
-    video: video,
-    class: class
-  } only %}
-</div>
+{% if entity %}
+  {% set media = entity %}
+  {% if media is not empty %}
+    <section class="embed-media">
+      {% if media.type == 'MediaImage' %}
+        {% include '@storybook/components/media/media-image/media-image.html.twig' with {
+          mediaImage: media.mediaImage,
+          imageStyle: 'rectangularLarge'
+        } only %}
+      {% elseif media.type == 'MediaVideo' %}
+        {% include '@storybook/components/media/media-video/media-video.html.twig' with media only %}
+      {% elseif media.type == 'MediaDocument' %}
+        {% include '@storybook/components/media/media-document/media-document.html.twig' with media.document.entity only %}
+      {% endif %}
+    </section>
+  {% endif %}
 {% endif %}

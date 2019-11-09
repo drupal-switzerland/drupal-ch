@@ -1,8 +1,8 @@
 fragment MediaDocument on MediaDocument {
   type: __typename
-  mediaFile: fieldMediaFile {
+  document: fieldMediaFile {
     entity {
-      ...on File {
+      ... on File {
         filename
         url
       }
