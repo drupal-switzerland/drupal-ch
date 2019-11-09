@@ -10,8 +10,12 @@
     text-align: center;
   }
 
-  &__content-text {
+  &__text {
     margin-bottom: var(--space-400);
+
+    @media (--desktop-up) {
+      width: 50%;
+    }
   }
 
   &__icon-teasers {
