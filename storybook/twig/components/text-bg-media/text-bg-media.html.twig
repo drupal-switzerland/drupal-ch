@@ -1,42 +1,29 @@
-{% if class == 'inner'
-  and media.entity is not empty
-  and text is empty
-%}
-  {% set class = '' %}
-{% endif %}
-{% set classes = [
-  'text',
-  'relative',
-  class
-]|join(' ') %}
-<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="{{ classes }}">
+<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="text-bg-media invert">
   {% if media.entity is not empty %}
-    {% if media.entity.type == 'MediaImage' %}
-      {% include '@storybook/components/media-image/media-image.html.twig' with {
-        mediaImage: media.entity.mediaImage,
-        class: 'bg-media'
+    <div class="text-bg-media__media">
+      {% include '@storybook/components/embed-media/embed-media.html.twig' with {
+        media: media
       } only %}
-    {% elseif media.entity.type == 'MediaVideo' %}
-      {% include '@storybook/components/media-video/media-video.html.twig' with {
-        mediaVideo: media.entity.mediaVideo,
-        class: 'bg-media'
-      } only %}
-    {% endif %}
+    </div>
   {% endif %}
-  <div class="text__content relative">
-    {% if title and title is not empty %}
-      <h2>{{ title }}</h2>
-    {% elseif data.title and data.title.value is not empty and data.title.element is not empty %}
-      <{{ data.title.element }}>{{ data.title.value }}</{{ data.title.element }}>
-    {% endif %}
-    {% if text and text is not empty %}
-      <div class="text__content-text">{{ text.processed | raw }}</div>
-    {% endif %}
-    {% if entityLink is not empty %}
-      {% include '@storybook/components/link/link.html.twig' with {
-        link: entityLink.entity.link,
-        class: entityLink.entity.class
-      } only %}
-    {% endif %}
+
+  <div class="text-bg-media__content--wrapper inner">
+    <div class="text-bg-media__content">
+      {% if isHero %}
+        <h1 class="text-bg-media__title">{{ heroTitle }}</h1>
+      {% else %}
+        <h2>{{ title }}</h2>
+        {% if text and text is not empty %}
+          <div class="text-bg-media__text wysiwyg">{{ text.processed | raw }}</div>
+        {% endif %}
+        {% if entityLink and entityLink is not empty %}
+          {% include '@storybook/components/link/link.html.twig' with {
+            link: entityLink.entity.link,
+            class: entityLink.entity.class,
+            isInvert: true
+          } only %}
+        {% endif %}
+      {% endif %}
+    </div>
   </div>
 </section>
