@@ -16,8 +16,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    &.right {
+      flex-flow: row-reverse;
+    }
+
     &__column {
-      flex: 1 1 50%;
+      flex: 0 1 45%;
     }
   }
 }
@@ -29,7 +33,7 @@
     justify-content: space-between;
 
     &__column {
-      flex: 0 0 33.333%;
+      flex: 0 0 30.333%;
     }
   }
 }

@@ -1,7 +1,4 @@
-<div class="image {{ class }}">
-  {% include '@storybook/components/media-image/media-image.html.twig' with {
-    mediaImage: image.entity,
-    imageStyle: 'rectangularLarge',
-    class: class
-  } only %}
-</div>
+{% include '@storybook/components/media/media-image/media-image.html.twig' with {
+  mediaImage: image.entity,
+  imageStyle: 'rectangularLarge'
+} only %}

@@ -12,7 +12,13 @@
 }
 
 @define-mixin section-padding {
-  padding: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  @media (--desktop-up) {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
 }
 
 @define-mixin aspect-ratio-16-9 {
@@ -40,7 +46,7 @@
   /* stylelint-disable no-descending-specificity */
   ol,
   ul {
-    margin-left: var(--space-300);
+    margin-left: var(--space-200);
     margin-bottom: var(--space-300);
 
     ol,
@@ -90,4 +96,33 @@
     }
   }
   /* stylelint-enable no-descending-specificity */
+}
+
+@define-mixin overlay {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    mix-blend-mode: multiply;
+    z-index: 0;
+  }
+}
+
+@define-mixin object-fit {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+  img {
+    position: absolute;
+    object-fit: cover;
+    object-position: center right;
+  }
 }

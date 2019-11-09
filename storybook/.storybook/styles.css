@@ -90,3 +90,11 @@
 .primary-dark {
   background-color: var(--primary-dark);
 }
+
+.regular {
+  @mixin font-regular;
+}
+
+.light {
+  font-weight: var(--weight-s);
+}

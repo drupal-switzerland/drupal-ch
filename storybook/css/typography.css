@@ -43,7 +43,9 @@ a:--link-states {
 
 h1,
 .h1 {
+  text-transform: uppercase;
   font-size: var(--font-xl);
+  font-weight: var(--weight-l);
 
   @media (--desktop-up) {
     font-size: var(--font-xxl);
@@ -52,7 +54,9 @@ h1,
 
 h2,
 .h2 {
+  text-transform: uppercase;
   font-size: var(--font-m);
+  font-weight: var(--weight-l);
 
   @media (--desktop-up) {
     font-size: var(--font-l);
@@ -62,6 +66,7 @@ h2,
 h3,
 .h3 {
   font-size: var(--font-s);
+  font-weight: var(--weight-l);
 
   @media (--desktop-up) {
     font-size: var(--font-m);
@@ -82,22 +87,6 @@ h5,
 h6,
 .h6 {
   font-size: var(--font-p);
-}
-
-.regular {
-  @mixin font-regular;
-}
-
-.light {
-  font-weight: var(--weight-s);
-}
-
-.bold {
-  font-weight: var(--weight-l);
-}
-
-.small {
-  font-size: var(--font-s);
 }
 
 .invert {
