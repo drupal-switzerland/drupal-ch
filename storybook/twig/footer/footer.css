@@ -1,7 +1,4 @@
 .footer {
-  @mixin section-padding;
-
-  padding-left: 0;
-  padding-right: 0;
+  padding: var(--space-400) 0;
   background-color: var(--dark-blue);
 }
