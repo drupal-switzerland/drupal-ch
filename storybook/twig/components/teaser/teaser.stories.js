@@ -6,4 +6,4 @@ import { teaser } from './teaser.data';
 
 storiesOf('Components|Teaser', module)
   .addDecorator(Wrapper)
-  .add('Teaser', () => Teaser({ ...teaser }));
+  .add('Default', () => Teaser({ ...teaser }));
