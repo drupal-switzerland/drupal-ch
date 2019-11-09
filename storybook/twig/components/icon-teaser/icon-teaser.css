@@ -1,13 +1,22 @@
 .icon-teaser {
-  @mixin component-margin;
-  @mixin section-padding;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
 
-  &__content {
-    padding-top: var(--space-200);
+  &__icon {
+    width: 64px;
+    height: 64px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--space-200);
+  }
 
-    @media (--desktop-up) {
-      padding-top: 0;
-      padding-left: var(--space-200);
-    }
+  &__title {
+    text-transform: unset;
   }
 }

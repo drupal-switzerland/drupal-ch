@@ -6,4 +6,11 @@ import { iconTeaser } from './icon-teaser.data';
 
 storiesOf('Components|Teaser', module)
   .addDecorator(Wrapper)
-  .add('Icon Teaser', () => IconTeaser({ ...iconTeaser }));
+  .add(
+    'Icon',
+    () => `
+      <div style="width: 300px;">
+        ${IconTeaser({ ...iconTeaser[0].entity })}
+      </div>
+    `,
+  );

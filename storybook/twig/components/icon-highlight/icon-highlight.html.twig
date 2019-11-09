@@ -1,4 +1,4 @@
-<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="icon-highlight {{ class }}">
+<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="icon-highlight">
   <div class="icon-highlight__content">
     {% if title is not empty %}
       <h2>{{ title }}</h2>
@@ -6,16 +6,20 @@
     {% if text is not empty %}
       <div class="icon-highlight__content-text">{{ text.processed | raw }}</div>
     {% endif %}
-    {% if icon_content %}
-      {% for paragraph in icon_content %}
-        {% set paragraph = paragraph.entity %}
-        {% include '@storybook/components/components.html.twig' with {
-          type: paragraph.type,
-          component: paragraph,
-          class: class,
-          data: data
-        } only %}
-      {% endfor %}
+    {% if iconTeasers %}
+      <div class="icon-highlight__icon-teasers">
+        {% for iconTeaser in iconTeasers %}
+          <div class="icon-highlight__icon-teaser">
+            {% include '@storybook/components/icon-teaser/icon-teaser.html.twig' with iconTeaser.entity only %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if link and link is not empty %}
+      {% include '@storybook/components/link/link.html.twig' with {
+        link: link.entity.link,
+        class: link.entity.class
+      } only %}
     {% endif %}
   </div>
 </section>

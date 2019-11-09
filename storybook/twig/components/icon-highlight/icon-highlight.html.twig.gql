@@ -4,9 +4,14 @@ fragment ParagraphIconHighlight on ParagraphIconHighlight {
   text: fieldText {
     processed
   }
-  icon_content: fieldContentIcon {
+  iconTeasers: fieldContentIcon {
     entity {
       ...ParagraphIconTeaser
+    }
+  }
+  link: fieldPtLink {
+    entity {
+      ...ParagraphLink
     }
   }
 }

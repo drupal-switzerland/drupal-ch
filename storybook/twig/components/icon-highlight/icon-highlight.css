@@ -1,13 +1,36 @@
 .icon-highlight {
-  @mixin component-margin;
   @mixin section-padding;
 
+  background-color: var(--light-grey);
+
   &__content {
-    padding-top: var(--space-200);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__content-text {
+    margin-bottom: var(--space-400);
+  }
+
+  &__icon-teasers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__icon-teaser {
+    flex: 0 0 100%;
+    margin-bottom: var(--space-700);
 
     @media (--desktop-up) {
-      padding-top: 0;
-      padding-left: var(--space-200);
+      flex-basis: 22%;
+      margin-right: 3%;
+
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 }

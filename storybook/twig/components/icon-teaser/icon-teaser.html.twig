@@ -1,15 +1,13 @@
-<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="icon-teaser {{ class }}">
-  <div class="icon-teaser__content">
+<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="icon-teaser">
+  {% if icon %}
     <div class="icon-teaser__icon">
-      {% if icon %}
-      <span class="icon-{{ icon }}"></span>
-      {% endif %}
+      <span class="icon {{ icon }}"></span>
     </div>
-    {% if title %}
-      <h2>{{ title }}</h2>
-    {% endif %}
-    {% if text %}
-      <div class="icon-teaser__content-text">{{ text.processed | raw }}</div>
-    {% endif %}
-  </div>
+  {% endif %}
+  {% if title %}
+    <h2 class="icon-teaser__title h4">{{ title }}</h2>
+  {% endif %}
+  {% if text %}
+    <div class="icon-teaser__text">{{ text.processed | raw }}</div>
+  {% endif %}
 </section>

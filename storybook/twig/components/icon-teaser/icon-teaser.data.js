@@ -1,7 +1,38 @@
-export const iconTeaser = {
-  __typename: 'ParagraphIconTeaser',
-  text: {
-    processed:
-      '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
+export const iconTeaser = [
+  {
+    entity: {
+      componentId: null,
+      type: 'ParagraphIconTeaser',
+      title: 'Open source',
+      text: {
+        processed:
+          '<p>You and a world-wide community are free to use and further improve Drupal because of its GPL license</p>',
+      },
+      icon: 'collaboration',
+    },
   },
-};
+  {
+    entity: {
+      componentId: null,
+      type: 'ParagraphIconTeaser',
+      title: 'Easy to learn',
+      text: {
+        processed:
+          '<p>Content editors and users appreciate Drupal’s focus on usability and accessibility out-of-the-box</p>',
+      },
+      icon: 'idea',
+    },
+  },
+  {
+    entity: {
+      componentId: null,
+      type: 'ParagraphIconTeaser',
+      title: 'Flexible & Powerful',
+      text: {
+        processed:
+          '<p>Thousands of contributed modules and Drupal’s flexible building blocks ensure scalable solutions</p>',
+      },
+      icon: 'jigsaw',
+    },
+  },
+];

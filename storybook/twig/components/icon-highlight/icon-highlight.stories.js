@@ -6,4 +6,4 @@ import { iconHighlight } from './icon-highlight.data';
 
 storiesOf('Components/Highlight', module)
   .addDecorator(Wrapper)
-  .add('Icon Highlight', () => IconHighlight({ ...iconHighlight }));
+  .add('Icon highlight', () => IconHighlight({ ...iconHighlight }));
