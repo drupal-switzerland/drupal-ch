@@ -13,6 +13,7 @@
   display: inline-block;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  vertical-align: middle;
 
   &.small {
     height: var(--icon-width-small);
@@ -35,5 +36,75 @@
 
   &.messages-warning {
     background-image: url(./../icons/messages-warning.svg);
+  }
+
+  /* Teaser icons. */
+  &.collaboration-blue {
+    background-image: url(./../icons/teaser/collaboration-blue.svg);
+  }
+
+  &.collaboration {
+    background-image: url(./../icons/teaser/collaboration.svg);
+  }
+
+  &.idea-blue {
+    background-image: url(./../icons/teaser/idea-blue.svg);
+  }
+
+  &.idea {
+    background-image: url(./../icons/teaser/idea.svg);
+  }
+
+  &.identity-blue {
+    background-image: url(./../icons/teaser/identity-blue.svg);
+  }
+
+  &.identity {
+    background-image: url(./../icons/teaser/identity.svg);
+  }
+
+  &.jigsaw-blue {
+    background-image: url(./../icons/teaser/jigsaw-blue.svg);
+  }
+
+  &.jigsaw {
+    background-image: url(./../icons/teaser/jigsaw.svg);
+  }
+
+  &.networking-group-blue {
+    background-image: url(./../icons/teaser/networking-group-blue.svg);
+  }
+
+  &.networking-group {
+    background-image: url(./../icons/teaser/networking-group.svg);
+  }
+
+  &.web-blue {
+    background-image: url(./../icons/teaser/web-blue.svg);
+  }
+
+  &.web {
+    background-image: url(./../icons/teaser/web.svg);
+  }
+
+  /* Social icons. */
+  &.google {
+    background-image: url('../icons/social/google.svg');
+  }
+
+  &.slack {
+    background-image: url('../icons/social/slack.svg');
+  }
+
+  &.twitter {
+    background-image: url('../icons/social/twitter.svg');
+  }
+
+  &.drupal {
+    background-image: url('../icons/social/google.svg');
+  }
+
+  &.meetup {
+    background-image: url('../icons/social/google.svg');
   }
 }

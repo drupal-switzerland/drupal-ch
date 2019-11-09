@@ -15,11 +15,22 @@ function getIcons(icons, isLogo = false) {
 }
 
 const icons = {
-  messages: [
-    'messages-check',
-    'messages-error',
-    'messages-warning',
+  messages: ['messages-check', 'messages-error', 'messages-warning'],
+  teaser: [
+    'collaboration-blue',
+    'collaboration',
+    'idea-blue',
+    'idea',
+    'identity-blue',
+    'identity',
+    'jigsaw-blue',
+    'jigsaw',
+    'networking-group-blue',
+    'networking-group',
+    'web-blue',
+    'web',
   ],
+  social: ['google', 'slack', 'twitter', 'drupal', 'meetup'],
 };
 
 storiesOf('Shared styles|Icons', module)
@@ -29,6 +40,22 @@ storiesOf('Shared styles|Icons', module)
     () => `
       <div class="icons-wrapper">
         ${getIcons(icons.messages)}
+      </div>
+    `,
+  )
+  .add(
+    'Teaser icons',
+    () => `
+      <div class="icons-wrapper">
+        ${getIcons(icons.teaser)}
+      </div>
+    `,
+  )
+  .add(
+    'Social icons',
+    () => `
+      <div class="icons-wrapper">
+        ${getIcons(icons.social)}
       </div>
     `,
   );
