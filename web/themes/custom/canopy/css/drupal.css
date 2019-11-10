@@ -17,3 +17,20 @@
 #block-canopy-branding {
   width: 10em;
 }
+
+#block-canopy-content > form,
+#block-canopy-page-title,
+#block-canopy-local-tasks {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto !important;
+  padding: 0 16px !important;
+}
+
+@media (min-width: 1024px) {
+  #block-canopy-content > form,
+  #block-canopy-page-title,
+  #block-canopy-local-tasks {
+    padding: 0 32px !important;
+  }
+}
