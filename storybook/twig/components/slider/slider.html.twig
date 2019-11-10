@@ -1,8 +1,10 @@
-<zi-slider class="slider swiper-container">
-  <div {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="swiper-wrapper">
-    {% include '@storybook/components/slider/slide/slide.html.twig' with {
-      slider: slider
-    } only %}
+<ds-slider {{ componentId ? 'id='~ (componentId | clean_class) : '' }}>
+  <div class="slider swiper-container">
+    <div class="swiper-wrapper">
+      {% for slide in slider %}
+        {% include '@storybook/components/slider/slide/slide.html.twig' with slide.entity only %}
+      {% endfor %}
+    </div>
+    <div class="swiper-pagination inner"></div>
   </div>
-  <div class="swiper-pagination"></div>
-</zi-slider>
+</ds-slider>

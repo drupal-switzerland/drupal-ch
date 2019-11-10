@@ -8,7 +8,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
  */
 const javascript = {
   test: /\.(ts|js)$/,
-  exclude: /node_modules/,
+  exclude: /node_modules\/(?!(lit-html|@polymer)\/).*/,
   use: [
     {
       loader: 'babel-loader',
@@ -27,6 +27,7 @@ const javascript = {
             '@babel/plugin-proposal-decorators',
             { decoratorsBeforeExport: true },
           ],
+          '@babel/plugin-transform-classes',
           ['@babel/proposal-class-properties', { loose: true }],
           '@babel/proposal-object-rest-spread',
         ],

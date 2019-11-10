@@ -1,3 +1,26 @@
-.slide {
+@import '../../../../../node_modules/swiper/css/swiper.css';
 
+.slide {
+  @mixin section-padding;
+  @mixin overlay;
+
+  background-color: var(--dark-blue);
+
+  &__content {
+    @mixin section-padding;
+
+    position: relative;
+    z-index: 1;
+
+    .right & {
+      text-align: right;
+      align-items: flex-end;
+      display: flex;
+      flex-flow: column;
+    }
+  }
+
+  &__image {
+    @mixin object-fit;
+  }
 }

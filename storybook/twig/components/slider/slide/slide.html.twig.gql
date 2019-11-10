@@ -1,5 +1,6 @@
 fragment ParagraphSlide on ParagraphSlide {
-  metatitle: fieldMetaTitle
+  title: fieldTitle
+  tagline: fieldMetaEyebrow
   link: fieldLink {
     title
     url {

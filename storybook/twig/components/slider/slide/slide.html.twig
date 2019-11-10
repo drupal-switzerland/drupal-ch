@@ -1,12 +1,23 @@
-{% for slide in slider %}
-  <div class="swiper-slide slide" data-slide-index="slide-{{ loop.index }}">
-    <div class="slide__image">
-      <img src="{{ slide.entity.image.entity.url }}" alt="{{ slide.entity.image.alt }}"/>
+<div class="swiper-slide slide">
+  <div class="inner invert two-columns {{ position }}">
+    <div class="two-columns__column slide__content">
+      {% include '@storybook/components/tagline/tagline.html.twig' with {
+        tagline: tagline,
+        title: title
+      } only %}
+      {% if link and link is not empty %}
+        {% include '@storybook/components/link/link.html.twig' with {
+          link: link,
+          isInvert: true
+        } only %}
+      {% endif %}
     </div>
-    <div class="slide__content {{ slide.entity.imagePosition }}">
-      <h2 class="h1">{{ slide.entity.fieldSlideTitle }}</h2>
-      {{ slide.entity.description.processed | raw }}
-      <a href="{{ slide.entity.slideCta.url.path }}" class="button button--blue">{{ slide.entity.slideCta.title }}</a>
-    </div>
+    {% if media is not empty %}
+      <div class="slide__image two-columns__column">
+        {% include '@storybook/components/embed-media/embed-media.html.twig' with {
+          media: media
+        } only %}
+      </div>
+    {% endif %}
   </div>
-{% endfor %}
+</div>
