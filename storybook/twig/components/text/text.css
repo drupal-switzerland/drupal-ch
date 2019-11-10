@@ -14,15 +14,14 @@
   }
 
   &__media {
-    padding-top: var(--space-500);
-    padding-left: var(--space-500);
-
     @media (--desktop-down) {
       margin-bottom: var(--space-700);
     }
 
     &--image {
       position: relative;
+      padding-top: var(--space-500);
+      padding-left: var(--space-500);
 
       &::after {
         content: '';
