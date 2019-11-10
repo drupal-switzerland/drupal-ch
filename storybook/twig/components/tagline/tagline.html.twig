@@ -1,6 +1,2 @@
-{% set classes = [
-  'tagline__title',
-  variant == 'small' ? 'tagline__title--small' : ''
-]|join(' ') %}
-<div class="tagline__tag">{{ tagline }}</div>
-<h2 class="{{ classes }}">{{ title }}</h2>
+<p class="tagline__tag tag">{{ tagline }}</p>
+<h2 class="tagline__title {{ variant == 'small' ? 'h3' : 'h2' }}">{{ title }}</h2>

@@ -1,11 +1,11 @@
 export const tagline = {
   large: {
-    __typename: 'Tagline',
+    type: 'Tagline',
     tagline: 'Sample Tagline',
     title: 'Some title',
   },
   small: {
-    __typename: 'Tagline',
+    type: 'Tagline',
     tagline: 'Sample Tagline',
     title: 'Some title',
     variant: 'small',

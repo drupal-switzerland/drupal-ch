@@ -27,7 +27,7 @@
       &::after {
         content: '';
         display: block;
-        border: 6px solid var(--primary);
+        border: 6px solid var(--blue);
         top: 0;
         left: 0;
         right: var(--space-500);

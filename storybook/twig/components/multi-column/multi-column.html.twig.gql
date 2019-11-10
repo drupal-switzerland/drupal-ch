@@ -1,7 +1,7 @@
 fragment ParagraphMultiColumn on ParagraphMultiColumn {
   column: fieldColumn {
     entity {
-      __typename
+      type: __typename
       ...ParagraphText
       ...ParagraphMedia
     }

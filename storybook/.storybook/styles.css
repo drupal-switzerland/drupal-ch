@@ -83,18 +83,6 @@
   background-color: var(--red);
 }
 
-.primary {
-  background-color: var(--primary);
-}
-
-.primary-dark {
-  background-color: var(--primary-dark);
-}
-
-.regular {
-  @mixin font-regular;
-}
-
 .light {
   font-weight: var(--weight-s);
 }

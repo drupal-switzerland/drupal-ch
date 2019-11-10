@@ -22,7 +22,7 @@
 
     &.active {
       color: var(--dark-blue);
-      border-color: var(--primary);
+      border-color: var(--blue);
     }
   }
 }

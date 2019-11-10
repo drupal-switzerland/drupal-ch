@@ -9,7 +9,7 @@ storiesOf('Shared styles|Element styles', module)
       <div class="two-columns">
         <div class="two-columns__column">
           <div class="wysiwyg">
-            <h2>Ordered lists</h2>
+            <h1 class="h4"><u>Ordered lists:</u></h1>
             <ol>
               <li>Lorem ipsum dolor sit amet</li>
               <li>Consectetur adipiscing elit</li>
@@ -38,7 +38,7 @@ storiesOf('Shared styles|Element styles', module)
         </div>
         <div class="two-columns__column">
           <div class="wysiwyg">
-            <h2>Unordered lists</h2>
+            <h1 class="h4"><u>Unordered lists:</u></h1>
             <ul>
               <li>Lorem ipsum dolor sit amet</li>
               <li>Consectetur adipiscing elit</li>

@@ -1,40 +1,5 @@
 .tagline {
-  &__tag {
-    font-size: var(--font-xxs);
-    font-weight: var(--weight-l);
-    color: var(--dark-blue);
-    letter-spacing: var(--letter-spacing-extended);
-    margin-left: 32px;
-    position: relative;
-
-    &::before {
-      content: "";
-      display: inline-block;
-      position: absolute;
-      left: -32px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 20px;
-      border-top: 2px solid var(--dark-blue);
-    }
-  }
-
   &__title {
-    font-weight: var(--weight-l);
     color: var(--dark-blue);
-    letter-spacing: var(--letter-spacing-medium);
-    font-size: var(--font-l);
-
-    @media (--desktop-up) {
-      font-size: var(--font-xl);
-    }
-
-    &--small {
-      font-size: var(--font-m);
-
-      @media (--desktop-up) {
-        font-size: var(--font-l);
-      }
-    }
   }
 }

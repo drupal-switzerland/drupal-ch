@@ -1,4 +1,4 @@
 export const teaser = {
-  __typename: 'ParagraphTeaser',
+  type: 'ParagraphTeaser',
   title: 'Code of Conduct',
 };

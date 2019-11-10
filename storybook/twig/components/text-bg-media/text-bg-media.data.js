@@ -3,7 +3,7 @@ import { linkData } from '../link/link.data';
 import { mediaImage } from '../media/media-image/media-image.data';
 
 export const textBgMedia = {
-  __typename: 'ParagraphTextBgMedia',
+  type: 'ParagraphTextBgMedia',
   text,
   title: 'Drupal Switzerland',
   heroTitle: 'Drupal Switzerland',
