@@ -6,8 +6,8 @@ dependencies:
     - field.field.paragraph.slide.field_link
     - field.field.paragraph.slide.field_media
     - field.field.paragraph.slide.field_meta_eyebrow
-    - field.field.paragraph.slide.field_meta_title
     - field.field.paragraph.slide.field_position
+    - field.field.paragraph.slide.field_title
     - paragraphs.paragraphs_type.slide
   module:
     - link
@@ -33,14 +33,6 @@ content:
     type: media_library_widget
     region: content
   field_meta_eyebrow:
-    weight: 1
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_meta_title:
     weight: 2
     settings:
       size: 60
@@ -53,6 +45,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true

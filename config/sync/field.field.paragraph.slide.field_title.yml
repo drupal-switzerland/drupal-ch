@@ -1,18 +1,18 @@
-uuid: 231a7d9f-2e4f-4146-8b2c-e674d47a5011
+uuid: a1faed66-f175-41cd-9105-56273cdfd1be
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_meta_title
+    - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.slide
-id: paragraph.slide.field_meta_title
-field_name: field_meta_title
+id: paragraph.slide.field_title
+field_name: field_title
 entity_type: paragraph
 bundle: slide
-label: 'Meta Title'
+label: Title
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
