@@ -8,7 +8,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
  */
 const javascript = {
   test: /\.(ts|js)$/,
-  exclude: /node_modules\/(?!(lit-html|@polymer|swiper)\/).*/,
+  exclude: /node_modules\/(?!(lit-html|lit-element|swiper)\/).*/,
   use: [
     {
       loader: 'babel-loader',
