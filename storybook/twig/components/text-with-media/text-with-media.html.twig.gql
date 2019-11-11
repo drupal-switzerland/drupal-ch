@@ -1,0 +1,12 @@
+fragment ParagraphTextWithMedia on ParagraphTextWithMedia {
+  text: fieldTwmText {
+    entity {
+      ...ParagraphText
+    }
+  }
+  embedMedia: fieldTwmMedia {
+    entity {
+      ...ParagraphEmbedMedia
+    }
+  }
+}

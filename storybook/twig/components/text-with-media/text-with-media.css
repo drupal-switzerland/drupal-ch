@@ -1,0 +1,32 @@
+.text-with-media {
+  &.inner {
+    @mixin section-padding;
+  }
+
+  &__media {
+    @media (--desktop-down) {
+      margin-bottom: var(--space-700);
+    }
+
+    &--image {
+      position: relative;
+      padding-top: var(--space-500);
+      padding-left: var(--space-500);
+
+      &::after {
+        content: '';
+        display: block;
+        border: 6px solid var(--blue);
+        top: 0;
+        left: 0;
+        right: var(--space-500);
+        bottom: var(--space-500);
+        position: absolute;
+      }
+    }
+  }
+
+  .text.inner {
+    padding: 0;
+  }
+}

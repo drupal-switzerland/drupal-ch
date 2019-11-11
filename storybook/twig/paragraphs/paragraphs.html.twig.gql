@@ -14,4 +14,5 @@ fragment Paragraph on Paragraph {
   ...ParagraphTeaser
   ...ParagraphText
   ...ParagraphTextBgMedia
+  ...ParagraphTextWithMedia
 }
