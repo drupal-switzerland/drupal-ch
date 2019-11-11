@@ -18,6 +18,7 @@
   width: 10em;
 }
 
+div[data-drupal-messages],
 #block-canopy-content > form,
 #block-canopy-page-title,
 #block-canopy-local-tasks {
@@ -28,6 +29,7 @@
 }
 
 @media (min-width: 1024px) {
+  div[data-drupal-messages],
   #block-canopy-content > form,
   #block-canopy-page-title,
   #block-canopy-local-tasks {
