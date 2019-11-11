@@ -1,7 +1,7 @@
 <ds-slider {{ componentId ? 'id='~ (componentId | clean_class) : '' }}>
   <div class="slider swiper-container">
     <div class="swiper-wrapper">
-      {% for slide in slider %}
+      {% for slide in sliderSlides %}
         {% include '@storybook/components/slider/slide/slide.html.twig' with slide.entity only %}
       {% endfor %}
     </div>

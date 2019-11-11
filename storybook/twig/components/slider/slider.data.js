@@ -4,7 +4,7 @@ import { mediaImage } from '../media/media-image/media-image.data';
 export const slider = {
   type: 'ParagraphSlider',
   componentId: null,
-  slider: [
+  sliderSlides: [
     {
       entity: {
         ...link,

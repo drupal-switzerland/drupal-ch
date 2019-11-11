@@ -1,7 +1,7 @@
 <zi-slider class="slider swiper-container">
   <div {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="swiper-wrapper">
     {% include '@storybook/components/highlight-slider/highlight-slide/highlight-slide.html.twig' with {
-      slider: slider
+      slider: highLightslides
     } only %}
   </div>
   <div class="swiper-pagination"></div>
