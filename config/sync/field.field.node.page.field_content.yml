@@ -69,6 +69,9 @@ settings:
       image:
         weight: 19
         enabled: false
+      text_with_media:
+        weight: 20
+        enabled: false
       link:
         enabled: true
         weight: 20

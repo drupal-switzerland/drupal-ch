@@ -1,0 +1,85 @@
+uuid: d1dc15a6-ad8d-4b1b-8350-b27807db433c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_twm_text
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.text_with_media
+  module:
+    - entity_reference_revisions
+id: paragraph.text_with_media.field_twm_text
+field_name: field_twm_text
+entity_type: paragraph
+bundle: text_with_media
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      text: text
+    target_bundles_drag_drop:
+      embed_media:
+        weight: 20
+        enabled: false
+      gallery:
+        weight: 21
+        enabled: false
+      highlight:
+        weight: 22
+        enabled: false
+      highlight_slide:
+        weight: 23
+        enabled: false
+      highlight_slider:
+        weight: 24
+        enabled: false
+      icon_highlight:
+        weight: 25
+        enabled: false
+      icon_teaser:
+        weight: 26
+        enabled: false
+      image:
+        weight: 27
+        enabled: false
+      link:
+        weight: 28
+        enabled: false
+      link_bg_media:
+        weight: 29
+        enabled: false
+      manual_teaser:
+        weight: 30
+        enabled: false
+      media:
+        weight: 31
+        enabled: false
+      multi_column:
+        weight: 32
+        enabled: false
+      slide:
+        weight: 33
+        enabled: false
+      slider:
+        weight: 34
+        enabled: false
+      teaser:
+        weight: 35
+        enabled: false
+      text:
+        enabled: true
+        weight: 36
+      text_bg_media:
+        weight: 37
+        enabled: false
+      text_with_media:
+        weight: 38
+        enabled: false
+field_type: entity_reference_revisions

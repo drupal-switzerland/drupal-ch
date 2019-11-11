@@ -8,6 +8,10 @@
       justify-content: center;
       text-align: center;
     }
+
+    .two-columns__column {
+      flex-basis: 50%;
+    }
   }
 
   &__with-title {

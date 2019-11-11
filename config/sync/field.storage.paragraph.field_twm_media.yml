@@ -1,12 +1,12 @@
-uuid: 0eeed8d2-4e9f-4a9c-a2da-ae5fd93c1ac6
+uuid: f43bb1a8-0f04-4cac-9c09-7aad9b3485c8
 langcode: en
 status: true
 dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
-id: paragraph.field_embed_media
-field_name: field_embed_media
+id: paragraph.field_twm_media
+field_name: field_twm_media
 entity_type: paragraph
 type: entity_reference_revisions
 settings:

@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.text.field_embed_media
     - field.field.paragraph.text.field_meta_eyebrow
     - field.field.paragraph.text.field_paragraph_id
     - field.field.paragraph.text.field_pt_link
@@ -18,15 +17,6 @@ targetEntityType: paragraph
 bundle: text
 mode: default
 content:
-  field_embed_media:
-    type: entity_reference_revisions_entity_view
-    weight: 4
-    label: hidden
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    region: content
   field_meta_eyebrow:
     weight: 0
     label: hidden
