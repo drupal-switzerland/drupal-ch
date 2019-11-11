@@ -1,4 +1,4 @@
-<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="text-bg-media invert">
+<section {{ componentId ? 'id=' ~ (componentId | clean_class) : '' }} class="text-bg-media invert">
   {% if media.entity is not empty %}
     <div class="text-bg-media__media">
       {% include '@storybook/components/embed-media/embed-media.html.twig' with {
@@ -16,12 +16,14 @@
         {% if text and text is not empty %}
           <div class="text-bg-media__text wysiwyg">{{ text.processed | raw }}</div>
         {% endif %}
-        {% if link and link is not empty %}
-          {% include '@storybook/components/link/link.html.twig' with {
-            link: link.entity.link,
-            class: link.entity.class,
-            isInvert: true
-          } only %}
+        {% if link.entity.link and link.entity.link is not empty %}
+          <div class="text-bg-media__action">
+            {% include '@storybook/components/link/link.html.twig' with {
+              link: link.entity.link,
+              class: link.entity.class,
+              isInvert: true
+            } only %}
+          </div>
         {% endif %}
       {% endif %}
     </div>

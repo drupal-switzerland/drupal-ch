@@ -3,14 +3,6 @@
   font-weight: var(--weight-m);
 }
 
-@define-mixin component-margin {
-  margin: var(--space-500) 0;
-
-  @media (--desktop-up) {
-    margin: var(--space-1200) 0;
-  }
-}
-
 @define-mixin section-padding {
   padding-top: 3em;
   padding-bottom: 3em;

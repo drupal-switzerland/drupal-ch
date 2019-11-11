@@ -1,4 +1,4 @@
-<section {{ componentId ? 'id='~ (componentId | clean_class) : '' }} class="icon-highlight">
+<section {{ componentId ? 'id=' ~ (componentId | clean_class) : '' }} class="icon-highlight">
   <div class="icon-highlight__content inner">
     {% if title is not empty %}
       <h2 class="h3">{{ title }}</h2>
@@ -15,7 +15,7 @@
         {% endfor %}
       </div>
     {% endif %}
-    {% if link and link is not empty %}
+    {% if link and link.entity is not empty %}
       {% include '@storybook/components/link/link.html.twig' with {
         link: link.entity.link,
         class: link.entity.class

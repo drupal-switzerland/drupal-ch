@@ -1,5 +1,4 @@
 .manual-teaser {
-  @mixin component-margin;
   @mixin section-padding;
 
   &__content {

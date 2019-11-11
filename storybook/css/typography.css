@@ -127,4 +127,8 @@ h6,
 
 .wysiwyg {
   @mixin list;
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
 }

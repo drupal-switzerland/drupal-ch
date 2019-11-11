@@ -2,4 +2,8 @@
   &.inner {
     @mixin section-padding;
   }
+
+  &__action {
+    margin-top: var(--space-300);
+  }
 }
