@@ -3,6 +3,8 @@
   {% include '@storybook/components/gallery/gallery.html.twig' with component %}
 {% elseif type == 'ParagraphHighlight' %}
   {% include '@storybook/components/highlight/highlight.html.twig' with component %}
+{% elseif type == 'ParagraphHighlightSlider' %}
+  {% include '@storybook/components/highlight-slider/highlight-slider.html.twig' with component %}
 {% elseif type == 'ParagraphIconHighlight' %}
   {% include '@storybook/components/icon-highlight/icon-highlight.html.twig' with component %}
 {% elseif type == 'ParagraphIconTeaser' %}

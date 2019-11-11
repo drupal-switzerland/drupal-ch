@@ -1,0 +1,12 @@
+{% for slide in slider %}
+  <div class="swiper-slide slide" data-slide-index="slide-{{ loop.index }}">
+    <div class="slide__image">
+      <img src="{{ slide.entity.image.entity.url }}" alt="{{ slide.entity.image.alt }}"/>
+    </div>
+    <div class="slide__content {{ slide.entity.imagePosition }}">
+      <h2 class="h1">{{ slide.entity.fieldSlideTitle }}</h2>
+      {{ slide.entity.description.processed | raw }}
+      <a href="{{ slide.entity.slideCta.url.path }}" class="button button--blue">{{ slide.entity.slideCta.title }}</a>
+    </div>
+  </div>
+{% endfor %}

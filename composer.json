@@ -18,20 +18,20 @@
     "require": {
         "ext-json": "*",
         "amazeelabs/silverback": "dev-master",
-        "drupal-composer/drupal-scaffold": "^2.5",
-        "drupal/address": "~1.0",
+        "drupal-composer/drupal-scaffold": "^2.6",
+        "drupal/address": "^1.7",
         "drupal/claro": "^1.0@beta",
         "drupal/config_ignore": "^2.1",
         "drupal/gin": "^1.0@alpha",
         "drupal/graphql": "^3.0",
-        "drupal/menu_item_extras": "^2.6",
-        "drupal/metatag": "^1.7",
-        "drupal/paragraphs": "^1.9",
-        "drupal/pathauto": "^1.3",
-        "drupal/search_api": "1.14.0",
-        "drupal/simple_sitemap": "^3.0",
+        "drupal/menu_item_extras": "^2.8",
+        "drupal/metatag": "^1.10",
+        "drupal/paragraphs": "^1.10",
+        "drupal/pathauto": "^1.5",
+        "drupal/search_api": "^1.15",
+        "drupal/simple_sitemap": "^3.4",
         "drupal/upgrade_status": "^1.1",
-        "drupal/video_embed_field": "^2.1"
+        "drupal/video_embed_field": "^2.2"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev": "^8.6.0"

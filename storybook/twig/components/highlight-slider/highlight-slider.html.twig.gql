@@ -1,0 +1,8 @@
+fragment ParagraphHighlightSlider on ParagraphHighlightSlider {
+  componentId: fieldParagraphId
+  slider: fieldContent {
+    entity {
+      ...ParagraphHighlightSlide
+    }
+  }
+}
