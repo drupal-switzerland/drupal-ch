@@ -6,8 +6,6 @@ import { text } from './text.data';
 
 storiesOf('Components|Text', module)
   .addDecorator(Wrapper)
-  .add('Without media', () => Text({ ...text.default }))
-  .add('With image on right', () => Text({ ...text.withImage() }))
-  .add('With image on left', () => Text({ ...text.withImage('left') }))
-  .add('With video on right', () => Text({ ...text.withVideo() }))
-  .add('With video on left', () => Text({ ...text.withVideo('left') }));
+  .add('Default', () => Text({ ...text.withTitle }))
+  .add('With link', () => Text({ ...text.withLink }))
+  .add('Without title', () => Text({ ...text.withoutTitle }));

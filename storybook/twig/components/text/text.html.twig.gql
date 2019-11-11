@@ -5,11 +5,6 @@ fragment ParagraphText on ParagraphText {
   text: fieldText {
     processed
   }
-  embedMedia: fieldEmbedMedia {
-    entity {
-      ...ParagraphEmbedMedia
-    }
-  }
   entityLink: fieldPtLink {
     entity {
       ...ParagraphLink

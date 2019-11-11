@@ -1,6 +1,4 @@
 import { linkData } from '../link/link.data';
-import { mediaImage } from '../media/media-image/media-image.data';
-import { mediaVideo } from '../media/media-video/media-video.data';
 
 export const textData = {
   processed:
@@ -16,41 +14,23 @@ const textDefault = {
   text: {
     processed: `${textData.processed}${list}`,
   },
-  entityLink: {
-    entity: {
-      ...linkData,
-    },
-  },
 };
 
 export const text = {
-  default: {
+  withTitle: {
     ...textDefault,
   },
-  withImage(position = 'right') {
-    return {
-      ...textDefault,
-      embedMedia: {
-        entity: {
-          position,
-          media: {
-            ...mediaImage,
-          },
-        },
-      },
-    };
+  withoutTitle: {
+    ...textDefault,
+    title: null,
+    tagline: null,
   },
-  withVideo(position = 'right') {
-    return {
-      ...textDefault,
-      embedMedia: {
-        entity: {
-          position,
-          media: {
-            ...mediaVideo,
-          },
-        },
+  withLink: {
+    ...textDefault,
+    entityLink: {
+      entity: {
+        ...linkData,
       },
-    };
+    },
   },
 };
