@@ -1,0 +1,15 @@
+fragment ParagraphHighlightSlide on ParagraphHighlightSlide {
+  metatitle: fieldMetaTitle
+  entityLink: fieldPtLink {
+    entity {
+      ...ParagraphLink
+    }
+  }
+  media: fieldMediaMulti {
+    entity {
+      ...MediaImage
+      ...MediaVideo
+    }
+  }
+  position: fieldPosition
+}
