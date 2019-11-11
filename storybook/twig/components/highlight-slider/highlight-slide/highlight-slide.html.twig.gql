@@ -1,5 +1,6 @@
 fragment ParagraphHighlightSlide on ParagraphHighlightSlide {
-  metatitle: fieldMetaTitle
+  title: fieldTitle
+  tagline: fieldMetaEyebrow
   entityLink: fieldPtLink {
     entity {
       ...ParagraphLink
@@ -7,8 +8,7 @@ fragment ParagraphHighlightSlide on ParagraphHighlightSlide {
   }
   media: fieldMediaMulti {
     entity {
-      ...MediaImage
-      ...MediaVideo
+      ...Media
     }
   }
   position: fieldPosition

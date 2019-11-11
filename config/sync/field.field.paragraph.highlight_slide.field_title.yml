@@ -1,15 +1,15 @@
-uuid: a4166765-a170-469d-9cf1-4c2362dc6651
+uuid: 6b4b5e27-e23b-4501-8770-e6bc2f424bfb
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_meta_title
+    - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.highlight_slide
-id: paragraph.highlight_slide.field_meta_title
-field_name: field_meta_title
+id: paragraph.highlight_slide.field_title
+field_name: field_title
 entity_type: paragraph
 bundle: highlight_slide
-label: 'Meta Title'
+label: Title
 description: ''
 required: false
 translatable: true

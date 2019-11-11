@@ -5,9 +5,9 @@ dependencies:
   config:
     - field.field.paragraph.highlight_slide.field_media_multi
     - field.field.paragraph.highlight_slide.field_meta_eyebrow
-    - field.field.paragraph.highlight_slide.field_meta_title
     - field.field.paragraph.highlight_slide.field_position
     - field.field.paragraph.highlight_slide.field_pt_link
+    - field.field.paragraph.highlight_slide.field_title
     - paragraphs.paragraphs_type.highlight_slide
   module:
     - media_library
@@ -25,15 +25,7 @@ content:
     third_party_settings: {  }
     region: content
   field_meta_eyebrow:
-    weight: 1
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_meta_title:
-    weight: 0
+    weight: 2
     settings:
       size: 60
       placeholder: ''
@@ -41,13 +33,13 @@ content:
     type: string_textfield
     region: content
   field_position:
-    weight: 3
+    weight: 5
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_pt_link:
-    weight: 2
+    weight: 3
     settings:
       title: Link
       title_plural: Link
@@ -64,6 +56,14 @@ content:
         add_above: '0'
     third_party_settings: {  }
     type: paragraphs
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true

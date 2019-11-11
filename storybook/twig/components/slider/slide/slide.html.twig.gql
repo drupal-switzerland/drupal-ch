@@ -9,8 +9,7 @@ fragment ParagraphSlide on ParagraphSlide {
   }
   media: fieldMedia {
     entity {
-      ...MediaImage
-      ...MediaVideo
+      ...Media
     }
   }
   position: fieldPosition

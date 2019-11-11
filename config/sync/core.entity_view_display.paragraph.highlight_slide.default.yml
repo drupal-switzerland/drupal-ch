@@ -5,9 +5,9 @@ dependencies:
   config:
     - field.field.paragraph.highlight_slide.field_media_multi
     - field.field.paragraph.highlight_slide.field_meta_eyebrow
-    - field.field.paragraph.highlight_slide.field_meta_title
     - field.field.paragraph.highlight_slide.field_position
     - field.field.paragraph.highlight_slide.field_pt_link
+    - field.field.paragraph.highlight_slide.field_title
     - paragraphs.paragraphs_type.highlight_slide
   module:
     - entity_reference_revisions
@@ -33,14 +33,6 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_meta_title:
-    weight: 1
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
   field_pt_link:
     weight: 2
     label: hidden
@@ -49,6 +41,14 @@ content:
       link: ''
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
+    region: content
+  field_title:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
 hidden:
   field_position: true
