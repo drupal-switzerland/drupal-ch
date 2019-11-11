@@ -33,7 +33,7 @@
     justify-content: space-between;
 
     &__column {
-      flex: 0 0 30.333%;
+      flex: 0 1 30.333%;
     }
   }
 }
