@@ -16,10 +16,10 @@
         {% if text and text is not empty %}
           <div class="text-bg-media__text wysiwyg">{{ text.processed | raw }}</div>
         {% endif %}
-        {% if entityLink and entityLink is not empty %}
+        {% if link and link is not empty %}
           {% include '@storybook/components/link/link.html.twig' with {
-            link: entityLink.entity.link,
-            class: entityLink.entity.class,
+            link: link.entity.link,
+            class: link.entity.class,
             isInvert: true
           } only %}
         {% endif %}

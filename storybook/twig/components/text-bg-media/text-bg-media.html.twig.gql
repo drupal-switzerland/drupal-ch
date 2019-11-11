@@ -9,7 +9,7 @@ fragment ParagraphTextBgMedia on ParagraphTextBgMedia {
       ...Media
     }
   }
-  entityLink: fieldPtLink {
+  link: fieldPtLink {
     entity {
       ...ParagraphLink
     }

@@ -5,7 +5,7 @@ fragment ParagraphText on ParagraphText {
   text: fieldText {
     processed
   }
-  entityLink: fieldPtLink {
+  link: fieldPtLink {
     entity {
       ...ParagraphLink
     }

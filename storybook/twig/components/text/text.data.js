@@ -27,7 +27,7 @@ export const text = {
   },
   withLink: {
     ...textDefault,
-    entityLink: {
+    link: {
       entity: {
         ...linkData,
       },

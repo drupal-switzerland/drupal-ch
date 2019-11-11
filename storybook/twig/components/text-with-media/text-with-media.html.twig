@@ -1,9 +1,9 @@
 <section class="text-with-media inner">
-  <div class="two-columns {{ embedMedia.entity.position }}">
+  <div class="two-columns {{ media.entity.position }}">
     <div class="two-columns__column">
-      {% if embedMedia %}
-        <div class="text-with-media__media {{ embedMedia.entity.media.entity.type == 'MediaImage' ? 'text-with-media__media--image' : '' }}">
-          {% include '@storybook/components/embed-media/embed-media.html.twig' with embedMedia.entity only %}
+      {% if media %}
+        <div class="text-with-media__media {{ media.entity.media.entity.type == 'MediaImage' ? 'text-with-media__media--image' : '' }}">
+          {% include '@storybook/components/embed-media/embed-media.html.twig' with media.entity only %}
         </div>
       {% endif %}
     </div>

@@ -11,10 +11,10 @@
     <div class="text__content-text wysiwyg">{{ text.processed | raw }}</div>
   {% endif %}
 
-  {% if entityLink is not empty %}
+  {% if link is not empty %}
     {% include '@storybook/components/link/link.html.twig' with {
-      link: entityLink.entity.link,
-      class: entityLink.entity.class
+      link: link.entity.link,
+      class: link.entity.class
     } only %}
   {% endif %}
 </section>

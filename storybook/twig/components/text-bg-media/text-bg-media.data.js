@@ -9,7 +9,7 @@ const textBgMediaData = {
   media: {
     ...mediaImage,
   },
-  entityLink: {
+  link: {
     entity: {
       ...linkData,
     },

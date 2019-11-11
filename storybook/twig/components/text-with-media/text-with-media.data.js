@@ -15,7 +15,7 @@ export const textWithMedia = {
   withImage(position = 'right') {
     return {
       ...textWithMediaData,
-      embedMedia: {
+      media: {
         entity: {
           position,
           media: {
@@ -28,7 +28,7 @@ export const textWithMedia = {
   withVideo(position = 'right') {
     return {
       ...textWithMediaData,
-      embedMedia: {
+      media: {
         entity: {
           position,
           media: {

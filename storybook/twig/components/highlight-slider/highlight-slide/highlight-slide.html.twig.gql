@@ -1,7 +1,7 @@
 fragment ParagraphHighlightSlide on ParagraphHighlightSlide {
   title: fieldTitle
   tagline: fieldMetaEyebrow
-  entityLink: fieldPtLink {
+  link: fieldPtLink {
     entity {
       ...ParagraphLink
     }
