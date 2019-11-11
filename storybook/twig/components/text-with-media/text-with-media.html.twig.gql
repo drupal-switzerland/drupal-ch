@@ -1,4 +1,5 @@
 fragment ParagraphTextWithMedia on ParagraphTextWithMedia {
+  type: __typename
   text: fieldTwmText {
     entity {
       ...ParagraphText

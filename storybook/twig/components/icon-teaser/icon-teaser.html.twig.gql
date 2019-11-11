@@ -1,6 +1,5 @@
 fragment ParagraphIconTeaser on ParagraphIconTeaser {
   componentId: fieldParagraphId
-  type: __typename
   title: fieldTitle
   text: fieldText {
     processed

@@ -6,5 +6,7 @@ import { textBgMedia } from './text-bg-media.data';
 
 storiesOf('Components|Text with background media', module)
   .addDecorator(Wrapper)
-  .add('Default', () => TextBgMedia({ ...textBgMedia }))
-  .add('As hero', () => TextBgMedia({ ...textBgMedia, isHero: true }));
+  .add('Default', () => TextBgMedia({ ...textBgMedia.default }))
+  .add('As hero', () => TextBgMedia({
+    ...textBgMedia.asHero,
+  }));
