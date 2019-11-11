@@ -31,7 +31,8 @@
         "drupal/search_api": "^1.15",
         "drupal/simple_sitemap": "^3.4",
         "drupal/upgrade_status": "^1.1",
-        "drupal/video_embed_field": "^2.2"
+        "drupal/video_embed_field": "^2.2",
+        "zaporylie/composer-drupal-optimizations": "^1.1"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev": "^8.6.0"
