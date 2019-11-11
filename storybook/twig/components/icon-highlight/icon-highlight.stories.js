@@ -4,6 +4,6 @@ import Wrapper from '../../../utils/storybook/decorators/Wrapper';
 import IconHighlight from './icon-highlight.html.twig';
 import { iconHighlight } from './icon-highlight.data';
 
-storiesOf('Components/Highlight', module)
+storiesOf('Components/Icon Highlight', module)
   .addDecorator(Wrapper)
-  .add('Icon highlight', () => IconHighlight({ ...iconHighlight }));
+  .add('Default', () => IconHighlight({ ...iconHighlight }));

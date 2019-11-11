@@ -6,4 +6,5 @@ import { highlight } from './highlight.data';
 
 storiesOf('Components/Highlight', module)
   .addDecorator(Wrapper)
-  .add('Highlight', () => Highlight({ ...highlight }));
+  .add('Default', () => Highlight({ ...highlight.withTitle }))
+  .add('Without title', () => Highlight({ ...highlight.textOnly }));

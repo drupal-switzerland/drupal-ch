@@ -1,5 +1,6 @@
 fragment ParagraphHighlight on ParagraphHighlight {
   componentId: fieldParagraphId
+  tagline: fieldMetaEyebrow
   title: fieldTitle
   text: fieldText {
     processed
