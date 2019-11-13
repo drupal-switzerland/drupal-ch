@@ -1,9 +1,0 @@
-fragment ParagraphMultiColumn on ParagraphMultiColumn {
-  column: fieldColumn {
-    entity {
-      type: __typename
-      ...ParagraphText
-      ...ParagraphMedia
-    }
-  }
-}
