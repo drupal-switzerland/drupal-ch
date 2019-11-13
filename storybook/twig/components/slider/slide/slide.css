@@ -5,6 +5,7 @@
   @mixin overlay;
 
   background-color: var(--dark-blue);
+  height: auto;
 
   &__content {
     @mixin section-padding;
@@ -16,7 +17,7 @@
       text-align: right;
       align-items: flex-end;
       display: flex;
-      flex-flow: column;
+      flex-direction: column;
     }
   }
 

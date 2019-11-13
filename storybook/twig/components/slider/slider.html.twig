@@ -1,9 +1,11 @@
 <ds-slider {{ componentId ? 'id=' ~ (componentId | clean_class) : '' }}>
   <div class="slider swiper-container">
     <div class="swiper-wrapper">
-      {% for slide in sliderSlides %}
-        {% include '@storybook/components/slider/slide/slide.html.twig' with slide.entity only %}
-      {% endfor %}
+      {% block slidecontent %}
+        {% for slide in sliderSlides %}
+          {% include '@storybook/components/slider/slide/slide.html.twig' with slide.entity only %}
+        {% endfor %}
+      {% endblock %}
     </div>
     <div class="swiper-pagination inner"></div>
   </div>

@@ -115,6 +115,6 @@
   img {
     position: absolute;
     object-fit: cover;
-    object-position: center right;
+    object-position: center center;
   }
 }

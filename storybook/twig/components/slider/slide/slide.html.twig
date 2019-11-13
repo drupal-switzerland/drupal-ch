@@ -5,7 +5,7 @@
         tagline: tagline,
         title: title
       } only %}
-      {% if link and link is not empty %}
+      {% if link.entity.link and link.entity.link is not empty %}
         {% include '@storybook/components/link/link.html.twig' with {
           link: link,
           isInvert: true
