@@ -1,11 +1,19 @@
-<nav class="main-menu">
-  <ul class="main-menu__items">
-    {% for link in links %}
-      <li>
-        <a class="main-menu__link {{ link.active ? 'active' }}" href="{{ link.url.path }}">
-          {{ link.label }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
+<responsive-menu>
+  <nav class="main-menu">
+    <button aria-expanded="false" aria-controls="menu">
+      <svg id="i-menu" aria-label="Menu" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"></path>
+      </svg>
+    </button>
+
+    <ul id="main-menu" class="main-menu__items" hidden>
+      {% for link in links %}
+        <li>
+          <a class="main-menu__link {{ link.active ? 'active' }}" href="{{ link.url.path }}">
+            {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</responsive-menu>
