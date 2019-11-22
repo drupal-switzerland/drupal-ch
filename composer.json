@@ -32,6 +32,7 @@
         "drupal/simple_sitemap": "^3.4",
         "drupal/upgrade_status": "^1.1",
         "drupal/video_embed_field": "^2.2",
+        "drupal/webform": "^5.5",
         "zaporylie/composer-drupal-optimizations": "^1.1"
     },
     "require-dev": {
