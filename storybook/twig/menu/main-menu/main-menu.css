@@ -5,6 +5,8 @@
     height: 100%;
     padding: var(--space-200);
     position: relative;
+    /* make button align with inner padding */
+    margin-right: calc(-1 * var(--space-200));
 
     .icon {
       position: relative;
@@ -58,19 +60,17 @@
 
     @media (--desktop-down) {
       position: fixed;
-      top: var(--header-height);
+      top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      width: 100%;
       opacity: 0;
-      z-index: 2;
-      height: calc(100vh - var(--header-height));
-      overflow-y: auto;
+      z-index: -1;
 
       .visible & {
         opacity: 1;
         transition: 0.2s 0.3s ease-in-out opacity;
+        z-index: 2;
       }
     }
   }
@@ -83,7 +83,13 @@
     @media (--desktop-down) {
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      overflow-y: auto;
+
+      &::before,
+      &::after {
+        content: ""; /* Insert pseudo-element */
+        margin: auto; /* Make it push flex items to the center */
+      }
     }
   }
 
