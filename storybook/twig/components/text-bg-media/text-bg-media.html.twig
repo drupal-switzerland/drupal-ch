@@ -10,21 +10,21 @@
   <div class="text-bg-media__content--wrapper inner">
     <div class="text-bg-media__content">
       {% if isHero %}
-        <h1 class="text-bg-media__title">{{ heroTitle }}</h1>
+        <h1 class="text-bg-media__title h2">{{ heroTitle }}</h1>
       {% else %}
         <h2>{{ title }}</h2>
-        {% if text and text is not empty %}
-          <div class="text-bg-media__text wysiwyg">{{ text.processed | raw }}</div>
-        {% endif %}
-        {% if link.entity.link and link.entity.link is not empty %}
-          <div class="text-bg-media__action">
-            {% include '@storybook/components/link/link.html.twig' with {
-              link: link.entity.link,
-              class: link.entity.class,
-              isInvert: true
-            } only %}
-          </div>
-        {% endif %}
+      {% endif %}
+      {% if text and text is not empty %}
+        <div class="text-bg-media__text wysiwyg">{{ text.processed | raw }}</div>
+      {% endif %}
+      {% if link.entity.link and link.entity.link is not empty %}
+        <div class="text-bg-media__action">
+          {% include '@storybook/components/link/link.html.twig' with {
+            link: link.entity.link,
+            class: link.entity.class,
+            isInvert: true
+          } only %}
+        </div>
       {% endif %}
     </div>
   </div>

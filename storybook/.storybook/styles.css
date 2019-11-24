@@ -36,7 +36,7 @@
   align-items: center;
 
   &--icon {
-    background-color: var(--light-grey);
+    background-color: #e0e0e0;
     border: 1px solid rgba(235, 235, 243, 1);
     min-width: 300px;
   }

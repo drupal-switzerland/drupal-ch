@@ -15,7 +15,8 @@ strong {
   font-weight: var(--weight-l);
 }
 
-:--buttons,
+/* stylelint-disable no-descending-specificity */
+:--buttons:not(.default),
 :--typographic-block-elements {
   margin-bottom: var(--space-300);
   line-height: var(--line-height-default);
@@ -33,13 +34,13 @@ a,
   }
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 a,
 a:--link-states {
   text-decoration: none;
   color: var(--blue);
   cursor: pointer;
 }
+/* stylelint-enable no-descending-specificity */
 
 h1,
 .h1 {
@@ -106,7 +107,7 @@ h6,
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     left: 0;

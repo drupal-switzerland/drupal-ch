@@ -1,5 +1,5 @@
 select:not([multiple]) {
-  background-image: url(../../icons/arrow-down.svg);
+  background-image: url(../../icons/arrow-down-blue.svg);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 1em 1em;

@@ -4,3 +4,4 @@
 
 /* Up */
 @custom-media --desktop-up (min-width: 1024px);
+@custom-media --mobile-up (min-width: 480px);

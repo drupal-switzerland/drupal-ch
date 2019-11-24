@@ -1,11 +1,22 @@
-<nav class="main-menu">
-  <ul class="main-menu__items">
-    {% for link in links %}
-      <li>
-        <a class="main-menu__link {{ link.active ? 'active' }}" href="{{ link.url.path }}">
-          {{ link.label }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
+{% set openMenu = 'Open menu' | t %}
+{% set closeMenu = 'Close menu' | t %}
+
+<ds-main-menu openMenu="{{ openMenu }}" closeMenu="{{ closeMenu }}" class="main-menu">
+  <button type="button" title="Open menu" class="main-menu__action default" aria-expanded="false" aria-pressed="false">
+    <span class="main-menu__action--icon-menu icon menu-blue large"></span>
+    <span class="main-menu__action--icon-close icon close-white large"></span>
+    <span class="visually-hidden">{{ 'Open menu' | t }}</span>
+  </button>
+
+  <nav class="main-menu__menu">
+    <ul class="main-menu__items">
+      {% for link in links %}
+        <li>
+          <a class="main-menu__link {{ link.active ? 'active' }}" href="{{ link.url.path }}">
+            {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</ds-main-menu>

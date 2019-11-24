@@ -1,4 +1,4 @@
-.text-bg-media {
+.image {
   @mixin overlay;
 
   position: relative;
@@ -20,6 +20,10 @@
     }
   }
 
+  &__title {
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+  }
+
   &__content {
     @mixin section-padding;
 
@@ -31,9 +35,5 @@
       position: relative;
       z-index: 1;
     }
-  }
-
-  &__action {
-    margin-top: var(--space-300);
   }
 }

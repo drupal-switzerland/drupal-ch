@@ -15,6 +15,7 @@ function getIcons(icons, isLogo = false) {
 }
 
 const icons = {
+  main: ['arrow-down-blue', 'checkmark-white', 'close-white', 'menu-blue'],
   messages: ['messages-check', 'messages-error', 'messages-warning'],
   teaser: [
     'collaboration-blue',
@@ -30,13 +31,27 @@ const icons = {
     'web-blue',
     'web',
   ],
-  social: ['google', 'slack', 'twitter', 'drupal', 'meetup'],
+  social: [
+    'google-white',
+    'slack-white',
+    'twitter-white',
+    'drupal-white',
+    'meetup-white',
+  ],
 };
 
 storiesOf('Shared styles|Icons', module)
   .addDecorator(Wrapper)
   .add(
-    'Message icons',
+    'Main',
+    () => `
+      <div class="icons-wrapper">
+        ${getIcons(icons.main)}
+      </div>
+    `,
+  )
+  .add(
+    'Message',
     () => `
       <div class="icons-wrapper">
         ${getIcons(icons.messages)}
@@ -44,7 +59,7 @@ storiesOf('Shared styles|Icons', module)
     `,
   )
   .add(
-    'Teaser icons',
+    'Teaser',
     () => `
       <div class="icons-wrapper">
         ${getIcons(icons.teaser)}
@@ -52,7 +67,7 @@ storiesOf('Shared styles|Icons', module)
     `,
   )
   .add(
-    'Social icons',
+    'Social',
     () => `
       <div class="icons-wrapper">
         ${getIcons(icons.social)}
