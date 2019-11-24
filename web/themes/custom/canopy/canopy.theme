@@ -17,8 +17,9 @@ function canopy_preprocess_page(&$variables) {
     $paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($paragraphID['target_id']);
     if ($paragraph) {
       $paragraph_type = $paragraph->getType();
+      $paragraphTypes = ['text_bg_media', 'image', 'slider'];
 
-      if ($paragraph_type == 'text_bg_media') {
+      if (in_array($paragraph_type, $paragraphTypes)) {
         unset($variables['page']['content']['canopy_page_title']);
       }
     }

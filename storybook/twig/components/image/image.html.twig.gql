@@ -1,4 +1,5 @@
 fragment ParagraphImage on ParagraphImage {
+  type: __typename
   image: fieldImage {
     entity {
       ...MediaImage

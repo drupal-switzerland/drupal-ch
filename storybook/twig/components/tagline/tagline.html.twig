@@ -1,4 +1,9 @@
 {% if tagline %}
   <p class="tagline__tag tag">{{ tagline }}</p>
 {% endif %}
-<h2 class="tagline__title {{ variant == 'small' ? 'h3' : 'h2' }}">{{ title }}</h2>
+{% if isH1 %}
+  <h1 class="tagline__title {{ variant == 'small' ? 'h3' : 'h2' }}">{{ title }}</h1>
+{% else %}
+  <h2 class="tagline__title {{ variant == 'small' ? 'h3' : 'h2' }}">{{ title }}</h2>
+{% endif %}
+

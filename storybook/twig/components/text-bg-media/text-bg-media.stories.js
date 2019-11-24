@@ -6,7 +6,6 @@ import { textBgMedia } from './text-bg-media.data';
 
 storiesOf('Components|Text with background media', module)
   .addDecorator(Wrapper)
-  .add('Default', () => TextBgMedia({ ...textBgMedia.default }))
-  .add('As hero', () => TextBgMedia({
-    ...textBgMedia.asHero,
-  }));
+  .add('Default', () => TextBgMedia({ ...textBgMedia }))
+  .add('Without link', () => TextBgMedia({ ...textBgMedia, link: null }))
+  .add('Without title', () => TextBgMedia({ ...textBgMedia, title: null }));

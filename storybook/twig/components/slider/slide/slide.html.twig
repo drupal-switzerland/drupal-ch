@@ -3,7 +3,8 @@
     <div class="two-columns__column slide__content">
       {% include '@storybook/components/tagline/tagline.html.twig' with {
         tagline: tagline,
-        title: title
+        title: title,
+        isH1: isHero,
       } only %}
       {% if link.entity.link and link.entity.link is not empty %}
         {% include '@storybook/components/link/link.html.twig' with {

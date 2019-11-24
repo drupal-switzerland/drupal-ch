@@ -12,4 +12,7 @@
   --header-height: 70px;
   /* Page max */
   --max-width: 1440px;
+  /* Media height */
+  --media-height-desktop: 85vh;
+  --media-height-mobile: 55vh;
 }
