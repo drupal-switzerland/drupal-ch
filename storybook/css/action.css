@@ -1,6 +1,6 @@
 /* stylelint-disable no-descending-specificity */
 .action,
-:--buttons,
+:--buttons:not(.default),
 :--buttons.action {
   background-color: var(--blue);
   font-size: var(--font-xs);

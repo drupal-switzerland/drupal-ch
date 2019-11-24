@@ -1,7 +1,7 @@
 {% if link %}
   <a href="{{ link.url.path }}" class="action {{ isInvert ? 'invert' : '' }}">
     {% if class is not empty %}
-      <span class="icon {{ class }} small"></span>
+      <span class="icon {{ class }}-white small"></span>
     {% endif %}
     {{ link.title }}
   </a>
