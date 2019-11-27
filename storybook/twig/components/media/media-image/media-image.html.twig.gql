@@ -3,7 +3,22 @@ fragment MediaImage on MediaImage {
   mediaImage: fieldMediaImage {
     url
     alt
-    rectangularLarge: derivative(style: _169LARGE) {
+    rect_16x9_large: derivative(style: _169LARGE) {
+      ...ImageFields
+    }
+    rect_16x9_medium: derivative(style: _169MEDIUM) {
+      ...ImageFields
+    }
+    rect_16x9_small: derivative(style: _169SMALL) {
+      ...ImageFields
+    }
+    rect_9x16_large: derivative(style: _916LARGE) {
+      ...ImageFields
+    }
+    rect_9x16_medium: derivative(style: _916MEDIUM) {
+      ...ImageFields
+    }
+    rect_9x16_small: derivative(style: _916SMALL) {
       ...ImageFields
     }
     squareLarge: derivative(style: SQUARELARGE) {

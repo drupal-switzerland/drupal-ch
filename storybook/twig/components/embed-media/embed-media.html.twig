@@ -1,1 +1,4 @@
-{% include '@storybook/components/media/media.html.twig' with media only %}
+{% include '@storybook/components/media/media.html.twig' with media|merge({
+  imageStyle: imageStyle|default(),
+  responsiveStyle: responsiveStyle|default()
+}) only %}

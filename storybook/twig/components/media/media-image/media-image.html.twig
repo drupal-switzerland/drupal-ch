@@ -1,4 +1,15 @@
-{% if imageStyle %}
+{% if responsiveStyle
+  and responsiveStyle.large is not empty
+  and responsiveStyle.medium is not empty
+  and responsiveStyle.small is not empty %}
+  <ds-responsive-image>
+    <img class="responsive-media-image"
+      srcset="{{ attribute(mediaImage, responsiveStyle.small).url }} 320w, {{ attribute(mediaImage, responsiveStyle.medium).url }} 800w, {{ attribute(mediaImage, responsiveStyle.large).url }} 1200w"
+      sizes="100vw"
+      src="{{ attribute(mediaImage, responsiveStyle.small).url }}"
+      alt="{{ mediaImage.alt }}">
+  </ds-responsive-image>
+{% elseif imageStyle %}
   <img class="media-image" src="{{ attribute(mediaImage, imageStyle).url }}" alt="{{ mediaImage.alt }}" />
 {% else %}
   <img class="media-image" src="{{ mediaImage.url }}" alt="{{ mediaImage.alt }}" />
