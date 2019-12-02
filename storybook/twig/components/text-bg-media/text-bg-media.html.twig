@@ -2,12 +2,7 @@
   {% if media.entity is not empty %}
     <div class="text-bg-media__media">
       {% include '@storybook/components/embed-media/embed-media.html.twig' with {
-        media: media,
-        responsiveStyle: {
-          large: 'rect16x9Large',
-          medium: 'rect16x9Medium',
-          small: 'rect16x9Small'
-        }
+        media: media
       } only %}
     </div>
   {% endif %}
