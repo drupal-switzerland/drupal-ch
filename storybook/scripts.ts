@@ -1,6 +1,7 @@
 // Globally add web components polyfills.
 import '@babel/polyfill';
 import '@webcomponents/webcomponentsjs/webcomponents-bundle';
+import 'lazysizes';
 
 import './styles.css';
 

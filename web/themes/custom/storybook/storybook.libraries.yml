@@ -1,7 +1,8 @@
 storybook:
   version: VERSION
   js:
-    dist/scripts.js: { preprocess: true }
+    dist/scripts.js:
+      { preprocess: true, attributes: { defer: true, async: true } }
   css:
     component:
       dist/styles.css: { preprocess: true }

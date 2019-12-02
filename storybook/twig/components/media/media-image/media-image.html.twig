@@ -1,8 +1,8 @@
 {% if responsiveStyle %}
-  <img class="media-image"
-    srcset="{{ attribute(mediaImage, responsiveStyle.small).url }} 600w, {{ attribute(mediaImage, responsiveStyle.medium).url }} 900w, {{ attribute(mediaImage, responsiveStyle.large).url }} 1440w"
-    sizes="(max-width: 600px) 100vw, 50vw"
-    src="{{ attribute(mediaImage, responsiveStyle.medium).url }}"
+  <img class="media-image lazyload"
+    data-srcset="{{ attribute(mediaImage, responsiveStyle.small).url }} 600w, {{ attribute(mediaImage, responsiveStyle.medium).url }} 900w, {{ attribute(mediaImage, responsiveStyle.large).url }} 1440w"
+    data-sizes="(max-width: 600px) 100vw, 50vw"
+    data-src="{{ attribute(mediaImage, responsiveStyle.medium).url }}"
     alt="{{ mediaImage.alt }}"
   />
 {% else %}
