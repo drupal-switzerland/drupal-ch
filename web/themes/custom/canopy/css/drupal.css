@@ -28,11 +28,21 @@ div[data-drupal-messages],
   padding: 0 16px !important;
 }
 
+#block-canopy-page-title {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
 @media (min-width: 1024px) {
   div[data-drupal-messages],
   #block-canopy-content > form,
   #block-canopy-page-title,
   #block-canopy-local-tasks {
     padding: 0 32px !important;
+  }
+
+  #block-canopy-page-title {
+    margin-top: 56px !important;
+    margin-bottom: 56px !important;
   }
 }
