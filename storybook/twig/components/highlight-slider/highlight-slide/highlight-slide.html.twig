@@ -17,7 +17,12 @@
         {% for mediaItem in media %}
           <div class="highlight-slide__image">
             {% include '@storybook/components/embed-media/embed-media.html.twig' with {
-              media: mediaItem
+              media: mediaItem,
+              responsiveStyle: {
+                large: 'rect9x16Large',
+                medium: 'rect9x16Medium',
+                small: 'rect9x16Small'
+              }
             } only %}
           </div>
         {% endfor %}

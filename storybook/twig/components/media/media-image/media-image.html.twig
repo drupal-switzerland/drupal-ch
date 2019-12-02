@@ -1,5 +1,10 @@
-{% if imageStyle %}
-  <img class="media-image" src="{{ attribute(mediaImage, imageStyle).url }}" alt="{{ mediaImage.alt }}" />
+{% if responsiveStyle %}
+  <img class="media-image"
+    srcset="{{ attribute(mediaImage, responsiveStyle.small).url }} 600w, {{ attribute(mediaImage, responsiveStyle.medium).url }} 900w, {{ attribute(mediaImage, responsiveStyle.large).url }} 1440w"
+    sizes="(max-width: 600px) 100vw, 50vw"
+    src="{{ attribute(mediaImage, responsiveStyle.medium).url }}"
+    alt="{{ mediaImage.alt }}"
+  />
 {% else %}
   <img class="media-image" src="{{ mediaImage.url }}" alt="{{ mediaImage.alt }}" />
 {% endif %}

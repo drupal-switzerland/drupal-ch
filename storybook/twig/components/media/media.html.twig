@@ -5,7 +5,11 @@
       {% if media.type == 'MediaImage' %}
         {% include '@storybook/components/media/media-image/media-image.html.twig' with {
           mediaImage: media.mediaImage,
-          imageStyle: 'rectangularLarge'
+          responsiveStyle: responsiveStyle | default({
+            large: 'rect16x9Large',
+            medium: 'rect16x9Medium',
+            small: 'rect16x9Small'
+          })
         } only %}
       {% elseif media.type == 'MediaVideo' %}
         {% include '@storybook/components/media/media-video/media-video.html.twig' with media only %}

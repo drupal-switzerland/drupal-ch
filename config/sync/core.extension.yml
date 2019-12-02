@@ -27,7 +27,6 @@ module:
   graphql: 0
   graphql_core: 0
   graphql_twig: 0
-  graphql_views: 0
   help: 0
   history: 0
   image: 0
@@ -47,7 +46,6 @@ module:
   rdf: 0
   redirect: 0
   redirect_404: 0
-  responsive_image: 0
   search: 0
   search_api: 0
   shortcut: 0

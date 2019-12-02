@@ -4,12 +4,12 @@
 }
 
 @define-mixin section-padding {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: var(--space-600);
+  padding-bottom: var(--space-600);
 
   @media (--desktop-up) {
-    padding-top: 7em;
-    padding-bottom: 7em;
+    padding-top: var(--space-1400);
+    padding-bottom: var(--space-1400);
   }
 }
 

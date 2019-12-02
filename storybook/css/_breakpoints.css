@@ -1,7 +1,5 @@
 /* Down */
-@custom-media --mobile-down (max-width: 479px);
 @custom-media --desktop-down (max-width: 1023px);
 
 /* Up */
 @custom-media --desktop-up (min-width: 1024px);
-@custom-media --mobile-up (min-width: 480px);
