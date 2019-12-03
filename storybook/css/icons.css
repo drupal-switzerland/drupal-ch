@@ -3,7 +3,7 @@
   --icon-width-small: 18px;
   --icon-width-medium: 25px;
   --icon-width: 35px;
-  --icon-width-big: 45px;
+  --icon-width-large: 50px;
 }
 
 .icon {
@@ -23,6 +23,11 @@
   &.medium {
     height: var(--icon-width-medium);
     width: var(--icon-width-medium);
+  }
+
+  &.large {
+    height: var(--icon-width-large);
+    width: var(--icon-width-large);
   }
 
   /* Main icons. */
@@ -123,5 +128,10 @@
 
   &.meetup-white {
     background-image: url('../icons/social/google-white.svg');
+  }
+
+  /* Icons */
+  &.logo {
+    background-image: url('../icons/logo/logo.png');
   }
 }

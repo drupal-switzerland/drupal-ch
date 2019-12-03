@@ -13,5 +13,9 @@
       font-weight: var(--weight-l);
       padding-left: var(--space-200);
     }
+
+    &--icon {
+      margin-top: -10px;
+    }
   }
 }

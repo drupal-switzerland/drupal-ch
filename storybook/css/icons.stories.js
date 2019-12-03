@@ -38,6 +38,7 @@ const icons = {
     'drupal-white',
     'meetup-white',
   ],
+  logo: ['logo'],
 };
 
 storiesOf('Shared styles|Icons', module)
@@ -71,6 +72,14 @@ storiesOf('Shared styles|Icons', module)
     () => `
       <div class="icons-wrapper">
         ${getIcons(icons.social)}
+      </div>
+    `,
+  )
+  .add(
+    'Logos',
+    () => `
+      <div class="icons-wrapper">
+        ${getIcons(icons.logo)}
       </div>
     `,
   );
