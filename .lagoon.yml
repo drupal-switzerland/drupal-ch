@@ -70,4 +70,9 @@ environments:
         service: cli
     routes:
         - varnish:
-            - "drupal-ch.amazee.io"
+            - drupal.ch:
+                tls-acme: 'true'
+                insecure: Redirect
+            - www.drupal.ch:
+                tls-acme: 'true'
+                insecure: Redirect
