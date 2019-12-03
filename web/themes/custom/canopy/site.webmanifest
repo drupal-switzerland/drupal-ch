@@ -1,0 +1,19 @@
+{
+    "name": "Drupal Switzerland",
+    "icons": [
+        {
+            "src": "/themes/custom/canopy/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/themes/custom/canopy/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/?utm_source=pwa",
+    "theme_color": "#0678be",
+    "background_color": "#f8f8f8",
+    "display": "standalone"
+}
