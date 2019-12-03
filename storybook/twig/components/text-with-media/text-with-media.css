@@ -36,6 +36,10 @@
           /* stylelint-enable max-nesting-depth */
         }
       }
+
+      .embed-media {
+        @mixin aspect-ratio-16-9;
+      }
     }
   }
 
