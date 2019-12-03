@@ -39,6 +39,7 @@ const icons = {
     'meetup-white',
   ],
   logo: ['logo'],
+  sponsors: ['amazeeio'],
 };
 
 storiesOf('Shared styles|Icons', module)
@@ -72,6 +73,14 @@ storiesOf('Shared styles|Icons', module)
     () => `
       <div class="icons-wrapper">
         ${getIcons(icons.social)}
+      </div>
+    `,
+  )
+  .add(
+    'Sponsors',
+    () => `
+      <div class="icons-wrapper">
+        ${getIcons(icons.sponsors)}
       </div>
     `,
   )

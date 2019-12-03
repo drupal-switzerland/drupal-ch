@@ -1,4 +1,17 @@
 .footer {
-  padding: var(--space-400) 0;
+  padding: 0 0 var(--space-400) 0;
   background-color: var(--dark-blue);
+
+  &-sponsors {
+    text-align: right;
+
+    &__wrapper {
+      padding: var(--space-400) 0;
+      background-color: var(--light-grey);
+    }
+  }
+
+  &-menu {
+    padding-top: var(--space-400);
+  }
 }

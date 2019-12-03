@@ -1,4 +1,15 @@
 <footer class="footer">
+  <div class="footer-sponsors__wrapper">
+    <div class="footer-sponsors inner">
+      <span>{{ 'Hosting powered by '|t }}</span>
+      <a
+         href="footer-menu__link"
+         href="https://amazee.io"
+         target="_blank"
+         rel="noopener">amazee.io</a>
+      <div class="icon amazeeio large"></div>
+    </div>
+  </div>
   {% if links %}
     <div class="footer-menu inner">
       {% include '@storybook/menu/menu.html.twig' with {

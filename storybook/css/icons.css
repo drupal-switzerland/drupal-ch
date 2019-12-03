@@ -130,6 +130,11 @@
     background-image: url('../icons/social/google-white.svg');
   }
 
+  /* Sponsors */
+  &.amazeeio {
+    background-image: url('../icons/sponsors/amazeeio.svg');
+  }
+
   /* Icons */
   &.logo {
     background-image: url('../icons/logo/logo.png');
