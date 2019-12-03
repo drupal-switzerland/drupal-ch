@@ -2,16 +2,20 @@
   padding: 0 0 var(--space-400) 0;
   background-color: var(--dark-blue);
 
-  &-sponsors {
+  &__sponsors {
     text-align: right;
 
-    &__wrapper {
+    &--wrapper {
       padding: var(--space-400) 0;
       background-color: var(--light-grey);
     }
+
+    &--text {
+      margin-bottom: 0;
+    }
   }
 
-  &-menu {
+  &__menu {
     padding-top: var(--space-400);
   }
 }
