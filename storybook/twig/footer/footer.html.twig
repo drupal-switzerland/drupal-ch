@@ -1,8 +1,8 @@
 <footer class="footer">
-  <div class="footer__sponsors--wrapper">
-    <div class="footer__sponsors inner">
+  <div class="footer__sponsors">
+    <div class="inner">
       <p class="footer__sponsors--text">
-        {{ 'Hosting powered by '|t }}
+        {{ 'Hosting powered by' | t }}&nbsp;
         <a href="https://amazee.io" target="_blank" rel="noopener noreferrer">
           amazee.io
         </a>
@@ -11,11 +11,13 @@
     </div>
   </div>
   {% if links %}
-    <div class="footer__menu inner">
-      {% include '@storybook/menu/menu.html.twig' with {
-        type: 'footerMenu',
-        links: links
-      } only %}
+    <div class="footer__menu">
+      <div class="inner">
+        {% include '@storybook/menu/menu.html.twig' with {
+          type: 'footerMenu',
+          links: links
+        } only %}
+      </div>
     </div>
   {% endif %}
 </footer>

@@ -1,21 +1,16 @@
 .footer {
-  padding: 0 0 var(--space-400) 0;
-  background-color: var(--dark-blue);
-
   &__sponsors {
-    text-align: right;
-
-    &--wrapper {
-      padding: var(--space-400) 0;
-      background-color: var(--light-grey);
-    }
+    padding: var(--space-200) 0;
+    background-color: var(--light-grey);
 
     &--text {
       margin-bottom: 0;
+      text-align: right;
     }
   }
 
   &__menu {
-    padding-top: var(--space-400);
+    padding: var(--space-400) 0;
+    background-color: var(--dark-blue);
   }
 }
