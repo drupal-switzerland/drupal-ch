@@ -8,4 +8,5 @@ id: global
 label: Global
 tags:
   canonical_url: '[current-page:url]'
+  description: 'A community site dedicated to Drupal in Switzerland. We invite back-end & front-end developers as well as site builders, content editors, designers, business owners, project managers, usability experts, community enthusiasts and basically everyone interested in Drupal and the web to join us.'
   title: '[current-page:title] | [site:name]'
