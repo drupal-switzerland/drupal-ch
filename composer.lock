@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce57770b614018da6b88528feb13a6c9",
+    "content-hash": "c24698eaab360b9bfce6bd958aaa7e58",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -76,18 +76,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AmazeeLabs/silverback.git",
-                "reference": "f98b118096be0df23997d86498b1ccf1552af8ae"
+                "reference": "f1a02a4994c3c0b7342537bc1acc112a2756beb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AmazeeLabs/silverback/zipball/f98b118096be0df23997d86498b1ccf1552af8ae",
-                "reference": "f98b118096be0df23997d86498b1ccf1552af8ae",
+                "url": "https://api.github.com/repos/AmazeeLabs/silverback/zipball/f1a02a4994c3c0b7342537bc1acc112a2756beb1",
+                "reference": "f1a02a4994c3c0b7342537bc1acc112a2756beb1",
                 "shasum": ""
             },
             "require": {
                 "alchemy/zippy": "^0.4.9",
                 "cweagans/composer-patches": "^1.6.5",
-                "drupal/admin_toolbar": "^1",
+                "drupal/admin_toolbar": "^2",
                 "drupal/ckeditor5_sections": "dev-1.x",
                 "drupal/components": "^1.1",
                 "drupal/console": "^1.0.2",
@@ -149,7 +149,7 @@
                 }
             ],
             "description": "Scaffolder for Amazee Silverback projects.",
-            "time": "2019-12-04T14:23:24+00:00"
+            "time": "2019-12-04T15:38:21+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -2387,17 +2387,17 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "1.27.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/admin_toolbar.git",
-                "reference": "8.x-1.27"
+                "reference": "8.x-2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.27.zip",
-                "reference": "8.x-1.27",
-                "shasum": "fed1fbbdf8f805b1da63d73e7e2c54750f354d61"
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "568de63dbaa8046a82d327dbd0b892ab79fb87aa"
             },
             "require": {
                 "drupal/core": "*"
@@ -2405,11 +2405,11 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.x": "1.x-dev"
+                    "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.27",
-                    "datestamp": "1558553350",
+                    "version": "8.x-2.0",
+                    "datestamp": "1573751237",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2952,16 +2952,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.8.0-rc1",
+            "version": "8.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "2e16925020254f876c0ba3a4e11c4cd9ccbc6856"
+                "reference": "c4890669449ccbab770818de9c9cb7a9f0ffc32e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/2e16925020254f876c0ba3a4e11c4cd9ccbc6856",
-                "reference": "2e16925020254f876c0ba3a4e11c4cd9ccbc6856",
+                "url": "https://api.github.com/repos/drupal/core/zipball/c4890669449ccbab770818de9c9cb7a9f0ffc32e",
+                "reference": "c4890669449ccbab770818de9c9cb7a9f0ffc32e",
                 "shasum": ""
             },
             "require": {
@@ -3158,11 +3158,11 @@
                 },
                 "patches_applied": {
                     "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch",
-                    "#3065207 Allow modules to prevent deletion of an entity.": "https://www.drupal.org/files/issues/2019-07-02/3065207-5.patch",
-                    "Language negotiation weight": "https://www.drupal.org/files/issues/2018-10-17/3007386-language-negotiator-weight-2.patch",
                     "#2718657 - Drupal\\language\\LanguageNegotiator::updateConfiguration() is passed a NULL": "https://www.drupal.org/files/issues/2019-02-28/language-2718657-17.patch",
                     "#2867707 Conflict API": "https://www.drupal.org/files/issues/2019-06-24/2867707-33.drupal.WI-Phase-H-Conflict-management-and-local-workspace-merging-support.patch",
-                    "#3045177 workspace specific latest revision": "https://www.drupal.org/files/issues/2019-04-08/3045177-10.patch"
+                    "#3045177 workspace specific latest revision": "https://www.drupal.org/files/issues/2019-04-08/3045177-10.patch",
+                    "Language negotiation weight": "https://www.drupal.org/files/issues/2018-10-17/3007386-language-negotiator-weight-2.patch",
+                    "#3065207 Allow modules to prevent deletion of an entity.": "https://www.drupal.org/files/issues/2019-07-02/3065207-5.patch"
                 }
             },
             "autoload": {
@@ -3186,7 +3186,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-11-22T22:29:01+00:00"
+            "time": "2019-12-04T08:44:18+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -12098,7 +12098,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "8.8.0-rc1",
+            "version": "8.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -12815,8 +12815,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "amazeelabs/silverback": 20,
-        "drupal/gin": 20,
-        "drupal/pathauto": 10
+        "drupal/gin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
