@@ -32,7 +32,7 @@
   --font-family-regular: 'Gothic A1', 'Neue Helvetica', Helvetica, sans-serif;
 }
 
-@media (--desktop-up) {
+@media (min-width: 1024px) {
   :root {
     /* font sizing */
     --font-xxs: 1.2rem;
