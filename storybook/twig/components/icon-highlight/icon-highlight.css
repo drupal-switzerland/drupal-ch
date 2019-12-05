@@ -26,11 +26,12 @@
 
   &__icon-teaser {
     flex: 0 0 100%;
-    margin-bottom: var(--space-700);
+    margin-bottom: var(--space-400);
 
     @media (--desktop-up) {
       flex-basis: 22%;
       margin-right: 3%;
+      margin-bottom: var(--space-700);
 
       &:last-child {
         margin-right: 0;
