@@ -14,13 +14,15 @@ function canopy_preprocess_page(&$variables) {
     /** @var \Drupal\paragraphs\Entity\Paragraph $paragraph */
     $heroValue = $node->get('field_hero')->getValue();
     $paragraphID = reset($heroValue);
-    $paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($paragraphID['target_id']);
-    if ($paragraph) {
-      $paragraph_type = $paragraph->getType();
-      $paragraphTypes = ['text_bg_media', 'image', 'slider'];
+    if (isset($paragraphID['target_id'])) {
+      $paragraph = \Drupal::entityTypeManager()->getStorage('paragraph')->load($paragraphID['target_id']);
+      if ($paragraph) {
+        $paragraph_type = $paragraph->getType();
+        $paragraphTypes = ['text_bg_media', 'image', 'slider'];
 
-      if (in_array($paragraph_type, $paragraphTypes)) {
-        unset($variables['page']['content']['canopy_page_title']);
+        if (in_array($paragraph_type, $paragraphTypes)) {
+          unset($variables['page']['content']['canopy_page_title']);
+        }
       }
     }
   }
