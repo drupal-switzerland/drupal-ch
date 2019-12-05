@@ -6,10 +6,10 @@
   --font-xs: 1.4rem;
   --font-p: 1.6rem;
   --font-s: 1.8rem;
-  --font-m: 3.2rem;
-  --font-l: 4.4rem;
-  --font-xl: 6.4rem;
-  --font-xxl: 9.6rem;
+  --font-m: 2.4rem;
+  --font-l: 3.2rem;
+  --font-xl: 5.4rem;
+  --font-xxl: 7.2rem;
 
   /* line height */
   --line-height-default: 1.4;
@@ -25,6 +25,21 @@
   --weight-m: 400;
   --weight-l: 700;
 
+  /* word spacing */
+  --word-spacing-medium: 0.5rem;
+
   /* font family */
   --font-family-regular: 'Gothic A1', 'Neue Helvetica', Helvetica, sans-serif;
+
+  @media (--desktop-up) {
+    /* font sizing */
+    --font-xxs: 1.2rem;
+    --font-xs: 1.4rem;
+    --font-p: 1.6rem;
+    --font-s: 1.8rem;
+    --font-m: 3.2rem;
+    --font-l: 4.4rem;
+    --font-xl: 6.4rem;
+    --font-xxl: 9.6rem;
+  }
 }

@@ -47,6 +47,7 @@ h1,
   text-transform: uppercase;
   font-size: var(--font-xl);
   font-weight: var(--weight-l);
+  word-spacing: var(--word-spacing-medium);
 
   @media (--desktop-up) {
     font-size: var(--font-xxl);
@@ -59,6 +60,7 @@ h2,
   font-size: var(--font-l);
   font-weight: var(--weight-l);
   letter-spacing: var(--letter-spacing-medium);
+  word-spacing: var(--word-spacing-medium);
 
   @media (--desktop-up) {
     font-size: var(--font-xl);
@@ -70,6 +72,7 @@ h3,
   font-size: var(--font-m);
   font-weight: var(--weight-l);
   letter-spacing: var(--letter-spacing-medium);
+  word-spacing: var(--word-spacing-medium);
 
   @media (--desktop-up) {
     font-size: var(--font-l);
@@ -79,6 +82,7 @@ h3,
 h4,
 .h4 {
   font-size: var(--font-s);
+  word-spacing: var(--word-spacing-medium);
 
   @media (--desktop-up) {
     font-size: var(--font-m);
@@ -89,11 +93,13 @@ h5,
 .h5 {
   color: var(--dark-blue);
   font-size: var(--font-s);
+  word-spacing: var(--word-spacing-medium);
 }
 
 h6,
 .h6 {
   font-size: var(--font-p);
+  word-spacing: var(--word-spacing-medium);
 }
 
 .tag {
