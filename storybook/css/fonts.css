@@ -30,8 +30,10 @@
 
   /* font family */
   --font-family-regular: 'Gothic A1', 'Neue Helvetica', Helvetica, sans-serif;
+}
 
-  @media (--desktop-up) {
+@media (--desktop-up) {
+  :root {
     /* font sizing */
     --font-xxs: 1.2rem;
     --font-xs: 1.4rem;
