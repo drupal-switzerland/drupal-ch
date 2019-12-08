@@ -46,17 +46,19 @@
   margin-top: var(--space-300);
 }
 
-.color {
+.color,
+.shadow {
   display: block;
   width: 240px;
   height: 170px;
   border-radius: 6px;
   position: relative;
+  border: 1px solid rgba(172, 172, 172, 0.3);
+  background-color: rgba(235, 235, 243, 0.3);
 }
 
 .white {
   background-color: var(--white);
-  border: 1px solid rgba(172, 172, 172, 0.3);
 }
 
 .black {
@@ -79,10 +81,18 @@
   background-color: var(--dark-blue);
 }
 
-.red {
-  background-color: var(--red);
-}
-
 .light {
   font-weight: var(--weight-s);
+}
+
+.shadow-30 {
+  box-shadow: var(--shadow-30);
+}
+
+.shadow-70 {
+  box-shadow: var(--shadow-70);
+}
+
+.shadow-inset-white {
+  box-shadow: var(--shadow-inset-white);
 }

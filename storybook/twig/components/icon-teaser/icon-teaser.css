@@ -1,3 +1,7 @@
+:root {
+  --teaser-icon-size: 64px;
+}
+
 .icon-teaser {
   display: flex;
   flex-flow: column nowrap;
@@ -5,10 +9,10 @@
   text-align: center;
 
   &__icon {
-    width: 64px;
-    height: 64px;
-    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 32px;
+    width: var(--teaser-icon-size);
+    height: var(--teaser-icon-size);
+    box-shadow: var(--shadow-30);
+    border-radius: 50%;
     background-color: var(--white);
     display: flex;
     align-items: center;

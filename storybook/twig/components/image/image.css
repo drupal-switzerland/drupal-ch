@@ -21,8 +21,12 @@
   }
 
   &__title {
-    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    text-shadow: var(--shadow-70);
     word-spacing: 100vw; /* Added for Edge browsers */
+
+    @media (--desktop-down) {
+      font-size: 10vw;
+    }
   }
 
   &__content {

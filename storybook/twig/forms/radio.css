@@ -33,6 +33,6 @@
   input:checked + label::before {
     border-color: var(--blue);
     background: var(--blue);
-    box-shadow: inset 0 0 0 3px var(--white);
+    box-shadow: var(--shadow-inset-white);
   }
 }
