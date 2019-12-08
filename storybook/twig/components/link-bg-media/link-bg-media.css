@@ -33,6 +33,7 @@
   &__links {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
 
     @media (--desktop-up) {
       flex-direction: row;
