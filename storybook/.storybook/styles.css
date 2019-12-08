@@ -93,6 +93,10 @@
   box-shadow: var(--shadow-70);
 }
 
+.shadow-95 {
+  box-shadow: var(--shadow-95);
+}
+
 .shadow-inset-white {
   box-shadow: var(--shadow-inset-white);
 }

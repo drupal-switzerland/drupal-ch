@@ -21,7 +21,7 @@
   }
 
   &__title {
-    text-shadow: var(--shadow-70);
+    text-shadow: var(--shadow-95);
     word-spacing: 100vw; /* Added for Edge browsers */
 
     @media (--desktop-down) {
