@@ -21,7 +21,7 @@ storiesOf('Shared styles|Global styles', module)
           <p class="regular">${lorem}</p>
         </div>
         <div class="story-wrapper">
-          <h3 class="light"><u>Light</u></h4>
+          <h4 class="light"><u>Light</u></h4>
           <h1 class="light">Heading 1</h1>
           <h2 class="light">Heading 2</h2>
           <h3 class="light">Heading 3</h3>
