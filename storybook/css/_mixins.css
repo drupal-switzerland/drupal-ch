@@ -38,46 +38,38 @@
   /* stylelint-disable no-descending-specificity */
   ol,
   ul {
-    margin-left: var(--space-200);
     margin-bottom: var(--space-300);
 
     ol,
     ul {
-      margin-top: var(--space-200);
-      margin-bottom: 0;
+      margin: var(--space-200) 0;
+      padding-left: var(--space-300);
     }
 
     li {
       margin-bottom: var(--space-200);
+      padding-left: var(--space-100);
     }
   }
 
   ol {
-    list-style-position: outside;
+    list-style-type: none;
+    counter-reset: step-counter;
 
-    &:not([type]) {
-      list-style-type: decimal;
-    }
+    li {
+      padding-left: 0;
 
-    &:not([type]).is-lower-alpha {
-      list-style-type: lower-alpha;
-    }
-
-    &:not([type]).is-lower-roman {
-      list-style-type: lower-roman;
-    }
-
-    &:not([type]).is-upper-alpha {
-      list-style-type: upper-alpha;
-    }
-
-    &:not([type]).is-upper-roman {
-      list-style-type: upper-roman;
+      &::before {
+        counter-increment: step-counter;
+        content: counter(step-counter) '.';
+        margin-right: var(--space-100);
+      }
     }
   }
 
   ul {
     list-style: disc outside;
+    padding-left: var(--space-200);
 
     ul {
       list-style-type: circle;

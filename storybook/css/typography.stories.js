@@ -10,7 +10,7 @@ storiesOf('Shared styles|Global styles', module)
     () => `
       <div class="inner wysiwyg">
         <div class="story-wrapper">
-          <h1 class="h4"><u>Regular:</u></h1>
+          <h4><u>Regular</u></h4>
           <h1 class="regular">Heading 1</h1>
           <h2 class="regular">Heading 2</h2>
           <h3 class="regular">Heading 3</h3>
@@ -21,7 +21,7 @@ storiesOf('Shared styles|Global styles', module)
           <p class="regular">${lorem}</p>
         </div>
         <div class="story-wrapper">
-          <h1 class="light h4"><u>Light:</u></h1>
+          <h3 class="light"><u>Light</u></h4>
           <h1 class="light">Heading 1</h1>
           <h2 class="light">Heading 2</h2>
           <h3 class="light">Heading 3</h3>

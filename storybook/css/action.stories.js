@@ -12,7 +12,7 @@ storiesOf('Shared styles|Actions', module)
     () => `
       <div class="two-columns">
         <div class="two-columns__column">
-          <h3>Active form elements</h3>
+          <h4><u>Active form elements</u></h4>
           <button class="button" type="button">Standard button</button>
           <button class="button" type="submit">Submit button</button>
           <button class="button" type="reset">Reset button</button>
@@ -21,7 +21,7 @@ storiesOf('Shared styles|Actions', module)
           <input class="button" type="reset" value="Input reset button">
         </div>
         <div class="two-columns__column">
-          <h3>Disabled form elements</h3>
+          <h4><u>Disabled form elements</u></h4>
           <button class="button" type="button" disabled>Disabled button</button>
           <button class="button" type="submit" disabled>Disabled submit button</button>
           <button class="button" type="reset" disabled>Disabled reset button</button>
@@ -39,9 +39,9 @@ storiesOf('Shared styles|Actions', module)
     'Links',
     () => `
       <div>
-        <h3>Link</h3>
+        <h4><u>Link</u></h4>
         <p>${Link({ ...link.default })}</p>
-        <h3>Link with icon</h3>
+        <h4><u>Link with icon</u></h4>
         <p>${Link({ ...link.withIcon })}</p>
       </div>
     `,
@@ -54,7 +54,7 @@ storiesOf('Shared styles|Actions', module)
     () => `
       <div class="two-columns">
         <div class="two-columns__column">
-          <h3>Active form elements</h3>
+          <h4><u>Active form elements</u></h4>
           <button class="button invert" type="button">Standard button</button>
           <button class="button invert" type="submit">Submit button</button>
           <button class="button invert" type="reset">Reset button</button>
@@ -63,7 +63,7 @@ storiesOf('Shared styles|Actions', module)
           <input class="button invert" type="reset" value="Input reset button">
         </div>
         <div class="two-columns__column">
-          <h3>Disabled form elements</h3>
+          <h4><u>Disabled form elements</u></h4>
           <button class="button invert" type="button" disabled>Disabled button</button>
           <button class="button invert" type="submit" disabled>Disabled submit button</button>
           <button class="button invert" type="reset" disabled>Disabled reset button</button>
@@ -81,9 +81,9 @@ storiesOf('Shared styles|Actions', module)
     'Invert links',
     () => `
       <div>
-        <h3>Link</h3>
+        <h4><u>Link</u></h4>
         <p>${Link({ ...link.default, isInvert: true })}</p>
-        <h3>Link with icon</h3>
+        <h4><u>Link with icon</u></h4>
         <p>${Link({ ...link.withIcon, isInvert: true })}</p>
       </div>
     `,
