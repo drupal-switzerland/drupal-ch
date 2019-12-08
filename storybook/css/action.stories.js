@@ -13,21 +13,21 @@ storiesOf('Shared styles|Actions', module)
       <div class="two-columns">
         <div class="two-columns__column">
           <h3>Active form elements</h3>
-          <button type="button">Standard button</button>
-          <button type="submit">Submit button</button>
-          <button type="reset">Reset button</button>
-          <input type="button" value="Input button">
-          <input type="submit" value="Input submit button">
-          <input type="reset" value="Input reset button">
+          <button class="button" type="button">Standard button</button>
+          <button class="button" type="submit">Submit button</button>
+          <button class="button" type="reset">Reset button</button>
+          <input class="button" type="button" value="Input button">
+          <input class="button" type="submit" value="Input submit button">
+          <input class="button" type="reset" value="Input reset button">
         </div>
         <div class="two-columns__column">
           <h3>Disabled form elements</h3>
-          <button type="button" disabled>Disabled button</button>
-          <button type="submit" disabled>Disabled submit button</button>
-          <button type="reset" disabled>Disabled reset button</button>
-          <input type="button" value="Disabled input button" disabled>
-          <input type="submit" value="Disabled input submit button" disabled>
-          <input type="reset" value="Disabled input reset button" disabled>
+          <button class="button" type="button" disabled>Disabled button</button>
+          <button class="button" type="submit" disabled>Disabled submit button</button>
+          <button class="button" type="reset" disabled>Disabled reset button</button>
+          <input class="button" type="button" value="Disabled input button" disabled>
+          <input class="button" type="submit" value="Disabled input submit button" disabled>
+          <input class="button" type="reset" value="Disabled input reset button" disabled>
         </div>
       </div>
     `,
@@ -55,21 +55,21 @@ storiesOf('Shared styles|Actions', module)
       <div class="two-columns">
         <div class="two-columns__column">
           <h3>Active form elements</h3>
-          <button class="invert" type="button">Standard button</button>
-          <button class="invert" type="submit">Submit button</button>
-          <button class="invert" type="reset">Reset button</button>
-          <input class="invert" type="button" value="Input button">
-          <input class="invert" type="submit" value="Input submit button">
-          <input class="invert" type="reset" value="Input reset button">
+          <button class="button invert" type="button">Standard button</button>
+          <button class="button invert" type="submit">Submit button</button>
+          <button class="button invert" type="reset">Reset button</button>
+          <input class="button invert" type="button" value="Input button">
+          <input class="button invert" type="submit" value="Input submit button">
+          <input class="button invert" type="reset" value="Input reset button">
         </div>
         <div class="two-columns__column">
           <h3>Disabled form elements</h3>
-          <button class="invert" type="button" disabled>Disabled button</button>
-          <button class="invert" type="submit" disabled>Disabled submit button</button>
-          <button class="invert" type="reset" disabled>Disabled reset button</button>
-          <input class="invert" type="button" value="Disabled input button" disabled>
-          <input class="invert" type="submit" value="Disabled input submit button" disabled>
-          <input class="invert" type="reset" value="Disabled input reset button" disabled>
+          <button class="button invert" type="button" disabled>Disabled button</button>
+          <button class="button invert" type="submit" disabled>Disabled submit button</button>
+          <button class="button invert" type="reset" disabled>Disabled reset button</button>
+          <input class="button invert" type="button" value="Disabled input button" disabled>
+          <input class="button invert" type="submit" value="Disabled input submit button" disabled>
+          <input class="button invert" type="reset" value="Disabled input reset button" disabled>
         </div>
       </div>
     `,
