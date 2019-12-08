@@ -16,7 +16,7 @@ strong {
 }
 
 /* stylelint-disable no-descending-specificity */
-:--buttons:not(.default),
+:--buttons,
 :--typographic-block-elements {
   margin-bottom: var(--space-300);
   line-height: var(--line-height-default);
@@ -40,66 +40,52 @@ a:--link-states {
   color: var(--blue);
   cursor: pointer;
 }
+
+:--typographic-block-elements {
+  word-spacing: var(--word-spacing-medium);
+}
+
+p {
+  word-spacing: normal;
+}
 /* stylelint-enable no-descending-specificity */
 
 h1,
 .h1 {
   text-transform: uppercase;
-  font-size: var(--font-xl);
+  font-size: var(--font-xxl);
   font-weight: var(--weight-l);
-  word-spacing: var(--word-spacing-medium);
-
-  @media (--desktop-up) {
-    font-size: var(--font-xxl);
-  }
 }
 
 h2,
 .h2 {
   text-transform: uppercase;
-  font-size: var(--font-l);
+  font-size: var(--font-xl);
   font-weight: var(--weight-l);
   letter-spacing: var(--letter-spacing-medium);
-  word-spacing: var(--word-spacing-medium);
-
-  @media (--desktop-up) {
-    font-size: var(--font-xl);
-  }
 }
 
 h3,
 .h3 {
-  font-size: var(--font-m);
+  font-size: var(--font-l);
   font-weight: var(--weight-l);
   letter-spacing: var(--letter-spacing-medium);
-  word-spacing: var(--word-spacing-medium);
-
-  @media (--desktop-up) {
-    font-size: var(--font-l);
-  }
 }
 
 h4,
 .h4 {
-  font-size: var(--font-s);
-  word-spacing: var(--word-spacing-medium);
-
-  @media (--desktop-up) {
-    font-size: var(--font-m);
-  }
+  font-size: var(--font-l);
 }
 
 h5,
 .h5 {
   color: var(--dark-blue);
   font-size: var(--font-s);
-  word-spacing: var(--word-spacing-medium);
 }
 
 h6,
 .h6 {
   font-size: var(--font-p);
-  word-spacing: var(--word-spacing-medium);
 }
 
 .tag {
@@ -113,7 +99,7 @@ h6,
   position: relative;
 
   &::before {
-    content: "";
+    content: '';
     display: inline-block;
     position: absolute;
     left: 0;

@@ -8,7 +8,6 @@ const colors = [
   'light-grey',
   'blue',
   'dark-blue',
-  'red',
 ];
 
 storiesOf('Shared styles|Global styles', module)

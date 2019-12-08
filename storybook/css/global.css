@@ -8,7 +8,7 @@ img {
   width: 100%;
 }
 
-/* Removes outline on touch devices. */
+/* Removes outline on touch devices */
 @media (hover: none) and (pointer: coarse) {
   :--link-states {
     /* stylelint-disable-next-line */

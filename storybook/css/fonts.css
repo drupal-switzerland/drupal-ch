@@ -1,44 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700&display=swap');
 
 :root {
-  /* font sizing */
+  /* Font sizing */
   --font-xxs: 1.2rem;
   --font-xs: 1.4rem;
   --font-p: 1.6rem;
   --font-s: 1.8rem;
   --font-m: 2.4rem;
   --font-l: 3.2rem;
-  --font-xl: 5.4rem;
-  --font-xxl: 7.2rem;
+  --font-xl: 4.4rem;
+  --font-xxl: 5.4rem;
 
-  /* line height */
+  /* Line height */
   --line-height-default: 1.4;
   --line-height-s: 1;
 
-  /* letter spacing */
+  /* Letter spacing */
   --letter-spacing-medium: 0.02em;
   --letter-spacing-extended: 0.05em;
   --letter-spacing-extra: 0.2em;
 
-  /* letter spacing */
+  /* Font weight */
   --weight-s: 200;
   --weight-m: 400;
   --weight-l: 700;
 
-  /* word spacing */
+  /* Word spacing */
   --word-spacing-medium: 0.5rem;
 
-  /* font family */
+  /* Font family */
   --font-family-regular: 'Gothic A1', 'Neue Helvetica', Helvetica, sans-serif;
 }
 
-@media (min-width: 1024px) {
+@media (--desktop-up) {
   :root {
-    /* font sizing */
-    --font-xxs: 1.2rem;
-    --font-xs: 1.4rem;
-    --font-p: 1.6rem;
-    --font-s: 1.8rem;
     --font-m: 3.2rem;
     --font-l: 4.4rem;
     --font-xl: 6.4rem;

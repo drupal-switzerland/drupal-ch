@@ -1,3 +1,7 @@
+:root {
+  --bullet-size: 8px;
+}
+
 .slider {
   position: relative;
 
@@ -12,8 +16,8 @@
     }
 
     .swiper-pagination-bullet {
-      width: 8px;
-      height: 8px;
+      width: var(--bullet-size);
+      height: var(--bullet-size);
       background-color: var(--white);
       position: relative;
       margin: 0 var(--space-100);
@@ -24,8 +28,8 @@
       &::after {
         content: '';
         display: flex;
-        width: 16px;
-        height: 16px;
+        width: calc(var(--bullet-size) * 2);
+        height: calc(var(--bullet-size) * 2);
         border: 1px solid var(--white);
         border-radius: 100%;
         position: absolute;

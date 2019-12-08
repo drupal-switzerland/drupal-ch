@@ -10,10 +10,13 @@
   --space-700: 56px;
   --space-1200: 96px;
   --space-1400: 112px;
+
   /* Header sizes */
   --header-height: 70px;
+
   /* Page max */
   --max-width: 1440px;
+
   /* Media height */
   --media-height-desktop: 85vh;
   --media-height-mobile: 55vh;

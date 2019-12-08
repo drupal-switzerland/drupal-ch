@@ -19,7 +19,7 @@
         }
 
         &::after {
-          content: "";
+          content: '';
           border: 6px solid var(--blue);
           position: absolute;
           top: 0;

@@ -5,7 +5,7 @@
     height: 100%;
     padding: var(--space-200);
     position: relative;
-    /* make button align with inner padding */
+    /* Make button align with inner padding */
     margin-right: calc(-1 * var(--space-200));
 
     .icon {
@@ -32,7 +32,7 @@
     }
 
     &::after {
-      content: "";
+      content: '';
       position: fixed;
       border-radius: 50%;
       opacity: 0;
@@ -87,7 +87,7 @@
 
       &::before,
       &::after {
-        content: ""; /* Insert pseudo-element */
+        content: ''; /* Insert pseudo-element */
         margin: auto; /* Make it push flex items to the center */
       }
     }

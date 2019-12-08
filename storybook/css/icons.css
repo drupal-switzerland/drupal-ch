@@ -30,7 +30,7 @@
     width: var(--icon-width-large);
   }
 
-  /* Main icons. */
+  /* Main icons */
   &.arrow-down-blue {
     background-image: url(./../icons/arrow-down-blue.svg);
   }
@@ -47,7 +47,7 @@
     background-image: url(./../icons/menu-blue.svg);
   }
 
-  /* Message icons. */
+  /* Message icons */
   &.messages-check {
     background-image: url(./../icons/messages-check.svg);
   }
@@ -60,7 +60,7 @@
     background-image: url(./../icons/messages-warning.svg);
   }
 
-  /* Teaser icons. */
+  /* Teaser icons */
   &.collaboration-blue {
     background-image: url(./../icons/teaser/collaboration-blue.svg);
   }
@@ -109,7 +109,7 @@
     background-image: url(./../icons/teaser/web.svg);
   }
 
-  /* Social icons. */
+  /* Social icons */
   &.google-white {
     background-image: url('../icons/social/google-white.svg');
   }
@@ -130,12 +130,12 @@
     background-image: url('../icons/social/google-white.svg');
   }
 
-  /* Sponsors */
+  /* Sponsor icons */
   &.amazeeio {
-    background-image: url('../icons/sponsors/amazeeio.svg');
+    background-image: url('../icons/sponsor/amazeeio.svg');
   }
 
-  /* Icons */
+  /* Logo icons */
   &.logo {
     background-image: url('../icons/logo/logo.png');
   }

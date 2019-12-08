@@ -1,12 +1,12 @@
 import { storiesOf } from '@storybook/html';
 import Wrapper from '../utils/storybook/decorators/Wrapper';
 
-function getIcons(icons, isLogo = false) {
+export function getIcons(icons) {
   return icons.reduce(
     // eslint-disable-next-line no-return-assign, no-param-reassign
     (acc, icon) => (acc += `
       <div class="item item--icon">
-        <div class="${isLogo ? 'logo' : 'icon'} ${icon}"></div>
+        <div class="icon ${icon}"></div>
         <p class="label p">${icon}</p>
       </div>
     `),
@@ -39,7 +39,7 @@ const icons = {
     'meetup-white',
   ],
   logo: ['logo'],
-  sponsors: ['amazeeio'],
+  sponsor: ['amazeeio'],
 };
 
 storiesOf('Shared styles|Icons', module)
@@ -77,15 +77,15 @@ storiesOf('Shared styles|Icons', module)
     `,
   )
   .add(
-    'Sponsors',
+    'Sponsor',
     () => `
       <div class="icons-wrapper">
-        ${getIcons(icons.sponsors)}
+        ${getIcons(icons.sponsor)}
       </div>
     `,
   )
   .add(
-    'Logos',
+    'Logo',
     () => `
       <div class="icons-wrapper">
         ${getIcons(icons.logo)}
