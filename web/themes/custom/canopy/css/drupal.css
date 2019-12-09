@@ -1,13 +1,17 @@
 /* Local tasks (View, Edit, etc.) */
-#block-canopy-local-tasks ul {
-  margin-bottom: 2rem;
+#block-canopy-local-tasks li {
+  display: inline-block;
+  margin: 0 16px 24px 0;
+
+  @media (min-width: 1024px) {
+    margin-bottom: 32px;
+  }
 }
 
-#block-canopy-local-tasks li {
-  background: #f2f1f0;
+#block-canopy-local-tasks a {
   display: inline-block;
-  margin-right: 0.5em;
-  padding: 0.5em 1em;
+  padding: 8px 16px;
+  background: #f2f1f0;
 }
 
 #block-canopy-local-tasks a.is-active {
@@ -28,9 +32,29 @@ div[data-drupal-messages],
   padding: 0 16px !important;
 }
 
+#user-login-form .form-item,
+#user-pass .form-item,
+#user-register-form .form-item,
+#edit-timezone > summary {
+  margin-bottom: 24px;
+}
+
 #block-canopy-page-title {
   margin-top: 32px !important;
-  margin-bottom: 32px !important;
+  margin-bottom: 24px !important;
+}
+
+#block-canopy-page-title > * {
+  margin-bottom: 0;
+}
+
+#user-pass #edit-name {
+  margin-bottom: 0;
+}
+
+.form-item .description,
+.form-item + p {
+  margin-top: -16px;
 }
 
 @media (min-width: 1024px) {
@@ -41,8 +65,20 @@ div[data-drupal-messages],
     padding: 0 32px !important;
   }
 
+  #user-login-form .form-item,
+  #user-pass .form-item,
+  #user-register-form .form-item,
+  #edit-timezone > summary {
+    margin-bottom: 32px;
+  }
+
   #block-canopy-page-title {
     margin-top: 56px !important;
-    margin-bottom: 56px !important;
+    margin-bottom: 32px !important;
+  }
+
+  .form-item .description,
+  .form-item + p {
+    margin-top: -24px;
   }
 }
