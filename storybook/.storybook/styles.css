@@ -2,17 +2,14 @@
 @import '../css/all.css';
 
 .story-wrapper {
-  padding: 0 var(--space-100);
-  margin-bottom: var(--space-500);
+  padding: 0 var(--space-100) var(--space-500) var(--space-100);
 
   @media (--desktop-up) {
-    padding: 0 var(--space-500);
-    margin-bottom: var(--space-1000);
+    padding: 0 var(--space-500) var(--space-1200) var(--space-500);
   }
 
   &.invert {
     background-color: var(--black);
-    padding-bottom: var(--space-500);
   }
 }
 
@@ -21,7 +18,17 @@
 .color-wrapper {
   display: flex;
   flex-flow: row wrap;
-  margin-bottom: var(--space-1000);
+  margin-bottom: var(--space-1200);
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.form {
+  &__item:not(:first-child) {
+    padding: var(--space-200) 0;
+  }
 
   p {
     margin-bottom: 0;

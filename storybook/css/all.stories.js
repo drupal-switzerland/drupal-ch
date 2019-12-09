@@ -69,7 +69,7 @@ storiesOf('Shared styles|Element styles', module)
     `,
   )
   .add(
-    'Block quotes',
+    'Blockquote',
     () => `
       <blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -117,11 +117,15 @@ storiesOf('Shared styles|Element styles', module)
         <p><small>This line of text is meant to be treated as fine print.</small></p>
         <p>You can use the mark tag to <mark>highlight</mark> text like this. <mark>New!</mark></p>
         <p><u>This line of text will render as underlined</u></p>
+
+        <h4>Preformatted text blocks</h4>
+        <p>The following text is preformatted:</p>
+        <pre>(ノ゜Д゜)ノ ︵ ┻━┻</pre>
       </div>
     `,
   )
   .add(
-    'Tables',
+    'Table',
     () => `
       <div class="wysiwyg">
         <div class="table">

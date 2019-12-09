@@ -1,0 +1,127 @@
+/* stylelint-disable */
+:root {
+  --checkbox-radio-size: 20px;
+  --textarea-min-height: 200px;
+}
+
+select,
+label,
+input,
+textarea,
+fieldset > legend {
+  @mixin content-margin-bottom;
+
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: var(--font-s);
+  font-family: inherit;
+  width: 100%;
+}
+
+select,
+input,
+textarea {
+  padding: var(--space-200);
+  background-color: var(--white);
+  border: 1px solid var(--blue);
+  border-radius: 0;
+
+  &:disabled {
+    opacity: var(--disabled-opacity);
+  }
+}
+
+textarea {
+  min-height: var(--textarea-min-height);
+}
+
+label {
+  margin-bottom: var(--space-100);
+  display: block;
+
+  .invert,
+  .invert & {
+    color: var(--white);
+  }
+}
+
+select:not([multiple]) {
+  background-image: url('../icons/arrow-down-blue.svg');
+  background-repeat: no-repeat;
+  background-position: right var(--space-200) center;
+  background-size: 1.5em 1em;
+  appearance: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: var(--space-700);
+
+  &::-ms-expand {
+    display: none;
+  }
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  word-wrap: normal;
+  cursor: pointer;
+  margin-bottom: 0;
+
+  & + span {
+    display: inline-block;
+    position: relative;
+    padding-left: calc(var(--space-200) + var(--checkbox-radio-size));
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+    }
+
+    &::before {
+      background-color: var(--white);
+      height: var(--checkbox-radio-size);
+      width: var(--checkbox-radio-size);
+      border: 1px solid var(--blue);
+      left: 0;
+      top: 1px;
+    }
+
+    &::after {
+      background-color: var(--blue);
+      height: calc(var(--checkbox-radio-size) - 6px);
+      width: calc(var(--checkbox-radio-size) - 6px);
+      opacity: 0;
+      left: 4px;
+      top: 5px;
+      transform: scale(0);
+      transition: all 0.4s ease-out;
+    }
+  }
+
+  &:checked + span::after {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  &:disabled + span {
+    opacity: var(--disabled-opacity);
+  }
+}
+
+input[type='radio'] {
+  margin-bottom: 0;
+
+  & + span {
+    &::after,
+    &::before {
+      border-radius: 50%;
+    }
+  }
+}

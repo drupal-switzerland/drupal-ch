@@ -23,3 +23,6 @@
 
 /* Load actions styles */
 @import './action.css';
+
+/* Load form styles */
+@import './forms.css';
