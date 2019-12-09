@@ -5,7 +5,7 @@
 
   &__media {
     @media (--desktop-down) {
-      margin-bottom: var(--space-700);
+      @mixin content-margin-bottom;
     }
 
     &--image {

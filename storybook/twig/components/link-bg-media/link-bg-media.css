@@ -41,14 +41,11 @@
   }
 
   &__link {
-    margin-top: var(--space-200);
-    margin-bottom: var(--space-200);
+    @mixin content-margin-bottom;
 
     @media (--desktop-up) {
-      margin-right: var(--space-500);
-
-      &:last-child {
-        margin-right: 0;
+      & + & {
+        margin-left: var(--space-500);
       }
     }
   }

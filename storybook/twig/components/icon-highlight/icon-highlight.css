@@ -11,7 +11,7 @@
   }
 
   &__text {
-    margin-bottom: var(--space-400);
+    @mixin content-margin-bottom;
 
     @media (--desktop-up) {
       width: 50%;
@@ -25,8 +25,9 @@
   }
 
   &__icon-teaser {
+    @mixin content-margin-bottom;
+
     flex: 0 0 100%;
-    margin-bottom: var(--space-400);
 
     @media (--desktop-up) {
       flex-basis: 22%;

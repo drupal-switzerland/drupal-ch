@@ -8,8 +8,8 @@ storiesOf('Shared styles|Global styles', module)
   .add(
     'Typography',
     () => `
-      <div class="inner wysiwyg">
-        <div class="story-wrapper">
+      <div class="two-columns wysiwyg">
+        <div class="two-columns__column">
           <h4><u>Regular</u></h4>
           <h1 class="regular">Heading 1</h1>
           <h2 class="regular">Heading 2</h2>
@@ -20,7 +20,7 @@ storiesOf('Shared styles|Global styles', module)
           <p class="regular tag">I am a tag</p>
           <p class="regular">${lorem}</p>
         </div>
-        <div class="story-wrapper">
+        <div class="two-columns__column">
           <h4 class="light"><u>Light</u></h4>
           <h1 class="light">Heading 1</h1>
           <h2 class="light">Heading 2</h2>

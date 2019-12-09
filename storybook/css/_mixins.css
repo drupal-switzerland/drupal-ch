@@ -13,6 +13,14 @@
   }
 }
 
+@define-mixin content-margin-bottom {
+  margin-bottom: var(--space-300);
+
+  @media (--desktop-up) {
+    margin-bottom: var(--space-400);
+  }
+}
+
 @define-mixin aspect-ratio-16-9 {
   position: relative;
   padding-bottom: 56.25%;
@@ -38,7 +46,7 @@
   /* stylelint-disable no-descending-specificity */
   ol,
   ul {
-    margin-bottom: var(--space-300);
+    @mixin content-margin-bottom;
 
     ol,
     ul {
@@ -80,6 +88,50 @@
     }
   }
   /* stylelint-enable no-descending-specificity */
+}
+
+@define-mixin table {
+  table {
+    @mixin content-margin-bottom;
+
+    width: 100%;
+
+    thead,
+    tfoot {
+      background-color: var(--light-grey);
+    }
+
+    th,
+    td {
+      padding: var(--space-200) var(--space-100);
+      text-align: left;
+
+      > * {
+        color: inherit;
+        margin-bottom: 0;
+      }
+    }
+
+    tbody {
+      background-color: var(--white);
+
+      tr + tr {
+        border-top: 1px solid var(--grey);
+      }
+    }
+  }
+
+  .table {
+    @mixin content-margin-bottom;
+
+    overflow-x: auto;
+    min-width: 100%;
+    width: 0;
+
+    table {
+      margin-bottom: 0;
+    }
+  }
 }
 
 @define-mixin overlay {

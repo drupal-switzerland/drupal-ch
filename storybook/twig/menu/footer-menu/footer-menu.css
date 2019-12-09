@@ -9,7 +9,7 @@
   &__item {
     @media (--desktop-down) {
       &:not(:last-child) {
-        margin-bottom: var(--space-300);
+        @mixin content-margin-bottom;
       }
     }
 
@@ -29,8 +29,9 @@
     }
 
     @media (--desktop-down) {
+      @mixin content-margin-bottom;
+
       text-decoration: underline;
-      margin-bottom: var(--space-300);
     }
   }
 }

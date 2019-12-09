@@ -17,8 +17,12 @@ strong {
 
 /* stylelint-disable no-descending-specificity */
 :--buttons,
-:--typographic-block-elements {
-  margin-bottom: var(--space-300);
+:--typographic-block-elements,
+blockquote,
+hr,
+pre {
+  @mixin content-margin-bottom;
+
   line-height: var(--line-height-default);
 }
 
@@ -99,7 +103,7 @@ h6,
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     left: 0;
@@ -120,8 +124,28 @@ h6,
 
 .wysiwyg {
   @mixin list;
+  @mixin table;
 
-  > *:last-child {
+  > *:last-child,
+  ul:last-child > li:last-child,
+  ol:last-child > li:last-child {
     margin-bottom: 0;
   }
+}
+
+sub,
+sup {
+  font-size: var(--font-xxs);
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+sub {
+  bottom: -0.4em;
+}
+
+sup {
+  top: -0.7em;
 }
