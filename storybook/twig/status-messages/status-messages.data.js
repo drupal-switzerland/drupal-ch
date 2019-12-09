@@ -1,23 +1,31 @@
+/* eslint-disable @typescript-eslint/camelcase */
 export const statusMessages = {
-  // eslint-disable-next-line @typescript-eslint/camelcase
-  message_list: {
-    error: [
-      'This is an error.',
-    ],
-    warning: [
-      'This is a warning.',
-      'This is another warning.',
-    ],
-    status: [
-      'This is a status message.',
-      'This is another status message.',
-    ],
+  error: {
+    message_list: {
+      error: ['This is an error.'],
+    },
+    status_headings: {
+      error: 'Error message',
+    },
+    attributes: {},
   },
-  // eslint-disable-next-line @typescript-eslint/camelcase
-  status_headings: {
-    error: 'Error message',
-    warning: 'Warning message',
-    status: 'Status message',
+  warning: {
+    message_list: {
+      warning: ['This is a warning.', 'This is another warning.'],
+    },
+    status_headings: {
+      warning: 'Warning message',
+    },
+    attributes: {},
   },
-  attributes: {},
+  status: {
+    message_list: {
+      status: ['This is a status message.', 'This is another status message.'],
+    },
+    status_headings: {
+      status: 'Status message',
+    },
+    attributes: {},
+  },
 };
+/* eslint-enable @typescript-eslint/camelcase */
