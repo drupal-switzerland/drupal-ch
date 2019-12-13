@@ -57,6 +57,22 @@ div[data-drupal-messages],
   margin-top: -16px;
 }
 
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  color: #fff;
+  background-color: #254757;
+  border: 1px solid #fff;
+  padding: 32px;
+  left: 0;
+  position: absolute !important;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  max-height: 70px;
+  font-weight: 700;
+}
+
 @media (min-width: 1024px) {
   div[data-drupal-messages],
   #block-canopy-content > form,
