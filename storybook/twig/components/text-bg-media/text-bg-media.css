@@ -1,36 +1,12 @@
 .text-bg-media {
-  @mixin overlay;
-
-  position: relative;
-  height: auto;
-  overflow: hidden;
-  min-height: var(--media-height-mobile);
-
-  @media (--desktop-up) {
-    min-height: var(--media-height-desktop);
-  }
+  @mixin hero-wrapper;
 
   &__media {
-    @mixin object-fit;
-
-    min-height: var(--media-height-mobile);
-
-    @media (--desktop-up) {
-      min-height: var(--media-height-desktop);
-    }
+    @mixin hero-image;
   }
 
   &__content {
-    @mixin section-padding;
-
-    @media (--desktop-up) {
-      width: 75%;
-    }
-
-    &--wrapper {
-      position: relative;
-      z-index: 1;
-    }
+    @mixin hero-content;
   }
 
   &__action {

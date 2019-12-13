@@ -6,9 +6,9 @@ storiesOf('Shared styles|Element styles', module)
   .add(
     'List',
     () => `
-      <div class="two-columns">
+      <div class="two-columns wysiwyg">
         <div class="two-columns__column">
-          <div class="wysiwyg">
+          <div>
             <h4><u>Ordered lists</u></h4>
             <ol>
               <li>Lorem ipsum dolor sit amet</li>
@@ -37,7 +37,7 @@ storiesOf('Shared styles|Element styles', module)
           </div>
         </div>
         <div class="two-columns__column">
-          <div class="wysiwyg">
+          <div>
             <h4><u>Unordered lists</u></h4>
             <ul>
               <li>Lorem ipsum dolor sit amet</li>
@@ -118,7 +118,7 @@ storiesOf('Shared styles|Element styles', module)
         <p>You can use the mark tag to <mark>highlight</mark> text like this. <mark>New!</mark></p>
         <p><u>This line of text will render as underlined</u></p>
 
-        <h4>Preformatted text blocks</h4>
+        <h4><u>Preformatted text blocks</u></h4>
         <p>The following text is preformatted:</p>
         <pre>(ノ゜Д゜)ノ ︵ ┻━┻</pre>
       </div>

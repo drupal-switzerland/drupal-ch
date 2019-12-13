@@ -23,11 +23,8 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-
-    &--wrapper {
-      position: relative;
-      z-index: 1;
-    }
+    position: relative;
+    z-index: 1;
   }
 
   &__links {
