@@ -4,11 +4,15 @@ import Swiper from 'swiper';
 class Slider extends LitElement {
   connectedCallback() {
     super.connectedCallback();
-    this.slider = this.querySelector('.swiper-container');
+    const slider = this.querySelector('.swiper-container');
+
+    if (!slider) {
+      return;
+    }
 
     setTimeout(() => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const mySwiper = new Swiper(this.slider, {
+      const mySwiper = new Swiper(slider, {
         loop: true,
         preloadImages: false,
         lazy: true,

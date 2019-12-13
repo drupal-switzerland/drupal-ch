@@ -19,9 +19,17 @@ class MainMenu extends LitElement {
   connectedCallback() {
     super.connectedCallback();
     this.button = this.querySelector('button.main-menu__action');
+    const links = this.querySelectorAll('.main-menu__link');
+    const { button, toggleMenu, linkClick } = this;
 
-    if (this.button) {
-      this.button.addEventListener('click', this.toggleMenu);
+    if (button) {
+      button.addEventListener('click', toggleMenu);
+    }
+
+    if (links.length) {
+      links.forEach(link => {
+        link.addEventListener('click', linkClick);
+      });
     }
   }
 
@@ -30,11 +38,12 @@ class MainMenu extends LitElement {
    * @param {Boolean} isVisible // if the current menu is visible or not
    */
   setAttributes = (isVisible = false) => {
-    const title = this.button.querySelector('.visually-hidden');
-    this.button.setAttribute('aria-pressed', isVisible);
-    this.button.setAttribute('aria-expanded', isVisible);
-    this.button.title = isVisible ? this.closeMenu : this.openMenu;
-    title.innerText = isVisible ? this.closeMenu : this.openMenu;
+    const { button, closeMenu, openMenu } = this;
+    const accessibilityText = isVisible ? closeMenu : openMenu;
+    button.setAttribute('aria-pressed', isVisible);
+    button.setAttribute('aria-expanded', isVisible);
+    button.title = accessibilityText;
+    button.querySelector('.visually-hidden').innerText = accessibilityText;
     document.documentElement.style.overflow = isVisible ? 'hidden' : 'auto';
   };
 
@@ -42,14 +51,15 @@ class MainMenu extends LitElement {
    * Will show/hide menu, add/remove keydown event, and set attributes.
    */
   toggleMenu = () => {
-    if (this.classList.contains('visible')) {
-      this.classList.remove('visible');
-      this.setAttributes();
-      document.removeEventListener('keydown', this.toggleMenuKeyDown);
+    const { classList, setAttributes, toggleMenuKeyDown } = this;
+    if (classList.contains('visible')) {
+      classList.remove('visible');
+      setAttributes();
+      document.removeEventListener('keydown', toggleMenuKeyDown);
     } else {
-      this.classList.add('visible');
-      this.setAttributes(true);
-      document.addEventListener('keydown', this.toggleMenuKeyDown);
+      classList.add('visible');
+      setAttributes(true);
+      document.addEventListener('keydown', toggleMenuKeyDown);
     }
   };
 
@@ -61,6 +71,20 @@ class MainMenu extends LitElement {
   toggleMenuKeyDown = event => {
     const keyCode = event.keyCode || event.which;
     if (keyCode === 27) {
+      this.toggleMenu();
+    }
+  };
+
+  /**
+   * Will check if the href is a hash, if it is prevent default action,
+   * and toggle the menu to close.
+   * @param {Event} event // DOM event
+   */
+  linkClick = event => {
+    if (
+      this.classList.contains('visible')
+      && /^#/.test(event.currentTarget.getAttribute('href'))
+    ) {
       this.toggleMenu();
     }
   };
