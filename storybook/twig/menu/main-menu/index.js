@@ -83,7 +83,7 @@ class MainMenu extends LitElement {
   linkClick = event => {
     if (
       this.classList.contains('visible')
-      && /^#/.test(event.currentTarget.getAttribute('href'))
+      && /^\/?#/.test(event.currentTarget.getAttribute('href'))
     ) {
       this.toggleMenu();
     }
