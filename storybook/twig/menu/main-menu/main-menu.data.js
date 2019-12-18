@@ -2,7 +2,7 @@ export const mainMenu = {
   links: [
     {
       url: {
-        path: '#',
+        path: '/#events',
       },
       label: 'Events',
       links: [],
@@ -10,21 +10,21 @@ export const mainMenu = {
     },
     {
       url: {
-        path: '#',
+        path: 'https://drupal.org',
       },
       label: 'Drupal',
       links: [],
     },
     {
       url: {
-        path: '#',
+        path: '#about-us',
       },
       label: 'About us',
       links: [],
     },
     {
       url: {
-        path: '#',
+        path: '/contact',
       },
       label: 'Contact',
       links: [],
