@@ -1,4 +1,4 @@
-<section class="text-with-media inner">
+<section {{ text.entity.componentId ? 'id=' ~ (text.entity.componentId | clean_class) : '' }} class="text-with-media inner">
   <div class="two-columns {{ media.entity.position }}">
     <div class="two-columns__column">
       {% if media %}
@@ -8,7 +8,9 @@
       {% endif %}
     </div>
     <div class="two-columns__column">
-      {% include '@storybook/components/text/text.html.twig' with text.entity only %}
+      {% include '@storybook/components/text/text.html.twig' with text.entity | merge({
+        componentId: null
+      }) only %}
     </div>
   </div>
 </section>
