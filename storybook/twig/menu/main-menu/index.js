@@ -20,7 +20,9 @@ class MainMenu extends LitElement {
     super.connectedCallback();
     this.button = this.querySelector('button.main-menu__action');
     const links = this.querySelectorAll('.main-menu__link');
-    const { button, toggleMenu, linkClick } = this;
+    const {
+      button, toggleMenu, linkClick, hashChange,
+    } = this;
 
     if (button) {
       button.addEventListener('click', toggleMenu);
@@ -31,6 +33,8 @@ class MainMenu extends LitElement {
         link.addEventListener('click', linkClick);
       });
     }
+
+    window.addEventListener('hashchange', hashChange, false);
   }
 
   /**
@@ -83,8 +87,18 @@ class MainMenu extends LitElement {
   linkClick = event => {
     if (
       this.classList.contains('visible')
-      && /^\/?#/.test(event.currentTarget.getAttribute('href'))
+      && /^#/.test(event.currentTarget.getAttribute('href'))
     ) {
+      this.toggleMenu();
+    }
+  };
+
+  /**
+   * Will check if the hash in the URL has changed, if the menu is visible,
+   * toggle the menu to close.
+   */
+  hashChange = () => {
+    if (this.classList.contains('visible')) {
       this.toggleMenu();
     }
   };

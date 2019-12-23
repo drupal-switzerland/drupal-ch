@@ -5,14 +5,17 @@
   <button type="button" title="Open menu" class="main-menu__action" aria-expanded="false" aria-pressed="false">
     <span class="main-menu__action--icon-menu icon menu-blue"></span>
     <span class="main-menu__action--icon-close icon close-white"></span>
-    <span class="visually-hidden">{{ 'Open menu' | t }}</span>
+    <span class="visually-hidden">{{ openMenu }}</span>
   </button>
 
   <nav class="main-menu__menu">
     <ul class="main-menu__items">
       {% for link in links %}
         <li>
-          <a class="main-menu__link {{ link.active ? 'active' }}" href="{{ link.url.path }}">
+          {% set url = link.url.path %}
+          {% set url = is_front ? url | replace({ '/#' : '#' }) : url | replace({ (path('<current>') ~ '#') : '#' }) %}
+          {% set target = url matches '/http:\\/\\/|https:\\/\\//' ? 'target="_blank" rel="noopener noreferrer"' : '' %}
+          <a class="main-menu__link {{ link.active ? 'active' }}" href="{{ url }}" {{ target | raw }}>
             {{ link.label }}
           </a>
         </li>

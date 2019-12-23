@@ -26,4 +26,6 @@ function canopy_preprocess_page(&$variables) {
       }
     }
   }
+
+  $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
 }

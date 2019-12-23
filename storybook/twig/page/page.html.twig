@@ -1,6 +1,6 @@
 {% block header %}
   {% if graphql.mainMenu %}
-    {% include '@storybook/header/header.html.twig' with graphql.mainMenu only %}
+    {% include '@storybook/header/header.html.twig' with graphql.mainMenu | merge({ is_front: is_front}) only %}
   {% endif %}
 {% endblock %}
 

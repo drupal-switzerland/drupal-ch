@@ -1,14 +1,15 @@
 <header class="header inner">
   <a class="header__logo" href="/">
     <span class="header__logo--icon icon logo large"></span>
-    <span class="header__logo--text">{{ 'Drupal Switzerland'|t }}</span>
+    <span class="header__logo--text">{{ 'Drupal Switzerland' | t }}</span>
   </a>
 
   {% if links %}
     <div class="header__main-menu">
       {% include '@storybook/menu/menu.html.twig' with {
         type: 'mainMenu',
-        links: links
+        links: links,
+        is_front: is_front
       } only %}
     </div>
   {% endif %}
