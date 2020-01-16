@@ -31,7 +31,6 @@
         "drupal/purge": "^3.0@beta",
         "drupal/search_api": "^1.15",
         "drupal/simple_sitemap": "^3.4",
-        "drupal/upgrade_status": "^1.1",
         "drupal/varnish_purge": "^1.11",
         "drupal/video_embed_field": "^2.2",
         "drupal/webform": "^5.5",
