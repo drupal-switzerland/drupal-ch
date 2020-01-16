@@ -31,13 +31,18 @@
         "drupal/purge": "^3.0@beta",
         "drupal/search_api": "^1.15",
         "drupal/simple_sitemap": "^3.4",
+        "drupal/upgrade_rector": "1.x-dev",
+        "drupal/upgrade_status": "2.x-dev",
         "drupal/varnish_purge": "^1.11",
         "drupal/video_embed_field": "^2.2",
         "drupal/webform": "^5.5",
         "zaporylie/composer-drupal-optimizations": "^1.1"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.8"
+        "drupal/core-dev": "^8.8.0",
+        "phpunit/phpunit": "^6.5.0",
+        "sebastian/comparator": "^2.0",
+        "sebastian/diff": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"
