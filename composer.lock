@@ -3597,7 +3597,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "7e4cb433af6c7962b005fadcd76df5aac1106f1f"
+                "reference": "445a0549d7453748a5e63d2e0e2c23b4900a80a9"
             },
             "require": {
                 "drupal/claro": "*",
@@ -3637,7 +3637,7 @@
                 "source": "https://git.drupalcode.org/project/gin",
                 "issues": "https://www.drupal.org/project/issues/gin"
             },
-            "time": "2020-01-09T08:57:13+00:00"
+            "time": "2020-01-20T09:52:47+00:00"
         },
         {
             "name": "drupal/git_deploy",
@@ -5014,7 +5014,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/upgrade_status.git",
-                "reference": "a9bd3ecb94c4d034ebc4d3a91204da4bb05458e8"
+                "reference": "554fc31a736d5bf92bcd131cf415c2b5f4dace59"
             },
             "require": {
                 "drupal/core": "^8.6",
@@ -5029,8 +5029,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha1+12-dev",
-                    "datestamp": "1579268283",
+                    "version": "8.x-2.0-alpha1+13-dev",
+                    "datestamp": "1579268883",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -5072,7 +5072,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/upgrade_status"
             },
-            "time": "2020-01-17T13:46:32+00:00"
+            "time": "2020-01-20T13:19:26+00:00"
         },
         {
             "name": "drupal/user_reference_access",
@@ -7323,16 +7323,16 @@
         },
         {
             "name": "rector/rector-prefixed",
-            "version": "v0.6.10",
+            "version": "v0.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector-prefixed.git",
-                "reference": "35168039f89b3931c3cad140bd2beb0ecdf3af11"
+                "reference": "ae05be8b96f27a842dce90087a98a539faaa043c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector-prefixed/zipball/35168039f89b3931c3cad140bd2beb0ecdf3af11",
-                "reference": "35168039f89b3931c3cad140bd2beb0ecdf3af11",
+                "url": "https://api.github.com/repos/rectorphp/rector-prefixed/zipball/ae05be8b96f27a842dce90087a98a539faaa043c",
+                "reference": "ae05be8b96f27a842dce90087a98a539faaa043c",
                 "shasum": ""
             },
             "require": {
@@ -7355,7 +7355,7 @@
                 "MIT"
             ],
             "description": "Prefixed version of Rector compiled in PHAR",
-            "time": "2020-01-15T14:19:33+00:00"
+            "time": "2020-01-20T12:58:06+00:00"
         },
         {
             "name": "stack/builder",
@@ -10933,16 +10933,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.9.4",
+            "version": "1.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "579bb7356d91f9456ccd505f24ca8b667966a0a7"
+                "reference": "b2c28789e80a97badd14145fda39b545d83ca3ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/579bb7356d91f9456ccd505f24ca8b667966a0a7",
-                "reference": "579bb7356d91f9456ccd505f24ca8b667966a0a7",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/b2c28789e80a97badd14145fda39b545d83ca3ef",
+                "reference": "b2c28789e80a97badd14145fda39b545d83ca3ef",
                 "shasum": ""
             },
             "require": {
@@ -10977,7 +10977,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2019-12-15T19:12:40+00:00"
+            "time": "2020-01-17T21:11:47+00:00"
         },
         {
             "name": "phar-io/manifest",
