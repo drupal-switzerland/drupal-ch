@@ -11,10 +11,6 @@ tasks:
 
   post-rollout:
     - run:
-        name: env variables
-        command: env
-        service: cli
-    - run:
         # If no DB, sync from Master branch.
         name: If no Drupal installed - get database from Master
         command: |
