@@ -4,7 +4,7 @@ update_configs:
   - package_manager: "php:composer"
     directory: "/"
     update_schedule: "monthly"
-    target_branch: "prod"
+    target_branch: "master"
     version_requirement_updates: "off"
     allowed_updates:
       - match:
@@ -19,7 +19,7 @@ update_configs:
   - package_manager: "javascript"
     directory: "/"
     update_schedule: "monthly"
-    target_branch: "prod"
+    target_branch: "master"
     allowed_updates:
       - match:
           dependency_type: "development"
