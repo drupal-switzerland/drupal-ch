@@ -1,0 +1,52 @@
+label: 'Redirect 404'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        path:
+          label: Pfad
+        count:
+          label: Anzahl
+        daily_count:
+          label: 'Tägliche Zählung'
+        timestamp:
+          label: 'Letzter Zugriff'
+        langcode:
+          label: Sprache
+        redirect_404_operations:
+          label: Aktionen
+      filters:
+        path:
+          expose:
+            label: Pfad
+        langcode:
+          expose:
+            label: Sprache
+        resolved:
+          expose:
+            label: 'Konflikt aufgelöst'
+      title: '404-Seiten reparieren'
+      empty:
+        area_text_custom:
+          content: 'Es sind keine 404-Fehler zu beheben.'
+  page_1:
+    display_title: Seite
+    display_options:
+      display_description: 'Pfade mit 404-Fehlern auflisten, für die noch keine Umleitung besteht.'

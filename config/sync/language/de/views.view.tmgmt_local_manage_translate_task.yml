@@ -1,0 +1,334 @@
+label: 'Aufgaben verwalten'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      pager:
+        options:
+          tags:
+            previous: '‹ Vorherige Seite'
+            next: 'Nächste Seite ›'
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      fields:
+        tmgmt_local_task_bulk_form:
+          label: Massenaktualisierung
+          action_title: 'Mit Auswahl'
+        title:
+          label: Titel
+          separator: ', '
+        word_count:
+          label: Wörter
+        item_count:
+          label: Elemente
+        progress:
+          label: Fortschritt
+      title: 'Lokale Aufgaben'
+  assigned:
+    display_title: Zugewiesen
+    display_options:
+      menu:
+        title: Zugewiesen
+      fields:
+        tmgmt_local_task_bulk_form:
+          label: Massenaktualisierung
+          action_title: 'Mit Auswahl'
+        status:
+          label: Status
+          separator: ', '
+        progress:
+          label: Fortschritt
+        tuid:
+          label: Beauftragten
+          separator: ', '
+        title:
+          label: Titel
+          separator: ', '
+        source_language:
+          label: Von
+          separator: ', '
+        target_language:
+          label: An
+          separator: ', '
+        word_count:
+          label: Wörter
+        item_count:
+          label: Elemente
+        loop_count:
+          separator: ', '
+        operations:
+          label: Aktionen
+      filters:
+        source_language:
+          expose:
+            label: Ausgangssprache
+        target_language:
+          expose:
+            label: Zielsprache
+        uid:
+          expose:
+            label: Anbieter
+        title:
+          expose:
+            label: Titel
+      empty:
+        area:
+          content:
+            value: 'Es sind keine Aufgaben zugeordnet.'
+  closed:
+    display_title: Geschlossen
+    display_options:
+      menu:
+        title: Geschlossen
+      fields:
+        tmgmt_local_task_bulk_form:
+          label: Massenaktualisierung
+          action_title: 'Mit Auswahl'
+        status:
+          label: Status
+          separator: ', '
+        progress:
+          label: Fortschritt
+        created:
+          label: Erstellt
+          separator: ', '
+        tuid:
+          label: Beauftragten
+          separator: ', '
+        title:
+          label: Titel
+          separator: ', '
+        source_language:
+          label: Von
+          separator: ', '
+        target_language:
+          label: An
+          separator: ', '
+        word_count:
+          label: Wörter
+        item_count:
+          label: Elemente
+        loop_count:
+          separator: ', '
+        operations:
+          label: Aktionen
+      filters:
+        source_language:
+          expose:
+            label: Ausgangssprache
+        target_language:
+          expose:
+            label: Zielsprache
+        uid:
+          expose:
+            label: Anbieter
+        title:
+          expose:
+            label: Titel
+      empty:
+        area:
+          content:
+            value: 'Es gibt keine geschlossenen Aufgaben.'
+  completed:
+    display_title: Abgeschlossen
+    display_options:
+      menu:
+        title: Abgeschlossen
+      fields:
+        tmgmt_local_task_bulk_form:
+          label: Massenaktualisierung
+          action_title: 'Mit Auswahl'
+        status:
+          label: Status
+          separator: ', '
+        progress:
+          label: Fortschritt
+        created:
+          label: Erstellt
+          separator: ', '
+        tuid:
+          label: Beauftragten
+          separator: ', '
+        title:
+          label: Titel
+          separator: ', '
+        source_language:
+          label: Von
+          separator: ', '
+        target_language:
+          label: An
+          separator: ', '
+        word_count:
+          label: Wörter
+        item_count:
+          label: Elemente
+        loop_count:
+          separator: ', '
+        operations:
+          label: Aktionen
+      filters:
+        source_language:
+          expose:
+            label: Ausgangssprache
+        target_language:
+          expose:
+            label: Zielsprache
+        uid:
+          expose:
+            label: Anbieter
+        title:
+          expose:
+            label: Titel
+      empty:
+        area:
+          content:
+            value: 'Es gibt keine erledigten Aufgaben.'
+  pending:
+    display_title: Ausstehend
+    display_options:
+      menu:
+        title: Ausstehend
+      fields:
+        tmgmt_local_task_bulk_form:
+          label: Massenaktualisierung
+          action_title: 'Mit Auswahl'
+        status:
+          label: Status
+          format_plural_string: !!binary MQNAY291bnQ=
+        tuid:
+          label: Beauftragten
+          separator: ', '
+        title:
+          label: Titel
+          separator: ', '
+        progress:
+          label: Fortschritt
+        source_language:
+          label: Von
+          separator: ', '
+        target_language:
+          label: An
+          separator: ', '
+        word_count:
+          label: Wörter
+        item_count:
+          label: Elemente
+        loop_count:
+          separator: ', '
+        operations:
+          label: Aktionen
+      filters:
+        source_language:
+          expose:
+            label: Ausgangssprache
+        target_language:
+          expose:
+            label: Zielsprache
+        uid:
+          expose:
+            label: Anbieter
+        title:
+          expose:
+            label: Titel
+  rejected:
+    display_title: Abgelehnt
+    display_options:
+      menu:
+        title: Abgelehnt
+      display_description: 'Zeigt zugewiesene Aufgaben mit dem Status abgelehnt an.'
+      fields:
+        tmgmt_local_task_bulk_form:
+          label: Massenaktualisierung
+          action_title: 'Mit Auswahl'
+        status:
+          label: Status
+          format_plural_string: !!binary MQNAY291bnQ=
+        progress:
+          label: Fortschritt
+        created:
+          label: Erstellt
+          separator: ', '
+        tuid:
+          label: Beauftragten
+          separator: ', '
+        title:
+          label: Titel
+          separator: ', '
+        source_language:
+          label: Von
+          separator: ', '
+        target_language:
+          label: An
+          separator: ', '
+        word_count:
+          label: Wörter
+        item_count:
+          label: Elemente
+        loop_count:
+          separator: ', '
+        operations:
+          label: Aktionen
+      filters:
+        source_language:
+          expose:
+            label: Ausgangssprache
+        target_language:
+          expose:
+            label: Zielsprache
+        uid:
+          expose:
+            label: Anbieter
+        title:
+          expose:
+            label: Titel
+      empty:
+        area:
+          content:
+            value: 'Es gibt keine abgelehnten Aufgaben.'
+  unassigned:
+    display_title: 'Nicht zugewiesen und fortlaufend'
+    display_options:
+      title: 'Aufgaben verwalten'
+      fields:
+        tmgmt_local_task_bulk_form:
+          label: Massenaktualisierung
+          action_title: 'Mit Auswahl'
+        status:
+          label: Status
+          format_plural_string: !!binary MQNAY291bnQ=
+        title:
+          label: Titel
+          separator: ', '
+        source_language:
+          label: Von
+          separator: ', '
+        target_language:
+          label: An
+          separator: ', '
+        word_count:
+          label: Wörter
+        item_count:
+          label: Elemente
+        loop_count:
+          separator: ', '
+        operations:
+          label: Aktionen
+      menu:
+        title: 'Nicht zugewiesen und fortlaufend'
+      tab_options:
+        title: 'Nicht zugewiesen und fortlaufend'
+      empty:
+        area:
+          content:
+            value: 'Es gibt keine nicht zugeordneten Aufgaben.'

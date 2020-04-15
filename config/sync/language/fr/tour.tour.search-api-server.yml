@@ -1,0 +1,5 @@
+tips:
+  search-api-server-status:
+    label: État
+  search-api-server-indexes:
+    label: 'Indexes de recherche'

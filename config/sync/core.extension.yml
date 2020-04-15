@@ -62,6 +62,13 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  tmgmt: 0
+  tmgmt_config: 0
+  tmgmt_content: 0
+  tmgmt_file: 0
+  tmgmt_language_combination: 0
+  tmgmt_local: 0
+  tmgmt_locale: 0
   token: 0
   toolbar: 0
   tour: 0
@@ -79,6 +86,7 @@ module:
   workflows: 0
   menu_link_content: 1
   pathauto: 1
+  content_translation: 10
   views: 10
   paragraphs: 11
   minimal: 1000

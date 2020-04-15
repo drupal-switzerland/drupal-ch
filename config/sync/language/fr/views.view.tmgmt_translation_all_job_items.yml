@@ -1,0 +1,71 @@
+display:
+  default:
+    display_title: Maître
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Appliquer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Éléments par page'
+            items_per_page_options_all_label: '- Tout -'
+            offset_label: Décalage
+          tags:
+            previous: '‹ Précédent'
+            next: 'Suivant ›'
+            first: '« Premier'
+            last: 'Dernier »'
+      fields:
+        state:
+          label: État
+        label:
+          label: Étiquette
+        type:
+          label: Type
+        source_language:
+          label: 'A partir de'
+          separator: ', '
+        target_language:
+          label: À
+          separator: ', '
+        progress:
+          label: Progression
+        word_count:
+          label: Mot
+          separator: ', '
+        tags_count:
+          label: Étiquettes
+          separator: ', '
+        changed:
+          label: Modifié
+          separator: ', '
+        operations:
+          label: Actions
+      filters:
+        state:
+          expose:
+            label: États
+          group_info:
+            label: État
+        source_language:
+          expose:
+            label: 'Langue d''origine'
+        job_type:
+          group_info:
+            label: 'Catégorie de travail'
+            group_items:
+              1:
+                title: Normal
+              2:
+                title: Continu
+      title: 'Éléments de travail'
+  page_1:
+    display_title: Page
+    display_options:
+      menu:
+        title: 'Éléments de travail'

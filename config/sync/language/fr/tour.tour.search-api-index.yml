@@ -1,0 +1,19 @@
+tips:
+  search-api-index-index-status:
+    label: 'Statut de l''index'
+  search-api-index-status:
+    label: État
+  search-api-index-tracker:
+    label: Suivi
+  search-api-index-server:
+    label: Serveur
+  search-api-index-server-index-status:
+    label: 'État du serveur d''indexation'
+  search-api-index-cron-batch-size:
+    label: 'Taille des lots de la tâche planifiée (cron)'
+  search-api-index-index-now:
+    label: 'Démarrer l''indexation immédiatement'
+  search-api-index-reindex:
+    label: 'Mettre tous les éléments en file d''attente pour réindexation'
+  search-api-index-clear:
+    label: 'Purger toutes les données indexées'

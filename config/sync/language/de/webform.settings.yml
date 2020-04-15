@@ -1,0 +1,53 @@
+settings:
+  default_form_open_message: 'Dieses Formular wurde noch nicht für Eingaben geöffnet.'
+  default_form_close_message: 'Entschuldigung… Dieses Formular ist für neue Eingaben geschlossen.'
+  default_form_exception_message: 'Dieses Webformular kann nicht angezeigt werden. Bitte kontaktieren Sie den Website-Administrator.'
+  default_submit_button_label: Absenden
+  default_reset_button_label: Zurücksetzen
+  default_form_confidential_message: 'Dieses Formular ist vertraulich. Um es abzuschicken, müssen Sie sich daher <a href="[site:login-url]/logout?destination=[current-page:url:relative]">abmelden</a>.'
+  default_form_access_denied_message: 'Bitte melden Sie sich an, um auf das Formular zugreifen zu können.'
+  default_form_required_label: 'Zeigt das erforderliche Feld an'
+  default_wizard_prev_button_label: '< Vorherige Seite'
+  default_wizard_next_button_label: 'Nächste Seite >'
+  default_wizard_start_label: Beginn
+  default_wizard_confirmation_label: Vollständig
+  default_preview_next_button_label: Vorschau
+  default_preview_prev_button_label: '< Zurück'
+  default_preview_label: Vorschau
+  default_preview_title: '[webform:title]: Vorschau'
+  default_preview_message: 'Bitte überprüfen Sie Ihre Eingabe. Ihre Eingabe ist erst abgeschlossen, wenn Sie auf den Button "Senden" klicken!'
+  default_draft_button_label: 'Als Entwurf speichern'
+  default_draft_saved_message: 'Einsendung zwischengespeichert. Sie können später dieses Formular mit den jetzt gesicherten Inhalten wieder aufrufen.'
+  default_draft_loaded_message: 'Ein teilweise ausgefülltes Formular wurde gefunden. Bitte füllen Sie die restlichen Teile aus.'
+  default_draft_pending_single_message: 'Es gibt einen ausstehenden Entwurf für dieses Webformular. <a href="#">Den ausstehenden Entwurf laden</a>.'
+  default_draft_pending_multiple_message: 'Es gibt ausstehende Entwürfe für dieses Webformular. <a href="#">Ausstehende Entwürfe anzeigen</a>.'
+  default_confirmation_message: 'Neue Eingabe zu [webform:title] hinzugefügt.'
+  default_confirmation_back_label: 'Zurück zum Formular'
+  default_submission_label: '[webform_submission:submitted-to]: Eingabe #[webform_submission:serial]'
+  default_submission_access_denied_message: 'Bitte melden Sie sich an, um auf die Webformulareingabe zugreifen zu können.'
+  default_submission_exception_message: 'Die Webformular-Eingabe konnte nicht verarbeitet werden. Bitte den Administrator der Website kontaktieren.'
+  default_submission_locked_message: 'Diese Webformular-Eingabe wurde gesperrt.'
+  default_previous_submission_message: 'Dieses Webformular wurde bereits eingegeben. <a href="#">Vorherige Eingaben anzeigen</a>.'
+  default_previous_submissions_message: 'Dieses Webformular wurde bereits eingegeben. <a href="#">Vorherige Eingaben anzeigen</a>.'
+  default_autofill_message: 'Diese Eingabe wurde mit Ihrer vorherigen Eingabe automatisch ausgefüllt.'
+  default_limit_total_message: 'Es sind keine weiteren Eingaben erlaubt.'
+  default_limit_user_message: 'Es sind keine weiteren Eingaben erlaubt.'
+  dialog_options:
+    narrow:
+      title: Schmal
+    normal:
+      title: Normal
+    wide:
+      title: Breit
+element:
+  empty_message: '{Empty}'
+  default_more_title: Zusätzlich
+  default_section_title_tag: h2
+file:
+  file_private_redirect_message: 'Bitte anmelden, um auf die hochgeladene Datei zugreifen zu können.'
+mail:
+  default_from_name: '[site:name]'
+  default_body_text: "Gesendet am: [webform_submission:created]\r\nGesendet von: [webform_submission:user]\r\n\r\nGesendete Eingaben:\r\n[webform_submission:values]\n"
+  default_body_html: "<p>Gesendet am: [webform_submission:created]</p>\r\n<p>Gesendet von: [webform_submission:user]</p>\r\n<p>Gesendete Eingaben:</p>\r\n[webform_submission:values]\n"
+test:
+  names: "first_name:\r\n  - 'John'\r\n  - 'Paul'\r\n  - 'Ringo'\r\n  - 'George'\r\nlast_name:\r\n  - 'Lennon'\r\n  - 'McCartney'\r\n  - 'Starr'\r\n  - 'Harrison'\r\naddress:\r\n  - '10 Main Street'\r\n  - '11 Brook Alley Road. APT 1'\r\nzip:\r\n  - '11111'\r\n  - '12345'\r\n  - '12345-6789'\r\npostal_code:\r\n  - '11111'\r\n  - '12345'\r\n  - '12345-6789'\r\nphone:\r\n  - '123-456-7890'\r\n  - '098-765-4321'\r\nfax:\r\n  - '123-456-7890'\r\n  - '098-765-4321'\r\ncity:\r\n  - 'Springfield'\r\n  - 'Pleasantville'\r\n  - 'Hill Valley'\r\nurl:\r\n  - 'http://example.com'\r\n  - 'http://test.com'\r\ndefault:\r\n  - 'Loremipsum'\r\n  - 'Oratione'\r\n  - 'Dixisset'\n"

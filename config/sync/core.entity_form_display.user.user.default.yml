@@ -1,0 +1,44 @@
+uuid: e4ee0d8e-f714-4a1c-86fc-ef6d689e5bb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.tmgmt_translation_skills
+  module:
+    - path
+    - tmgmt_language_combination
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  language:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  tmgmt_translation_skills:
+    type: tmgmt_language_combination_default
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

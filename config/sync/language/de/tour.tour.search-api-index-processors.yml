@@ -1,0 +1,14 @@
+label: 'Prozessoren, die für diesen Index verwendet werden'
+tips:
+  search-api-index-processors-introduction:
+    label: 'Prozessoren, die für diesen Index verwendet werden'
+    body: 'Prozessoren passen verschiedene Aspekte der Funktionalität eines Index an. Sie können verhindern, dass Elemente indiziert werden, ändern, wie bestimmte Felder indiziert werden und die Suche beeinflussen.'
+  search-api-index-processors-enable:
+    label: 'Prozessoren aktivieren'
+    body: 'Hier werden alle für diesen Index verfügbaren Prozessoren aufgelistet. Zu aktivierende Prozessoren können hier ausgewählt werden. (Hinweis: Einige Prozessoren können nicht deaktiviert werden.)'
+  search-api-index-processors-weights:
+    label: Prozessorreihenfolge
+    body: 'Dies zeigt die aktivierten Prozessoren, die in den verschiedenen Teilen des Indexierungs-/Suchworkflows aktiv sind, und ermöglicht eine Neuanordnung dieser. Dies sollte in der Regel nicht notwendig sein und nur von fortgeschrittenen Benutzern verwendet werden, da einige Prozessoren bei Verwendung in der falschen Reihenfolge zu unerwarteten Ergebnissen führen.'
+  search-api-index-processors-settings:
+    label: Prozessoreinstellungen
+    body: 'Einige Prozessoren stellen zusätzliche Konfigurationen zur Verfügung. Diese Konfigurationen können hier angepasst werden.'
