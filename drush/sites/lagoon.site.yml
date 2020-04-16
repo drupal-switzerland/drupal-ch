@@ -8,3 +8,13 @@ master:
   user: drupal-ch-master
   ssh:
     options: '-o LogLevel=ERROR -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 32222'
+develop:
+  host: ssh.lagoon.amazeeio.cloud
+  options:
+    command-specific:
+      sql-sync:
+        no-ordered-dump: true
+  root: /app/web
+  user: drupal-ch-develop
+  ssh:
+    options: '-o LogLevel=ERROR -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 32222'

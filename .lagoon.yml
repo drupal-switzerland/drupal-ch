@@ -72,3 +72,7 @@ environments:
             - www.drupal.ch:
                 tls-acme: 'true'
                 insecure: Redirect
+        - storybook:
+            - storybook.drupal.ch:
+                tls-acme: 'true'
+                insecure: Redirect
