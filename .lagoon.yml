@@ -69,9 +69,11 @@ environments:
             - drupal.ch:
                 tls-acme: 'true'
                 insecure: Redirect
+                hsts: max-age=31536000
             - www.drupal.ch:
                 tls-acme: 'true'
                 insecure: Redirect
+                hsts: max-age=31536000
         - storybook:
             - storybook.drupal.ch:
                 tls-acme: 'true'
