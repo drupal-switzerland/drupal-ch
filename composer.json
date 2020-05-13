@@ -22,6 +22,7 @@
         "drupal/address": "^1.7",
         "drupal/config_ignore": "^2.1",
         "drupal/gin": "2.x-dev",
+        "drupal/git_deploy": "^2.2",
         "drupal/graphql": "^3.0",
         "drupal/honeypot": "^1.29",
         "drupal/menu_item_extras": "^2.8",
