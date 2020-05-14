@@ -106,6 +106,9 @@
         "patches": {
             "drupal/core": {
                 "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch"
+            },
+            "drupal/metatag": {
+                "#3129863 - Compatibility break with graphql 3.0": "https://www.drupal.org/files/issues/2020-04-22/metatag-n3129863-3.patch"
             }
         },
         "drupal-scaffold": {
