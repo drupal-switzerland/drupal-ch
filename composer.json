@@ -30,6 +30,7 @@
         "drupal/paragraphs": "^1.10",
         "drupal/pathauto": "^1.6",
         "drupal/purge": "^3.0@beta",
+        "drupal/redirect": "^1.6",
         "drupal/search_api": "^1.15",
         "drupal/simple_sitemap": "^3.4",
         "drupal/upgrade_rector": "1.x-dev",
