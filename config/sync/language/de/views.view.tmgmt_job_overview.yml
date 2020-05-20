@@ -1,4 +1,3 @@
-label: Auftragsübersicht
 display:
   default:
     display_title: Master
@@ -52,16 +51,9 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         translator:
           expose:
             label: Anbieter
-      title: Auftragsübersicht
-      empty:
-        area_text_custom:
-          content: 'Keine Aufträge verfügbar.'
   page_1:
     display_title: Seite
     display_options:

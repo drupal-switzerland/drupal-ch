@@ -1,13 +1,10 @@
 title: Kontakt
-description: 'Einfaches E-Mail-Kontaktformular.'
-elements: "Name:\n  '#title': 'Ihr Name'\n  '#type': textfield\n  '#required': true\n  '#default_value': '[current-user:display-name]'\nE-Mail:\n  '#title': 'Ihre Email-Adresse'\n  '#type': email\n  '#required': true\n  '#default_value': '[current-user:mail]'\nBetreff:\n  '#title': Betreff\n  '#type': textfield\n  '#required': true\n  '#test': 'Teste Kontakt-Webformular von [site:name]'\nNachricht:\n  '#title': Nachricht\n  '#type': textarea\n  '#required': true\n  '#test': 'Bitte ignorieren Sie diese E-Mail.'\nAktionen:\n  '#type': webform_actions\n  '#title': Senden-Button\n  '#submit__label': 'E-Mail Senden'\n"
 settings:
   confirmation_message: 'Ihre Nachricht wurde gesendet.'
 handlers:
   email_confirmation:
     label: 'Bestätigung via E-Mail'
     settings:
-      from_name: _default
       subject: '[webform_submission:values:subject:raw]'
       body: '[webform_submission:values:message:value]'
   email_notification:

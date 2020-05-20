@@ -1,4 +1,3 @@
-label: 'Aufgaben verwalten'
 display:
   default:
     display_title: Master
@@ -73,19 +72,12 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         uid:
           expose:
             label: Anbieter
         title:
           expose:
             label: Titel
-      empty:
-        area:
-          content:
-            value: 'Es sind keine Aufgaben zugeordnet.'
   closed:
     display_title: Geschlossen
     display_options:
@@ -127,19 +119,12 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         uid:
           expose:
             label: Anbieter
         title:
           expose:
             label: Titel
-      empty:
-        area:
-          content:
-            value: 'Es gibt keine geschlossenen Aufgaben.'
   completed:
     display_title: Abgeschlossen
     display_options:
@@ -181,19 +166,12 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         uid:
           expose:
             label: Anbieter
         title:
           expose:
             label: Titel
-      empty:
-        area:
-          content:
-            value: 'Es gibt keine erledigten Aufgaben.'
   pending:
     display_title: Ausstehend
     display_options:
@@ -232,9 +210,6 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         uid:
           expose:
             label: Anbieter
@@ -246,7 +221,6 @@ display:
     display_options:
       menu:
         title: Abgelehnt
-      display_description: 'Zeigt zugewiesene Aufgaben mit dem Status abgelehnt an.'
       fields:
         tmgmt_local_task_bulk_form:
           label: Massenaktualisierung
@@ -283,23 +257,14 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         uid:
           expose:
             label: Anbieter
         title:
           expose:
             label: Titel
-      empty:
-        area:
-          content:
-            value: 'Es gibt keine abgelehnten Aufgaben.'
   unassigned:
-    display_title: 'Nicht zugewiesen und fortlaufend'
     display_options:
-      title: 'Aufgaben verwalten'
       fields:
         tmgmt_local_task_bulk_form:
           label: Massenaktualisierung
@@ -324,11 +289,3 @@ display:
           separator: ', '
         operations:
           label: Aktionen
-      menu:
-        title: 'Nicht zugewiesen und fortlaufend'
-      tab_options:
-        title: 'Nicht zugewiesen und fortlaufend'
-      empty:
-        area:
-          content:
-            value: 'Es gibt keine nicht zugeordneten Aufgaben.'

@@ -5,5 +5,6 @@ dependencies: {  }
 id: icon_teaser
 label: 'Icon Teaser'
 icon_uuid: null
+icon_default: null
 description: ''
 behavior_plugins: {  }

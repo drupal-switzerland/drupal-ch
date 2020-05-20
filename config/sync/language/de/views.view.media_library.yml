@@ -1,5 +1,4 @@
 label: Medienbibliothek
-description: 'Medien finden und verwalten.'
 display:
   default:
     display_title: Master

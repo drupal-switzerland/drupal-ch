@@ -37,13 +37,8 @@ display:
         status:
           expose:
             label: Status
-      empty:
-        area:
-          content:
-            value: 'Ihnen sind keine Aufgaben zugeordnet.'
       title: 'Lokale Aufgaben'
   closed:
-    display_title: 'Geschlossene Aufgaben'
     display_options:
       fields:
         tmgmt_local_task_bulk_form:
@@ -76,22 +71,13 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         title:
           expose:
             label: Beschriftung
       menu:
         title: Geschlossen
-      empty:
-        area:
-          content:
-            value: 'Sie haben keine geschlossenen Aufgaben.'
   completed:
-    display_title: 'Abgeschlossene Aufgaben'
     display_options:
-      display_description: 'Zeigt abgeschlossene Aufgaben für den aktuellen Übersetzer an.'
       fields:
         tmgmt_local_task_bulk_form:
           label: Massenaktualisierung
@@ -123,18 +109,11 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         title:
           expose:
             label: Beschriftung
       menu:
         title: Abgeschlossen
-      empty:
-        area:
-          content:
-            value: 'Sie haben keine abgeschlossenen Aufgaben.'
   eligible:
     display_options:
       fields:
@@ -166,18 +145,9 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         title:
           expose:
             label: Beschriftung
-      menu:
-        description: 'Liste der geeigneten Aufgaben'
-      empty:
-        area:
-          content:
-            value: 'Sie haben keine geeigneten Aufgaben.'
   my_tasks:
     display_title: 'Meine Aufgaben'
     display_options:
@@ -211,9 +181,6 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         title:
           expose:
             label: Beschriftung
@@ -251,22 +218,13 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         title:
           expose:
             label: Beschriftung
       menu:
         title: Ausstehend
-      empty:
-        area:
-          content:
-            value: 'Sie haben keine ausstehenden Aufgaben.'
   rejected:
-    display_title: 'Abgelehnte Aufgaben'
     display_options:
-      display_description: 'Zeigt abgelehnte Aufgaben für den aktuellen Übersetzer an.'
       fields:
         tmgmt_local_task_bulk_form:
           label: Massenaktualisierung
@@ -298,18 +256,11 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: Zielsprache
         title:
           expose:
             label: Beschriftung
       menu:
         title: Abgelehnt
-      empty:
-        area:
-          content:
-            value: 'Sie haben keine abgelehnten Aufgaben.'
   unassigned:
     display_options:
       fields:
@@ -340,11 +291,3 @@ display:
             label: Status
       tab_options:
         title: Übersetzen
-      footer:
-        area:
-          content:
-            value: '<h2>Meine Aufgaben</h2>'
-      empty:
-        area:
-          content:
-            value: 'Es gibt keine geeigneten Aufgaben.'

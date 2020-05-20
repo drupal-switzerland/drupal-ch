@@ -5,5 +5,6 @@ dependencies: {  }
 id: highlight_slider
 label: 'Highlight Slider'
 icon_uuid: null
+icon_default: null
 description: ''
 behavior_plugins: {  }
