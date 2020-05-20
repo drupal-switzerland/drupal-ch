@@ -26,7 +26,7 @@
         "drupal/graphql": "^3.0",
         "drupal/honeypot": "^1.29",
         "drupal/menu_item_extras": "^2.8",
-        "drupal/metatag": "^1.10",
+        "drupal/metatag": "^1.13",
         "drupal/paragraphs": "^1.10",
         "drupal/pathauto": "^1.6",
         "drupal/purge": "^3.0@beta",
