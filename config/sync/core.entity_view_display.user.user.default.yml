@@ -1,40 +1,31 @@
-uuid: 1ae277bb-46ba-4c60-9274-065bc548ad77
+uuid: a72ea3f3-0722-4298-9230-bef93584a4e5
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_form_mode.user.register
     - field.field.user.user.field_membership_type
     - field.field.user.user.tmgmt_translation_skills
   module:
+    - options
     - user
-id: user.user.register
+id: user.user.default
 targetEntityType: user
 bundle: user
-mode: register
+mode: default
 content:
-  account:
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_membership_type:
-    type: options_select
-    weight: 3
-    region: content
+    weight: 6
+    label: above
     settings: {  }
     third_party_settings: {  }
-  language:
-    weight: 1
+    type: list_default
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  timezone:
-    weight: 2
+  member_for:
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   langcode: true
-  path: true
+  search_api_excerpt: true
   tmgmt_translation_skills: true

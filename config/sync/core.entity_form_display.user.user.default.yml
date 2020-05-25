@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_membership_type
     - field.field.user.user.tmgmt_translation_skills
   module:
     - path
@@ -15,14 +16,20 @@ mode: default
 content:
   account:
     weight: -10
+    region: content
     settings: {  }
     third_party_settings: {  }
+  field_membership_type:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   language:
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   path:
     type: path
     weight: 30
@@ -31,9 +38,9 @@ content:
     third_party_settings: {  }
   timezone:
     weight: 6
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   tmgmt_translation_skills:
     type: tmgmt_language_combination_default
     weight: 31

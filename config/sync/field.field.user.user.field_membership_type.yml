@@ -1,0 +1,25 @@
+uuid: 3bd35b80-5edb-4e7b-b9ab-da2b99226575
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_membership_type
+  module:
+    - options
+    - tmgmt_content
+    - user
+third_party_settings:
+  tmgmt_content:
+    excluded: false
+id: user.user.field_membership_type
+field_name: field_membership_type
+entity_type: user
+bundle: user
+label: 'Membership type'
+description: 'Your membership type represents your status as a member whether paid or non-paying to "Drupal Switzerland"'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
