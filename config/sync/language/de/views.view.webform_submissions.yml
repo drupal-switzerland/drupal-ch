@@ -1,4 +1,5 @@
 label: Webformular-Eingaben
+description: 'Default webform submissions views.'
 display:
   default:
     display_title: Master
@@ -49,9 +50,11 @@ display:
             title: Alle
       title: Webformular-Eingaben
   embed_default:
+    display_title: 'Embed: Default'
     display_options:
       display_description: 'Webformular-Eingaben anzeigen.'
   embed_administer:
+    display_title: 'Embed: Administer'
     display_options:
       display_description: 'Webformular-Eingaben verwalten'
       fields:
@@ -91,6 +94,7 @@ display:
           expose:
             label: Gesperrt
   embed_manage:
+    display_title: 'Embed: Manage'
     display_options:
       display_description: 'Webformular-Eingaben verwalten'
       fields:
@@ -134,7 +138,9 @@ display:
           expose:
             label: Gesperrt
   embed_review:
+    display_title: 'Embed: Review'
     display_options:
+      display_description: 'Review submissions.'
       fields:
         sid:
           label: '#'

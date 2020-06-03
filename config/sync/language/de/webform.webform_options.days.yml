@@ -1,2 +1,3 @@
 label: Tage
 category: 'Datum und Uhrzeit'
+options: "Sunday: Sunday\nMonday: Monday\nTuesday: Tuesday\nWednesday: Wednesday\nThursday: Thursday\nFriday: Friday\nSaturday: Saturday\n"

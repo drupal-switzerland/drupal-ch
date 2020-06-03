@@ -55,6 +55,9 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
+        target_language:
+          expose:
+            label: 'Target language'
         job_type:
           group_info:
             label: Job-Typ

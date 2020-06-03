@@ -37,8 +37,13 @@ display:
         status:
           expose:
             label: Status
+      empty:
+        area:
+          content:
+            value: 'You do not have tasks assigned to you.'
       title: 'Lokale Aufgaben'
   closed:
+    display_title: 'Closed tasks'
     display_options:
       fields:
         tmgmt_local_task_bulk_form:
@@ -71,13 +76,22 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
+        target_language:
+          expose:
+            label: 'Target language'
         title:
           expose:
             label: Beschriftung
       menu:
         title: Geschlossen
+      empty:
+        area:
+          content:
+            value: 'You do not have closed tasks.'
   completed:
+    display_title: 'Completed tasks'
     display_options:
+      display_description: 'Shows completed tasks for the current translator.'
       fields:
         tmgmt_local_task_bulk_form:
           label: Massenaktualisierung
@@ -109,11 +123,18 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
+        target_language:
+          expose:
+            label: 'Target language'
         title:
           expose:
             label: Beschriftung
       menu:
         title: Abgeschlossen
+      empty:
+        area:
+          content:
+            value: 'You do not have completed tasks.'
   eligible:
     display_options:
       fields:
@@ -145,9 +166,18 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
+        target_language:
+          expose:
+            label: 'Target language'
         title:
           expose:
             label: Beschriftung
+      menu:
+        description: 'List of eligible tasks'
+      empty:
+        area:
+          content:
+            value: 'You do not have eligible tasks.'
   my_tasks:
     display_title: 'Meine Aufgaben'
     display_options:
@@ -181,6 +211,9 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
+        target_language:
+          expose:
+            label: 'Target language'
         title:
           expose:
             label: Beschriftung
@@ -218,13 +251,22 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
+        target_language:
+          expose:
+            label: 'Target language'
         title:
           expose:
             label: Beschriftung
       menu:
         title: Ausstehend
+      empty:
+        area:
+          content:
+            value: 'You do not have pending tasks.'
   rejected:
+    display_title: 'Rejected tasks'
     display_options:
+      display_description: 'Shows rejected tasks for the current translator.'
       fields:
         tmgmt_local_task_bulk_form:
           label: Massenaktualisierung
@@ -256,11 +298,18 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
+        target_language:
+          expose:
+            label: 'Target language'
         title:
           expose:
             label: Beschriftung
       menu:
         title: Abgelehnt
+      empty:
+        area:
+          content:
+            value: 'You do not have rejected tasks.'
   unassigned:
     display_options:
       fields:
@@ -291,3 +340,11 @@ display:
             label: Status
       tab_options:
         title: Übersetzen
+      footer:
+        area:
+          content:
+            value: '<h2>My Tasks</h2>'
+      empty:
+        area:
+          content:
+            value: 'There are no eligible tasks.'
