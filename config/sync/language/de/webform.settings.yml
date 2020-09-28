@@ -7,8 +7,7 @@ settings:
   default_form_confidential_message: 'Dieses Formular ist vertraulich. Um es abzuschicken, müssen Sie sich daher <a href="[site:login-url]/logout?destination=[current-page:url:relative]">abmelden</a>.'
   default_form_access_denied_message: 'Bitte melden Sie sich an, um auf das Formular zugreifen zu können.'
   default_form_required_label: 'Indicates required field'
-  default_wizard_prev_button_label: '< Vorherige Seite'
-  default_wizard_next_button_label: 'Nächste Seite >'
+  default_wizard_prev_button_label: '< Zurück'
   default_wizard_start_label: Beginn
   default_wizard_confirmation_label: Vollständig
   default_preview_next_button_label: Vorschau
