@@ -13,10 +13,10 @@ For Drupal+Composer related information see:
 
 URLs:
 - Local: http://drupal-ch.docker.amazee.io
-- Prod: https://nginx-drupal-ch-master.ch.amazee.io
+- Prod: https://drupal.ch or https://nginx-drupal-ch-master.ch.amazee.io
 
 Storybook:
-- Master: https://storybook-drupal-ch-master.ch.amazee.io/
+- Master: https://storybook.drupal.ch/ or https://storybook-drupal-ch-master.ch.amazee.io/
 
 Lagoon UI: https://ui-lagoon-master.ch.amazee.io/project?name=drupal-ch
 
