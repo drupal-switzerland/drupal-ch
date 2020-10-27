@@ -8,7 +8,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
  */
 const javascript = {
   test: /\.(ts|js)$/,
-  exclude: /node_modules\/(?!(lit-html|lit-element|swiper)\/).*/,
+  exclude: /node_modules/,
   use: [
     {
       loader: 'babel-loader',
@@ -23,13 +23,9 @@ const javascript = {
           ['@babel/typescript'],
         ],
         plugins: [
-          [
-            '@babel/plugin-proposal-decorators',
-            { decoratorsBeforeExport: true },
-          ],
-          '@babel/plugin-transform-classes',
-          ['@babel/proposal-class-properties', { loose: true }],
-          '@babel/proposal-object-rest-spread',
+          ['@babel/plugin-proposal-decorators', { decoratorsBeforeExport: true }],
+          ['@babel/plugin-proposal-class-properties', { loose: true }],
+          '@babel/plugin-proposal-object-rest-spread',
         ],
       },
     },

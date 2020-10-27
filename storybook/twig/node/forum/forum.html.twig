@@ -1,7 +1,7 @@
 <div class="forum">
   <section class="text inner">
     {% if body %}
-      {% include '@storybook/components/body/body.html.twig' with {
+      {% include '@twig/components/body/body.html.twig' with {
         text: body
       } only %}
     {% endif %}

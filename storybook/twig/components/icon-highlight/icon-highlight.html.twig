@@ -10,13 +10,13 @@
       <div class="icon-highlight__icon-teasers">
         {% for iconTeaser in iconTeasers %}
           <div class="icon-highlight__icon-teaser">
-            {% include '@storybook/components/icon-teaser/icon-teaser.html.twig' with iconTeaser.entity only %}
+            {% include '@twig/components/icon-teaser/icon-teaser.html.twig' with iconTeaser.entity only %}
           </div>
         {% endfor %}
       </div>
     {% endif %}
     {% if link and link.entity is not empty %}
-      {% include '@storybook/components/link/link.html.twig' with {
+      {% include '@twig/components/link/link.html.twig' with {
         link: link.entity.link,
         class: link.entity.class
       } only %}

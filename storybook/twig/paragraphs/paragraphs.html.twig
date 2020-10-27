@@ -1,6 +1,6 @@
 {% for paragraph in paragraphs %}
   {% set paragraph = paragraph.entity %}
-  {% include '@storybook/components/components.html.twig' with {
+  {% include '@twig/components/components.html.twig' with {
     type: paragraph.type,
     component: paragraph,
     isHero: isHero,

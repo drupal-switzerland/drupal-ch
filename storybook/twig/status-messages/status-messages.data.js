@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/camelcase */
 export const statusMessages = {
   error: {
     message_list: {
@@ -28,4 +27,3 @@ export const statusMessages = {
     attributes: {},
   },
 };
-/* eslint-enable @typescript-eslint/camelcase */

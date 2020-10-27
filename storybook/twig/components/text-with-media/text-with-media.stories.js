@@ -4,7 +4,7 @@ import Wrapper from '../../../utils/storybook/decorators/Wrapper';
 import TextWithMedia from './text-with-media.html.twig';
 import { textWithMedia } from './text-with-media.data';
 
-storiesOf('Components|Text with media', module)
+storiesOf('Components/Text with media', module)
   .addDecorator(Wrapper)
   .add('With image on right', () => TextWithMedia({ ...textWithMedia.withImage() }))
   .add('With image on left', () => TextWithMedia({ ...textWithMedia.withImage('left') }))

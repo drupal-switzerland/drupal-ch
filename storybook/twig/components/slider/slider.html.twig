@@ -3,7 +3,7 @@
     <div class="swiper-wrapper">
       {% block slidecontent %}
         {% for slide in sliderSlides %}
-          {% include '@storybook/components/slider/slide/slide.html.twig' with slide.entity %}
+          {% include '@twig/components/slider/slide/slide.html.twig' with slide.entity %}
         {% endfor %}
       {% endblock %}
     </div>

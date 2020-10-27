@@ -10,7 +10,7 @@ const colors = [
   'dark-blue',
 ];
 
-storiesOf('Shared styles|Global styles', module)
+storiesOf('Shared styles/Global styles', module)
   .addDecorator(Wrapper)
   .add('Colors', () => {
     let colorHTML = '';

@@ -1,13 +1,13 @@
 <div class="swiper-slide slide">
   <div class="inner invert two-columns {{ position }}">
     <div class="two-columns__column slide__content">
-      {% include '@storybook/components/tagline/tagline.html.twig' with {
+      {% include '@twig/components/tagline/tagline.html.twig' with {
         tagline: tagline,
         title: title,
         isH1: isHero,
       } only %}
       {% if link.entity.link and link.entity.link is not empty %}
-        {% include '@storybook/components/link/link.html.twig' with {
+        {% include '@twig/components/link/link.html.twig' with {
           link: link,
           isInvert: true
         } only %}
@@ -15,7 +15,7 @@
     </div>
     {% if media is not empty %}
       <div class="slide__image">
-        {% include '@storybook/components/embed-media/embed-media.html.twig' with {
+        {% include '@twig/components/embed-media/embed-media.html.twig' with {
           media: media
         } only %}
       </div>
