@@ -1,9 +1,9 @@
 {% if type == 'footerMenu' %}
-  {% include '@storybook/menu/footer-menu/footer-menu.html.twig' with {
+  {% include '@twig/menu/footer-menu/footer-menu.html.twig' with {
     links: links
   } only %}
 {% elseif type == 'mainMenu' %}
-  {% include '@storybook/menu/main-menu/main-menu.html.twig' with {
+  {% include '@twig/menu/main-menu/main-menu.html.twig' with {
     links: links,
     is_front: is_front
   } only %}

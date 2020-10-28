@@ -1,7 +1,7 @@
-{% extends '@storybook/components/slider/slider.html.twig' %}
+{% extends '@twig/components/slider/slider.html.twig' %}
 
 {% block slidecontent %}
   {% for slide in highlightSlides %}
-    {% include '@storybook/components/highlight-slider/highlight-slide/highlight-slide.html.twig' with slide.entity only %}
+    {% include '@twig/components/highlight-slider/highlight-slide/highlight-slide.html.twig' with slide.entity only %}
   {% endfor %}
 {% endblock %}

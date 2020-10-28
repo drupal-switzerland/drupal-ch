@@ -12,6 +12,7 @@ const textWithMediaData = {
 };
 
 export const textWithMedia = {
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   withImage(position = 'right') {
     return {
       ...textWithMediaData,
@@ -25,6 +26,7 @@ export const textWithMedia = {
       },
     };
   },
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   withVideo(position = 'right') {
     return {
       ...textWithMediaData,

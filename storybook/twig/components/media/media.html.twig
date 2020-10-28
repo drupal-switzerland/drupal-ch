@@ -3,7 +3,7 @@
   {% if media is not empty %}
     <section class="embed-media">
       {% if media.type == 'MediaImage' %}
-        {% include '@storybook/components/media/media-image/media-image.html.twig' with {
+        {% include '@twig/components/media/media-image/media-image.html.twig' with {
           mediaImage: media.mediaImage,
           responsiveStyle: responsiveStyle | default({
             large: 'rect16x9Large',
@@ -12,9 +12,9 @@
           })
         } only %}
       {% elseif media.type == 'MediaVideo' %}
-        {% include '@storybook/components/media/media-video/media-video.html.twig' with media only %}
+        {% include '@twig/components/media/media-video/media-video.html.twig' with media only %}
       {% elseif media.type == 'MediaDocument' %}
-        {% include '@storybook/components/media/media-document/media-document.html.twig' with media.document.entity only %}
+        {% include '@twig/components/media/media-document/media-document.html.twig' with media.document.entity only %}
       {% endif %}
     </section>
   {% endif %}

@@ -8,9 +8,9 @@
   }
 #}
 {% if graphql.node.type == 'NodePage' %}
-    {% include '@storybook/node/page/page.html.twig' with graphql.node %}
+    {% include '@twig/node/page/page.html.twig' with graphql.node %}
 {% elseif graphql.node.type == 'NodeForum' %}
-    {% include '@storybook/node/forum/forum.html.twig' with graphql.node %}
+    {% include '@twig/node/forum/forum.html.twig' with graphql.node %}
 {% else %}
     <section class="text inner">
         {{ content }}

@@ -1,5 +1,5 @@
 import { LitElement, html, customElement } from 'lit-element';
-import Swiper from 'swiper';
+import Swiper from 'swiper/swiper-bundle.esm';
 
 class Slider extends LitElement {
   connectedCallback() {

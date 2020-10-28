@@ -4,7 +4,7 @@ import Wrapper from '../../../utils/storybook/decorators/Wrapper';
 import Text from './text.html.twig';
 import { text } from './text.data';
 
-storiesOf('Components|Text', module)
+storiesOf('Components/Text', module)
   .addDecorator(Wrapper)
   .add('Default', () => Text({ ...text.withTitle }))
   .add('With link', () => Text({ ...text.withLink }))

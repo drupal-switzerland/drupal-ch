@@ -1,6 +1,6 @@
 <section {{ componentId ? 'id=' ~ (componentId | clean_class) : '' }} class="text inner">
   {% if title %}
-    {% include '@storybook/components/tagline/tagline.html.twig' with {
+    {% include '@twig/components/tagline/tagline.html.twig' with {
       tagline: tagline,
       title: title,
       variant: 'small'
@@ -13,7 +13,7 @@
 
   {% if link.entity.link and link.entity.link is not empty %}
     <div class="text__action">
-      {% include '@storybook/components/link/link.html.twig' with {
+      {% include '@twig/components/link/link.html.twig' with {
         link: link.entity.link,
         class: link.entity.class
       } only %}

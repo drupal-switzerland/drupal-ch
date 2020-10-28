@@ -1,7 +1,7 @@
 <section {{ componentId ? 'id=' ~ (componentId | clean_class) : '' }} class="link-bg-media invert">
   {% if media.entity is not empty %}
     <div class="link-bg-media__media">
-      {% include '@storybook/components/embed-media/embed-media.html.twig' with {
+      {% include '@twig/components/embed-media/embed-media.html.twig' with {
         media: media
       } only %}
     </div>
@@ -17,7 +17,7 @@
         <div class="link-bg-media__links">
           {% for link in links %}
             <div class="link-bg-media__link">
-              {% include '@storybook/components/link/link.html.twig' with {
+              {% include '@twig/components/link/link.html.twig' with {
                 link: link.entity.link,
                 class: link.entity.class,
                 isInvert: true

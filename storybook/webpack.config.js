@@ -8,6 +8,7 @@ const common = require('./webpack.common');
 
 // Webpack configuration.
 module.exports = {
+  mode: 'development',
   entry: {
     scripts: './storybook/scripts.ts',
   },
@@ -15,7 +16,9 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
-  resolve: { extensions: ['.ts', '.js'] },
+  resolve: {
+    extensions: ['.ts', '.js'],
+  },
 
   /**
    * Plugins.

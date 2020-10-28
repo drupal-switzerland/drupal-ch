@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/html';
 import Wrapper from '../utils/storybook/decorators/Wrapper';
 
-storiesOf('Shared styles|Element styles', module)
+storiesOf('Shared styles/Element styles', module)
   .addDecorator(Wrapper)
   .add(
     'List',

@@ -1,5 +1,3 @@
-@import '../../../../../node_modules/swiper/css/swiper.css';
-
 .slide {
   @mixin section-padding;
   @mixin overlay;

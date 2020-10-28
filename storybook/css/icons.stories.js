@@ -1,6 +1,7 @@
 import { storiesOf } from '@storybook/html';
 import Wrapper from '../utils/storybook/decorators/Wrapper';
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export function getIcons(icons) {
   return icons.reduce(
     // eslint-disable-next-line no-return-assign, no-param-reassign
@@ -42,7 +43,7 @@ const icons = {
   sponsor: ['amazeeio'],
 };
 
-storiesOf('Shared styles|Icons', module)
+storiesOf('Shared styles/Icons', module)
   .addDecorator(Wrapper)
   .add(
     'Main',

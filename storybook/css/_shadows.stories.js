@@ -3,7 +3,7 @@ import Wrapper from '../utils/storybook/decorators/Wrapper';
 
 const shadows = ['shadow-30', 'shadow-70', 'shadow-95', 'shadow-inset-white'];
 
-storiesOf('Shared styles|Global styles', module)
+storiesOf('Shared styles/Global styles', module)
   .addDecorator(Wrapper)
   .add('Shadows', () => {
     let shadowHTML = '';
