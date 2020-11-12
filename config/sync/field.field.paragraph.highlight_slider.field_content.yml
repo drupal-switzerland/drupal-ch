@@ -25,9 +25,6 @@ settings:
     target_bundles:
       highlight_slide: highlight_slide
     target_bundles_drag_drop:
-      highlight_slide:
-        enabled: true
-        weight: 19
       embed_media:
         weight: 20
         enabled: false
@@ -37,6 +34,9 @@ settings:
       highlight:
         weight: 22
         enabled: false
+      highlight_slide:
+        enabled: true
+        weight: 19
       highlight_slider:
         weight: 23
         enabled: false

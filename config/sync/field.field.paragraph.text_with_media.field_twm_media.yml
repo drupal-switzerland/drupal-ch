@@ -25,9 +25,6 @@ settings:
     target_bundles:
       embed_media: embed_media
     target_bundles_drag_drop:
-      text_with_media:
-        weight: 20
-        enabled: false
       embed_media:
         enabled: true
         weight: 21
@@ -81,5 +78,8 @@ settings:
         enabled: false
       text_bg_media:
         weight: 38
+        enabled: false
+      text_with_media:
+        weight: 20
         enabled: false
 field_type: entity_reference_revisions

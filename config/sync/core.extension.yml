@@ -72,8 +72,6 @@ module:
   toolbar: 0
   tour: 0
   update: 0
-  upgrade_rector: 0
-  upgrade_status: 0
   user: 0
   varnish_purge_tags: 0
   varnish_purger: 0
@@ -92,7 +90,6 @@ theme:
   stable: 0
   storybook: 0
   canopy: 0
-  classy: 0
   seven: 0
   claro: 0
   gin: 0

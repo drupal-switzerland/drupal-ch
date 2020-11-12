@@ -251,7 +251,7 @@ $databases = [];
  *   ];
  * @endcode
  */
-$config_directories = [];
+$settings['config_sync_directory'] = '../config/sync';
 
 /**
  * Settings:
@@ -755,6 +755,11 @@ $settings['file_scan_ignore_directories'] = [
 $settings['entity_update_batch_size'] = 50;
 
 /**
+ * Ensure configuration is loaded from root config directory.
+ */
+$settings['config_sync_directory'] = '../config/sync';
+
+/**
  * Load local development override configuration, if available.
  *
  * Use settings.local.php to override variables on secondary (staging,
@@ -764,8 +769,6 @@ $settings['entity_update_batch_size'] = 50;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-
-$config_directories['sync'] = '../config/sync';
 if ($env = getenv('SB_ENVIRONMENT')) {
   $env_settings = $app_root . '/' . $site_path . '/settings.' . $env . '.php';
   if (file_exists($env_settings)) {

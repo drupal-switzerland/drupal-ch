@@ -25,9 +25,6 @@ settings:
     target_bundles:
       icon_teaser: icon_teaser
     target_bundles_drag_drop:
-      icon_highlight:
-        weight: 17
-        enabled: false
       embed_media:
         weight: 18
         enabled: false
@@ -36,6 +33,9 @@ settings:
         enabled: false
       highlight:
         weight: 20
+        enabled: false
+      icon_highlight:
+        weight: 17
         enabled: false
       icon_teaser:
         enabled: true

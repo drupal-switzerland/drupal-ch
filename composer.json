@@ -18,14 +18,14 @@
     "require": {
         "ext-json": "*",
         "amazeelabs/silverback": "dev-test-dan",
-        "drupal-composer/drupal-scaffold": "^2.6",
         "drupal/address": "^1.7",
-        "drupal/config_ignore": "^2.1",
+        "drupal/core-composer-scaffold": "^9.0.0",
+        "drupal/core-recommended": "^9.0.0",
         "drupal/gin": "2.x-dev",
         "drupal/git_deploy": "^2.2",
-        "drupal/graphql": "^3.0",
+        "drupal/graphql": "^3.1",
         "drupal/graphql_twig": "^1.0@beta",
-        "drupal/honeypot": "^1.29",
+        "drupal/honeypot": "^2.0",
         "drupal/menu_item_extras": "^2.8",
         "drupal/metatag": "^1.13",
         "drupal/paragraphs": "^1.10",
@@ -34,18 +34,17 @@
         "drupal/redirect": "^1.6",
         "drupal/search_api": "^1.15",
         "drupal/simple_sitemap": "^3.4",
-        "drupal/upgrade_rector": "1.x-dev",
-        "drupal/upgrade_status": "2.x-dev",
-        "drupal/varnish_purge": "^1.11",
+        "drupal/varnish_purge": "^2.0",
         "drupal/video_embed_field": "^2.2",
-        "drupal/webform": "^5.5",
+        "drupal/webform": "^6.0@alpha",
         "zaporylie/composer-drupal-optimizations": "^1.1"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.8.0",
-        "phpunit/phpunit": "^6.5.0",
-        "sebastian/comparator": "^2.0",
-        "sebastian/diff": "^2.0"
+        "drupal/core-dev": "^9.0.0",
+        "palantirnet/drupal-rector": "^0.5.6",
+        "phpunit/phpunit": "^8.4",
+        "sebastian/comparator": "^3.0",
+        "sebastian/diff": "^3.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -108,12 +107,21 @@
         "patches": {
             "drupal/core": {
                 "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch"
+            },
+            "drupal/graphql_twig": {
+                "#3147708 - D9 compatibility": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/1.patch"
             }
         },
         "drupal-scaffold": {
             "initial": {
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
+            },
+            "locations": {
+                "web-root": "web/"
+            },
+            "file-mapping": {
+                "[web-root]/sites/development.services.yml": false
             }
         },
         "enable-patching": true,

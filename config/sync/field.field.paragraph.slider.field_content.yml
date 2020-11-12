@@ -25,9 +25,6 @@ settings:
     target_bundles:
       slide: slide
     target_bundles_drag_drop:
-      slider:
-        weight: 6
-        enabled: false
       embed_media:
         weight: 7
         enabled: false
@@ -37,6 +34,9 @@ settings:
       slide:
         enabled: true
         weight: 9
+      slider:
+        weight: 6
+        enabled: false
       text:
         weight: 10
         enabled: false

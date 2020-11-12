@@ -36,41 +36,26 @@ settings:
       embed_media:
         enabled: true
         weight: 4
-      multi_column:
-        weight: 5
-        enabled: false
-      text:
-        weight: 6
-        enabled: false
-      media:
-        weight: 7
-        enabled: false
-      image:
-        weight: 9
-        enabled: false
-      slide:
-        enabled: true
-        weight: 10
-      slider:
-        weight: 11
-        enabled: false
       gallery:
         weight: 11
         enabled: false
-      icon_highlight:
-        weight: 17
+      highlight:
+        weight: 20
         enabled: false
       highlight_slide:
         enabled: true
         weight: 19
-      highlight:
-        weight: 20
+      highlight_slider:
+        weight: 23
+        enabled: false
+      icon_highlight:
+        weight: 17
         enabled: false
       icon_teaser:
         enabled: true
         weight: 21
-      highlight_slider:
-        weight: 23
+      image:
+        weight: 9
         enabled: false
       link:
         enabled: true
@@ -81,8 +66,23 @@ settings:
       manual_teaser:
         weight: 25
         enabled: false
+      media:
+        weight: 7
+        enabled: false
+      multi_column:
+        weight: 5
+        enabled: false
+      slide:
+        enabled: true
+        weight: 10
+      slider:
+        weight: 11
+        enabled: false
       teaser:
         weight: 30
+        enabled: false
+      text:
+        weight: 6
         enabled: false
       text_bg_media:
         weight: 32

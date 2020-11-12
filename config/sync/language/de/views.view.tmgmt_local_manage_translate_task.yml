@@ -1,4 +1,3 @@
-label: 'Manage Tasks'
 display:
   default:
     display_title: Master
@@ -73,19 +72,12 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: 'Target language'
         uid:
           expose:
             label: Anbieter
         title:
           expose:
             label: Titel
-      empty:
-        area:
-          content:
-            value: 'There are no assigned tasks.'
   closed:
     display_title: Geschlossen
     display_options:
@@ -127,19 +119,12 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: 'Target language'
         uid:
           expose:
             label: Anbieter
         title:
           expose:
             label: Titel
-      empty:
-        area:
-          content:
-            value: 'There are no closed tasks.'
   completed:
     display_title: Abgeschlossen
     display_options:
@@ -181,19 +166,12 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: 'Target language'
         uid:
           expose:
             label: Anbieter
         title:
           expose:
             label: Titel
-      empty:
-        area:
-          content:
-            value: 'There are no completed tasks.'
   pending:
     display_title: Ausstehend
     display_options:
@@ -232,9 +210,6 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: 'Target language'
         uid:
           expose:
             label: Anbieter
@@ -246,7 +221,6 @@ display:
     display_options:
       menu:
         title: Abgelehnt
-      display_description: 'Shows asigned tasks with rejected status.'
       fields:
         tmgmt_local_task_bulk_form:
           label: Massenaktualisierung
@@ -283,23 +257,14 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
-        target_language:
-          expose:
-            label: 'Target language'
         uid:
           expose:
             label: Anbieter
         title:
           expose:
             label: Titel
-      empty:
-        area:
-          content:
-            value: 'There are no rejected tasks.'
   unassigned:
-    display_title: 'Unassigned and ongoing'
     display_options:
-      title: 'Manage Tasks'
       fields:
         tmgmt_local_task_bulk_form:
           label: Massenaktualisierung
@@ -324,11 +289,3 @@ display:
           separator: ', '
         operations:
           label: Aktionen
-      menu:
-        title: 'Unassigned and ongoing'
-      tab_options:
-        title: 'Unassigned and ongoing'
-      empty:
-        area:
-          content:
-            value: 'There are no unassigned tasks.'

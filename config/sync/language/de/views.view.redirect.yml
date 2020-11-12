@@ -1,5 +1,4 @@
 label: Umleiten
-description: 'List of redirects'
 display:
   default:
     display_title: Master
@@ -61,8 +60,5 @@ display:
           expose:
             label: Originalsprache
       title: Umleiten
-      empty:
-        area_text_custom:
-          content: 'There is no redirect yet.'
   page_1:
     display_title: Seite

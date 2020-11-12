@@ -32,37 +32,13 @@ settings:
       embed_media:
         weight: 4
         enabled: false
-      multi_column:
-        weight: 5
-        enabled: false
-      text:
-        weight: 6
-        enabled: false
-      media:
-        weight: 7
-        enabled: false
-      image:
-        enabled: true
-        weight: 9
-      slide:
-        weight: 10
-        enabled: false
       gallery:
         weight: 11
         enabled: false
-      slider:
-        enabled: true
-        weight: 11
       highlight:
         weight: 16
         enabled: false
-      link:
-        weight: 18
-        enabled: false
       highlight_slide:
-        weight: 19
-        enabled: false
-      manual_teaser:
         weight: 19
         enabled: false
       highlight_slider:
@@ -71,16 +47,40 @@ settings:
       icon_highlight:
         weight: 24
         enabled: false
+      icon_teaser:
+        weight: 25
+        enabled: false
+      image:
+        enabled: true
+        weight: 9
+      link:
+        weight: 18
+        enabled: false
+      link_bg_media:
+        weight: 28
+        enabled: false
+      manual_teaser:
+        weight: 19
+        enabled: false
+      media:
+        weight: 7
+        enabled: false
+      multi_column:
+        weight: 5
+        enabled: false
+      slide:
+        weight: 10
+        enabled: false
+      slider:
+        enabled: true
+        weight: 11
       teaser:
         weight: 24
         enabled: false
-      icon_teaser:
-        weight: 25
+      text:
+        weight: 6
         enabled: false
       text_bg_media:
         enabled: true
         weight: 26
-      link_bg_media:
-        weight: 28
-        enabled: false
 field_type: entity_reference_revisions
