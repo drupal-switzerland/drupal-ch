@@ -109,7 +109,8 @@
                 "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch"
             },
             "drupal/graphql_twig": {
-                "#3147708 - D9 compatibility": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/1.patch"
+                "#3147708 - D9 compatibility": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/1.patch",
+                "#3182088 - Warning function findTemplate should be compatible with parent function": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/2.patch"
             }
         },
         "drupal-scaffold": {

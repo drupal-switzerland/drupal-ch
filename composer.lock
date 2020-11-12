@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59e42401e1cbba058f3c25154b3cee7b",
+    "content-hash": "38e6fd81fa6ca30185087bddc7e05010",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3185,7 +3185,8 @@
                     }
                 },
                 "patches_applied": {
-                    "#3147708 - D9 compatibility": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/1.patch"
+                    "#3147708 - D9 compatibility": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/1.patch",
+                    "#3182088 - Warning function findTemplate should be compatible with parent function": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
