@@ -33,18 +33,42 @@ settings:
       link: link
       icon_teaser: icon_teaser
     target_bundles_drag_drop:
-      text:
-        weight: 2
+      embed_media:
+        enabled: true
+        weight: 8
+      gallery:
+        weight: 8
+        enabled: false
+      highlight:
+        weight: 18
+        enabled: false
+      highlight_slide:
+        enabled: true
+        weight: 19
+      highlight_slider:
+        weight: 23
+        enabled: false
+      icon_highlight:
+        weight: 17
+        enabled: false
+      icon_teaser:
+        enabled: true
+        weight: 21
+      image:
+        weight: 19
+        enabled: false
+      link:
+        enabled: true
+        weight: 20
+      link_bg_media:
+        weight: 15
+        enabled: false
+      manual_teaser:
+        weight: 21
         enabled: false
       media:
         weight: 7
         enabled: false
-      gallery:
-        weight: 8
-        enabled: false
-      embed_media:
-        enabled: true
-        weight: 8
       multi_column:
         weight: 9
         enabled: false
@@ -54,40 +78,16 @@ settings:
       slider:
         weight: 11
         enabled: false
-      link_bg_media:
-        weight: 15
-        enabled: false
-      icon_highlight:
-        weight: 17
-        enabled: false
-      highlight:
-        weight: 18
-        enabled: false
-      highlight_slide:
-        enabled: true
-        weight: 19
-      image:
-        weight: 19
-        enabled: false
-      text_with_media:
-        weight: 20
-        enabled: false
-      link:
-        enabled: true
-        weight: 20
-      manual_teaser:
-        weight: 21
-        enabled: false
-      icon_teaser:
-        enabled: true
-        weight: 21
-      highlight_slider:
-        weight: 23
-        enabled: false
       teaser:
         weight: 26
         enabled: false
+      text:
+        weight: 2
+        enabled: false
       text_bg_media:
         weight: 28
+        enabled: false
+      text_with_media:
+        weight: 20
         enabled: false
 field_type: entity_reference_revisions

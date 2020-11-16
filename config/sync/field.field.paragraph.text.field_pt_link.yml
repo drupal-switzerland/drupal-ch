@@ -25,9 +25,6 @@ settings:
     target_bundles:
       link: link
     target_bundles_drag_drop:
-      link:
-        enabled: true
-        weight: 10
       embed_media:
         weight: 11
         enabled: false
@@ -37,6 +34,9 @@ settings:
       image:
         weight: 13
         enabled: false
+      link:
+        enabled: true
+        weight: 10
       media:
         weight: 14
         enabled: false

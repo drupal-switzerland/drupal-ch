@@ -25,9 +25,6 @@ settings:
     target_bundles:
       link: link
     target_bundles_drag_drop:
-      text_bg_media:
-        weight: 15
-        enabled: false
       embed_media:
         weight: 16
         enabled: false
@@ -63,6 +60,9 @@ settings:
         enabled: false
       text:
         weight: 27
+        enabled: false
+      text_bg_media:
+        weight: 15
         enabled: false
       text_with_background_media:
         weight: 28

@@ -38,14 +38,26 @@ settings:
       highlight:
         weight: 16
         enabled: false
+      highlight_slide:
+        weight: 19
+        enabled: false
+      highlight_slider:
+        weight: 23
+        enabled: false
+      icon_highlight:
+        weight: 24
+        enabled: false
+      icon_teaser:
+        weight: 25
+        enabled: false
       image:
         enabled: true
         weight: 17
       link:
         weight: 18
         enabled: false
-      highlight_slide:
-        weight: 19
+      link_bg_media:
+        weight: 28
         enabled: false
       manual_teaser:
         weight: 19
@@ -59,28 +71,16 @@ settings:
       slide:
         weight: 22
         enabled: false
-      highlight_slider:
-        weight: 23
-        enabled: false
       slider:
         enabled: true
         weight: 23
-      icon_highlight:
-        weight: 24
-        enabled: false
       teaser:
         weight: 24
         enabled: false
       text:
         weight: 25
         enabled: false
-      icon_teaser:
-        weight: 25
-        enabled: false
       text_bg_media:
         enabled: true
         weight: 26
-      link_bg_media:
-        weight: 28
-        enabled: false
 field_type: entity_reference_revisions

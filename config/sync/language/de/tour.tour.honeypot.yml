@@ -2,16 +2,13 @@ label: Honeypot
 tips:
   honeypot-configuration:
     label: Honeypot
-    body: "Congratulations on installing Honeypot on your site! With just a few clicks, you can have your site well-protected against automated spam bots.\r\n\r\nClick Next to be guided through this configuration page."
   protect-all-forms:
     label: 'Alle Formulare schützen'
     body: "Der Schutz aller Formulare ist der einfachste Weg die Menge an Spam auf der Website zu reduzieren, aber dadurch wird der Cache von Drupal für jede Seite deaktiviert, auf der ein Formular angezeigt wird.\r\nHinweis: Wenn das Honeypot-Zeitlimit aktiviert ist, kann diese Funktion Probleme mit Produktformularen von Drupal Commerce oder anderen ähnlich kargen Formularen verursachen, weil diese Formulare in sehr kurzer Zeit ausgefüllt werden können."
   log-blocked-form-submissions:
     label: 'Blockierte Formulareingaben protokollieren'
-    body: 'Check this box to log every form submission using watchdog. If you have Database Logging enabled, you can view these log entries in the Recent log messages page under Reports.'
   honeypot-element-name:
     label: Honeypot-Elementname
-    body: 'Spam bots typically fill out any field they believe will help get links back to their site, so tempting them with a field named something like ''url'', ''homepage'', or ''link'' makes it hard for them to resist filling in the field—and easy to catch them in the trap and reject their submissions!'
   honeypot-time-limit:
     label: Honeypot-Zeitlimit
     body: 'Bei der Eingabe eines positiven Wertes erfordert Honeypot, dass alle geschützten Formulare mindestens diese Anzahl von Sekunden zum Ausfüllen benötigen. Die meisten Formulare können nicht in weniger als 5-10 Sekunden ausgefüllt werden(zumindest von menschlichen Besuchern), so dass das Setzen dieser Option auf einen Wert, der kleiner als 5 ist, gegen Spambots schützt. Auf 0 setzen, um diese Funktion zu deaktivieren.'
