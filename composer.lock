@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "38e6fd81fa6ca30185087bddc7e05010",
+    "content-hash": "49bfa05933ddebcb564ddedd5f9a97f8",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -76,36 +76,36 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AmazeeLabs/silverback.git",
-                "reference": "f2f6e29006b6e7270e93f69d07061ae74dc8a470"
+                "reference": "b6b087d3c1b94d6b97df3a93fafe640eb45ad628"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AmazeeLabs/silverback/zipball/f2f6e29006b6e7270e93f69d07061ae74dc8a470",
-                "reference": "f2f6e29006b6e7270e93f69d07061ae74dc8a470",
+                "url": "https://api.github.com/repos/AmazeeLabs/silverback/zipball/b6b087d3c1b94d6b97df3a93fafe640eb45ad628",
+                "reference": "b6b087d3c1b94d6b97df3a93fafe640eb45ad628",
                 "shasum": ""
             },
             "require": {
                 "alchemy/zippy": "dev-master",
                 "cweagans/composer-patches": "^1.6",
-                "drupal/admin_toolbar": "^2.0",
+                "drupal/admin_toolbar": "^2.4",
                 "drupal/components": "^2.0@beta",
                 "drupal/console": "^1.9",
                 "drupal/core": "^9.0",
                 "drupal/cypress": "^2.1",
-                "drupal/entity_usage": "^2.0@alpha",
+                "drupal/entity_usage": "^2.0@beta",
                 "drupal/environment_indicator": "^4.0",
-                "drupal/field_group": "^3.0",
-                "drupal/graphql": "^3.0",
+                "drupal/field_group": "^3.1",
+                "drupal/graphql": "^3.1",
                 "drupal/graphql_twig": "^1.0@beta",
-                "drupal/linkit": "^5.0@beta",
-                "drupal/moderation_state_columns": "1.x-dev@dev",
+                "drupal/linkit": "^6.0@beta",
+                "drupal/moderation_state_columns": "^1.0@beta",
                 "drupal/npm": "^2.0",
-                "drupal/redirect": "^1.5",
-                "drupal/revision_tree": "dev-1.x",
-                "drupal/tmgmt": "^1.10",
-                "drupal/token": "^1.6",
+                "drupal/redirect": "^1.6",
+                "drupal/revision_tree": "^1.0@beta",
+                "drupal/tmgmt": "^1.11",
+                "drupal/token": "^1.7",
                 "drupal/webpack": "^1.0@alpha",
-                "drupal/webpack_babel": "dev-1.x",
+                "drupal/webpack_babel": "^1.0@alpha",
                 "drupal/webpack_react": "^1.0@alpha",
                 "ext-zip": "*",
                 "vlucas/phpdotenv": "^5.2",
@@ -142,7 +142,7 @@
                 }
             ],
             "description": "Scaffolder for Amazee Silverback projects.",
-            "time": "2020-11-12T00:01:15+00:00"
+            "time": "2020-11-16T13:40:33+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -2361,6 +2361,7 @@
                 },
                 "patches_applied": {
                     "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch",
+                    "#3182103 - Add void return type to PHPUnit test": "https://git.drupalcode.org/project/drupal/-/merge_requests/28.patch",
                     "#2718657 - Drupal\\language\\LanguageNegotiator::updateConfiguration() is passed a NULL": "https://www.drupal.org/files/issues/2019-02-28/language-2718657-17.patch",
                     "#2867707 Conflict API": "https://www.drupal.org/files/issues/2019-06-24/2867707-33.drupal.WI-Phase-H-Conflict-management-and-local-workspace-merging-support.patch",
                     "#3045177 workspace specific latest revision": "https://www.drupal.org/files/issues/2019-04-08/3045177-10.patch",
@@ -2823,17 +2824,17 @@
         },
         {
             "name": "drupal/environment_indicator",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/environment_indicator.git",
-                "reference": "4.0.1"
+                "reference": "4.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/environment_indicator-4.0.1.zip",
-                "reference": "4.0.1",
-                "shasum": "a3c66dc5e703f35e1a0f8e91bd97fb11d04f03a6"
+                "url": "https://ftp.drupal.org/files/projects/environment_indicator-4.0.2.zip",
+                "reference": "4.0.2",
+                "shasum": "98fe90da64cf2417b3fd72bde0da20c8cfe75d62"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -2841,8 +2842,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.0.1",
-                    "datestamp": "1602701107",
+                    "version": "4.0.2",
+                    "datestamp": "1605388690",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3157,17 +3158,11 @@
         },
         {
             "name": "drupal/graphql_twig",
-            "version": "1.0.0-beta15",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/graphql_twig.git",
-                "reference": "8.x-1.0-beta15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/graphql_twig-8.x-1.0-beta15.zip",
-                "reference": "8.x-1.0-beta15",
-                "shasum": "47a3cc257fdbc9bfd8702a112a7e19faf697583c"
+                "reference": "69e57371a06af1ae73513bda4c4df8898f6001af"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -3176,17 +3171,16 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
                 "drupal": {
-                    "version": "8.x-1.0-beta15",
-                    "datestamp": "1580116727",
+                    "version": "8.x-1.0-beta15+1-dev",
+                    "datestamp": "1605174155",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": {
-                    "#3147708 - D9 compatibility": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/1.patch",
-                    "#3182088 - Warning function findTemplate should be compatible with parent function": "https://git.drupalcode.org/project/graphql_twig/-/merge_requests/2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3216,7 +3210,8 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/graphql_twig",
                 "issues": "https://www.drupal.org/project/issues/graphql_twig"
-            }
+            },
+            "time": "2020-11-12T09:49:34+00:00"
         },
         {
             "name": "drupal/honeypot",
@@ -3282,17 +3277,17 @@
         },
         {
             "name": "drupal/linkit",
-            "version": "5.0.0-beta11",
+            "version": "6.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/linkit.git",
-                "reference": "8.x-5.0-beta11"
+                "reference": "6.0.0-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/linkit-8.x-5.0-beta11.zip",
-                "reference": "8.x-5.0-beta11",
-                "shasum": "9133a3e61deafdd6a9d5a8b31a1f42e16051ee97"
+                "url": "https://ftp.drupal.org/files/projects/linkit-6.0.0-beta1.zip",
+                "reference": "6.0.0-beta1",
+                "shasum": "1842f07ccacbf1d697b66b2503217eeb5dc0f813"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -3303,8 +3298,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-5.0-beta11",
-                    "datestamp": "1591971693",
+                    "version": "6.0.0-beta1",
+                    "datestamp": "1591971462",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -3465,11 +3460,17 @@
         },
         {
             "name": "drupal/moderation_state_columns",
-            "version": "dev-1.x",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/moderation_state_columns.git",
-                "reference": "19e1a623057552f425035098c120b76f4363350a"
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/moderation_state_columns-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "ec6dbf5863558151538c180eb23c5b29c8b50ea3"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -3480,15 +3481,12 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-1.1+1-dev",
-                    "datestamp": "1587222161",
+                    "version": "8.x-1.2",
+                    "datestamp": "1605533408",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -3505,6 +3503,10 @@
                 {
                     "name": "colorfield",
                     "homepage": "https://www.drupal.org/user/2295486"
+                },
+                {
+                    "name": "dan2k3k4",
+                    "homepage": "https://www.drupal.org/user/2437398"
                 }
             ],
             "description": "Provides a view display that shows moderation states as columns.",
@@ -3515,8 +3517,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/moderation_state_columns",
                 "issues": "https://www.drupal.org/project/issues/moderation_state_columns"
-            },
-            "time": "2020-04-18T15:00:25+00:00"
+            }
         },
         {
             "name": "drupal/npm",
@@ -3845,23 +3846,26 @@
         },
         {
             "name": "drupal/revision_tree",
-            "version": "dev-1.x",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/revision_tree.git",
-                "reference": "b98289ad18ebcc99db32f7976771670e396355ec"
+                "reference": "8.x-1.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/revision_tree-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "467f9156ea3d50dc5ea2c34b2cfa20b0d3d2006a"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-1.0-alpha1+9-dev",
-                    "datestamp": "1594035224",
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1594035344",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -3886,8 +3890,7 @@
             "homepage": "https://www.drupal.org/project/revision_tree",
             "support": {
                 "source": "https://git.drupalcode.org/project/revision_tree"
-            },
-            "time": "2020-07-06T11:33:20+00:00"
+            }
         },
         {
             "name": "drupal/search_api",
@@ -4486,11 +4489,17 @@
         },
         {
             "name": "drupal/webpack_babel",
-            "version": "dev-1.x",
+            "version": "1.0.0-alpha6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webpack_babel.git",
-                "reference": "f8e57409270483808a1f3682b576945963136d93"
+                "reference": "8.x-1.0-alpha6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webpack_babel-8.x-1.0-alpha6.zip",
+                "reference": "8.x-1.0-alpha6",
+                "shasum": "274871c8426d9e3d46c269af6caa6fba2fdeb28a"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -4498,12 +4507,9 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-1.0-alpha5+2-dev",
-                    "datestamp": "1590279892",
+                    "version": "8.x-1.0-alpha6",
+                    "datestamp": "1605531858",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4542,8 +4548,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/webpack_babel",
                 "issues": "https://www.drupal.org/project/issues/webpack_babel"
-            },
-            "time": "2020-05-24T00:24:30+00:00"
+            }
         },
         {
             "name": "drupal/webpack_react",
@@ -9689,16 +9694,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "6e076a124f7ee146f2487554a94b6a19a74887ba"
+                "reference": "f28d44c286812c714741478d968104c5e604a1d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/6e076a124f7ee146f2487554a94b6a19a74887ba",
-                "reference": "6e076a124f7ee146f2487554a94b6a19a74887ba",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/f28d44c286812c714741478d968104c5e604a1d4",
+                "reference": "f28d44c286812c714741478d968104c5e604a1d4",
                 "shasum": ""
             },
             "require": {
@@ -9743,7 +9748,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:39:10+00:00"
+            "time": "2020-11-13T08:04:11+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -9848,75 +9853,6 @@
                 "standards"
             ],
             "time": "2020-11-04T14:55:07+00:00"
-        },
-        {
-            "name": "drupal/config_filter",
-            "version": "2.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/config_filter.git",
-                "reference": "8.x-2.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_filter-8.x-2.2.zip",
-                "reference": "8.x-2.2",
-                "shasum": "dc6bc8107255066507cfc1d6766e664c3673cda0"
-            },
-            "require": {
-                "drupal/core": "^8.8 || ^9"
-            },
-            "conflict": {
-                "drush/drush": "<10"
-            },
-            "suggest": {
-                "drupal/config_split": "Split site configuration for different environments."
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-2.2",
-                    "datestamp": "1601934694",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Fabian Bircher",
-                    "homepage": "https://www.drupal.org/u/bircher",
-                    "email": "opensource@fabianbircher.com",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Nuvole Web",
-                    "homepage": "http://nuvole.org",
-                    "email": "info@nuvole.org",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "pescetti",
-                    "homepage": "https://www.drupal.org/user/436244"
-                }
-            ],
-            "description": "Config Filter allows other modules to interact with a ConfigStorage through filter plugins.",
-            "homepage": "https://www.drupal.org/project/config_filter",
-            "keywords": [
-                "Drupal",
-                "configuration",
-                "configuration management"
-            ],
-            "support": {
-                "source": "https://git.drupalcode.org/project/config_filter",
-                "issues": "https://www.drupal.org/project/issues/config_filter",
-                "slack": "https://drupal.slack.com/archives/C45342CDD"
-            }
         },
         {
             "name": "drupal/core-dev",
@@ -10297,16 +10233,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5"
+                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/776f831124e9c62e1a2c601ecc52e776d8bb7220",
+                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220",
                 "shasum": ""
             },
             "require": {
@@ -10347,7 +10283,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-29T13:22:24+00:00"
+            "time": "2020-11-13T09:40:50+00:00"
         },
         {
             "name": "palantirnet/drupal-rector",
@@ -12191,7 +12127,7 @@
     "stability-flags": {
         "amazeelabs/silverback": 20,
         "drupal/gin": 20,
-        "drupal/graphql_twig": 10,
+        "drupal/graphql_twig": 20,
         "drupal/purge": 10,
         "drupal/webform": 15
     },
