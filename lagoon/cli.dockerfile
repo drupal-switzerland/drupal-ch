@@ -5,7 +5,7 @@ COPY patches /app/patches
 RUN composer --profile install --no-dev --prefer-dist
 COPY . /app
 
-FROM amazeeio/node:14-builder as nodebuilder
+FROM amazeeio/node:16-builder as nodebuilder
 COPY package.json package-lock.json /app/
 RUN npm ci
 COPY . /app
