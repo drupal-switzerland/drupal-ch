@@ -5,7 +5,7 @@ sudo: false
 php:
   # This PHP version (which is set by Travis via phpenv) is overridden in the
   # before_install section.
-  - '7.3'
+  - '8.0'
 
 cache:
   directories:
@@ -23,27 +23,27 @@ addons:
     packages:
       - libgconf-2-4
       # Install PHP and extensions.
-      - php7.3
-      - php7.3-common
-      - php7.3-xml
-      - php7.3-xmlrpc
-      - php7.3-curl
-      - php7.3-imap
-      - php7.3-mbstring
-      - php7.3-opcache
-      - php7.3-soap
-      - php7.3-json
-      - php7.3-zip
-      - php7.3-intl
-      - php7.3-sqlite
-      - php7.3-gd
-      - php7.3-imagick
+      - ph8.0
+      - php8.0-common
+      - php8.0-xml
+      - php8.0-xmlrpc
+      - php8.0-curl
+      - php8.0-imap
+      - php8.0-mbstring
+      - php8.0-opcache
+      - php8.0-soap
+      - php8.0-json
+      - php8.0-zip
+      - php8.0-intl
+      - php8.0-sqlite
+      - php8.0-gd
+      - php8.0-imagick
 
 before_install:
   # Override the phpenv's PHP to the one we installed via APT. We do this to
   # workaround the "too many SQL variables" error which happens when SQLite's
   # SQLITE_MAX_VARIABLE_NUMBER parameter is set to the default value (999).
-  - sudo cp /usr/bin/php7.3 `which php`
+  - sudo cp /usr/bin/php8.0 `which php`
   - php --version
   - echo 'sendmail_path = /bin/true' | sudo tee -a `php -r 'echo php_ini_loaded_file();'`
   - composer self-update
@@ -56,7 +56,7 @@ install:
   - source .envrc
 
 script:
-  - silverback setup
+  - drush si -y minimal --sites-subdir default --existing-config --account-name admin --account-pass admin
   - drush serve :8889 > log.txt 2>&1 &
   # Wait for drush serve to start up, but only for 20 seconds.
   - |

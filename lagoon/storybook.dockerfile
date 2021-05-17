@@ -1,4 +1,4 @@
-FROM amazeeio/node:14-builder as nodebuilder
+FROM amazeeio/node:16-builder as nodebuilder
 RUN mkdir -p /app/storybook
 COPY package.json package-lock.json /app/
 RUN npm ci
