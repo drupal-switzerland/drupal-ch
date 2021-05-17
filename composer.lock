@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e47b294c79743b2c0a0b8d030ebfda34",
+    "content-hash": "6c8633129dc04dcd4dc5b88caaf182f5",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -10177,54 +10177,6 @@
             "time": "2019-09-25T09:05:11+00:00"
         },
         {
-            "name": "jawira/case-converter",
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jawira/case-converter.git",
-                "reference": "79716629a298e44507a8eed9b997968f39367abc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jawira/case-converter/zipball/79716629a298e44507a8eed9b997968f39367abc",
-                "reference": "79716629a298e44507a8eed9b997968f39367abc",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": ">=5.4"
-            },
-            "suggest": {
-                "pds/skeleton": "PHP Package Development Standards"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Jawira\\CaseConverter\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jawira Portugal"
-                }
-            ],
-            "description": "Convert string between **Camel Case** ?, **Snake Case** ?and **Kebab Case** ?.",
-            "keywords": [
-                "camel case",
-                "kebab case",
-                "snake case"
-            ],
-            "support": {
-                "issues": "https://github.com/jawira/case-converter/issues",
-                "source": "https://github.com/jawira/case-converter/tree/master"
-            },
-            "time": "2019-03-18T05:59:08+00:00"
-        },
-        {
             "name": "justinrainbow/json-schema",
             "version": "5.2.10",
             "source": {
@@ -10402,69 +10354,6 @@
                 }
             ],
             "time": "2020-11-13T09:40:50+00:00"
-        },
-        {
-            "name": "palantirnet/drupal-rector",
-            "version": "0.5.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/palantirnet/drupal-rector.git",
-                "reference": "ceb55d69909a5b709f58fe3ad53db5eda82ef06b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/palantirnet/drupal-rector/zipball/ceb55d69909a5b709f58fe3ad53db5eda82ef06b",
-                "reference": "ceb55d69909a5b709f58fe3ad53db5eda82ef06b",
-                "shasum": ""
-            },
-            "require": {
-                "jawira/case-converter": "^1.1",
-                "rector/rector-prefixed": "0.7.29"
-            },
-            "replace": {
-                "drupal8-rector/drupal8-rector": "*",
-                "palantirnet/drupal8-rector": "*"
-            },
-            "require-dev": {
-                "behat/behat": "^3.6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "DrupalRector\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dezső Biczó",
-                    "email": "mxr576@gmail.com"
-                },
-                {
-                    "name": "Ofer Shaal",
-                    "email": "shaal@palantir.net"
-                },
-                {
-                    "name": "Daniel Montgomery",
-                    "email": "montgomery@palantir.net"
-                }
-            ],
-            "description": "Instant fixes for your Drupal code by using Rector.",
-            "keywords": [
-                "Code style",
-                "Drupal 8",
-                "ast",
-                "drupal 9",
-                "rector"
-            ],
-            "support": {
-                "issues": "https://github.com/palantirnet/drupal-rector/issues",
-                "source": "https://github.com/palantirnet/drupal-rector/tree/0.5.6"
-            },
-            "time": "2020-06-05T18:31:01+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -11245,49 +11134,6 @@
                 "source": "https://github.com/reactphp/promise/tree/v2.8.0"
             },
             "time": "2020-05-12T15:16:56+00:00"
-        },
-        {
-            "name": "rector/rector-prefixed",
-            "version": "v0.7.29",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rectorphp/rector-prefixed.git",
-                "reference": "0b8e28a1f5985a4ac10312b4867ec5558a32087d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector-prefixed/zipball/0b8e28a1f5985a4ac10312b4867ec5558a32087d",
-                "reference": "0b8e28a1f5985a4ac10312b4867ec5558a32087d",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2"
-            },
-            "conflict": {
-                "nikic/php-parser": "<4.3",
-                "phpstan/phpstan": "<0.12"
-            },
-            "replace": {
-                "rector/rector": "self.version"
-            },
-            "require-dev": {
-                "doctrine/orm": "^2.7"
-            },
-            "bin": [
-                "rector",
-                "rector.phar"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Prefixed version of Rector compiled in PHAR",
-            "support": {
-                "source": "https://github.com/rectorphp/rector-prefixed/tree/master"
-            },
-            "abandoned": "rector/rector",
-            "time": "2020-06-05T10:36:19+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
