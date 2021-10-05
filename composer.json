@@ -119,10 +119,7 @@
         "patches": {
             "drupal/core": {
                 "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch",
-                "#3182103 - Add void return type to PHPUnit test": "https://git.drupalcode.org/project/drupal/-/merge_requests/28.patch"
-            },
-            "drupal/graphql_twig": {
-                "#3186005 - Error: Call to undefined method __TwigTemplate_*::checkSecurity()": "https://www.drupal.org/files/issues/2021-02-12/graphql_twig-3186005-9.patch"
+                "#3182103 - Add void return type to PHPUnit test": "https://www.drupal.org/files/issues/2021-08-08/3182103-11.patch"
             }
         },
         "drupal-scaffold": {
