@@ -1,4 +1,4 @@
-FROM uselagoon/php-8.0-cli-drupal as builder
+FROM uselagoon/php-8.1-cli-drupal as builder
 COPY composer.json composer.lock load.environment.php /app/
 COPY scripts /app/scripts
 COPY patches /app/patches
@@ -15,7 +15,7 @@ RUN rm -rf /app/node_modules
 # Config directory should be non-writable.
 RUN chmod 755 /app/web/sites/default && chmod 644 /app/web/sites/default/*
 
-FROM uselagoon/php-8.0-cli-drupal
+FROM uselagoon/php-8.1-cli-drupal
 COPY --from=nodebuilder /app /app
 COPY --from=builder /app /app
 

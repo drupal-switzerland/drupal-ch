@@ -2,6 +2,7 @@ label: Startseite
 description: 'Inhalt, der auf der Startseite veröffentlicht ist.'
 display:
   default:
+    display_title: Master
     display_options:
       empty:
         area_text_custom:
@@ -26,7 +27,6 @@ display:
             next: 'Nächste Seite ›'
             first: '« Anfang'
             last: 'Ende »'
-    display_title: Master
   feed_1:
     display_title: Newsfeed
   page_1:

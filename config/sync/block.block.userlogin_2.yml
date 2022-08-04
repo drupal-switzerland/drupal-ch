@@ -15,6 +15,6 @@ plugin: user_login_block
 settings:
   id: user_login_block
   label: 'User login'
-  provider: user
   label_display: '0'
+  provider: user
 visibility: {  }

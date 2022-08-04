@@ -1,3 +1,5 @@
 label: Ja/Nein
 category: Allgemein
-options: "Ja: Ja\nNein: Nein\n"
+options: |
+  Ja: Ja
+  Nein: Nein

@@ -2,6 +2,7 @@ label: 'Page d''accueil'
 description: 'Tout le contenu promu en page d''accueil.'
 display:
   default:
+    display_title: Maître
     display_options:
       empty:
         area_text_custom:
@@ -26,7 +27,6 @@ display:
             next: 'Suivant ›'
             first: '« Premier'
             last: 'Dernier »'
-    display_title: Maître
   feed_1:
     display_title: Flux
   page_1:

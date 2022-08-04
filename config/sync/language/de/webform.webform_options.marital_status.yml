@@ -1,2 +1,6 @@
 label: Familienstand
-options: "Single: Single\nVerheiratet: verheiratet\ngeschieden: geschieden\nverwitwet: verwitwet\n"
+options: |
+  Single: Single
+  Verheiratet: verheiratet
+  geschieden: geschieden
+  verwitwet: verwitwet

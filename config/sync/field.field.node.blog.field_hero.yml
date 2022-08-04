@@ -23,11 +23,11 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       image: image
       slider: slider
       text_bg_media: text_bg_media
+    negate: 0
     target_bundles_drag_drop:
       embed_media:
         weight: 14
@@ -51,8 +51,8 @@ settings:
         weight: 25
         enabled: false
       image:
-        enabled: true
         weight: 17
+        enabled: true
       link:
         weight: 18
         enabled: false
@@ -72,8 +72,8 @@ settings:
         weight: 22
         enabled: false
       slider:
-        enabled: true
         weight: 23
+        enabled: true
       teaser:
         weight: 24
         enabled: false
@@ -81,6 +81,6 @@ settings:
         weight: 25
         enabled: false
       text_bg_media:
-        enabled: true
         weight: 26
+        enabled: true
 field_type: entity_reference_revisions

@@ -18,33 +18,34 @@ bundle: link_bg_media
 mode: default
 content:
   field_media:
+    type: media_library_widget
     weight: 3
+    region: content
     settings:
       media_types:
         - image
         - video
     third_party_settings: {  }
-    type: media_library_widget
-    region: content
   field_meta_eyebrow:
+    type: string_textfield
     weight: 1
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_paragraph_id:
+    type: string_textfield
     weight: -1
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_pt_link_multi:
     type: paragraphs
     weight: 2
+    region: content
     settings:
       title: Link
       title_plural: Links
@@ -60,15 +61,14 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
-    region: content
   field_title:
+    type: string_textfield
     weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
 hidden:
   created: true
   status: true
