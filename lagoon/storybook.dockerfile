@@ -1,4 +1,4 @@
-FROM uselagoon/node-16-builder as nodebuilder
+FROM uselagoon/node-18-builder as nodebuilder
 RUN mkdir -p /app/storybook
 COPY package.json package-lock.json /app/
 RUN npm ci
