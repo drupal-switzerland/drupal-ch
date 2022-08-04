@@ -2,6 +2,7 @@ label: Contenu
 description: 'Trouver et gérer le contenu.'
 display:
   default:
+    display_title: Maître
     display_options:
       exposed_form:
         options:
@@ -58,12 +59,11 @@ display:
       empty:
         area_text_custom:
           content: 'Aucun contenu disponible.'
-    display_title: Maître
   page_1:
+    display_title: Page
     display_options:
       menu:
         title: Contenu
       tab_options:
         title: Contenu
         description: 'Trouver et gérer le contenu'
-    display_title: Page

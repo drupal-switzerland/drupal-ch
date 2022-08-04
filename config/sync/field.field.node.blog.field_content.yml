@@ -25,17 +25,17 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
     target_bundles:
       embed_media: embed_media
       slide: slide
       highlight_slide: highlight_slide
       icon_teaser: icon_teaser
       link: link
+    negate: 1
     target_bundles_drag_drop:
       embed_media:
-        enabled: true
         weight: 4
+        enabled: true
       gallery:
         weight: 11
         enabled: false
@@ -43,8 +43,8 @@ settings:
         weight: 20
         enabled: false
       highlight_slide:
-        enabled: true
         weight: 19
+        enabled: true
       highlight_slider:
         weight: 23
         enabled: false
@@ -52,14 +52,14 @@ settings:
         weight: 17
         enabled: false
       icon_teaser:
-        enabled: true
         weight: 21
+        enabled: true
       image:
         weight: 9
         enabled: false
       link:
-        enabled: true
         weight: 23
+        enabled: true
       link_bg_media:
         weight: 24
         enabled: false
@@ -73,8 +73,8 @@ settings:
         weight: 5
         enabled: false
       slide:
-        enabled: true
         weight: 10
+        enabled: true
       slider:
         weight: 11
         enabled: false

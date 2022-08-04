@@ -14,7 +14,9 @@ bundle: highlight_slider
 mode: default
 content:
   field_content:
+    type: paragraphs
     weight: 0
+    region: content
     settings:
       title: 'Highlight Slider'
       title_plural: 'Highlight Slider'
@@ -30,16 +32,14 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
-    type: paragraphs
-    region: content
   field_paragraph_id:
+    type: string_textfield
     weight: 1
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
 hidden:
   created: true
   status: true

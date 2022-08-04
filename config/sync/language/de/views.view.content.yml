@@ -2,6 +2,7 @@ label: Inhalt
 description: 'Inhalte finden und verwalten.'
 display:
   default:
+    display_title: Master
     display_options:
       exposed_form:
         options:
@@ -58,12 +59,11 @@ display:
       empty:
         area_text_custom:
           content: 'Kein Inhalt verfügbar.'
-    display_title: Master
   page_1:
+    display_title: Seite
     display_options:
       menu:
         title: Inhalt
       tab_options:
         title: Inhalt
         description: 'Inhalte finden und verwalten'
-    display_title: Seite

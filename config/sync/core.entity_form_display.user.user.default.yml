@@ -21,19 +21,19 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_full_name:
+    type: string_textfield
     weight: 1
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_membership_type:
+    type: options_select
     weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   language:
     weight: 4
     region: content
@@ -53,8 +53,8 @@ content:
   tmgmt_translation_skills:
     type: tmgmt_language_combination_default
     weight: 5
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   langcode: true

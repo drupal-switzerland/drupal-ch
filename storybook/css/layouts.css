@@ -15,9 +15,8 @@
 
 .two-columns {
   @media (--desktop-up) {
-    flex-direction: row;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 
     &.right {

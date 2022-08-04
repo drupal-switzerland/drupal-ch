@@ -1,3 +1,15 @@
 label: Monate
 category: 'Datum und Uhrzeit'
-options: "Januar: Januar\nFebruar: Februar\nMärz: März\nApril: April\nMai: Mai\nJuni: Juni\nJuli: Juli\nAugust: August\nSeptember: September\nOktober: Oktober\nNovember: November\nDezember: Dezember\n"
+options: |
+  Januar: Januar
+  Februar: Februar
+  März: März
+  April: April
+  Mai: Mai
+  Juni: Juni
+  Juli: Juli
+  August: August
+  September: September
+  Oktober: Oktober
+  November: November
+  Dezember: Dezember

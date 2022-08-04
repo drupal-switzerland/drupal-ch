@@ -34,6 +34,7 @@
         "drupal/graphql": "^3.1",
         "drupal/graphql_twig": "^1.0@beta",
         "drupal/honeypot": "^2.0",
+        "drupal/lagoon_logs": "^1.1",
         "drupal/linkit": "^6.0@beta",
         "drupal/menu_item_extras": "^2.8",
         "drupal/metatag": "^1.13",
@@ -64,7 +65,15 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "wikimedia/composer-merge-plugin": true,
+            "drupal/console-extend-plugin": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     },
     "autoload": {
         "classmap": [
@@ -119,7 +128,7 @@
         "patches": {
             "drupal/core": {
                 "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch",
-                "#3182103 - Add void return type to PHPUnit test": "https://www.drupal.org/files/issues/2021-08-08/3182103-11.patch"
+                "#3182103 - Add void return type to PHPUnit test": "https://www.drupal.org/files/issues/2022-06-17/3182103-37-9.4.x.patch"
             }
         },
         "drupal-scaffold": {

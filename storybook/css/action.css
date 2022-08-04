@@ -3,6 +3,7 @@
 }
 
 /* stylelint-disable no-descending-specificity */
+
 /* Also fixes Drupal styles */
 .action:not(span),
 :--buttons.button,
