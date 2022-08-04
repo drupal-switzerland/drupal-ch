@@ -1,3 +1,4 @@
+/* stylelint-disable-next-line import-notation */
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700&display=swap');
 
 :root {
@@ -29,7 +30,7 @@
   --word-spacing-medium: 0.5rem;
 
   /* Font family */
-  --font-family-regular: 'Gothic A1', 'Neue Helvetica', Helvetica, sans-serif;
+  --font-family-regular: 'Gothic A1', 'Neue Helvetica', helvetica, sans-serif;
 }
 
 @media (--desktop-up) {

@@ -103,7 +103,7 @@ h6,
   position: relative;
 
   &::before {
-    content: "";
+    content: '';
     display: inline-block;
     position: absolute;
     left: 0;

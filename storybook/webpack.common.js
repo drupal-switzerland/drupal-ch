@@ -17,14 +17,14 @@ const javascript = {
           [
             '@babel/env',
             {
-              targets: { chrome: '63', ie: '11' },
+              targets: { chrome: '80' },
             },
           ],
           ['@babel/typescript'],
         ],
         plugins: [
           ['@babel/plugin-proposal-decorators', { decoratorsBeforeExport: true }],
-          ['@babel/plugin-proposal-class-properties', { loose: true }],
+          '@babel/plugin-proposal-class-properties',
           '@babel/plugin-proposal-object-rest-spread',
         ],
       },
