@@ -15,3 +15,9 @@ channels:
     id: diagnostics
     grants:
       - 3
+  -
+    id: purger_varnishbundled_84bd8f370f
+    grants:
+      - 0
+      - 2
+      - 3
