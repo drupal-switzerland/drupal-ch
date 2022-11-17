@@ -1,7 +1,10 @@
-const { merge } = require('webpack-merge');
-const path = require('path');
+const {
+  merge
+} = require('webpack-merge');
 
-// Import common configurations.
+const path = require('path'); // Import common configurations.
+
+
 const common = require('../webpack.common');
 
 module.exports = {
@@ -10,44 +13,29 @@ module.exports = {
       devtool: 'source-map'
     });
   },
-
-  stories: [
-    './styles.css',
-    '../**/*.stories.@(ts|js)'
-  ],
-  addons: [
-    '@storybook/addon-a11y',
-    '@storybook/addon-actions',
-    '@storybook/addon-viewport',
-  ],
-
+  stories: ['./styles.css', '../**/*.stories.@(ts|js)'],
+  addons: ['@storybook/addon-a11y', '@storybook/addon-actions', '@storybook/addon-viewport'],
   // Config Webpack
-  webpackFinal: async (config, { configType }) => {
+  webpackFinal: async (config, {
+    configType
+  }) => {
     // Alias
     config.resolve.alias = {
-      '@twig': path.resolve(__dirname, '../', 'twig'),
-    };
+      '@twig': path.resolve(__dirname, '../', 'twig')
+    }; // Loaders
 
-    // Loaders
-    config.module.rules.push(
-      common.javascript,
-      common.assets,
-      common.css,
-      {
-        test: /\.twig$/,
-        use: 'twigjs-loader',
-      }
-    );
+    config.module.rules.push(common.javascript, common.assets, common.css, {
+      test: /\.twig$/,
+      use: 'twigjs-loader'
+    }); // Plugins
 
-    // Plugins
-    config.plugins.push(
-      ...common.plugins
-    );
+    config.plugins.push(...common.plugins); // Support importing typescript files without extension.
 
-    // Support importing typescript files without extension.
-    config.resolve.extensions.push('.ts');
+    config.resolve.extensions.push('.ts'); // Return the altered config
 
-    // Return the altered config
     return config;
   },
+  core: {
+    builder: 'webpack5'
+  }
 };

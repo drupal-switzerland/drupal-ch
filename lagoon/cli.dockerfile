@@ -5,9 +5,9 @@ COPY patches /app/patches
 RUN composer --profile install --no-dev --prefer-dist
 COPY . /app
 
-FROM uselagoon/node-16-builder as nodebuilder
+FROM uselagoon/node-18-builder as nodebuilder
 COPY package.json package-lock.json /app/
-RUN npm ci
+RUN npm ci --legacy-peer-deps
 COPY . /app
 RUN npm run build-library
 RUN rm -rf /app/node_modules

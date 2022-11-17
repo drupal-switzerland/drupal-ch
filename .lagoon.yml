@@ -21,10 +21,7 @@ tasks:
         shell: bash
     - run:
         name: drush updb
-        # Sometimes a cache clear is required prior to running database updates.
-        # For example, see https://www.drupal.org/project/drupal/issues/2952071
-        # Make two database update attempts to workaround this issue.
-        command: drush -y updb --entity-updates --cache-clear=0 || (drush cr && drush -y updb --entity-updates --cache-clear=0)
+        command: drush -y updb --cache-clear=0 || (drush cr && drush -y updb --cache-clear=0)
         service: cli
     - run:
         name: drush cr
