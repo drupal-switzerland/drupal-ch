@@ -30,7 +30,7 @@
   --word-spacing-medium: 0.5rem;
 
   /* Font family */
-  --font-family-regular: 'Gothic A1', 'Neue Helvetica', helvetica, sans-serif;
+  --font-family-regular: 'Gothic A1', 'Neue Helvetica', Helvetica, sans-serif;
 }
 
 @media (--desktop-up) {
