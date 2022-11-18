@@ -31,7 +31,7 @@
     "@storybook/addon-actions": "^6.0.28",
     "@storybook/addon-console": "^1.2.2",
     "@storybook/addon-viewport": "^6.0.28",
-    "@storybook/html": "^6.0.28",
+    "@storybook/html": "^6.5.13",
     "@types/node": "^14.14.7",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
