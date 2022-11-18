@@ -7,10 +7,10 @@ COPY . /app
 
 FROM uselagoon/node-18-builder as nodebuilder
 COPY package.json package-lock.json /app/
-RUN npm ci --legacy-peer-deps
+#RUN npm ci --legacy-peer-deps
 COPY . /app
-RUN npm run build-library
-RUN rm -rf /app/node_modules
+#RUN npm run build-library
+#RUN rm -rf /app/node_modules
 
 # Config directory should be non-writable.
 RUN chmod 755 /app/web/sites/default && chmod 644 /app/web/sites/default/*

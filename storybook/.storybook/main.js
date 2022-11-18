@@ -25,29 +25,18 @@ module.exports = {
   webpackFinal: async (config, { configType }) => {
     // Alias
     config.resolve.alias = {
-      '@twig': path.resolve(__dirname, '../', 'twig'),
-    };
+      '@twig': path.resolve(__dirname, '../', 'twig')
+    }; // Loaders
 
-    // Loaders
-    config.module.rules.push(
-      common.javascript,
-      common.assets,
-      common.css,
-      {
-        test: /\.twig$/,
-        use: 'twigjs-loader',
-      }
-    );
+    config.module.rules.push(common.javascript, common.assets, common.css, {
+      test: /\.twig$/,
+      use: 'twigjs-loader'
+    }); // Plugins
 
-    // Plugins
-    config.plugins.push(
-      ...common.plugins
-    );
+    config.plugins.push(...common.plugins); // Support importing typescript files without extension.
 
-    // Support importing typescript files without extension.
-    config.resolve.extensions.push('.ts');
+    config.resolve.extensions.push('.ts'); // Return the altered config
 
-    // Return the altered config
     return config;
   },
 };

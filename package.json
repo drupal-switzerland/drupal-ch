@@ -36,6 +36,7 @@
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
     "@webcomponents/webcomponentsjs": "^2.5.0",
+    "ansi-regex": "^3.0.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.1",
     "core-js": "^3.7.0",
@@ -69,7 +70,7 @@
     "stylelint-config-standard": "^18.3.0",
     "stylelint-webpack-plugin": "^1.2.3",
     "swiper": "^6.3.5",
-    "twig": "^1.15.3",
+    "twig": "1.15.3",
     "twig-drupal-filters": "^3.1.2",
     "twigjs-loader": "^1.0.2",
     "typescript": "^4.0.5",
@@ -80,8 +81,8 @@
     "webpack-merge": "^5.2.0"
   },
   "resolutions": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   },
   "devDependencies": {
     "husky": "^4.3.0"
