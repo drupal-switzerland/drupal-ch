@@ -16,6 +16,7 @@
         }
     ],
     "require": {
+        "php": "^8.0",
         "ext-json": "*",
         "ext-zip": "*",
         "alchemy/zippy": "dev-master",
@@ -24,9 +25,9 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/components": "^2.4",
         "drupal/console": "^1.9",
-        "drupal/core": "^9.4",
-        "drupal/core-composer-scaffold": "^9.4",
-        "drupal/core-recommended": "^9.4",
+        "drupal/core": "^9.5",
+        "drupal/core-composer-scaffold": "^9.5",
+        "drupal/core-recommended": "^9.5",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/environment_indicator": "^4.0",
         "drupal/gin": "^3.0@beta",
@@ -127,8 +128,7 @@
         },
         "patches": {
             "drupal/core": {
-                "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch",
-                "#3182103 - Add void return type to PHPUnit test": "https://www.drupal.org/files/issues/2022-10-06/3182103-38.patch"
+                "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch"
             }
         },
         "drupal-scaffold": {
