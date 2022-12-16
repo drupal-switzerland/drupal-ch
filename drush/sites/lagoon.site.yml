@@ -1,20 +1,8 @@
-master:
+'*':
   host: ssh.lagoon.amazeeio.cloud
-  options:
-    command-specific:
-      sql-sync:
-        no-ordered-dump: true
-  root: /app/web
-  user: drupal-ch-master
+  paths:
+    files: /app/web/sites/default/files
+  user: ${env-name}
   ssh:
-    options: '-o LogLevel=ERROR -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 32222'
-develop:
-  host: ssh.lagoon.amazeeio.cloud
-  options:
-    command-specific:
-      sql-sync:
-        no-ordered-dump: true
-  root: /app/web
-  user: drupal-ch-develop
-  ssh:
-    options: '-o LogLevel=ERROR -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 32222'
+    options: '-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=FATAL -p 32222'
+    tty: false

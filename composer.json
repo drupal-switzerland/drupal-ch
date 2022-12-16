@@ -20,6 +20,7 @@
         "ext-json": "*",
         "ext-zip": "*",
         "alchemy/zippy": "dev-master",
+        "amazeeio/drupal_integrations": "^0.3.7",
         "cweagans/composer-patches": "^1.7",
         "drupal/address": "^1.11",
         "drupal/admin_toolbar": "^3.1",
@@ -122,7 +123,7 @@
             "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
-            "drush/Commands/{$name}": [
+            "drush/Commands/contrib/{$name}": [
                 "type:drupal-drush"
             ]
         },
@@ -132,6 +133,9 @@
             }
         },
         "drupal-scaffold": {
+            "allowed-packages": [
+                "amazeeio/drupal_integrations"
+            ],
             "initial": {
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
