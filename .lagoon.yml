@@ -87,14 +87,6 @@ environments:
                 tls-acme: 'true'
                 insecure: Redirect
                 hsts: max-age=31536000
-            - drupalmediacamp.ch:
-                tls-acme: 'true'
-                insecure: Redirect
-                hsts: max-age=31536000
-            - www.drupalmediacamp.ch:
-                tls-acme: 'true'
-                insecure: Redirect
-                hsts: max-age=31536000
         - storybook:
             - storybook.drupal.ch:
                 tls-acme: 'true'
