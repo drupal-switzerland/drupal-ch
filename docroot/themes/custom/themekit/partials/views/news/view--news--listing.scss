@@ -1,0 +1,35 @@
+.view-news-listing {
+  > .view-content {
+    @include breakpoint(medium) {
+      @include flex-grid-row(nest);
+    }
+
+    > .views-row {
+      margin-bottom: 32px;
+      @include breakpoint(medium) {
+        @include flex-grid-column(6);
+      }
+      @include breakpoint(large) {
+        @include flex-grid-column(4);
+      }
+      @include breakpoint(xlarge) {
+        @include flex-grid-column(3);
+      }
+    }
+  }
+}
+
+.block--views-blocknews-listing {
+  .block__title {
+    margin-bottom: 40px;
+    @include breakpoint(medium) {
+      @include flex-grid-size(6);
+      order: -2;
+      margin-bottom: 56px;
+      flex-shrink: 0;
+    }
+    @include breakpoint(large) {
+      @include flex-grid-size(4);
+    }
+  }
+}

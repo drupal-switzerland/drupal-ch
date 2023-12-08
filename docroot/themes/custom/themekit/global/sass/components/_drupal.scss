@@ -1,0 +1,456 @@
+/**
+ * Theme adjustments that impact the admin experience
+ * - 01 - Messages
+ * - 02 - Replace Drupal Ajax Throbber
+ * - 03 - Files
+ * - 04 - Layout Builder Customizations
+ * - 05 - Site Specific
+ */
+
+/*------------------------------------*\
+  01 - Messages
+  Custom styles for Drupal's notification messages.
+\*------------------------------------*/
+div[data-drupal-messages] {
+  .messages {
+    color: $body-font-color;
+    padding: 8px 10px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    background-image: none;
+
+    a {
+      text-decoration: underline;
+    }
+
+    &:before {
+      @extend %icon-base;
+      font-size: 30px;
+      margin-right: 10px;
+    }
+    .layout-builder-form & {
+      margin: 0;
+      background-image: none;
+    }
+    &.messages--ok,
+    &.messages--status {
+      color: darken($statusokbg, 10%);
+      border-color: lighten($statusokbg, 50%);
+
+      a {
+        color: darken($statusokbg, 10%);
+      }
+    }
+
+    &.messages--status {
+      &:before {
+        @include icon(check, true);
+        color: #81b564;
+      }
+    }
+
+    &.messages--ok {
+      &:before {
+        @include icon(info, true);
+        color: #81b564;
+      }
+    }
+
+    &.messages--warning {
+      &:before {
+        @include icon(info, true);
+        color: #e2be6c;
+      }
+      a {
+        color: $body-font-color;
+      }
+    }
+
+    &.messages--error {
+      background-color: $errorbg;
+      border-color: darken($errorbg, 10%);
+      color: #fff;
+
+      a {
+        color: #fff;
+      }
+
+      &:before {
+        @include icon(info);
+      }
+    }
+  }
+}
+
+.messages ul {
+  list-style: none;
+  margin: 0; /* LTR */
+  padding: 0;
+}
+.messages ul li {
+  border-bottom: 1px solid #fff;
+  list-style-image: none;
+  margin-bottom: 4px;
+  padding-bottom: 10px;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+/*------------------------------------*\
+  02 - Replace Drupal Ajax Throbber
+  Custom styles for Drupal's notification messages.
+\*------------------------------------*/
+// The following snippet replaces the default ajax throbber with a custom svg element and rotation.
+// The fallback replaces the Drupal gif with a less ugly custom gif. Only the throbber element has
+// been modified here, so it will still have the default behavior of appearing inline and default
+// size, etc. Size can be altered easily below.
+//
+// Color of svg spinner can easily be changed in the loader.svg file, or completely replace
+// with an alternative.
+//
+// Relies on modernizr cssanimations test.
+//
+//This is the throbber that shows up on views
+.cssanimations .ajax-progress.ajax-progress-fullscreen {
+  height: 44px;
+  width: 44px;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  background: $white;
+  z-index: z(ajax-throbber);
+  opacity: 0.9;
+  border: 2px solid $primary-color;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: url(../../assets/images/svg/loader.svg);
+    @include bg-style(contain);
+    animation: rotate 700ms linear infinite normal;
+  }
+}
+
+.no-cssanimations .ajax-progress.ajax-progress-fullscreen {
+  background: url(../../assets/images/gif-loader.gif);
+  @include bg-style(contain);
+}
+
+/*------------------------------------*\
+  03 - Files
+  Fix file defaults, icons are added based on MIME type
+\*------------------------------------*/
+.file {
+  background-image: none;
+  padding-left: 0;
+}
+
+/*------------------------------------*\
+  04 - Layout Builder Customizations
+  Adds updates the improves the overall layout builder experience
+\*------------------------------------*/
+.layout-builder {
+  background: none;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+// Make Layout builder action buttons sticky to bottom
+.layout-builder-form {
+  position: relative;
+  padding-bottom: 50px;
+
+  & > .form-actions {
+    background: #f7f7f7;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 8px 32px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 10px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+      position: absolute;
+      top: -10px;
+      left: 0;
+      z-index: 301;
+    }
+
+    // Button styles are copied from Gin Theme
+    .button {
+      box-shadow: 0 1px 2px rgba(5, 80, 230, 0.15);
+      padding: calc(1rem - 2px) calc(1.5rem - 2px);
+      border-radius: 6px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      color: var(--colorGinPrimary);
+      background-color: transparent;
+      border: 2px solid var(--colorGinPrimary) !important;
+      &:hover {
+        color: var(--colorGinButtonText);
+        background-color: var(--colorGinPrimary);
+      }
+
+      &.button--primary {
+        background: var(--colorGinPrimary);
+        box-shadow: 0 0.125em 0.25em var(--colorGinPrimaryLightActive), 0.1em 0.25em 0.5em var(--colorGinPrimaryLight), -0.25em -0.5em 1em var(--colorGinAppBackground);
+        filter: drop-shadow(0 6px 10px var(--colorGinPrimaryLight));
+        color: var(--colorGinButtonText);
+        &:hover {
+          background-color: var(--colorGinPrimaryHover);
+        }
+      }
+      &#edit-discard-changes {
+        color: var(--colorGinDanger);
+        -webkit-box-shadow: 0 1px 2px var(--colorGinDangerLightest);
+        box-shadow: 0 1px 2px var(--colorGinDangerLightest);
+        border: 2px solid var(--colorGinDanger) !important;
+        background: transparent;
+        &:hover {
+          color: var(--colorGinLayerBackground);
+          background-color: var(--colorGinDanger);
+        }
+      }
+    }
+
+    #edit-preview-toggle {
+      order: -1;
+      margin-right: auto;
+    }
+
+    #edit-preview-toggle {
+      .js-form-item,
+      input {
+        margin: 0;
+      }
+    }
+
+    #edit-rebuild-layout {
+      display: none;
+    }
+  }
+}
+
+// Alter icon sizes on layout builder browser icons
+.ui-dialog-off-canvas {
+  #drupal-off-canvas:not(.drupal-off-canvas-reset),
+  #drupal-off-canvas-wrapper {
+    .js-layout-builder-category {
+      .details-wrapper {
+        a.use-ajax {
+          color: $white;
+          display: flex;
+          align-items: center;
+          img {
+            width: 30px;
+            margin-right: 10px;
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Alter layout section icon sizes
+ul.layout-selection {
+  margin-top: 16px;
+  li {
+    margin-left: 0;
+  }
+  svg {
+    width: 60px;
+    height: auto;
+  }
+}
+
+// Make sure "Add Block" buttons fill column space.
+.layout-builder__add-block {
+  width: 100%;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+// Adjust Discard Change manage
+.block--help {
+  max-width: 1200px;
+  margin: 32px auto;
+}
+.layout-builder-discard-changes {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  input.button--primary {
+    padding: calc(1rem - 2px) calc(1.5rem - 2px);
+    border-radius: 6px;
+    background: var(--colorGinPrimary);
+    color: var(--colorGinButtonText);
+    border: 2px solid var(--colorGinPrimary) !important;
+    box-shadow: 0 0.125em 0.25em var(--colorGinPrimaryLightActive), 0.1em 0.25em 0.5em var(--colorGinPrimaryLight), -0.25em -0.5em 1em var(--colorGinAppBackground);
+    filter: drop-shadow(0 6px 10px var(--colorGinPrimaryLight));
+    &:hover {
+      background-color: var(--colorGinPrimaryHover);
+    }
+  }
+
+  #edit-cancel {
+    box-shadow: 0 1px 2px rgba(5, 80, 230, 0.15);
+    padding: calc(1rem - 2px) calc(1.5rem - 2px);
+    border-radius: 6px;
+    color: var(--colorGinPrimary);
+    background-color: transparent;
+    border: 2px solid var(--colorGinPrimary) !important;
+    &:hover {
+      color: var(--colorGinButtonText);
+      background-color: var(--colorGinPrimary);
+    }
+  }
+}
+
+// Fixes for off canvas with gin theme
+// Intended to fix moderation side and layout builder off canvas
+.ui-dialog-off-canvas {
+  .ui-dialog-titlebar-close {
+    top: 10px !important;
+  }
+  #drupal-off-canvas:not(.drupal-off-canvas-reset),
+  #drupal-off-canvas-wrapper {
+    // Normalize Text colors
+    color: $white;
+    a:not(.button) {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .chosen-container {
+      * {
+        color: black;
+      }
+      input {
+        min-height: auto;
+      }
+    }
+
+    .form-wrapper label,
+    .form-composite label {
+      color: white;
+    }
+
+    // Button styles are copied from Gin Theme
+    .button {
+      box-shadow: 0 1px 2px rgba(5, 80, 230, 0.15);
+      padding: calc(1rem - 2px) calc(1.5rem - 2px);
+      border-radius: 6px;
+      background-color: var(--colorGinOffCanvasActive);
+      border: 2px solid var(--colorGinOffCanvasActive) !important;
+      width: 100% !important;
+      text-align: center !important;
+      margin: 0;
+
+      &:hover {
+        color: var(--colorGinButtonText);
+        background-color: var(--colorGinPrimaryHover);
+        border-color: var(--colorGinPrimaryHover) !important;
+      }
+
+      &.button--danger {
+        border: 1px solid #bd2727 !important;
+
+        &:hover {
+          border: 1px solid #bd2727 !important;
+        }
+      }
+
+      &[data-dialog-type],
+      &.button--primary {
+        border-color: white !important;
+        background: transparent !important;
+
+        &:hover {
+          background: var(--colorGinPrimary) !important;
+          border-color: var(--colorGinPrimary) !important;
+        }
+      }
+    }
+    .layout-builder-configure-section {
+      .button--primary {
+        background-color: var(--colorGinOffCanvasActive) !important;
+        border: 2px solid var(--colorGinOffCanvasActive) !important;
+        &:hover {
+          color: var(--colorGinButtonText);
+          background-color: var(--colorGinPrimaryHover) !important;
+          border-color: var(--colorGinPrimaryHover) !important;
+        }
+      }
+    }
+
+    .form-checkbox {
+      margin-bottom: 0;
+    }
+    .form-actions {
+      margin-top: 1rem;
+    }
+
+    .moderation-sidebar-quick-transition-form,
+    .moderation-sidebar-secondary-tasks {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -10px;
+      a,
+      input {
+        flex: 1;
+        margin: 0 10px 10px !important;
+      }
+      .form-item-revision-log-toggle {
+        flex: 100%;
+        input {
+          margin: 0 10px !important;
+        }
+      }
+    }
+
+    .moderation-sidebar-secondary-tasks {
+      flex-direction: row-reverse;
+    }
+
+    .moderation-sidebar-container {
+      p {
+        color: $white;
+      }
+    }
+
+    .layout-builder-lock-section-settings .description {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+/*------------------------------------*\
+  05 - Site Specific
+  Improvements that are specific to this site
+\*------------------------------------*/
+
+.region-highlighted {
+  background: $body-background;
+  position: relative;
+  z-index: z(above);
+}

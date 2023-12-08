@@ -1,0 +1,13 @@
+uuid: 28fda6e9-228f-42ac-9885-55869c9203cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.image_type
+_core:
+  default_config_hash: 5IWxPEVhY6ugc4CnBArpo8Xl9DCjM1z8zQSH7mBaH7M
+id: taxonomy_term.image_type
+target_entity_type_id: taxonomy_term
+target_bundle: image_type
+default_langcode: site_default
+language_alterable: false

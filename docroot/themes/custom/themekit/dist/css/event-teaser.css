@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/**
+ * Base Styles
+ * - 01 - Foundation
+ * - 02 - Utilities
+ * - 03 - Framework
+ * - 04 - Settings
+ */
+/*------------------------------------*\
+  01 - Foundation
+\*------------------------------------*/
+/**
+ * Foundation for Sites
+ * Version 6.7.4
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
+/*------------------------------------*\
+  02 - Utilities
+\*------------------------------------*/
+.node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:after {
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-smoothing: antialiased; }
+
+/*------------------------------------*\
+  03 - Framework
+\*------------------------------------*/
+/*------------------------------------*\
+  04 - Settings
+\*------------------------------------*/
+/**
+ * Colors
+ */
+/******* End Drupal Defaults *******/
+.node--type-event.node--view-mode-teaser > .node__content {
+  display: flex;
+  align-items: center; }
+  .node--type-event.node--view-mode-teaser > .node__content .date-wrapper {
+    text-align: right;
+    letter-spacing: 8px; }
+    .node--type-event.node--view-mode-teaser > .node__content .date-wrapper .date {
+      font-size: 2.375rem;
+      font-weight: 700; }
+      .views-row:first-child .node--type-event.node--view-mode-teaser > .node__content .date-wrapper .date {
+        background: linear-gradient(329.09deg, #15be11 16.38%, #098147 87.71%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      .views-row:nth-child(2) .node--type-event.node--view-mode-teaser > .node__content .date-wrapper .date {
+        background: linear-gradient(330.66deg, #009cde -108.22%, #9a41b9 87.07%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      .views-row:nth-child(3) .node--type-event.node--view-mode-teaser > .node__content .date-wrapper .date {
+        background: linear-gradient(328.35deg, #009cde 14.89%, #9a41b9 158.67%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    .node--type-event.node--view-mode-teaser > .node__content .date-wrapper .month {
+      font-size: 0.875rem;
+      text-transform: uppercase; }
+  .node--type-event.node--view-mode-teaser > .node__content .field-content {
+    border-left: 4px solid #f8f8f8;
+    margin-left: 24px;
+    padding: 5px 0 5px 24px;
+    line-height: 1.4; }
+    .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading {
+      margin-bottom: 7px; }
+      .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a {
+        display: inline-block;
+        color: #0678be;
+        font-weight: 700;
+        position: relative;
+        padding-right: 3.25rem;
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        will-change: color;
+        transition: color 0.15s ease;
+        color: #1b1c1e; }
+        .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0.5rem;
+          display: flex;
+          justify-content: flex-end;
+          width: 2rem;
+          font-size: 2.5rem;
+          line-height: inherit;
+          overflow: hidden;
+          transition: all 0.15s ease; }
+        .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:hover, .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:focus {
+          color: #0678be; }
+          .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:hover::after, .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:focus::after {
+            right: 0;
+            width: 2.5rem; }
+        .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:active {
+          color: #1b1c1e; }
+          .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:active::after {
+            right: 0;
+            width: 2.5rem; }
+        .node--type-event.node--view-mode-teaser > .node__content .field-content h4.heading a:after {
+          color: #0678be; }
+
+
+/*# sourceMappingURL=event-teaser.css.map*/

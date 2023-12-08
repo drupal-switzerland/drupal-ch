@@ -1,0 +1,45 @@
+{% extends "@partials/taxonomy/taxonomy-term.html.twig" %}
+{% block term %}
+  {% set rendered_content = content|without(
+    'field_image',
+    'field_heading',
+    'description',
+    'field_references_limit'
+  )
+  %}
+  <div class="field-banner">
+    <div class="field-text">
+      <a class="link--back" href="/toepassingen" >{{ 'Toepassingen'|t }}</a>
+      <h1 class="heading">{{ term.field_heading.value }}</h1>
+
+      <div class="field--name-field-intro">
+        {{ content.description }}
+      </div>
+
+    </div>
+    {% if term.field_image.value %}
+      <div class="media">
+        <span class="frame"></span>
+        {{ content.field_image }}
+      </div>
+    {% endif %}
+  </div>
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    <div class="field-content">
+      {{ rendered_content }}
+    </div>
+    <div class="field-info">
+      {{ content.field_references_limit }}
+    </div>
+  </div>
+
+  {% set view = drupal_view_result('cases', 'category')|length %}
+  {% if view > 0 %}
+    <div class="block-slider-cases field-view">
+      <h2 class="heading">{{ 'Deze cases tonen de kracht'|t }} <br> {{ 'van'|t }} {{ term.field_heading.value }}</h2>
+      {{ drupal_view('cases', 'category') }}
+    </div>
+  {% endif %}
+
+{% endblock %}

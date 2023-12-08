@@ -1,7 +1,0 @@
-fragment MainMenu on Query {
-  mainMenu: menuByName(name: "main") {
-    links {
-      ...MenuItem
-    }
-  }
-}

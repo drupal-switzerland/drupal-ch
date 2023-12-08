@@ -1,0 +1,25 @@
+.node--type-partner {
+  &.node--view-mode-teaser {
+    min-width: 80px;
+    max-width: 220px;
+    padding-bottom: 100%;
+    position: relative;
+    .view-partners.view-display-id-listing & {
+      max-width: 305px;
+    }
+    > a {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: $color-gray-100;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      @include global-transition(background-color);
+      @include selectors(active) {
+        background: $color-gray-300;
+      }
+    }
+  }
+}

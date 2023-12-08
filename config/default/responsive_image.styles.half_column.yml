@@ -1,0 +1,24 @@
+uuid: e021b1cc-2e89-48fd-a9d0-30eecac54ae4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - image.style.large
+    - image.style.small
+_core:
+  default_config_hash: i3Iug4Ibdb6MdA9G0_HeYH-qJrLP8e4ZxRyVRSUctc0
+id: half_column
+label: 'Half Column'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: small
+    breakpoint_id: themekit.x_small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: large
+    breakpoint_id: themekit.x_small
+    multiplier: 2x
+breakpoint_group: themekit
+fallback_image_style: small

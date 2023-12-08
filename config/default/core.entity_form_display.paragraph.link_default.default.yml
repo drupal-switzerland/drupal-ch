@@ -1,0 +1,35 @@
+uuid: 89b6acfd-bee9-4405-9ba6-cb18b858d930
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link_default.field_button_styling
+    - field.field.paragraph.link_default.field_link
+    - paragraphs.paragraphs_type.link_default
+  module:
+    - link
+_core:
+  default_config_hash: VgQVDjyypV1z-Rh9jbhgQE5A43UKkEBVlOXIfIolr3w
+id: paragraph.link_default.default
+targetEntityType: paragraph
+bundle: link_default
+mode: default
+content:
+  field_button_styling:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,20 @@
+uuid: 2c0a2e78-8830-43b7-a671-5a23de1d47aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_runner_up
+field_name: field_runner_up
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

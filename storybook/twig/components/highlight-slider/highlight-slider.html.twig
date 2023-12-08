@@ -1,7 +1,0 @@
-{% extends '@twig/components/slider/slider.html.twig' %}
-
-{% block slidecontent %}
-  {% for slide in highlightSlides %}
-    {% include '@twig/components/highlight-slider/highlight-slide/highlight-slide.html.twig' with slide.entity only %}
-  {% endfor %}
-{% endblock %}

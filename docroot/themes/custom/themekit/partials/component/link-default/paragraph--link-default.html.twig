@@ -1,0 +1,12 @@
+{% extends "@partials/component/paragraph.html.twig" %}
+
+{% set classes = [
+  paragraph.field_button_styling.value ? 'button-style--' ~ paragraph.field_button_styling.value|clean_class,
+] %}
+{% set attributes = attributes.addClass(classes) %}
+
+{% block content %}
+  {% set rendered_content = content|without('field_button_styling') %}
+
+  {{ rendered_content }}
+{% endblock %}

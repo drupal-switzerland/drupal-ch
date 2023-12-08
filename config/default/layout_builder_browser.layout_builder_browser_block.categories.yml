@@ -1,0 +1,11 @@
+uuid: 2a001091-bd01-42d9-8010-4dd468299556
+langcode: en
+status: true
+dependencies: {  }
+id: categories
+block_id: 'inline_block:categories'
+category: structured
+label: Categories
+image_path: ''
+image_alt: ''
+weight: -4

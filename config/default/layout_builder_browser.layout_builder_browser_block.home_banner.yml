@@ -1,0 +1,11 @@
+uuid: 86e7681a-00ac-40ae-80f0-db81070e14be
+langcode: en
+status: true
+dependencies: {  }
+id: home_banner
+block_id: 'inline_block:home_banner'
+category: banners
+label: 'Homepage Banner'
+image_path: ''
+image_alt: ''
+weight: -100

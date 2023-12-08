@@ -1,0 +1,14 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+
+{% set rendered_content = content|without('field_image', 'field_category')%}
+
+{% block node %}
+  <a href="{{ url }}" title="{{ node.label }}">
+    {{ content.field_image }}
+    <div class="node__intro">
+      {{ content.field_category }}
+      <h2{{ title_attributes.addClass('node__title') }}>{{ node.label }}</h2>
+      {{ rendered_content }}
+    </div>
+  </a>
+{% endblock %}

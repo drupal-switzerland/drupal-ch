@@ -1,0 +1,166 @@
+.view-partners {
+  &.view-display-id-randomized {
+    .view-content {
+      display: flex;
+      flex-wrap: wrap;
+      @include breakpoint(small down) {
+        overflow: hidden;
+      }
+      @include breakpoint(large) {
+        &:not(.processed) {
+          max-height: 640px;
+          overflow: hidden;
+        }
+      }
+      &.processed {
+        > .views-row {
+          opacity: 1;
+        }
+      }
+      > .views-row {
+        flex-shrink: 0;
+        opacity: 0;
+        @include global-transition(opacity);
+        @include breakpoint(small down) {
+          width: calc((100% - 24px) / 3);
+          margin-top: 12px;
+          &:not(:nth-child(3n)) {
+            margin-right: 12px;
+          }
+        }
+        @include breakpoint(medium) {
+          width: calc((100% - 64px) / 3);
+          margin-top: 32px;
+          &:not(:nth-child(3n)) {
+            margin-right: 32px;
+          }
+        }
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3) {
+          margin-top: 0;
+          @include breakpoint(small down) {
+            transform: translateX(calc(-100% - 12px));
+          }
+          @include breakpoint(medium) {
+            transform: translateX(calc(100% + 32px));
+          }
+        }
+        &:nth-child(7) {
+          @include breakpoint(medium) {
+            transform: translateX(calc(100% + 32px));
+          }
+        }
+      }
+    }
+  }
+
+  &.view-display-id-listing {
+    .view-content {
+      .level-wrapper {
+        > h3 {
+          font-size: rem-calc(15);
+          line-height: 1.5;
+          text-transform: uppercase;
+          font-weight: $global-weight-medium;
+          letter-spacing: 0.2em;
+          margin-bottom: 20px;
+          color: $color-gray-900;
+        }
+        &:not(:last-child) {
+          margin-bottom: 32px;
+          @include breakpoint(large) {
+            margin-bottom: 64px;
+          }
+        }
+        .level-items {
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: -8px;
+          margin-right: -8px;
+          @include breakpoint(large) {
+            margin-left: -16px;
+            margin-right: -16px;
+          }
+          > .views-row {
+            flex-shrink: 0;
+            width: calc((100% - (16px * 4)) / 4);
+            margin: 0 8px 16px;
+            @include breakpoint(medium) {
+              width: calc((100% - (16px * 8)) / 8);
+            }
+            @include breakpoint(large) {
+              width: calc((100% - (32px * 8)) / 8);
+              margin: 0 16px 32px;
+            }
+            .become-partner {
+              display: block;
+              padding-bottom: 100%;
+              position: relative;
+              overflow: hidden;
+              span {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                border: 2px solid $color-gray-100;
+                background: $body-background;
+                padding: 4px;
+                font-size: rem-calc(10);
+                line-height: 1.25;
+                letter-spacing: 0.2em;
+                color: $color-gray-500;
+                text-transform: uppercase;
+                @include global-transition(background-color);
+                @include breakpoint(medium) {
+                  padding: 8px;
+                }
+                @include breakpoint(large) {
+                  font-size: rem-calc(12);
+                  padding: 15px;
+                  letter-spacing: 0.3em;
+                }
+                @include breakpoint(xlarge) {
+                  padding: 25px 15px;
+                  line-height: 1.5;
+                }
+              }
+              @include selectors(active) {
+                span {
+                  background: $color-gray-100;
+                }
+              }
+            }
+          }
+        }
+        &:nth-child(1) {
+          .level-items {
+            > .views-row {
+              width: calc((100% - (16px * 2)) / 2);
+              @include breakpoint(medium) {
+                width: calc((100% - (16px * 4)) / 4);
+              }
+              @include breakpoint(large) {
+                width: calc((100% - (32px * 4)) / 4);
+              }
+            }
+          }
+        }
+        &:nth-child(2) {
+          .level-items {
+            > .views-row {
+              width: calc((100% - (16px * 3)) / 3);
+              @include breakpoint(medium) {
+                width: calc((100% - (16px * 6)) / 6);
+              }
+              @include breakpoint(large) {
+                width: calc((100% - (32px * 6)) / 6);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

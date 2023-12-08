@@ -1,0 +1,18 @@
+uuid: 733df357-6117-4cbe-b111-c7f07c988704
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 82vozFuOyTq550Nh7HWtE3Op_2gWB24hxv_mv49ivZ4
+name: small_hq
+label: 'Small HQ (640W)'
+effects:
+  b38cf6a3-1af7-43f9-96ed-b736ce6304ab:
+    uuid: b38cf6a3-1af7-43f9-96ed-b736ce6304ab
+    id: image_scale
+    weight: 1
+    data:
+      width: 640
+      height: null
+      upscale: false
+pipeline: default

@@ -1,0 +1,22 @@
+uuid: 2e6bf1fc-9148-4e71-bdc3-a5a033e2393a
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themekit
+_core:
+  default_config_hash: F50zoovxU1hgeMI4HuFIlTisVTesVm4Sr-bfSkxpOnk
+id: themekit_content
+theme: themekit
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Primaire inhoud van de pagina'
+  label_display: '0'
+  provider: system
+visibility: {  }

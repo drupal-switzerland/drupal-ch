@@ -1,0 +1,48 @@
+uuid: 4c18cc36-8a9d-4463-b915-f0c0ede10c50
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.ckeditor
+    - field.field.media.video.field_file_mime_type
+    - field.field.media.video.field_media_video_file
+    - field.field.media.video.field_tags
+    - field.field.media.video.field_video_type
+    - media.type.video
+  module:
+    - file
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: 1kBQaPZKhP5U6qA1qCccyUYD_7L7gzsvhsRsH4ElVNs
+id: media.video.ckeditor
+targetEntityType: media
+bundle: video
+mode: ckeditor
+content:
+  field_media_video_file:
+    type: file_video
+    label: hidden
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+      muted: false
+      width: 640
+      height: 480
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_file_mime_type: true
+  field_tags: true
+  field_video_type: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

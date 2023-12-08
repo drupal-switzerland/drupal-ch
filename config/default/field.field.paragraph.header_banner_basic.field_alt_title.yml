@@ -1,0 +1,21 @@
+uuid: c2453035-9337-4477-a6e9-81db5867accb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_alt_title
+    - paragraphs.paragraphs_type.header_banner_basic
+_core:
+  default_config_hash: J1P7cH3dHWQaqqDW-Goz1lsY8UQICJJTxw7-GdNlRFI
+id: paragraph.header_banner_basic.field_alt_title
+field_name: field_alt_title
+entity_type: paragraph
+bundle: header_banner_basic
+label: 'Alternate Title'
+description: 'Customize the display title of this page. If left blank, the page title will be used.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

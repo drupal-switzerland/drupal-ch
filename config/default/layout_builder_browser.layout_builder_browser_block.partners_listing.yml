@@ -1,0 +1,11 @@
+uuid: 697ce0f4-9f29-4f30-9fc6-d5cfeb9916ff
+langcode: en
+status: true
+dependencies: {  }
+id: partners_listing
+block_id: 'views_block:partners-listing'
+category: overview
+label: 'Partners Listing'
+image_path: ''
+image_alt: ''
+weight: -4

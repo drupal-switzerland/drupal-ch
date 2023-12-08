@@ -1,0 +1,30 @@
+////
+/// Social navigation
+////
+
+.menu--social {
+  .menu {
+    display: flex;
+
+    &__item {
+      &:not(:last-child) {
+        margin-right: rem-calc(16);
+      }
+
+      a {
+        display: block;
+        @include global-transition(text-shadow);
+
+        @each $icon-name, $icon-color in $social-icons {
+          &[href*=#{$icon-name}] {
+            @include replace-text-with-icon(social-#{$icon-name}, rem-calc(32));
+            color: $icon-color;
+            @include selectors(active) {
+              text-shadow: 0 4px rem-calc(10) rgba($icon-color, .25);
+            }
+          }
+        }
+      }
+    }
+  }
+}

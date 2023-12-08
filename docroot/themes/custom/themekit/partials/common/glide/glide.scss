@@ -1,0 +1,133 @@
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+.glide__slides {
+  margin: 0;
+}
+.glide--slider {
+  img {
+    width: 100%;
+  }
+}
+.glide__arrows {
+  align-items: center;
+  display: flex;
+  height: 1px;
+  justify-content: space-between;
+  position: static;
+  transform: translate(0px, 25px);
+  @include breakpoint(small down) {
+    display: none;
+  }
+
+  .glide__arrow {
+    @include icon-before(arrow-right) {
+      display: block;
+      color: $color-primary-600;
+      font-size: rem-calc(36);
+    }
+
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    padding: 0;
+    position: static;
+    transform: translate(0);
+
+    &--disabled {
+      opacity: 1;
+      cursor: default;
+      &:before {
+        color: $color-gray-200;
+      }
+    }
+
+    &.glide__arrow--left {
+      left: 0;
+      &:before {
+        transform: rotate(180deg);
+        margin-top: 4px;
+      }
+    }
+
+    &.glide__arrow--right {
+      right: 0;
+      &:before {
+      }
+    }
+  }
+}
+
+.glide__bullets {
+  display: flex;
+  margin: 25px auto;
+  position: static;
+  transform: translate(0);
+  width: calc(100% - 110px);
+  @include breakpoint(small down) {
+    display: none;
+  }
+
+  .glide__bullet {
+    @include selectors(active) {
+      background: $color-gray-200;
+      border: none;
+    }
+
+    box-shadow: none;
+    background: $color-gray-200;
+    border-radius: 0;
+    border: none;
+    flex-grow: 1;
+    margin: 0;
+    height: 2px;
+  }
+  .glide__bullet--active {
+    @include selectors(active) {
+      background: $color-primary-600;
+    }
+
+    background-color: $color-primary-600;
+  }
+}
+
+.glide-wrapper-multiple {
+  @include top-bottom(margin, -24px);
+  padding-bottom: 24px;
+  @include breakpoint(small down) {
+    @include left-right(margin, -#{map-get($grid-column-gutter, small)});
+    overflow: hidden;
+  }
+
+  > .glide {
+    @include breakpoint(small down) {
+      padding: 0 #{map-get($grid-column-gutter, small) / 2};
+    }
+  }
+
+  // Adjust full visibility of the slider items
+  .glide__track,
+  .glide__slides {
+    overflow: visible;
+  }
+
+  .glide__slides {
+    padding: 24px 0 26px;
+  }
+
+  &.disable-navigation {
+    .glide--swipeable {
+      cursor: default;
+    }
+
+    .wrapper-control {
+      @include breakpoint(medium) {
+        display: none;
+      }
+    }
+  }
+}

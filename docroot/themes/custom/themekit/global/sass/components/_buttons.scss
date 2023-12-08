@@ -1,0 +1,11 @@
+////
+/// Global Buttons
+////
+
+$_buttons-keys: map-keys($buttons);
+
+@each $button-key in $_buttons-keys {
+  .btn--#{$button-key} {
+    @include btn($button-key);
+  }
+}

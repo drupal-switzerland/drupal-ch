@@ -1,0 +1,11 @@
+uuid: 287b91b7-4d74-4f9f-a071-d919e177f639
+langcode: en
+status: true
+dependencies: {  }
+id: news_slider
+block_id: 'inline_block:news_slider'
+category: structured
+label: 'News Slider'
+image_path: ''
+image_alt: ''
+weight: -100

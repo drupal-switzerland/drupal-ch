@@ -1,0 +1,10 @@
+uuid: e3e890f3-f733-4c00-b789-b29d0e7b4375
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gnVzCRp6LWmMVxiurrwpS_xVHUikmq3-Y5Ee2f4sb04
+name: 'Image Type'
+vid: image_type
+description: 'Internal categorization used for image organization in the Media Library and Entity Browsers'
+weight: 0

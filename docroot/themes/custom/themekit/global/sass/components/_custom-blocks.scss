@@ -1,0 +1,79 @@
+// Styles for the general custom blocks
+
+// Overflow body and html (for hide brand shapes)
+body {
+  overflow-x: hidden;
+}
+
+body.splash-active {
+  overflow: hidden;
+}
+
+html body.is-overflow {
+  overflow: hidden;
+}
+
+// Cookies Banner
+#sliding-popup {
+  width: 100%;
+  box-shadow: 0 0 16px rgba($color-black, 0.28);
+  background-color: $color-gray-100;
+  color: $body-color;
+
+  .eu-cookie-compliance-content {
+    @include content-width(default);
+    @include top-bottom(padding, 24px);
+    @include breakpoint(medium) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      @include top-bottom(padding, 32px);
+    }
+  }
+
+  .eu-cookie-compliance-message {
+    float: none;
+    max-width: none;
+    margin: 0;
+
+    h2 {
+      @include heading(h4);
+    }
+
+    p {
+      display: inline;
+      margin: 0;
+      @include font-sizes(body);
+      font-weight: $global-weight-normal;
+    }
+
+    button {
+      display: inline;
+      text-decoration: underline;
+    }
+  }
+
+  .eu-cookie-compliance-buttons {
+    display: flex;
+    align-items: center;
+    float: none;
+    max-width: none;
+    @include breakpoint(small down) {
+      margin-top: 24px;
+    }
+    @include breakpoint(medium) {
+      flex-shrink: 0;
+      margin-left: 64px;
+    }
+  }
+
+  .eu-cookie-compliance-secondary-button {
+    @include btn(primary);
+  }
+
+  .eu-cookie-compliance-default-button {
+    margin-left: 16px;
+    @include link(default);
+  }
+}
+

@@ -1,0 +1,10 @@
+uuid: 6ab15f86-33dd-48e4-bc28-eae89a1a0fd9
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
+id: admin
+label: Beheer
+description: 'Links voor beheertaken'
+locked: true

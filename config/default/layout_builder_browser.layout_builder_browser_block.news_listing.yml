@@ -1,0 +1,11 @@
+uuid: 1037c17e-44bb-4eaf-818a-9f476a29e226
+langcode: en
+status: true
+dependencies: {  }
+id: news_listing
+block_id: 'views_block:news-listing'
+category: overview
+label: 'News Listing'
+image_path: ''
+image_alt: ''
+weight: -100

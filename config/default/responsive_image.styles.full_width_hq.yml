@@ -1,0 +1,46 @@
+uuid: a9b44270-5a30-48e7-842f-6b86be60baa2
+langcode: nl
+status: true
+dependencies:
+  config:
+    - image.style.large_hq
+    - image.style.medium_hq
+    - image.style.small_hq
+    - image.style.x_large_hq
+_core:
+  default_config_hash: RlmDiTmTQR1k46vhbFSwzeJcpB2_o8KkCz-kAPmLx_o
+id: full_width_hq
+label: 'Full Width HQ'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: x_large_hq
+    breakpoint_id: themekit.x_large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: large_hq
+    breakpoint_id: themekit.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: x_large_hq
+    breakpoint_id: themekit.medium
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_hq
+    breakpoint_id: themekit.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: small_hq
+    breakpoint_id: themekit.x_small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: large_hq
+    breakpoint_id: themekit.x_small
+    multiplier: 2x
+breakpoint_group: themekit
+fallback_image_style: small_hq

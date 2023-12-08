@@ -1,0 +1,2 @@
+.banner-layout{position:relative;width:100vw;overflow:hidden}body.is-home-banner .banner-layout{margin-top:-4.5rem}@media print, screen and (min-width: 48em){body.is-home-banner .banner-layout{margin-top:-6.5rem}}body.is-home-banner .layout-builder .banner-layout{margin-top:0}.layout-builder .banner-layout{overflow:hidden}.banner-layout body:not(.is-home-banner){overflow:hidden}
+

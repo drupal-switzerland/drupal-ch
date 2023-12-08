@@ -1,0 +1,55 @@
+uuid: 76592ec3-5399-40bc-926e-aafd82766830
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.community_features
+    - field.storage.block_content.field_p_content
+    - paragraphs.paragraphs_type.feature
+  module:
+    - entity_reference_revisions
+id: block_content.community_features.field_p_content
+field_name: field_p_content
+entity_type: block_content
+bundle: community_features
+label: Features
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      feature: feature
+    negate: 0
+    target_bundles_drag_drop:
+      category_feature:
+        weight: 10
+        enabled: false
+      detail_item:
+        weight: 12
+        enabled: false
+      details_list:
+        weight: 11
+        enabled: false
+      feature:
+        weight: 13
+        enabled: true
+      header_banner_basic:
+        weight: 14
+        enabled: false
+      image_slider:
+        weight: 15
+        enabled: false
+      link_default:
+        weight: 16
+        enabled: false
+      link_file:
+        weight: 17
+        enabled: false
+      social_media:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

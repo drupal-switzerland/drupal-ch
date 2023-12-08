@@ -1,0 +1,210 @@
+////
+/// Text block
+////
+
+.block--text {
+  .field--name-field-heading {
+    margin-bottom: 8px;
+    @include breakpoint(large) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .field--name-field-p-link {
+    @include cta-list;
+    margin-top: 12px;
+    @include breakpoint(medium) {
+      margin-top: 24px;
+    }
+  }
+
+  // Default text block
+  &:not(.shape-background) {
+    @at-root .twocol-layout .layout__region--first & {
+      @include breakpoint(medium) {
+        padding-right: 10%;
+      }
+      @include breakpoint(large) {
+        padding-right: 20%;
+      }
+    }
+
+    @at-root .twocol-layout .layout__region--second & {
+      @include breakpoint(medium) {
+        padding-left: 10%;
+      }
+      @include breakpoint(large) {
+        padding-left: 20%;
+      }
+    }
+  }
+
+  // Enabled frame background
+  &.frame-background {
+    @include top-bottom(padding, 74px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 360px;
+    @include breakpoint(medium) {
+      min-height: 560px;
+    }
+
+    @at-root .onecol-layout & {
+      max-width: 832px;
+      @include breakpoint(medium) {
+        @include left-right(margin, auto);
+        @include left-right(padding, 64px);
+      }
+      @include breakpoint(large) {
+        @include left-right(padding, 120px);
+      }
+      @include brand-shape(text) {
+        right: 0;
+        @include breakpoint(medium down) {
+          width: auto;
+          height: auto;
+        }
+        @include breakpoint(medium only) {
+          transform: translate3d(-15%, 0, 0);
+        }
+        @include breakpoint(small down) {
+          left: -108px;
+          right: -40px;
+        }
+      }
+      @include brand-shape-frame(text-frame) {
+        bottom: 0;
+        right: 0;
+        @include breakpoint(medium) {
+          right: 34px;
+        }
+        @include breakpoint(medium down) {
+          width: auto;
+          height: auto;
+        }
+        @include breakpoint(medium only) {
+          transform: translate3d(-15%, 0, 0);
+        }
+        @include breakpoint(small down) {
+          left: -108px;
+          right: -20px;
+        }
+      }
+    }
+
+    &::before {
+      top: 16px;
+      bottom: 16px;
+      min-height: calc(100% - 32px);
+      @include breakpoint(medium) {
+        top: 26px;
+        bottom: 26px;
+        min-height: calc(100% - 52px);
+      }
+      @include breakpoint(medium only) {
+        right: auto;
+        left: 0;
+        min-width: 125%;
+      }
+      @include breakpoint(small down) {
+        width: calc(100% + 108px + 40px);
+      }
+    }
+
+    .frame {
+      top: 0;
+      min-height: 100%;
+      @include breakpoint(medium only) {
+        right: auto;
+        left: 0;
+        min-width: 125%;
+      }
+    }
+
+    @at-root .twocol-layout .layout__region--first & {
+      @include breakpoint(medium) {
+        padding-right: 64px;
+      }
+      @include breakpoint(large) {
+        padding-right: 112px;
+      }
+      @include brand-shape(text) {
+        right: 0;
+        @include breakpoint(medium down) {
+          width: auto;
+          height: auto;
+        }
+        @include breakpoint(medium only) {
+          transform: translate3d(-15%, 0, 0);
+        }
+        @include breakpoint(small down) {
+          left: -108px;
+          right: -40px;
+        }
+      }
+
+      @include brand-shape-frame(text-frame) {
+        bottom: 0;
+        right: 0;
+        @include breakpoint(medium) {
+          right: 34px;
+        }
+        @include breakpoint(medium down) {
+          width: auto;
+          height: auto;
+        }
+        @include breakpoint(medium only) {
+          transform: translate3d(-15%, 0, 0);
+        }
+        @include breakpoint(small down) {
+          left: -108px;
+          right: -20px;
+        }
+      }
+    }
+
+    @at-root .twocol-layout .layout__region--second & {
+      @include breakpoint(medium) {
+        padding-left: 64px;
+      }
+      @include breakpoint(large) {
+        padding-left: 112px;
+      }
+      @include brand-shape(text-inverse) {
+        left: 0;
+        @include breakpoint(medium down) {
+          width: auto;
+          height: auto;
+        }
+        @include breakpoint(medium only) {
+          transform: translate3d(15%, 0, 0);
+        }
+        @include breakpoint(small down) {
+          left: -40px;
+          right: -108px;
+        }
+      }
+
+      @include brand-shape-frame(text-inverse-frame) {
+        left: 0;
+        bottom: 0;
+        @include breakpoint(medium) {
+          left: 34px;
+        }
+        @include breakpoint(medium down) {
+          width: auto;
+          height: auto;
+        }
+        @include breakpoint(medium only) {
+          transform: translate3d(15%, 0, 0);
+        }
+        @include breakpoint(small down) {
+          left: -20px;
+          right: -108px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large_hq
+    - image.style.medium_hq
+    - image.style.small_hq
+    - image.style.x_small_hq
+  theme:
+    - themekit
+id: third_column_hq
+label: 'Third Column HQ'
+image_style_mappings:
+  -
+    breakpoint_id: themekit.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: x_small_hq
+  -
+    breakpoint_id: themekit.small
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: medium_hq
+  -
+    breakpoint_id: themekit.x_small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: small_hq
+  -
+    breakpoint_id: themekit.x_small
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: large_hq
+breakpoint_group: themekit
+fallback_image_style: small_hq

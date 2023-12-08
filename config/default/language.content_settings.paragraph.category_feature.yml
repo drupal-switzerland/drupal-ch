@@ -1,0 +1,11 @@
+uuid: fbdfb6b3-61dd-483f-a223-ea9ec44c68c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.category_feature
+id: paragraph.category_feature
+target_entity_type_id: paragraph
+target_bundle: category_feature
+default_langcode: site_default
+language_alterable: false

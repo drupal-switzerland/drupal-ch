@@ -1,0 +1,11 @@
+uuid: f9dfd69c-f540-4646-8b30-a4b41e24dd3b
+langcode: en
+status: true
+dependencies: {  }
+id: text_with_media
+block_id: 'inline_block:text_with_media'
+category: flexible
+label: 'Text with Media'
+image_path: ''
+image_alt: ''
+weight: -100

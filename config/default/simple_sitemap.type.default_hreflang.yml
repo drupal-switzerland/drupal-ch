@@ -1,0 +1,13 @@
+uuid: 014e1c86-0c05-4fd2-8f4e-a88116682d9c
+langcode: nl
+status: true
+dependencies: {  }
+id: default_hreflang
+label: 'Default hreflang'
+description: 'The default hreflang sitemap type.'
+sitemap_generator: default
+url_generators:
+  - custom
+  - entity
+  - entity_menu_link_content
+  - arbitrary

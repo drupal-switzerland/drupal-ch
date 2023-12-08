@@ -1,0 +1,24 @@
+uuid: cf18a0f1-e26b-4a79-8393-cbd33eda7a2b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0ldk7pql2cgIPGJNcdPkkV7OQ3RbS0okRw9CHKULFT0
+id: develop
+label: Develop
+description: ''
+weight: 0
+folder: ../config/develop
+module:
+  devel: 0
+  devel_generate: 0
+  stage_file_proxy: 0
+  update: 0
+  views_ui: 0
+theme: {  }
+blacklist:
+  - system.menu.devel
+  - ultimate_cron.job.update_cron
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

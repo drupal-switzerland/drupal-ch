@@ -1,0 +1,13 @@
+uuid: ec7db9e6-d09f-4e9e-aa29-a9c4a4aecca1
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.file_type
+_core:
+  default_config_hash: vs-DYOUiNZeu410h6pVZ-5nCM8cyO2dqplhfmDR30Vk
+id: taxonomy_term.file_type
+target_entity_type_id: taxonomy_term
+target_bundle: file_type
+default_langcode: site_default
+language_alterable: false

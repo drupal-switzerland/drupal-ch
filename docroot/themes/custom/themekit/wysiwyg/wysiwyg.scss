@@ -1,0 +1,34 @@
+
+// All styles that should be available to the WYSIWYG
+
+// Add foundation first so foundation utilities can be used everywhere
+@import 'foundation';
+
+// Add your own theme/framework utils
+@import '../global/sass/framework/utils/utils';
+
+// Add rest of theme framework
+@import '../global/sass/framework/buttons';
+@import '../global/sass/framework/layout';
+@import '../global/sass/framework/links';
+@import '../global/sass/framework/links';
+@import '../global/sass/framework/custom-styles';
+
+@import '../global/sass/base/settings';
+@import '../global/sass/base/config';
+@import '../global/sass/base/typography';
+@import '../global/sass/components/buttons';
+@import '../global/sass/components/links';
+
+// print our base foundation styles
+@include foundation-global-styles();
+@include foundation-typography();
+@include foundation-table();
+@include themekit-icons();
+
+// Add any partials that have relevant WYSIWYG styles
+
+// Custom wysiwyg styles (not much should go here)
+body {
+  padding: 20px;
+}

@@ -1,0 +1,13 @@
+uuid: 7b9065f3-4a0d-43e3-818d-c7c6f07b3a90
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.file
+_core:
+  default_config_hash: Zl4gPSq2VUx14nis4-mNlvkoAKMHHHvU-1DOuPhA-nk
+id: media.file
+target_entity_type_id: media
+target_bundle: file
+default_langcode: site_default
+language_alterable: false

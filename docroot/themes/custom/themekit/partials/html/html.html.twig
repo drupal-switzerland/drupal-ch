@@ -1,0 +1,64 @@
+{#
+/**
+ * @file
+ * Theme override for the basic structure of a single Drupal page.
+ *
+ * Variables:
+ * - logged_in: A flag indicating if user is logged in.
+ * - root_path: The root path of the current page (e.g., node, admin, user).
+ * - node_type: The content type for the current node, if the page is a node.
+ * - head_title: List of text elements that make up the head_title variable.
+ *   May contain or more of the following:
+ *   - title: The title of the page.
+ *   - name: The name of the site.
+ *   - slogan: The slogan of the site.
+ * - page_top: Initial rendered markup. This should be printed before 'page'.
+ * - page: The rendered page markup.
+ * - page_bottom: Closing rendered markup. This variable should be printed after
+ *   'page'.
+ * - db_offline: A flag indicating if the database is offline.
+ * - placeholder_token: The token for generating head, css, js and js-bottom
+ *   placeholders.
+ *
+ * @see template_preprocess_html()
+ */
+#}
+{%
+  set body_classes = [
+    logged_in ? 'user-logged-in',
+    not root_path ? 'path-frontpage' : 'path-' ~ root_path|clean_class,
+    node_type ? 'page-node-type-' ~ node_type|clean_class,
+    db_offline ? 'db-offline',
+  ]
+%}
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+  <head>
+    <head-placeholder token="{{ placeholder_token|raw }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token|raw }}">
+    <js-placeholder token="{{ placeholder_token|raw }}">
+    <meta name="theme-color" content="#8eabc3">
+  </head>
+  <body{{ attributes.addClass(body_classes) }}>
+    {#
+      Keyboard navigation/accessibility link to main content section in
+      page.html.twig.
+    #}
+    <div id="skip-to-content">
+      <a href="#main-content" class="skip-to-content-link">Skip to main content</a>
+    </div>
+    {# Splash screen for first visit of the website (destroy timeout after 24h) #}
+    <div id="splash-screen" class="splash">
+      <div class="splash__logo">
+        <svg width="34" height="45" viewBox="0 0 34 45" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+          <path d="M23.9955 9.57936C20.8696 6.41619 17.8871 3.4008 16.9995 0C16.1118 3.4008 13.1289 6.41619 10.0035 9.57936C5.31538 14.3226 0 19.6983 0 27.761C0 33.9098 3.24018 39.5915 8.5 42.6659C13.7598 45.7403 20.2402 45.7403 25.5 42.6659C30.7598 39.5915 34 33.9098 34 27.761C34 19.6989 28.6851 14.3226 23.9955 9.57936ZM7.22223 31.7436C6.16923 31.7095 2.28301 25.3205 9.49256 18.5177L14.2634 23.4884C14.3462 23.5664 14.3901 23.6745 14.3841 23.7854C14.378 23.8963 14.3225 23.9995 14.2316 24.0688C13.0931 25.1825 8.2408 29.8237 7.63769 31.4285C7.5132 31.7597 7.33138 31.7472 7.22223 31.7436ZM16.346 41.0036C14.7854 41.0036 13.2886 40.3907 12.1851 39.2998C11.0815 38.2089 10.4615 36.7292 10.4615 35.1864C10.4833 33.7759 11.002 32.4171 11.9282 31.344C12.9893 30.0614 16.3453 26.4539 16.3453 26.4539C16.3453 26.4539 19.6499 30.1144 20.7544 31.3318C21.7165 32.3891 22.2432 33.7643 22.2305 35.1864C22.2306 38.3991 19.596 41.0036 16.346 41.0036ZM28.1312 31.0093C28.0087 31.2792 27.7309 31.7297 27.356 31.7435C26.6877 31.768 26.6162 31.4229 26.1223 30.6862C25.0378 29.069 15.5734 19.1013 13.8032 17.1736C12.2461 15.4781 13.5839 14.2827 14.2045 13.6563C14.9831 12.8703 17.2557 10.5816 17.2557 10.5816C17.2557 10.5816 24.032 17.0606 26.8548 21.4875C29.6776 25.9145 28.7048 29.7452 28.1312 31.0093Z" fill="#53B0EB"/>
+        </svg>
+      </div>
+    </div>
+    {{ page_top }}
+    {{ page }}
+    {{ page_bottom }}
+    <js-bottom-placeholder token="{{ placeholder_token|raw }}">
+  </body>
+</html>

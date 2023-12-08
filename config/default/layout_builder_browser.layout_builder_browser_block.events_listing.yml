@@ -1,0 +1,11 @@
+uuid: 8fde640c-2956-45d3-a741-34c9d49c21ea
+langcode: en
+status: true
+dependencies: {  }
+id: events_listing
+block_id: 'views_block:events-events'
+category: overview
+label: 'Events Listing'
+image_path: ''
+image_alt: ''
+weight: -100

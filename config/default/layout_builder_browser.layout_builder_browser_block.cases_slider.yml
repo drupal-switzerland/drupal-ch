@@ -1,0 +1,11 @@
+uuid: f00f7e86-2e58-47db-90bc-f63866e6c1df
+langcode: en
+status: true
+dependencies: {  }
+id: cases_slider
+block_id: 'inline_block:cases_slider'
+category: structured
+label: 'Cases Slider'
+image_path: ''
+image_alt: ''
+weight: -100

@@ -1,0 +1,8 @@
+uuid: 3b17f655-750e-47fa-870d-fe6996c9e90c
+langcode: en
+status: true
+dependencies: {  }
+id: subscribe_form
+label: 'Subscribe form'
+fieldset: Footer
+multiple: false

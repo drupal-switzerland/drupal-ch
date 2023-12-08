@@ -1,0 +1,78 @@
+////
+/// Main navigation
+////
+
+.menu--main {
+  @include breakpoint(small down) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: rem-calc(326);
+    height: 100vh;
+    max-width: 90vw;
+    padding: rem-calc(152) rem-calc(32) rem-calc(32);
+    background-color: $color-primary-600;
+    color: $color-white;
+    transform: translate3d(100%, 0, 0);
+    z-index: z(menu, block);
+    @include global-transition(transform);
+  }
+
+  &.is-active {
+    @include breakpoint(small down) {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu {
+    display: flex;
+    @include breakpoint(small down) {
+      flex-direction: column;
+      text-align: right;
+    }
+
+    &__item {
+      @include font-sizes(main-menu-item);
+      @include main-menu-item;
+      @include breakpoint(small down) {
+        width: 100%;
+      }
+
+      &:not(:last-child) {
+        @include breakpoint(small down) {
+          margin-bottom: rem-calc(12);
+        }
+        @include breakpoint(medium) {
+          margin-right: rem-calc(24);
+        }
+      }
+
+      a {
+        padding-right: rem-calc(56);
+        color: inherit;
+
+        @include breakpoint(medium) {
+          padding-right: 0;
+          color: $color-gray-900;
+        }
+      }
+    }
+  }
+
+  &__toggle {
+    @include replace-text-with-icon(menu, rem-calc(24));
+    cursor: pointer;
+    @include breakpoint(medium) {
+      display: none;
+    }
+
+    &[aria-expanded="true"] {
+      @include replace-text-with-icon(close, rem-calc(24));
+      position: fixed;
+      top: rem-calc(24);
+      right: rem-calc(16);
+      z-index: z(menu, icon);
+      color: $color-white;
+    }
+  }
+}

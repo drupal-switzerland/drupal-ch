@@ -1,0 +1,19 @@
+uuid: 30294fb1-c8c6-40cc-a3ec-f380acd93362
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.partners
+    - field.storage.block_content.field_heading
+id: block_content.partners.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: partners
+label: Heading
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

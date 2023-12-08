@@ -1,0 +1,44 @@
+uuid: 8b621956-0f77-40fc-bf36-48f519fb1c10
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.entity_browser_video
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: c69dMz-JMNdm0IfcWcvvx0ZYtnDM7SsVO46l0utv8A0
+name: video
+label: Video
+display: modal
+display_configuration:
+  width: '800'
+  height: '600'
+  link_text: 'Select Video'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  e9024c17-a8ac-4e2e-8720-13296f382ea5:
+    id: entity_form
+    uuid: e9024c17-a8ac-4e2e-8720-13296f382ea5
+    label: 'Add Video'
+    weight: 2
+    settings:
+      submit_text: 'Save Video'
+      entity_type: media
+      bundle: video
+      form_mode: media_browser
+  c49e7885-c956-497a-ba3b-92fe62d2af5f:
+    id: view
+    uuid: c49e7885-c956-497a-ba3b-92fe62d2af5f
+    label: 'View Videos'
+    weight: 1
+    settings:
+      submit_text: 'Select Video'
+      auto_select: false
+      view: entity_browser_video
+      view_display: entity_browser_1

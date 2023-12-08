@@ -1,0 +1,14 @@
+.paragraph--type--detail-item {
+  &.paragraph--view-mode--default {
+    @include font-sizes(text-card);
+    display: flex;
+
+    .field--name-field-label {
+      padding-right: 5px;
+    }
+
+    .field--name-field-value {
+      font-weight: bold;
+    }
+  }
+}

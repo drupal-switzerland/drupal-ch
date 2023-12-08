@@ -1,0 +1,45 @@
+uuid: 4bfae265-65ca-47ff-8c6c-66b4c7684d3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - path
+    - user
+_core:
+  default_config_hash: 93eOqh4GBh04l-eIT-tGzIjzob2I0ff7rOJLSYHpm2Y
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  google_analytics:
+    weight: 3
+    region: content
+  language:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

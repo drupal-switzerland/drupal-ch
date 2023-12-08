@@ -1,0 +1,10 @@
+uuid: d8cb3cbb-7d62-457d-804d-2084e2168415
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: obxwr6pzdiS6OcwEAJR_NbbMJzVmliYQZGX_-0f_v40
+name: 'File Type'
+vid: file_type
+description: 'Internal categorization used for file organization in the Media Library and Entity Browsers'
+weight: 0

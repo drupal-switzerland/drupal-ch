@@ -1,0 +1,21 @@
+////
+/// Labels
+////
+
+/// Standard label style mixin
+@mixin label($label-key: default) {
+  $label-conf: extend-in-map($labels, $label-key);
+
+  display: inline-block;
+  border: 1px solid key($label-conf, border-color);
+  padding: rem-calc(8) rem-calc(12);
+  background-color: key($label-conf, background-color);
+  color: key($label-conf, color);
+  @include font-sizes(kicker-small);
+  @include global-transition(background-color);
+  @include selectors(active) {
+    border-color: key($label-conf, active-border-color);
+    background-color: key($label-conf, active-background-color);
+    color: key($label-conf, active-color);
+  }
+}

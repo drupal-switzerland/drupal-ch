@@ -1,0 +1,11 @@
+uuid: 2eefd99e-bbe9-443d-8726-2e3f378b6a79
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.image_slider
+id: paragraph.image_slider
+target_entity_type_id: paragraph
+target_bundle: image_slider
+default_langcode: site_default
+language_alterable: false

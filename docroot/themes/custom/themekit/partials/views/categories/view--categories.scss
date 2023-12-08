@@ -1,0 +1,25 @@
+.view-categories {
+  &.view-display-id-listing {
+    max-width: 1088px;
+    > .view-content {
+      @include breakpoint(large) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      > .views-row {
+        margin-top: 16px;
+        &:first-child {
+          margin-top: 0;
+        }
+        @include breakpoint(large) {
+          width: calc((100% - 32px) / 2);
+          flex-shrink: 0;
+          &:nth-child(2) {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}

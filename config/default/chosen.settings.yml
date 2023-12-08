@@ -1,0 +1,17 @@
+_core:
+  default_config_hash: mkOk8KFzAv-biTCG7Qkzi6rRowjtUL3up7s02Ur0sBA
+langcode: nl
+minimum_single: 10
+minimum_multiple: 0
+disable_search_threshold: 5
+minimum_width: 200
+jquery_selector: select
+search_contains: false
+disable_search: false
+disabled_themes:
+  seven: '0'
+  adminimal_theme: '0'
+chosen_include: 0
+placeholder_text_multiple: 'Kies enkele opties'
+placeholder_text_single: 'Kies een optie'
+no_results_text: 'No results match'

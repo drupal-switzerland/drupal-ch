@@ -1,0 +1,11 @@
+uuid: 6df70b14-d45a-4092-8127-104d41b26450
+langcode: en
+status: true
+dependencies: {  }
+id: basic_banner
+block_id: 'inline_block:basic_banner'
+category: banners
+label: 'Basic Banner'
+image_path: ''
+image_alt: ''
+weight: -100

@@ -1,0 +1,22 @@
+uuid: b5186583-15ab-435d-b1b7-80b22e10d0b0
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themekit
+_core:
+  default_config_hash: 0P6mM5sz_SeTyq7QxSfxvcQZzdJRVE0g0rZkcZ_dqfk
+id: themekit_messages
+theme: themekit
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Statusberichten
+  label_display: '0'
+  provider: system
+visibility: {  }

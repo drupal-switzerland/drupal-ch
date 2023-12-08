@@ -1,0 +1,23 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+
+{% block node %}
+  {% set rendered_content = content|without('field_date_range') %}
+
+  {{ title_prefix }}
+  {{ title_suffix }}
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    <div class="date-wrapper">
+      <div class="date">
+        {{ node.field_date_range.start_date|date('j') }}
+      </div>
+      <div class="month">
+        {{ node.field_date_range.start_date|date('F') }}
+      </div>
+    </div>
+    <div class="field-content">
+      <h4 class="heading"><a href="{{ url }}">{{ node.label }}</a></h4>
+      {{ rendered_content }}
+    </div>
+  </div>
+{% endblock %}
