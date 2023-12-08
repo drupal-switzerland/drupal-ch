@@ -32,6 +32,7 @@
         }
     },
     "require": {
+        "amazeeio/drupal_integrations": "^0.3.7",
         "bower-asset/lazysizes": "^5.3",
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
@@ -144,12 +145,16 @@
     "extra": {
         "composer-exit-on-patch-failure": true,
         "drupal-scaffold": {
+            "allowed-packages": [
+                "amazeeio/drupal_integrations"
+            ],
             "gitignore": false,
             "locations": {
                 "web-root": "docroot/"
             },
             "file-mapping": {
-                "[web-root]/robots.txt": false
+                "[web-root]/robots.txt": false,
+                "[web-root]/sites/default/all.settings.php": "assets/all.settings.php"
             }
         },
         "enable-patching": true,
