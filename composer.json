@@ -27,8 +27,8 @@
         "drupal/components": "^2.4",
         "drupal/console": "^1.9",
         "drupal/core": "^9.5",
-        "drupal/core-composer-scaffold": "^9.5",
-        "drupal/core-recommended": "^9.5",
+        "drupal/core-composer-scaffold": "^10.1",
+        "drupal/core-recommended": "dev-default",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/environment_indicator": "^4.0",
         "drupal/gin": "^3.0@beta",
@@ -56,7 +56,6 @@
         "wikimedia/composer-merge-plugin": "^2.0"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.0.0",
         "phpunit/phpunit": "^8.4",
         "sebastian/comparator": "^3.0",
         "sebastian/diff": "^3.0"
