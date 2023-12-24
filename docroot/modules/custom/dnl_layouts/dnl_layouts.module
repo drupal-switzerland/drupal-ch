@@ -5,8 +5,8 @@
  * Contains dnl_layouts.module.
  */
 
-use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
  * Implements hook_help().
@@ -30,9 +30,9 @@ function dnl_layouts_help($route_name, RouteMatchInterface $route_match) {
 function dnl_layouts_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   switch ($form_id) {
     case 'node_component_page_layout_builder_form':
-      /**
-       * When using the moderation_sidebar module, let's avoid redundant clutter and remove moderation state
-       * from the vanilla LB display.
+      /*
+       * When using the moderation_sidebar module, let's avoid redundant
+       * clutter and remove moderation state from the vanilla LB display.
        */
       if (isset($form['moderation_state'])) {
         $form['moderation_state']['#access'] = FALSE;

@@ -2,8 +2,8 @@
 
 namespace Drupal\dnl_layouts\Plugin\Layout;
 
-use Drupal\Core\Layout\LayoutDefault;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Layout\LayoutDefault;
 
 /**
  * Configurable base layout plugin class.
@@ -61,4 +61,5 @@ class BaseLayout extends LayoutDefault {
     $this->configuration['padding'] = $form_state->getValue('padding');
     $this->configuration['valign'] = $form_state->getValue('valign');
   }
+
 }

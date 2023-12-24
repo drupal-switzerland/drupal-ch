@@ -135,7 +135,7 @@
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "oomphinc/composer-installers-extender": true,
-            "lemberg/draft-environment": false
+            "dealerdirect/phpcodesniffer-composer-installer": true
         },
         "platform": {
             "php": "8.2"
@@ -218,7 +218,7 @@
                 "[#3090200] Paragraphs do not render: access check for 'view' fail when using layout builder + custom blocks & content revisions because the incorrect parent revision ID is being passed in ParagraphAccessControlHandler::checkAccess(": "https://www.drupal.org/files/issues/2020-07-08/access-controll-issue-3090200-22.patch"
             },
             "drupal/redirect": {
-                "[#3373123] Setting 'Enforce clean and canonical URLs.' breaks CSS aggregation on multilingual Drupal 10.1.x with browser caching enabled": "https://www.drupal.org/files/issues/2023-11-01/3373123_redirect_dont-normalize-assets.patch"
+               "[#3373123] Setting 'Enforce clean and canonical URLs.' breaks CSS aggregation on multilingual Drupal 10.1.x with browser caching enabled": "https://www.drupal.org/files/issues/2023-11-01/3373123_redirect_dont-normalize-assets.patch" 
             },
             "drupal/system_status": {
                 "[#3299281] Automated Drupal 10 compatibility fixes": "https://www.drupal.org/files/issues/2023-02-15/system_status-drupal_10_compatibility-3299281-7.patch"
@@ -232,6 +232,7 @@
         }
     },
     "require-dev": {
+        "drupal/coder": "^8.3",
         "drupal/devel": "^5.1",
         "drupal/stage_file_proxy": "^2.1",
         "mglaman/drupal-check": "^1.4"
