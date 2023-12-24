@@ -1,5 +1,6 @@
 FROM uselagoon/php-8.2-cli-drupal as builder
 COPY composer.json composer.lock /app/
+COPY assets /app/assets
 RUN composer install --no-dev --prefer-dist
 COPY . /app
 
