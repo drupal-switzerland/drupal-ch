@@ -1,0 +1,11 @@
+uuid: 9c5a7655-6eb6-4ee0-abc5-93fe30b208af
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: JONk1mhmB2Bpji-kyLf3JBBVro-w1dBtN2CuxmvEimU
+id: user
+label: Gebruiker
+tags:
+  title: '[user:display-name] | [site:name]'
+  description: '[site:name]'

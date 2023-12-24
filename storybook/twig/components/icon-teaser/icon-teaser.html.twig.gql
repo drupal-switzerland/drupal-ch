@@ -1,8 +1,0 @@
-fragment ParagraphIconTeaser on ParagraphIconTeaser {
-  componentId: fieldParagraphId
-  title: fieldTitle
-  text: fieldText {
-    processed
-  }
-  icon: fieldIcon
-}

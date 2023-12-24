@@ -1,0 +1,47 @@
+////
+/// User
+////
+
+.user-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 32px 16px;
+
+  > * {
+    max-width: rem-calc(550);
+    margin: 0 auto;
+  }
+
+  .form-text {
+    width: 100%;
+    padding: 12px 16px;
+  }
+
+  .form-submit {
+    @include btn(primary);
+    border: none;
+  }
+
+  .messages {
+    margin-bottom: 12px;
+    margin-left: 8px;
+  }
+
+  .description {
+    color: $color-gray-500;
+  }
+}
+
+.user-login__content {
+  padding: 24px;
+  border: $fieldset-border;
+  box-shadow: rgba(black, 0.2) 0 12px 30px -12px;
+}
+
+.user-login__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

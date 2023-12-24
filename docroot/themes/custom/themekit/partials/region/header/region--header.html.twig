@@ -1,0 +1,10 @@
+{% extends "@partials/region/region.html.twig" %}
+
+{% block region %}
+  <div class="content">
+    {{ content }}
+
+    {# Toggle button for the mobile main navigation #}
+    <button class="menu--main__toggle" aria-expanded="false">{{ 'Menu'|t }}</button>
+  </div>
+{% endblock %}

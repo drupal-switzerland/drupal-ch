@@ -1,0 +1,25 @@
+uuid: b422d303-3e8c-4751-b863-f4e4d33d41de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_winner
+    - node.type.partner
+id: node.partner.field_winner
+field_name: field_winner
+entity_type: node
+bundle: partner
+label: Winner
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: x
+field_type: integer

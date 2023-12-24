@@ -1,0 +1,36 @@
+uuid: 04dbf2c6-0a0a-4c6c-9e57-7786ecd4be6c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - image.style.2x_small
+    - image.style.medium
+    - image.style.small
+    - image.style.x_small
+_core:
+  default_config_hash: 1n_hMaEHalNrTbQJkcnpth8f2i2NaQj9f9RBNWqYaV0
+id: fourth_column
+label: 'Fourth Column'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: 2x_small
+    breakpoint_id: themekit.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: small
+    breakpoint_id: themekit.small
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: x_small
+    breakpoint_id: themekit.x_small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium
+    breakpoint_id: themekit.x_small
+    multiplier: 2x
+breakpoint_group: themekit
+fallback_image_style: x_small

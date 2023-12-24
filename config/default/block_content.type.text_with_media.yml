@@ -1,0 +1,8 @@
+uuid: 03414599-ebd0-4e1d-97a6-1eee7d950ee4
+langcode: en
+status: true
+dependencies: {  }
+id: text_with_media
+label: 'Text with Media'
+revision: 0
+description: ''

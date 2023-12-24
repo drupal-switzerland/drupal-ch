@@ -1,0 +1,11 @@
+uuid: 8315c6ff-0d19-4648-9ce3-e9ca038cb0e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.simple_banner
+id: block_content.simple_banner
+target_entity_type_id: block_content
+target_bundle: simple_banner
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,12 @@
+////
+/// Global Links
+////
+
+$_links-keys: map-keys($links);
+
+@each $link-key in $_links-keys {
+  .link--#{$link-key} {
+    @include link($link-key);
+  }
+}
+

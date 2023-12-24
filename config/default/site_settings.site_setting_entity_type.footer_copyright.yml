@@ -1,0 +1,8 @@
+uuid: 33a959ff-3e68-4919-a25c-81d3b6c51d01
+langcode: en
+status: true
+dependencies: {  }
+id: footer_copyright
+label: 'Footer copyright'
+fieldset: Footer
+multiple: false

@@ -1,0 +1,10 @@
+uuid: 11560dc2-6ec7-468c-a95d-9332591198b9
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6q-4mat_5rePtmxm9HXLgqLaw5tie9t-lZ9l_qVvBAY
+id: default
+label: Standaard
+locked: true
+pattern: ((((t+ig)+im)+if)+is)+jc

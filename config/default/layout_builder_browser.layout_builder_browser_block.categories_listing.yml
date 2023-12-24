@@ -1,0 +1,11 @@
+uuid: 50f9bfce-a77f-482b-9f63-46c610a60661
+langcode: en
+status: true
+dependencies: {  }
+id: categories_listing
+block_id: 'views_block:categories-listing'
+category: overview
+label: 'Categories Listing'
+image_path: ''
+image_alt: ''
+weight: -5

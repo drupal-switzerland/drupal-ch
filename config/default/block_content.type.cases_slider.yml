@@ -1,0 +1,8 @@
+uuid: a9d7956c-5321-40a0-8583-0af46264e75e
+langcode: en
+status: true
+dependencies: {  }
+id: cases_slider
+label: 'Cases Slider'
+revision: 0
+description: ''

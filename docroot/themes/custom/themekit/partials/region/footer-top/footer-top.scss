@@ -1,0 +1,157 @@
+////
+/// Footer Top
+////
+
+.region-footer-top {
+  margin-top: 128px;
+  overflow: hidden;
+
+  .content {
+    @include flex-grid-row();
+    position: relative;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    @include breakpoint(large) {
+      padding-top: 52px;
+      padding-bottom: 32px;
+    }
+    @include breakpoint(large) {
+      display: grid;
+      grid-template-columns: grid-column(7) grid-column(5);
+      align-items: center;
+    }
+    @include breakpoint(xlarge) {
+      grid-template-columns: grid-column(8) grid-column(4);
+    }
+    @include brand-shape(footer) {
+      @include left-right(margin, -200px);
+      top: 0;
+      margin-left: -400px;
+      margin-right: -200px;
+      min-width: calc(100vw + 600px);
+      @include breakpoint(large) {
+        display: none;
+      }
+    }
+    @include brand-shape(footer-frame, after) {
+      top: 0;
+      margin-left: -400px;
+      margin-right: -200px;
+      min-width: calc(100vw + 600px);
+      min-height: calc(100% + 60px);
+      @include breakpoint(large) {
+        display: none;
+      }
+    }
+  }
+
+  // Subscribe block
+  .block-subscribe {
+    position: relative;
+    display: flex;
+    align-items: center;
+    @include breakpoint(small down) {
+      flex-wrap: wrap;
+    }
+    @include breakpoint(medium down) {
+      @include flex-grid-column(12);
+      margin-bottom: 40px;
+    }
+    @include breakpoint(large) {
+      @include grid-column-gutter;
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 2;
+      height: 100%;
+    }
+    @include brand-shape(footer) {
+      top: -52px;
+      right: 18px;
+      @include breakpoint(medium down) {
+        display: none;
+      }
+    }
+    @include brand-shape(footer-frame, after) {
+      top: -52px;
+      right: 36px;
+      @include breakpoint(medium down) {
+        display: none;
+      }
+    }
+
+    .text {
+      @include breakpoint(small down) {
+        flex: 1 100%;
+        margin-bottom: 16px;
+      }
+      @include breakpoint(medium) {
+        margin-right: 32px;
+      }
+      @include breakpoint(xlarge) {
+        margin-right: 60px;
+      }
+    }
+
+    &__title {
+      @include heading(h4);
+      margin-bottom: 2px;
+    }
+
+    p {
+      @include font-sizes(text-card);
+      margin: 0;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      @include icon-before(mail-add) {
+        margin-right: 16px;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .navigation__heading {
+    @include font-sizes(kicker-small);
+    margin-bottom: 12px;
+    color: $color-gray-500;
+    @include breakpoint(medium) {
+      @include font-sizes(kicker-large);
+    }
+  }
+
+  .menu--social {
+    @include breakpoint(small down) {
+      @include flex-grid-column(12);
+    }
+    @include breakpoint(medium only) {
+      @include flex-grid-column(6);
+    }
+    @include breakpoint(large) {
+      @include grid-column-gutter;
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 1;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 32px;
+      @include breakpoint(medium) {
+        margin-bottom: 24px;
+      }
+    }
+  }
+
+  .menu--community {
+    @include breakpoint(small down) {
+      @include flex-grid-column(12);
+    }
+    @include breakpoint(medium only) {
+      @include flex-grid-column(6);
+    }
+    @include breakpoint(large) {
+      @include grid-column-gutter;
+      grid-column: 2 / span 1;
+      grid-row: 2 / span 1;
+    }
+  }
+}

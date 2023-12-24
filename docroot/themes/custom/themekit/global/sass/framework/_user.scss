@@ -1,0 +1,23 @@
+.user-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  > * {
+    max-width: rem-calc(550);
+  }
+}
+
+.user-login__content {
+  padding: rem-calc(24);
+  border: $fieldset-border;
+  box-shadow: rgba(black, 0.2) 0 12px 30px -12px;
+}
+
+.user-login__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

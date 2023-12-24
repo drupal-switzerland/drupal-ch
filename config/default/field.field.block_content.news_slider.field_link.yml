@@ -1,0 +1,23 @@
+uuid: 05a9ac17-05b7-4dff-9a2c-3eb7c7f83f74
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_slider
+    - field.storage.block_content.field_link
+  module:
+    - link
+id: block_content.news_slider.field_link
+field_name: field_link
+entity_type: block_content
+bundle: news_slider
+label: CTA
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

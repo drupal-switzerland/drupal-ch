@@ -1,0 +1,11 @@
+uuid: 9cf50dde-2ed5-459c-83d6-7258159a6783
+langcode: en
+status: true
+dependencies: {  }
+id: cases_listing
+block_id: 'views_block:cases-listing'
+category: overview
+label: 'Cases Listing'
+image_path: ''
+image_alt: ''
+weight: -6

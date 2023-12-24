@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: 00Ve-7RV1jZNtJ9aLejN8IxPwcAWXhYlnBkS-1Rfwe8
+langcode: nl
+first_day: 1
+country:
+  default: NL
+timezone:
+  default: Europe/Amsterdam
+  user:
+    configurable: false
+    default: 0
+    warn: false

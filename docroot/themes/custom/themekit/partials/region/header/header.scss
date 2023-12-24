@@ -1,0 +1,60 @@
+////
+/// Header
+////
+
+.region-header {
+  @include top-bottom(padding, rem-calc(20));
+  position: relative;
+  z-index: 2;
+  @include breakpoint(medium) {
+    @include top-bottom(padding, rem-calc(32));
+    height: rem-calc(104);
+  }
+
+  body:not(.is-home-banner) & {
+    border-bottom: 1px solid $color-gray-300;
+    background-color: $color-white;
+  }
+
+  .content {
+    @include content-width(default);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .block--system-branding-block {
+    a {
+      display: inline-block;
+      position: relative;
+
+      @at-root body.logo-type--light & {
+        img {
+          opacity: 0;
+        }
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: rem-calc(128.8);
+          height: rem-calc(32);
+          background: url(../../../logo-white.svg) 0 0 no-repeat;
+          background-size: contain;
+          content: '';
+          @include breakpoint(medium) {
+            width: rem-calc(161);
+            height: rem-calc(40);
+          }
+        }
+      }
+    }
+
+    img {
+      height: rem-calc(32);
+      @include breakpoint(medium) {
+        height: rem-calc(40);
+      }
+    }
+  }
+}

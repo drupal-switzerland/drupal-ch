@@ -1,0 +1,25 @@
+uuid: ebc62faa-1ca8-44fd-ba91-b58f53e68d7b
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themekit
+_core:
+  default_config_hash: PRWgtAbvaaYQfoleycU091NHcxNGd1iZJMsCCPAIYOo
+id: themekit_branding
+theme: themekit
+region: header
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Branding van de website'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,62 @@
+uuid: c0d5a566-2a7b-4ad5-bb44-1606a50405f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_browser
+    - field.field.media.svg.field_file_mime_type
+    - field.field.media.svg.field_file_size
+    - field.field.media.svg.field_media_svg
+    - field.field.media.svg.field_svg_type
+    - field.field.media.svg.field_tags
+    - media.type.svg
+  module:
+    - svg_image_field
+_core:
+  default_config_hash: rc7hxN8JELHp_i5Fh4s6mwh1nHr-9sbhoKC64V6xZm8
+id: media.svg.media_browser
+targetEntityType: media
+bundle: svg
+mode: media_browser
+content:
+  field_media_svg:
+    type: svg_image_field_widget
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_max_width: 100
+      preview_image_max_height: 100
+    third_party_settings: {  }
+  field_svg_type:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_autocomplete_tags
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_file_mime_type: true
+  field_file_size: true
+  langcode: true
+  path: true
+  status: true
+  uid: true

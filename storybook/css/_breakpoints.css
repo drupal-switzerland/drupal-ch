@@ -1,5 +1,0 @@
-/* Down */
-@custom-media --desktop-down (max-width: 1023px);
-
-/* Up */
-@custom-media --desktop-up (min-width: 1024px);

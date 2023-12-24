@@ -1,3 +1,0 @@
-fragment ForumTeaser on NodeForum {
-  title: entityLabel
-}

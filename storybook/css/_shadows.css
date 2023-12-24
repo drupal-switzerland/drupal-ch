@@ -1,9 +1,0 @@
-:root {
-  /* Outer shadow */
-  --shadow-30: 0 4px 20px rgba(0, 0, 0, 0.3);
-  --shadow-70: 0 4px 20px rgba(0, 0, 0, 0.7);
-  --shadow-95: 0 4px 20px rgba(0, 0, 0, 0.95);
-
-  /* Inset shadow */
-  --shadow-inset-white: inset 0 0 0 3px var(--white);
-}

@@ -1,0 +1,19 @@
+uuid: 159c2f4c-dc1a-4698-8664-dfbd03d50d19
+langcode: en
+status: true
+dependencies:
+  module:
+    - login_security
+_core:
+  default_config_hash: cckm6b_67t-eEQJLkXFI2pc80YMVgJjk0Rk8TWa2qc0
+title: 'Default cron handler'
+id: login_security_cron
+weight: 0
+module: login_security
+callback: login_security_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

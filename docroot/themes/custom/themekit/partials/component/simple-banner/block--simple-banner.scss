@@ -1,0 +1,19 @@
+////
+/// Simple Banner block
+////
+
+.block--simple-banner {
+  @include content-width(default);
+  padding-top: rem-calc(40);
+  @include breakpoint(medium) {
+    padding-top: rem-calc(110);
+  }
+
+  .field--name-field-heading {
+    @include heading(h3);
+    margin-bottom: rem-calc(20);
+    @include breakpoint(medium) {
+      margin-bottom: rem-calc(24);
+    }
+  }
+}

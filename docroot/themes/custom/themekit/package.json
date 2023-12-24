@@ -1,0 +1,70 @@
+{
+  "name": "themekit",
+  "version": "1.0.0",
+  "description": "Drupal.nl theme.",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "dev": "webpack --config webpack.config.js --watch --mode=development"
+  },
+  "author": "Lemberg Solutions",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ],
+  "sideEffects": false,
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.2.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-array-includes": "^2.0.3",
+    "browser-sync": "^2.28.1",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "chalk": "^4.1.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "file-loader": "^6.2.0",
+    "glob": "^7.1.6",
+    "js-yaml": "^4.0.0",
+    "mini-css-extract-plugin": "^1.3.5",
+    "node-sass": "^7.0.3",
+    "node-sass-glob-importer": "^5.3.2",
+    "postcss-loader": "^4.2.0",
+    "postcss-safe-parser": "^5.0.2",
+    "postcss-scss": "^3.0.4",
+    "prettier": "2.6.2",
+    "sass-loader": "^13.0.2",
+    "sassdoc": "^2.7.1",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-remove-empty-scripts": "^1.0.1",
+    "write-yaml": "^1.0.0"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "ajv": "^7.0.3",
+    "ajv-keywords": "^4.0.0",
+    "babel-polyfill": "^6.26.0",
+    "eslint-import-resolver-webpack": "^0.13.0",
+    "foundation-sites": "^6.6.1",
+    "jquery": "^3.0.0",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.2",
+    "lodash.set": "^4.3.2",
+    "normalize-scss": "^7.0.1",
+    "svg.js": "^2.6.5",
+    "what-input": "^5.2.10"
+  }
+}

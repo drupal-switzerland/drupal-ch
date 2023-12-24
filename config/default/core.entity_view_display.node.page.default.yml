@@ -1,0 +1,30 @@
+uuid: c02a2b8d-3621-4a60-812d-4960163945de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_metatags
+    - node.type.page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: cT7FLO37LfLRTW8rH7rpjNGe2mBBy44-LoNSRjuEHlY
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  content_moderation_control: true
+  field_metatags: true
+  langcode: true
+  links: true

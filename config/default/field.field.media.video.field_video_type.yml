@@ -1,0 +1,31 @@
+uuid: 5c3eafc3-5ad1-4613-b9c6-b1f74efd5a74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_type
+    - media.type.video
+    - taxonomy.vocabulary.video_type
+_core:
+  default_config_hash: 18_TNtxwUX-UVO-e7vn1doODBqVczXI9mXSk9AUmW-w
+id: media.video.field_video_type
+field_name: field_video_type
+entity_type: media
+bundle: video
+label: 'Video Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      video_type: video_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

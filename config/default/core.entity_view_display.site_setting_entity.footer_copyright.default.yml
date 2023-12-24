@@ -1,0 +1,25 @@
+uuid: b176deb8-5a6a-43be-af7c-22f141a79da0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.site_setting_entity.footer_copyright.field_text
+    - site_settings.site_setting_entity_type.footer_copyright
+  module:
+    - text
+id: site_setting_entity.footer_copyright.default
+targetEntityType: site_setting_entity
+bundle: footer_copyright
+mode: default
+content:
+  field_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  fieldset: true
+  name: true
+  user_id: true

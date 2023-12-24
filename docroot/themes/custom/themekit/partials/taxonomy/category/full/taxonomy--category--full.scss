@@ -1,0 +1,65 @@
+.taxonomy-term--type-category {
+  &.taxonomy-term--view-mode-full {
+    @include node--full;
+
+    .field-banner {
+      margin-bottom: 45px;
+
+      @include breakpoint(large up) {
+        margin-bottom: 0;
+      }
+    }
+
+    > .node__content {
+      > .field-content {
+        @include breakpoint(large up) {
+          padding-right: 36px;
+          max-width: calc(100% - 417px);
+          width: $global-width-small;
+        }
+
+        .field--name-field-p-components {
+          > .field__item {
+            margin-bottom: 56px;
+
+            @include breakpoint(medium down) {
+              margin-bottom: 32px;
+            }
+          }
+        }
+      }
+      > .field-info {
+        max-width: 100%;
+        @include breakpoint(large) {
+          width: 417px;
+        }
+
+        .field--name-field-references-limit {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 24px;
+
+          @include breakpoint(large up) {
+            margin-top: 105px;
+          }
+
+          > .field__item {
+            width: calc(33.333% - 24px);
+            &:first-child,
+            &:last-child {
+              margin-left: 33.333%;
+            }
+          }
+        }
+      }
+    }
+
+    .block-slider-cases {
+      margin-top: 25px;
+      max-width: calc(100vw - 2rem);
+      @include breakpoint(large) {
+        max-width: calc(100vw - 4rem);
+      }
+    }
+  }
+}

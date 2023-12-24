@@ -1,0 +1,10 @@
+uuid: d5df0ad2-c0c9-48e8-815c-9315bdb253da
+langcode: en
+status: true
+dependencies: {  }
+id: detail_item
+label: 'Detail Item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

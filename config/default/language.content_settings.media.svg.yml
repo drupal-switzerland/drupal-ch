@@ -1,0 +1,13 @@
+uuid: c6d6e9d3-7836-4ac0-bfb8-b2df20186af0
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+_core:
+  default_config_hash: q7-noQ03ABBQxFjLs3j6gwuLGUWbLDG4PmbcFAELPaM
+id: media.svg
+target_entity_type_id: media
+target_bundle: svg
+default_langcode: site_default
+language_alterable: false

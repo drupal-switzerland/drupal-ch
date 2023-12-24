@@ -1,0 +1,27 @@
+uuid: 9b3fadbd-e833-4563-9bf1-a256f37566b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.entity_embed
+    - entity_browser.browser.image_embed
+    - media.type.image
+  module:
+    - entity_embed
+    - media
+_core:
+  default_config_hash: G7q20Cfh9zg_cn4pqQ6YeagubqfaPkG1W1r_nyA9Tbw
+label: 'Image Embed'
+id: image_embed
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+  display_plugins:
+    - 'view_mode:media.entity_embed'
+  entity_browser: image_embed
+  entity_browser_settings:
+    display_review: true
+icon: {  }
+icon_uuid: null

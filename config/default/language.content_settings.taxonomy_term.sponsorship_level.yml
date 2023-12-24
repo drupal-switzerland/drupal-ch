@@ -1,0 +1,11 @@
+uuid: 6921344d-78e4-4e02-bed1-b4f5a5f7fbbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sponsorship_level
+id: taxonomy_term.sponsorship_level
+target_entity_type_id: taxonomy_term
+target_bundle: sponsorship_level
+default_langcode: site_default
+language_alterable: false

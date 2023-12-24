@@ -1,0 +1,32 @@
+{% extends "@partials/component/paragraph.html.twig" %}
+
+{% set rendered_content = content|without(
+  'field_medias'
+)
+%}
+
+{% block content %}
+  {{ rendered_content }}
+  <div class="glide-wrapper">
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          {% for key, slide in content.field_medias|filter((value, key) => key|first != '#') %}
+            <li class="glide__slide">{{ slide }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="wrapper-control">
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<" aria-label="Prev"></button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">" aria-label="Next"></button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          {% for key, slide in content.field_medias|filter((value, key) => key|first != '#') %}
+            <button class="glide__bullet" data-glide-dir="={{ key }}"></button>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

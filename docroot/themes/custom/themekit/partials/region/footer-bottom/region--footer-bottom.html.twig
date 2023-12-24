@@ -1,0 +1,21 @@
+{% extends "@partials/region/region.html.twig" %}
+
+{% set formatted_text = {
+  '#type':   'processed_text',
+  '#text':    site_settings.footer.footer_copyright.value,
+  '#format':  site_settings.footer.footer_copyright.format,
+} %}
+
+{% block region %}
+  <div class="content">
+    <div class="content--primary">
+      <a href="{{ front_page }}" title="{{ site_name }}">
+        <img src="{{ base_path ~ '/themes/custom/themekit/logo-icon.svg' }}">
+      </a>
+      {{ content }}
+    </div>
+    <div class="content--secondary">
+      {{ formatted_text }}
+    </div>
+  </div>
+{% endblock %}

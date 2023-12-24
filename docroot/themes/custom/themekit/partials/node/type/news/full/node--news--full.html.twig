@@ -1,0 +1,30 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+{% block node %}
+  {% set rendered_content = content|without(
+    'field_image',
+    'field_intro',
+  )
+  %}
+
+  <div class="field-banner">
+    <div class="field-text">
+      <h1 class="heading">{{ node.label }}</h1>
+      <div class="field-category">
+        {{ node.getCreatedTime|format_date('short') }}
+      </div>
+      {{ content.field_intro }}
+    </div>
+    {% if node.field_image.value %}
+      <div class="media">
+        <span class="frame"></span>
+        {{ content.field_image }}
+      </div>
+    {% endif %}
+  </div>
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    <div class="field-content">
+      {{ rendered_content }}
+    </div>
+  </div>
+{% endblock %}

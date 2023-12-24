@@ -1,0 +1,18 @@
+uuid: a8560794-6801-4ea4-a0af-db6db86e890b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iAVVl4N_ay_8o47ua1s0B2ifHy9ysA7vFPKJokFJgf0
+name: x_large_hq
+label: 'X Large HQ (1920W)'
+effects:
+  34bda4e0-6c5b-4db6-aeee-0188d9ebcc58:
+    uuid: 34bda4e0-6c5b-4db6-aeee-0188d9ebcc58
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: null
+      upscale: false
+pipeline: default

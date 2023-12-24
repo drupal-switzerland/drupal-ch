@@ -1,0 +1,22 @@
+uuid: bdc703a4-4a05-4288-bac3-5bf65a1a2d08
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: field_media_video_file
+_core:
+  default_config_hash: Ho2IBbGRDPnx7IgRC2Va1KKL3H2TzhBtuHFsfs7Jh7c
+id: video
+label: Video
+description: 'A locally hosted video file.'
+source: video_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_video_file
+field_map:
+  name: name
+  mimetype: field_file_mime_type

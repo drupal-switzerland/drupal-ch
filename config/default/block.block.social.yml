@@ -1,0 +1,31 @@
+uuid: e2a0e382-3e24-4a78-8360-88b224a8f468
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - menu_block
+  theme:
+    - themekit
+id: social
+theme: themekit
+region: footer_top
+weight: -5
+provider: null
+plugin: 'menu_block:social'
+settings:
+  id: 'menu_block:social'
+  label: 'Volg ons op'
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  label_link: false
+  label_type: block
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'social:'
+  suggestion: social
+visibility: {  }

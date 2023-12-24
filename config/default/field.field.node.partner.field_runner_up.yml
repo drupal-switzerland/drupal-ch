@@ -1,0 +1,25 @@
+uuid: f813f118-e815-4ab9-a11b-32274c9c0bc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_runner_up
+    - node.type.partner
+id: node.partner.field_runner_up
+field_name: field_runner_up
+entity_type: node
+bundle: partner
+label: 'Runner up'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: x
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: 9c576ad4-084c-4560-b4e1-9cf53df466c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: NB6UgZWWeo4lPojes1yQps-bLSkdyKpfI-sUP5MRo60
+name: medium_square_1_1
+label: 'Medium Square 1:1 (480 x 480)'
+effects:
+  c6bf2ea7-4cbf-4284-b9b9-d5275020c7a1:
+    uuid: c6bf2ea7-4cbf-4284-b9b9-d5275020c7a1
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      crop_type: focal_point
+pipeline: default

@@ -1,0 +1,66 @@
+uuid: 91a76b0d-3967-4dc1-b725-7fcd7acb442f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.small_teaser
+    - field.field.node.partner.body
+    - field.field.node.partner.field_address
+    - field.field.node.partner.field_category
+    - field.field.node.partner.field_email
+    - field.field.node.partner.field_image
+    - field.field.node.partner.field_intro
+    - field.field.node.partner.field_link
+    - field.field.node.partner.field_links
+    - field.field.node.partner.field_logo
+    - field.field.node.partner.field_metatags
+    - field.field.node.partner.field_phone
+    - field.field.node.partner.field_runner_up
+    - field.field.node.partner.field_website_of_the_year
+    - field.field.node.partner.field_winner
+    - node.type.partner
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.partner.small_teaser
+targetEntityType: node
+bundle: partner
+mode: small_teaser
+content:
+  field_category:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_logo:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: logo
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  content_moderation_control: true
+  field_address: true
+  field_email: true
+  field_image: true
+  field_intro: true
+  field_link: true
+  field_links: true
+  field_metatags: true
+  field_phone: true
+  field_runner_up: true
+  field_website_of_the_year: true
+  field_winner: true
+  langcode: true
+  links: true

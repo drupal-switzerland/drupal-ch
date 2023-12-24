@@ -1,0 +1,26 @@
+////
+/// Footer navigation
+////
+
+.menu--footer {
+  .menu {
+    display: flex;
+    @include breakpoint(small down) {
+      flex-direction: column;
+    }
+
+    &__item {
+      @include font-sizes(text-small);
+      @include main-menu-item($mobile: true, $active-class: false);
+
+      &:not(:last-child) {
+        @include breakpoint(small down) {
+          margin-bottom: rem-calc(8);
+        }
+        @include breakpoint(medium) {
+          margin-right: rem-calc(16);
+        }
+      }
+    }
+  }
+}

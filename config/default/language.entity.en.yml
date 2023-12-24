@@ -1,0 +1,9 @@
+uuid: e98f4506-5fe4-4557-9cbe-97e1e86226cf
+langcode: nl
+status: true
+dependencies: {  }
+id: en
+label: Engels
+direction: ltr
+weight: -10
+locked: false

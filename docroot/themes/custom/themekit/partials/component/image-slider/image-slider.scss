@@ -1,0 +1,48 @@
+.paragraph--type--image-slider {
+  &.paragraph--view-mode--default {
+    background-color: $color-gray-100;
+    padding: 32px 0 32px 32px;
+    position: relative;
+
+    @include breakpoint(medium up) {
+      margin: 100px 0;
+    }
+
+    @include breakpoint(medium down) {
+      margin-left: -32px;
+      margin-right: -32px;
+      width: 100vw;
+    }
+
+    @include breakpoint(small down) {
+      margin: 50px -16px 0 -32px;
+    }
+
+    .field--name-field-media {
+      position: absolute;
+      right: 26px;
+      top: 0;
+      transform: translate(0, -50%);
+      z-index: 1;
+      img {
+        width: 100%;
+        @include breakpoint(medium up) {
+          max-width: 160px;
+        }
+        @include breakpoint(medium down) {
+          max-width: 80px;
+        }
+      }
+    }
+
+    .wrapper-control {
+      bottom: -90px;
+      left: 0;
+      right: 35px;
+      position: absolute;
+      @include breakpoint(small down) {
+        display: none;
+      }
+    }
+  }
+}

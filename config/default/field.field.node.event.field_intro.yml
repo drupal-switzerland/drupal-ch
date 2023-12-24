@@ -1,0 +1,26 @@
+uuid: 1fbca44a-3e8f-48d1-af0b-0044abcbea30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_intro
+    - node.type.event
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - restricted_html
+id: node.event.field_intro
+field_name: field_intro
+entity_type: node
+bundle: event
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

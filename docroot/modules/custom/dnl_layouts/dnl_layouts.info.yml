@@ -1,0 +1,8 @@
+name: Drupal.nl Layouts
+type: module
+description: 'Provides additional functionality for layouts.'
+core_version_requirement: ^9.4 || ^10
+package: Dnl
+
+dependencies:
+  - drupal:layout_builder

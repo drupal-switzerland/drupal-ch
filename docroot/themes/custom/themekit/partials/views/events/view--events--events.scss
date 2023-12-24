@@ -1,0 +1,57 @@
+.view-events-events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1190px;
+  margin-left: auto;
+  margin-right: auto;
+  > .view-content {
+    width: 100%;
+    @include breakpoint(large up) {
+      width: 45%;
+    }
+    @include breakpoint(medium down) {
+      order: 2;
+    }
+    @include breakpoint(small down) {
+      position: relative;
+      padding-left: 4px;
+      margin-bottom: 20px;
+    }
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: $color-linear-vertical;
+      @include breakpoint(small down) {
+        content: '';
+      }
+    }
+    > .views-row {
+      @include breakpoint(medium up) {
+        margin-bottom: 20px;
+      }
+      @include breakpoint(small down) {
+        background-color: $white;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        &:last-child {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+  > .attachment-after {
+    width: 100%;
+    @include breakpoint(large up) {
+      width: 43%;
+    }
+    @include breakpoint(medium down) {
+      order: 1;
+      margin-bottom: 32px;
+    }
+  }
+}

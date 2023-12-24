@@ -1,0 +1,20 @@
+uuid: 04c07701-34dd-4e61-a91a-899ce9253fbe
+langcode: nl
+status: true
+dependencies:
+  theme:
+    - themekit
+_core:
+  default_config_hash: Csyz3mHEFmBZ0trZDkMpfvLAtx2xV56baWzrrJUdsU8
+id: themekit_local_actions
+theme: themekit
+region: highlighted
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primaire beheeracties'
+  label_display: '0'
+  provider: core
+visibility: {  }

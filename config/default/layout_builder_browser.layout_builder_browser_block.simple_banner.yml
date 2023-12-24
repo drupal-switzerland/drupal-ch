@@ -1,0 +1,11 @@
+uuid: ef5c9faa-0efa-441f-8386-94128a4bbddf
+langcode: en
+status: true
+dependencies: {  }
+id: simple_banner
+block_id: 'inline_block:simple_banner'
+category: banners
+label: 'Simple Banner'
+image_path: ''
+image_alt: ''
+weight: -100

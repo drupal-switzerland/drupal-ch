@@ -1,0 +1,54 @@
+////
+/// Basic Banner block
+////
+
+.block--basic-banner {
+  @include content-width(default);
+  @include breakpoint(large) {
+    display: flex;
+    align-items: center;
+  }
+
+  .content {
+    padding-top: 40px;
+    @include breakpoint(large) {
+      @include flex-grid-size(5);
+      @include top-bottom(padding, 100px);
+    }
+    @include breakpoint(xlarge) {
+      @include flex-grid-size(6);
+    }
+  }
+
+  .media {
+    @include banner-image;
+    @include breakpoint(large) {
+      @include flex-grid-size(5);
+      order: 2;
+    }
+    @include breakpoint(xlarge) {
+      @include flex-grid-size(6);
+      @include grid-column-offset(1);
+    }
+  }
+
+  .field--name-field-heading {
+    margin-bottom: 24px;
+    @include breakpoint(large) {
+      margin-top: 20px;
+    }
+  }
+
+  .field--name-field-description {
+    @include font-sizes(text-large);
+
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .field--name-field-p-link {
+    @include cta-list;
+  }
+}
+

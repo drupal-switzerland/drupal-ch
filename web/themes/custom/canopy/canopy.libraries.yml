@@ -1,5 +1,0 @@
-canopy:
-  version: VERSION
-  css:
-    theme:
-      css/drupal.css: {}

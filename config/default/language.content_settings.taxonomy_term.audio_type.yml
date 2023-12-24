@@ -1,0 +1,13 @@
+uuid: 4ac7dab6-a237-4e59-b84b-33a9faaa11f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.audio_type
+_core:
+  default_config_hash: udgu7RO2kLodM8Ke-Rqf8u5ocuoRFowSD549Gf1ClSw
+id: taxonomy_term.audio_type
+target_entity_type_id: taxonomy_term
+target_bundle: audio_type
+default_langcode: site_default
+language_alterable: false

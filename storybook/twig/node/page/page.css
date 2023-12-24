@@ -1,8 +1,0 @@
-.page {
-  .text {
-    &:first-child,
-    & + .text {
-      padding-top: 0;
-    }
-  }
-}

@@ -1,0 +1,16 @@
+{% extends "@partials/component/block.html.twig" %}
+
+{% set rendered_content = content|without('') %}
+{% set block = content['#block_content'] %}
+{% block content %}
+  <div class="block-content">
+    {{ rendered_content }}
+  </div>
+  <div class="partners-wrapper">
+    {{ drupal_view('partners', 'randomized') }}
+    {% if block.field_p_link|length > 1 %}
+      {{ content.field_p_link }}
+    {% endif %}
+  </div>
+
+{% endblock %}

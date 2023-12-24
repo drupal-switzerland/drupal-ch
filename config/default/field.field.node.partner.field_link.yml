@@ -1,0 +1,23 @@
+uuid: 2617c194-5292-47b6-9641-a17bc4fe949f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.partner
+  module:
+    - link
+id: node.partner.field_link
+field_name: field_link
+entity_type: node
+bundle: partner
+label: 'Website Url'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

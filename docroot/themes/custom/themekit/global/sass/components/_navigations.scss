@@ -1,0 +1,24 @@
+////
+/// Navigation - General Styles
+////
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  &-item {
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+}
+
+.navigation {
+  &__heading {
+    margin-bottom: 0;
+  }
+}

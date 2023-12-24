@@ -1,0 +1,14 @@
+uuid: f2ca5967-95b3-4fa8-9c19-28158e965a52
+langcode: nl
+status: true
+dependencies:
+  module:
+    - user
+    - views_bulk_edit
+_core:
+  default_config_hash: yKIdh5BqaETc2bng9afJEsBwVj6Sppqau5WQVA1-uHM
+id: user_edit_action
+label: 'Edit users'
+type: user
+plugin: 'entity:edit_action:user'
+configuration: {  }

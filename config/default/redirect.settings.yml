@@ -1,0 +1,12 @@
+langcode: nl
+_core:
+  default_config_hash: f6cDK8jneokSI65M-pZ3Bd-7g44bJUI6j_cM7HfsZ5A
+auto_redirect: false
+default_status_code: 301
+passthrough_querystring: true
+warning: false
+ignore_admin_path: false
+access_check: false
+route_normalizer_enabled: true
+canonical: true
+content_location_header: false

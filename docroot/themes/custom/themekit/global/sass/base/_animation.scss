@@ -1,0 +1,151 @@
+////
+/// Animation declarations
+////
+
+/// Splash animations
+@keyframes splash {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes splashOverlay {
+  0% {
+    clip-path: circle(100% at 50% 50%);
+  }
+  75% {
+    margin-top: 0;
+  }
+  100% {
+    clip-path: circle(50% at 50% 0%);
+    margin-top: -50%;
+  }
+}
+
+/// Default Shape animations
+@keyframes shapeRotate {
+  0% {
+    transform: rotateY(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateY(-15deg) rotateZ(-5deg);
+  }
+}
+
+@keyframes shapeFrameRotate {
+  0% {
+    transform: rotateZ(0deg);
+    background-position: 100% 0%;
+  }
+  5% {
+    transform: rotateZ(0deg);
+    background-position: 100% 0%;
+  }
+  95% {
+    transform: rotateZ(3deg);
+    background-position: 0% 100%;
+  }
+  100% {
+    transform: rotateZ(3deg);
+    background-position: 100% 0%;
+  }
+}
+
+@keyframes shapeShake {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(0, #{$animations-translate-position / -4}, 0);
+  }
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+  75% {
+    transform: translate3d(0, #{$animations-translate-position / 4}, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes shapeFrameBackgroundRotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+// Block keyframes
+@keyframes blockFadeIn {
+  0% {
+    transform: translateY(#{$animations-translate-position});
+    opacity: 0;
+  }
+  40% {
+    transform: translateY(#{$animations-translate-position});
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes blockFadeAngleIn {
+  0% {
+    transform: translate3d(#{$animations-translate-position}, #{$animations-translate-position / 2}, 0);
+    opacity: 0;
+  }
+  50% {
+    transform: translate3d(#{$animations-translate-position / 2}, #{$animations-translate-position / 4}, 0);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes blockSlideIn {
+  0% {
+    transform: translateY(#{$animations-translate-position * 2});
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes blockSlideOut {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(#{$animations-translate-position * -1});
+  }
+}
+
+@keyframes blockShowIn {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes blockTitle {
+  0% {
+    transform: translateY(#{$animations-translate-position});
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

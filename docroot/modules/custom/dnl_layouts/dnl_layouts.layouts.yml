@@ -1,0 +1,37 @@
+dnl_layout_banner_section:
+  label: 'Banner'
+  template: templates/banner-layout
+  class: '\Drupal\dnl_layouts\Plugin\Layout\DnlBannerLayout'
+  category: 'Columns: 1'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+
+dnl_layout_onecol_section:
+  label: 'One column'
+  template: templates/onecol-layout
+  class: '\Drupal\dnl_layouts\Plugin\Layout\DnlOneColumnLayout'
+  category: 'Columns: 1'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+
+dnl_layout_twocol_section:
+  label: 'Two column'
+  template: templates/twocol-layout
+  class: '\Drupal\dnl_layouts\Plugin\Layout\DnlTwoColumnLayout'
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second

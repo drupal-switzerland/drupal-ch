@@ -1,0 +1,47 @@
+////
+/// Community navigation
+////
+
+.menu--community {
+  .menu {
+    display: flex;
+
+    &__item {
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+
+      a {
+        display: inline-flex;
+        align-items: center;
+
+        &::before {
+          margin-right: 7px;
+          width: 29px;
+          height: 24px;
+          background-size: auto 110%;
+          background-position: 50% 0;
+          background-repeat: no-repeat;
+          content: '';
+        }
+
+        &[href*="splash"] {
+          color: #120b47;
+
+          &::before {
+            background-image: url(../../../../assets/images/svg/logos/splashawards.svg);
+          }
+        }
+
+        &[href*="drupaljam"] {
+          color: $color-black;
+
+          &::before {
+            background-image: url(../../../../assets/images/svg/logos/drupaljam.svg);
+            background-size: auto 150%; // not correct image src provided by a client
+          }
+        }
+      }
+    }
+  }
+}

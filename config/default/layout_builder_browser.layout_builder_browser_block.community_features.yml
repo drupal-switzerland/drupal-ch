@@ -1,0 +1,11 @@
+uuid: 1f66be39-1e24-4461-9f62-ad381d19352c
+langcode: en
+status: true
+dependencies: {  }
+id: community_features
+block_id: 'inline_block:community_features'
+category: structured
+label: 'Community Features'
+image_path: ''
+image_alt: ''
+weight: -100

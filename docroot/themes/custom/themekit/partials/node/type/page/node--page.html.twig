@@ -1,0 +1,19 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+
+{% block node %}
+  {% set rendered_content = content|without('') %}
+
+  {{ title_prefix }}
+  {% if not page %}
+    <h2{{ title_attributes }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h2>
+  {% else %}
+    <h1{{ title_attributes.addClass('node__title') }}>{{ node.label }}</h1>
+  {% endif %}
+  {{ title_suffix }}
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    {{ rendered_content }}
+  </div>
+{% endblock %}

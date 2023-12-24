@@ -1,0 +1,10 @@
+.node--type-component-page.node--view-mode-full {
+
+  // Hide blocks before animation is initialised
+  .layout__region > .block {
+    visibility: hidden;
+    &.animation-in {
+      visibility: visible;
+    }
+  }
+}

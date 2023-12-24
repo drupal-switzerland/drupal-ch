@@ -1,0 +1,7 @@
+uuid: 3aba333b-719b-4001-a80e-d762df2cdb5a
+langcode: en
+status: true
+dependencies: {  }
+id: banners
+label: Banners
+weight: -10

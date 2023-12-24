@@ -1,0 +1,27 @@
+////
+/// Layouts - Two Col
+////
+
+.layout {
+  &.twocol-layout {
+    > .layout-content {
+      @include breakpoint(large) {
+        @include flex-grid-row();
+      }
+
+      > .layout__region {
+        &--first {
+          @include breakpoint(large) {
+            @include flex-grid-column(6);
+          }
+        }
+
+        &--second {
+          @include breakpoint(large) {
+            @include flex-grid-column(6);
+          }
+        }
+      }
+    }
+  }
+}

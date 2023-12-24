@@ -1,0 +1,133 @@
+////
+/// Text with Media block
+////
+
+.block--text-with-media {
+  @include flex-grid-row(nest);
+  @include breakpoint(small down) {
+    justify-content: center;
+  }
+  @include breakpoint(medium) {
+    align-items: center;
+  }
+
+  .mobile-heading {
+    @include flex-grid-column(12);
+    @include breakpoint(medium) {
+      display: none;
+    }
+  }
+
+  .content {
+    @include flex-grid-column(12);
+    @include breakpoint(medium) {
+      @include flex-grid-column(6);
+    }
+    @include breakpoint(large) {
+      @include flex-grid-column(5);
+    }
+    .field--name-field-heading {
+      @include breakpoint(small down) {
+        display: none;
+      }
+    }
+  }
+
+  &.media-position--left {
+    .content {
+      @include breakpoint(large) {
+        @include grid-column-offset(1);
+      }
+    }
+
+    .media {
+      @include brand-shape-frame(text-with-media-frame, $shape-z: z(default)) {
+        top: 0;
+        left: -4px;
+        right: 14px;
+        bottom: 0;
+        @include breakpoint(medium) {
+          left: 10px;
+          right: 16px;
+        }
+      }
+      img {
+        @include brand-shape(text-with-media, false);
+      }
+    }
+  }
+
+  &.media-position--right {
+    .content {
+      @include breakpoint(medium) {
+        order: -1;
+      }
+    }
+
+    .media {
+      @include breakpoint(large) {
+        @include grid-column-offset(1);
+      }
+      @include brand-shape-frame(text-with-media-inverse-frame, $shape-z: z(default)) {
+        top: 0;
+        left: 14px;
+        right: -4px;
+        bottom: 0;
+        @include breakpoint(medium) {
+          left: 16px;
+          right: 10px;
+        }
+      }
+
+      img {
+        @include brand-shape(text-with-media-inverse, false);
+      }
+    }
+  }
+
+  .field--name-field-heading {
+    margin-bottom: 16px;
+    @include breakpoint(large) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .field--name-field-p-link {
+    @include cta-list;
+    margin-top: 24px;
+  }
+
+  .media {
+    padding-top: 14px;
+    padding-bottom: 12px;
+    @include breakpoint(small down) {
+      @include left-right(margin, -48px);
+      margin-bottom: 16px;
+    }
+    @include breakpoint(medium) {
+      @include flex-grid-column(6);
+      padding-top: 36px;
+      padding-bottom: 12px;
+    }
+    @include breakpoint(small down) {
+      text-align: center;
+    }
+    @include breakpoint(medium) {
+      height: 100%;
+    }
+
+    img {
+      position: relative;
+      z-index: z(under);
+      width: 100%;
+      object-fit: cover;
+      @include breakpoint(small down) {
+        min-height: 320px;
+        max-width: 436px;
+      }
+      @include breakpoint(medium) {
+        height: 470px;
+      }
+    }
+  }
+}

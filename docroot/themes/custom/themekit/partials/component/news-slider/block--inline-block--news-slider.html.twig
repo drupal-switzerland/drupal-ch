@@ -1,0 +1,12 @@
+{% extends "@partials/component/block.html.twig" %}
+
+{% set rendered_content = content|without('field_link') %}
+{% set block = content['#block_content'] %}
+
+{% block content %}
+  {{ rendered_content }}
+  <div class="block-view">
+    {{ drupal_view('news', 'slider') }}
+  </div>
+  {{ content.field_link }}
+{% endblock %}

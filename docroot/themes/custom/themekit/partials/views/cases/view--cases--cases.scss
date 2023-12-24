@@ -1,0 +1,26 @@
+.view-cases-cases {
+  > .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    > .views-row {
+      width: 100%;
+      margin-bottom: 4px;
+      @include breakpoint(medium) {
+        width: calc(50% - 8px);
+      }
+      @include breakpoint(large) {
+        width: calc(33.3333% - 11px);
+      }
+
+      .field--name-body {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+}

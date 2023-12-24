@@ -1,0 +1,61 @@
+####
+### Libraries
+### - 01 - Fonts
+### - 02 - Base
+### - 03 - Polyfills
+####
+
+
+#* ------------------------------------ *#
+# 01 - Fonts
+#* ------------------------------------ *#
+
+# Google fonts
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap': { type: external }
+
+# typekit
+#typekit:
+# version: 1.x
+# header: true
+# js:
+# //use.typekit.net/ydi4zcl.js: { every_page: true }
+# js/vendor/typekit.js: { every_page: true }
+
+
+
+
+
+#* ------------------------------------ *#
+# 02 - Base
+#* ------------------------------------ *#
+
+base:
+  version: VERSION
+  js:
+    global/js/vendor/nodeListForEachPolyfill.js: {}
+    # dist/commons.js: {}
+    dist/js/global.js: {}
+  css:
+    theme:
+      # dist/commons.css: {}
+      dist/css/global.css: {}
+  dependencies:
+    # - core/jquery
+    - core/drupal
+    - core/modernizr
+    - themekit/babel-polyfill
+
+
+
+
+
+#* ------------------------------------ *#
+# 03 - Polyfills
+#* ------------------------------------ *#
+
+babel-polyfill:
+  js:
+    dist/js/polyfill.js: {}

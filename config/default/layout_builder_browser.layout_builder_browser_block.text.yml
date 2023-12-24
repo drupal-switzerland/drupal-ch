@@ -1,0 +1,11 @@
+uuid: 44392bfe-608d-4148-b6fa-8637e959e6ca
+langcode: en
+status: true
+dependencies: {  }
+id: text
+block_id: 'inline_block:text'
+category: flexible
+label: Text
+image_path: ''
+image_alt: ''
+weight: -100

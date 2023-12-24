@@ -1,0 +1,10 @@
+uuid: db0c8a3a-201e-413b-bb13-4315051934fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.ckeditor
+label: CKEditor
+targetEntityType: media
+cache: true

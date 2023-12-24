@@ -1,0 +1,308 @@
+common--glide:
+  dependencies:
+    - themekit/themekit
+  js:
+    dist/js/glide.js: {}
+  css:
+    theme:
+      dist/css/glide.css: {}
+component--basic-banner:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--basic-banner.css: {}
+component:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block.css: {}
+component--cases-slider:
+  dependencies:
+    - themekit/common--glide
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--cases-slider.css: {}
+component--categories:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/categories.css: {}
+component--category-feature:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/category-feature.css: {}
+component--community-features:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--community-features.css: {}
+component--detail-item:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/detail-item.css: {}
+component--feature:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/paragraph-feature.css: {}
+component--home-banner:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--home-banner.css: {}
+component--image-slider:
+  dependencies:
+    - themekit/common--glide
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/image-slider.css: {}
+component--link-default:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/paragraph-link-default.css: {}
+component--links:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--links.css: {}
+component--navigation--community:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/menu--community.css: {}
+component--navigation--footer:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/menu--footer.css: {}
+component--navigation--main:
+  dependencies:
+    - themekit/themekit
+  js:
+    dist/js/menu--main.js: {}
+  css:
+    theme:
+      dist/css/menu--main.css: {}
+component--navigation:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/menu.css: {}
+component--navigation--social:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/menu--social.css: {}
+component--news-slider:
+  dependencies:
+    - themekit/common--glide
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--news-slider.css: {}
+component--partners:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/partners.css: {}
+component--simple-banner:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--simple-banner.css: {}
+component--text-with-media:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--text-with-media.css: {}
+component--text:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/block--text.css: {}
+layout--banner:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/banner-layout.css: {}
+layout:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/layout.css: {}
+layout--twocol:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/twocol-layout.css: {}
+media--type--remote-video:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/media--remote-video.css: {}
+node--type--case--simple-teaser:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/node--case--simple-teaser.css: {}
+node--type--component-page--full:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/node--component-page--full.css: {}
+node--type--event--featured-teaser:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/featured-teaser.css: {}
+node--type--event--teaser:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/teaser.css: {}
+node--type--page--full:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/node--page--full.css: {}
+node--type--partner--teaser:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/node--partner--teaser.css: {}
+node--view-mode--full:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/node--full.css: {}
+node--view-mode--small-teaser:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/node--small-teaser.css: {}
+node--view-mode--teaser:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/node--teaser.css: {}
+page:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/page.css: {}
+region--footer-bottom:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/footer-bottom.css: {}
+region--footer-top:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/footer-top.css: {}
+region--header:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/header.css: {}
+taxonomy--category--featured-teaser:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/taxonomy--category--featured-teaser.css: {}
+taxonomy--category--full:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/taxonomy--category--full.css: {}
+taxonomy--category--teaser:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/taxonomy--category--teaser.css: {}
+user:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/user.css: {}
+views--cases:
+  dependencies:
+    - themekit/common--glide
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/view--cases--cases.css: {}
+      dist/css/view--cases--listing.css: {}
+  js:
+    dist/js/view--cases-listing.js: {}
+views--categories:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/view--categories.css: {}
+views--events:
+  dependencies:
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/view--events--events.css: {}
+views--news:
+  dependencies:
+    - themekit/common--glide
+    - themekit/themekit
+  css:
+    theme:
+      dist/css/view--news--listing.css: {}
+views--partners:
+  dependencies:
+    - themekit/themekit
+  js:
+    dist/js/view--partners.js: {}
+  css:
+    theme:
+      dist/css/view--partners.css: {}

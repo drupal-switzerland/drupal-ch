@@ -1,0 +1,13 @@
+uuid: 03f5c824-347d-4be9-a558-7ffdcb90ae81
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.svg_type
+_core:
+  default_config_hash: MDFMOD10wm4FdjrjFy_7z1O-98WME24an8xkk3LxSuw
+id: taxonomy_term.svg_type
+target_entity_type_id: taxonomy_term
+target_bundle: svg_type
+default_langcode: site_default
+language_alterable: false

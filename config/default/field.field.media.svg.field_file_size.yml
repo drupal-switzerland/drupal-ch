@@ -1,0 +1,25 @@
+uuid: 18f3b33e-f517-4b6e-8ec1-9064a73b909e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_file_size
+    - media.type.svg
+_core:
+  default_config_hash: hlfjK5mIaAHjt8xmKrQrmRGtmVBYvuhr-aFdJ22bwVY
+id: media.svg.field_file_size
+field_name: field_file_size
+entity_type: media
+bundle: svg
+label: 'File Size'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

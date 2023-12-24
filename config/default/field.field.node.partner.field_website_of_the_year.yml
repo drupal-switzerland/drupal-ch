@@ -1,0 +1,25 @@
+uuid: 54c67e20-efb0-41e3-913d-37f9a450405e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website_of_the_year
+    - node.type.partner
+id: node.partner.field_website_of_the_year
+field_name: field_website_of_the_year
+entity_type: node
+bundle: partner
+label: 'Website of the year'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: x
+field_type: integer

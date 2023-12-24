@@ -1,0 +1,21 @@
+////
+/// Feature paragraph
+////
+
+.paragraph--type--feature {
+  .field--name-field-media {
+    &:not(:last-child) {
+      margin-bottom: 6px;
+    }
+
+    svg {
+      width: auto;
+      max-width: 200px;
+      height: 32px;
+    }
+  }
+
+  .field--name-field-description {
+    @include font-sizes(text-card);
+  }
+}

@@ -1,5 +1,0 @@
-fragment MediaVideo on MediaVideo {
-  type: __typename
-  name
-  video: entityRendered
-}

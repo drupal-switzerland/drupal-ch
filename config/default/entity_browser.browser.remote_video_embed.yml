@@ -1,0 +1,44 @@
+uuid: 07d3cd26-aa4c-47d0-8bbb-55d40ae5aa93
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.entity_browser_remote_video
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: Rj9RSCMcDYQAgVTiv3URJ4RnnUbtIF2zoNjIZo4NB6o
+name: remote_video_embed
+label: 'Remote Video - Embed'
+display: iframe
+display_configuration:
+  width: '800'
+  height: '600'
+  link_text: 'Select Video'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  ec781548-f4f2-4ac6-9744-3317546c0cb7:
+    id: view
+    uuid: ec781548-f4f2-4ac6-9744-3317546c0cb7
+    label: 'View Remote Videos'
+    weight: 1
+    settings:
+      submit_text: 'Select Video'
+      auto_select: false
+      view: entity_browser_remote_video
+      view_display: entity_browser_1
+  4ba72b7c-0ef9-453b-9e20-47478e1ac022:
+    id: entity_form
+    uuid: 4ba72b7c-0ef9-453b-9e20-47478e1ac022
+    label: 'Add Remote Video'
+    weight: 2
+    settings:
+      submit_text: 'Save Video'
+      entity_type: media
+      bundle: remote_video
+      form_mode: media_browser

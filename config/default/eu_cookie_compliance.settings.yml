@@ -1,0 +1,81 @@
+_core:
+  default_config_hash: EspchZru2hYTTeNNAnTw2uWwT-mjJ46KrM5XEVHJzS0
+langcode: nl
+uuid: 44b900d0-ea5a-47ec-8e55-2e3776ee1fe5
+popup_enabled: true
+popup_clicking_confirmation: false
+popup_scrolling_confirmation: false
+eu_only: null
+eu_only_js: null
+popup_position: false
+fixed_top_position: true
+popup_info:
+  value: "<h2>Deze website gebruikt cookies</h2>\r\n\r\n<p>Sommige van deze cookies zijn nodig om de website goed te laten werken. Andere cookies helpen ons de website te verbeteren door inzicht te geven in hoe de website wordt gebruikt.</p>\r\n"
+  format: full_html
+mobile_popup_info:
+  value: ''
+  format: basic_html
+popup_info_template: new
+popup_agree_button_message: Accepteren
+popup_more_info_button_message: 'Meer informatie'
+mobile_breakpoint: 768
+popup_agreed_enabled: false
+popup_hide_agreed: false
+disagree_button_label: 'Geen cookies voor mij'
+popup_agreed:
+  value: '<h2>Hartelijk dank voor het accepteren van cookies</h2><p>U kunt nu dit bericht verbergen of meer lezen over cookies.</p>'
+  format: full_html
+popup_find_more_button_message: 'Meer informatie'
+popup_hide_button_message: Verbergen
+popup_link: /privacy-statement
+popup_link_new_window: true
+popup_height: null
+popup_width: ''
+popup_delay: 500
+show_more_info: true
+popup_bg_hex: ''
+popup_text_hex: ''
+domain: ''
+domains_option: 1
+domains_list: ''
+exclude_paths: "/admin\r\n/admin/*\r\n/batch\r\n/node/add*\r\n/node/*/*\r\n/user/*/*"
+exclude_admin_theme: true
+cookie_session: 0
+set_cookie_session_zero_on_disagree: 0
+cookie_lifetime: 100
+use_mobile_message: false
+use_bare_css: true
+disagree_do_not_show_popup: false
+reload_page: false
+reload_options: 0
+reload_routes_list: ''
+cookie_name: ''
+exclude_uid_1: true
+better_support_for_screen_readers: false
+method: opt_in
+disabled_javascripts: ''
+automatic_cookies_removal: true
+allowed_cookies: ''
+consent_storage_method: do_not_store
+withdraw_message:
+  value: "<h2>Deze website gebruikt cookies</h2>\r\n\r\n<p>Je hebt toestemming gegeven, thanks!</p>\r\n"
+  format: full_html
+withdraw_tab_button_label: Privacy-instellingen
+withdraw_action_button_label: 'Toestemming intrekken'
+withdraw_enabled: false
+withdraw_button_on_info_popup: false
+save_preferences_button_label: 'Save preferences'
+accept_all_categories_button_label: 'Alle cookies aanvaarden'
+enable_save_preferences_button: true
+domain_all_sites: false
+settings_tab_enabled: false
+containing_element: body
+cookie_policy_version: 1.0.0
+cookie_value_disagreed: '0'
+cookie_value_agreed_show_thank_you: '1'
+cookie_value_agreed: '2'
+accessibility_focus: false
+close_button_action: close_banner
+reject_button_label: ''
+reject_button_enabled: false
+close_button_enabled: false

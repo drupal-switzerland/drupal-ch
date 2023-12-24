@@ -1,0 +1,43 @@
+uuid: e0127f68-452d-4cd0-af49-d00fdbdde389
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.links
+    - field.field.block_content.links.field_heading
+    - field.field.block_content.links.field_links
+  module:
+    - link_attributes
+id: block_content.links.default
+targetEntityType: block_content
+bundle: links
+mode: default
+content:
+  field_heading:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_links:
+    type: link_attributes
+    weight: 26
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+      enabled_attributes:
+        target: true
+        id: false
+        name: false
+        rel: false
+        class: false
+        accesskey: false
+        aria-label: false
+        title: false
+    third_party_settings: {  }
+hidden:
+  info: true
+  langcode: true

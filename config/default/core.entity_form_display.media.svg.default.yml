@@ -1,0 +1,93 @@
+uuid: 61bc1986-8082-491d-aa6b-1d5cfe47e598
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.svg.field_file_mime_type
+    - field.field.media.svg.field_file_size
+    - field.field.media.svg.field_media_svg
+    - field.field.media.svg.field_svg_type
+    - field.field.media.svg.field_tags
+    - media.type.svg
+  module:
+    - path
+    - svg_image_field
+_core:
+  default_config_hash: im2xQT5gIW0k6ciBTW5D6F8jJxAt0ZF5mTV61ApPJtw
+id: media.svg.default
+targetEntityType: media
+bundle: svg
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_media_svg:
+    type: svg_image_field_widget
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_max_width: 100
+      preview_image_max_height: 100
+    third_party_settings: {  }
+  field_svg_type:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_autocomplete_tags
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 5
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 8
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_file_mime_type: true
+  field_file_size: true

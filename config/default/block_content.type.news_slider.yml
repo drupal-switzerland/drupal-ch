@@ -1,0 +1,8 @@
+uuid: c2298ad2-beb1-47db-b8be-b033d51177e5
+langcode: en
+status: true
+dependencies: {  }
+id: news_slider
+label: 'News Slider'
+revision: 0
+description: ''

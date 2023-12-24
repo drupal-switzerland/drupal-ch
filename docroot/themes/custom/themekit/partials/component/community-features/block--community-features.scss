@@ -1,0 +1,30 @@
+////
+/// Сommunity Features block
+////
+
+.block--community-features {
+  > .paragraph:not(:last-child) {
+    margin-bottom: 24px;
+    @include breakpoint(medium) {
+      margin-top: 32px;
+    }
+  }
+
+  .twocol-layout .layout__region--first & {
+    @include breakpoint(medium) {
+      padding-right: rem-calc(64);
+    }
+    @include breakpoint(large) {
+      padding-right: rem-calc(112);
+    }
+  }
+
+  .twocol-layout .layout__region--second & {
+    @include breakpoint(medium) {
+      padding-left: rem-calc(64);
+    }
+    @include breakpoint(large) {
+      padding-left: rem-calc(112);
+    }
+  }
+}

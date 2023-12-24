@@ -1,0 +1,26 @@
+uuid: f91519fa-9e08-4d27-b4b0-0d1a49ebace6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_description
+    - taxonomy.vocabulary.category
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - plain_text
+id: taxonomy_term.category.field_description
+field_name: field_description
+entity_type: taxonomy_term
+bundle: category
+label: 'Description Teaser'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

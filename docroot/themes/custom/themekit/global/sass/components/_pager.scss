@@ -1,0 +1,110 @@
+////
+/// Global Pager
+////
+
+.pager {
+  margin-top: 6px;
+  margin-bottom: 32px;
+  @include breakpoint(medium) {
+    margin-top: 32px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    @include left-right(margin, 8px);
+    @include breakpoint(medium) {
+      @include left-right(margin, 13px);
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 48px;
+      padding: 0 16px;
+      line-height: 48px;
+      color: $color-black;
+      @include breakpoint(medium) {
+        min-width: 56px;
+        line-height: 56px;
+      }
+    }
+
+    &.pager__item--previous,
+    &.pager__item--next {
+      a {
+        background-color: $color-primary-600;
+        color: $color-white;
+        @include global-transition;
+
+        &:hover,
+        &:focus {
+          box-shadow: 0 4px 20px rgba($color-black, 0.25);
+          background-color: $color-primary-700;
+          color: $color-white;
+        }
+
+        &:active {
+          background-color: $color-primary-400;
+          color: $color-gray-900;
+        }
+      }
+
+      &:disabled {
+        opacity: 0.6;
+      }
+    }
+
+    &.pager__item--previous {
+      margin-left: 0;
+
+      a {
+        height: 48px;
+        @include breakpoint(medium) {
+          height: 56px;
+        }
+        @include replace-text-with-icon(angle-left, rem-calc(24)) {
+          line-height: inherit;
+        }
+      }
+    }
+
+    &.pager__item--next {
+      margin-right: 0;
+
+      a {
+        height: 48px;
+        @include breakpoint(medium) {
+          height: 56px;
+        }
+        @include replace-text-with-icon(angle-right, rem-calc(24)) {
+          line-height: inherit;
+        }
+      }
+    }
+
+    &.pager__item--link {
+      display: none;
+    }
+
+    &.pager__item--current {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: stretch;
+      min-width: 48px;
+      padding: 0 16px;
+      background-color: $color-gray-100;
+      @include breakpoint(medium) {
+        min-width: 56px;
+      }
+    }
+  }
+}

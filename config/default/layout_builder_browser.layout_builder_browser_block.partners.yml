@@ -1,0 +1,11 @@
+uuid: a6a060e9-0c3b-4107-a41a-37e7d492ecce
+langcode: en
+status: true
+dependencies: {  }
+id: partners
+block_id: 'inline_block:partners'
+category: structured
+label: Partners
+image_path: ''
+image_alt: ''
+weight: -3

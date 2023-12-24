@@ -1,8 +1,0 @@
-fragment ParagraphSlider on ParagraphSlider {
-  componentId: fieldParagraphId
-  sliderSlides: fieldContent {
-    entity {
-      ...ParagraphSlide
-    }
-  }
-}

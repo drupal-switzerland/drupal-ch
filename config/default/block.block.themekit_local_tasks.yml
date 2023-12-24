@@ -1,0 +1,29 @@
+uuid: 02013a93-baba-4bf7-bbca-a9b15a167c92
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themekit
+_core:
+  default_config_hash: EGUMgZSy6DYjyIVtCZj_RIA8af4gnZMtrrGdIRpTXTE
+id: themekit_local_tasks
+theme: themekit
+region: highlighted
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabbladen
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/user/login\r\n/user/register\r\n/user/reset\r\n/user/password"

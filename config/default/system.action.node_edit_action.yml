@@ -1,0 +1,14 @@
+uuid: 5f38552c-7e7d-4966-92d5-4a9b21308e10
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+    - views_bulk_edit
+_core:
+  default_config_hash: 4F4NTtdzOt2Ccgb-B3QG6rZvr6lXhOcTMh3KdkbcjoY
+id: node_edit_action
+label: 'Inhoud bewerken'
+type: node
+plugin: 'entity:edit_action:node'
+configuration: {  }

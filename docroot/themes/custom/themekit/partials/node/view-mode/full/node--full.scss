@@ -1,0 +1,47 @@
+// Full view mode
+
+.node--type-page,
+.node--type-case,
+.node--type-event,
+.node--type-news,
+.node--type-partner {
+  &.node--view-mode-full {
+    @include node--full;
+  }
+}
+
+.node--type-partner {
+  &.node--view-mode-full {
+    > .node__content {
+      > .field-content {
+        @include breakpoint(large up) {
+          padding-right: 32px;
+          max-width: calc(100% - 417px);
+        }
+
+        .field-content-items {
+          @include breakpoint(large up) {
+            max-width: 100%;
+            width: $global-width-middle;
+          }
+        }
+      }
+      > .field-info {
+        max-width: 100%;
+        @include breakpoint(large) {
+          width: 417px;
+        }
+      }
+    }
+  }
+}
+
+.page-node-type-page,
+.page-node-type-case,
+.page-node-type-event,
+.page-node-type-news,
+.page-node-type-partner {
+  .region-content {
+    overflow-x: hidden;
+  }
+}

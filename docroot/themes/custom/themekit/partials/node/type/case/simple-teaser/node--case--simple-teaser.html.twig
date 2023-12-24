@@ -1,0 +1,8 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+{% block node %}
+  {% set rendered_content = content|without('')%}
+  <a href="{{ url }}">
+    {{ rendered_content }}
+  </a>
+
+{% endblock %}

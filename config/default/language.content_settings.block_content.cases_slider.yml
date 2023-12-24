@@ -1,0 +1,11 @@
+uuid: 88fb04d8-de2e-45bf-99fc-577feb3ca272
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cases_slider
+id: block_content.cases_slider
+target_entity_type_id: block_content
+target_bundle: cases_slider
+default_langcode: site_default
+language_alterable: false

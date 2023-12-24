@@ -1,0 +1,6 @@
+.node--type-case,
+.node--type-news {
+  &.node--view-mode-teaser {
+    @include node--teaser;
+  }
+}

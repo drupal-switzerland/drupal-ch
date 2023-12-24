@@ -1,0 +1,39 @@
+themekit.x_small:
+  label: 'X Small'
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+
+themekit.small:
+  label: Small
+  mediaQuery: 'all and (min-width: 640px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+
+themekit.medium:
+  label: Medium
+  mediaQuery: 'all and (min-width: 786px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+
+themekit.large:
+  label: Large
+  mediaQuery: 'all and (min-width: 1024px)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 2x
+
+themekit.x_large:
+  label: 'X Large'
+  mediaQuery: 'all and (min-width: 1366px)'
+  weight: 4
+  multipliers:
+    - 1x
+    - 2x

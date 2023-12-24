@@ -1,0 +1,88 @@
+////
+/// Typography
+/// @group frameworkComponents
+////
+
+/// Font VW Max - Converts a max size at a breakpoint to a VW that scales up to that max size
+/// @param {Number} $size - The target max size in px
+/// @param {String} $breakpoint [large] - The key of the bp at which max size is reached, or a specific value (ie - 1000px)
+/// @param {Map} $breakpoint-map [$breakpoints] - A breakpoint map
+/// @example
+///   @include font-vw-max(20px, large)
+@mixin font-vw-max($size, $breakpoint: large, $breakpoint-map: $breakpoints) {
+  @include vw-with-max(
+    $size,
+    $breakpoint: large,
+    $breakpoint-map: $breakpoints,
+    $property: font-size
+  );
+}
+
+/// Blockquote styles
+@mixin blockquote() {
+  position: relative;
+  max-width: 424px;
+  margin: 0 0 32px 16px;
+  padding-left: 32px;
+  font-size: rem-calc(20);
+  font-weight: $global-weight-bold;
+  line-height: 1.2;
+  @include breakpoint(medium) {
+    margin-left: 24px;
+    font-size: rem-calc(22);
+    line-height: 1.1819;
+  }
+
+  @include icon-after(quote) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: rem-calc(24);
+  }
+
+  p {
+    line-height: inherit;
+  }
+
+  cite {
+    margin-top: 8px;
+    font-weight: $global-weight-normal;
+  }
+
+  @content;
+}
+
+@mixin hr($styles: $hr-styles) {
+  margin-left: 0;
+  @include top-bottom(margin, rem-calc(24));
+  @include breakpoint(medium) {
+    @include top-bottom(margin, rem-calc(32));
+  }
+  height: rem-calc(4);
+  max-width: rem-calc(80);
+  border: none;
+
+  // Hr styles
+  @each $hr-name, $hr-value in $styles {
+    &.#{$hr-name} {
+      background: $hr-value;
+    }
+  }
+}
+
+@mixin heading($heading: h1, $weight: $global-weight-bold) {
+  font-family: $header-font-family;
+  @each $size, $headers in $header-styles {
+    @include breakpoint($size) {
+      @if map-has-key(key($headers, $heading), font-size) {
+        font-size: rem-calc(key(key($headers, $heading), font-size));
+      }
+      @if map-has-key(key($headers, $heading), font-weight) {
+        font-weight: key(key($headers, $heading), font-weight);
+      }
+      @if map-has-key(key($headers, $heading), line-height) {
+        line-height: key(key($headers, $heading), line-height);
+      }
+    }
+  }
+}

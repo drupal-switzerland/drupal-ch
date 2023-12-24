@@ -1,0 +1,13 @@
+{% extends "@partials/component/paragraph.html.twig" %}
+
+{% set rendered_content = content|without(
+  'field_media'
+)
+%}
+
+{% block content %}
+  {{ content.field_media }}
+  <div class="field-content">
+    {{ rendered_content }}
+  </div>
+{% endblock %}

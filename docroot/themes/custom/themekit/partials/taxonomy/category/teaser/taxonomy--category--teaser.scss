@@ -1,0 +1,64 @@
+.taxonomy-term--type-category {
+  &.taxonomy-term--view-mode-teaser {
+    display: flex;
+    align-items: center;
+    > .field--name-field-media {
+      width: 32px;
+      margin-right: 16px;
+      flex-shrink: 0;
+      @include breakpoint(medium) {
+        width: 48px;
+        margin-right: 24px;
+      }
+      svg {
+        width: 32px;
+        height: 32px;
+        @include breakpoint(medium) {
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+    > .term-content {
+      flex-grow: 1;
+      padding-left: 20px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      position: relative;
+      min-height: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @include breakpoint(medium) {
+        padding-left: 28px;
+        min-height: 96px;
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 4px;
+        height: 100%;
+        background: $color-gray-100;
+      }
+      h4 {
+        margin-bottom: 6px;
+        a {
+          @include link(more-big);
+          color: $color-gray-900;
+          &:after {
+            color: $color-primary-600;
+          }
+        }
+      }
+      .field--name-field-description {
+        font-size: rem-calc(14);
+        line-height: 1.5;
+        @include breakpoint(medium) {
+          font-size: rem-calc(16);
+        }
+      }
+    }
+  }
+}

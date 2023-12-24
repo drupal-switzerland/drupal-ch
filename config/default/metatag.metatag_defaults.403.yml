@@ -1,0 +1,11 @@
+uuid: 17cc2a13-6c9b-4605-8142-eb5d1726205d
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Da5YWhJdKLxaJ9gDRI1u5oCbm5WBxiiDgA4M1QrOEPQ
+id: '403'
+label: '403 geen toegang'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'

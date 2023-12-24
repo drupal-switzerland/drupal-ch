@@ -1,4 +1,0 @@
-fragment Footer on Query {
-  type: __typename
-  ...FooterMenu
-}

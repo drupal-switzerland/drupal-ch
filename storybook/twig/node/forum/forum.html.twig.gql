@@ -1,6 +1,0 @@
-fragment Forum on NodeForum {
-  title: entityLabel
-  body {
-    processed
-  }
-}

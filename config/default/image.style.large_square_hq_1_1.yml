@@ -1,0 +1,20 @@
+uuid: 656c3a44-e79f-4f40-8138-37e1f397de48
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: LKGCVxLh_7h2VtuP-d0LUT3ma843qsRFwyZOgH3Ve3c
+name: large_square_hq_1_1
+label: 'Large Square HQ 1:1 (640 x 640)'
+effects:
+  710bf983-45e5-447c-805e-021d44133246:
+    uuid: 710bf983-45e5-447c-805e-021d44133246
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 640
+      crop_type: focal_point
+pipeline: high_quality

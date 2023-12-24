@@ -1,0 +1,26 @@
+uuid: 4aeaa901-3f0b-4eaf-be12-ad03a8c0656a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.site_setting_entity.field_text
+    - site_settings.site_setting_entity_type.footer_copyright
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - basic_html
+id: site_setting_entity.footer_copyright.field_text
+field_name: field_text
+entity_type: site_setting_entity
+bundle: footer_copyright
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

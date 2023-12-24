@@ -1,0 +1,31 @@
+////
+/// Links block
+////
+
+.block--links {
+  .field--name-field-heading {
+    @include font-sizes(kicker-large);
+    margin-bottom: rem-calc(20);
+    @include breakpoint(medium) {
+      margin-bottom: rem-calc(28);
+    }
+  }
+
+  .field--name-field-links {
+    @include breakpoint(medium) {
+      columns: 2;
+      column-gap: map-get($grid-column-gutter, medium);
+    }
+    @include breakpoint(large) {
+      columns: 4;
+    }
+
+    > .field__item {
+      margin-bottom: 4px;
+
+      a {
+        @include link(external);
+      }
+    }
+  }
+}
