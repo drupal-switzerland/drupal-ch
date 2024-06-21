@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.featured_teaser
+label: 'Featured Teaser'
+description: ''
+targetEntityType: taxonomy_term
+cache: true

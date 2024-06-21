@@ -1,10 +1,4 @@
-langcode: en
 status: false
-dependencies:
-  module:
-    - system
-  theme:
-    - themekit
 id: themekit_powered
 theme: themekit
 region: header

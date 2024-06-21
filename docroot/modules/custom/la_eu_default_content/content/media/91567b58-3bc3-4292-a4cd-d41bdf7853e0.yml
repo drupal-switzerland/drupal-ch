@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 91567b58-3bc3-4292-a4cd-d41bdf7853e0
+  bundle: image
+  default_langcode: en
+  depends:
+    53efba88-4737-49dc-9f13-37d1be1d5c90: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: POI05805.JPG
+  created:
+    -
+      value: 1701182408
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 53efba88-4737-49dc-9f13-37d1be1d5c90
+      alt: 'A group of DrupalJam participants'
+      title: ''
+      width: 1000
+      height: 667

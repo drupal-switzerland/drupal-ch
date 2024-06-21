@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 28a4cf4a-185f-49c7-9d8b-3df59fca9ff8
+  bundle: svg
+  default_langcode: en
+  depends:
+    30f8cb38-b595-4bbc-bea9-c0239eddce3d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Slack Logo.svg'
+  created:
+    -
+      value: 1701190927
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_file_mime_type:
+    -
+      value: image/svg+xml
+  field_file_size:
+    -
+      value: 3739
+  field_media_svg:
+    -
+      entity: 30f8cb38-b595-4bbc-bea9-c0239eddce3d
+      alt: ''
+      title: ''

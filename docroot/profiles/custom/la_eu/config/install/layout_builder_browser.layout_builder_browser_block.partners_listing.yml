@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: partners_listing
+block_id: 'views_block:partners-listing'
+category: overview
+label: 'Partners Listing'
+weight: -4
+image_path: ''
+image_alt: ''

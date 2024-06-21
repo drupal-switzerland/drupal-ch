@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.social_media.field_p_link
+    - paragraphs.paragraphs_type.social_media
+  module:
+    - entity_reference_revisions
+id: paragraph.social_media.default
+targetEntityType: paragraph
+bundle: social_media
+mode: default
+content:
+  field_p_link:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

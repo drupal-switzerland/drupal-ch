@@ -1,0 +1,164 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 36d2f31e-7b87-4da4-bd23-fbf767ed254e
+  bundle: component_page
+  default_langcode: en
+  depends:
+    a4f118cb-12ed-4f81-a70c-2ab001a1b543: block_content
+    5fa78460-00c6-4ce8-8c18-2b376489b66a: block_content
+    be443161-5819-4b6f-a7bf-a4a4fc3a093e: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Our partner program'
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Our partner program | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/our-partner-program'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Our partner program'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Our partner program'
+  path:
+    -
+      alias: /our-partner-program
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 980bb351-8c7d-454e-8336-59d7fb303920
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '4'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: a4f118cb-12ed-4f81-a70c-2ab001a1b543
+            weight: 1
+            additional:
+              target_uuid: a4f118cb-12ed-4f81-a70c-2ab001a1b543
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'
+    -
+      section:
+        layout_id: dnl_layout_twocol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 5e140caf-87da-4eb2-a3b9-4528c1f57438
+            region: first
+            configuration:
+              id: 'inline_block:text'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '5'
+              block_serialized: null
+              context_mapping: {  }
+              type: text
+              uuid: 5fa78460-00c6-4ce8-8c18-2b376489b66a
+            weight: 0
+            additional:
+              target_uuid: 5fa78460-00c6-4ce8-8c18-2b376489b66a
+          -
+            uuid: 2c152a12-5709-430c-a710-0f5ceae2a007
+            region: second
+            configuration:
+              id: 'inline_block:text'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '1'
+              block_serialized: null
+              context_mapping: {  }
+              type: text
+              uuid: be443161-5819-4b6f-a7bf-a4a4fc3a093e
+            weight: 0
+            additional:
+              target_uuid: be443161-5819-4b6f-a7bf-a4a4fc3a093e
+        third_party_settings: {  }

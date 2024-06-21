@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.video.field_file_mime_type
+    - field.field.media.video.field_media_video_file
+    - field.field.media.video.field_tags
+    - field.field.media.video.field_video_type
+    - media.type.video
+id: media.video.media_library
+targetEntityType: media
+bundle: video
+mode: media_library
+content: {  }
+hidden:
+  created: true
+  field_file_mime_type: true
+  field_media_video_file: true
+  field_tags: true
+  field_video_type: true
+  langcode: true
+  name: true
+  path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
+  status: true
+  uid: true
+  unpublish_on: true
+  unpublish_state: true

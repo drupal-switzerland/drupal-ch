@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bd760fd7-c099-4d2e-9fad-0e75469902f1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: screen-post-lYQvb5qgDnY-unsplash_0.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/screen-post-lYQvb5qgDnY-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 133757
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701199831

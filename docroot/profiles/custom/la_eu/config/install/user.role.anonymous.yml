@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - eu_cookie_compliance
+    - filter
+    - media
+    - system
+id: anonymous
+label: Anonymous
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'display eu cookie compliance popup'
+  - 'use text format restricted_html'
+  - 'view media'

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_heading
+    - taxonomy.vocabulary.category
+id: taxonomy_term.category.field_heading
+field_name: field_heading
+entity_type: taxonomy_term
+bundle: category
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 238eb1a9-0419-4dbe-aef9-5cfc37186065
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: diabetes-logo.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/diabetes-logo.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 6051
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183300

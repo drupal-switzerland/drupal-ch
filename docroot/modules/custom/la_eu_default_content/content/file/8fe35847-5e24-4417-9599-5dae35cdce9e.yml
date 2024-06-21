@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8fe35847-5e24-4417-9599-5dae35cdce9e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wordmark1_blue_rgb.png
+  uri:
+    -
+      value: 'public://image/2023-11/wordmark1_blue_rgb.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 42976
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701179527

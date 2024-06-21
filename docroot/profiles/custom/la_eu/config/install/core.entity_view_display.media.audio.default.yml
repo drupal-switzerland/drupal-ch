@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.audio.field_audio_type
+    - field.field.media.audio.field_file_mime_type
+    - field.field.media.audio.field_media_audio_file
+    - field.field.media.audio.field_tags
+    - media.type.audio
+  module:
+    - file
+id: media.audio.default
+targetEntityType: media
+bundle: audio
+mode: default
+content:
+  field_media_audio_file:
+    type: file_url_plain
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_audio_type: true
+  field_file_mime_type: true
+  field_tags: true
+  langcode: true
+  thumbnail: true
+  uid: true

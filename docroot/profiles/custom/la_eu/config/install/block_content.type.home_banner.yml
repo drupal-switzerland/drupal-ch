@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: home_banner
+label: 'Homepage Banner'
+revision: 0
+description: ''

@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 2x_small_hq
+label: '2X Small HQ (320W)'
+effects:
+  19a79894-c1e0-453b-90dd-b8e4ce03abb7:
+    uuid: 19a79894-c1e0-453b-90dd-b8e4ce03abb7
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: null
+      upscale: false
+pipeline: default

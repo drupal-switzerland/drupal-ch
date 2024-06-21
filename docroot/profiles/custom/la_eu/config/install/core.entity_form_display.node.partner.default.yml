@@ -1,0 +1,344 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.partner.body
+    - field.field.node.partner.field_address
+    - field.field.node.partner.field_category
+    - field.field.node.partner.field_email
+    - field.field.node.partner.field_image
+    - field.field.node.partner.field_intro
+    - field.field.node.partner.field_link
+    - field.field.node.partner.field_links
+    - field.field.node.partner.field_logo
+    - field.field.node.partner.field_metatags
+    - field.field.node.partner.field_phone
+    - field.field.node.partner.field_runner_up
+    - field.field.node.partner.field_website_of_the_year
+    - field.field.node.partner.field_winner
+    - node.type.partner
+    - workflows.workflow.editorial
+  module:
+    - address
+    - allowed_formats
+    - content_moderation
+    - field_group
+    - link
+    - media_library
+    - metatag
+    - path
+    - telephone
+    - text
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_image
+        - group_content
+        - group_sidebar
+        - group_category
+      label: Tabs
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: vertical
+        width_breakpoint: 640
+    group_image:
+      children:
+        - field_image
+        - field_intro
+      label: Banner
+      region: content
+      parent_name: group_tabs
+      weight: 21
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_content:
+      children:
+        - body
+      label: Content
+      region: content
+      parent_name: group_tabs
+      weight: 22
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_sidebar:
+      children:
+        - field_logo
+        - field_email
+        - field_phone
+        - field_address
+        - field_components
+        - group_social_links
+        - field_link
+        - group_splash_awards
+      label: Sidebar
+      region: content
+      parent_name: group_tabs
+      weight: 23
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_category:
+      children:
+        - field_category
+      label: Category
+      region: content
+      parent_name: group_tabs
+      weight: 28
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_splash_awards:
+      children:
+        - field_website_of_the_year
+        - field_winner
+        - field_runner_up
+      label: 'Splash Awards'
+      region: content
+      parent_name: group_sidebar
+      weight: 26
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_social_links:
+      children:
+        - field_links
+      label: 'Social Links'
+      region: content
+      parent_name: group_sidebar
+      weight: 23
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+id: node.partner.default
+targetEntityType: node
+bundle: partner
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 4
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings:
+      allowed_formats:
+        hide_help: '1'
+        hide_guidelines: '1'
+  created:
+    type: datetime_timestamp
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_address:
+    type: address_default
+    weight: 21
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_category:
+    type: options_select
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_email:
+    type: email_default
+    weight: 19
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_image:
+    type: media_library_widget
+    weight: 17
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_intro:
+    type: text_textarea
+    weight: 19
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      allowed_formats:
+        hide_help: '1'
+        hide_guidelines: '1'
+  field_link:
+    type: link_default
+    weight: 25
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_links:
+    type: link_default
+    weight: 24
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_logo:
+    type: media_library_widget
+    weight: 18
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 16
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
+    third_party_settings: {  }
+  field_phone:
+    type: telephone_default
+    weight: 20
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_runner_up:
+    type: number
+    weight: 28
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_website_of_the_year:
+    type: number
+    weight: 25
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_winner:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 14
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

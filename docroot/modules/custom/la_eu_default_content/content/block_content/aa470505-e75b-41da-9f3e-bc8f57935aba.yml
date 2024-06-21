@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: aa470505-e75b-41da-9f3e-bc8f57935aba
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    6032f231-37b2-4b1b-a4f3-5e880eaedb84: media
+    c689114d-a0bf-4270-9baf-fb61b5d60e00: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Digital experiences you connect with. The organizations you trust most. The software they depend on.</p>\r\n\r\n<h3>Create something great for everyone</h3>\r\n\r\n<p>Drupal is content management software. It is used to create many of the websites and applications you use every day. Drupal has a great standard set of features, such as easy content editing, reliable performance and excellent security. But what sets it apart is its flexibility; modularity is one of its core principles. Its tools help you build the versatile, structured content that dynamic digital experiences need.</p>\r\n\r\n<p>It is also an excellent choice for creating integrated digital strategy. You can extend it with one or many thousands of add-ons. Modules extend Drupal's functionality. Themes allow you to customize the presentation of your content. Distributions are packaged Drupal bundles that you can use as starter kits. Mix and match these components to enhance Drupal's core capabilities. Or integrate Drupal with external services and other applications in your infrastructure. No other content management software is as powerful and scalable.</p>\r\n\r\n<p>Drupal is open source software. Anyone can download it, use it, work on it and share it with others. It is based on principles of collaboration, globalism and innovation. It is distributed under the terms of the GNU General Public License (GPL). There are no license fees, ever. Drupal is, and always will, be free.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: 'About Drupal'
+  field_media:
+    -
+      entity: 6032f231-37b2-4b1b-a4f3-5e880eaedb84
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 5586cce0-9f16-4c39-b03b-b175857bf5b0
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701185941
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: c689114d-a0bf-4270-9baf-fb61b5d60e00
+              title: 'View features and benefits'
+              options: {  }

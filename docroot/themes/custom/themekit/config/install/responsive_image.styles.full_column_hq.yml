@@ -1,13 +1,4 @@
-langcode: en
 status: true
-dependencies:
-  config:
-    - image.style.large_hq
-    - image.style.medium_hq
-    - image.style.small_hq
-    - image.style.x_large_hq
-  theme:
-    - themekit
 id: full_column_hq
 label: 'Full Column HQ'
 image_style_mappings:

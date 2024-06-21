@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c7ad2507-df88-4ba2-94ae-e0b0af74a023
+  bundle: image
+  default_langcode: en
+  depends:
+    31b77ca4-fbf1-4933-aa79-ff8d229e5fb2: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Governments.jpg
+  created:
+    -
+      value: 1701183478
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 31b77ca4-fbf1-4933-aa79-ff8d229e5fb2
+      alt: 'House above sea'
+      title: ''
+      width: 585
+      height: 597

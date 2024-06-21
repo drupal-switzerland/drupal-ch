@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 18c69df7-7539-4f25-99eb-5baa0fab75ad
+  bundle: cases_slider
+  default_langcode: en
+  depends:
+    7f4650db-cdd1-4647-a646-da6adaf806f5: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_heading:
+    -
+      value: 'Drupal Cases'
+  field_link:
+    -
+      target_uuid: 7f4650db-cdd1-4647-a646-da6adaf806f5
+      title: 'All Cases'
+      options: {  }

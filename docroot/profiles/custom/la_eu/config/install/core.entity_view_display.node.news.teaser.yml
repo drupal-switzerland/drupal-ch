@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news.body
+    - field.field.node.news.field_image
+    - field.field.node.news.field_intro
+    - node.type.news
+    - responsive_image.styles.third_column_hq
+  module:
+    - media_responsive_thumbnail
+    - user
+id: node.news.teaser
+targetEntityType: node
+bundle: news
+mode: teaser
+content:
+  field_image:
+    type: media_responsive_thumbnail
+    label: hidden
+    settings:
+      responsive_image_style: third_column_hq
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  content_moderation_control: true
+  field_intro: true
+  langcode: true
+  links: true

@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 0bc7cd96-36f9-4bd7-90d5-1d31b79f5bd1
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    35c83e93-f453-4f02-81a0-6d57a1b26293: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal is mobile-first and offers ample support for responsive design templates. This way you can serve a broad target group, regardless of time, place or (mobile) device. This way you guarantee a seamless user experience for customers and users.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Mobile First'
+  field_media:
+    -
+      entity: 35c83e93-f453-4f02-81a0-6d57a1b26293
+  field_media_position:
+    -
+      value: right

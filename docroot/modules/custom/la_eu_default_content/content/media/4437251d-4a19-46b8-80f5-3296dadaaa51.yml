@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4437251d-4a19-46b8-80f5-3296dadaaa51
+  bundle: image
+  default_langcode: en
+  depends:
+    7370474a-a115-48c2-bce8-f210ce00fb2f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Drupal-10.jpg
+  created:
+    -
+      value: 1701182816
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 7370474a-a115-48c2-bce8-f210ce00fb2f
+      alt: 'Drupal 10 signage'
+      title: ''
+      width: 1120
+      height: 630

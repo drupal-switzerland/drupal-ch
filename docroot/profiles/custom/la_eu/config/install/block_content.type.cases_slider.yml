@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cases_slider
+label: 'Cases Slider'
+revision: 0
+description: ''

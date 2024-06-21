@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4b7cd227-c44c-408b-98d3-ba449ede09ba
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupal-viking-conference.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/drupal-viking-conference.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 298089
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701187144

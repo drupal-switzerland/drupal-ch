@@ -1,0 +1,270 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6136e9c9-61bc-47fa-8cb1-31b76a36054c
+  bundle: component_page
+  default_langcode: en
+  depends:
+    8710cfb0-70c1-4b73-bd8a-5470f614bf26: block_content
+    070f5735-2d85-47ce-b8df-3c3ee8ae2cfd: block_content
+    830a6c95-668d-4705-9196-dcf06255acd8: block_content
+    f7ce67bb-09d0-4fb1-a6ff-4d0b7000743d: block_content
+    40be7db9-aade-4ead-ae8a-ff7a27e160c9: block_content
+    f4f450f4-e2f2-4ef8-8b30-840910ab3e0d: block_content
+    0a48525d-3472-48fb-901f-4311aac93492: block_content
+    5b4c3295-5cf7-49e5-994e-ca6d4773b62e: block_content
+    636814fd-3bfd-447b-b498-6c0e4940aaaf: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'About the Dutch Drupal Association'
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'About the Dutch Drupal Association | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/about-dutch-drupal-association'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'About the Dutch Drupal Association'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'About the Dutch Drupal Association'
+  path:
+    -
+      alias: /about-dutch-drupal-association
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 65e64068-9440-476e-ab46-4b7f27a6a3e8
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '48'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: 8710cfb0-70c1-4b73-bd8a-5470f614bf26
+            weight: 3
+            additional:
+              target_uuid: 8710cfb0-70c1-4b73-bd8a-5470f614bf26
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: '5'
+              6: '6'
+              8: '8'
+          layout_builder_limit:
+            limit:
+              scope: disabled
+              scope_update: null
+    -
+      section:
+        layout_id: dnl_layout_onecol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: e093e597-9d55-454a-94fc-e7e3ab8c3a70
+            region: first
+            configuration:
+              id: 'inline_block:text'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '17'
+              block_serialized: null
+              context_mapping: {  }
+              type: text
+              uuid: 070f5735-2d85-47ce-b8df-3c3ee8ae2cfd
+            weight: 0
+            additional:
+              target_uuid: 070f5735-2d85-47ce-b8df-3c3ee8ae2cfd
+          -
+            uuid: 07a5fae3-f233-42a3-9eb1-0d31e132de19
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '22'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 830a6c95-668d-4705-9196-dcf06255acd8
+            weight: 3
+            additional:
+              target_uuid: 830a6c95-668d-4705-9196-dcf06255acd8
+          -
+            uuid: 576f5db7-5227-486e-9aa1-9046d08cc6ff
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '52'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: f7ce67bb-09d0-4fb1-a6ff-4d0b7000743d
+            weight: 4
+            additional:
+              target_uuid: f7ce67bb-09d0-4fb1-a6ff-4d0b7000743d
+          -
+            uuid: c5c06546-ca57-40d7-834d-33d4d71abffd
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '31'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 40be7db9-aade-4ead-ae8a-ff7a27e160c9
+            weight: 5
+            additional:
+              target_uuid: 40be7db9-aade-4ead-ae8a-ff7a27e160c9
+          -
+            uuid: 2169571d-2684-46e7-a76e-4f5afa8cd1ac
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '21'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: f4f450f4-e2f2-4ef8-8b30-840910ab3e0d
+            weight: 6
+            additional:
+              target_uuid: f4f450f4-e2f2-4ef8-8b30-840910ab3e0d
+          -
+            uuid: f27f11fa-6eec-444a-a6eb-48bf7ba991a8
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '54'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 0a48525d-3472-48fb-901f-4311aac93492
+            weight: 7
+            additional:
+              target_uuid: 0a48525d-3472-48fb-901f-4311aac93492
+          -
+            uuid: 22144089-5c06-49ec-aed9-f916db15d947
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '55'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 5b4c3295-5cf7-49e5-994e-ca6d4773b62e
+            weight: 2
+            additional:
+              target_uuid: 5b4c3295-5cf7-49e5-994e-ca6d4773b62e
+          -
+            uuid: 45197598-a05a-4f73-b227-0af581913113
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '33'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 636814fd-3bfd-447b-b498-6c0e4940aaaf
+            weight: 1
+            additional:
+              target_uuid: 636814fd-3bfd-447b-b498-6c0e4940aaaf
+        third_party_settings: {  }

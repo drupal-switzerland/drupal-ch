@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1b938f9b-9f01-45c0-be07-1b48147a2e66
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nick-fewings-IkjROahgUoo-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/nick-fewings-IkjROahgUoo-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2363154
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701197657

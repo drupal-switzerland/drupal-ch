@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 6adea20e-efa2-4815-9f26-f1c9952231a5
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    6ae7ec79-c406-47cd-96e9-4f94c52d22ba: media
+    f498265d-5b6b-48f6-977b-6ecf020e0de7: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Discover how our partners have used Drupal to solve real-world problems for their clients. Search and filter to find what you are looking for. Are you looking for someone for your unique or similar project, find a partner below.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Drupal Cases'
+  field_media:
+    -
+      entity: 6ae7ec79-c406-47cd-96e9-4f94c52d22ba
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 038bc59c-471c-4a3c-bc6d-5e29a7b43609
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701197651
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: f498265d-5b6b-48f6-977b-6ecf020e0de7
+              title: 'Find a partner'
+              options: {  }

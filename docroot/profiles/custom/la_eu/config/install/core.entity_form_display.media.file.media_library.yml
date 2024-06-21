@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.file.field_file_mime_type
+    - field.field.media.file.field_file_size
+    - field.field.media.file.field_file_type
+    - field.field.media.file.field_media_file
+    - field.field.media.file.field_tags
+    - media.type.file
+id: media.file.media_library
+targetEntityType: media
+bundle: file
+mode: media_library
+content: {  }
+hidden:
+  created: true
+  field_file_mime_type: true
+  field_file_size: true
+  field_file_type: true
+  field_media_file: true
+  field_tags: true
+  langcode: true
+  name: true
+  path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
+  status: true
+  uid: true
+  unpublish_on: true
+  unpublish_state: true

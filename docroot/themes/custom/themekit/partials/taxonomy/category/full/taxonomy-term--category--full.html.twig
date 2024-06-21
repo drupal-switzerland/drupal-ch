@@ -9,7 +9,7 @@
   %}
   <div class="field-banner">
     <div class="field-text">
-      <a class="link--back" href="/toepassingen" >{{ 'Toepassingen'|t }}</a>
+      <a class="link--back" href="/solutions" >{{ 'Solutions'|t }}</a>
       <h1 class="heading">{{ term.field_heading.value }}</h1>
 
       <div class="field--name-field-intro">
@@ -37,7 +37,7 @@
   {% set view = drupal_view_result('cases', 'category')|length %}
   {% if view > 0 %}
     <div class="block-slider-cases field-view">
-      <h2 class="heading">{{ 'Deze cases tonen de kracht'|t }} <br> {{ 'van'|t }} {{ term.field_heading.value }}</h2>
+      <h2 class="heading">{{ 'These cases show the power'|t }} <br> {{ 'of'|t }} {{ term.field_heading.value }}</h2>
       {{ drupal_view('cases', 'category') }}
     </div>
   {% endif %}

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e51f0c13-43da-4fec-b11c-cdcc805d8fc8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: el_black_rgb.png
+  uri:
+    -
+      value: 'public://image/2023-11/el_black_rgb.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 23858
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701179342

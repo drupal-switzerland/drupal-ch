@@ -1,0 +1,122 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 7444bae7-0c76-41fd-8f49-a9822f17566d
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    5a9ea9bc-d494-4abd-9c39-b5add3e2acee: media
+    7f4650db-cdd1-4647-a646-da6adaf806f5: node
+    f498265d-5b6b-48f6-977b-6ecf020e0de7: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>There is much to tell about Drupal but cases speak for themselves. Together with Drupal partners in the Netherlands, we have made a selection from the successful projects that have been realized for customers using Drupal. View the cases or find a partner to take a successful digital step together.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Case studies from the field'
+  field_media:
+    -
+      entity: 5a9ea9bc-d494-4abd-9c39-b5add3e2acee
+  field_media_position:
+    -
+      value: right
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f69e1c11-8949-4f20-9ae2-c9aed1512f90
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701194244
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: 7f4650db-cdd1-4647-a646-da6adaf806f5
+              title: 'View case studies'
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 75a3d48a-9a1a-444d-b5b8-4639b586fbed
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701194253
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: secondary
+          field_link:
+            -
+              target_uuid: f498265d-5b6b-48f6-977b-6ecf020e0de7
+              title: 'Find a partner'
+              options: {  }

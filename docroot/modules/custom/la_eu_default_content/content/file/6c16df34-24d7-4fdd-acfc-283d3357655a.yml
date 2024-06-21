@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6c16df34-24d7-4fdd-acfc-283d3357655a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: jean-paul-vosmeer.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/jean-paul-vosmeer.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1503136
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701189778

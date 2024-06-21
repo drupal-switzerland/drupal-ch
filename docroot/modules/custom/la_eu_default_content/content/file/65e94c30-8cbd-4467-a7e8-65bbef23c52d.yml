@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 65e94c30-8cbd-4467-a7e8-65bbef23c52d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rubaitul-azad-CU2NF0Jz5pI-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/rubaitul-azad-CU2NF0Jz5pI-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 382248
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701185957

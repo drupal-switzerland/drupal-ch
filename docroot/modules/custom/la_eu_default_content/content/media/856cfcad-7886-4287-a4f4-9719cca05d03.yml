@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 856cfcad-7886-4287-a4f4-9719cca05d03
+  bundle: image
+  default_langcode: en
+  depends:
+    518cbe83-91f4-44b5-8772-fdff9f208660: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: business-partner.jpg
+  created:
+    -
+      value: 1701188787
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 518cbe83-91f4-44b5-8772-fdff9f208660
+      alt: 'Puzzle tiles coming togehter on blue background'
+      title: ''
+      width: 1920
+      height: 1080

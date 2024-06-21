@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: ca7b8f65-4e1b-46d4-b431-a0152b8814ab
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    66627c48-9a2d-4fa8-a383-3cc5af050a9a: media
+    388450f9-03a2-4525-94ce-bd3c79a8ad7b: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p dir=\"ltr\">The&nbsp;<a href=\"https://www.drupal.org/community\">Drupal community</a>&nbsp;&nbsp;is one of the largest open source communities in the world. We are more than 1,000,000 passionate developers, designers, trainers, strategists, coordinators, editors and sponsors working together. We build Drupal, provide support, create documentation, share networking opportunities and more. Our shared commitment to the open source spirit propels the Drupal project forward.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Made possible by a global community'
+  field_media:
+    -
+      entity: 66627c48-9a2d-4fa8-a383-3cc5af050a9a
+  field_media_position:
+    -
+      value: left
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 60aad905-fee9-4df3-90f1-c371ab6dc398
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701194206
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: 388450f9-03a2-4525-94ce-bd3c79a8ad7b
+              title: 'More about the community'
+              options: {  }

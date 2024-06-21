@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 42d81b42-969e-472b-98d4-0455995d9d19
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bert-boerland.png
+  uri:
+    -
+      value: 'public://image/2023-11/bert-boerland.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 550136
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701189891

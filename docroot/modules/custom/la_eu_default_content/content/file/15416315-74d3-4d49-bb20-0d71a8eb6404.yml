@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 15416315-74d3-4d49-bb20-0d71a8eb6404
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupal-tech-talk-600_509946213.jpeg
+  uri:
+    -
+      value: 'public://image/2023-11/drupal-tech-talk-600_509946213.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 93003
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701181648

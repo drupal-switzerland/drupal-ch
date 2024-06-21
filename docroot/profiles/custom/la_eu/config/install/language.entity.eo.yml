@@ -1,0 +1,8 @@
+langcode: eo
+status: true
+dependencies: {  }
+id: eo
+label: Esperanto
+direction: ltr
+weight: -10
+locked: false

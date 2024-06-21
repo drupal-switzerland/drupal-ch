@@ -1,0 +1,154 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ddb46e8d-0517-4192-bde3-6bc6b99b1257
+  bundle: partner
+  default_langcode: en
+  depends:
+    b9a4943f-eda7-47d2-b91f-319e2545fe29: taxonomy_term
+    f802cbf9-5042-4c39-a9c6-77475b98bbf6: media
+    1aafe556-cfb3-40c9-8787-a12d2640e725: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: SWIS
+  created:
+    -
+      value: 1701180856
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'SWIS | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Responsible on behalf of the Internet The Internet promises a lot, still does. We have been there from the beginning to deliver on those promises. The way forward? Which is online, but not one line. It's a whimsical journey that requires boldness, creativity and flexibility. But also requires vision, knowledge and control."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/partners/swis'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: SWIS
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "Responsible on behalf of the Internet The Internet promises a lot, still does. We have been there from the beginning to deliver on those promises. The way forward? Which is online, but not one line. It's a whimsical journey that requires boldness, creativity and flexibility. But also requires vision, knowledge and control."
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/wouter-keuris-fotografie-40.jpg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: SWIS
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: "Responsible on behalf of the Internet The Internet promises a lot, still does. We have been there from the beginning to deliver on those promises. The way forward? Which is online, but not one line. It's a whimsical journey that requires boldness, creativity and flexibility. But also requires vision, knowledge and control."
+  path:
+    -
+      alias: /partners/swis
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<h2>Responsible on behalf of the Internet</h2>\r\n\r\n<p>The Internet promises a lot, still does. We have been there from the beginning to deliver on those promises. The way forward? Which is online, but not one line.<br />\r\nIt's a whimsical journey that requires boldness, creativity and flexibility. But also requires vision, knowledge and control.</p>\r\n\r\n<p>Since 1999, the web has been our field of activity. From there, we throw everything into the mix every day. For our clients, but ultimately for everyone.<br />\r\nThis is how, thanks to our digital decisiveness, we make the world a better place, project by project. We call that <strong>Sustainable Digital Change.</strong></p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: NL
+      administrative_area: ''
+      locality: Leiden
+      postal_code: '2312 NR'
+      address_line1: '3e Binnenvestgracht 23'
+  field_category:
+    -
+      entity: b9a4943f-eda7-47d2-b91f-319e2545fe29
+  field_email:
+    -
+      value: info@swis.nl
+  field_image:
+    -
+      entity: f802cbf9-5042-4c39-a9c6-77475b98bbf6
+  field_intro:
+    -
+      value: "<p>Since 1999, the web has been our field of activity. From there, we have thrown everything into the mix, every day, for not only our clients, but ultimately for everyone. This is how, thanks to our digital decisiveness, we make the world a better place, project by project. We call that <strong>Sustainable Digital Change</strong>.</p>\r\n"
+      format: full_html
+  field_link:
+    -
+      uri: 'https://swis.nl'
+      title: ''
+      options: {  }
+  field_links:
+    -
+      uri: 'https://nl.linkedin.com/company/swis'
+      title: LinkedIn
+      options: {  }
+    -
+      uri: 'https://www.drupal.org/swis'
+      title: 'SWIS on drupal.org'
+      options: {  }
+  field_logo:
+    -
+      entity: 1aafe556-cfb3-40c9-8787-a12d2640e725
+  field_phone:
+    -
+      value: '+31 71 576 132 3'
+  field_runner_up:
+    -
+      value: 5
+  field_website_of_the_year:
+    -
+      value: 0
+  field_winner:
+    -
+      value: 4

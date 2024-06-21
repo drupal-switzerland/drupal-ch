@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 190590e9-2066-4dcc-9f1d-b1b9bfd334af
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    66627c48-9a2d-4fa8-a383-3cc5af050a9a: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>We continuously organize events where the Drupal community comes together. From Tech Talks to Business Meetups and of course the annual events Drupaljam and the Splash Awards. Here you will find upcoming events with the option to register immediately. Drupal is from the customers and the community and for the customers and the community.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: Events
+  field_media:
+    -
+      entity: 66627c48-9a2d-4fa8-a383-3cc5af050a9a

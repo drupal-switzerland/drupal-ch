@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3c1f35f2-274b-4761-a005-04a26a85f4bc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: content-editing.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/content-editing.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 74719
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701200012

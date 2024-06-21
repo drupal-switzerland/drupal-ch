@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d06fa51a-8479-4640-8460-52034915eed0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: diabetes-homepage-mockup-landscape.png
+  uri:
+    -
+      value: 'public://image/2023-11/diabetes-homepage-mockup-landscape.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1068181
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701184749

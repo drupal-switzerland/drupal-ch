@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_banner
+    - field.storage.block_content.field_heading
+id: block_content.basic_banner.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: basic_banner
+label: Heading
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

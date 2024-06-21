@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: b6e0b00c-2f5d-42eb-bf82-fe5a4ad824ee
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    12148835-409c-49b8-8e6e-e7ed5dccc2c9: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Shame on us, we have included a link that refers to a page that no longer exists. Sorry for the inconvenience.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Page not found'
+  field_media:
+    -
+      entity: 12148835-409c-49b8-8e6e-e7ed5dccc2c9

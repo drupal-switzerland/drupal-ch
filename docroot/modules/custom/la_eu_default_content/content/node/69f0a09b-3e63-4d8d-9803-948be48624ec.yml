@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 69f0a09b-3e63-4d8d-9803-948be48624ec
+  bundle: event
+  default_langcode: en
+  depends:
+    2097353c-c559-4d59-b60d-4adfe00049a6: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drupal Tech Talk Leiden'
+  created:
+    -
+      value: 1701181610
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Drupal Tech Talk Leiden | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Details At a Drupal Tech Talk, Dutch Drupal developers get together at a changing location to share knowledge and get to know each other better. All this is done while enjoying food and drinks provided by the hosting organization, in this case: SWIS in Leiden. The Drupal Tech Talk is organized by React Online, Swis, Synetic and Finalist. Location: SWIS - Duurzaam Digitaal Veranderen 3e Binnenvestgracht 23T1 2312 NR Leiden'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/events/drupal-tech-talk-leiden'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Drupal Tech Talk Leiden'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Details At a Drupal Tech Talk, Dutch Drupal developers get together at a changing location to share knowledge and get to know each other better. All this is done while enjoying food and drinks provided by the hosting organization, in this case: SWIS in Leiden. The Drupal Tech Talk is organized by React Online, Swis, Synetic and Finalist. Location: SWIS - Duurzaam Digitaal Veranderen 3e Binnenvestgracht 23T1 2312 NR Leiden'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/drupal-tech-talk-600_509946213.jpeg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Drupal Tech Talk Leiden'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Details At a Drupal Tech Talk, Dutch Drupal developers get together at a changing location to share knowledge and get to know each other better. All this is done while enjoying food and drinks provided by the hosting organization, in this case: SWIS in Leiden. The Drupal Tech Talk is organized by React Online, Swis, Synetic and Finalist. Location: SWIS - Duurzaam Digitaal Veranderen 3e Binnenvestgracht 23T1 2312 NR Leiden'
+  path:
+    -
+      alias: /events/drupal-tech-talk-leiden
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<h2>Details</h2>\r\n\r\n<p>At a Drupal Tech Talk, Dutch Drupal developers get together at a changing location to share knowledge and get to know each other better. All this is done while enjoying food and drinks provided by the hosting organization, in this case: SWIS in Leiden. The Drupal Tech Talk is organized by React Online, Swis, Synetic and Finalist.</p>\r\n\r\n<p><strong>Location:</strong></p>\r\n\r\n<p><strong>SWIS - Duurzaam Digitaal Veranderen</strong><br />\r\n3e Binnenvestgracht 23T1<br />\r\n2312 NR Leiden</p>\r\n\r\n<p>Parking is available at parking garage&nbsp;<a href=\"https://goo.gl/maps/Rjyxc4jbxW6DtqRCA\">Lammermarkt</a>&nbsp;(5 min. walking distance).<br />\r\nComing by train? From&nbsp;<a href=\"https://www.ns.nl/stationsinformatie/ledn/leiden-centraal\">Leiden Centraal</a>&nbsp;you can walk to SWIS in 10 minutes.</p>\r\n\r\n<p><strong>Program:</strong></p>\r\n\r\n<p>The final program with speakers will follow here at a later date.</p>\r\n\r\n<p>- 17:30 Doors<br />\r\n- 17:45 Welcome &amp; introduction<br />\r\n- 18:00 Session<br />\r\n- 19:00 Dinner<br />\r\n- 19:30 Session<br />\r\n- 20:30 Drinks</p>\r\n\r\n<p>Would you like to join us for a bite to eat? Please let us know if you will be attending. We will take your presence into account.</p>\r\n\r\n<p>Would you like to come and speak, or do you have a topic you would like to know more about? Let us know with the Meetup contact form or via https://twitter.com/DrupalTechTalk.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: NL
+      administrative_area: ''
+      locality: Leiden
+      postal_code: ''
+      address_line1: '3e Binnenvestgracht 23'
+  field_date_range:
+    -
+      value: '2023-03-23T16:30:00'
+      end_value: '2023-03-23T19:30:00'
+  field_image:
+    -
+      entity: 2097353c-c559-4d59-b60d-4adfe00049a6
+  field_intro:
+    -
+      value: 'At a Drupal Tech Talk, Dutch Drupal developers get together at a changing location to share knowledge and get to know each other better. All this is done while enjoying food and drinks provided by the hosting organization, in this case: SWIS in Leiden. The Drupal Tech Talk is organized by React Online, Swis, Synetic and Finalist.'
+      format: restricted_html

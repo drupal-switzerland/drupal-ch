@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6d3c0657-94f7-490e-b33f-2b7d9963aefa
+  bundle: category
+  default_langcode: en
+  depends:
+    31697b76-85c5-4e10-a7fc-f1d2b34eca64: media
+    bd217533-9d0e-42ed-85b2-cb9fd5a8522a: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Non-profit
+  description:
+    -
+      value: "<p>Drupal is used by hundreds of nonprofit organizations and NGOs</p>\r\n\r\n<p><strong>Ready-to-use:</strong> Drupal offers a wide range of ready-to-use functionality that allows your nonprofit organization to manage, collect and distribute content from the start.</p>\r\n\r\n<p><strong>Scalable: </strong>As your nonprofit's mission grows, Drupal grows with you to connect your main website, your campaigns and any other microsites you decide to launch.</p>\r\n\r\n<p><strong>Organized: </strong>With Drupal's robust taxonomy system, you can easily tag, categorize and organize complex content to keep your nonprofit's message strong and connected.</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Non-profit | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Drupal is used by hundreds of nonprofit organizations and NGOs Ready-to-use: Drupal offers a wide range of ready-to-use functionality that allows your nonprofit organization to manage, collect and distribute content from the start. Scalable: As your nonprofit's mission grows, Drupal grows with you to connect your main website, your campaigns and any other microsites you decide to launch. Organized: With Drupal's robust taxonomy system, you can easily tag, categorize and organize complex content to keep your nonprofit's message strong and connected."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: /applications/non-profit
+      langcode: en
+      pathauto: 1
+  field_description:
+    -
+      value: 'A connected mission between nonprofit and open source as a starting point for success'
+      format: plain_text
+  field_heading:
+    -
+      value: Non-profit
+  field_image:
+    -
+      entity: 31697b76-85c5-4e10-a7fc-f1d2b34eca64
+  field_media:
+    -
+      entity: bd217533-9d0e-42ed-85b2-cb9fd5a8522a

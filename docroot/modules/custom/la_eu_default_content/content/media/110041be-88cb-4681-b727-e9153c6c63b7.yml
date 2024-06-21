@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 110041be-88cb-4681-b727-e9153c6c63b7
+  bundle: svg
+  default_langcode: en
+  depends:
+    a09461ce-ffed-4718-a87b-9433db304d8a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: linkedin-logo-2430.svg
+  created:
+    -
+      value: 1701190980
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_file_mime_type:
+    -
+      value: image/svg+xml
+  field_file_size:
+    -
+      value: 2285
+  field_media_svg:
+    -
+      entity: a09461ce-ffed-4718-a87b-9433db304d8a
+      alt: ''
+      title: ''

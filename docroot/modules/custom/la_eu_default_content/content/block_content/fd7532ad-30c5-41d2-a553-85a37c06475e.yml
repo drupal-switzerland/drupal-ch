@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: fd7532ad-30c5-41d2-a553-85a37c06475e
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    83ee60d6-1dfc-4bec-9a4c-b6999d2bbe8a: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Unfortunately! This page is not accessible for you. If you expected otherwise, please report this to us, we will handle it as quickly as possible!</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Access denied'
+  field_media:
+    -
+      entity: 83ee60d6-1dfc-4bec-9a4c-b6999d2bbe8a
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b6081a95-301a-4dcf-9a77-0c0c1bfb7089
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701186371
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: secondary
+          field_link:
+            -
+              uri: 'mailto:help@drupal.eu'
+              title: 'Report a problem'
+              options: {  }

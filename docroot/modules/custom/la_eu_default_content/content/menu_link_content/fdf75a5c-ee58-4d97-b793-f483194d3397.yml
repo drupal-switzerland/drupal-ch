@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: fdf75a5c-ee58-4d97-b793-f483194d3397
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    f498265d-5b6b-48f6-977b-6ecf020e0de7: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Partners
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: f498265d-5b6b-48f6-977b-6ecf020e0de7
+      title: ''
+      options:
+        attributes:
+          class:
+            - ''
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu

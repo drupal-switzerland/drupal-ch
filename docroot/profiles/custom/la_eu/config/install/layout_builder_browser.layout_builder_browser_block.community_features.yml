@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: community_features
+block_id: 'inline_block:community_features'
+category: structured
+label: 'Community Features'
+weight: -100
+image_path: ''
+image_alt: ''

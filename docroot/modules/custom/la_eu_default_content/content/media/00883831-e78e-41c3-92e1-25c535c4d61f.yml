@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 00883831-e78e-41c3-92e1-25c535c4d61f
+  bundle: image
+  default_langcode: en
+  depends:
+    70dac361-72e1-4a52-8038-ad7f5a67ed42: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: sports-and-entertainment-unsplash.jpg
+  created:
+    -
+      value: 1701183962
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 70dac361-72e1-4a52-8038-ad7f5a67ed42
+      alt: 'Athlete on cinder track'
+      title: ''
+      width: 1750
+      height: 1167

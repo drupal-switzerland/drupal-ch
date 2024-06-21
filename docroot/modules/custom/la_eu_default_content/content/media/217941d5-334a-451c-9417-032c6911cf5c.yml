@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 217941d5-334a-451c-9417-032c6911cf5c
+  bundle: image
+  default_langcode: en
+  depends:
+    2c2a5e95-dc24-4622-897e-69e8cfb48e28: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Drupal-CEO-Network-Business-Survey-2023-1245x1245.jpg
+  created:
+    -
+      value: 1701181503
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 2c2a5e95-dc24-4622-897e-69e8cfb48e28
+      alt: 'Drupal CEO Network Logo'
+      title: ''
+      width: 1297
+      height: 1254

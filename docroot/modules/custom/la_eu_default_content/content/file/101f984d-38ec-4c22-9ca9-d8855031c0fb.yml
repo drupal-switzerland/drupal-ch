@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 101f984d-38ec-4c22-9ca9-d8855031c0fb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: placeholder.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/placeholder.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 159865
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701203891

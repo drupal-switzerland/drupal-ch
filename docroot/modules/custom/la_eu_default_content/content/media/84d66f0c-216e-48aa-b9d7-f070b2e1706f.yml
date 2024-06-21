@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 84d66f0c-216e-48aa-b9d7-f070b2e1706f
+  bundle: image
+  default_langcode: en
+  depends:
+    edb90b31-6ad6-480a-a481-c9b058ac3c5b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: bjorn-profielfoto-2020-cropped.jpg
+  created:
+    -
+      value: 1701190035
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: edb90b31-6ad6-480a-a481-c9b058ac3c5b
+      alt: 'Björn Brala'
+      title: ''
+      width: 2394
+      height: 2330

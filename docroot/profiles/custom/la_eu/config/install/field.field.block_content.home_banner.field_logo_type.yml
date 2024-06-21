@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_banner
+    - field.storage.block_content.field_logo_type
+  module:
+    - options
+id: block_content.home_banner.field_logo_type
+field_name: field_logo_type
+entity_type: block_content
+bundle: home_banner
+label: 'Logo type'
+description: 'The color of the logo on the Header'
+required: true
+translatable: false
+default_value:
+  -
+    value: light
+default_value_callback: ''
+settings: {  }
+field_type: list_string

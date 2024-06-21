@@ -1,13 +1,4 @@
-langcode: en
 status: true
-dependencies:
-  config:
-    - image.style.large_hq
-    - image.style.medium
-    - image.style.small
-    - image.style.x_small
-  theme:
-    - themekit
 id: third_column
 label: 'Third Column'
 image_style_mappings:

@@ -1,0 +1,159 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f498265d-5b6b-48f6-977b-6ecf020e0de7
+  bundle: component_page
+  default_langcode: en
+  depends:
+    6eaf6c28-368c-49c2-90b2-369fe59875e2: block_content
+    37583e1d-cd96-4cb3-a049-34a2b1d6bbb5: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Partners
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Partners | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/partners'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Partners
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Partners
+  path:
+    -
+      alias: /partners
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: f2409160-e562-4a38-8f48-d8a8b9d4f126
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '6'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: 6eaf6c28-368c-49c2-90b2-369fe59875e2
+            weight: 1
+            additional:
+              target_uuid: 6eaf6c28-368c-49c2-90b2-369fe59875e2
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'
+    -
+      section:
+        layout_id: dnl_layout_onecol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: aeddd964-acbe-4714-8aa4-a436c25eb895
+            region: first
+            configuration:
+              id: 'views_block:partners-listing'
+              label: ''
+              label_display: 0
+              provider: views
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+          -
+            uuid: 15b2e22e-ec89-4a83-b20a-a06629d1fa8c
+            region: first
+            configuration:
+              id: 'inline_block:text'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '7'
+              block_serialized: null
+              context_mapping: {  }
+              type: text
+              uuid: 37583e1d-cd96-4cb3-a049-34a2b1d6bbb5
+            weight: 1
+            additional:
+              target_uuid: 37583e1d-cd96-4cb3-a049-34a2b1d6bbb5
+        third_party_settings: {  }

@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 15226fd3-bba6-4004-a8fb-b06e38d93ff7
+  bundle: image
+  default_langcode: en
+  depends:
+    278fff3a-1d35-40ba-a79a-79c629f2a2fb: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Diabetes wegwijzer.png'
+  created:
+    -
+      value: 1701184985
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 278fff3a-1d35-40ba-a79a-79c629f2a2fb
+      alt: 'Diabetes webiste on open laptops'
+      title: ''
+      width: 1152
+      height: 720

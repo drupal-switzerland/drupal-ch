@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 05120612-6468-4218-8396-5c83bd246fd3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mediamonks@2x.png
+  uri:
+    -
+      value: 'public://image/2023-11/mediamonks@2x.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 39902
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701203799

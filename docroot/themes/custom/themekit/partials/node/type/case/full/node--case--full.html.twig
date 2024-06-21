@@ -37,7 +37,7 @@
         {{ content.field_logo }}
         <h4 class="heading">{{ node.label }}</h4>
         {% if node.field_link.uri %}
-          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Bekijk website'|t }}</a>
+          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Show website'|t }}</a>
         {% endif %}
       </div>
       {{ content.field_component_item }}
@@ -47,13 +47,13 @@
         {{ content.field_logo }}
         <h4 class="heading">{{ node.label }}</h4>
         {% if node.field_link.uri %}
-          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Bekijk website'|t }}</a>
+          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Show website'|t }}</a>
         {% endif %}
       </div>
 
       {% if node.field_components.entity.field_p_items %}
         <div class="field-item-info">
-          <h4 class="heading">{{ 'Technische details'|t }}</h4>
+          <h4 class="heading">{{ 'Technical details'|t }}</h4>
           {{ content.field_components }}
         </div>
       {% endif %}

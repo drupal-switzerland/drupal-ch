@@ -1,6 +1,6 @@
-name: Drupal.nl Theme
+name: Local Association (EU)
 type: theme
-description: Drupal.nl Theme.
+description: The Local Association (EU) theme.
 core_version_requirement: ^9.4 || ^10
 # Defines the base theme
 base theme: classy

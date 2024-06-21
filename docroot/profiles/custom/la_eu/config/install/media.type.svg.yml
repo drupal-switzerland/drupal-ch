@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - svg_image_field
+third_party_settings:
+  crop:
+    image_field: null
+id: svg
+label: SVG
+description: 'Use local svgs for reusable media.'
+source: svg
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_svg
+field_map:
+  name: name
+  mimetype: field_file_mime_type
+  filesize: field_file_size

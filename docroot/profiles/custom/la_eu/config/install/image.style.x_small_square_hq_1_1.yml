@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: x_small_square_hq_1_1
+label: 'X Small Square HQ 1:1 (100 x 100)'
+effects:
+  b0d43d7f-1354-4f15-8241-5b6233627331:
+    uuid: b0d43d7f-1354-4f15-8241-5b6233627331
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      crop_type: focal_point
+pipeline: high_quality

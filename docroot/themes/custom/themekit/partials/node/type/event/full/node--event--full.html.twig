@@ -34,7 +34,7 @@
     <div class="field-info">
       {% set address = node.field_address.value|first %}
       {% if address.address_line1 or address.administrative_area or address.locality %}
-        <h4 class="heading">{{ 'LOCATED AT'|t }}</h4>
+        <h4 class="heading">{{ 'Located at'|t }}</h4>
         <div class="field-contact">
           {{ content.field_address }}
         </div>

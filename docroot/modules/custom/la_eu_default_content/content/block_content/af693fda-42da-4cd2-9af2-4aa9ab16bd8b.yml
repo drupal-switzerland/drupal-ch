@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: af693fda-42da-4cd2-9af2-4aa9ab16bd8b
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    81951717-0b31-4173-b75d-da7dfc4b8248: media
+    388450f9-03a2-4525-94ce-bd3c79a8ad7b: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal is being used, built, taught, documented and implemented by the Drupal community. This community consists of people from around the world, with shared values, working together in an open and loving community.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Our community is pure gold'
+  field_media:
+    -
+      entity: 81951717-0b31-4173-b75d-da7dfc4b8248
+  field_media_position:
+    -
+      value: right
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 65f502fa-8e97-4471-a193-de32a558b31f
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701187073
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: 388450f9-03a2-4525-94ce-bd3c79a8ad7b
+              title: 'Discover the community'
+              options: {  }

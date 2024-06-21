@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 61122b2f-318a-4726-a889-07b4e18765cb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: publishing.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/publishing.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 1186
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183711

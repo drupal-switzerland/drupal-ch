@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: medium_hq
+label: 'Medium HQ (768W)'
+effects:
+  88d5f001-9cf5-4dab-91b5-029f005c5319:
+    uuid: 88d5f001-9cf5-4dab-91b5-029f005c5319
+    id: image_scale
+    weight: 1
+    data:
+      width: 768
+      height: null
+      upscale: false
+pipeline: default

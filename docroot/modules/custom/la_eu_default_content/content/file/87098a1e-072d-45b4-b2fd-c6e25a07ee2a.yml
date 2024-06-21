@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 87098a1e-072d-45b4-b2fd-c6e25a07ee2a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bart-vreugdenhil.png
+  uri:
+    -
+      value: 'public://image/2023-11/bart-vreugdenhil.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 240078
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701190087

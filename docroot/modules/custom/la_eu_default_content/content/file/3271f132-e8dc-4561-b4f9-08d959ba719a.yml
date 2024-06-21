@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3271f132-e8dc-4561-b4f9-08d959ba719a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: union.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/union.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 4663
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701190898

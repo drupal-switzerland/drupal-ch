@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dd3e5713-c097-453b-a325-b07f17781a56
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: esmeralda-tijhoff.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/esmeralda-tijhoff.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 65148
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701189998

@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f0f0302f-8a8e-47a9-bd38-38d541c89a0a
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Privacy Statement'
+  created:
+    -
+      value: 1701185203
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Privacy Statement | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Stichting Drupal Nederland (SDN), located at Slotgracht 16, 5754 DC in Deurne, is responsible for the processing of personal data as reflected in this privacy statement. Contact details Stichting Drupal Nederland Slotgracht 16 5754 DC Deurne www.drupal.nl bestuur@drupal.nl Personal data that we process SDN processes your personal data because you use our services and/or because you provide this data to us personally. Below is an overview of the personal data we process:'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/privacy-statement'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Privacy Statement'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Stichting Drupal Nederland (SDN), located at Slotgracht 16, 5754 DC in Deurne, is responsible for the processing of personal data as reflected in this privacy statement. Contact details Stichting Drupal Nederland Slotgracht 16 5754 DC Deurne www.drupal.nl bestuur@drupal.nl Personal data that we process SDN processes your personal data because you use our services and/or because you provide this data to us personally. Below is an overview of the personal data we process:'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Privacy Statement'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Stichting Drupal Nederland (SDN), located at Slotgracht 16, 5754 DC in Deurne, is responsible for the processing of personal data as reflected in this privacy statement. Contact details Stichting Drupal Nederland Slotgracht 16 5754 DC Deurne www.drupal.nl bestuur@drupal.nl Personal data that we process SDN processes your personal data because you use our services and/or because you provide this data to us personally. Below is an overview of the personal data we process:'
+  path:
+    -
+      alias: /privacy-statement
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Stichting Drupal Nederland (SDN), located at Slotgracht 16, 5754 DC in Deurne, is responsible for the processing of personal data as reflected in this privacy statement.</p>\r\n\r\n<h2>Contact details</h2>\r\n\r\n<p><strong>Stichting Drupal Nederland</strong></p>\r\n\r\n<p>Slotgracht 16</p>\r\n\r\n<p>5754 DC Deurne</p>\r\n\r\n<p>www.drupal.nl</p>\r\n\r\n<p>bestuur@drupal.nl</p>\r\n\r\n<h3>Personal data that we process</h3>\r\n\r\n<p>SDN processes your personal data because you use our services and/or because you provide this data to us personally. Below is an overview of the personal data we process:</p>\r\n\r\n<ul>\r\n\t<li>First and last name</li>\r\n\t<li>Date of birth</li>\r\n\t<li>Address information</li>\r\n\t<li>Phone number(s)</li>\r\n\t<li>Email address(es)</li>\r\n\t<li>Bank account number(s) (for any company we have a billing relationship with)</li>\r\n</ul>\r\n\r\n<p>We do not process any special and/or sensitive personal data.</p>\r\n\r\n<p>Our website and/or service does not intend to collect data about website visitors who are under 16 years of age. If you believe that we have collected personal data about a minor without such consent, please contact us at bestuur@drupal.nl and we will remove this information.</p>\r\n\r\n<h3>For what purpose and on what basis we process personal data</h3>\r\n\r\n<p>SDN processes your personal data for the following purposes:</p>\r\n\r\n<ul>\r\n\t<li>Handling your payment (from the company we have an invoicing relationship with).</li>\r\n\t<li>Sending our newsletter (after consent)</li>\r\n\t<li>Calling or emailing you where necessary to carry out our services</li>\r\n\t<li>Inform you about changes in our services and products</li>\r\n\t<li>To deliver services to you</li>\r\n\t<li>SDN also processes personal data if we are legally obliged to do so, such as data we need for our tax return.</li>\r\n</ul>\r\n\r\n<h3>Automated decision-making</h3>\r\n\r\n<p>SDN does not make decisions based on automated processing about matters that could (significantly) affect individuals.</p>\r\n\r\n<h3>How long we keep personal data</h3>\r\n\r\n<p>SDN does not retain your personal data longer than is strictly necessary to fulfill the purposes for which your data is collected. We use the following retention periods for the following (categories) of personal data:</p>\r\n\r\n<ul>\r\n\t<li>All data we need for business operations: Personal data, addresses and bank account numbers: 7 years after termination of billing relationship.</li>\r\n\t<li>Data for newsletter sending: until consent is withdrawn</li>\r\n\t<li>Applicant data: 4 weeks, if longer only upon consent</li>\r\n</ul>\r\n\r\n<p>SDN does not sell your data to third parties and will only provide them if necessary for the execution of our agreement with you or to comply with a legal obligations. With companies that process your data on our behalf, we conclude a processing agreement to ensure the same level of security and confidentiality of your data. SDN remains responsible for this processing.</p>\r\n\r\n<h3>Cookies, or similar techniques, that we use</h3>\r\n\r\n<p>SDN uses only technical and functional cookies. And analytical cookies that do not invade your privacy. A cookie is a small text file that is stored on your computer, tablet or smartphone the first time you visit this website. The cookies we use are necessary for the technical operation of the website and your ease of use. They ensure that the website works properly and remembers, for example, your preferences. They also allow us to optimize our website.</p>\r\n\r\n<p>On some pages SDN uses YouTube or Vimeo videos. Therefore YouTube or Vimeo may place cookies.&nbsp;</p>\r\n\r\n<p>You can opt out of cookies by configuring your internet browser to stop storing cookies. In addition, you can also delete any information previously stored via your browser settings.</p>\r\n\r\n<h3>View, modify or delete data</h3>\r\n\r\n<p>You have the right to view, correct or delete your personal data. In addition, you have the right to withdraw your possible consent for data processing or object to the processing of your personal data by SDN and you have the right to data portability. This means that you can request us to send the personal data we have on you in a computer file to you or another organization named by you. You can send a request to inspect, correct, delete, transfer your personal data or request the revocation of your permission or objection to the processing of your personal data to bestuur@drupal.nl. To make sure that the request for inspection is made by you, we ask you to send a copy of your ID with the request. In this copy, black out your passport photo, MRZ (machine readable zone, the strip of numbers at the bottom of the passport), passport number and Citizen Service Number (BSN). This is to protect your privacy. We will respond to your request as soon as possible, but within four weeks. SDN would also like to inform you that you have the possibility to file a complaint with the national supervisory authority, the&nbsp;<a href=\"https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons\">Personal Data Authority</a>.</p>\r\n\r\n<h3>How we secure personal data</h3>\r\n\r\n<p>SDN takes the protection of your data seriously and takes appropriate measures to prevent abuse, loss, unauthorized access, unwanted disclosure and unauthorized modification. If you feel that your data is not properly secured or there are indications of misuse, please contact us at bestuur@drupal.nl.</p>\r\n"
+      format: full_html
+      summary: ''

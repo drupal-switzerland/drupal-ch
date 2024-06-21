@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 3fcb997d-1066-4c4e-935b-861b4efa1cdc
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    2767467f-f255-433c-bcb6-dd6779ad9f5b: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Because content in Drupal is stored according to a structured data model, content can be presented in any form and layout, responsively and flexibly. The content can also connect to mobile apps and other applications through Drupal's built-in REST services. With open source APIs, available out of the box, Drupal can be connected to other data sources to exchange data, content or functionality with, among others, marketing tools and CRM systems. Because content is separate from presentation, it can be presented in any form, on any desired channel, in any desired format.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Content as a service'
+  field_media:
+    -
+      entity: 2767467f-f255-433c-bcb6-dd6779ad9f5b
+  field_media_position:
+    -
+      value: left

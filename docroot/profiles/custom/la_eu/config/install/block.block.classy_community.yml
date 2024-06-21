@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.community
+  module:
+    - menu_block
+  theme:
+    - classy
+id: classy_community
+theme: classy
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'menu_block:community'
+settings:
+  id: 'menu_block:community'
+  label: Community
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'community:'
+  suggestion: community
+  label_type: block
+  label_link: false
+visibility: {  }

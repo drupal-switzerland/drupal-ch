@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cases_slider
+    - field.field.block_content.cases_slider.field_heading
+    - field.field.block_content.cases_slider.field_link
+  module:
+    - link
+id: block_content.cases_slider.default
+targetEntityType: block_content
+bundle: cases_slider
+mode: default
+content:
+  field_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

@@ -41,7 +41,7 @@
       </div>
       {% if drupal_view_result('cases', 'cases')|length %}
         <div class="field-view">
-          <h2 class="heading">{{ 'Cases van'|t }} {{ node.label }} <br> {{ 'waar wij trots op zijn'|t }}</h2>
+          <h2 class="heading">{{ 'Cases of'|t }} {{ node.label }} <br> {{ 'that we are proud of'|t }}</h2>
           {{ drupal_view('cases', 'cases') }}
         </div>
       {% endif %}
@@ -68,7 +68,7 @@
           {% endif %}
         </div>
         {% if node.field_link.uri %}
-          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Bekijk website'|t }}</a>
+          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Show website'|t }}</a>
         {% endif %}
       </div>
       {% if node.field_website_of_the_year.value or node.field_winner.value or node.field_runner_up.value %}
@@ -91,9 +91,9 @@
                 width="96"
                 height="97"
                 src="/{{ base_path ~ directory }}/assets/images/svg/awards/winner-bright-blue.svg"
-                alt="{{ 'Winnaar'|t }}">
+                alt="{{ 'Winner'|t }}">
               {{ content.field_winner }}
-              <div class="field-name">{{ 'Winnaar'|t }}</div>
+              <div class="field-name">{{ 'Winner'|t }}</div>
             </div>
           {% endif %}
           {% if node.field_runner_up.value %}

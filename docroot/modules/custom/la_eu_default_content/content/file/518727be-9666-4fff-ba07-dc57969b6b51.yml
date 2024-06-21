@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 518727be-9666-4fff-ba07-dc57969b6b51
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sport.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/sport.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 1650
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701184003

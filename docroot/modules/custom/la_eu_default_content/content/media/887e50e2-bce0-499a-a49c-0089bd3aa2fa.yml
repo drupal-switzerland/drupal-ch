@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 887e50e2-bce0-499a-a49c-0089bd3aa2fa
+  bundle: image
+  default_langcode: en
+  depends:
+    c282570d-ceb2-4ae3-81c8-c23dfa170c06: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ian-battaglia-9drS5E_Rguc-unsplash.jpg
+  created:
+    -
+      value: 1701200323
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: c282570d-ceb2-4ae3-81c8-c23dfa170c06
+      alt: 'The view into a datacenter'
+      title: ''
+      width: 2000
+      height: 2001

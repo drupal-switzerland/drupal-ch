@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.site_setting_entity.field_text
+    - filter.format.basic_html
+    - site_settings.site_setting_entity_type.subscribe_form
+  module:
+    - text
+id: site_setting_entity.subscribe_form.field_text
+field_name: field_text
+entity_type: site_setting_entity
+bundle: subscribe_form
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

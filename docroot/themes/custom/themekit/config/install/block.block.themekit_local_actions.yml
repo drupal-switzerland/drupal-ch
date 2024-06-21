@@ -1,8 +1,4 @@
-langcode: en
 status: true
-dependencies:
-  theme:
-    - themekit
 id: themekit_local_actions
 theme: themekit
 region: content

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: news_slider
+block_id: 'inline_block:news_slider'
+category: structured
+label: 'News Slider'
+weight: -100
+image_path: ''
+image_alt: ''

@@ -1,0 +1,122 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 341ad931-eed3-45f8-b5c7-969751220c34
+  bundle: home_banner
+  default_langcode: en
+  depends:
+    79f698c6-f68c-4cbb-98da-d73394d1da10: media
+    1f6927bc-40cb-4fd2-b89b-3a958d4e58ca: node
+    c689114d-a0bf-4270-9baf-fb61b5d60e00: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal is the Open Source DXP that enables your digital transformation, excel in your online ambitions and reach your goals.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_heading:
+    -
+      value: 'The Open Source DXP'
+  field_logo_type:
+    -
+      value: light
+  field_media:
+    -
+      entity: 79f698c6-f68c-4cbb-98da-d73394d1da10
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 44b14bd1-fca0-43bd-af4d-5784c6223759
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701186888
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: 1f6927bc-40cb-4fd2-b89b-3a958d4e58ca
+              title: 'About Drupal'
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3ba2fca0-c573-46fb-ac93-666662071896
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701186904
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: secondary
+          field_link:
+            -
+              target_uuid: c689114d-a0bf-4270-9baf-fb61b5d60e00
+              title: 'Why Drupal'
+              options: {  }

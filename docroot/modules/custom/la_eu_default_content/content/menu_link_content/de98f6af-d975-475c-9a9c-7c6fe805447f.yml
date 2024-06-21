@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: de98f6af-d975-475c-9a9c-7c6fe805447f
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    f0f0302f-8a8e-47a9-bd38-38d541c89a0a: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Privacy Statement'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      target_uuid: f0f0302f-8a8e-47a9-bd38-38d541c89a0a
+      title: ''
+      options:
+        attributes:
+          class:
+            - ''
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 20
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu

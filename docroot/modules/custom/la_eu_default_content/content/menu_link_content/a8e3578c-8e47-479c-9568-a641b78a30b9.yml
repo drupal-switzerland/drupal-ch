@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: a8e3578c-8e47-479c-9568-a641b78a30b9
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Contact
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'mailto:me@drupal.eu'
+      title: ''
+      options:
+        attributes:
+          class:
+            - ''
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 10
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 30f8cb38-b595-4bbc-bea9-c0239eddce3d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: slack-logo.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/slack-logo.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 3739
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701190927

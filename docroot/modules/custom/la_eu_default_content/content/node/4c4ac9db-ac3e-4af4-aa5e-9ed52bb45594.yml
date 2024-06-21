@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4c4ac9db-ac3e-4af4-aa5e-9ed52bb45594
+  bundle: event
+  default_langcode: en
+  depends:
+    8ccf4af3-c9e9-4905-baf9-d83f9837b859: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'DrupalCon Lille 2023'
+  created:
+    -
+      value: 1701182636
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'DrupalCon Lille 2023 | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Visit DrupalCon's event website for more information:\_Click here."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/events/drupalcon-lille-2023'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'DrupalCon Lille 2023'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "Visit DrupalCon's event website for more information:\_Click here."
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/northamerica-med-opt.jpg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'DrupalCon Lille 2023'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: "Visit DrupalCon's event website for more information:\_Click here."
+  path:
+    -
+      alias: /events/drupalcon-lille-2023
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Visit DrupalCon's event website for more information:&nbsp;<a href=\"https://events.drupal.org/lille2023\">Click here.</a></p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: FR
+      administrative_area: ''
+      locality: Lille
+      postal_code: ''
+      address_line1: 'Lille Grand Palais'
+  field_date_range:
+    -
+      value: '2023-10-17T06:00:00'
+      end_value: '2023-10-20T16:00:00'
+  field_image:
+    -
+      entity: 8ccf4af3-c9e9-4905-baf9-d83f9837b859
+  field_intro:
+    -
+      value: "DrupalCon comes back to France in 2023 between 17-20 October! This time the Lille Grand Palais is our host venue in Lille. Easily accessible with only a 35 minute train ride from Brussels and 80 minutes from London by train. Meet our event mascot Lil' Rooster at DrupalCamps, Splash Awards and other Drupal events throughout Europe until then for a chance to win tickets to Lille!"
+      format: restricted_html

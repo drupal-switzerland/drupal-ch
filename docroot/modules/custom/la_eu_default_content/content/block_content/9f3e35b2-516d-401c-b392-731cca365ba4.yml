@@ -1,0 +1,250 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 9f3e35b2-516d-401c-b392-731cca365ba4
+  bundle: community_features
+  default_langcode: en
+  depends:
+    8245901a-a73a-4b4b-a35a-980110806e5a: media
+    527c5c00-48f1-4131-87bc-3f4095eeb1e6: media
+    b5c3ceb3-33c2-4ecd-958c-6fd9ef897a7d: media
+    d4e7f4c5-67b4-47bd-bd94-26b588613d41: media
+    28a4cf4a-185f-49c7-9d8b-3df59fca9ff8: media
+    b1e13064-7f20-492b-a790-58d5307e3215: media
+    110041be-88cb-4681-b727-e9153c6c63b7: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_p_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 11998aaa-66cf-4619-aac5-d5ac4e2d5da8
+          bundle: feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701190786
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: "<p>The annual event by and for the community where hundreds of people come together to share experiences and knowledge is&nbsp;<a href=\"https://drupaljam.nl/\">Drupaljam</a>.</p>\r\n"
+              format: basic_html
+          field_media:
+            -
+              entity: 8245901a-a73a-4b4b-a35a-980110806e5a
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 582796ca-f261-43e3-9762-c471fa030cd0
+          bundle: feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701190835
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: "<p>Every year, the best Dutch Drupal projects are highlighted during the <a href=\"https://splashawards.nl/\">Splash Awards</a>.</p>\r\n"
+              format: basic_html
+          field_media:
+            -
+              entity: 527c5c00-48f1-4131-87bc-3f4095eeb1e6
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: deea91de-2773-49f6-9096-6529903886e6
+          bundle: feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701190860
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: "<p>During the&nbsp;<a href=\"https://splashawards.org/\">International Splash Awards</a>, the best Drupal projects in the world are highlighted.</p>\r\n"
+              format: basic_html
+          field_media:
+            -
+              entity: b5c3ceb3-33c2-4ecd-958c-6fd9ef897a7d
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 382175cd-c579-4f6e-8ad9-da6e9c7de7ae
+          bundle: feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701190894
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: "<p>Op <a href=\"https://www.drupal.org/\">Drupal.org</a> vind je de officiele documentatie, modules<br />\r\nen het globale discussie-platform</p>\r\n"
+              format: basic_html
+          field_media:
+            -
+              entity: d4e7f4c5-67b4-47bd-bd94-26b588613d41
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 74bba717-7b9d-4020-90a4-cce2865be886
+          bundle: feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701190923
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: "<p>Join us in the Dutch&nbsp;<a href=\"https://drupalnl.slack.com/\">Slack</a>.</p>\r\n"
+              format: basic_html
+          field_media:
+            -
+              entity: 28a4cf4a-185f-49c7-9d8b-3df59fca9ff8
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e1752868-9264-4aa9-a0e5-e936b75fff30
+          bundle: feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701190945
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: "<p>Folow Drupal.nl on&nbsp;<a href=\"https://twitter.com/drupalnl\">Twitter</a>.</p>\r\n"
+              format: basic_html
+          field_media:
+            -
+              entity: b1e13064-7f20-492b-a790-58d5307e3215
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2a895587-78b3-435a-9d25-b10c47be5fe5
+          bundle: feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701190975
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_description:
+            -
+              value: "<p>Find the Dutch community on&nbsp;<a href=\"https://www.linkedin.com/groups/2735900/\">LinkedIn</a>.</p>\r\n"
+              format: basic_html
+          field_media:
+            -
+              entity: 110041be-88cb-4681-b727-e9153c6c63b7

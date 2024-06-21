@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 830a6c95-668d-4705-9196-dcf06255acd8
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    ed9feb4c-d52f-4a50-8daf-6c75c6d32ffe: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p><strong>Portfolio: </strong>President, DrupalJam, Splash Award</p>\r\n\r\n<p>Bert (<a href=\"http:/drupal.org/bert \">bertboerland</a>) has been an active evangelist since the early days of Drupal now more than 20 years ago. He donated the Drupal.org domain to the community, organized two DrupalCons as lead and has been a Board Member of the Drupal Association. Bert is co-founder of the Drupal Netherlands Foundation and co-founder of DrupalJam and has organized more than a dozen of these events. A Business Nerd who can't program, a passionate speaker about the open web and open source who can't be quiet. Bert is a Senior Sales Executive at Suse and a general board member.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Bert Boerland'
+  field_media:
+    -
+      entity: ed9feb4c-d52f-4a50-8daf-6c75c6d32ffe
+  field_media_position:
+    -
+      value: left

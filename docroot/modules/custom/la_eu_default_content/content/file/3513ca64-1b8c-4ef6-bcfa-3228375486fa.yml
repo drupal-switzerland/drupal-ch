@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3513ca64-1b8c-4ef6-bcfa-3228375486fa
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: multilingual.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/multilingual.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 136401
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701200197

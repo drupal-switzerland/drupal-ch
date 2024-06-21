@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 027c49d5-fbb1-4204-a14f-eaf007862668
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: health.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/health.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 730
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183614

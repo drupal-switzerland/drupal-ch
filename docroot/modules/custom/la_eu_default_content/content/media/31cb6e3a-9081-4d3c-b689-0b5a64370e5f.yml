@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 31cb6e3a-9081-4d3c-b689-0b5a64370e5f
+  bundle: image
+  default_langcode: en
+  depends:
+    a4fa34f7-4cf8-4880-9281-0800c6b4ea88: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Media-and-publishing-houses-unsplash.jpg
+  created:
+    -
+      value: 1701183643
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: a4fa34f7-4cf8-4880-9281-0800c6b4ea88
+      alt: 'A running printing press'
+      title: ''
+      width: 6016
+      height: 4016

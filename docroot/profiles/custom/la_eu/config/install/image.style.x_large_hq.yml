@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: x_large_hq
+label: 'X Large HQ (1920W)'
+effects:
+  34bda4e0-6c5b-4db6-aeee-0188d9ebcc58:
+    uuid: 34bda4e0-6c5b-4db6-aeee-0188d9ebcc58
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: null
+      upscale: false
+pipeline: default

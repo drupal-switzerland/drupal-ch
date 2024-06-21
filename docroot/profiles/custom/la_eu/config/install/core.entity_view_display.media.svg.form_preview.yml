@@ -1,0 +1,42 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.form_preview
+    - field.field.media.svg.field_file_mime_type
+    - field.field.media.svg.field_file_size
+    - field.field.media.svg.field_media_svg
+    - field.field.media.svg.field_svg_type
+    - field.field.media.svg.field_tags
+    - media.type.svg
+  module:
+    - svg_image_field
+id: media.svg.form_preview
+targetEntityType: media
+bundle: svg
+mode: form_preview
+content:
+  field_media_svg:
+    type: svg_image_field_formatter
+    label: hidden
+    settings:
+      inline: false
+      apply_dimensions: true
+      width: 38
+      height: 38
+      enable_alt: true
+      enable_title: true
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_file_mime_type: true
+  field_file_size: true
+  field_svg_type: true
+  field_tags: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

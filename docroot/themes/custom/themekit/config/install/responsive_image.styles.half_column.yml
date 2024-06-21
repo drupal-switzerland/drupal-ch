@@ -1,11 +1,4 @@
-langcode: en
 status: true
-dependencies:
-  config:
-    - image.style.large
-    - image.style.small
-  theme:
-    - themekit
 id: half_column
 label: 'Half Column'
 image_style_mappings:

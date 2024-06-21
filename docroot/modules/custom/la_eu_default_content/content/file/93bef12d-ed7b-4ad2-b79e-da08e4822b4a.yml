@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 93bef12d-ed7b-4ad2-b79e-da08e4822b4a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: scalable.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/scalable.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 104752
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701199774

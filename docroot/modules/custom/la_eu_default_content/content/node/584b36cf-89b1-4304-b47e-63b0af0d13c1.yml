@@ -1,0 +1,145 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 584b36cf-89b1-4304-b47e-63b0af0d13c1
+  bundle: partner
+  default_langcode: en
+  depends:
+    e739e493-9d2a-4220-84a5-c6b973c59f9a: taxonomy_term
+    7232ce63-3d4e-44d1-9a59-35d21c567d82: media
+    178a53cd-e1b6-4cc3-b6f1-b2b53ff4b124: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: MediaMonks
+  created:
+    -
+      value: 1701180551
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'MediaMonks | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Seamless\_access to\_the\_world’s\_best\_digital\_talent. We blend skills across content, data and digital media in an always-evolving combination of digital expertise—now including technology services."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/partners/mediamonks'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: MediaMonks
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "Seamless\_access to\_the\_world’s\_best\_digital\_talent. We blend skills across content, data and digital media in an always-evolving combination of digital expertise—now including technology services."
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/media-monks-creative-app.jpg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: MediaMonks
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: "Seamless\_access to\_the\_world’s\_best\_digital\_talent. We blend skills across content, data and digital media in an always-evolving combination of digital expertise—now including technology services."
+  path:
+    -
+      alias: /partners/mediamonks
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<h2>Seamless&nbsp;access to&nbsp;the&nbsp;world’s&nbsp;best&nbsp;digital&nbsp;talent.</h2>\r\n\r\n<p>We blend skills across content, data and digital media in an always-evolving combination of digital expertise—now including technology services.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: NL
+      administrative_area: ''
+      locality: Amsterdam
+      postal_code: '1013 AM'
+      address_line1: 'Danzigerbocht 41 C, Amsterdam'
+  field_category:
+    -
+      entity: e739e493-9d2a-4220-84a5-c6b973c59f9a
+  field_email:
+    -
+      value: info@media.monks.com
+  field_image:
+    -
+      entity: 7232ce63-3d4e-44d1-9a59-35d21c567d82
+  field_intro:
+    -
+      value: "<p>CREATIVE GLOBAL PRODUCTION PARTNER We help the world’s biggest brands &amp; best agencies by turning ideas, strategy and IP into successful , scalable and timely digital campaigns, film, content, assets and platforms.</p>\r\n"
+      format: full_html
+  field_link:
+    -
+      uri: 'https://media.monks.com'
+      title: ''
+      options: {  }
+  field_logo:
+    -
+      entity: 178a53cd-e1b6-4cc3-b6f1-b2b53ff4b124
+  field_phone:
+    -
+      value: '+31 20 820 242 5'
+  field_runner_up:
+    -
+      value: 2
+  field_website_of_the_year:
+    -
+      value: 0
+  field_winner:
+    -
+      value: 3

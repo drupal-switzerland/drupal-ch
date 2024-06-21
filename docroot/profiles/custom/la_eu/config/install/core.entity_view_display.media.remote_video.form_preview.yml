@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.form_preview
+    - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_tags
+    - field.field.media.remote_video.field_video_provider
+    - field.field.media.remote_video.field_video_type
+    - image.style.x_small_square_1_1
+    - media.type.remote_video
+  module:
+    - image
+id: media.remote_video.form_preview
+targetEntityType: media
+bundle: remote_video
+mode: form_preview
+content:
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: x_small_square_1_1
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_oembed_video: true
+  field_tags: true
+  field_video_provider: true
+  field_video_type: true
+  langcode: true
+  uid: true

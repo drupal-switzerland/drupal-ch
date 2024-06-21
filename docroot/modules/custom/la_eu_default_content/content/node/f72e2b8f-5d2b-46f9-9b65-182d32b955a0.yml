@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f72e2b8f-5d2b-46f9-9b65-182d32b955a0
+  bundle: news
+  default_langcode: en
+  depends:
+    217941d5-334a-451c-9417-032c6911cf5c: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Digital service providers share market insights in the 2023 Drupal Business Survey'
+  created:
+    -
+      value: 1701181458
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Digital service providers share market insights in the 2023 Drupal Business Survey | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'The Drupal Business Survey invites business leaders worldwide to share their insights and metrics on the Drupal business ecosystem. Relevant topics to many digital service providers include business development, community, marketing, and human capital. The results of this survey are analyzed and aggregated into a comprehensive report and presented at DrupalCon Europe, the yearly Drupal summit. Participants can support anonymously.'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/digital-service-providers-share-market-insights-2023-drupal-business-survey'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Digital service providers share market insights in the 2023 Drupal Business Survey'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'The Drupal Business Survey invites business leaders worldwide to share their insights and metrics on the Drupal business ecosystem. Relevant topics to many digital service providers include business development, community, marketing, and human capital. The results of this survey are analyzed and aggregated into a comprehensive report and presented at DrupalCon Europe, the yearly Drupal summit. Participants can support anonymously.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/Drupal-CEO-Network-Business-Survey-2023-1245x1245.jpg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Digital service providers share market insights in the 2023 Drupal Business Survey'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'The Drupal Business Survey invites business leaders worldwide to share their insights and metrics on the Drupal business ecosystem. Relevant topics to many digital service providers include business development, community, marketing, and human capital. The results of this survey are analyzed and aggregated into a comprehensive report and presented at DrupalCon Europe, the yearly Drupal summit. Participants can support anonymously.'
+  path:
+    -
+      alias: /digital-service-providers-share-market-insights-2023-drupal-business-survey
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p><strong>The Drupal Business Survey invites business leaders worldwide to share their insights and metrics on the Drupal business ecosystem. Relevant topics to many digital service providers include business development, community, marketing, and human capital. The results of this survey are analyzed and aggregated into a comprehensive report and presented at DrupalCon Europe, the yearly Drupal summit. Participants can support anonymously.</strong></p>\r\n\r\n<p>The Drupal Business Survey is about sharing business insights between Drupal service providers worldwide. Drupal’s open source ecosystem thrives by a collaborative community of tens of thousands of professionals worldwide, working together on the popular digital experience platform.&nbsp;<a href=\"https://drupal.org/\">Drupal</a>&nbsp;has an Open Web objective, allowing anyone to work with the web or contribute to it.&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfdlRghlWvjnuegDJIxOVDx4B2XYzviCj8CU26tObC3hTYXWw/viewform\">The Drupal Business Survey</a>&nbsp;gives meaningful data for Drupal experts to make business decisions for the coming years.</p>\r\n\r\n<p>The survey allows Drupal service providers and independent professionals to share insights on various topics. Its comprehensive results on business outlook and customer engagement has been a valuable guide for digital service providers, even to those working with other technologies but Drupal. Data is coming in from all continents, with most of the companies being in business for 10 years or more.</p>\r\n\r\n<h3>Drupal business is booming</h3>\r\n\r\n<p>In 2022, over 15% of the respondents indicated seeing a significant impact on their digital business by the pandemic. Covid-19 clearly was a catalyst for investments in the digital market. At the same time, the size of deals made grew by almost a third. Non-Profit and Government made the leading markets for Drupal last year, with Education at the top with over 60% of agencies working with these sectors. However, comparing all the industries over the past 5 years, the number of Drupal projects in Non Profit shows a significant decrease. Acquiring new talent is constantly challenging and business leaders need to find new ways to get the right people in.</p>\r\n\r\n<p>The survey revealed that open source software, like Drupal, has maintained its popularity, which will not come as a surprise to those following the industry. Janne Kalliola: “One of the most significant advantages of open source compared to similar SaaS solutions is the flexibility and manageability of pricing. Organizations can easily adapt their use of Drupal to changing circumstances, such as the pandemic or the energy crisis, and they can use Drupal without large license fees.”</p>\r\n\r\n<h3>CEO Dinner</h3>\r\n\r\n<p>The Drupal market is looking forward to how digital service providers are using Drupal and how the Drupal market has evolved this year. The results of the 2023 Drupal Business Survey will be presented at the CEO Dinner at DrupalCon Europe.&nbsp;<a href=\"https://events.drupal.org/lille2023\">DrupalCon Europe</a>&nbsp;is the yearly Drupal summit where over 1500 Drupal users and professionals meet to exchange ideas and further evolve Drupal. DrupalCon Europe is from 17-20 October in Lille, with the CEO Dinner on Tuesday, October 17th.</p>\r\n\r\n<h3>About the Business Survey</h3>\r\n\r\n<p>The Drupal Business Survey supports Drupal businesses worldwide and is organized by a team of industry experts&nbsp;<a href=\"https://www.linkedin.com/in/imregmelig/\">Imre Gmelig Meijling</a>&nbsp;(<a href=\"https://reactonline.nl/\">React Online</a>),&nbsp;<a href=\"https://www.linkedin.com/in/jannekalliola/\">Janne Kalliola</a>&nbsp;(<a href=\"https://www.exove.com/\">Exove</a>) and&nbsp;<a href=\"https://www.linkedin.com/in/michelvanvelde/\">Michel van Velde</a>&nbsp;(independent) in collaboration with the&nbsp;<a href=\"https://www.drupal.org/association\">Drupal Association</a>. The 2022 results can be viewed&nbsp;<a href=\"https://24965662.fs1.hubspotusercontent-eu1.net/hubfs/24965662/State%20of%20Drupal%202022%20-%20v2.pdf\">here</a>.</p>\r\n\r\n<p>Drupal is the open source Digital Experience Platform used organisations including Amnesty International, Tesla and DHL.</p>\r\n\r\n<h3>Participate and share your insights</h3>\r\n\r\n<p>Drupal experts are invited to share their Drupal business insights through the Business Survey anonymously and come to DrupalCon Europe to review the results together.</p>\r\n\r\n<p>You can&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfdlRghlWvjnuegDJIxOVDx4B2XYzviCj8CU26tObC3hTYXWw/viewform\">participate in the Drupal Business Survey anonymously here.</a><br />\r\nThe survey closes on&nbsp;<strong>4 September.</strong></p>\r\n"
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 217941d5-334a-451c-9417-032c6911cf5c
+  field_intro:
+    -
+      value: 'The Drupal Business Survey invites business leaders worldwide to share their insights and metrics on the Drupal business ecosystem. Relevant topics to many digital service providers include business development, community, marketing, and human capital. The results of this survey are analyzed and aggregated into a comprehensive report and presented at DrupalCon Europe, the yearly Drupal summit. Participants can support anonymously.'
+      format: plain_text

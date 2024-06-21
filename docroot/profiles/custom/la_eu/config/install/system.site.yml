@@ -1,0 +1,12 @@
+name: 'Drush Site-Install'
+mail: admin@example.com
+slogan: 'The Open Source DXP: Drupal.'
+page:
+  403: /403-forbidden
+  404: /404-not-found
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''
+langcode: en

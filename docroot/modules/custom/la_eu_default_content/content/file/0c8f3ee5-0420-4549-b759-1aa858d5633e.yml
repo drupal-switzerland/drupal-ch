@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0c8f3ee5-0420-4549-b759-1aa858d5633e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nonprofit.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/nonprofit.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 2144
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183840

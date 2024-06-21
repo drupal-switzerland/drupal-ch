@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: small_square_hq_1_1
+label: 'Small Square HQ 1:1 (320 x 320)'
+effects:
+  4b34c10d-4433-4363-87bd-6177e7d2df3a:
+    uuid: 4b34c10d-4433-4363-87bd-6177e7d2df3a
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 320
+      crop_type: focal_point
+pipeline: high_quality

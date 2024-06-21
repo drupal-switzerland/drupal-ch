@@ -1,0 +1,61 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - '-'
+            - Underline
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - HorizontalRule
+            - Blockquote
+            - Table
+            - DrupalMediaLibrary
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+            - Styles
+        -
+          name: Tools
+          items:
+            - PasteText
+            - Source
+  plugins:
+    drupallink:
+      linkit_enabled: true
+      linkit_profile: default
+    stylescombo:
+      styles: "a.btn--primary|Button\r\na.link--more|More link\r\nhr.green|Green separator\r\nhr.purple|Purple separator\r\nhr.blue|Blue separator\r\np.text-large|Text Large\r\np.text-card|Text Card\r\np.text-small|Text Small"
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

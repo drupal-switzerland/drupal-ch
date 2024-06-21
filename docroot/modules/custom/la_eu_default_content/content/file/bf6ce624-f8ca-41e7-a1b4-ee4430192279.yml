@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bf6ce624-f8ca-41e7-a1b4-ee4430192279
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wordmark2_black_rgb.png
+  uri:
+    -
+      value: 'public://image/2023-11/wordmark2_black_rgb.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 33408
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701179598

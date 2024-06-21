@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: edb90b31-6ad6-480a-a481-c9b058ac3c5b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bjoern-brala.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/bjoern-brala.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 785898
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701190035

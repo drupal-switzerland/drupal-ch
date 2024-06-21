@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 5af4f88e-135e-4a5e-aa06-d5b9fbb449a5
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    7495cf4b-563d-4625-a024-cd1683b26ce0: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal offers a proven, secure application framework on which robust, business-critical applications can run. A permanent team from the Drupal development community is continuously working on the security of Drupal, in accordance with strong code standards. They continuously ensure timely signaling and implementation of security updates to keep websites and online Drupal applications safe and secure.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Secure at its core'
+  field_media:
+    -
+      entity: 7495cf4b-563d-4625-a024-cd1683b26ce0
+  field_media_position:
+    -
+      value: right

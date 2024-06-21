@@ -1,0 +1,200 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1f6927bc-40cb-4fd2-b89b-3a958d4e58ca
+  bundle: component_page
+  default_langcode: en
+  depends:
+    aa470505-e75b-41da-9f3e-bc8f57935aba: block_content
+    2f288390-f583-458f-bd85-bf175a21a758: block_content
+    ca7b8f65-4e1b-46d4-b431-a0152b8814ab: block_content
+    7444bae7-0c76-41fd-8f49-a9822f17566d: block_content
+    6b982390-e3cb-4046-a1d4-dca5e6479832: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'About Drupal'
+  created:
+    -
+      value: 1701185685
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'About Drupal | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/about-drupal'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'About Drupal'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'About Drupal'
+  path:
+    -
+      alias: /about-drupal
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 9ba906a7-1ef6-4de1-8666-660f8ae31d72
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '44'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: aa470505-e75b-41da-9f3e-bc8f57935aba
+            weight: 1
+            additional:
+              target_uuid: aa470505-e75b-41da-9f3e-bc8f57935aba
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'
+    -
+      section:
+        layout_id: dnl_layout_onecol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 2082ff0c-a4bc-421d-aa94-e0f305c9828b
+            region: first
+            configuration:
+              id: 'inline_block:text'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '26'
+              block_serialized: null
+              context_mapping: {  }
+              type: text
+              uuid: 2f288390-f583-458f-bd85-bf175a21a758
+            weight: 0
+            additional:
+              target_uuid: 2f288390-f583-458f-bd85-bf175a21a758
+          -
+            uuid: 6b1d890a-4ba9-4ce8-a56f-83c0f1dab0a4
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '16'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: ca7b8f65-4e1b-46d4-b431-a0152b8814ab
+            weight: 1
+            additional:
+              target_uuid: ca7b8f65-4e1b-46d4-b431-a0152b8814ab
+          -
+            uuid: 8590be6f-502c-40e5-9301-68082f4cf241
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '45'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 7444bae7-0c76-41fd-8f49-a9822f17566d
+            weight: 2
+            additional:
+              target_uuid: 7444bae7-0c76-41fd-8f49-a9822f17566d
+          -
+            uuid: 6e50b219-5535-4975-b26b-ecc2c15c7a53
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '46'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 6b982390-e3cb-4046-a1d4-dca5e6479832
+            weight: 3
+            additional:
+              target_uuid: 6b982390-e3cb-4046-a1d4-dca5e6479832
+        third_party_settings: {  }

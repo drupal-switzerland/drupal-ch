@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8eb6e817-bcd2-4d8c-b2e7-445906d912c4
+  bundle: image
+  default_langcode: en
+  depends:
+    d06fa51a-8479-4640-8460-52034915eed0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Diabetes homepage mockup landscape_0.png'
+  created:
+    -
+      value: 1701184749
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d06fa51a-8479-4640-8460-52034915eed0
+      alt: 'Diabetes website on open laptop'
+      title: ''
+      width: 1152
+      height: 720

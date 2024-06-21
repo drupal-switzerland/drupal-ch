@@ -1,0 +1,16 @@
+password_reset:
+  subject: 'Replacement login information for [user:display-name] at [site:name]'
+register_admin_created:
+  subject: 'An administrator created an account for you at [site:name]'
+register_no_approval_required:
+  subject: 'Account details for [user:display-name] at [site:name]'
+register_pending_approval:
+  subject: 'Account details for [user:display-name] at [site:name] (pending admin approval)'
+register_pending_approval_admin:
+  subject: 'Account details for [user:display-name] at [site:name] (pending admin approval)'
+status_activated:
+  subject: 'Account details for [user:display-name] at [site:name] (approved)'
+status_blocked:
+  subject: 'Account details for [user:display-name] at [site:name] (blocked)'
+status_canceled:
+  subject: 'Account details for [user:display-name] at [site:name] (canceled)'

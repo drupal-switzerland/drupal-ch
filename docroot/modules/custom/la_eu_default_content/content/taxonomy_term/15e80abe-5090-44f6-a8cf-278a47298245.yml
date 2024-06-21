@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 15e80abe-5090-44f6-a8cf-278a47298245
+  bundle: category
+  default_langcode: en
+  depends:
+    31cb6e3a-9081-4d3c-b689-0b5a64370e5f: media
+    fb5c70a9-9558-475d-84b5-60ef0e860628: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Media and publishers'
+  description:
+    -
+      value: "<p><strong>Build something incredible</strong></p>\r\n\r\n<p>Customize your media solution with the power of open source.</p>\r\n\r\n<p><strong>Flexible</strong> - Digital asset management supports your creative and editorial workflows.</p>\r\n\r\n<p><strong>Relevant</strong> - Multi-channel publishing and personalization enables relevant connections at the right place and time.</p>\r\n\r\n<p><strong>Effective</strong> - Tools for generating revenue with content, increase sales and grow your brand.</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Media and publishers | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Build something incredible Customize your media solution with the power of open source. Flexible - Digital asset management supports your creative and editorial workflows. Relevant - Multi-channel publishing and personalization enables relevant connections at the right place and time. Effective - Tools for generating revenue with content, increase sales and grow your brand.'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: /applications/media-and-publishers
+      langcode: en
+      pathauto: 1
+  field_description:
+    -
+      value: "Content at your audience's fingertips"
+      format: plain_text
+  field_heading:
+    -
+      value: 'Media and publishers'
+  field_image:
+    -
+      entity: 31cb6e3a-9081-4d3c-b689-0b5a64370e5f
+  field_media:
+    -
+      entity: fb5c70a9-9558-475d-84b5-60ef0e860628

@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2602bdee-3a48-497b-828c-7b605053064d
+  bundle: category
+  default_langcode: en
+  depends:
+    9724d723-2fcb-4b68-96c2-f54d7b9d7c13: media
+    78c2c4cc-bfee-4b6e-a088-a73eeb3afe4f: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Social / Community'
+  description:
+    -
+      value: "<p>Connecting people in a community requires a stable and secure platform. Drupal offers all the possibilities to build and maintain communities and to allow community managers to easily fulfill their role.&nbsp;</p>\r\n\r\n<p>Multilinguality, content editing and scalability ensure that you always stay connected to your community.</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Social / Community | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Connecting people in a community requires a stable and secure platform. Drupal offers all the possibilities to build and maintain communities and to allow community managers to easily fulfill their role.\_ Multilinguality, content editing and scalability ensure that you always stay connected to your community."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: /applications/social-community
+      langcode: en
+      pathauto: 1
+  field_description:
+    -
+      value: 'Connect people to each other and make them work together'
+      format: plain_text
+  field_heading:
+    -
+      value: 'Social / Community'
+  field_image:
+    -
+      entity: 9724d723-2fcb-4b68-96c2-f54d7b9d7c13
+  field_media:
+    -
+      entity: 78c2c4cc-bfee-4b6e-a088-a73eeb3afe4f

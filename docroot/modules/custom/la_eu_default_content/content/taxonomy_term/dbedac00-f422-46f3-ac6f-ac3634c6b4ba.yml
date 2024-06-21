@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: dbedac00-f422-46f3-ac6f-ac3634c6b4ba
+  bundle: category
+  default_langcode: en
+  depends:
+    00883831-e78e-41c3-92e1-25c535c4d61f: media
+    5b86277f-ca50-49e5-984a-3ec8a49e1290: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Sports and entertainment'
+  description:
+    -
+      value: "<p>Enhance the fan experience</p>\r\n\r\n<p>Drupal's ability to make real-time content changes and support huge traffic spikes delivers the best fan experiences beyond average branded sites.</p>\r\n\r\n<p><strong>Support huge visitor spikes</strong> -- with third-party cache support and a built-in caching system, Drupal is perfectly equipped to handle huge influxes of traffic.</p>\r\n\r\n<p><strong>Full integration with fan engagement tools</strong> -- Drupal can be integrated with a multitude of web services, modules, third-party services and APIs essential for driving real-time engagement.</p>\r\n\r\n<p><strong>Great content capabilities </strong>-- experience the benefits of a streamlined editorial workflow; Drupal gives your content creators a whole ecosystem of content types and powerful tools.</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Sports and entertainment | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Enhance the fan experience Drupal's ability to make real-time content changes and support huge traffic spikes delivers the best fan experiences beyond average branded sites. Support huge visitor spikes -- with third-party cache support and a built-in caching system, Drupal is perfectly equipped to handle huge influxes of traffic. Full integration with fan engagement tools -- Drupal can be integrated with a multitude of web services, modules, third-party services and APIs essential for driving real-time engagement. Great content capabilities -- experience the benefits of a streamlined editorial workflow; Drupal gives your content creators a whole ecosystem of content types and powerful tools."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: /applications/sports-and-entertainment
+      langcode: en
+      pathauto: 1
+  field_description:
+    -
+      value: 'Brings fans to their feet'
+      format: plain_text
+  field_heading:
+    -
+      value: 'Sports and entertainment'
+  field_image:
+    -
+      entity: 00883831-e78e-41c3-92e1-25c535c4d61f
+  field_media:
+    -
+      entity: 5b86277f-ca50-49e5-984a-3ec8a49e1290

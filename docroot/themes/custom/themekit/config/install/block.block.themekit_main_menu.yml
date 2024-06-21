@@ -1,12 +1,4 @@
-langcode: en
 status: true
-dependencies:
-  config:
-    - system.menu.main
-  module:
-    - system
-  theme:
-    - themekit
 id: themekit_main_menu
 theme: themekit
 region: header

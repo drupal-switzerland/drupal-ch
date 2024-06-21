@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_provider
+    - media.type.remote_video
+id: media.remote_video.field_video_provider
+field_name: field_video_provider
+entity_type: media
+bundle: remote_video
+label: 'VIdeo Provider'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

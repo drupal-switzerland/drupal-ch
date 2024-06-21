@@ -1,13 +1,4 @@
-langcode: en
 status: true
-dependencies:
-  config:
-    - image.style.large
-    - image.style.medium
-    - image.style.small
-    - image.style.x_large
-  theme:
-    - themekit
 id: full_width
 label: 'Full Width'
 image_style_mappings:

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a09461ce-ffed-4718-a87b-9433db304d8a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: linkedin-logo.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/linkedin-logo.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 2285
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701190980

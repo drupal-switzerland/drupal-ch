@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5162f647-9379-4097-8c51-ecd67eeae7a7
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: secure.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/secure.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 176389
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701199963

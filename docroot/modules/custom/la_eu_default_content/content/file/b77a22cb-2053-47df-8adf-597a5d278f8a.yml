@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b77a22cb-2053-47df-8adf-597a5d278f8a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: logo-drupaljam-xl-color-light-bg.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/logo-drupaljam-xl-color-light-bg.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 5272
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701190809

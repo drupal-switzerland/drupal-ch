@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 511517dc-0e09-4ac1-baad-17bd8bb627f9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: floris-van-geel.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/floris-van-geel.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 112902
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701189829

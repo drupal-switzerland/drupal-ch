@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.header_banner_basic.field_alt_title
+    - field.field.paragraph.header_banner_basic.field_description
+    - field.field.paragraph.header_banner_basic.field_p_link
+    - paragraphs.paragraphs_type.header_banner_basic
+  module:
+    - paragraphs
+    - text
+id: paragraph.header_banner_basic.default
+targetEntityType: paragraph
+bundle: header_banner_basic
+mode: default
+content:
+  field_alt_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_p_link:
+    type: entity_reference_paragraphs
+    weight: 2
+    region: content
+    settings:
+      title: Link
+      title_plural: Links
+      edit_mode: preview
+      add_mode: select
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

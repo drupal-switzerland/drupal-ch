@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: front
+label: Frontpage
+tags:
+  abstract: 'Drupal, the open source DXP'
+  canonical_url: '[site:url]'
+  description: 'Drupal, the open source DXP'
+  shortlink: '[site:url]'
+  title: 'Drupal, the open source DXP'

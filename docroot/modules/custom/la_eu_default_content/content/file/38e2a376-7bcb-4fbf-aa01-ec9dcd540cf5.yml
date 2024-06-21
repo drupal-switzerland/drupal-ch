@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 38e2a376-7bcb-4fbf-aa01-ec9dcd540cf5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: asset.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/asset.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 14226
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701190868

@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: small_square_1_1
+label: 'Small Square 1:1 (320 x 320)'
+effects:
+  52167151-b1f8-47c4-bb8e-2dd8309cd66c:
+    uuid: 52167151-b1f8-47c4-bb8e-2dd8309cd66c
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 320
+      crop_type: focal_point
+pipeline: default

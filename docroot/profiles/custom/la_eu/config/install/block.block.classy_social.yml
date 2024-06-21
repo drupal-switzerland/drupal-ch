@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - menu_block
+  theme:
+    - classy
+id: classy_social
+theme: classy
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'menu_block:social'
+settings:
+  id: 'menu_block:social'
+  label: 'Follow us on'
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'social:'
+  suggestion: social
+  label_type: block
+  label_link: false
+visibility: {  }

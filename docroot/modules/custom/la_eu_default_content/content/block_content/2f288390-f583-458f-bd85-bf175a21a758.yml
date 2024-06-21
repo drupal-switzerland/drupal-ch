@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 2f288390-f583-458f-bd85-bf175a21a758
+  bundle: text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_frame:
+    -
+      value: true
+  field_heading:
+    -
+      value: 'Drupal is the DXP behind many digital experiences that make you happy. Available to everyone and without high licensing fees.'

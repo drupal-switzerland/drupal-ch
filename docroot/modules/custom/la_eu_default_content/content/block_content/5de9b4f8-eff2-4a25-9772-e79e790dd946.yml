@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 5de9b4f8-eff2-4a25-9772-e79e790dd946
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    1e4856d1-4ef2-4c98-99fb-1c22103e3488: media
+    7f4650db-cdd1-4647-a646-da6adaf806f5: node
+    f498265d-5b6b-48f6-977b-6ecf020e0de7: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal makes the best of the web possible, from high traffic media- and publication sites, to portals for education and governments as well as easy to manage sites for non-profit organisations. Open-source all the way.</p>\r\n\r\n<p>Check out some of the awesome cases below. Are you already convinced Drupal is a great next step to you? Find a partner to help you on your next journey.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: Solutions
+  field_media:
+    -
+      entity: 1e4856d1-4ef2-4c98-99fb-1c22103e3488
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 051c3190-c2c3-435c-b85d-596b5e5e489e
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701199077
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: 7f4650db-cdd1-4647-a646-da6adaf806f5
+              title: 'Case studies'
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 56a33e1e-7117-4deb-8014-59a08151216d
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701199103
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: secondary
+          field_link:
+            -
+              target_uuid: f498265d-5b6b-48f6-977b-6ecf020e0de7
+              title: 'Find a partner'
+              options: {  }

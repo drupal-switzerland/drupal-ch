@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.detail_item.field_label
+    - field.field.paragraph.detail_item.field_value
+    - paragraphs.paragraphs_type.detail_item
+id: paragraph.detail_item.default
+targetEntityType: paragraph
+bundle: detail_item
+mode: default
+content:
+  field_label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_value:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

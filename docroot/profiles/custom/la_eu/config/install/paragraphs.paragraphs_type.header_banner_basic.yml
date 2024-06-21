@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: header_banner_basic
+label: 'Header Banner - Basic'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

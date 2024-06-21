@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 40be7db9-aade-4ead-ae8a-ff7a27e160c9
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    11a7163b-1965-41aa-a1bb-7824a0ba8662: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Esmeralda (<a href=\"https://www.drupal.org/u/esmeraldabt\">esmeraldabt</a>) Tijhoff taught herself to program and started her own web development company during her history studies. In 2018, she permanently altered her career path as a researcher at the RUG for a start as a Drupal developer at DICTU. She now works at DICTU as a Product Owner on a series of Drupal products for the government.</p>\r\n\r\n<p>Esmeralda is also committed to an inclusive Drupal community. Not only must the websites be accessible to all users, but also the knowledge and events within the Drupal community. In order to continue to use Drupal sustainably, she continuously seeks cooperation between the market and government, the end-user and developer, and activist and manager. Furthermore, she is committed to the bond between the various Drupal organizations in Europe and beyond.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Esmeralda Tijhoff'
+  field_media:
+    -
+      entity: 11a7163b-1965-41aa-a1bb-7824a0ba8662
+  field_media_position:
+    -
+      value: left

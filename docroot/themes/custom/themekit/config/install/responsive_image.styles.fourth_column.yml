@@ -1,13 +1,4 @@
-langcode: en
 status: true
-dependencies:
-  config:
-    - image.style.2x_small
-    - image.style.medium
-    - image.style.small
-    - image.style.x_small
-  theme:
-    - themekit
 id: fourth_column
 label: 'Fourth Column'
 image_style_mappings:

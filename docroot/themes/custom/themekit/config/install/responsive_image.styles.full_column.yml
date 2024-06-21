@@ -1,13 +1,4 @@
-langcode: en
 status: true
-dependencies:
-  config:
-    - image.style.large
-    - image.style.medium
-    - image.style.small
-    - image.style.x_large
-  theme:
-    - themekit
 id: full_column
 label: 'Full Column'
 image_style_mappings:

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.form_preview
+label: 'Form Preview'
+description: ''
+targetEntityType: media
+cache: true

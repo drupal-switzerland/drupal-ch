@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - site_settings.site_setting_entity_type.subscribe_form
+id: site_setting_entity.subscribe_form
+target_entity_type_id: site_setting_entity
+target_bundle: subscribe_form
+default_langcode: site_default
+language_alterable: false

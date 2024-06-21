@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 58dbdec3-83f4-4e4e-8e52-69dba39cfe5f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tools.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/tools.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 121348
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701200263

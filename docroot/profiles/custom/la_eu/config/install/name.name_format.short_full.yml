@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: short_full
+label: 'Short full'
+locked: false
+pattern: g+if

@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 23194dd2-2399-4c35-aa86-87a9c9bf4b02
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Twitter
+  menu_name:
+    -
+      value: social
+  link:
+    -
+      uri: 'https://twitter.com/drupalnl'
+      title: ''
+      options:
+        attributes:
+          target: _blank
+          class:
+            - ''
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 30
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu

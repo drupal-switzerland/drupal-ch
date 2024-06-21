@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: text_with_media
+label: 'Text with Media'
+revision: 0
+description: ''
