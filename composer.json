@@ -41,7 +41,6 @@
         "drupal/core-recommended": "^10.1",
         "drupal/csv_serialization": "^4.0",
         "drupal/default_content": "2.0.x-dev@dev",
-        "drupal/devel": "^5.2",
         "drupal/draggableviews": "^2.1",
         "drupal/embed": "^1.7",
         "drupal/entity": "^1.4",

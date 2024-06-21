@@ -6,14 +6,11 @@ label: Develop
 description: ''
 folder: ../config/develop
 module:
-  devel: 0
-  devel_generate: 0
   stage_file_proxy: 0
   update: 0
   views_ui: 0
 theme: {  }
 blacklist:
-  - system.menu.devel
   - ultimate_cron.job.update_cron
 graylist: {  }
 graylist_dependents: true
