@@ -144,6 +144,7 @@
                 "web-root": "docroot/"
             },
             "file-mapping": {
+                "[web-root]/sites/default/all.settings.php": "assets/all.settings.php",
                 "[web-root]/robots.txt": false
             }
         },
