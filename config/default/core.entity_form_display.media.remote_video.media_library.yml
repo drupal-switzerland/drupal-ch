@@ -1,4 +1,4 @@
-uuid: 64332297-d2bd-49dc-bc70-bd475a9730ff
+uuid: 59ff7278-821b-4468-9450-1cf21a0d2b79
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - field.field.media.remote_video.field_video_type
     - media.type.remote_video
 _core:
-  default_config_hash: hj-J_Lk34WIxW3aSSrm1vUCpgep3vFcSMpUOiElhT5c
+  default_config_hash: ZVpkPhfMQ9N7YB0f2Uqi8GdgzNKQVTtupwnJc5Iend0
 id: media.remote_video.media_library
 targetEntityType: media
 bundle: remote_video
@@ -32,5 +32,10 @@ hidden:
   field_video_type: true
   langcode: true
   path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
   status: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true

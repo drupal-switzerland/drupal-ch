@@ -1,9 +1,11 @@
-uuid: 74f4bb97-d537-4699-8daf-2b340bbd7db4
+uuid: 7d7ab1cf-eb6b-4355-803d-3968780a67a8
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: PfI6CWB7miJejeVcZJDj1ITfvI8rH3kSt3jwCJsiS-U
 id: node_event
 label: 'Node - Event'
 type: 'canonical_entities:node'

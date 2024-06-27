@@ -1,7 +1,9 @@
-uuid: 249c9c45-a455-4e6b-b627-22b2a15a3adb
+uuid: ab0f3fe3-33da-473d-93ed-1245b13c0188
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: yheySH4HHhrTFF6qIuqv5ySxpHQH9h6KijuU7be4EvM
 name: Category
 vid: category
 description: ''

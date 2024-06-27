@@ -1,4 +1,4 @@
-uuid: 2376270d-4e28-4a5f-b331-0ba7dd4e380c
+uuid: 21f55913-f46a-4290-a80b-99a6a18fd59f
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - field.field.paragraph.link_file.field_file
     - paragraphs.paragraphs_type.link_file
 _core:
-  default_config_hash: fCCwnH5H37O2Z3_xcg01VBac9e0rtuT_hCuIOXP3g3s
+  default_config_hash: KpGrhFzHpdNi8h8lNnxuuQMSeoIc00SrQ4g3GZMjA4k
 id: paragraph.link_file.default
 targetEntityType: paragraph
 bundle: link_file

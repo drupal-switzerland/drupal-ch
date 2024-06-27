@@ -1,4 +1,4 @@
-uuid: e32202b3-ae6a-4a40-8bb9-694d5f120721
+uuid: 468c2e82-3401-45a3-a52b-c0fc5bf9c3c0
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: QQ7LeJYjkYSLlh2iNBiXvCGykTf-15H5OGK0B-e9HYc
+  default_config_hash: kutkoBEGhZsFprvU8frAsH7_-h5om0xzGb4LAtqwpJY
 id: media.svg.logo
 targetEntityType: media
 bundle: svg
@@ -36,8 +36,8 @@ content:
       enable_title: false
       link: ''
       force_fill: false
-      sanitize: '1'
-      sanitize_remote: 0
+      sanitize: true
+      sanitize_remote: false
     third_party_settings: {  }
     weight: 0
     region: content

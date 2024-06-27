@@ -1,17 +1,15 @@
-uuid: 5e8905b7-2422-4bc7-bbc9-2122c47ae2b2
+uuid: f91ccfad-f5bd-4930-8619-e42b6ec61c6b
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.basic_banner
     - field.storage.block_content.field_description
+    - filter.format.simple_html
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    allowed_formats:
-      - simple_html
+_core:
+  default_config_hash: 4tG2kR2IeKvDeoZS2v9Rg-V4euaUOQa0RtCZ-qVPLt8
 id: block_content.basic_banner.field_description
 field_name: field_description
 entity_type: block_content
@@ -25,4 +23,6 @@ default_value_callback: ''
 settings:
   display_summary: false
   required_summary: false
+  allowed_formats:
+    - simple_html
 field_type: text_with_summary

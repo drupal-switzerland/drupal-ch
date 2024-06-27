@@ -1,4 +1,4 @@
-uuid: 75b95841-5255-4852-a581-14f80fa27f77
+uuid: 77417646-82b9-4094-8327-c42eca5b0861
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.taxonomy_term.field_references_limit
     - node.type.case
     - taxonomy.vocabulary.category
+_core:
+  default_config_hash: JQxLEXj83B-txWOaE6BypmsSTatbvDx11QaFxqVJIE0
 id: taxonomy_term.category.field_references_limit
 field_name: field_references_limit
 entity_type: taxonomy_term

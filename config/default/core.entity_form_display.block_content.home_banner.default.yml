@@ -1,4 +1,4 @@
-uuid: d726abe0-112f-4413-b497-0a938fabc7fd
+uuid: 5b784dc4-049a-4d7d-82d4-b3dd1b75763b
 langcode: en
 status: true
 dependencies:
@@ -34,6 +34,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: true
+_core:
+  default_config_hash: qcCBsipbBvOfx5H6cN4e__SVwEZ0GJ7tzNr5ukFob3I
 id: block_content.home_banner.default
 targetEntityType: block_content
 bundle: home_banner

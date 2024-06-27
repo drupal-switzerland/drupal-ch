@@ -1,4 +1,4 @@
-uuid: a35e153d-5b1c-45f8-8bd0-1b51572a6c8f
+uuid: 2cf95e5d-18e5-4740-a59a-5841e09e806f
 langcode: en
 status: true
 dependencies:
@@ -28,6 +28,8 @@ third_party_settings:
     minimum_revisions_to_keep: 5
     minimum_age_to_delete: 0
     when_to_delete: 0
+_core:
+  default_config_hash: 5yEvbLvKkISOe9Gz9JOITwmwRAReu1NgBRN3fCdHtSA
 name: Partner
 type: partner
 description: ''

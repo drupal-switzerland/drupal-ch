@@ -1,10 +1,12 @@
-uuid: bcf3f9b3-f440-44d8-a003-10e0aa0465c1
+uuid: a4868932-5a9f-4e69-a465-7c30d5d7aaaa
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
     - text
+_core:
+  default_config_hash: BDVlUDVqYRyArZ7LnEqZqFNyTzctUcwQpIrHqE9GmCE
 id: taxonomy_term.field_description
 field_name: field_description
 entity_type: taxonomy_term

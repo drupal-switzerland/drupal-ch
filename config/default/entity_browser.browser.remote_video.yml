@@ -1,4 +1,4 @@
-uuid: cf40f9a8-bb6e-4959-84ec-da30ea8e357d
+uuid: c0f9afbe-2e57-4b6f-b4f0-971c17298fb3
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - entity_browser_entity_form
     - views
 _core:
-  default_config_hash: hNN07JilDr5pOBgIIeUS-9aP6FuTqqR5F9jWx2DE29c
+  default_config_hash: Uebo71azNsU17LS5TOoaVLOExHmyCO3ZtogO-iHBa8E
 name: remote_video
 label: 'Remote Video'
 display: modal
@@ -23,22 +23,22 @@ widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
   3ac4900a-a4e8-4d5d-aa1c-51d7a44e8852:
-    id: view
-    uuid: 3ac4900a-a4e8-4d5d-aa1c-51d7a44e8852
-    label: 'View Remote Videos'
-    weight: 1
     settings:
       submit_text: 'Select Video'
       auto_select: false
       view: entity_browser_remote_video
       view_display: entity_browser_1
+    uuid: 3ac4900a-a4e8-4d5d-aa1c-51d7a44e8852
+    weight: 1
+    label: 'View Remote Videos'
+    id: view
   46b336da-7cc3-44cf-bd26-f43898f4f0d5:
-    id: entity_form
-    uuid: 46b336da-7cc3-44cf-bd26-f43898f4f0d5
-    label: 'Add Remote Video'
-    weight: 2
     settings:
       submit_text: 'Save Video'
       entity_type: media
       bundle: remote_video
       form_mode: media_browser
+    uuid: 46b336da-7cc3-44cf-bd26-f43898f4f0d5
+    weight: 2
+    label: 'Add Remote Video'
+    id: entity_form

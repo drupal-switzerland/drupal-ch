@@ -1,0 +1,20 @@
+uuid: 719740db-5ab7-4daa-81e3-dc3b5e63331a
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+  module:
+    - options
+id: media.remote_video.unpublish_state
+field_name: unpublish_state
+entity_type: media
+bundle: remote_video
+label: 'Unpublish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

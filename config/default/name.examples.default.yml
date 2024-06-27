@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: UWTs4MzakCEyfc8ytLFqZlhaJPD2vwPHXnpZYQRMhbM
 examples:
   -
     title: Mr
@@ -20,5 +22,3 @@ examples:
     family: ''
     generational: ''
     credentials: ''
-_core:
-  default_config_hash: UWTs4MzakCEyfc8ytLFqZlhaJPD2vwPHXnpZYQRMhbM

@@ -1,10 +1,12 @@
-uuid: 54c67e20-efb0-41e3-913d-37f9a450405e
+uuid: 2a2e6031-c2e1-414b-9ee3-7632f3320ab5
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_website_of_the_year
     - node.type.partner
+_core:
+  default_config_hash: BRKmH5UgJ_wYCeUZbqdrvTZJatsEdbNDT10loAeyXew
 id: node.partner.field_website_of_the_year
 field_name: field_website_of_the_year
 entity_type: node

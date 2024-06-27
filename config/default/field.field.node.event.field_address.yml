@@ -1,4 +1,4 @@
-uuid: b8ec69d3-1cc2-4b87-b64e-e7be4d8dacdb
+uuid: 2d6ea22f-3894-4909-bef1-91ea509bcda1
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.event
   module:
     - address
+_core:
+  default_config_hash: smNMAcR5gWU-usrVRoSstzAsXvAZEi4RWzEcHYljkT0
 id: node.event.field_address
 field_name: field_address
 entity_type: node

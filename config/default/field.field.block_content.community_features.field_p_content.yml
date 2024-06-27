@@ -1,4 +1,4 @@
-uuid: 76592ec3-5399-40bc-926e-aafd82766830
+uuid: 5cbd9ab1-a564-4f3d-be4a-3adf44562a96
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.feature
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: 3NnusHZNdZLlE7RLkHl_UTu48xJfxYp2l2pQS4PgTII
 id: block_content.community_features.field_p_content
 field_name: field_p_content
 entity_type: block_content

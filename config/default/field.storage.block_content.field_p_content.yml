@@ -1,4 +1,4 @@
-uuid: 13865d98-0784-42ed-9791-7868ce431489
+uuid: 8409348f-4a25-41d7-9431-82ac69553839
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - block_content
     - entity_reference_revisions
     - paragraphs
+_core:
+  default_config_hash: mxVZZMADMQLJ_GhvF45gpmejXzyCox6xXZQooOQJfRo
 id: block_content.field_p_content
 field_name: field_p_content
 entity_type: block_content

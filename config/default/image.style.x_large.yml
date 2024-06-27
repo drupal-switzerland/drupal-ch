@@ -1,9 +1,9 @@
-uuid: 1d07ae21-c003-492b-b0c6-96b34e793a96
+uuid: 5e0055a0-c01b-4444-baa0-cfac4c2152eb
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 67JxkQ6CrZfqzU-3tJJ4sdZplypvHuF91oXC5mIHZTg
+  default_config_hash: YDGy2505dWzFR-fWbs2QCFypb0_HzAS-8nU8_CiwYBU
 name: x_large
 label: 'X Large (1920W)'
 effects:

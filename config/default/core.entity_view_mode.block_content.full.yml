@@ -1,12 +1,13 @@
-uuid: fe27acf0-d54d-4b6e-b65a-82fb7c83990c
-langcode: nl
+uuid: 5614a917-cd93-46ab-a026-a906813178fd
+langcode: en
 status: false
 dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: 4tedlMuvQjDOdvHdw86_e-2Rt78aR7TGFMfOK8Ejppg
+  default_config_hash: Q7yUUYeRLByl-MCGveKKF_KhAtNICLCMJuKWfugCvso
 id: block_content.full
-label: Volledig
+label: Full
+description: ''
 targetEntityType: block_content
 cache: true

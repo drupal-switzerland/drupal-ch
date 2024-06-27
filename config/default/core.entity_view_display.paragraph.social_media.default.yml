@@ -1,4 +1,4 @@
-uuid: be320a78-ba96-4344-aaa1-5ea63c4a4f52
+uuid: 055d967b-0ab6-4de5-94d8-6e429e25f337
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.social_media
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: mYILdLfCjtleRagcH2bfa2ya6h3vWIObAqZ_D-zmPVA
 id: paragraph.social_media.default
 targetEntityType: paragraph
 bundle: social_media

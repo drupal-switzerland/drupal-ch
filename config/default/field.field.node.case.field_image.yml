@@ -1,4 +1,4 @@
-uuid: dafe8f98-875b-4a8f-aaa2-4e7ec9dfd3f8
+uuid: d3adc5e4-10df-4794-9af6-f53471189c36
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_image
     - media.type.image
     - node.type.case
+_core:
+  default_config_hash: ZptPVGjkaW6CAh-Roenx7_iojg5vrCGBd5POenc0INQ
 id: node.case.field_image
 field_name: field_image
 entity_type: node
@@ -13,7 +15,7 @@ bundle: case
 label: Image
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

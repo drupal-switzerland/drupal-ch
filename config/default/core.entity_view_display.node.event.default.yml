@@ -1,4 +1,4 @@
-uuid: 1ccdca41-9d3b-4470-b085-6f7c14b93ae2
+uuid: d24db62d-7cda-40f2-86da-65fc44c1b1f4
 langcode: en
 status: true
 dependencies:
@@ -17,6 +17,8 @@ dependencies:
     - media_responsive_thumbnail
     - text
     - user
+_core:
+  default_config_hash: _1Qp4zpiCfKsw9YmiJVrSuWZKji4ear3aOVwplBi1bM
 id: node.event.default
 targetEntityType: node
 bundle: event

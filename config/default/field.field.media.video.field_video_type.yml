@@ -1,4 +1,4 @@
-uuid: 5c3eafc3-5ad1-4613-b9c6-b1f74efd5a74
+uuid: 59987529-800c-4a0a-8fa7-0aa0e9503506
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,7 @@ bundle: video
 label: 'Video Type'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

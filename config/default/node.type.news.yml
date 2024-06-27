@@ -1,4 +1,4 @@
-uuid: a686a2da-3758-4132-aefa-c2b16f565ab4
+uuid: cf4a0f8e-5882-4483-bfed-149b5e41c240
 langcode: en
 status: true
 dependencies:
@@ -28,6 +28,8 @@ third_party_settings:
     unpublish_enable: false
     unpublish_required: false
     unpublish_revision: false
+_core:
+  default_config_hash: S9pYimReoIY3cpthtidKoBVe0jvV-dddjuaOD0AEynw
 name: News
 type: news
 description: ''

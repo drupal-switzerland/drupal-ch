@@ -1,0 +1,22 @@
+uuid: 0dc3cc5b-ec12-4099-b5f8-a68465e4d584
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - classy
+_core:
+  default_config_hash: irm1guKQ90cop36lucTbS9gxbh5eFDy5DHjJdRtOhBQ
+id: classy_powered
+theme: classy
+region: header
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

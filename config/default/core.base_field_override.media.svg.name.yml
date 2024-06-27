@@ -1,0 +1,20 @@
+uuid: c38028f5-f880-45cb-9f7e-d59ea72dfa41
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+id: media.svg.name
+field_name: name
+entity_type: media
+bundle: svg
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

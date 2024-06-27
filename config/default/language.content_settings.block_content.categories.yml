@@ -1,9 +1,18 @@
-uuid: d959e5a7-27ae-48c8-9323-108cabf5d0ef
+uuid: 18f07e65-9d11-42d3-9e0d-c17083d12cd8
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.categories
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: WEzTY_SU_AKtFpx0c-aQh1PiyexRv0gMTwqDHpuFmRM
 id: block_content.categories
 target_entity_type_id: block_content
 target_bundle: categories

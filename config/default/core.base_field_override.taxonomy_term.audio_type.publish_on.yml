@@ -1,0 +1,18 @@
+uuid: 76872a79-8b3b-4538-8f3f-70d9a970740b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.audio_type
+id: taxonomy_term.audio_type.publish_on
+field_name: publish_on
+entity_type: taxonomy_term
+bundle: audio_type
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

@@ -1,4 +1,4 @@
-uuid: cb8e7de1-10a4-4ccf-b6fb-0b4caafc956b
+uuid: 6bbc5994-ccf1-4b77-bcfe-20441ebb5bf3
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,7 @@ bundle: audio
 label: Tags
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

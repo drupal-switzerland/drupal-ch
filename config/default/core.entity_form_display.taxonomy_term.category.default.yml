@@ -1,4 +1,4 @@
-uuid: 27b43f04-823a-46ef-93f2-bb0987e1fc60
+uuid: 3d4e7434-cd69-406f-b13c-68768dcc733d
 langcode: en
 status: true
 dependencies:
@@ -98,6 +98,8 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: true
+_core:
+  default_config_hash: UXVoDjjCLDiXX_sXz3nQeVfF_KSCW1vhdPvIohd_lAQ
 id: taxonomy_term.category.default
 targetEntityType: taxonomy_term
 bundle: category
@@ -186,6 +188,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
     weight: 2
@@ -196,3 +203,7 @@ content:
 hidden:
   langcode: true
   path: true
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

@@ -1,4 +1,4 @@
-uuid: fdb7e159-f69b-410f-9340-f019d0fc33ac
+uuid: 158429ef-b1a6-4a03-84ba-7db03854e482
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - taxonomy
     - user
+_core:
+  default_config_hash: QkzBvYaipKqHwt_Cqn0nkgvU1VZDyYia4yt5SFytp7c
 id: categories
 label: Categories
 module: views

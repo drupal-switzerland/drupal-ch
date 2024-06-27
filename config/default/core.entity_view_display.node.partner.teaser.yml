@@ -1,4 +1,4 @@
-uuid: a7ed3883-f665-4bf7-84f7-94862cbd2fb8
+uuid: d7233653-1b2b-4d2e-95be-8ee856999590
 langcode: en
 status: true
 dependencies:
@@ -21,6 +21,8 @@ dependencies:
     - node.type.partner
   module:
     - user
+_core:
+  default_config_hash: iOcS_x0WceOkqkiWB50lp-bApJOH-Lrz5nXhTnL8tZY
 id: node.partner.teaser
 targetEntityType: node
 bundle: partner

@@ -1,4 +1,4 @@
-uuid: 53ee35dd-3d05-41e6-b790-649aba51c70d
+uuid: 6c838048-2c1e-4b09-abb6-f7553c4a52ad
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_category
     - node.type.case
     - taxonomy.vocabulary.category
+_core:
+  default_config_hash: Vcim70pdmpCmtK_IeauVNO53AOkI0JcBgotOxxun8lY
 id: node.case.field_category
 field_name: field_category
 entity_type: node
@@ -13,7 +15,7 @@ bundle: case
 label: Category
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

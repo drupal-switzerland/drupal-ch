@@ -1,9 +1,18 @@
-uuid: aaabfc41-adcd-47e0-8d38-645600b41f8e
+uuid: da1b55ad-ea0b-48e0-be61-a0d052e692a0
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.links
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: Tqj1dxOJvoHMjImQrnAxES-xUTgFcZNXFKQTVOIgsZs
 id: block_content.links
 target_entity_type_id: block_content
 target_bundle: links

@@ -1,7 +1,9 @@
-uuid: 03414599-ebd0-4e1d-97a6-1eee7d950ee4
+uuid: d65041da-f233-4571-b780-4ec2b48228b9
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 82cZJ6_zOowCPU7ISSbLY8sBMiUuNINMOmCP-r-oWvE
 id: text_with_media
 label: 'Text with Media'
 revision: 0

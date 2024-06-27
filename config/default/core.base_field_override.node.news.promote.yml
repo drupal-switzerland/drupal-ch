@@ -1,9 +1,11 @@
-uuid: 165e6661-7a96-42fb-8c7c-a86c87a064ff
+uuid: 7d0feed3-d9b2-471f-892a-acb4a2c4ea7c
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.news
+_core:
+  default_config_hash: YFOOXDA1pcVKf_Ne7yI6zdqX4q_ZToJYroeAgmQRtEk
 id: node.news.promote
 field_name: promote
 entity_type: node

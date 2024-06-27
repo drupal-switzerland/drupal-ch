@@ -1,7 +1,9 @@
-uuid: f1f7523b-d4f0-428e-904b-fe5b66ff48ab
+uuid: 85b3617a-18af-4c28-871a-e53a7aeead80
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: YPvJb-CWrQNakfT15DjRQxhTDm4l_s97vOqlEPgBQs4
 id: category_feature
 label: 'Category Feature'
 icon_uuid: null

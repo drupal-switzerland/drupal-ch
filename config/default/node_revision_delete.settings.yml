@@ -1,6 +1,5 @@
 _core:
   default_config_hash: Cq0qEqvsPlEVfrCpF0VRzK4MFQhRHzqncneoTEKHXUc
-langcode: nl
 delete_newer: false
 node_revision_delete_cron: 50
 node_revision_delete_time: -1

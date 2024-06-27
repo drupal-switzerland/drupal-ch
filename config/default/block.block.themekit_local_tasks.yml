@@ -1,5 +1,5 @@
-uuid: 02013a93-baba-4bf7-bbca-a9b15a167c92
-langcode: nl
+uuid: 37d057e0-eca4-47c7-9413-c0e3908c7106
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - themekit
 _core:
-  default_config_hash: EGUMgZSy6DYjyIVtCZj_RIA8af4gnZMtrrGdIRpTXTE
+  default_config_hash: VbZFnjX8EeT_9zQMpvLFk1Gr7TZ7QGt_gqfEgtoviJY
 id: themekit_local_tasks
 theme: themekit
 region: highlighted
@@ -16,7 +16,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: Tabbladen
+  label: Tabs
   label_display: '0'
   provider: core
   primary: true

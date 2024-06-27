@@ -1,12 +1,13 @@
-uuid: cea92457-129e-42fa-8493-aaa9033691f7
-langcode: nl
+uuid: b220da03-0a2f-4d92-861c-18f3b3dcb9fa
+langcode: en
 status: false
 dependencies:
   module:
     - media
 _core:
-  default_config_hash: 6NBUEuGmlkClK8Fb76tSMMpO2eZ4LWCBdbUk4z7CuP0
+  default_config_hash: dTfAUHooYV0uOVPO3saGpgv-c5PppJXDwxvwRTJOycM
 id: media.full
-label: 'Volledige inhoud'
+label: 'Full content'
+description: ''
 targetEntityType: media
 cache: true

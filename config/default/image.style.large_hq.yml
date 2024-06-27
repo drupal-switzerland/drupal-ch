@@ -1,9 +1,9 @@
-uuid: d5e00ee3-4089-42f5-99c9-995768b81ffa
+uuid: 1b3e755a-f793-40ae-bf26-f32559ac0fc2
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: GEHVBonmZIC1uOQx2_JiVlU9JyKYfeRSodiSnSWCOD0
+  default_config_hash: OvjmM-NyXOVuKfUulC0huSzJ1fbOvBQpb35TMI2nmCw
 name: large_hq
 label: 'Large HQ (1366W)'
 effects:

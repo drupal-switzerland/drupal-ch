@@ -1,9 +1,11 @@
-uuid: 511666e4-a9f2-4cdb-b941-1087a54361f3
+uuid: dd0efb49-f1ca-4223-9280-7eed8556aa24
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: b_VLyLFe-TyrhqWS-K2vl0ccGLtOHPl8jBU_vCs_YIw
 id: node.field_winner
 field_name: field_winner
 entity_type: node

@@ -1,0 +1,20 @@
+uuid: 2e5e0dde-c20b-430e-9cf6-53af9ef6427b
+langcode: en
+status: true
+dependencies:
+  config:
+    - site_settings.site_setting_entity_type.subscribe_form
+  module:
+    - metatag
+id: site_setting_entity.subscribe_form.metatag
+field_name: metatag
+entity_type: site_setting_entity
+bundle: subscribe_form
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

@@ -1,11 +1,11 @@
-uuid: 90755d24-2c14-45b4-83d1-06cdaf268f80
-langcode: nl
+uuid: b88e8f94-7bc6-46d2-83e5-325a93177d6f
+langcode: en
 status: true
 dependencies:
   theme:
     - gin
 _core:
-  default_config_hash: OQ9aJ-4qVwK1x00o9EOYK4eFDjQr_HLpbPiJaPSVZiQ
+  default_config_hash: DPPQGDnzOrO36H18ZZEuAooGvVz2OzLBTX6_rUPWDl4
 id: gin_local_actions
 theme: gin
 region: content
@@ -14,7 +14,7 @@ provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Primaire beheeracties'
+  label: 'Primary admin actions'
   label_display: '0'
   provider: core
 visibility: {  }

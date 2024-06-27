@@ -1,9 +1,11 @@
-uuid: c68a6d7c-1a6a-43a9-9a2f-dd6976ac2f7f
+uuid: cd7694de-b095-48d5-ae16-0fca74399a3b
 langcode: en
 status: true
 dependencies:
   module:
     - file
+_core:
+  default_config_hash: qNOmFjyQ01zbfLLe4GsVfznXGXvHGfVnj34z3SA-hnE
 id: file.file
 target_entity_type_id: file
 target_bundle: file

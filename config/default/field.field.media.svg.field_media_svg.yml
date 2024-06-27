@@ -1,4 +1,4 @@
-uuid: e0faa5ac-96c1-4662-822a-56a76fc1f837
+uuid: 57689a5e-6924-476f-89d9-9fef23eeaf39
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - svg_image_field
 _core:
-  default_config_hash: ttjZjXR5qKVbwRcBjTGnK9C03_mA90EZkdpIuCA3GcI
+  default_config_hash: FH-G1PWdOVD1onbJYqj8Yzlo8QCJ1NQENX8ueJW55Lg
 id: media.svg.field_media_svg
 field_name: field_media_svg
 entity_type: media
@@ -16,7 +16,7 @@ bundle: svg
 label: SVG
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

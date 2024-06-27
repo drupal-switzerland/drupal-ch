@@ -1,0 +1,18 @@
+uuid: 74407f75-792e-4560-8ca0-42031d3989bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cases_slider
+id: block_content.cases_slider.info
+field_name: info
+entity_type: block_content
+bundle: cases_slider
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

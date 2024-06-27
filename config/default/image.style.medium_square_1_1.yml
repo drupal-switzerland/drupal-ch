@@ -1,11 +1,11 @@
-uuid: 9c576ad4-084c-4560-b4e1-9cf53df466c8
+uuid: 090ae042-0479-4007-bbe8-6122afb7b534
 langcode: en
 status: true
 dependencies:
   module:
     - focal_point
 _core:
-  default_config_hash: NB6UgZWWeo4lPojes1yQps-bLSkdyKpfI-sUP5MRo60
+  default_config_hash: QkMkLcdwxHZQ9juRYVHjghyxVpLhVvPrcWfNCtbxO8M
 name: medium_square_1_1
 label: 'Medium Square 1:1 (480 x 480)'
 effects:

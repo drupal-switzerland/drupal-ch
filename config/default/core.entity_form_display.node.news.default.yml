@@ -1,4 +1,4 @@
-uuid: 13ffa618-2219-4720-b143-8f9e853fc542
+uuid: f13c1f09-d200-4cf3-ae7b-ef559e0e30a3
 langcode: en
 status: true
 dependencies:
@@ -7,14 +7,13 @@ dependencies:
     - field.field.node.news.field_image
     - field.field.node.news.field_intro
     - node.type.news
+    - workflows.workflow.editorial
   module:
     - allowed_formats
     - content_moderation
     - field_group
     - media_library
     - path
-    - scheduler
-    - scheduler_content_moderation_integration
     - text
 third_party_settings:
   field_group:
@@ -64,6 +63,8 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: true
+_core:
+  default_config_hash: 2ChwkyOduQQ73c-hB9v2-DWGxlRp22JvClIv0ff4FZw
 id: node.news.default
 targetEntityType: node
 bundle: news
@@ -132,15 +133,8 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
-  publish_on:
-    type: datetime_timestamp_no_default
-    weight: 7
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  publish_state:
-    type: scheduler_moderation
-    weight: 9
+  simple_sitemap:
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -176,21 +170,13 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  unpublish_on:
-    type: datetime_timestamp_no_default
-    weight: 8
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  unpublish_state:
-    type: scheduler_moderation
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   url_redirects:
     weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

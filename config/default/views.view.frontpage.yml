@@ -1,5 +1,5 @@
-uuid: 5377c508-1ffc-4909-911d-17b907356e30
-langcode: nl
+uuid: d0085bd8-8e78-4895-bf88-40310ab443a3
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,18 +9,18 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: dnd1M4Mz44QNdIDajMELF28CCxswMc3H_auv4wuJiJI
+  default_config_hash: XEFoA1ECJzKZN4VpnDqqRQO-oltuYdmjjvGEYDKs8uU
 id: frontpage
-label: Voorpagina
+label: Frontpage
 module: node
-description: 'Alle inhoud die wordt aangeraden op de voorpagina.'
+description: 'All content promoted to the front page.'
 tag: default
 base_table: node_field_data
 base_field: nid
 display:
   default:
     id: default
-    display_title: Standaard
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
@@ -34,29 +34,29 @@ display:
           total_pages: 0
           id: 0
           tags:
-            next: 'Volgende ›'
-            previous: '‹ Vorige'
-            first: '« Eerste'
-            last: 'Laatste »'
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per pagina'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Alle -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Startpunt
+            offset_label: Offset
           quantity: 9
       exposed_form:
         type: basic
         options:
-          submit_button: Toepassen
+          submit_button: Apply
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -75,7 +75,7 @@ display:
           plugin_id: text_custom
           label: ''
           empty: true
-          content: 'Er is nog geen inhoud gemaakt voor de voorpagina.<br />Volg de <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">Gebruikershandleiding</a> om uw site te bouwen.'
+          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
           tokenize: false
         node_listing_empty:
           id: node_listing_empty
@@ -98,7 +98,7 @@ display:
           plugin_id: title
           label: ''
           empty: true
-          title: 'Welkom op [site:name]'
+          title: 'Welcome to [site:name]'
       sorts:
         sticky:
           id: sticky
@@ -296,7 +296,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Pagina
+    display_title: Page
     display_plugin: page
     position: 1
     display_options:

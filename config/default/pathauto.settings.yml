@@ -1,6 +1,5 @@
 _core:
   default_config_hash: tfgi1ZEDJLbA7EosuIaMfM3kjOk33RCEYmuDxfyeBEc
-langcode: nl
 enabled_entity_types:
   - user
 punctuation:

@@ -1,9 +1,11 @@
-uuid: 20b0fde5-02a4-4951-a084-f54b98244499
+uuid: 856023ba-aab2-4e84-800f-89546682e183
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.partner
+_core:
+  default_config_hash: hXfXupMgGmRIaAb-DKF6Fl38NSx-ZzXOJ7V9FhiD7ME
 id: node.partner.promote
 field_name: promote
 entity_type: node
@@ -11,7 +13,7 @@ bundle: partner
 label: 'Promoted to front page'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     value: 0

@@ -1,17 +1,15 @@
-uuid: cbc18580-9fee-4e1c-a420-3d46e1385614
+uuid: 91796279-eeb3-46ed-9420-402adaaef537
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.categories
     - field.storage.block_content.field_description
+    - filter.format.basic_html
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    allowed_formats:
-      - basic_html
+_core:
+  default_config_hash: y3JnbZhteXmVINvdnlN7Lbyu5RTHAlzZKFfRT7pRVZI
 id: block_content.categories.field_description
 field_name: field_description
 entity_type: block_content
@@ -19,10 +17,12 @@ bundle: categories
 label: Description
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   display_summary: false
   required_summary: false
+  allowed_formats:
+    - basic_html
 field_type: text_with_summary

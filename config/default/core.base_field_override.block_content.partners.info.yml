@@ -1,0 +1,18 @@
+uuid: fc03084b-f01b-48e1-9801-c611a38d9124
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.partners
+id: block_content.partners.info
+field_name: info
+entity_type: block_content
+bundle: partners
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,4 +1,4 @@
-uuid: 6a7b2fc4-daf1-4d6e-b65c-38e44258d863
+uuid: a41003ce-f04a-4540-b2e1-2956302790ea
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.social_media
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: jMGirLneQm1SMJ8d7zsRwdbcqapUQ53Z1W0OfI4z3Y4
 id: paragraph.social_media.field_p_link
 field_name: field_p_link
 entity_type: paragraph
@@ -15,7 +17,7 @@ bundle: social_media
 label: Link
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

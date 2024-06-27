@@ -1,7 +1,9 @@
-uuid: 111e267f-4260-4362-aef4-e06b6ab6cd23
+uuid: 055a140e-0af0-427f-9911-869958fc3e00
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: gtG7gTESwcwoee3rByw-BIOyLk1kVoVTJ34_Ntg1zGE
 id: feature
 label: Feature
 icon_uuid: null

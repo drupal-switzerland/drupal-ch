@@ -1,5 +1,5 @@
-uuid: f3a17d4d-8d68-4ac3-9df8-6a06c202856e
-langcode: nl
+uuid: 3c9a41f3-2963-4788-a4a2-4df097013228
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - themekit
 _core:
-  default_config_hash: O5etErzP5WM-G1X-k5KbcPnzv_WoxvFYimNL8Zgw2so
+  default_config_hash: R4HVRuUUJAY1TXd2IUof9yoodgpZjnEKEmG5nZBr9Ns
 id: themekit_main_menu
 theme: themekit
 region: header
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: Hoofdnavigatie
+  label: 'Main navigation'
   label_display: '0'
   provider: system
   level: 1

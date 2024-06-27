@@ -1,4 +1,5 @@
-langcode: nl
+_core:
+  default_config_hash: lIkPpQjUFxcWq9jRuD0ty2djyxlBlLTpA8OZEntAS4Y
 ignore_admin_paths: true
 ignore_ajax_links: true
 ignore_hashes: true

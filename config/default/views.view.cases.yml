@@ -1,4 +1,4 @@
-uuid: 8b44ca4b-06d5-4a4b-87aa-2ed9a3dd751c
+uuid: 2866ee43-0d0e-4ffb-a476-20d6f332cda5
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - node
     - taxonomy
     - user
+_core:
+  default_config_hash: Es8fOO_ofQtNpAwz_n3IkGSMiiyDGtJbVF6jx2RqynA
 id: cases
 label: Cases
 module: views
@@ -257,7 +259,6 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -306,7 +307,6 @@ display:
           title: ''
           default_argument_type: node
           default_argument_options: {  }
-          default_argument_skip_url: false
           summary_options:
             base_path: ''
             count: true
@@ -454,7 +454,6 @@ display:
           default_argument_options:
             index: 2
             use_alias: false
-          default_argument_skip_url: false
           summary_options:
             base_path: ''
             count: true
@@ -801,7 +800,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

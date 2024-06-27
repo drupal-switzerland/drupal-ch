@@ -1,4 +1,4 @@
-uuid: 1716916b-280d-4c8c-a596-3ff95c6750ad
+uuid: b8555b26-c750-4ff6-a1c3-c1c708c398ab
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_media
     - media.type.image
     - paragraphs.paragraphs_type.image_slider
+_core:
+  default_config_hash: 5kB1IN7k8lMKLyYdhhI0YOVy8gxzwBsOlj_-jbXOcuo
 id: paragraph.image_slider.field_media
 field_name: field_media
 entity_type: paragraph
@@ -13,7 +15,7 @@ bundle: image_slider
 label: Award
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

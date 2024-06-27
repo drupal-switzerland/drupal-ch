@@ -1,7 +1,9 @@
-uuid: 12a34029-123d-4737-9b91-25708afb49e8
+uuid: 5495fb72-2bdf-4b9d-8e58-1b0920938908
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: bjonHl9Wou7ic-4KZKaYh_GKvU28y01ZuFUDoCZzSDI
 id: social
 label: Social
 description: 'Social links'

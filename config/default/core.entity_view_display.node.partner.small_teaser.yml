@@ -1,4 +1,4 @@
-uuid: 91a76b0d-3967-4dc1-b725-7fcd7acb442f
+uuid: 2fbe02da-9f83-4b2b-9cf3-032a53be0df6
 langcode: en
 status: true
 dependencies:
@@ -26,6 +26,8 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: Q_8cmHwz_ZAJU_yRVOoQvRKgH4HhowjCLJCiekLGndY
 id: node.partner.small_teaser
 targetEntityType: node
 bundle: partner

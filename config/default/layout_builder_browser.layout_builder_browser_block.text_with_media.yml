@@ -1,11 +1,13 @@
-uuid: f9dfd69c-f540-4646-8b30-a4b41e24dd3b
+uuid: a529aef7-70af-490a-a561-0f8d9d547104
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: _S2ObrEC3YDn_SfFq2arXNHWqAinrTgwoskZx6kibQs
 id: text_with_media
 block_id: 'inline_block:text_with_media'
 category: flexible
 label: 'Text with Media'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100

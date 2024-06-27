@@ -1,4 +1,4 @@
-uuid: abde919c-b5ab-4ae9-a05d-b7036deff51e
+uuid: 94f4ea31-c6c9-47f9-8a69-e2ec7a059008
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - link
     - text
+_core:
+  default_config_hash: Jt9DSCeMjUr8QVHbE2p7lX08ClKrqimjSIRvV7tTY_4
 id: site_setting_entity.subscribe_form.default
 targetEntityType: site_setting_entity
 bundle: subscribe_form

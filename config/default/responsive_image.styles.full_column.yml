@@ -1,5 +1,5 @@
-uuid: f29edc45-4a2b-4a17-bf35-6e6c6d6203c5
-langcode: nl
+uuid: 804960ae-f352-489d-b8ed-ae9a3eaa06b5
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,8 +7,10 @@ dependencies:
     - image.style.medium
     - image.style.small
     - image.style.x_large
+  theme:
+    - themekit
 _core:
-  default_config_hash: 9g1wu__ChFmKJuFV1eBlQV-wa6-x0Bv93PQYEujuXJM
+  default_config_hash: Q-5ptjXKvcvLJWzlewF4FmRFL6VQjLaufXkXkcJfOnc
 id: full_column
 label: 'Full Column'
 image_style_mappings:

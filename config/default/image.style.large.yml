@@ -1,11 +1,11 @@
-uuid: 3f72fe1f-d615-4d36-860c-a48cfb71037d
-langcode: nl
+uuid: be211ba6-02ee-443e-befc-f21ac440c5c7
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: VHkZ7GoM8VIh3dQhG4sNIctNW1xA0CNvdiy1j1-6Kyg
 name: large
-label: 'Groot (1366W)'
+label: 'Large (1366W)'
 effects:
   ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d:
     uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d

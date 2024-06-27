@@ -69,7 +69,7 @@ display:
       tab_options:
         title: Content
         description: 'Find and manage scheduled content'
-      display_description: 'Overview of all scheduled content, as a tab on main ''content admin'' page'
+      display_description: "Overview of all scheduled content, as a tab on main 'content admin' page"
     display_title: 'Content Overview'
   user_page:
     display_options:
@@ -78,7 +78,7 @@ display:
       tab_options:
         title: Content
         description: 'Find and manage scheduled content'
-      display_description: 'Scheduled content tab on user profile, showing just that user''s scheduled content'
+      display_description: "Scheduled content tab on user profile, showing just that user's scheduled content"
       arguments:
         uid:
           exception:

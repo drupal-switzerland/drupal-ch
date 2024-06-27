@@ -1,4 +1,4 @@
-uuid: 968efb9d-fe06-4d6d-b626-f8167f43f3f0
+uuid: 25f5c682-699e-43ab-9c11-f264436fd18e
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.details_list
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: leGccLLN4lDSanohsuRNtGDFxnhPJdcv3zPwtLgrF7I
 id: paragraph.details_list.field_p_items
 field_name: field_p_items
 entity_type: paragraph

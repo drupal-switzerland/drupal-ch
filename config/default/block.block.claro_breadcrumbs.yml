@@ -1,5 +1,5 @@
-uuid: de04e48a-3e36-46fc-ba8c-9e8338aa341e
-langcode: nl
+uuid: e3224931-3fcb-496e-9d72-a595e663512f
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - claro
 _core:
-  default_config_hash: b6mUaCq5YPapRUABXRHfNTT6fxWIj5lgf0Mg4HaRJ_I
+  default_config_hash: NjcxOBrPOiK5-38t56DwFBDVY4yer7YSlbRWXFuHe7A
 id: claro_breadcrumbs
 theme: claro
 region: breadcrumb
@@ -16,7 +16,7 @@ provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: Kruimelpad
+  label: Breadcrumbs
   label_display: '0'
   provider: system
 visibility: {  }

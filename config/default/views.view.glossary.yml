@@ -1,5 +1,5 @@
-uuid: aefbeee9-7ab2-4a2b-82dc-6d309bc373a9
-langcode: nl
+uuid: 9179bbc1-c109-45e3-a42b-af3eae306ea2
+langcode: en
 status: false
 dependencies:
   config:
@@ -8,18 +8,18 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: Z1Lg95xnf11BTHIugkzple_pdxZdECiqLRcrLVo3bcw
+  default_config_hash: UHtCJQ1gEknN78hjDVrI3Vz8eIpxskGNABCJmJs-22o
 id: glossary
-label: Woordenlijst
+label: Glossary
 module: node
-description: 'Alle inhoud, op letter.'
+description: 'All content, by letter.'
 tag: default
 base_table: node_field_data
 base_field: nid
 display:
   default:
     id: default
-    display_title: Standaard
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
@@ -34,7 +34,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-          label: Titel
+          label: Title
           exclude: false
           alter:
             alter_text: false
@@ -85,7 +85,7 @@ display:
           entity_type: user
           entity_field: name
           plugin_id: field
-          label: Auteur
+          label: Author
           exclude: false
           alter:
             alter_text: false
@@ -137,7 +137,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: field
-          label: 'Laatst bijgewerkt'
+          label: 'Last update'
           exclude: false
           alter:
             alter_text: false
@@ -183,6 +183,15 @@ display:
             date_format: long
             custom_date_format: ''
             timezone: ''
+            tooltip:
+              date_format: ''
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
       pager:
         type: mini
         options:
@@ -195,22 +204,22 @@ display:
             previous: ‹‹
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per pagina'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Alle -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Startpunt
+            offset_label: Offset
       exposed_form:
         type: basic
         options:
-          submit_button: Toepassen
+          submit_button: Apply
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -239,7 +248,6 @@ display:
           default_argument_type: fixed
           default_argument_options:
             argument: a
-          default_argument_skip_url: false
           summary_options: {  }
           summary:
             format: default_summary
@@ -378,7 +386,7 @@ display:
       tags: {  }
   attachment_1:
     id: attachment_1
-    display_title: Bijlage
+    display_title: Attachment
     display_plugin: attachment
     position: 2
     display_options:
@@ -406,7 +414,6 @@ display:
           default_argument_type: fixed
           default_argument_options:
             argument: a
-          default_argument_skip_url: false
           summary_options:
             items_per_page: 25
             inline: true
@@ -446,7 +453,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Pagina
+    display_title: Page
     display_plugin: page
     position: 1
     display_options:
@@ -457,7 +464,7 @@ display:
       path: glossary
       menu:
         type: normal
-        title: Woordenlijst
+        title: Glossary
         weight: 0
         menu_name: main
         parent: ''

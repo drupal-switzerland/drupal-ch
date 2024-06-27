@@ -1,4 +1,4 @@
-uuid: 9ece9b5a-1506-478a-b6b1-a68de5621c92
+uuid: ccb812ba-38bc-4d71-9d6c-51de1f5bdaa3
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.link_default
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: 2SISL93OkDj2LEV61uyYX40lRil9fbJo-iEwLpfaqME
 id: block_content.text.field_p_link
 field_name: field_p_link
 entity_type: block_content
@@ -15,7 +17,7 @@ bundle: text
 label: 'CTA, Link'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

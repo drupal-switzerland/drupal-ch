@@ -1,0 +1,18 @@
+uuid: 57451384-04d8-4b05-ae96-db5f371e12c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.svg_type
+id: taxonomy_term.svg_type.unpublish_on
+field_name: unpublish_on
+entity_type: taxonomy_term
+bundle: svg_type
+label: 'Unpublish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

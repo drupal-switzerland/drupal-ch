@@ -1,10 +1,12 @@
-uuid: 8f938053-a3d0-435b-95c3-cf35a72d94ea
+uuid: 75d31ce1-9a4f-4d56-b61b-99f135c06658
 langcode: en
 status: true
 dependencies:
   module:
     - address
     - node
+_core:
+  default_config_hash: KnCDqiloQWmVAtxJm8JmlncHEsenBWBGQI01GSF4tBg
 id: node.field_address
 field_name: field_address
 entity_type: node

@@ -1,6 +1,5 @@
 _core:
-  default_config_hash: JCsvMkZ6JYCJ99YViyi8ie9Pf46l5eDF3rX01kl4g2A
-langcode: nl
+  default_config_hash: 1czmjKtyb-iSVX08rE22Uxt_QMEt-zMa6eEVlJnqQBA
 component_required_marker: '*'
 sep1: ' '
 sep2: ', '

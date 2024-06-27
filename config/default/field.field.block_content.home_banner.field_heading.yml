@@ -1,10 +1,12 @@
-uuid: 64f7e9df-b4c5-416c-b579-ab9e059db053
+uuid: 8ba058d9-caee-4feb-85ea-017f24dbeae6
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.home_banner
     - field.storage.block_content.field_heading
+_core:
+  default_config_hash: gvjtp60e3wHhsDw5Ds3Y0k3PNGO2JQtWKpmPfAoWslQ
 id: block_content.home_banner.field_heading
 field_name: field_heading
 entity_type: block_content
@@ -12,7 +14,7 @@ bundle: home_banner
 label: Heading
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,4 +1,4 @@
-uuid: 482f89d6-22d3-45f0-812c-4f9e15e7a267
+uuid: 47b03f14-f596-4cdb-b600-9695423a433a
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - draggableviews
     - node
     - user
+_core:
+  default_config_hash: a_YFG0jb__hg5UFaG_u9K6mQkB2hmiqbt6sBnJuFSUI
 id: partners
 label: Partners
 module: views
@@ -24,7 +26,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Onze partners in Nederland'
+      title: 'Our partners'
       fields:
         title:
           id: title

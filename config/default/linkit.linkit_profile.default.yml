@@ -1,13 +1,13 @@
-uuid: 3a26da99-1c0d-423d-b22c-71840728c24c
-langcode: nl
+uuid: 10091ec6-7f93-4a9f-9dbd-e647c68e4ab3
+langcode: en
 status: true
 dependencies:
   module:
     - file
     - node
 _core:
-  default_config_hash: Y3ASg8D4s4r6s3yw8t7y813YbR6Q7_iqNxnDZ3o0CP8
-label: Standaard
+  default_config_hash: qeeImdKcJOLufctdpROhTBsjMXUYldaj9aqw_Aoc8mY
+label: Default
 id: default
 description: ''
 matchers:

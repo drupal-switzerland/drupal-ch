@@ -1,7 +1,6 @@
 _core:
-  default_config_hash: EspchZru2hYTTeNNAnTw2uWwT-mjJ46KrM5XEVHJzS0
-langcode: nl
-uuid: 44b900d0-ea5a-47ec-8e55-2e3776ee1fe5
+  default_config_hash: HyfgQjxG6CbMq04gx7HSczCsbPsEsyjHWooTZhg8dYQ
+uuid: 6ed3940e-14df-4a47-9898-89e48e60582a
 popup_enabled: true
 popup_clicking_confirmation: false
 popup_scrolling_confirmation: false
@@ -10,24 +9,24 @@ eu_only_js: null
 popup_position: false
 fixed_top_position: true
 popup_info:
-  value: "<h2>Deze website gebruikt cookies</h2>\r\n\r\n<p>Sommige van deze cookies zijn nodig om de website goed te laten werken. Andere cookies helpen ons de website te verbeteren door inzicht te geven in hoe de website wordt gebruikt.</p>\r\n"
-  format: full_html
+  value: '<h2>We use cookies on this site to enhance your user experience</h2><p>By clicking the Accept button, you agree to us doing so.</p>'
+  format: plain_text
 mobile_popup_info:
-  value: ''
-  format: basic_html
+  value: '<h2>We use cookies on this site to enhance your user experience</h2><p>By tapping the Accept button, you agree to us doing so.</p>'
+  format: plain_text
 popup_info_template: new
-popup_agree_button_message: Accepteren
-popup_more_info_button_message: 'Meer informatie'
+popup_agree_button_message: Accept
+popup_more_info_button_message: 'More info'
 mobile_breakpoint: 768
 popup_agreed_enabled: false
 popup_hide_agreed: false
-disagree_button_label: 'Geen cookies voor mij'
+disagree_button_label: 'No, thanks'
 popup_agreed:
-  value: '<h2>Hartelijk dank voor het accepteren van cookies</h2><p>U kunt nu dit bericht verbergen of meer lezen over cookies.</p>'
-  format: full_html
-popup_find_more_button_message: 'Meer informatie'
-popup_hide_button_message: Verbergen
-popup_link: /privacy-statement
+  value: '<h2>Thank you for accepting cookies</h2><p>You can now hide this message or find out more about cookies.</p>'
+  format: plain_text
+popup_find_more_button_message: 'More info'
+popup_hide_button_message: Hide
+popup_link: '<front>'
 popup_link_new_window: true
 popup_height: null
 popup_width: ''
@@ -58,14 +57,14 @@ automatic_cookies_removal: true
 allowed_cookies: ''
 consent_storage_method: do_not_store
 withdraw_message:
-  value: "<h2>Deze website gebruikt cookies</h2>\r\n\r\n<p>Je hebt toestemming gegeven, thanks!</p>\r\n"
-  format: full_html
-withdraw_tab_button_label: Privacy-instellingen
-withdraw_action_button_label: 'Toestemming intrekken'
+  value: '<h2>We use cookies on this site to enhance your user experience</h2><p>You have given your consent for us to set cookies.</p>'
+  format: plain_text
+withdraw_tab_button_label: 'Privacy settings'
+withdraw_action_button_label: 'Withdraw consent'
 withdraw_enabled: false
 withdraw_button_on_info_popup: false
 save_preferences_button_label: 'Save preferences'
-accept_all_categories_button_label: 'Alle cookies aanvaarden'
+accept_all_categories_button_label: 'Accept all cookies'
 enable_save_preferences_button: true
 domain_all_sites: false
 settings_tab_enabled: false

@@ -1,11 +1,13 @@
-uuid: a6a060e9-0c3b-4107-a41a-37e7d492ecce
+uuid: 31412738-e0c2-4997-91da-b87955a2b99e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 5XnQ9VKWjvGApxSPmZ9ePjpaPmU7hYVOC5xC3I02LGM
 id: partners
 block_id: 'inline_block:partners'
 category: structured
 label: Partners
+weight: -3
 image_path: ''
 image_alt: ''
-weight: -3

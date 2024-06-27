@@ -1,4 +1,4 @@
-uuid: 6e690e23-66f9-4ae6-a0b1-950e5137332b
+uuid: 0e6b4e03-be36-4eb6-965e-81a9413958d5
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
     - media.type.svg
     - node.type.case
+_core:
+  default_config_hash: 3xrtlQMFX2blScBJUtmDrz9_-YHBKVFyGTKjeQIhtuE
 id: node.case.field_logo
 field_name: field_logo
 entity_type: node
@@ -14,7 +16,7 @@ bundle: case
 label: Logo
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,4 +1,4 @@
-uuid: 3d7caf63-d7d4-4bb2-b878-633f824a52cd
+uuid: 2c2906ab-577f-46ba-90a3-bef8a855285a
 langcode: en
 status: true
 dependencies:
@@ -20,6 +20,8 @@ dependencies:
     - media_responsive_thumbnail
     - smart_trim
     - user
+_core:
+  default_config_hash: t6nMgkRorrcpxmEbCIp0OSN9US4J5ZzdJvl_725lH4U
 id: node.case.teaser
 targetEntityType: node
 bundle: case

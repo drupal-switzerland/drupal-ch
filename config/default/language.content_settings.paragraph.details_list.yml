@@ -1,9 +1,18 @@
-uuid: 818dab7f-9ac7-4907-90bb-54679922ec10
+uuid: 5adb7a44-eb44-40d4-a583-e78d1fce68df
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.details_list
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: xJvQ4usU0RXdVqeOe-tkR3D7HdWGesJlVnonoJMZnYg
 id: paragraph.details_list
 target_entity_type_id: paragraph
 target_bundle: details_list

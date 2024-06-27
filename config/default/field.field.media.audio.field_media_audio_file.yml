@@ -1,4 +1,4 @@
-uuid: 8de3a333-f97d-41b0-b3a9-a274ce59d2db
+uuid: 4f701f61-72d6-4503-baf3-ee3a251772be
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: T15Sr1g3bgeaFq4Cm5f8wgXvVIfl7Fp9TvtxeytgD30
+  default_config_hash: 1NRDRlJN8vA3zmcCRloVBQB9e1qQmnCdSDVYCgIfvTs
 id: media.audio.field_media_audio_file
 field_name: field_media_audio_file
 entity_type: media
@@ -16,7 +16,7 @@ bundle: audio
 label: 'Audio file'
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

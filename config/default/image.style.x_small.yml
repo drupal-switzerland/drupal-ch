@@ -1,9 +1,9 @@
-uuid: 69bab785-e533-4832-93cf-d9b2550cccd8
+uuid: b3a6d694-0952-49fe-abd5-ce538067837f
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: LQF05RZinOEJIs3FQVJADa0byZ9N8-PYdTqoZmSraVw
+  default_config_hash: 1v2VDsqv7SuCCyrnG6ss7PYVBEbyarCThweszv4DBvs
 name: x_small
 label: 'X Small (480W)'
 effects:

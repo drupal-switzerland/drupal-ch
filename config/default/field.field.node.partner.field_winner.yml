@@ -1,10 +1,12 @@
-uuid: b422d303-3e8c-4751-b863-f4e4d33d41de
+uuid: 0c247385-13ee-46e1-ad27-c560300cf36d
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_winner
     - node.type.partner
+_core:
+  default_config_hash: VIP3-3XS2giiu50A48iJh8Bif12GF9l9WLVaRRQSx8g
 id: node.partner.field_winner
 field_name: field_winner
 entity_type: node

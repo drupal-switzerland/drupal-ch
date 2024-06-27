@@ -1,9 +1,16 @@
-uuid: c6d6e9d3-7836-4ac0-bfb8-b2df20186af0
+uuid: 4c5430a7-a857-47c4-be8a-f3c1b44b9001
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.svg
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: q7-noQ03ABBQxFjLs3j6gwuLGUWbLDG4PmbcFAELPaM
 id: media.svg

@@ -1,4 +1,4 @@
-uuid: 98ad6b3a-1b01-4a38-90e2-41bd90da2826
+uuid: 10837342-1bcf-400b-96fe-5d691eaba609
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - taxonomy.vocabulary.category
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: WTVXQVdp-lDJ34T4quht1w_srz61Sre48TX8MYA07ao
 id: taxonomy_term.category.field_p_components
 field_name: field_p_components
 entity_type: taxonomy_term

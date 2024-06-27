@@ -1,10 +1,10 @@
-uuid: 818d8006-b606-4bc7-bdf9-e4b46854d6dc
-langcode: nl
+uuid: 515be0ad-d76e-4309-bbd1-f2fbb8690815
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
 id: main
-label: Hoofdnavigatie
-description: 'Sectielinks van de site'
+label: 'Main navigation'
+description: 'Site section links'
 locked: true

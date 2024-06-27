@@ -1,4 +1,4 @@
-uuid: 5e3c769f-7e2d-4da6-90d2-e4e7245c1722
+uuid: 42b976d1-86e4-4484-b6a2-469558fa17f4
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: ps24WHRZfqgDPRFgMOQLisqDyHLrAPnRXuqdICl4WN4
+  default_config_hash: MUXCoL9LGtFmfwII2x8AuGzLb3NFbZcKrzMaZ8rVSgM
 id: media.file.media_browser
 targetEntityType: media
 bundle: file
@@ -62,5 +62,10 @@ hidden:
   field_file_mime_type: true
   field_file_size: true
   path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
   status: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true

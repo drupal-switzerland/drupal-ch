@@ -1,4 +1,4 @@
-uuid: 51eacafb-d907-4776-99bd-d52c20ba4231
+uuid: 177addeb-3142-4b45-bff3-f477bef134ca
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - field.field.block_content.news_slider.field_link
   module:
     - link
+_core:
+  default_config_hash: vLnaNVFmS6zbH5C3zncTnEiXR3NNpy1FziMHWeK1H20
 id: block_content.news_slider.default
 targetEntityType: block_content
 bundle: news_slider

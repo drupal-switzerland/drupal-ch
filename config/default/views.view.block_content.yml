@@ -1,27 +1,27 @@
-uuid: 21a0fd8e-25c5-4144-a09c-52c2b6feeaa2
-langcode: nl
+uuid: 924dcfc5-97d7-4765-b321-41f35c9f1428
+langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - user
 _core:
-  default_config_hash: 6V1hXIh0bGqkp6z3INkBXGU0EJbhawjyoK0XAcGJKyc
+  default_config_hash: _BGhEZDezalwQqze2NbDiex2ZL4URU8T-sea2gfq0SE
 id: block_content
-label: 'Aangepaste blokken-bibliotheek'
+label: 'Custom block library'
 module: views
-description: 'Aangepaste blokken zoeken en beheren'
+description: 'Find and manage custom blocks.'
 tag: default
 base_table: block_content_field_data
 base_field: id
 display:
   default:
     id: default
-    display_title: Standaard
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Aangepaste blokken-bibliotheek'
+      title: 'Custom block library'
       fields:
         info:
           id: info
@@ -33,7 +33,7 @@ display:
           entity_type: null
           entity_field: info
           plugin_id: field
-          label: Blokbeschrijving
+          label: 'Block description'
           exclude: false
           alter:
             alter_text: false
@@ -98,7 +98,7 @@ display:
           entity_type: block_content
           entity_field: type
           plugin_id: field
-          label: Bloktype
+          label: 'Block type'
           exclude: false
           alter:
             alter_text: false
@@ -163,7 +163,7 @@ display:
           entity_type: block_content
           entity_field: changed
           plugin_id: field
-          label: Bijgewerkt
+          label: Updated
           exclude: false
           alter:
             alter_text: false
@@ -209,6 +209,15 @@ display:
             date_format: short
             custom_date_format: ''
             timezone: ''
+            tooltip:
+              date_format: ''
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
         operations:
           id: operations
           table: block_content
@@ -218,7 +227,7 @@ display:
           admin_label: ''
           entity_type: block_content
           plugin_id: entity_operations
-          label: Bewerkingen
+          label: Operations
           exclude: false
           alter:
             alter_text: false
@@ -268,30 +277,30 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: 'Volgende ›'
-            previous: '‹ Vorige'
+            next: 'Next ›'
+            previous: '‹ Previous'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per pagina'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Alle -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Startpunt
+            offset_label: Offset
       exposed_form:
         type: basic
         options:
-          submit_button: Toepassen
+          submit_button: Apply
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
-          perm: 'administer blocks'
+          perm: 'access block library'
       cache:
         type: tag
         options: {  }
@@ -305,7 +314,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'Er zijn geen aangepaste blokken beschikbaar.'
+          content: 'There are no custom blocks available.'
           tokenize: false
         block_content_listing_empty:
           id: block_content_listing_empty
@@ -337,7 +346,7 @@ display:
           exposed: true
           expose:
             operator_id: info_op
-            label: Blokbeschrijving
+            label: 'Block description'
             description: ''
             use_operator: false
             operator: info_op
@@ -380,7 +389,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: Bloktype
+            label: 'Block type'
             description: ''
             use_operator: false
             operator: type_op
@@ -517,19 +526,20 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Pagina
+    display_title: Page
     display_plugin: page
     position: 1
     display_options:
       display_extenders: {  }
-      path: admin/structure/block/block-content
+      path: admin/content/block
       menu:
         type: tab
-        title: 'Aangepaste blokken-bibliotheek'
-        description: ''
+        title: Blocks
+        description: 'Create and edit block content.'
         weight: 0
+        expanded: false
         menu_name: admin
-        parent: block.admin_display
+        parent: system.admin_content
         context: '0'
     cache_metadata:
       max-age: -1

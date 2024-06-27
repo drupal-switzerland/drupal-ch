@@ -1,9 +1,11 @@
-uuid: 818306db-f60a-49dc-be79-4defc2c255ed
+uuid: 787a2893-1351-4241-8431-2fee370fb9cc
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: BpktPM7ZBye0TLn2LxANHb6_Csv7aBLRUisRnjuUH6U
 id: node_case
 label: 'Node - Case'
 type: 'canonical_entities:node'

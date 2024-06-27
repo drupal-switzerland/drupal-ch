@@ -1,7 +1,9 @@
-uuid: 727bd72a-5d46-4e8b-9150-4075a32e672d
+uuid: 7d846d1e-e081-4485-85cd-edf038cafb7f
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: TU2nfbV9lBCAU5xkQXsTedt2cQWwU5I26_2UcuGELVE
 id: partners
 label: Partners
 revision: 0

@@ -1,4 +1,4 @@
-uuid: 426aa8ed-8e95-4363-9ff0-2587673e3dad
+uuid: 81614c5d-f661-4951-afe0-98e622cad254
 langcode: en
 status: true
 dependencies:
@@ -22,12 +22,12 @@ third_party_settings:
         layout_id: dnl_layout_banner_section
         layout_settings:
           label: ''
-          context_mapping: {  }
           padding: default
           size: default
           valign: top
+          context_mapping: {  }
         components:
-          9bd52231-d3fa-43b0-9674-469bd6a906f2:
+          -
             uuid: 9bd52231-d3fa-43b0-9674-469bd6a906f2
             region: first
             configuration:
@@ -36,9 +36,9 @@ third_party_settings:
               label_display: ''
               provider: layout_builder
               view_mode: full
-              context_mapping: {  }
               block_revision_id: 19
               block_serialized: null
+              context_mapping: {  }
             weight: 0
             additional: {  }
         third_party_settings:
@@ -98,6 +98,8 @@ third_party_settings:
           all_regions:
             - 'Custom block types'
             - 'Lists (Views)'
+_core:
+  default_config_hash: AKB8jdXccEK6U_p8rNRcge8jMh0WPqrJvebiOV2WG94
 id: node.component_page.full
 targetEntityType: node
 bundle: component_page

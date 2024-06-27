@@ -1,4 +1,4 @@
-uuid: c9adce66-5342-4e65-8097-015bd3d65b4d
+uuid: 55581ba2-41a8-4b41-afe5-a963f32e27ce
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: h3pu8uOdrPaaV1SMjUFvo_5BrHg9DqKakDmsdiPYPf4
+  default_config_hash: wiAIKEvhg-bu_bQJHZsD-44KutlYc2zHB12gjSYODQg
 id: entity_browser_video
 label: 'Entity Browser - Video'
 module: views
@@ -549,7 +549,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags: {  }
   entity_browser_1:
@@ -566,6 +565,5 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags: {  }

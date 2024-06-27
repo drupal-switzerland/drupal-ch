@@ -1,4 +1,4 @@
-uuid: 6bcd87d7-78e8-4b78-968d-c06f8c1e1683
+uuid: bfa0f3e1-219b-4413-9ac0-9fdc338221be
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,7 @@ bundle: svg
 label: Tags
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

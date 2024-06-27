@@ -1,11 +1,11 @@
 uuid: eae8bc1e-aaed-4ae4-8cd5-e0862c9af7ea
-langcode: nl
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: vl3OTPR1AeLGicEXI5bhswxGuUbSDMxtSrIXGGChTu4
 id: default
-label: Standaard
+label: Default
 locked: true
 delimiter: ', '
 and: text

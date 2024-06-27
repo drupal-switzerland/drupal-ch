@@ -1,6 +1,5 @@
 _core:
-  default_config_hash: dqouFqVseNJNvEjsoYKxbinFOITuCxYhi4y2OTNQP_8
-langcode: nl
+  default_config_hash: UlDVNjTd41yvDkjTiFQPvKFZbagq9hwB3F8hPv119pU
 all:
   - language_interface
   - language_content

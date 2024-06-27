@@ -1,4 +1,4 @@
-uuid: 87c5ea7e-5f06-4011-b2ea-96b3aed459bf
+uuid: 185063ca-a9ee-4002-a78a-7cafc9c54b96
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: jUs0qlsFCKuEGoakVPhDnYY85lQWr6xp1IkrQRCn4-U
+  default_config_hash: nwTAIITkP7vY2H1oEctKNPCIxTjjeABEZlJknx9mzQA
 id: media.remote_video.media_library
 targetEntityType: media
 bundle: remote_video

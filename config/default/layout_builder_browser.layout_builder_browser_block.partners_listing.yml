@@ -1,11 +1,13 @@
-uuid: 697ce0f4-9f29-4f30-9fc6-d5cfeb9916ff
+uuid: 6e789e68-a44e-49ea-b615-2afc3186bb70
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: lR97hv_AYsyswNU04fjLjkXYwEahjbI7tpQYR4KYqR0
 id: partners_listing
 block_id: 'views_block:partners-listing'
 category: overview
 label: 'Partners Listing'
+weight: -4
 image_path: ''
 image_alt: ''
-weight: -4

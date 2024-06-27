@@ -1,0 +1,33 @@
+uuid: 4213329f-72da-4a5c-b824-075cb9e64be2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - menu_block
+  theme:
+    - classy
+_core:
+  default_config_hash: TS4CqBfTCQQzT_mGPxfpzb5tVltwsQ9cxszWpyFR7f0
+id: classy_social
+theme: classy
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'menu_block:social'
+settings:
+  id: 'menu_block:social'
+  label: 'Follow us on'
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'social:'
+  suggestion: social
+  label_type: block
+  label_link: false
+visibility: {  }

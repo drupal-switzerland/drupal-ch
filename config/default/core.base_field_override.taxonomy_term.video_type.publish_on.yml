@@ -1,0 +1,18 @@
+uuid: 7c568075-73a9-4d10-8a40-198157521fd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.video_type
+id: taxonomy_term.video_type.publish_on
+field_name: publish_on
+entity_type: taxonomy_term
+bundle: video_type
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

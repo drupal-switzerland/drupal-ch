@@ -1,4 +1,4 @@
-uuid: 867d63a3-18a5-400d-a919-393552ba442c
+uuid: 53104915-4be3-46e0-abde-9a93b31be128
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - text
+_core:
+  default_config_hash: CsaKDpUFojja1RJQaKKDEMRhWaeFH6n81_SbQRTOCtg
 id: block_content.text.default
 targetEntityType: block_content
 bundle: text

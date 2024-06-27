@@ -1,4 +1,4 @@
-uuid: 06d0f3a8-eb69-4e22-ad89-72c909ae05e4
+uuid: 99c4afbc-01b0-4635-ba45-a4d9ea45e37d
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.link_default
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: oIXpxVcctzUQid4zc6vVexaHsX80QLOw_7phUhBhih8
 id: block_content.partners.field_p_link
 field_name: field_p_link
 entity_type: block_content
@@ -15,7 +17,7 @@ bundle: partners
 label: CTA
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

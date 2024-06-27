@@ -1,4 +1,4 @@
-uuid: 588e6576-fe38-481c-8cbd-60fef8b968b5
+uuid: f12d0b12-43b3-4ab4-beca-6b33ef3a5b21
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - allowed_formats
     - paragraphs
     - text
+_core:
+  default_config_hash: 3XgLzudHyf4BM4yu6-HyL-yhU0sxbgNdgiOdD9bxBpc
 id: block_content.categories.default
 targetEntityType: block_content
 bundle: categories

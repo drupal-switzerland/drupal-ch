@@ -1,4 +1,4 @@
-uuid: 4c18cc36-8a9d-4463-b915-f0c0ede10c50
+uuid: af2fb738-2b8e-4b73-b5a7-bb97d39e6649
 langcode: en
 status: true
 dependencies:
@@ -17,7 +17,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: 1kBQaPZKhP5U6qA1qCccyUYD_7L7gzsvhsRsH4ElVNs
+  default_config_hash: KbVQ2yVS-VPF1g1g8b56c-YVuBYO5S3W34iH8QM6Ges
 id: media.video.ckeditor
 targetEntityType: media
 bundle: video

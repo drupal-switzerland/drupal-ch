@@ -1,11 +1,11 @@
-uuid: aa0fab04-dc07-4c4a-b77c-22aa97ceb84f
+uuid: 096a2a80-c2e0-4f83-9272-4ab31a792935
 langcode: en
 status: true
 dependencies:
   module:
     - focal_point
 _core:
-  default_config_hash: evx5e9FIj3zd3KOYlLiTK1BKGAVso6pVquvZUyg4kc8
+  default_config_hash: ERCKBuXEQBNhUg_Jtj5DsBdVNmO7PcSWaIEArQeWd7Y
 name: large_square_1_1
 label: 'Large Square 1:1 (640 x 640)'
 effects:

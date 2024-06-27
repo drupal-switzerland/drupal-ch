@@ -1,9 +1,11 @@
-uuid: 0040335b-ce47-4960-b271-301ff771efaf
+uuid: dbb30713-170d-4349-af2d-f094faa749fa
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.event
+_core:
+  default_config_hash: 8ZTn-RglIOozpCCJ_n-bfJBCPeQlWRvaMWPjFpw2nYQ
 id: node.event.promote
 field_name: promote
 entity_type: node

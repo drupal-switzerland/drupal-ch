@@ -1,4 +1,4 @@
-uuid: 358b6462-97ea-4776-8e02-fcd05e1f0309
+uuid: 1bfbf4e8-3590-4ce2-b351-03299520bdd3
 langcode: en
 status: true
 dependencies:
@@ -32,6 +32,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: true
+_core:
+  default_config_hash: 30g5kim-X2X_xMYQCfT0HzXGQWtQK85H-_mGiw7bzuI
 id: block_content.text.default
 targetEntityType: block_content
 bundle: text

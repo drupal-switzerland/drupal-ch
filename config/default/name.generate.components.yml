@@ -1,6 +1,5 @@
 _core:
   default_config_hash: TOaiQDJIhza003kCMwGGN98xnwNinqBxod3wLEb9VaA
-langcode: nl
 components:
   title:
     - Dr.

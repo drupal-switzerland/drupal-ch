@@ -1,4 +1,4 @@
-uuid: 309c62af-1e79-42f9-b0af-4030841c145c
+uuid: bd3ef2e7-f705-4248-824b-67b1d75e5ae9
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - entity_reference_revisions
     - text
 _core:
-  default_config_hash: 5PCuA5dSa98XJO7Fr9mFUSM7AHhw5Ap6bqm94o10nB0
+  default_config_hash: NU-fLIgU0MwvHarijw47m2sSQH58dB5zZYOC73qn54M
 id: paragraph.header_banner_basic.preview
 targetEntityType: paragraph
 bundle: header_banner_basic

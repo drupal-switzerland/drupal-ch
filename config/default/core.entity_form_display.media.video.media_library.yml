@@ -1,4 +1,4 @@
-uuid: c8023ecc-f26d-46af-8877-93a134f154fb
+uuid: 18ab7ea6-6d80-49fc-a645-e6a413575d21
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - field.field.media.video.field_video_type
     - media.type.video
 _core:
-  default_config_hash: 4FQ6k3FAhlXu8jC8kKoBNQhpDcOhSCFXy1Vevhz6qmg
+  default_config_hash: 44_zokp7I8dZv5uNYHmexFOGVqZnC5pbh-0MM3vJZFU
 id: media.video.media_library
 targetEntityType: media
 bundle: video
@@ -25,5 +25,10 @@ hidden:
   langcode: true
   name: true
   path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
   status: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true

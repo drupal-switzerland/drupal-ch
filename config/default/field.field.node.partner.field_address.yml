@@ -1,4 +1,4 @@
-uuid: 728847c4-3fac-4b18-8eac-1943ab2b117b
+uuid: f210d3bc-27f8-40d0-8ece-0808a9655798
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.partner
   module:
     - address
+_core:
+  default_config_hash: tdB-CzZRDPh6aVYU3nTjxOKtDeQQPuwDD2yqDED-0Ig
 id: node.partner.field_address
 field_name: field_address
 entity_type: node

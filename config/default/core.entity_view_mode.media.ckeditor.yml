@@ -1,10 +1,13 @@
-uuid: db0c8a3a-201e-413b-bb13-4315051934fd
+uuid: be050d86-5f86-486f-8875-0740d193a26c
 langcode: en
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: 0V6VGffNSTO3lbgEhtIFnNwDrgHLM-hZlVFLU7FOeSg
 id: media.ckeditor
 label: CKEditor
+description: ''
 targetEntityType: media
 cache: true

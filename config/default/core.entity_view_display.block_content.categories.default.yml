@@ -1,4 +1,4 @@
-uuid: c4d8efb9-23c3-43af-9a82-548eaa440ef7
+uuid: 6c2d2f80-937a-4838-a047-afb1d3639161
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - text
+_core:
+  default_config_hash: AJ795RsDOvMu4LidKC0g84brPVCtgQc1XyyGsXjrc_g
 id: block_content.categories.default
 targetEntityType: block_content
 bundle: categories

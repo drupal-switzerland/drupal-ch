@@ -1,14 +1,14 @@
-uuid: cdf8d1ce-1fc7-47f8-a767-4e7397c09766
-langcode: nl
+uuid: f9565fe3-cbc2-4bff-bc13-6f1b101a2502
+langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+  default_config_hash: rW5kAj6NsszqmqvEPmQs2FmkdZ7_fl_tdRs9pJqSjMI
 id: front
-label: Voorpagina
+label: Frontpage
 tags:
-  abstract: 'Drupal, hét open source DXP'
+  abstract: 'Drupal, the open source DXP'
   canonical_url: '[site:url]'
-  description: 'Drupal, hét open source DXP'
+  description: 'Drupal, the open source DXP'
   shortlink: '[site:url]'
-  title: 'Drupal, hét open source DXP'
+  title: 'Drupal, the open source DXP'

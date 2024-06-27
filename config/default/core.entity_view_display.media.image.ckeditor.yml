@@ -1,4 +1,4 @@
-uuid: 973c7d9e-3532-41da-8235-4e566fccb67f
+uuid: d0363f5c-d727-4581-b3d2-2c444e84e67f
 langcode: en
 status: true
 dependencies:
@@ -19,7 +19,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: wnWZx7TNbYP8AKOiPGi1pimQ3QcNEYYMKGie1Cbfm-U
+  default_config_hash: itNmp08A8WJVeFUiJYAXtN3S6HRWdOSuFvX0eFFVOEE
 id: media.image.ckeditor
 targetEntityType: media
 bundle: image

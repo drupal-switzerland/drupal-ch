@@ -1,10 +1,12 @@
-uuid: 37bba627-737c-499a-a2d0-8cb82ac4860d
+uuid: e7775197-1190-453e-b21b-f0a01ec68d74
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.cases_slider
     - field.storage.block_content.field_heading
+_core:
+  default_config_hash: TigAXMofQscE2HHUBS9wtU7dtQi-ApOhSOj4cfuBs1c
 id: block_content.cases_slider.field_heading
 field_name: field_heading
 entity_type: block_content
@@ -12,7 +14,7 @@ bundle: cases_slider
 label: Heading
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,0 +1,18 @@
+uuid: 179d16c6-96e3-47d0-bc6e-d6dee965dd4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.video_type
+id: taxonomy_term.video_type.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: video_type
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

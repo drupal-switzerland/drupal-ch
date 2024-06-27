@@ -1,13 +1,15 @@
-uuid: 0c7f57e6-0a30-42a2-a074-af8f9db80e7e
+uuid: a8831abf-a396-4fb5-aac1-b54a636ccc4e
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: dTeAQoPXvvlw6J_nR7r064OQ9vpOXMvKoYlUFiIMynM
 id: taxonomy_category
 label: 'Taxonomy - Category'
 type: 'canonical_entities:taxonomy_term'
-pattern: 'toepassingen/[term:name]'
+pattern: 'applications/[term:name]'
 selection_criteria:
   170d8324-0a42-42cc-bf75-d87585bdebf5:
     id: 'entity_bundle:taxonomy_term'

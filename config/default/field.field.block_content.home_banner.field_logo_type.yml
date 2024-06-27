@@ -1,4 +1,4 @@
-uuid: fd2647dc-62d3-4b4f-8d82-100963d28270
+uuid: 2343a071-ce2c-45a5-9b27-4ea39a82b652
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_logo_type
   module:
     - options
+_core:
+  default_config_hash: Q6UT9UTNL08phcDFA_zspoONT9d0xMdj03o-ozopMdU
 id: block_content.home_banner.field_logo_type
 field_name: field_logo_type
 entity_type: block_content

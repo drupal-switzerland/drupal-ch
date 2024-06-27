@@ -1,4 +1,4 @@
-uuid: b0338a45-579d-4728-ad39-5d31ef99e3b4
+uuid: 84939611-757d-4ceb-9632-f34bfeee2b78
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: '-AHjkc1wkh7Ow77hB9BalH5pn6TGTG2PpojZd2DMiUc'
+  default_config_hash: 50-hZvDBsb8mULKbNeDpzatS-uS4DKcHh32Vh2Uu7uQ
 id: entity_browser_file
 label: 'Entity Browser - File'
 module: views
@@ -537,7 +537,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags: {  }
   entity_browser_1:
@@ -554,6 +553,5 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags: {  }

@@ -1,10 +1,12 @@
-uuid: 80f87499-7b84-48dd-8ceb-701db66b27b6
+uuid: 450b4df4-8bb6-470d-8ff0-17c031670e5c
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - options
+_core:
+  default_config_hash: KX3s6JroYvAVpRbkYAFfNfLAXuJ8UsaDK0qHyJurRh8
 id: block_content.field_logo_type
 field_name: field_logo_type
 entity_type: block_content

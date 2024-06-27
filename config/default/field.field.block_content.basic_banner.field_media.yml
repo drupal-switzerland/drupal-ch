@@ -1,4 +1,4 @@
-uuid: e8f440ae-7835-44e7-a0da-31a3aa66e168
+uuid: d3b2992f-9e11-4025-87e7-b0e6b730b2d2
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.basic_banner
     - field.storage.block_content.field_media
     - media.type.image
+_core:
+  default_config_hash: 7-wDumWH_2qSrN1CZJqhvvZCZBkuqsu8cnj022w-UYU
 id: block_content.basic_banner.field_media
 field_name: field_media
 entity_type: block_content

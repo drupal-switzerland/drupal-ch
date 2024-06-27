@@ -1,5 +1,5 @@
-uuid: 04dbf2c6-0a0a-4c6c-9e57-7786ecd4be6c
-langcode: nl
+uuid: 0a0d309c-f837-4ec4-b331-71c31e3f2161
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,8 +7,10 @@ dependencies:
     - image.style.medium
     - image.style.small
     - image.style.x_small
+  theme:
+    - themekit
 _core:
-  default_config_hash: 1n_hMaEHalNrTbQJkcnpth8f2i2NaQj9f9RBNWqYaV0
+  default_config_hash: mspRUlhb8liku-Mero9hCR_p8kGSd3XwvniefKrf0LI
 id: fourth_column
 label: 'Fourth Column'
 image_style_mappings:

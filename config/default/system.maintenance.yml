@@ -1,4 +1,3 @@
 _core:
-  default_config_hash: Z5MXifrF77GEAgx0GQ6iWT8wStjFuY8BD9OruofWTJ8
-langcode: nl
-message: '@site is momenteel wegens onderhoud niet beschikbaar. De website zal binnenkort weer beschikbaar zijn. Bedankt voor uw geduld.'
+  default_config_hash: yRsBxfe4ee0QpFQEqPSTe18I7OrNKjnno9cqO7GbByA
+message: '@site is currently under maintenance. We should be back shortly. Thank you for your patience.'

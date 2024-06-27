@@ -1,4 +1,4 @@
-uuid: 16b27a7f-d702-457a-8f93-aaae72ce86dc
+uuid: 0a5f07c2-53d2-46cd-a300-219e3904285e
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.image_slider
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: KVXnbsYe87DEOGcgExLpAUmEwiOplkEYvJK3xZRcasQ
 id: node.case.field_component_item
 field_name: field_component_item
 entity_type: node
@@ -15,7 +17,7 @@ bundle: case
 label: Slider
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

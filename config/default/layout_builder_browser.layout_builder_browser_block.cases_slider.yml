@@ -1,11 +1,13 @@
-uuid: f00f7e86-2e58-47db-90bc-f63866e6c1df
+uuid: 5b334a61-6f1a-41ff-8af8-3753f86622d6
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: SuUIPbwrePGwT3idBHm0JlanWAHb-jpyVJoe8g1R2ng
 id: cases_slider
 block_id: 'inline_block:cases_slider'
 category: structured
 label: 'Cases Slider'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100

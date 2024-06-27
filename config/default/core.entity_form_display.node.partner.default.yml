@@ -1,4 +1,4 @@
-uuid: 9537efa4-9cc1-40c9-a863-a760732181a8
+uuid: 2c9d270b-8125-43c0-b053-4351f1b99535
 langcode: en
 status: true
 dependencies:
@@ -28,8 +28,6 @@ dependencies:
     - media_library
     - metatag
     - path
-    - scheduler
-    - scheduler_content_moderation_integration
     - telephone
     - text
 third_party_settings:
@@ -151,6 +149,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: true
+_core:
+  default_config_hash: 7xK22Ei7EuLZqUaxdhWXp7rlkaobGVoX1fXFfjkiNas
 id: node.partner.default
 targetEntityType: node
 bundle: partner
@@ -298,15 +298,8 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
-  publish_on:
-    type: datetime_timestamp_no_default
-    weight: 9
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  publish_state:
-    type: scheduler_moderation
-    weight: 11
+  simple_sitemap:
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -342,21 +335,13 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  unpublish_on:
-    type: datetime_timestamp_no_default
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  unpublish_state:
-    type: scheduler_moderation
-    weight: 12
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   url_redirects:
     weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

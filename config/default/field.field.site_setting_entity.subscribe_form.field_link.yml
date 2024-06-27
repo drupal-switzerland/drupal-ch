@@ -1,4 +1,4 @@
-uuid: 99a8061c-081e-49b6-895f-a83a7c34775f
+uuid: 2a2543b3-232f-4267-878b-e82f26ea469b
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - site_settings.site_setting_entity_type.subscribe_form
   module:
     - link
+_core:
+  default_config_hash: 3EMjho_-0niDuWiuBnJmKrkpN6kpgVO8Q9wEy47winQ
 id: site_setting_entity.subscribe_form.field_link
 field_name: field_link
 entity_type: site_setting_entity

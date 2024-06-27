@@ -1,6 +1,5 @@
 _core:
   default_config_hash: wTmHnaHVN670mdn8kVILtg_PNerfDY2nWdrS0dchOBo
-langcode: nl
 allow_insecure_uploads: false
 default_scheme: public
 path: {  }

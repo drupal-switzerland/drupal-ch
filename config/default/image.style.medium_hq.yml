@@ -1,9 +1,9 @@
-uuid: 363dee0e-e966-4ba4-9f03-690629b406e4
+uuid: 4c31f65b-df6b-4b50-880e-9c6fa2542956
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: VYXb9HxyGGGAFiX5KC0A4jsIxkR8S5fpcvs35Q39AxQ
+  default_config_hash: 5emocDx7AKt6xb2rvkFJDfbdWiXycaagsOpsP2kFJ3s
 name: medium_hq
 label: 'Medium HQ (768W)'
 effects:

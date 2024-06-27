@@ -1,5 +1,5 @@
-uuid: 7b0e6119-95c3-468a-a9b2-86db33e8d9d0
-langcode: nl
+uuid: 688e5ba3-d1dc-4802-adc1-b8d7ac35207f
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,22 +9,22 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: ENVR_SDBPdENOxBq8NU9b5tSwtCQl0KVrbYNN6SYm9E
+  default_config_hash: pDVyfVGDhSmO37B7HLfTKmDDORp91S1TS7iw3VlZ5YQ
 id: moderated_content
-label: 'Gemodereerde inhoud'
+label: 'Moderated content'
 module: views
-description: 'Inhoud zoeken en modereren.'
+description: 'Find and moderate content.'
 tag: ''
 base_table: node_field_revision
 base_field: vid
 display:
   default:
     id: default
-    display_title: Standaard
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Gemodereerde inhoud'
+      title: 'Moderated content'
       fields:
         title:
           id: title
@@ -36,7 +36,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-          label: Titel
+          label: Title
           exclude: false
           alter:
             alter_text: false
@@ -101,7 +101,7 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: field
-          label: Inhoudstype
+          label: 'Content type'
           exclude: false
           alter:
             alter_text: false
@@ -166,7 +166,7 @@ display:
           entity_type: user
           entity_field: name
           plugin_id: field
-          label: Auteur
+          label: Author
           exclude: false
           alter:
             alter_text: false
@@ -230,7 +230,7 @@ display:
           admin_label: ''
           entity_type: node
           plugin_id: moderation_state_field
-          label: Moderatiestatus
+          label: 'Moderation state'
           exclude: false
           alter:
             alter_text: false
@@ -294,7 +294,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: field
-          label: Bijgewerkt
+          label: Updated
           exclude: false
           alter:
             alter_text: false
@@ -341,6 +341,15 @@ display:
             date_format: short
             custom_date_format: ''
             timezone: ''
+            tooltip:
+              date_format: ''
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -360,7 +369,7 @@ display:
           admin_label: ''
           entity_type: node
           plugin_id: entity_operations
-          label: Bewerkingen
+          label: Operations
           exclude: false
           alter:
             alter_text: false
@@ -410,18 +419,18 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: 'Volgende ›'
-            previous: '‹ Vorige'
-            first: '« Eerste'
-            last: 'Laatste »'
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per pagina'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Alle -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Startpunt
+            offset_label: Offset
           quantity: 9
       exposed_form:
         type: basic
@@ -429,10 +438,10 @@ display:
           submit_button: Filter
           reset_button: true
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -450,7 +459,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'Geen inhoud beschikbaar voor moderatie. Alleen inhoud die op moderatie wacht, zoals concepten, wordt hier getoond.'
+          content: 'No moderated content available. Only pending versions of content, such as drafts, are listed here.'
           tokenize: false
       sorts: {  }
       arguments: {  }
@@ -510,7 +519,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Titel
+            label: Title
             description: ''
             use_operator: false
             operator: title_op
@@ -552,7 +561,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: Inhoudstype
+            label: 'Content type'
             description: ''
             use_operator: false
             operator: type_op
@@ -596,7 +605,7 @@ display:
           exposed: true
           expose:
             operator_id: moderation_state_op
-            label: Moderatiestatus
+            label: 'Moderation state'
             description: ''
             use_operator: false
             operator: moderation_state_op
@@ -639,7 +648,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Taal
+            label: Language
             description: ''
             use_operator: false
             operator: langcode_op
@@ -815,7 +824,7 @@ display:
         - 'config:workflow_list'
   moderated_content:
     id: moderated_content
-    display_title: 'Gemodereerde inhoud'
+    display_title: 'Moderated content'
     display_plugin: page
     position: 1
     display_options:

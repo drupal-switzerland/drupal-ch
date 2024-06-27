@@ -1,4 +1,4 @@
-uuid: 5f5e5ca9-9a83-401e-a6f1-8b53352de593
+uuid: 95877adb-e6ad-40a5-b0e6-87d55937583f
 langcode: en
 status: true
 dependencies:
@@ -21,6 +21,8 @@ dependencies:
     - media_responsive_thumbnail
     - text
     - user
+_core:
+  default_config_hash: mpY9YHRonMTpae62jll2FRtZsT46RBe-qjR-sOCmEz4
 id: node.case.default
 targetEntityType: node
 bundle: case

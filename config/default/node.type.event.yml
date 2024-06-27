@@ -1,4 +1,4 @@
-uuid: 50fd91ea-7997-4c94-bad4-3df52fa13d19
+uuid: d450ed6b-0085-4947-a28b-6d908812549c
 langcode: en
 status: true
 dependencies:
@@ -28,6 +28,8 @@ third_party_settings:
     minimum_revisions_to_keep: 5
     minimum_age_to_delete: 0
     when_to_delete: 0
+_core:
+  default_config_hash: koOYy7SQ40w0ggTCOBsY31lwGrM94vo39-sdaBMzsGs
 name: Event
 type: event
 description: ''

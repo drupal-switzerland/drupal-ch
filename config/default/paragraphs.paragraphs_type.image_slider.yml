@@ -1,7 +1,9 @@
-uuid: ef8224bf-16ce-4142-816e-0068a664fbb0
+uuid: 63ca4d03-7dae-459f-a953-a73085f7f426
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: ux6vxZi7fKcTImyCxT1gHnBwZPe_6hF1P37TwhKvzEo
 id: image_slider
 label: 'Image Slider'
 icon_uuid: null

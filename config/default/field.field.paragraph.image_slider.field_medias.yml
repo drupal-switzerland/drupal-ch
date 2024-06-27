@@ -1,4 +1,4 @@
-uuid: 342c028b-2942-4011-ab82-5544c5f7c519
+uuid: 48dc8dad-28c7-4b32-9a3a-1858853509c5
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_medias
     - media.type.image
     - paragraphs.paragraphs_type.image_slider
+_core:
+  default_config_hash: N_fdDwpHbFg0URtymjXb1USGaDr0d4gd01c7Zxm2_FI
 id: paragraph.image_slider.field_medias
 field_name: field_medias
 entity_type: paragraph

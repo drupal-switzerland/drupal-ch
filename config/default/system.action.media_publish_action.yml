@@ -1,5 +1,5 @@
-uuid: 6123020c-8782-42eb-b360-cd75d5bd37ad
-langcode: nl
+uuid: 3bc66927-12df-4c7a-b007-1b830b32c41b
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: nh83qNNrmWE-CDdHz2MdFOAk60T9mzv3R-MaKfZR2jw
 id: media_publish_action
-label: 'Media publiceren'
+label: 'Publish media'
 type: media
 plugin: 'entity:publish_action:media'
 configuration: {  }

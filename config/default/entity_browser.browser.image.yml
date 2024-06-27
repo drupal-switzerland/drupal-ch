@@ -1,4 +1,4 @@
-uuid: c78efee2-7f75-41bf-b7f7-8cb265575270
+uuid: 2aeda66b-5c5c-4f70-826f-c3d7c7113a76
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - entity_browser_entity_form
     - views
 _core:
-  default_config_hash: vlt8HFWl4zY7n5wa6Ujo_uNfF9zWxfpc23sJtO115_U
+  default_config_hash: rXZOZwAcdC9dqwiNcmqSmCbK39UTB_6oMQliPYud67E
 name: image
 label: Image
 display: modal
@@ -23,22 +23,22 @@ widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
   13fddadb-b375-4f02-9bd6-372c9fb775fc:
-    id: view
-    uuid: 13fddadb-b375-4f02-9bd6-372c9fb775fc
-    label: 'View Images'
-    weight: 1
     settings:
       submit_text: 'Select Image'
       auto_select: false
       view: entity_browser_image
       view_display: entity_browser_1
+    uuid: 13fddadb-b375-4f02-9bd6-372c9fb775fc
+    weight: 1
+    label: 'View Images'
+    id: view
   a05dd402-3c7b-4599-8175-eefe68b582dc:
-    id: entity_form
-    uuid: a05dd402-3c7b-4599-8175-eefe68b582dc
-    label: 'Add Image'
-    weight: 2
     settings:
       submit_text: 'Save Image'
       entity_type: media
       bundle: image
       form_mode: media_browser
+    uuid: a05dd402-3c7b-4599-8175-eefe68b582dc
+    weight: 2
+    label: 'Add Image'
+    id: entity_form

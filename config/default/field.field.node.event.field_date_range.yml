@@ -1,4 +1,4 @@
-uuid: 767b9367-df5c-465b-9380-43e6abc2f0a2
+uuid: de127b99-a7f7-41ff-b6a2-e3fcef72448a
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.event
   module:
     - datetime_range
+_core:
+  default_config_hash: GNDmjQTuHoOFLPTzeUby3VwBEh4vezRofDrXflt8z6o
 id: node.event.field_date_range
 field_name: field_date_range
 entity_type: node
@@ -14,7 +16,7 @@ bundle: event
 label: Date
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

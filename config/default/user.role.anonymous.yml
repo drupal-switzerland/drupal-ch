@@ -1,5 +1,5 @@
-uuid: 06a81e5e-8fed-487b-9b5d-55e11e7fe582
-langcode: nl
+uuid: ef4361ed-f753-47a4-834d-5502b8b06969
+langcode: en
 status: true
 dependencies:
   config:
@@ -10,9 +10,9 @@ dependencies:
     - media
     - system
 _core:
-  default_config_hash: JrtDp8Iu4bDYXyEa3b0ibCCP9Lcj-px3BRoEOpg85_Q
+  default_config_hash: FEfZ84QVkCw3jYQ-aGg-cvOMiN0eDpY3P-hEPN8LISg
 id: anonymous
-label: 'Anonieme gebruiker'
+label: Anonymous
 weight: 0
 is_admin: false
 permissions:

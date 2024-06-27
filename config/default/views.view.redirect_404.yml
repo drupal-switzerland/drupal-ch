@@ -1,12 +1,12 @@
-uuid: a086626a-26c8-4661-82f7-3b8bea2934ac
-langcode: nl
+uuid: e032da56-fdf2-482c-865c-8832e17f0b11
+langcode: en
 status: true
 dependencies:
   module:
     - redirect_404
     - user
 _core:
-  default_config_hash: oReH9pM5Iof25A3V7ZTskcrIZ7GnruqbXdTHUKHLGlQ
+  default_config_hash: kIciZfos0XFnlDqrTRNcFRa_8cuVS3tWEq-BGO4KLys
 id: redirect_404
 label: 'Redirect 404'
 module: views
@@ -17,11 +17,11 @@ base_field: ''
 display:
   default:
     id: default
-    display_title: Hoofd
+    display_title: Main
     display_plugin: default
     position: 0
     display_options:
-      title: '404-pagina''s oplossen'
+      title: 'Resolve 404 pages'
       fields:
         path:
           id: path
@@ -33,7 +33,7 @@ display:
           entity_type: null
           entity_field: null
           plugin_id: standard
-          label: Pad
+          label: Path
           exclude: false
           alter:
             alter_text: false
@@ -82,7 +82,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: serialized
-          label: Aantal
+          label: Count
           exclude: false
           alter:
             alter_text: false
@@ -133,7 +133,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: date
-          label: 'Laatste toegang'
+          label: 'Last access'
           exclude: false
           alter:
             alter_text: false
@@ -185,7 +185,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: standard
-          label: Taal
+          label: Language
           exclude: false
           alter:
             alter_text: false
@@ -234,7 +234,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: redirect_404_operations
-          label: Bewerkingen
+          label: Operations
           exclude: false
           alter:
             alter_text: false
@@ -287,22 +287,22 @@ display:
             previous: ‹‹
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per pagina'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Alle -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Startpunt
+            offset_label: Offset
       exposed_form:
         type: basic
         options:
           submit_button: Filter
           reset_button: true
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -320,7 +320,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'Er zijn geen 404 fouten om op te lossen.'
+          content: 'There are no 404 errors to resolve.'
           tokenize: false
       sorts: {  }
       arguments: {  }
@@ -339,7 +339,7 @@ display:
           exposed: true
           expose:
             operator_id: path_op
-            label: Pad
+            label: Path
             description: ''
             use_operator: false
             operator: path_op
@@ -380,7 +380,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Taal
+            label: Language
             description: ''
             use_operator: false
             operator: langcode_op
@@ -514,7 +514,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Pagina
+    display_title: Page
     display_plugin: page
     position: 1
     display_options:

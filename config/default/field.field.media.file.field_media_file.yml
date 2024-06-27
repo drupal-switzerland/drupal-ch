@@ -1,4 +1,4 @@
-uuid: 39a44807-6572-41c8-9956-d95c16e8fda8
+uuid: cbcf8285-085b-452a-a41b-c888f43b9d88
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
     module:
       - media
 _core:
-  default_config_hash: 1A-qTePEmw6qG1ipedq7TT5Ip5kIdCvlFZeH5sGoGlQ
+  default_config_hash: d-PJrLgtHoMdfweDbtvG8gIOyoJRAv0j1OZsyuVWarQ
 id: media.file.field_media_file
 field_name: field_media_file
 entity_type: media
@@ -19,7 +19,7 @@ bundle: file
 label: File
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

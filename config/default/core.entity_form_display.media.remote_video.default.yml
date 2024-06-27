@@ -1,4 +1,4 @@
-uuid: 908f5d40-378d-4da3-b2b7-da75a020a8aa
+uuid: f1ba783d-0093-44c3-b673-e00c69242cea
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - media
     - path
 _core:
-  default_config_hash: mBhwQ8hy3KIloyoaV_AEg3TUk7yn6rFyZhx3VKo7iNU
+  default_config_hash: VLQ8vLShe02n5PLs96lguq-1w1xByUWwpDmnQ1i3inc
 id: media.remote_video.default
 targetEntityType: media
 bundle: remote_video
@@ -88,3 +88,7 @@ content:
     third_party_settings: {  }
 hidden:
   field_video_provider: true
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

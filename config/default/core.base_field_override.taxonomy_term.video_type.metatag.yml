@@ -1,0 +1,20 @@
+uuid: 8926c730-b402-4da3-9fe9-dca6a97e9b72
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.video_type
+  module:
+    - metatag
+id: taxonomy_term.video_type.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: video_type
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

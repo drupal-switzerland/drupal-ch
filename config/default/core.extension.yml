@@ -1,6 +1,5 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
-langcode: nl
 module:
   action: 0
   address: 0
@@ -21,6 +20,7 @@ module:
   chosen_lib: 0
   ckeditor: 0
   ckeditorheight: 0
+  color: 0
   components: 0
   config: 0
   config_filter: 0
@@ -28,12 +28,12 @@ module:
   config_translation: 0
   content_moderation: 0
   contextual: 0
-  color: 0
   crop: 0
   csv_serialization: 0
   ctools: 0
   datetime: 0
   datetime_range: 0
+  default_content: 0
   dnl_layouts: 0
   draggableviews: 0
   dynamic_page_cache: 0
@@ -55,6 +55,7 @@ module:
   focal_point: 0
   gin_toolbar: 0
   gtm: 0
+  help: 0
   http_cache_control: 0
   image: 0
   imageapi_optimize: 0
@@ -68,8 +69,10 @@ module:
   jquery_ui_datepicker: 0
   jquery_ui_slider: 0
   jquery_ui_touch_punch: 0
+  la_eu_default_content: 0
   language: 0
   layout_builder: 0
+  layout_builder_at: 0
   layout_builder_browser: 0
   layout_builder_iframe_modal: 0
   layout_builder_limit: 0
@@ -106,10 +109,12 @@ module:
   paragraphs_browser: 0
   path: 0
   path_alias: 0
+  phpass: 0
   quicklink: 0
   rdf: 0
   redirect: 0
   redirect_404: 0
+  redis: 0
   responsive_image: 0
   robotstxt: 0
   scheduler: 0
@@ -120,10 +125,11 @@ module:
   shortcut: 0
   simple_sitemap: 0
   site_settings: 0
-  sitemap: 0
   smart_trim: 0
   svg_image_field: 0
   svg_upload_sanitizer: 0
+  symfony_mailer: 0
+  syslog: 0
   system: 0
   system_status: 0
   taxonomy: 0
@@ -140,14 +146,15 @@ module:
   views_bulk_operations: 0
   workflows: 0
   pathauto: 1
+  content_translation: 10
   views: 10
+  eu_cookie_compliance: 11
   paragraphs: 11
-  minimal: 1000
-  eu_cookie_compliance: 1001
+  la_eu: 1000
 theme:
   stable: 0
-  classy: 0
   claro: 0
+  classy: 0
   gin: 0
   themekit: 0
-profile: minimal
+profile: la_eu

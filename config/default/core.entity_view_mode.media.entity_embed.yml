@@ -1,12 +1,13 @@
-uuid: dbc80320-ca7d-4c8f-8ebf-764d33ea0f8c
+uuid: 9486b017-98ff-489b-876d-cdc91aebeb2e
 langcode: en
 status: true
 dependencies:
   module:
     - media
 _core:
-  default_config_hash: x3R_ByQfh_IP1PdNkWfiMtU54VEbkhesOBJTMt8auUc
+  default_config_hash: mdqX6JBs1aJc2LDNXvHvY1rM0AEiRlBruLJRq3xxRMk
 id: media.entity_embed
 label: 'Entity Embed'
+description: ''
 targetEntityType: media
 cache: true

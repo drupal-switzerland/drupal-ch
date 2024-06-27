@@ -1,7 +1,9 @@
-uuid: 076d5a65-ea66-4090-abaf-89c94c4315e1
+uuid: 0d103260-f213-4d87-bc7d-dc9c57f95e3e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: u6cnpDoGfJJBAvi9ZpK-7mQANThyLGf_qfSu-JPEfnk
 id: home_banner
 label: 'Homepage Banner'
 revision: 0

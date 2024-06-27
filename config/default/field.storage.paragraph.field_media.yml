@@ -1,10 +1,12 @@
-uuid: c823eada-4a5d-47b2-9544-35bc91e4feef
+uuid: 2cf8191b-a43a-4c1e-8447-a7fd1dba5d09
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - paragraphs
+_core:
+  default_config_hash: wa_nFwSP5949t2qfxB3fcBdCkaB3eFjMowkhLytP5BI
 id: paragraph.field_media
 field_name: field_media
 entity_type: paragraph

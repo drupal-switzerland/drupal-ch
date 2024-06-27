@@ -1,5 +1,5 @@
-uuid: 364e55d6-bf2e-4061-82b9-4f93acb0252c
-langcode: nl
+uuid: 901a5e31-2185-4f66-a598-28325b79860f
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,8 +7,10 @@ dependencies:
     - image.style.medium_hq
     - image.style.small_hq
     - image.style.x_small_hq
+  theme:
+    - themekit
 _core:
-  default_config_hash: lHAvQkHMg8SzCaJDWnfreJOtjjscmB6HAy0XMvGyWc4
+  default_config_hash: J5_upp90KA0cYr_fKalOmA91n_DIEAiC4Y6y9nujCIg
 id: third_column_hq
 label: 'Third Column HQ'
 image_style_mappings:

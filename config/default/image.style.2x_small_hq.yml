@@ -1,9 +1,9 @@
-uuid: 78039f75-f3ad-4100-af3e-7f230e2f8dba
+uuid: 59b0fc6c-835b-4c7e-a336-ebdb5c39a42c
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 0iRusm7m6W5oz55Wiq9vagFaQT9lqzWd3I-Bn1OTY74
+  default_config_hash: L8376crqa3W5xM1Itw53uO9_uL3n4rGYRaAIIEoADOo
 name: 2x_small_hq
 label: '2X Small HQ (320W)'
 effects:

@@ -1,4 +1,4 @@
-uuid: d78e1ac6-6b6e-4808-a6a8-f8f06b6fb6ea
+uuid: 223ae60f-9a2d-40c6-a04c-a5fbe8cf09c6
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_link
   module:
     - link
+_core:
+  default_config_hash: VudBqsfr9rMUWLYCxM8WPRNKSHjQRtS0YVUEFto9g2Y
 id: block_content.cases_slider.field_link
 field_name: field_link
 entity_type: block_content
@@ -14,7 +16,7 @@ bundle: cases_slider
 label: CTA
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

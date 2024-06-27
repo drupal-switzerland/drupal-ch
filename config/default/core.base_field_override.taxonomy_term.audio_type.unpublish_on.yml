@@ -1,0 +1,18 @@
+uuid: 37d0ec24-926b-48da-999d-cc9d0a3e6ff5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.audio_type
+id: taxonomy_term.audio_type.unpublish_on
+field_name: unpublish_on
+entity_type: taxonomy_term
+bundle: audio_type
+label: 'Unpublish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

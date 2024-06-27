@@ -1,9 +1,11 @@
-uuid: 62ceea5a-fab5-4034-a836-a74759e5d12e
+uuid: 1ac7d840-a677-4c96-9610-3cf4bd99859b
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: '-7r2fkxEcyBZ3nJcnYV6f54ZvAQx-6u523PDexaVRKM'
 id: node.field_website_of_the_year
 field_name: field_website_of_the_year
 entity_type: node

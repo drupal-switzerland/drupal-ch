@@ -1,5 +1,5 @@
-uuid: f7242791-85aa-4900-86e9-b3f63c6616fa
-langcode: nl
+uuid: bcde0b05-ba3b-44b5-b4c7-b3ca2b10f6f1
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,18 +9,18 @@ dependencies:
     - media
     - user
 _core:
-  default_config_hash: j-9uXKNxgw8yhB_YvUDne2obNDymWDoVKqGzxjGGCPQ
+  default_config_hash: OYBWMx9wS_zM_mS5lWWnICBPtaWEMVyQlzcTQFY_FnQ
 id: media
 label: Media
 module: views
-description: 'Media zoeken en beheren.'
+description: 'Find and manage media.'
 tag: ''
 base_table: media_field_data
 base_field: mid
 display:
   default:
     id: default
-    display_title: Standaard
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
@@ -76,7 +76,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Actie
+          action_title: Action
           include_exclude: exclude
           selected_actions: {  }
         thumbnail__target_id:
@@ -89,7 +89,7 @@ display:
           entity_type: media
           entity_field: thumbnail
           plugin_id: field
-          label: Miniatuur
+          label: Thumbnail
           exclude: false
           alter:
             alter_text: false
@@ -157,7 +157,7 @@ display:
           entity_type: media
           entity_field: media
           plugin_id: field
-          label: Medianaam
+          label: 'Media name'
           exclude: false
           alter:
             alter_text: false
@@ -269,7 +269,7 @@ display:
           entity_type: media
           entity_field: uid
           plugin_id: field
-          label: Auteur
+          label: Author
           exclude: false
           alter:
             alter_text: false
@@ -379,8 +379,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_false: 'Niet gepubliceerd'
-            format_custom_true: Gepubliceerd
+            format_custom_false: Unpublished
+            format_custom_true: Published
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -401,7 +401,7 @@ display:
           entity_type: media
           entity_field: changed
           plugin_id: field
-          label: Bijgewerkt
+          label: Updated
           exclude: false
           alter:
             alter_text: false
@@ -448,6 +448,15 @@ display:
             date_format: short
             custom_date_format: ''
             timezone: ''
+            tooltip:
+              date_format: ''
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -467,7 +476,7 @@ display:
           admin_label: ''
           entity_type: media
           plugin_id: entity_operations
-          label: Bewerkingen
+          label: Operations
           exclude: false
           alter:
             alter_text: false
@@ -517,18 +526,18 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: 'Volgende ›'
-            previous: '‹ Vorige'
-            first: '« Eerste'
-            last: 'Laatste »'
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per pagina'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Alle -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Startpunt
+            offset_label: Offset
           quantity: 9
       exposed_form:
         type: basic
@@ -536,10 +545,10 @@ display:
           submit_button: Filter
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -557,7 +566,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'Geen media beschikbaar.'
+          content: 'No media available.'
           tokenize: false
       sorts:
         created:
@@ -594,7 +603,7 @@ display:
           exposed: true
           expose:
             operator_id: name_op
-            label: Medianaam
+            label: 'Media name'
             description: ''
             use_operator: false
             operator: name_op
@@ -679,7 +688,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: Waar
+            label: 'True'
             description: null
             use_operator: false
             operator: status_op
@@ -693,7 +702,7 @@ display:
               authenticated: authenticated
           is_grouped: true
           group_info:
-            label: Publicatiestatus
+            label: 'Published status'
             description: ''
             identifier: status
             optional: true
@@ -704,11 +713,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Gepubliceerd
+                title: Published
                 operator: '='
                 value: '1'
               2:
-                title: 'Niet gepubliceerd'
+                title: Unpublished
                 operator: '='
                 value: '0'
         langcode:
@@ -727,7 +736,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Taal
+            label: Language
             description: ''
             use_operator: false
             operator: langcode_op

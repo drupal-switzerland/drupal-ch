@@ -1,9 +1,9 @@
-uuid: 89b5b9ec-671a-446f-ab9f-bd805ee36341
+uuid: 91aff0d2-1ba7-4fcf-8fb9-14ed28d01747
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: NWmygMoWqis8lNVWC8LjNhoIzp8NWlG-VXyV1ukb9KY
+  default_config_hash: 1q63kSiipSsCde4NibrtJo_JFzqtEIF9AwYftruw9bI
 name: x_small_hq
 label: 'X Small HQ (480W)'
 effects:

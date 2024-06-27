@@ -1,0 +1,27 @@
+uuid: 6c0423e2-6970-40c9-bfbd-89ff7d9a9841
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: lH4wzbbz3bmdhbsOi7UW-8yiYr_OH1g74YcUitjAbWU
+id: stable_footer
+theme: stable
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

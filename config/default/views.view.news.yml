@@ -1,4 +1,4 @@
-uuid: 3697afa0-6e5e-4f11-8435-69aeb4fad655
+uuid: e0158d90-a4eb-40cb-b775-be1ec6e63161
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - node
     - user
+_core:
+  default_config_hash: vx4ykvTpWi2ejUm9THRKheAWV0pOndPAJyY-plwa5dA
 id: news
 label: News
 module: views

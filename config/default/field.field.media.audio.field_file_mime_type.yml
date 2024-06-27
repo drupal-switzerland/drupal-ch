@@ -1,4 +1,4 @@
-uuid: 6b5e90a2-f9cb-4868-947c-690271373d2b
+uuid: cfc14a83-260a-4509-9361-7998f1e53cc7
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ bundle: audio
 label: 'File MIME Type'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

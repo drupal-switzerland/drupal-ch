@@ -1,4 +1,4 @@
-uuid: e2a0e382-3e24-4a78-8360-88b224a8f468
+uuid: 98b01e78-43bf-4cd0-b6dd-2450f9959a1f
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - menu_block
   theme:
     - themekit
+_core:
+  default_config_hash: 6Jj-5jIcZpd5UBdkUH7BlPEoEuOS75RCrJRD9Y_So_g
 id: social
 theme: themekit
 region: footer_top
@@ -16,7 +18,7 @@ provider: null
 plugin: 'menu_block:social'
 settings:
   id: 'menu_block:social'
-  label: 'Volg ons op'
+  label: 'Follow us on'
   label_display: visible
   provider: menu_block
   follow: false

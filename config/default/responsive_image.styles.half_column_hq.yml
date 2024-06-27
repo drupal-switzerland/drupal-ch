@@ -1,12 +1,14 @@
-uuid: afc4d3b4-1ebd-4717-ac54-3d098c55cf3e
-langcode: nl
+uuid: 1a32f424-41f7-4464-8509-916f08a1b119
+langcode: en
 status: true
 dependencies:
   config:
     - image.style.large_hq
     - image.style.small_hq
+  theme:
+    - themekit
 _core:
-  default_config_hash: 48g8eZdtksogyfdHFKyOUQlH_Qr_-U0YuLZDVy69b_g
+  default_config_hash: mn0ez_j2oAdieKWiNuoWzIQCHm0eEohXv3kW30nmAVw
 id: half_column_hq
 label: 'Half Column HQ'
 image_style_mappings:

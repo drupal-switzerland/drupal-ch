@@ -1,11 +1,11 @@
-uuid: 42188cdb-f5bb-47d1-be00-40115c754f3e
+uuid: 8ad51a01-298b-4649-ae69-19b358857631
 langcode: en
 status: true
 dependencies:
   module:
     - focal_point
 _core:
-  default_config_hash: Y5sNV1yDlXunc1JFS8KdprurcmybNJ2tcmx24V6Mb5A
+  default_config_hash: MBsqEVfojHSfOLT7ZDXet9t2SEti4tyd6O-6VT2boLc
 name: x_small_square_1_1
 label: 'X Small Square 1:1 (100 x 100)'
 effects:

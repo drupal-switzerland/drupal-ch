@@ -1,17 +1,15 @@
-uuid: 71b50f43-abe1-45df-be00-3f3173c42171
+uuid: a993f0c5-f0dd-4809-bc02-6c067d598cc8
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.site_setting_entity.field_text
+    - filter.format.basic_html
     - site_settings.site_setting_entity_type.subscribe_form
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    allowed_formats:
-      - basic_html
+_core:
+  default_config_hash: zG2TfC2DWF9BlZw7CU-aZDvHy2pCUPFkqWEvxNdav4M
 id: site_setting_entity.subscribe_form.field_text
 field_name: field_text
 entity_type: site_setting_entity
@@ -19,8 +17,10 @@ bundle: subscribe_form
 label: Text
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  allowed_formats:
+    - basic_html
 field_type: text_long

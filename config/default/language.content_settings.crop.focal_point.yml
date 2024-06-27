@@ -1,9 +1,11 @@
-uuid: 0cceed80-3246-4105-b8f3-a49bf0ad73f4
+uuid: 2d3e4280-f2de-4a91-86c0-58c48e3a9ea0
 langcode: en
 status: true
 dependencies:
   config:
     - crop.type.focal_point
+_core:
+  default_config_hash: cDqOmGXX4yVXINQQHGX9v8l0bhN6RWw3WcH8TAuf-DI
 id: crop.focal_point
 target_entity_type_id: crop
 target_bundle: focal_point

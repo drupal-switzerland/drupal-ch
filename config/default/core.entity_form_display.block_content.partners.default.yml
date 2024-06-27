@@ -1,4 +1,4 @@
-uuid: 34a4b172-dafe-4dd6-a068-43a3e13cabb0
+uuid: 56d50bc6-f9bf-448e-8c4d-b3c3618725f9
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - allowed_formats
     - paragraphs
     - text
+_core:
+  default_config_hash: imq2yUgSEq_P2XflszhH_cviYPyxKd-UOt7OEO8c2CI
 id: block_content.partners.default
 targetEntityType: block_content
 bundle: partners

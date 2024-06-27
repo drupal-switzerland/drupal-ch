@@ -1,4 +1,4 @@
-uuid: e804e97a-c69e-4073-880a-8d6252ec6dac
+uuid: 23357a46-68f5-4339-a33c-36f64804a604
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - site_settings.site_setting_entity_type.footer_copyright
   module:
     - text
+_core:
+  default_config_hash: Vx-kG9BdG-7bW0lzgvs0T4eXjK0-GFcyiI-uTb6Av2c
 id: site_setting_entity.footer_copyright.default
 targetEntityType: site_setting_entity
 bundle: footer_copyright

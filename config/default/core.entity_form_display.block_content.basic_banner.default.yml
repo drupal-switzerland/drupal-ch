@@ -1,4 +1,4 @@
-uuid: 85a41e3b-58b4-4031-b6ff-247373d49e3b
+uuid: 193f016e-ab93-49f2-ab4f-857afefab1b3
 langcode: en
 status: true
 dependencies:
@@ -33,6 +33,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: true
+_core:
+  default_config_hash: yilBhW8YQB1i-igJwXxG6IT8hBO-3i_EeCgwuwIm5H8
 id: block_content.basic_banner.default
 targetEntityType: block_content
 bundle: basic_banner

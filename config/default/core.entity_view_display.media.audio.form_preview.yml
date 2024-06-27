@@ -1,4 +1,4 @@
-uuid: 78f73b0b-8a72-437e-b8bb-1de6d697b510
+uuid: 2cc2f5a5-7ed1-4eab-9955-e5405ccf767a
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: 67qCZ7vIqe-coAQn274GJf3BrD0TdYRqI844S_KFMYY
+  default_config_hash: dajOZXBZOGDL99dDADm3wvpa2YIfUG5AVLDnkPQcGBM
 id: media.audio.form_preview
 targetEntityType: media
 bundle: audio

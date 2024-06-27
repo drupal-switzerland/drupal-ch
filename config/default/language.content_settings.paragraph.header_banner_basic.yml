@@ -1,9 +1,18 @@
-uuid: 687a2a2f-83a4-4180-b6b6-aa348a930181
+uuid: e6f8daae-abe5-402e-936c-6bb656d06a1c
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.header_banner_basic
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 1jz6COOJ-NriElQTecfGgijPzLHGu80Ws5e-368nygc
 id: paragraph.header_banner_basic
 target_entity_type_id: paragraph
 target_bundle: header_banner_basic

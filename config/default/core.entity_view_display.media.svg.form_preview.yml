@@ -1,4 +1,4 @@
-uuid: 44ce1dce-f084-423b-b01d-082b5b673b96
+uuid: d04790fa-671e-48a4-a6a6-b68e8f450edf
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   module:
     - svg_image_field
 _core:
-  default_config_hash: JNKU3CYOXbaH5ChhklrP9WGkgpj6gyWpM7Eqihtskjo
+  default_config_hash: '-yqqjA6MDg-hx82EvISeUtHbhG3JZNilmrt1fm78MK8'
 id: media.svg.form_preview
 targetEntityType: media
 bundle: svg

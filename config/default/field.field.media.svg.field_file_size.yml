@@ -1,4 +1,4 @@
-uuid: 18f3b33e-f517-4b6e-8ec1-9064a73b909e
+uuid: 8446efa9-d8bd-4417-83e0-ccd3421f204e
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ bundle: svg
 label: 'File Size'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

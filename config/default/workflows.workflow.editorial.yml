@@ -1,4 +1,4 @@
-uuid: a7ad182f-b088-4f68-b3c4-df99e2d796f9
+uuid: 8ad0348c-31a7-4e2a-9f46-55d308e626fb
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - content_moderation
 _core:
-  default_config_hash: GR3x_HePZcvDtjFO0wSqo5UHO3dOvi4v9kqwHmSwu-I
+  default_config_hash: qiI587KnhSf9i9dW6J_Iz8Filf-vrAwCt7I6FZa2WWQ
 id: editorial
 label: Editorial
 type: content_moderation

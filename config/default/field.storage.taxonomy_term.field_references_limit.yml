@@ -1,10 +1,12 @@
-uuid: 40ec8cb0-17e2-4155-a173-8742485072ef
+uuid: 091b1a69-7b02-4135-929b-d2126601687f
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: WlNkan21Zq4Q_SrBCQZQ46_y3Yi6ITFVWLeysIfxu8o
 id: taxonomy_term.field_references_limit
 field_name: field_references_limit
 entity_type: taxonomy_term

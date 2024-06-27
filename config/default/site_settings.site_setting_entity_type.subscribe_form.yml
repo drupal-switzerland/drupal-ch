@@ -1,7 +1,9 @@
-uuid: 3b17f655-750e-47fa-870d-fe6996c9e90c
+uuid: b97e143f-c2f7-4e22-aca6-9de850d541dd
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: iK_-7YUriRradhcu8D1UCflF2e5Dxx3poCVHguGeAAY
 id: subscribe_form
 label: 'Subscribe form'
 fieldset: Footer

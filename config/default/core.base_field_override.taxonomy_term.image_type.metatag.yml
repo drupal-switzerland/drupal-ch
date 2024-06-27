@@ -1,0 +1,20 @@
+uuid: 923ca1ae-2daa-4ee0-a9d3-4043393b3b81
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.image_type
+  module:
+    - metatag
+id: taxonomy_term.image_type.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: image_type
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

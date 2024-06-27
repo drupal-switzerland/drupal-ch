@@ -1,4 +1,4 @@
-uuid: 797dcf1b-9410-4a98-a0e1-8f94abcbe1b0
+uuid: bb77501e-90cd-491d-b51e-3ed759705531
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.case
   module:
     - link
+_core:
+  default_config_hash: KTJGSCKyV5luGuLr19AyA1mL3wgJZlpa_3w-T2pa7Og
 id: node.case.field_link
 field_name: field_link
 entity_type: node
@@ -14,7 +16,7 @@ bundle: case
 label: 'Website Url'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

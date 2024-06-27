@@ -1,4 +1,4 @@
-uuid: e8308bc5-b439-4fbe-967f-266658d8fe82
+uuid: e07eba63-cfc9-4075-8dbb-7d86e55ae752
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
   module:
     - media
 _core:
-  default_config_hash: yiS8Evq_Pt0IaRDEGzKftqrc8j74Q1psnU-ajSondLE
+  default_config_hash: 0s7WZb8okGjXsZfgv334nwz97349tq7fyk6ZXRUMMOM
 id: media.remote_video.default
 targetEntityType: media
 bundle: remote_video
@@ -23,6 +23,8 @@ content:
     settings:
       max_width: 0
       max_height: 0
+      loading:
+        attribute: eager
     third_party_settings: {  }
     weight: 1
     region: content

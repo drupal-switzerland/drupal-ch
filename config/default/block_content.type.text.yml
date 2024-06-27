@@ -1,7 +1,9 @@
-uuid: 2803e2e5-ac41-419c-b6b8-3290f245f39f
+uuid: ab8deca9-a51d-4df9-9c87-4ea54b1915e2
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: in2XmKLQeecdv5kqUu5eIe03BkeLgcWC9PX7akzz-jA
 id: text
 label: Text
 revision: 0

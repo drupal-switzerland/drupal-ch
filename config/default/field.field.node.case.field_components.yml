@@ -1,4 +1,4 @@
-uuid: 72b9be73-684a-44a5-9a5f-f68a7654c814
+uuid: 91f2d2de-b785-4a0c-acd5-005b94e63e96
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.details_list
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: mObaNilSU_JDW4F-NDiUuvBUbnknYTiLQHtYbjgT-Xg
 id: node.case.field_components
 field_name: field_components
 entity_type: node
@@ -15,7 +17,7 @@ bundle: case
 label: Components
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

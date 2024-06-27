@@ -1,9 +1,18 @@
-uuid: 10194142-dd12-49da-a59e-49f41cb0c10e
+uuid: 7e055eaf-0da4-4a70-9ecf-027b41f46f50
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.community_features
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: MPZXCv6U16FIZiEbwNum1NwSlovezBGyTgOhmS4bMiM
 id: block_content.community_features
 target_entity_type_id: block_content
 target_bundle: community_features

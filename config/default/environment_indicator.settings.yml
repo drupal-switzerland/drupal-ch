@@ -1,6 +1,5 @@
 _core:
-  default_config_hash: fCKNhwk3kMAMOCP1SvJzVbKWCTy3iV8WbE3nw93sMe0
-langcode: nl
+  default_config_hash: IDaAmxPqBchgGMN2sx1z3Ek2tBWSOT1oZkOjS0MDmPU
 toolbar_integration:
   - toolbar
 favicon: true

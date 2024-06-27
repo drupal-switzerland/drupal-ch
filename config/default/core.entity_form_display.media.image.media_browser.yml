@@ -1,4 +1,4 @@
-uuid: 4a15c34d-4358-4cca-ba77-fc72e393943e
+uuid: cb8eddb3-1eff-4703-87c7-589a5710a167
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: aSaW-XQO9KVQ2yAbY1gOsFdzqbPA-bjQx6JqD8qkp6U
+  default_config_hash: RjKnnN-Q8rwdUwg-ioTYdMCNSpBMnpaTGYyLpvlDwmI
 id: media.image.media_browser
 targetEntityType: media
 bundle: image
@@ -60,5 +60,10 @@ content:
 hidden:
   created: true
   path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
   status: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true

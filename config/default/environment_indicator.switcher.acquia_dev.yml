@@ -1,12 +1,13 @@
-uuid: 6248f6ca-1a2e-4b49-a7d1-53d6ddd947a2
+uuid: b215284c-3d4c-4a6c-8ca8-2641e608a7dc
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: eYG8kuUXsMoA92kae1u8sTFu9_ZnZTutXQt4tn-5X5E
+  default_config_hash: 3L0HnLq9LiCzdd8zSollV9_ttcQkiYQqnemT4Nh9Nzc
 machine: acquia_dev
 description: null
 name: 'Acquia Dev'
 url: 'http://paragonbhybefranz.devcloud.acquia-sites.com/'
+weight: null
 fg_color: '#ffffff'
 bg_color: '#000000'

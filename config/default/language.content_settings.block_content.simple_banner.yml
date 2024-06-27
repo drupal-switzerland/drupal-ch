@@ -1,9 +1,18 @@
-uuid: 8315c6ff-0d19-4648-9ce3-e9ca038cb0e2
+uuid: bd7739bd-e294-450a-8b8e-f29432f17bc6
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.simple_banner
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 1di5XpZFJcYDmBR1mNzoINBlRaK8XAL0uul5-ZBeWbg
 id: block_content.simple_banner
 target_entity_type_id: block_content
 target_bundle: simple_banner

@@ -1,4 +1,4 @@
-uuid: 03258848-3566-4b0d-b2fa-54c387e30e3e
+uuid: bf7aeb0e-5c13-4c37-8177-e1766b9182b3
 langcode: en
 status: true
 dependencies:
@@ -13,6 +13,8 @@ dependencies:
     - entity_reference_revisions
     - media_responsive_thumbnail
     - text
+_core:
+  default_config_hash: AXSNYrQ-BJhGsI7w5N9zms9Q-n1OuvoZd_fADBsjEhQ
 id: block_content.basic_banner.default
 targetEntityType: block_content
 bundle: basic_banner

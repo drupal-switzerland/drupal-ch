@@ -1,9 +1,11 @@
-uuid: 819ea653-8986-4ca5-98b5-6d7bd6e0676d
+uuid: 065faf6b-fda7-41a5-8e67-dceb401195a8
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: bUb7EN92vUqeud4v26tc4rdyutyLGGXx6ipvjmSznQI
 id: node_partner
 label: 'Node - Partner'
 type: 'canonical_entities:node'

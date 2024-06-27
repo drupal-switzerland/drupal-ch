@@ -1,0 +1,20 @@
+uuid: 8816b2fd-306b-4290-869b-ef553aa75d36
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.partner
+  module:
+    - path
+id: node.partner.path
+field_name: path
+entity_type: node
+bundle: partner
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

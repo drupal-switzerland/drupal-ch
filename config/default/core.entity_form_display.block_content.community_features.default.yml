@@ -1,4 +1,4 @@
-uuid: 4c465c89-354f-4053-94cd-abe874fdcdb3
+uuid: 2f2b6ff7-9627-48c0-91ad-ae3ed362aaa2
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.block_content.community_features.field_p_content
   module:
     - paragraphs
+_core:
+  default_config_hash: HVcXMlQhkn6ksmQpxe5mZuBCLg063m8EQ4Rq4BwoWGY
 id: block_content.community_features.default
 targetEntityType: block_content
 bundle: community_features

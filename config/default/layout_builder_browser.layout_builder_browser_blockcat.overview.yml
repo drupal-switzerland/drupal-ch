@@ -1,7 +1,10 @@
-uuid: e916ab84-17eb-4d1f-a983-506ad8601b95
+uuid: d72f74c4-f018-4c3a-8610-8f552adb2792
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: zu1WKhOUcA1zDLscfrU9MV77oLahPLP6qO8rxCeaOLM
 id: overview
 label: Overview
 weight: -7
+opened: true

@@ -1,17 +1,15 @@
-uuid: f0753f47-adb7-49e6-ae02-93ca8a4f4e6e
+uuid: fe1fafb0-1914-49b1-b2ea-dcbb6d0cf7e1
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_intro
+    - filter.format.plain_text
     - node.type.news
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    allowed_formats:
-      - plain_text
+_core:
+  default_config_hash: CwmfqiBK4yk7G7rYc_bx7YZgbIQMivXTg9i4v1Gc_Uc
 id: node.news.field_intro
 field_name: field_intro
 entity_type: node
@@ -22,5 +20,7 @@ required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  allowed_formats:
+    - plain_text
 field_type: text_long

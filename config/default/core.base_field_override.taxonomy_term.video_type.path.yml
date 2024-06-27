@@ -1,0 +1,20 @@
+uuid: 18c2a049-c269-4f32-90c8-d16dbe4ce3c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.video_type
+  module:
+    - path
+id: taxonomy_term.video_type.path
+field_name: path
+entity_type: taxonomy_term
+bundle: video_type
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

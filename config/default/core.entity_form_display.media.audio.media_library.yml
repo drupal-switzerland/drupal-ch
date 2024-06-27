@@ -1,4 +1,4 @@
-uuid: 52d76a3f-5e10-4353-beda-933c3d1d371a
+uuid: a2506877-a7e5-4c01-a2d6-27fa59753d95
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - field.field.media.audio.field_tags
     - media.type.audio
 _core:
-  default_config_hash: kn5aqnjJ_nAfC8U2KkcK_e16kev1-ojACoa5VL6WoTU
+  default_config_hash: 9NqVJhWsuVRWpGifSRVXNXEvjoVkw1ECoSUIdviGt0A
 id: media.audio.media_library
 targetEntityType: media
 bundle: audio
@@ -25,5 +25,10 @@ hidden:
   langcode: true
   name: true
   path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
   status: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true

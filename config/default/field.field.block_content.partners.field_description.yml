@@ -1,17 +1,15 @@
-uuid: 20e84e6a-e998-40a0-9211-0efc7a8e573c
+uuid: 4632c939-72a7-4f12-9caf-85bc578435d5
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.partners
     - field.storage.block_content.field_description
+    - filter.format.basic_html
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    allowed_formats:
-      - basic_html
+_core:
+  default_config_hash: ruHLGEGq_Er1zhYS3xcdxRRW2VghbXEfd3t2qFoJjkA
 id: block_content.partners.field_description
 field_name: field_description
 entity_type: block_content
@@ -19,10 +17,12 @@ bundle: partners
 label: Description
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   display_summary: false
   required_summary: false
+  allowed_formats:
+    - basic_html
 field_type: text_with_summary

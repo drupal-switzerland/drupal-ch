@@ -1,10 +1,12 @@
-uuid: 8d17ede1-89b9-4f7e-b5ff-37419815d278
+uuid: 981df703-94dd-4786-bd65-64c8eac1a133
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - taxonomy
+_core:
+  default_config_hash: qaebW0s0IpbafQ-Uz_H6mDCbReoN04Nln419SbTgajg
 id: taxonomy_term.field_media
 field_name: field_media
 entity_type: taxonomy_term

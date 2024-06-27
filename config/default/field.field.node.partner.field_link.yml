@@ -1,4 +1,4 @@
-uuid: 2617c194-5292-47b6-9641-a17bc4fe949f
+uuid: 26dbd697-4363-4d0c-9ab4-bf2893e8fd00
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.partner
   module:
     - link
+_core:
+  default_config_hash: tet17ypIoMNxXCczmG2LwT65xUdztBhSICiKch7LXqI
 id: node.partner.field_link
 field_name: field_link
 entity_type: node
@@ -14,7 +16,7 @@ bundle: partner
 label: 'Website Url'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

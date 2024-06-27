@@ -1,4 +1,4 @@
-uuid: f9086168-40d5-43ac-a3ae-62a19c745154
+uuid: 87773164-00f8-42e1-8366-eab50ce45320
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.text_with_media
     - field.storage.block_content.field_media
     - media.type.image
+_core:
+  default_config_hash: rvwut4YWcwNz5TsZ90-xvIVDwNx2961YvHp4t3SE2fQ
 id: block_content.text_with_media.field_media
 field_name: field_media
 entity_type: block_content
@@ -13,7 +15,7 @@ bundle: text_with_media
 label: Image
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

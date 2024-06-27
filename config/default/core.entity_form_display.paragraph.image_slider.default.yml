@@ -1,4 +1,4 @@
-uuid: 86000048-45f1-4f54-a2ca-a863ee6a0119
+uuid: 94e6a145-4c83-478f-9075-05d7ca4e0e04
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.image_slider
   module:
     - media_library
+_core:
+  default_config_hash: YUMn62sY2sHf3D1TZ7mRj2FprOAfLvxnbb8lqxv3gNQ
 id: paragraph.image_slider.default
 targetEntityType: paragraph
 bundle: image_slider

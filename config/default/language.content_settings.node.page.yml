@@ -1,9 +1,16 @@
-uuid: 4eb9dec9-4ec1-4a92-8d79-e28a03228723
+uuid: e921a815-f885-4747-b36c-59bc43e3250a
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
 _core:
   default_config_hash: gqkjEfZy_d1wzPPY3QSjrAKU1yM1YJJsDFUn3nn0cXM
 id: node.page

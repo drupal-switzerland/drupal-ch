@@ -1,5 +1,5 @@
-uuid: 0ac2bffd-53cf-4ac8-8fe3-ccd1633acf83
-langcode: nl
+uuid: dbcafe46-469a-4597-99e5-3b34b359bb9b
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
 id: user_cancel_user_action
-label: 'De geselecteerde gebruikersaccount(s) opheffen'
+label: 'Cancel the selected user account(s)'
 type: user
 plugin: user_cancel_user_action
 configuration: {  }

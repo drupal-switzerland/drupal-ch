@@ -1,5 +1,5 @@
-uuid: ebc62faa-1ca8-44fd-ba91-b58f53e68d7b
-langcode: nl
+uuid: dad0ff05-181a-4279-a1c9-bb72c58a7d20
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - themekit
 _core:
-  default_config_hash: PRWgtAbvaaYQfoleycU091NHcxNGd1iZJMsCCPAIYOo
+  default_config_hash: lq7B_hrwEvcRxAosaMBF1yDLuZOtRC89J306vOWi2js
 id: themekit_branding
 theme: themekit
 region: header
@@ -16,7 +16,7 @@ provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Branding van de website'
+  label: 'Site branding'
   label_display: '0'
   provider: system
   use_site_logo: true

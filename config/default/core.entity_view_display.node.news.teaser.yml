@@ -1,4 +1,4 @@
-uuid: c359b020-b152-4d60-9117-adae1bd462e6
+uuid: c761d572-7330-410e-8d61-e2b8ff2b91fe
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
   module:
     - media_responsive_thumbnail
     - user
+_core:
+  default_config_hash: fs-bugn_RKJ1X8k7r6-jWiLXrCwVAutDqduR544OIrg
 id: node.news.teaser
 targetEntityType: node
 bundle: news

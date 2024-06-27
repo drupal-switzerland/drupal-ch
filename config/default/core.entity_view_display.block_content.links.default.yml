@@ -1,4 +1,4 @@
-uuid: 24a67fc9-6030-4e29-a844-41dfe45ff672
+uuid: 223cfe06-38ee-48df-a1d9-c5e972473584
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - field.field.block_content.links.field_links
   module:
     - link
+_core:
+  default_config_hash: OudZym51VoTKh54iYJgcKNbo4IZ6rAYiBhxySfgU4LI
 id: block_content.links.default
 targetEntityType: block_content
 bundle: links

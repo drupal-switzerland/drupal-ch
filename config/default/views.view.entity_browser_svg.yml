@@ -1,4 +1,4 @@
-uuid: 8d0cf0de-6e25-427c-8cdd-5eb1f50d3d53
+uuid: ff8be751-3031-444f-88f9-e8c4cb01ac0c
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: vBBLgpvEa9g4YF75lOy3Joh5TaHEiRNOxrkfjNKNgSQ
+  default_config_hash: dkHZRInQeTHoy-98idsIW-yvs89CxXW1z_Pu7-BSfxA
 id: entity_browser_svg
 label: 'Entity Browser - SVG'
 module: views
@@ -550,7 +550,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags:
         - 'config:field.storage.media.field_media_svg'
@@ -568,7 +567,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags:
         - 'config:field.storage.media.field_media_svg'

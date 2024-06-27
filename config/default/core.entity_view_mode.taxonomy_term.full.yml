@@ -1,12 +1,13 @@
-uuid: 20d307e9-2916-4a34-be92-b05bc4897b60
-langcode: nl
+uuid: 3c6fe86f-1796-4ce0-8679-7a9244751324
+langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: '-PPKjsNQPvoIDjOuUAvlLocYD976MNjb9Zpgyz5_BWE'
+  default_config_hash: iukUENpf8CFvjZbGGacKX_Ges0-lU9z6zvsd32P6kbo
 id: taxonomy_term.full
-label: 'Pagina met taxonomietermen'
+label: 'Taxonomy term page'
+description: ''
 targetEntityType: taxonomy_term
 cache: true

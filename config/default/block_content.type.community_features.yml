@@ -1,7 +1,9 @@
-uuid: ac498711-7912-4bc0-8781-4bf4dfb50873
+uuid: 5715f472-8eb5-496a-aba2-40fb82d9dc5e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: y3pQXa25vCfHTPVX-FDIXLRsDVHtrsEas3XEqAiruyo
 id: community_features
 label: 'Community Features'
 revision: 0

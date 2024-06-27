@@ -1,0 +1,20 @@
+uuid: eccaf1d3-ac28-4b29-9fc1-d41beb93d53f
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.audio
+  module:
+    - options
+id: media.audio.publish_state
+field_name: publish_state
+entity_type: media
+bundle: audio
+label: 'Publish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

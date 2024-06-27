@@ -1,10 +1,12 @@
-uuid: fa85afe9-600c-41cb-bed2-8e2c665a08b0
+uuid: 4c2c9a6a-4ea2-41f8-9bc8-1fe077597bba
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - paragraphs
+_core:
+  default_config_hash: FkSzw6TmvRn9IiPrqcDIE91hV81ZqETNwpesTzfz4Vg
 id: paragraph.field_button_styling
 field_name: field_button_styling
 entity_type: paragraph

@@ -1,4 +1,4 @@
-uuid: f0336c8f-bbcf-42f6-9852-07a03d24690c
+uuid: 5ee06459-19ba-4682-a7c6-26622556ee80
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: XlshYq4u7Wdm9rfqInLZEoVbs9r9hM5FOvnuX2FoBPY
+  default_config_hash: mvMjwuFpYJHlwMl63zODwgM3YeoYb_cjZaZofmJfZ74
 id: media.video.field_media_video_file
 field_name: field_media_video_file
 entity_type: media
@@ -16,7 +16,7 @@ bundle: video
 label: 'Video file'
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

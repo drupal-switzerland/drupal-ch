@@ -1,0 +1,19 @@
+uuid: e31b1ac8-074e-4878-8bf8-a8918e288cec
+langcode: en
+status: true
+dependencies:
+  module:
+    - advagg
+_core:
+  default_config_hash: M6ytLcLNae-3BIlh2Px7OXPEj0B34_WQ36R0g9K7PU4
+title: 'Default cron handler'
+id: advagg_cron
+weight: 0
+module: advagg
+callback: advagg_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

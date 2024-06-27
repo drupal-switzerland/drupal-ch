@@ -1,10 +1,12 @@
-uuid: 6256c6a8-92bb-45f2-bbe8-c0db59a7ae05
+uuid: 323e6879-4c79-477e-b8c2-13e453998aa9
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - telephone
+_core:
+  default_config_hash: bDgFE0lhQ48bFZvzxZNgu6fid9WqU8IN5_i2TA8P1is
 id: node.field_phone
 field_name: field_phone
 entity_type: node

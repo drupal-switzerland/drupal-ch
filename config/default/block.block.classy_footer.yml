@@ -1,0 +1,27 @@
+uuid: 42f70610-ed40-498e-b2a8-147073235cb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - classy
+_core:
+  default_config_hash: 9mbC2OWxHhAta4udOcTFWGw9b6_gVxQvMIotVt_-yxI
+id: classy_footer
+theme: classy
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

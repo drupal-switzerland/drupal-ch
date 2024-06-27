@@ -1,4 +1,4 @@
-uuid: b9fa9aac-def4-43d9-86d8-588c8d180107
+uuid: dee9a222-b927-47b3-9f9f-0b65a916813f
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - file
     - path
 _core:
-  default_config_hash: pqeQWNJ0SfaaUqswgTkWCFz8VLLw6dsolcweS-zgLWU
+  default_config_hash: r-creti821-3RTUztUNiYmNo6Y0vXzZxHgS45ZS8Q_Q
 id: media.audio.default
 targetEntityType: media
 bundle: audio
@@ -87,3 +87,7 @@ content:
     third_party_settings: {  }
 hidden:
   field_file_mime_type: true
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

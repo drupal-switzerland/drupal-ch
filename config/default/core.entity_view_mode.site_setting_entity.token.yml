@@ -1,12 +1,13 @@
-uuid: e89c911d-9b0c-4761-8655-1b0552c6f8c8
+uuid: a90bdf0b-faeb-4381-b1b3-1159c4c9ecfa
 langcode: en
 status: true
 dependencies:
   module:
     - site_settings
 _core:
-  default_config_hash: W2jmK3J4XkYipLS-nSxyJntrHSQD6E7yyjDYMPicumA
+  default_config_hash: omMRBYawGxYy9tqy6O9ln7ksJY6PvribJfYabjWdTTs
 id: site_setting_entity.token
 label: Token
+description: ''
 targetEntityType: site_setting_entity
 cache: true

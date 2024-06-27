@@ -1,4 +1,4 @@
-uuid: a1a4fea4-7116-4d2f-ba40-4ddab18f840b
+uuid: 618943c8-6daf-40b2-8697-800ca2e363df
 langcode: en
 status: false
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - node.type.component_page
   module:
     - user
+_core:
+  default_config_hash: n501Ir02-flkXmo91tpcXqGGDFHAIfk9HdDsrAghPl4
 id: node.component_page.teaser
 targetEntityType: node
 bundle: component_page

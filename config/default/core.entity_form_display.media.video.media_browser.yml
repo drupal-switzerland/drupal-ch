@@ -1,4 +1,4 @@
-uuid: 149b4e2d-2419-4bef-845d-340c822b628c
+uuid: 61838fc2-ca93-4798-a6fc-c6a681fed772
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: 9HtnsCDs0-GXwSNVY_M8OEadj6fBGGQUzFwgrT8yOlM
+  default_config_hash: GnC7pQhHnWb4CPW4DGeiBobt9UcVlVpabZ4QyYo4q3U
 id: media.video.media_browser
 targetEntityType: media
 bundle: video
@@ -60,5 +60,10 @@ hidden:
   created: true
   field_file_mime_type: true
   path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
   status: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true

@@ -1,4 +1,4 @@
-uuid: 7cfac59d-62e3-4c2e-8d98-d2273859b650
+uuid: 40dfee47-4ec6-4939-84c8-68143783049e
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
     - media.type.svg
     - paragraphs.paragraphs_type.category_feature
+_core:
+  default_config_hash: lrewtAfi3sgewxwrs2a9RUijyLqfWLlox1Vw3CcBXCA
 id: paragraph.category_feature.field_media
 field_name: field_media
 entity_type: paragraph
@@ -14,7 +16,7 @@ bundle: category_feature
 label: Image
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

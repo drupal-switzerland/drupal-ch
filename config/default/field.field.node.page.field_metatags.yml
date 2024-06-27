@@ -1,4 +1,4 @@
-uuid: a831dc99-b8c8-4bd0-8959-92594efb02a9
+uuid: 8a114320-f1d4-4c58-92f6-e2ab8f48d6cf
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: page
 label: Metatags
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 'a:0:{}'

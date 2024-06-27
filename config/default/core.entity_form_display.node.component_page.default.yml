@@ -1,4 +1,4 @@
-uuid: 5887b39e-3623-4ee8-b7bc-776b8a6456ef
+uuid: 42acb4f1-4076-4db5-8c17-32b53f106f62
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ dependencies:
     - content_moderation
     - metatag
     - path
-    - scheduler
-    - scheduler_content_moderation_integration
+_core:
+  default_config_hash: hD8ZQu-QeF5YGQc3z2cQf4GOFQtreB1oIFZLcJunTxo
 id: node.component_page.default
 targetEntityType: node
 bundle: component_page
@@ -58,15 +58,8 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
-  publish_on:
-    type: datetime_timestamp_no_default
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  publish_state:
-    type: scheduler_moderation
-    weight: 30
+  simple_sitemap:
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -102,18 +95,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  unpublish_on:
-    type: datetime_timestamp_no_default
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  unpublish_state:
-    type: scheduler_moderation
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   url_redirects:
     weight: 50
     region: content
@@ -121,3 +102,7 @@ content:
     third_party_settings: {  }
 hidden:
   layout_builder__layout: true
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

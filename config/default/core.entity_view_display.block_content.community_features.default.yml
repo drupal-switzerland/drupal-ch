@@ -1,4 +1,4 @@
-uuid: ecc9212b-96ac-406c-a8c7-7a5722fa55d2
+uuid: 9e6aedfa-5631-430f-9c2c-30da425cc845
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.block_content.community_features.field_p_content
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: OoKoPTbxpyrjCaVyhBz0JStpLufwys5wf2ehIGWkTOI
 id: block_content.community_features.default
 targetEntityType: block_content
 bundle: community_features

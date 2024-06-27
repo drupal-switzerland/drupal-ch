@@ -1,10 +1,13 @@
-uuid: a4b37ce9-9e36-479f-a37c-b59f936d3cdb
+uuid: cf3d9f74-73a0-451c-8cd0-8b3aa0172ae9
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: cVVsywg8KVnjkYo_OxcAdiaFVFZtVhi24Nq7mfu3XxA
 id: taxonomy_term.featured_teaser
 label: 'Featured Teaser'
+description: ''
 targetEntityType: taxonomy_term
 cache: true

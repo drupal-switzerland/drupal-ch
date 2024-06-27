@@ -1,10 +1,12 @@
-uuid: fc1ad27b-ce3c-41bc-9017-06fa470a94ed
+uuid: d606cd55-e48f-4f91-a627-0f8988745337
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - taxonomy
+_core:
+  default_config_hash: C9gZrikumo49YNxkWBeEMF75WN5U3G4614Rc1f_Je_w
 id: block_content.field_categories
 field_name: field_categories
 entity_type: block_content

@@ -1,4 +1,4 @@
-uuid: 11a1f9dd-ff77-44cb-8edf-bae6526ecbca
+uuid: 0e986cfe-ef33-409d-806d-f586a4f13bf3
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ bundle: svg
 label: 'File MIME Type'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

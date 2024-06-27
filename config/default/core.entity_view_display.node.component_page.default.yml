@@ -1,4 +1,4 @@
-uuid: 16dbc4fd-7e42-4786-8883-000fb6be26ba
+uuid: e20f152d-a226-447c-9a96-e1cd260cc131
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - metatag
     - user
+_core:
+  default_config_hash: XYNnwQA4_mNhxx0dn3VzUVhie9JoG4HIfdi985yDh2I
 id: node.component_page.default
 targetEntityType: node
 bundle: component_page

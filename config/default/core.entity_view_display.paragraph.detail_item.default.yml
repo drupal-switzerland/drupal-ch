@@ -1,4 +1,4 @@
-uuid: 120d8553-a5f0-43fe-b1c6-557d58e763a5
+uuid: 95d9f959-e520-4e5a-aa29-b352442a3f3b
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.field.paragraph.detail_item.field_label
     - field.field.paragraph.detail_item.field_value
     - paragraphs.paragraphs_type.detail_item
+_core:
+  default_config_hash: chbqChj48NHwBLN4Zt_heR2IUT9Q4dxvUahbXzllbhk
 id: paragraph.detail_item.default
 targetEntityType: paragraph
 bundle: detail_item

@@ -1,13 +1,13 @@
-uuid: 7ae8079d-ad3e-4184-bc34-c1fa0171470e
-langcode: nl
+uuid: d31f42d5-a212-4a9e-aaac-d407a01d5ca2
+langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+  default_config_hash: PBnahdE1zvMk1kjiAaASMKGBOHwx7JF4hQWAkoccjxo
 id: node_publish_action
-label: 'Inhoud publiceren'
+label: 'Promote content to front page'
 type: node
 plugin: 'entity:publish_action:node'
 configuration: {  }

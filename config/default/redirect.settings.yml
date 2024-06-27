@@ -1,6 +1,5 @@
-langcode: nl
 _core:
-  default_config_hash: f6cDK8jneokSI65M-pZ3Bd-7g44bJUI6j_cM7HfsZ5A
+  default_config_hash: 69tBMLpQgL5_qecWMM5ouhskFP0kN3jBNZ1ikfxXXXM
 auto_redirect: false
 default_status_code: 301
 passthrough_querystring: true

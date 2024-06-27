@@ -1,9 +1,9 @@
-uuid: 255c7bcc-18af-45c8-b6c2-7870c34e42eb
+uuid: e0a56f0e-e552-42c1-a92e-5c2b6fdd0434
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: mroPnNfV8-Tlvh0WtDI5t_Ayu7utOL2wSLd0AuUwQuU
+  default_config_hash: h4jZNo2F5QvD-GqYEv-Gf-n0C8xwSFeJWsX1RuPoqRI
 name: small
 label: 'Small (640W)'
 effects:

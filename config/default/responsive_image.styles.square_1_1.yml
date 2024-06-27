@@ -1,5 +1,5 @@
-uuid: f185f320-8e9e-4f03-8d76-883541bed282
-langcode: nl
+uuid: ef147d5a-3fa3-498e-9d98-808fffce0ffb
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,8 +7,10 @@ dependencies:
     - image.style.medium_square_1_1
     - image.style.small_square_1_1
     - image.style.x_small_square_1_1
+  theme:
+    - themekit
 _core:
-  default_config_hash: VUUwueoE4Ag_ZZpim45Coptsnwl5hhpKdFzYUCmRr48
+  default_config_hash: xAuoZ47np5V_9AJPi1y_4oPsOlKr_gy3gopF5DfH1gw
 id: square_1_1
 label: 'Square 1:1'
 image_style_mappings:

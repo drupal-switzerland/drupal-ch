@@ -1,9 +1,11 @@
-uuid: a33ffad5-f2ce-4869-b834-1a9a4c5d06e8
+uuid: b4931519-231d-48a5-9bda-6b7b278be7ab
 langcode: en
 status: true
 dependencies:
   module:
     - node_revision_delete
+_core:
+  default_config_hash: Y0Z1slq3Gp0tTQwAHvZt2sJklkwE80Ronin1kPTMbJw
 title: 'Default cron handler'
 id: node_revision_delete_cron
 weight: 0

@@ -1,5 +1,5 @@
-uuid: e27b675b-eacd-4ab8-a704-82e37f081f7d
-langcode: nl
+uuid: f39879d6-0011-46d2-bd01-93fbf0c41ee5
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,9 +7,9 @@ dependencies:
     - redirect
     - user
 _core:
-  default_config_hash: eDSx1_ZVj2R3LfOvQNV28gZR4yJaDIrNVjBGLJ0kHC8
+  default_config_hash: P--Wy8TJY2xsrP_bLKdaCHlP0z4Id5zEjM4UaR9pN6A
 id: redirect
-label: Doorverwijzen
+label: Redirects
 module: views
 description: 'List of redirects'
 tag: ''
@@ -18,11 +18,11 @@ base_field: rid
 display:
   default:
     id: default
-    display_title: Hoofd
+    display_title: Main
     display_plugin: default
     position: 0
     display_options:
-      title: Doorverwijzen
+      title: Redirects
       fields:
         redirect_source__path:
           id: redirect_source__path
@@ -34,7 +34,7 @@ display:
           entity_type: redirect
           entity_field: redirect_source
           plugin_id: field
-          label: Van
+          label: By
           exclude: false
           alter:
             alter_text: false
@@ -177,18 +177,18 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: 'volgende ›'
-            previous: '‹ vorige'
-            first: '« eerste'
-            last: 'laatste »'
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per pagina'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Alle -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Startpunt
+            offset_label: Offset
           quantity: 9
       exposed_form:
         type: basic
@@ -196,10 +196,10 @@ display:
           submit_button: Filter
           reset_button: true
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -238,7 +238,7 @@ display:
           exposed: true
           expose:
             operator_id: redirect_source__path_op
-            label: Van
+            label: By
             description: ''
             use_operator: false
             operator: redirect_source__path_op
@@ -281,7 +281,7 @@ display:
           exposed: true
           expose:
             operator_id: redirect_redirect__uri_op
-            label: Naar
+            label: To
             description: ''
             use_operator: false
             operator: redirect_redirect__uri_op
@@ -327,7 +327,7 @@ display:
           exposed: true
           expose:
             operator_id: status_code_op
-            label: Statuscode
+            label: 'Status code'
             description: ''
             use_operator: false
             operator: status_code_op
@@ -346,7 +346,7 @@ display:
             placeholder: ''
           is_grouped: true
           group_info:
-            label: Statuscode
+            label: 'Status code'
             description: ''
             identifier: status_code
             optional: true
@@ -357,49 +357,49 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: '300 meerdere keuzes'
+                title: '300 Multiple Choices'
                 operator: '='
                 value:
                   min: ''
                   max: ''
                   value: '300'
               2:
-                title: '301 Permanente omleiding'
+                title: '301 Moved Permanently'
                 operator: '='
                 value:
                   min: ''
                   max: ''
                   value: '301'
               3:
-                title: '302 Gevonden'
+                title: '302 Found'
                 operator: '='
                 value:
                   min: ''
                   max: ''
                   value: '302'
               4:
-                title: '303 Zie andere'
+                title: '303 See Other'
                 operator: '='
                 value:
                   min: ''
                   max: ''
                   value: '303'
               5:
-                title: '304 Niet gewijzigd'
+                title: '304 Not Modified'
                 operator: '='
                 value:
                   min: ''
                   max: ''
                   value: '304'
               6:
-                title: '305 Gebruik proxy'
+                title: '305 Use Proxy (deprecated)'
                 operator: '='
                 value:
                   min: ''
                   max: ''
                   value: '305'
               7:
-                title: '307 Tijdelijke omleiding'
+                title: '307 Temporary Redirect'
                 operator: '='
                 value:
                   min: ''
@@ -421,7 +421,7 @@ display:
           exposed: true
           expose:
             operator_id: language_op
-            label: 'Oorspronkelijke taal'
+            label: 'Original language'
             description: ''
             use_operator: false
             operator: language_op
@@ -541,7 +541,7 @@ display:
       cacheable: false
   page_1:
     id: page_1
-    display_title: Pagina
+    display_title: Page
     display_plugin: page
     position: 1
     display_options:

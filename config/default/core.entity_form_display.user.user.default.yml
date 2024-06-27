@@ -1,4 +1,4 @@
-uuid: 4bfae265-65ca-47ff-8c6c-66b4c7684d3c
+uuid: 76fbf0a9-0583-4708-a8c9-37d4b326d0d8
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - path
     - user
 _core:
-  default_config_hash: 93eOqh4GBh04l-eIT-tGzIjzob2I0ff7rOJLSYHpm2Y
+  default_config_hash: 8aHaFImsO_Zs1lMEtx_zugaGvkLv_vuteM3d8j2iw10
 id: user.user.default
 targetEntityType: user
 bundle: user
@@ -27,6 +27,11 @@ content:
     region: content
   language:
     weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  matomo:
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }

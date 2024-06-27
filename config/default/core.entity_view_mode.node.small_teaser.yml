@@ -1,10 +1,13 @@
-uuid: 13130a03-7ded-4478-9805-822b2333a717
+uuid: 958da16a-225e-45f5-936c-6cf988a804d0
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: jJ4OJSdgxeCQiEjDtBDEyOlHwgFlq2fklvkEdDrGoEw
 id: node.small_teaser
 label: 'Small Teaser'
+description: ''
 targetEntityType: node
 cache: true

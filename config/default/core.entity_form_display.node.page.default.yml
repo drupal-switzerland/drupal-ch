@@ -1,4 +1,4 @@
-uuid: 30075a5e-0ecd-4cc0-b7d5-a7c8a4501705
+uuid: 2e9cd92a-322f-431c-bab4-08784b4bd61e
 langcode: en
 status: true
 dependencies:
@@ -12,11 +12,9 @@ dependencies:
     - content_moderation
     - metatag
     - path
-    - scheduler
-    - scheduler_content_moderation_integration
     - text
 _core:
-  default_config_hash: 7eWrLAIAQXPL7sNlYfAYYnwE6LZF9fzjcnQTVcrImkk
+  default_config_hash: SJF8JdhKYsTDlTgj7oszJ7etGXB0m3PjFoSvUZK9Otk
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -68,20 +66,13 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
-  publish_on:
-    type: datetime_timestamp_no_default
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  publish_state:
-    type: scheduler_moderation
-    weight: 7
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   scheduler_settings:
     weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -100,20 +91,12 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  unpublish_on:
-    type: datetime_timestamp_no_default
-    weight: 6
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  unpublish_state:
-    type: scheduler_moderation
-    weight: 8
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true
+  publish_on: true
+  publish_state: true
   sticky: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true
   url_redirects: true

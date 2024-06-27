@@ -1,26 +1,26 @@
-uuid: 66429df3-d408-4359-b07f-70827c485ddc
-langcode: nl
+uuid: cc93f776-0add-4826-9106-bd8b55f0116c
+langcode: en
 status: true
 dependencies:
   module:
     - user
 _core:
-  default_config_hash: dcO9_JlolsvinhsSB6nR4HS8Alkjv8wQAPbTKfCOl94
+  default_config_hash: 8v5Aqkb0knm2AXxMMh4l98ljfXFD-U67jrQuBH4OJl4
 id: who_s_new
-label: 'Wie is nieuw'
+label: "Who's new"
 module: user
-description: 'Toont een lijst van de nieuwste gebruikersaccounts op de website.'
+description: 'Shows a list of the newest user accounts on the site.'
 tag: default
 base_table: users_field_data
 base_field: uid
 display:
   default:
     id: default
-    display_title: Standaard
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Wie is nieuw'
+      title: "Who's new"
       fields:
         name:
           id: name
@@ -64,13 +64,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Toepassen
+          submit_button: Apply
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -183,14 +183,14 @@ display:
       tags: {  }
   block_1:
     id: block_1
-    display_title: 'Wie is nieuw'
+    display_title: "Who's new"
     display_plugin: block
     position: 1
     display_options:
-      display_description: 'Een lijst van nieuwe gebruikers'
+      display_description: 'A list of new users'
       display_extenders: {  }
-      block_description: 'Wie is nieuw'
-      block_category: Gebruiker
+      block_description: "Who's new"
+      block_category: User
     cache_metadata:
       max-age: -1
       contexts:

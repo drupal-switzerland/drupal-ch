@@ -1,15 +1,16 @@
-uuid: 6980098a-b748-42e3-b863-2a3175cdc7e5
-langcode: nl
+uuid: 9f8db0cd-9ec1-4f87-b363-2b603a53d4e9
+langcode: en
 status: true
 dependencies:
   config:
     - system.menu.footer
   module:
+    - language
     - system
   theme:
     - themekit
 _core:
-  default_config_hash: CEMzRVcMOz2IAFPC4jibTZXq3eGpntypWvjCYcMWLh4
+  default_config_hash: VIdFqtYPJFzcE3vmOVReA3Vl2J81jPPpSC6AsiBVn_w
 id: themekit_footer
 theme: themekit
 region: footer_bottom
@@ -18,10 +19,17 @@ provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: Footer-menu
+  label: Footer
   label_display: '0'
   provider: system
   level: 1
   depth: 0
   expand_all_items: false
-visibility: {  }
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      de: de

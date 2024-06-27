@@ -1,4 +1,4 @@
-uuid: 3cf2aa7b-2bcb-4a23-8883-ad99481166b8
+uuid: 8ee5ffff-e65c-43af-ae84-f9aacccb4d7f
 langcode: en
 status: true
 dependencies:
@@ -24,8 +24,6 @@ dependencies:
     - metatag
     - paragraphs
     - path
-    - scheduler
-    - scheduler_content_moderation_integration
     - text
 third_party_settings:
   field_group:
@@ -111,6 +109,8 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: true
+_core:
+  default_config_hash: fAspzB6VHwp1iZngMbQ9LEQpgb1Hx9uc5N5n-8HxgHQ
 id: node.case.default
 targetEntityType: node
 bundle: case
@@ -256,15 +256,8 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
-  publish_on:
-    type: datetime_timestamp_no_default
-    weight: 13
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  publish_state:
-    type: scheduler_moderation
-    weight: 2
+  simple_sitemap:
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -300,21 +293,13 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  unpublish_on:
-    type: datetime_timestamp_no_default
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  unpublish_state:
-    type: scheduler_moderation
-    weight: 11
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   url_redirects:
     weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

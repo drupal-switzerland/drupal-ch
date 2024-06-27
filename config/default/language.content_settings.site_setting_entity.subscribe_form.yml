@@ -1,9 +1,18 @@
-uuid: 84400334-2d0f-4efd-8023-b1bfd58d038f
+uuid: 61a0ba81-ba54-4028-bb2f-5e03b089dfef
 langcode: en
 status: true
 dependencies:
   config:
     - site_settings.site_setting_entity_type.subscribe_form
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: YyBwUcW7XDXGbViO13V8WU_96AMmOmLUJwCHmwidU5E
 id: site_setting_entity.subscribe_form
 target_entity_type_id: site_setting_entity
 target_bundle: subscribe_form

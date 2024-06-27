@@ -1,4 +1,4 @@
-uuid: bb6cf7fe-a9dc-4b85-857b-66c7f0d17a43
+uuid: 62cde178-eaf6-4b5c-996f-fdea2411606e
 langcode: en
 status: true
 dependencies:
@@ -28,6 +28,8 @@ third_party_settings:
     minimum_revisions_to_keep: 5
     minimum_age_to_delete: 0
     when_to_delete: 0
+_core:
+  default_config_hash: Gmt6AdbMP2PioufLw4GyDuAWuCQ0n2uSGySm8L76-p0
 name: 'Component page'
 type: component_page
 description: ''

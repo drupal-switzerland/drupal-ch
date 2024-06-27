@@ -1,4 +1,4 @@
-uuid: e3129927-d079-40ce-9eb0-5fc0838b18b2
+uuid: 36682bbc-6a37-472b-8169-ce97a2ebc5e1
 langcode: en
 status: true
 dependencies:
@@ -27,6 +27,8 @@ dependencies:
     - telephone
     - text
     - user
+_core:
+  default_config_hash: c1EN1Am83plVotCtGUS7C8y29PZlbZ0kgIe9vqI4fSc
 id: node.partner.default
 targetEntityType: node
 bundle: partner

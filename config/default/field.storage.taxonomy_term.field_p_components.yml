@@ -1,4 +1,4 @@
-uuid: cc49c6dc-2381-408f-8e84-cb5726b049d0
+uuid: bd7d081a-3f42-47ce-b2c5-4dd432669826
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - entity_reference_revisions
     - paragraphs
     - taxonomy
+_core:
+  default_config_hash: SDfTyo6fTLYAPJfAJjO-HKFpB62J_PlYdYYjwwvmrnI
 id: taxonomy_term.field_p_components
 field_name: field_p_components
 entity_type: taxonomy_term

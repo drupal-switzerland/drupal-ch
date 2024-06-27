@@ -1,10 +1,12 @@
-uuid: eb819835-bfca-4de2-b93a-1acea6d5b215
+uuid: 7afc2f16-0f52-41d6-900a-377dffab010e
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - site_settings
+_core:
+  default_config_hash: 1mUsgXAQG8s7U87xqPIkv0ZQFB0xgkjclUzv8MLBHq4
 id: site_setting_entity.field_link
 field_name: field_link
 entity_type: site_setting_entity

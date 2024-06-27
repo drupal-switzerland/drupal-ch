@@ -1,0 +1,18 @@
+uuid: 27b49a15-0506-463f-bdfc-d64e0e6c59ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.community_features
+id: block_content.community_features.info
+field_name: info
+entity_type: block_content
+bundle: community_features
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

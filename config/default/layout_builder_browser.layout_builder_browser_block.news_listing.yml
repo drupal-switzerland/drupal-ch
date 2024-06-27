@@ -1,11 +1,13 @@
-uuid: 1037c17e-44bb-4eaf-818a-9f476a29e226
+uuid: ff7adcd8-178f-4d7a-a273-3a685d59fe55
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: SzCHPjtefUa83llmsbAjwdXkul-O9zzt1X86SfxjK8Q
 id: news_listing
 block_id: 'views_block:news-listing'
 category: overview
 label: 'News Listing'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100

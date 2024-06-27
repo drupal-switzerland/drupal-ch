@@ -1,10 +1,12 @@
-uuid: 8d844a42-9588-45cc-8853-cc8ee2d6fe79
+uuid: ffaa8905-f0ad-4b14-9f27-9dfd633b1e73
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.simple_banner
     - field.field.block_content.simple_banner.field_heading
+_core:
+  default_config_hash: RZc2-ePrXRXEpvG-F-jf3fyiZGP7RbcoCyXNZOBW7uw
 id: block_content.simple_banner.default
 targetEntityType: block_content
 bundle: simple_banner

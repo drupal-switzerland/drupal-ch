@@ -1,4 +1,4 @@
-uuid: 7826b1e9-5bc6-44ee-9ca7-cfb49bdc3c7a
+uuid: a840cbfa-06ed-4fd0-bda9-4e6024670468
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: RIOjeRFnyCidn4TVFfTGIikDkJIWLGoM400uckP2T04
+  default_config_hash: _iKNFVqjd5RqdCfuED1-Bn3rxKx-GxbaBbchrgpBd90
 id: media.file.form_preview
 targetEntityType: media
 bundle: file

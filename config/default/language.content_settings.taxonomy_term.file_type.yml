@@ -1,9 +1,16 @@
-uuid: ec7db9e6-d09f-4e9e-aa29-a9c4a4aecca1
+uuid: 877524e0-6e2f-463a-8453-79c394716bbd
 langcode: en
 status: true
 dependencies:
   config:
     - taxonomy.vocabulary.file_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: vs-DYOUiNZeu410h6pVZ-5nCM8cyO2dqplhfmDR30Vk
 id: taxonomy_term.file_type

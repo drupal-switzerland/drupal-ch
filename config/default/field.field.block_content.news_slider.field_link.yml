@@ -1,4 +1,4 @@
-uuid: 05a9ac17-05b7-4dff-9a2c-3eb7c7f83f74
+uuid: f2290d70-c127-4d99-aa76-ec0f206b5a14
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_link
   module:
     - link
+_core:
+  default_config_hash: alNu-ogXuoYwXVsNwgIxDBNCCw5EKh8wwnUMAdpnZBY
 id: block_content.news_slider.field_link
 field_name: field_link
 entity_type: block_content
@@ -14,7 +16,7 @@ bundle: news_slider
 label: CTA
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

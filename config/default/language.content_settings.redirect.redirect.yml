@@ -1,11 +1,11 @@
-uuid: d6bdb2a2-2b60-426c-82ad-5b23938520ab
-langcode: nl
+uuid: d66caef7-5380-4205-a562-9e9993d69e75
+langcode: en
 status: true
 dependencies:
   module:
     - redirect
 _core:
-  default_config_hash: y734AXEpjry1Ppff_hQQBFQGJvYjF0fk1JoWtp5q2JY
+  default_config_hash: 8GgodaIX-KZb5IzU24qdPD4m1gs2KKQImtj_89yhZLs
 id: redirect.redirect
 target_entity_type_id: redirect
 target_bundle: redirect

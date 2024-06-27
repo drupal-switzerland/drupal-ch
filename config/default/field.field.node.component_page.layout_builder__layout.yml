@@ -1,4 +1,4 @@
-uuid: 4afda38b-908c-40bc-8d7d-af1a58e34f42
+uuid: 845ba197-cd98-4bc1-a94c-2e6bb94e6dda
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.component_page
   module:
     - layout_builder
+_core:
+  default_config_hash: rzMKIoUh709piPJEUZknk5a7qwzmLY5xjFgYOtAiJho
 id: node.component_page.layout_builder__layout
 field_name: layout_builder__layout
 entity_type: node

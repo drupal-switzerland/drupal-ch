@@ -1,9 +1,16 @@
-uuid: 28fda6e9-228f-42ac-9885-55869c9203cf
+uuid: c4d13371-37e5-43a9-b396-becb7ed53370
 langcode: en
 status: true
 dependencies:
   config:
     - taxonomy.vocabulary.image_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: 5IWxPEVhY6ugc4CnBArpo8Xl9DCjM1z8zQSH7mBaH7M
 id: taxonomy_term.image_type

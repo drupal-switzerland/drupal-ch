@@ -1,4 +1,4 @@
-uuid: ffe2f2fe-d2c9-4772-8707-0fab620e1982
+uuid: b933b920-4303-4cd0-8e6f-0b483c42df26
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: YpU5RafQLRY8L2D05QggdRBhW2ynx95fD1lQ1aKpd-E
+  default_config_hash: inivn1GwMsGttoRhrlWoU3U11SvBAaiSBoEQSBdXNqA
 id: media.audio.media_browser
 targetEntityType: media
 bundle: audio
@@ -60,5 +60,10 @@ hidden:
   created: true
   field_file_mime_type: true
   path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
   status: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true

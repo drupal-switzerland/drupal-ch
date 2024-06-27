@@ -1,10 +1,12 @@
-uuid: 6edcfd6a-755a-4763-9c1a-56595a97cab8
+uuid: 275ec046-da46-4d14-86aa-b557f2e4c2e6
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.text
     - field.storage.block_content.field_heading
+_core:
+  default_config_hash: bMrBCtRWNMAetb1etLPLnRIgdSQ7Ifvjurp92tqtAUE
 id: block_content.text.field_heading
 field_name: field_heading
 entity_type: block_content
@@ -12,7 +14,7 @@ bundle: text
 label: Heading
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

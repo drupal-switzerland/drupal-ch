@@ -1,15 +1,15 @@
 _core:
-  default_config_hash: 3a5N1XjE3IUE0JJzr0PsIIUx1Xq4Juc0RKF8ldQJpx8
-langcode: nl
-uuid: 43b17d8e-a816-4c8d-ad46-390afe908b0e
-name: Drupal.nl
-mail: bestuur@stichtingdrupal.nl
-slogan: 'Drupal, hét open source DXP'
+  default_config_hash: ltW87nIAJKA2OUaHqcnrZ-YPy496CNMyDHN8KQjVxB4
+name: 'Drush Site-Install'
+mail: admin@example.com
+slogan: 'The Open Source DXP: Drupal.'
 page:
-  403: /node/4
-  404: /node/5
-  front: /node/3
+  403: /403-forbidden
+  404: /404-not-found
+  front: /homepage
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
 mail_notification: ''
+langcode: en
+uuid: 5bab165b-a524-4fb5-9a78-d5dee61d0584

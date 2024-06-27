@@ -1,11 +1,13 @@
-uuid: 50f9bfce-a77f-482b-9f63-46c610a60661
+uuid: b60e7aea-7612-4b0d-959b-e1dde3065af0
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: ReRfTKc_dddxkOie5BelVNY0gSTnxIfuT-7pDk4KEG4
 id: categories_listing
 block_id: 'views_block:categories-listing'
 category: overview
 label: 'Categories Listing'
+weight: -5
 image_path: ''
 image_alt: ''
-weight: -5

@@ -1,4 +1,4 @@
-uuid: af001b23-e05d-49e7-957c-25189211c0b9
+uuid: 09d9fe99-8bb1-40cf-ba1f-baadf2a08424
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: qVwircclUBX1rtcdrxBsWmvqmqP4gmBlZ1feGxc-R4I
+  default_config_hash: y99MF6Ibj542x8OGdb3GRQc3n4vBl4GZtqLTAqAwEeY
 id: media.image.media_library
 targetEntityType: media
 bundle: image
@@ -33,5 +33,10 @@ hidden:
   langcode: true
   name: true
   path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
   status: true
   uid: true
+  unpublish_on: true
+  unpublish_state: true

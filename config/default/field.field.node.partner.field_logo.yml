@@ -1,4 +1,4 @@
-uuid: dc34ccd7-bafe-4292-8b7d-6e691c880669
+uuid: 48176adb-f4ee-402d-b06e-c8720b97dcdc
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
     - media.type.svg
     - node.type.partner
+_core:
+  default_config_hash: YwvHLnP0PFcVOnJ7pwfu6Iylzv1gOqlzZITruZpHJ7I
 id: node.partner.field_logo
 field_name: field_logo
 entity_type: node
@@ -14,7 +16,7 @@ bundle: partner
 label: Logo
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,27 +1,27 @@
-uuid: a03d2a12-e17d-4f3f-9898-8b1d261eef89
-langcode: nl
+uuid: a7a87807-0c2b-486d-baaa-743c7736db56
+langcode: en
 status: true
 dependencies:
   module:
     - node
     - user
 _core:
-  default_config_hash: MxwbHUmXqKQgTGCTWcMxsfUH9NZJ8ZVqZp6801AOa40
+  default_config_hash: MxNhWm5s4A0SpeqY_qbIG8IvJ3vyHifuMX9NlLSrweY
 id: content_recent
-label: 'Recente inhoud'
+label: 'Recent content'
 module: node
-description: 'Recente inhoud.'
+description: 'Recent content.'
 tag: default
 base_table: node_field_data
 base_field: nid
 display:
   default:
     id: default
-    display_title: Standaard
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Recente inhoud'
+      title: 'Recent content'
       fields:
         title:
           id: title
@@ -131,13 +131,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Toepassen
+          submit_button: Apply
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -155,7 +155,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'Geen inhoud beschikbaar.'
+          content: 'No content available.'
           tokenize: false
       sorts:
         changed:

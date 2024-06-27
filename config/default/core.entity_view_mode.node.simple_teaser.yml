@@ -1,10 +1,13 @@
-uuid: 0797c661-0ae6-4a91-a714-40f7ff00fba5
+uuid: 034599c1-56ca-46b1-a729-2c4e9ccfd29a
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: flADQWabJS3BQSuZDGiHNSFSzqDm5YS5fxyKAfySQAA
 id: node.simple_teaser
 label: 'Simple Teaser'
+description: ''
 targetEntityType: node
 cache: true

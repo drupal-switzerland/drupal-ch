@@ -1,10 +1,10 @@
 uuid: b1301e8b-4e3c-46a0-b200-d03c678c07a3
-langcode: nl
+langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 656riXXXMke9mU_Gkf1M8iQbu8qL15nNsRtkbMvZuzM
+  default_config_hash: j-W1fslEw6WkGeamZ8c58ilt6puFwnmb4Mi79f1F8SI
 id: short_full
-label: 'Given Family'
+label: 'Short full'
 locked: false
 pattern: g+if

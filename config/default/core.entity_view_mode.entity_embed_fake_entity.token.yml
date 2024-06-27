@@ -1,12 +1,13 @@
-uuid: 9dd887ee-633b-45f5-baa9-60ad0cbd5c9a
+uuid: 7be1fb1f-76f0-42fc-a735-f0947a3accd6
 langcode: en
 status: true
 dependencies:
   module:
     - entity_embed
 _core:
-  default_config_hash: ZWzuMO-ogBx83HZE4WLD9khxTu23Ag4CS5dpAUzgs4o
+  default_config_hash: iC5Oxs_9UhN-j1OK_wnQwUMlQFkWSsrVmtD0CpwRTfo
 id: entity_embed_fake_entity.token
 label: Token
+description: ''
 targetEntityType: entity_embed_fake_entity
 cache: true

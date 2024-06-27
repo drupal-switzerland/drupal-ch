@@ -1,11 +1,11 @@
-uuid: 716b80ce-093d-4e61-9c1c-ad3f6662daf6
-langcode: nl
+uuid: dbbe6efb-685d-45ce-a81c-d0450693f352
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: _p8aXXs73EsOALnGJJtcNl6T_05cNA6j7GKd9mmuNcM
 name: medium
-label: 'Gemiddeld (768W)'
+label: 'Medium (768W)'
 effects:
   bddf0d06-42f9-4c75-a700-a33cafa25ea0:
     uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0

@@ -1,5 +1,4 @@
 _core:
   default_config_hash: fFtMJuqkP65BjEBqTnAa-5fVJMy3cUCpJRv0FwXuDcE
-langcode: nl
 enabled_section_storages:
   - overrides

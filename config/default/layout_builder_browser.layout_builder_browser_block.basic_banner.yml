@@ -1,11 +1,13 @@
-uuid: 6df70b14-d45a-4092-8127-104d41b26450
+uuid: 3cab2def-f556-4743-beed-e362d7c42fea
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: LwkHPX6f51elsyZhy2NyJsiYV8RrY-vceAyBq6PKW5s
 id: basic_banner
 block_id: 'inline_block:basic_banner'
 category: banners
 label: 'Basic Banner'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100

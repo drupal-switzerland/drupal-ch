@@ -1,0 +1,13 @@
+uuid: c70a4e5a-fe35-4a22-9d62-ce695cf5911a
+langcode: en
+status: true
+dependencies:
+  module:
+    - eu_cookie_compliance
+_core:
+  default_config_hash: go6o47dSSK6cqMY7Kvy69GH_lEo94euAMwUFv7lP-Vo
+id: cookie_category.token
+label: Token
+description: ''
+targetEntityType: cookie_category
+cache: true

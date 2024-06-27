@@ -1,9 +1,18 @@
-uuid: f79b71ca-f478-42eb-9c08-b52c1dba10b7
+uuid: 381c64b4-5bd8-4312-af36-96c7fb9e908f
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.partner
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: COusuOKalyf7RvCZvI78BDEFm9l1ZE3G6wQPz7ntqcY
 id: node.partner
 target_entity_type_id: node
 target_bundle: partner

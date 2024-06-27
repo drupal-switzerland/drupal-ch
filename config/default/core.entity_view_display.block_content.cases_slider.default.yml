@@ -1,4 +1,4 @@
-uuid: d3ae1f8b-64ca-43c5-918f-ad215ae5a969
+uuid: c93ca8f3-9020-40e7-b81c-dda8a4d5b107
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - field.field.block_content.cases_slider.field_link
   module:
     - link
+_core:
+  default_config_hash: ufzm25I2bjzRdGqLWcCMXwJtY5x3PLGQqY2p5_gNeW0
 id: block_content.cases_slider.default
 targetEntityType: block_content
 bundle: cases_slider

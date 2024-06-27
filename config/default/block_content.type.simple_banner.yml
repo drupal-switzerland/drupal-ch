@@ -1,7 +1,9 @@
-uuid: 1ce4e000-80d1-452a-ba2f-9b0fe4676599
+uuid: d4d1213f-de16-4617-a198-e03f4eddd6a5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: gnqMVeYGuXKH-jTpEbhxPmqj-sbjpZtpbC6a2jaitnE
 id: simple_banner
 label: 'Simple banner'
 revision: 0

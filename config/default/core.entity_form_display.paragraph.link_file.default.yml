@@ -1,4 +1,4 @@
-uuid: ebb7ad98-ce3b-4d77-bc75-09a6526b630d
+uuid: db309e7a-5b2f-4137-bf77-11de4b9a329f
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
   module:
     - entity_browser
 _core:
-  default_config_hash: WJwV9b-SarDVYdiYlkrQKvsHcSFcQ0aV6Eg4HxKEmmg
+  default_config_hash: Ied7alSdWhzqxK0vSSmIt_NaljUcDYDyhiEZCau569g
 id: paragraph.link_file.default
 targetEntityType: paragraph
 bundle: link_file

@@ -1,0 +1,20 @@
+uuid: 66af783f-88fb-42c5-a418-e1cdf9a7ff70
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_slider
+  module:
+    - metatag
+id: block_content.news_slider.metatag
+field_name: metatag
+entity_type: block_content
+bundle: news_slider
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

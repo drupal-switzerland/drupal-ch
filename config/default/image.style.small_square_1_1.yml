@@ -1,11 +1,11 @@
-uuid: 603b8b4b-1a62-446a-9c9b-4efbb2dfcc29
+uuid: c7ff1ab4-3c10-4760-9e5a-76407fde9ddc
 langcode: en
 status: true
 dependencies:
   module:
     - focal_point
 _core:
-  default_config_hash: sFKUyr5a4P-2XgceMDsRWqdIBk1Ue8KYQEQcuMj0t7Y
+  default_config_hash: _zcIDG-Og_fgWWL8l92_NTwdTXFy0glN6BRicuPqrcY
 name: small_square_1_1
 label: 'Small Square 1:1 (320 x 320)'
 effects:

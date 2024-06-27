@@ -1,4 +1,4 @@
-uuid: 98a4154b-50d5-4d44-b3f5-f2816fb555d8
+uuid: 86940616-7e5b-4720-89dd-0498637494f9
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - responsive_image.styles.half_column_hq
   module:
     - media_responsive_thumbnail
+_core:
+  default_config_hash: oPhtEFxHe2kVGKKSDRisZ1WP5yriblruml00ZFk1j2E
 id: paragraph.image_slider.default
 targetEntityType: paragraph
 bundle: image_slider

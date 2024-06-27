@@ -1,4 +1,4 @@
-uuid: 2bd1c31f-65fd-4e48-a188-c63752bd922e
+uuid: 694e1d06-8b3d-48cb-8780-5b5243d01f4a
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: jkfbcAm5Ne7nuS9u3Ekam7fCWTtLw_yllNKY5yKPusE
+  default_config_hash: gU9jS4RKHlWKANmnl0pzVV_iPOKoijZVTIjL6L5hiXo
 id: entity_browser_remote_video
 label: 'Entity Browser - Remote Video'
 module: views
@@ -549,7 +549,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags: {  }
   entity_browser_1:
@@ -566,6 +565,5 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags: {  }

@@ -1,4 +1,4 @@
-uuid: c07cac04-ccb4-4e32-a2e2-95a820e66b10
+uuid: fd4562a2-341b-4720-b5a8-d1ba0af695da
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.partner
   module:
     - metatag
+_core:
+  default_config_hash: s8vqzsE7G7RDWdBfPbUM75herXjbi5fhn59J7xKgzSQ
 id: node.partner.field_metatags
 field_name: field_metatags
 entity_type: node
@@ -14,7 +16,7 @@ bundle: partner
 label: Metatags
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

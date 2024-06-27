@@ -1,4 +1,4 @@
-uuid: aa020b1d-e88d-466b-8631-f3b57e5c1942
+uuid: 4d373f52-090b-4bae-ac72-b20d8e50a46b
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_links
   module:
     - link
+_core:
+  default_config_hash: FUCDLK8p_RK1VPczV7W_BhlX-8pZuxulJKM1waoS2pQ
 id: block_content.links.field_links
 field_name: field_links
 entity_type: block_content

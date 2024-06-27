@@ -1,17 +1,15 @@
-uuid: f91519fa-9e08-4d27-b4b0-0d1a49ebace6
+uuid: 74db5cac-c137-4621-a414-ac7a530b3cb7
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.taxonomy_term.field_description
+    - filter.format.plain_text
     - taxonomy.vocabulary.category
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    allowed_formats:
-      - plain_text
+_core:
+  default_config_hash: MfaHk7kA4MqR9k2dn2HijjxzfYUcTiMtObE3ryAAtWk
 id: taxonomy_term.category.field_description
 field_name: field_description
 entity_type: taxonomy_term
@@ -22,5 +20,7 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  allowed_formats:
+    - plain_text
 field_type: text_long

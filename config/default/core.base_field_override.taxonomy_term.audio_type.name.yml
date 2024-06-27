@@ -1,0 +1,18 @@
+uuid: c1f739ad-ab7b-4a8b-b5a6-3063686e0f49
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.audio_type
+id: taxonomy_term.audio_type.name
+field_name: name
+entity_type: taxonomy_term
+bundle: audio_type
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

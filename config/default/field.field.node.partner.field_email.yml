@@ -1,10 +1,12 @@
-uuid: af4e6cfb-8c4f-4e04-9a57-991112fcaea2
+uuid: 8d10a2cc-ed76-4107-9c22-963b1f500a1f
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_email
     - node.type.partner
+_core:
+  default_config_hash: dW7qqCA-sBjKZuC01O5hRQCyzAsufvt2F7-0GVV1qrs
 id: node.partner.field_email
 field_name: field_email
 entity_type: node

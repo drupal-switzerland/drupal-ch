@@ -1,17 +1,15 @@
-uuid: 55876f0a-60e5-4f0d-a8e2-39462d78e92a
+uuid: bb6e9647-195d-47b0-9e90-930211d1cfd8
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
+    - filter.format.full_html
     - node.type.partner
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    allowed_formats:
-      - full_html
+_core:
+  default_config_hash: QMUMeyXh0ZRsGu-SDOe3WBOAK75JkMG7B_R0EIFCc2Q
 id: node.partner.body
 field_name: body
 entity_type: node
@@ -19,10 +17,12 @@ bundle: partner
 label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   display_summary: false
   required_summary: false
+  allowed_formats:
+    - full_html
 field_type: text_with_summary

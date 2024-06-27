@@ -1,7 +1,9 @@
-uuid: c2298ad2-beb1-47db-b8be-b033d51177e5
+uuid: 6341bf9e-397f-4189-bc3c-33823a808dad
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: fbqv69Mfn7Q-4pAE9x-SyXA-QpodiyjIf-Ukik5flo8
 id: news_slider
 label: 'News Slider'
 revision: 0

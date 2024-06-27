@@ -1,4 +1,4 @@
-uuid: f9a689d5-0656-46e5-ba9c-6a0ed4095480
+uuid: 6bdb6023-9132-4575-b6ad-8980616a1655
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,7 @@ bundle: image
 label: Tags
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,6 +1,5 @@
 _core:
-  default_config_hash: qrqSaBG4-uTqZfCs1L9VyTh3JHWgVQWwGcJwWXWm-zE
-langcode: nl
+  default_config_hash: rkIvfXkNtYHTIr5pWhdyGHTL0Pj_k0fqn1pow4k8NDc
 cache:
   page:
     max_age: 3600
@@ -20,4 +19,3 @@ fast_404:
 js:
   preprocess: true
   gzip: true
-stale_file_threshold: 2592000

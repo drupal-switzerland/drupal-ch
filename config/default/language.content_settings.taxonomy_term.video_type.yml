@@ -1,9 +1,16 @@
-uuid: 8588b031-e185-4d8c-b988-0d424c2d1df6
+uuid: 9ed3770a-35ee-4678-9986-737982ae6502
 langcode: en
 status: true
 dependencies:
   config:
     - taxonomy.vocabulary.video_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: 6d4zPhrcMqc154EC5594s2ZjK66JY4c1TK1IhK0-kiQ
 id: taxonomy_term.video_type

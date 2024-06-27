@@ -1,0 +1,33 @@
+uuid: 2dbde7ce-ebbf-4634-b973-19b72211f9d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - menu_block
+  theme:
+    - stable
+_core:
+  default_config_hash: GS7m1cRGcr9BPhXQQBo2x0trYWQerbO3dFfo87pS2Dg
+id: stable_social
+theme: stable
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'menu_block:social'
+settings:
+  id: 'menu_block:social'
+  label: 'Follow us on'
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'social:'
+  suggestion: social
+  label_type: block
+  label_link: false
+visibility: {  }

@@ -1,5 +1,5 @@
-uuid: fd124226-b6a5-4f1e-947c-84cd400cc115
-langcode: nl
+uuid: 707695b0-0405-497e-9e70-724dbbdc6eec
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,18 +9,18 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: uvMAn5Qf8Uni989mhr5KY4hx66xkSpP8nFYZMHgj7kY
+  default_config_hash: AKwjI8SDwaLxUtnh2Mw2ZSU6qOnZ2ZDV5afMYvj_gY8
 id: taxonomy_term
-label: Taxonomieterm
+label: 'Taxonomy term'
 module: taxonomy
-description: 'Inhoud van een bepaalde taxonomieterm'
+description: 'Content belonging to a certain taxonomy term.'
 tag: default
 base_table: node_field_data
 base_field: nid
 display:
   default:
     id: default
-    display_title: Standaard
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
@@ -37,22 +37,22 @@ display:
             previous: ‹‹
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per pagina'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Alle -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Startpunt
+            offset_label: Offset
       exposed_form:
         type: basic
         options:
-          submit_button: Toepassen
+          submit_button: Apply
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sorteren op'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Oplopend
-          sort_desc_label: Aflopend
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -102,13 +102,12 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: Alle
+            title: All
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed
           default_argument_options:
             argument: ''
-          default_argument_skip_url: false
           summary_options:
             base_path: ''
             count: true
@@ -299,7 +298,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Pagina
+    display_title: Page
     display_plugin: page
     position: 1
     display_options:

@@ -1,5 +1,5 @@
-uuid: 77d45603-c8a7-4829-bb91-028c629da518
-langcode: nl
+uuid: aeda0daf-8437-43f7-bcde-cdaf84eb6da5
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - gin
 _core:
-  default_config_hash: y9X3xgCsO59pQyzNLzY1D3SDJJxCHILLWkpPnmuTJ2E
+  default_config_hash: ZOACAyVqAsweSfQ3uPyiRW1JJA5JZQ1xTo30oqNdOcQ
 id: gin_breadcrumbs
 theme: gin
 region: breadcrumb
@@ -16,7 +16,7 @@ provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: Kruimelpad
+  label: Breadcrumbs
   label_display: '0'
   provider: system
 visibility: {  }

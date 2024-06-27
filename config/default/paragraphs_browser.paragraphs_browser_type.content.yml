@@ -1,10 +1,10 @@
 uuid: d5865e9a-723f-4604-83ce-29cc89d9b1e8
-langcode: nl
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: OxLyQ7vMXQRN8hIA13_4dq89rqTfqBGxez_z8vEY_EY
 id: content
-label: Inhoud
+label: Content
 groups: {  }
 map: {  }

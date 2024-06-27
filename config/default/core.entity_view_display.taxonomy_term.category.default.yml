@@ -1,4 +1,4 @@
-uuid: 0d1f85eb-d936-413a-9a7d-77b6c567aea6
+uuid: c8e79b1f-e54e-4ccc-9ff2-d9e59dfef519
 langcode: en
 status: true
 dependencies:
@@ -15,6 +15,8 @@ dependencies:
     - entity_reference_revisions
     - media_responsive_thumbnail
     - text
+_core:
+  default_config_hash: _9NZJaao6mGptqS5NnBGIsz3Y2vEQ895QlwTOwxcMBk
 id: taxonomy_term.category.default
 targetEntityType: taxonomy_term
 bundle: category

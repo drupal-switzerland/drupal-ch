@@ -1,4 +1,4 @@
-uuid: 955a99b8-d52b-4c8e-b1d6-1d37b6f097c7
+uuid: b94a6833-cb01-4d90-8123-339debb17697
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ bundle: video
 label: 'File MIME Type'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

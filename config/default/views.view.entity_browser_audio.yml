@@ -1,4 +1,4 @@
-uuid: 34bda638-24ba-4409-a94a-64c725b118a1
+uuid: f755fc16-43f3-400a-9346-897ee1ac0a0b
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: 0_mZvf76_Z4XCs1AQpSCx66TMU7ojSPPOSE4NSxOPc4
+  default_config_hash: pDoqa9suhMiY8x3KjORphJKaXnQV0qp8DSawDjBC7ls
 id: entity_browser_audio
 label: 'Entity Browser - Audio'
 module: views
@@ -496,7 +496,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags: {  }
   entity_browser_1:
@@ -513,6 +512,5 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags: {  }

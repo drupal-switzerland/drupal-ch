@@ -1,4 +1,4 @@
-uuid: 2616c301-e187-4adb-8273-fedad78c284d
+uuid: 29eb5e34-210c-4aae-831b-d2b5d7ced32d
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
     - file
     - path
 _core:
-  default_config_hash: zHOMfaIKTR5i6zqsPuTgjvS-vkwXziY8p0l8dfaBrYc
+  default_config_hash: qEXRxsvXDRepc1wmrQqeUl5ugGmsjfjaiaiQOcnpgDI
 id: media.file.default
 targetEntityType: media
 bundle: file
@@ -89,3 +89,7 @@ content:
 hidden:
   field_file_mime_type: true
   field_file_size: true
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

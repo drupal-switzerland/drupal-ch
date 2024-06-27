@@ -1,11 +1,13 @@
-uuid: 8fde640c-2956-45d3-a741-34c9d49c21ea
+uuid: 679473a5-bafc-40de-ba6b-8e179844277d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: FSN3Ah7b0XKt-rxwpzhnRGYavE84okHtHSR-qI3AKkc
 id: events_listing
 block_id: 'views_block:events-events'
 category: overview
 label: 'Events Listing'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100

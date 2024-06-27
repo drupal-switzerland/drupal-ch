@@ -1,4 +1,4 @@
-uuid: 9adc27bb-b353-4fa7-9b59-ff6079a42a09
+uuid: 13dc1a5a-85e5-42b3-abb0-6cff19820ace
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.link_default
   module:
     - options
+_core:
+  default_config_hash: ZFwPTgJNLwae07qJ_5Lr1hRFdT9zfB4zuTwKBzWyoz8
 id: paragraph.link_default.field_button_styling
 field_name: field_button_styling
 entity_type: paragraph

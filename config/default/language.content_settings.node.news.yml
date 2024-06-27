@@ -1,9 +1,18 @@
-uuid: fd712b83-ab2f-4a1d-a690-5f0c61457f77
+uuid: 6296f7cf-770a-421c-b452-76e1f5826351
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.news
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: vRYTorr8PCdVYMjD3cn7THGFEDvGkkk_rfpxlSYjslg
 id: node.news
 target_entity_type_id: node
 target_bundle: news

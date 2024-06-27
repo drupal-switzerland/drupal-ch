@@ -1,4 +1,4 @@
-uuid: f99d8e5b-1ad0-4040-9c82-a6a8c2a62de3
+uuid: e39cf70d-e390-4c7e-88c7-53f42fea18f2
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
     - media.type.svg
     - taxonomy.vocabulary.category
+_core:
+  default_config_hash: cEU39oSTz1znE-UTWsDqt2-SHV3kuiXV-3vrFieFxnw
 id: taxonomy_term.category.field_media
 field_name: field_media
 entity_type: taxonomy_term

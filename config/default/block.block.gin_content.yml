@@ -1,5 +1,5 @@
-uuid: f66d0870-d0f7-44ce-8613-5f49761df651
-langcode: nl
+uuid: 474eacc7-ebf9-4686-b0ae-b71e46e3c39e
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - gin
 _core:
-  default_config_hash: hBHXB7hC05XU7pDYzETt-GUcpFlogK1gkjyAsg0Ym58
+  default_config_hash: 2TQ1BwdexjpYUiET8vcAmsFbqKKJXrKrsI-GwvfmmJU
 id: gin_content
 theme: gin
 region: content
@@ -16,7 +16,7 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Primaire inhoud van de pagina'
+  label: 'Main menu'
   label_display: '0'
   provider: system
 visibility: {  }

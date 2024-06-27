@@ -1,4 +1,4 @@
-uuid: 8db81622-7d8a-40ae-8fa9-98e46e990efd
+uuid: 880e1a9b-36a9-4477-a9c6-8116b7bd74ff
 langcode: en
 status: true
 dependencies:
@@ -28,6 +28,8 @@ third_party_settings:
     minimum_revisions_to_keep: 5
     minimum_age_to_delete: 0
     when_to_delete: 0
+_core:
+  default_config_hash: bjHXMCKWKNl1EbYPxkT7Xhgdt4C8NSEFLYoeMlCRalM
 name: Case
 type: case
 description: ''

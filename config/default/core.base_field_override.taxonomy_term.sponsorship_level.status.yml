@@ -1,0 +1,22 @@
+uuid: 97d44cdc-0dc2-4a6c-95aa-ca9e003d425c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sponsorship_level
+id: taxonomy_term.sponsorship_level.status
+field_name: status
+entity_type: taxonomy_term
+bundle: sponsorship_level
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

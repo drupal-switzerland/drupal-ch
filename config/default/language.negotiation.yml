@@ -1,15 +1,12 @@
 _core:
-  default_config_hash: Nn_gn7lyYWhJoGzZ0oRkZ5nrrpxp03Rru_tda5POfuU
-langcode: nl
+  default_config_hash: nNOZuMTd-s955X8FHkA6C6lhXNDdGTutJ_ZylJVRC2A
 session:
   parameter: language
 url:
   source: path_prefix
   prefixes:
-    nl: nl
     en: en
     '': null
   domains:
-    nl: ''
     en: ''
 selected_langcode: site_default

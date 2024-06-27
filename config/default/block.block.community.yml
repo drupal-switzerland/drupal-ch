@@ -1,4 +1,4 @@
-uuid: f424cfe6-c280-4c4d-9a39-4d00621f73f5
+uuid: b9d9345d-a548-4bc7-873b-501e868b9558
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - menu_block
   theme:
     - themekit
+_core:
+  default_config_hash: uS1zne77Ttlf3A8MHXh1wRVLOl9olCsq_rMV1Kj-3OQ
 id: community
 theme: themekit
 region: footer_top

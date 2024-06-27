@@ -1,4 +1,4 @@
-uuid: b283a10e-aef1-45ca-a244-e2524d4946df
+uuid: 0708f4da-07d5-44b2-ba74-f402293d0fc8
 langcode: en
 status: true
 dependencies:
@@ -17,7 +17,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: yiS8Evq_Pt0IaRDEGzKftqrc8j74Q1psnU-ajSondLE
+  default_config_hash: 5bhdd-HfemZzagVvxCDpWJjjhzxcK0v7CmWudrQoCY0
 id: media.remote_video.ckeditor
 targetEntityType: media
 bundle: remote_video
@@ -29,6 +29,8 @@ content:
     settings:
       max_width: 0
       max_height: 0
+      loading:
+        attribute: eager
     third_party_settings: {  }
     weight: 0
     region: content

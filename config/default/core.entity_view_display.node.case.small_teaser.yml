@@ -1,4 +1,4 @@
-uuid: bb3d86d9-317e-45cd-9fa6-347eff138a62
+uuid: aa648317-f729-454e-b025-58f45bfc431b
 langcode: en
 status: false
 dependencies:
@@ -24,6 +24,8 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: 5RbzcxmC6ithPcE4f1MBbHs92AV2dG5rzDvx1bN22ZU
 id: node.case.small_teaser
 targetEntityType: node
 bundle: case

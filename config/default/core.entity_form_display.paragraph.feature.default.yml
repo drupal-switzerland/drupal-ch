@@ -1,4 +1,4 @@
-uuid: 104868bc-7242-4b89-8d8a-c1354559afc4
+uuid: f8e6cc39-5726-47c9-838e-67a598a575b1
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - allowed_formats
     - media_library
     - text
+_core:
+  default_config_hash: 41XreGYVudIP3AJQDYGY1iPSezrMTl8rwi-laABy4xk
 id: paragraph.feature.default
 targetEntityType: paragraph
 bundle: feature

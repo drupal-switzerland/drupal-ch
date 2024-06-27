@@ -1,4 +1,4 @@
-uuid: 3dbf8d1f-2ddb-43f1-a6d2-5bc734f0a6c8
+uuid: 7959d993-38f7-488c-b3da-3b6f5fc1bcc8
 langcode: en
 status: true
 dependencies:
@@ -19,7 +19,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: wnWZx7TNbYP8AKOiPGi1pimQ3QcNEYYMKGie1Cbfm-U
+  default_config_hash: bG0NN0cDaGpmwylK-rqjnmX1zNSkA2sJcJjUQs5hDaI
 id: media.image.logo
 targetEntityType: media
 bundle: image

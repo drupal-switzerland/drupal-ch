@@ -1,12 +1,13 @@
-uuid: 16cb121d-f361-4e12-8e86-aed4cc8fdc16
+uuid: 0bf67ed2-a043-423d-b31f-5388fe364247
 langcode: en
 status: true
 dependencies:
   module:
     - path_alias
 _core:
-  default_config_hash: GiQY8TcbkMat1Lpyz5z9WMUYl6KWQ46XSdW-b5GOKrQ
+  default_config_hash: Wyxo7lPhXQuq5NVoaQovoZ6Nhg9HUi3dQJcl_fZIt34
 id: path_alias.token
 label: Token
+description: ''
 targetEntityType: path_alias
 cache: true

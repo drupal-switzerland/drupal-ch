@@ -1,4 +1,4 @@
-uuid: d7f0bb23-e496-4105-acd9-764bcb41df26
+uuid: c563592d-5ccf-45f6-b255-2dcaaa64470f
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: iYp70nBiZdOAeLTNVKIEYE_shaj8Le0ut2VK_73BXTk
+  default_config_hash: XSouwCWwKBT-rkJRKJY9yrQz5NSReBnZvHgOv-6MQOM
 id: media.audio.entity_embed
 targetEntityType: media
 bundle: audio

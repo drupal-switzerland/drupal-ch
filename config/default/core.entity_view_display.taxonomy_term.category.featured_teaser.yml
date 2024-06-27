@@ -1,4 +1,4 @@
-uuid: 77fccd19-86f7-4ed3-a05f-77fadce7c76e
+uuid: 22b11afe-c36a-4e10-9c87-b2715665391e
 langcode: en
 status: true
 dependencies:
@@ -19,6 +19,8 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: yCDCviGrruxWsz1QO7ijc6yjgYthAmCeEq4iSj08-Lk
 id: taxonomy_term.category.featured_teaser
 targetEntityType: taxonomy_term
 bundle: category

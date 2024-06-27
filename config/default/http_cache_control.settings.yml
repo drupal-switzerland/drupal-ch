@@ -1,6 +1,5 @@
 _core:
-  default_config_hash: 7J75jee6uT-qT16hDiNTHOtRFPgAz_ppCBdl7GTo-As
-langcode: nl
+  default_config_hash: I2X--UF330-2OpMtu5qyi36zpl12tzNeXTMOMabknuY
 cache:
   http:
     s_maxage: 3600

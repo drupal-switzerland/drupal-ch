@@ -1,4 +1,4 @@
-uuid: 3a2c0ffa-2aac-4b27-9520-d29340914777
+uuid: 72daa597-a06c-45bf-ae8d-20cd0004bee1
 langcode: en
 status: true
 dependencies:
@@ -14,6 +14,8 @@ dependencies:
     - entity_reference_revisions
     - media_responsive_thumbnail
     - text
+_core:
+  default_config_hash: AkWYsaukxYFa_N7nm_ER8asaKFTFlE5y2RdeAo3de40
 id: block_content.text_with_media.default
 targetEntityType: block_content
 bundle: text_with_media

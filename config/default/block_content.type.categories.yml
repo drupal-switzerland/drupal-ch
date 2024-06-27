@@ -1,7 +1,9 @@
-uuid: 017246f7-2209-4ace-942b-bf5df4a70b39
+uuid: 4e3dbbb5-df16-43bf-bc2f-b74ba48edce5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: eNLLm4a3wUFGShS3vNJ1vvyQbCLkdSzW4-Vhb2LxN2M
 id: categories
 label: Categories
 revision: 0

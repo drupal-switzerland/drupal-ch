@@ -1,0 +1,18 @@
+uuid: d145e70a-4684-4695-8e27-0bb50c16860b
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+id: media.svg.unpublish_on
+field_name: unpublish_on
+entity_type: media
+bundle: svg
+label: 'Unpublish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

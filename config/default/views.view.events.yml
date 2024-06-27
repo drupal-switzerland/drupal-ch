@@ -1,4 +1,4 @@
-uuid: ef5b34d4-592b-4d8b-b0a8-8a5487991698
+uuid: 97a652a0-e965-4590-ac5d-d503763fc017
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - datetime
     - node
     - user
+_core:
+  default_config_hash: dE_UzDuWpKqkWEAittT9TYzRZhgH64O00kICP74unoM
 id: events
 label: Events
 module: views

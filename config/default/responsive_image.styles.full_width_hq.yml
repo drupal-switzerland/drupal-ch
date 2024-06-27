@@ -1,5 +1,5 @@
-uuid: a9b44270-5a30-48e7-842f-6b86be60baa2
-langcode: nl
+uuid: af1b1c2c-ea8d-4113-bead-86ced261fa36
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,8 +7,10 @@ dependencies:
     - image.style.medium_hq
     - image.style.small_hq
     - image.style.x_large_hq
+  theme:
+    - themekit
 _core:
-  default_config_hash: RlmDiTmTQR1k46vhbFSwzeJcpB2_o8KkCz-kAPmLx_o
+  default_config_hash: gjmwjQaVHxnbAZ6HHcBOXQpPm-yvjFnst83qkNwD20U
 id: full_width_hq
 label: 'Full Width HQ'
 image_style_mappings:

@@ -1,4 +1,4 @@
-uuid: e7a6950b-fc9e-4887-92ad-e5f9c7922fe3
+uuid: d8b6175a-eb77-4360-9e5a-a4a25bcb4c21
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.partner
   module:
     - telephone
+_core:
+  default_config_hash: S3Qe9HcdY8SIHTNfrkXQOPd_JapyEgNMT938F22wzaI
 id: node.partner.field_phone
 field_name: field_phone
 entity_type: node

@@ -1,9 +1,18 @@
-uuid: 910ef13c-0ac5-45d3-8df4-9f0126dee5d6
+uuid: 18422ff7-d6ae-4f0f-af24-2e3d09225dbe
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.case
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: 7O1dzjjhDyfLpoOzOaxnKGd4g407KvB7quuvHEw4ViA
 id: node.case
 target_entity_type_id: node
 target_bundle: case

@@ -1,30 +1,29 @@
 _core:
-  default_config_hash: xOz25IyCIyrEaFRThfjgS6AH2verIo7ZE3W1g0xIA8A
-langcode: nl
+  default_config_hash: oAFq44HmYQcPkETaNW9dd4edMPR-oSfPGD_bimi7bfo
 cancel_confirm:
-  subject: 'Verzoek om account op te heffen van [user:display-name] op [site:name]'
-  body: "[user:display-name]\r\n\r\nOp [site:name] is een verzoek ingediend om uw account op te heffen.\r\n\r\nU kunt dit verzoek op [site:url-brief] bevestigen door op de volgende link te klikken, of deze in uw browser te plakken:\r\n\r\n[user:cancel-url]\r\n\r\nOPMERKING: Het opheffen van een account is onherroepelijk.\r\n\r\nDeze link vervalt na één dag, en er gebeurt niets als hij niet gebruikt wordt.\r\n\r\n--  [site:name] team"
+  subject: 'Account cancellation request for [user:name] at [site:name]'
+  body: "[user:display-name]\r\n\r\nA request to cancel your account has been made at [site:name].\r\n\r\nYou may now cancel your account on [site:url-brief] by clicking this link or copying and pasting it into your browser:\r\n\r\n[user:cancel-url]\r\n\r\nNOTE: The cancellation of your account is not reversible.\r\n\r\nThis link expires in one day and nothing will happen if it is not used.\r\n\r\n--  [site:name] team"
 password_reset:
-  subject: 'Vervangende logininformatie voor [user:display-name] op [site:name]'
-  body: "[user:display-name],\r\n\r\nOp [site:name] is een verzoek gedaan voor een nieuw wachtwoord van uw account.\r\n\r\nU kunt nu inloggen door op onderstaande link te klikken of deze te kopiëren en te plakken in de adresbalk van uw browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nDeze link kan slechts één keer gebruikt worden en zal u doorverwijzen naar een pagina waar u uw wachtwoord opnieuw kunt instellen. De geldigheid van de link zal na één dag verlopen. Er zal niets gebeuren wanneer de link niet wordt gebruikt.\r\n\r\n--  [site:name] team"
+  subject: 'Replacement login information for [user:display-name] at [site:name]'
+  body: "[user:display-name],\r\n\r\nA request to reset the password for your account has been made at [site:name].\r\n\r\nYou may now log in by clicking this link or copying and pasting it into your browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nThis link can only be used once to log in and will lead you to a page where you can set your password. It expires after one day and nothing will happen if it's not used.\r\n\r\n--  [site:name] team"
 register_admin_created:
-  subject: 'Er is een account voor u aangemaakt voor [site:name]'
-  body: "[user:display-name],\r\n\r\nEen beheerder van [site:name] heeft een account voor u aangemaakt. U kunt nu inloggen door op deze link te klikken of door deze te kopieren en te plakken in uw browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nDeze link kan eenmalig gebruikt worden om in te loggen, waarna u uw wachtwoord dient aan te passen.\r\n\r\nNadat u uw wachtwoord heeft gewijzigd kunt u voortaan op [site:login-url] inloggen met behulp van de volgende gegevens:\r\n\r\ngebruikersnaam: [user:name]\r\nwachtwoord: Uw wachtwoord\r\n\r\n--  [site:name] team"
+  subject: 'An administrator created an account for you at [site:name]'
+  body: "[user:display-name],\r\n\r\nA site administrator at [site:name] has created an account for you. You may now log in by clicking this link or copying and pasting it to your browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nThis link can only be used once to log in and will lead you to a page where you can set your password.\r\n\r\nAfter setting your password, you will be able to log in at [site:login-url] in the future using:\r\n\r\nusername: [user:name]\r\npassword: Your password\r\n\r\n--  [site:name] team"
 register_no_approval_required:
-  subject: 'Accountgegevens voor [user:display-name] op [site:name]'
-  body: "[user:display-name],\r\n\r\nDank u voor het registreren bij [site:name]. U kunt nu inloggen door het volgen van onderstaande link of deze te knippen en plakken in uw browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nDeze link kan éénmalig worden gebruikt en zal u doorverwijzen naar een pagina waar u uw wachtwoord kan instellen.\r\n\r\nNa het instellen van uw wachtwoord kunt u in de toekomst inloggen op [site:login-url] met de volgende gegevens:\r\n\r\ngebruikersnaam: [user:name]\r\nwachtwoord: Uw wachtwoord\r\n\r\n--  [site:name] team"
+  subject: 'Account details for [user:display-name] at [site:name]'
+  body: "[user:display-name],\r\n\r\nThank you for registering at [site:name]. You may now log in by clicking this link or copying and pasting it into your browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nThis link can only be used once to log in and will lead you to a page where you can set your password.\r\n\r\nAfter setting your password, you will be able to log in at [site:login-url] in the future using:\r\n\r\nusername: [user:name]\r\npassword: Your password\r\n\r\n--  [site:name] team"
 register_pending_approval:
-  subject: 'Accountgegevens voor [user:display-name] op [site:name] (wachtend op de goedkeuring van de beheerder)'
-  body: "[user:display-name],\r\n\r\nDank u voor het registreren op [site:name]. Uw registratie wacht op goedkeuring. Na goedkeuring ontvangt u een nieuwe e-mail met informatie hoe u kunt inloggen, uw wachtwoord kunt instellen en andere gegevens.\r\n\r\n--  [site:name] team"
+  subject: 'Account details for [user:display-name] at [site:name] (pending admin approval)'
+  body: "[user:display-name],\r\n\r\nThank you for registering at [site:name]. Your application for an account is currently pending approval. Once it has been approved, you will receive another email containing information about how to log in, set your password, and other details.\r\n\r\n--  [site:name] team"
 register_pending_approval_admin:
-  subject: 'Accountgegevens voor [user:display-name] op [site:name] (wachtend op de goedkeuring van de beheerder)'
-  body: "[user:display-name] heeft een account aangevraagd.\r\n\r\n[user:edit-url]"
+  subject: 'Account details for [user:display-name] at [site:name] (pending admin approval)'
+  body: "[user:display-name] has applied for an account.\r\n\r\n[user:edit-url]"
 status_activated:
-  subject: 'Accountgegevens voor [user:display-name] op [site:name] (goedgekeurd)'
-  body: "[user:display-name],\r\n\r\nUw account op [site:name] is geactiveerd.\r\n\r\nU kunt nu inloggen door op de onderstaande link te klikken of deze in uw browser te kopiëren:\r\n\r\n[user:one-time-login-url]\r\n\r\nDit is een eenmalige login en u wordt doorgestuurd naar een pagina waar u uw wachtwoord kunt instellen.\r\n\r\nNadat u uw wachtwoord heeft gewijzigd, kunt u in de toekomst inloggen op [site:login-url] met:\r\n\r\ngebruikersnaam: [user:account-name]\r\nwachtwoord: Uw wachtwoord\r\n\r\n--  [site:name] team"
+  subject: 'Account details for [user:display-name] at [site:name] (approved)'
+  body: "[user:display-name],\r\n\r\nYour account at [site:name] has been activated.\r\n\r\nYou may now log in by clicking this link or copying and pasting it into your browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nThis link can only be used once to log in and will lead you to a page where you can set your password.\r\n\r\nAfter setting your password, you will be able to log in at [site:login-url] in the future using:\r\n\r\nusername: [user:account-name]\r\npassword: Your password\r\n\r\n--  [site:name] team"
 status_blocked:
-  subject: 'Accountgegevens voor [user:display-name] op [site:name] (geblokkeerd)'
-  body: "[user:display-name],\r\n\r\nUw account op [site:name] is geblokkeerd.\r\n\r\n--  [site:name] team"
+  subject: 'Account details for [user:display-name] at [site:name] (blocked)'
+  body: "[user:display-name],\r\n\r\nYour account on [site:name] has been blocked.\r\n\r\n--  [site:name] team"
 status_canceled:
-  subject: 'Accountgegevens voor [user:display-name] op [site:name] (geannuleerd)'
-  body: "[user:display-name],\r\n\r\nUw account op [site:name] is geannuleerd.\r\n\r\n--  [site:name] team"
+  subject: 'Account details for [user:display-name] at [site:name] (canceled)'
+  body: "[user:display-name],\r\n\r\nYour account on [site:name] has been canceled.\r\n\r\n--  [site:name] team"

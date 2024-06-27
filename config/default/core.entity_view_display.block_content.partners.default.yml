@@ -1,4 +1,4 @@
-uuid: 4fff289b-0bb8-44cb-89f3-5c708cc80091
+uuid: e315d475-c253-4ae8-bd01-a6bbcad90985
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - text
+_core:
+  default_config_hash: SXoVjqW2OkVl4Rj6gyVa48r9XfDSnzZ2BW1jhWXesI8
 id: block_content.partners.default
 targetEntityType: block_content
 bundle: partners

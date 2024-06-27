@@ -1,0 +1,20 @@
+uuid: be5eced1-4785-44c4-a0e9-51de00d64b2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+  module:
+    - path
+id: media.svg.path
+field_name: path
+entity_type: media
+bundle: svg
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

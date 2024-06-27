@@ -1,0 +1,18 @@
+uuid: 10fe5e80-c9b1-44f9-9c42-708e00ac9348
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+id: media.remote_video.publish_on
+field_name: publish_on
+entity_type: media
+bundle: remote_video
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp
