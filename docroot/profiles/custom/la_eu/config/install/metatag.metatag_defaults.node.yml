@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: node
-label: Node
-tags:
-  title: '[node:title] | [site:name]'
-  description: '[node:summary]'

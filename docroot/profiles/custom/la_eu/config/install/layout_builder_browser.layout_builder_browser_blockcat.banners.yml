@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: banners
-label: Banners
-weight: -10
-opened: true

@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: news_slider
-label: 'News Slider'
-revision: 0
-description: ''

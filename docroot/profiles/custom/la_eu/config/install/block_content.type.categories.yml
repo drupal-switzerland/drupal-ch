@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: categories
-label: Categories
-revision: 0
-description: ''

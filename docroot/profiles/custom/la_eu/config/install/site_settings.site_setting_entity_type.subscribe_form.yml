@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: subscribe_form
-label: 'Subscribe form'
-fieldset: Footer
-multiple: false

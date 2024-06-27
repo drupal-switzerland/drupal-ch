@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: basic_banner
-label: 'Basic banner'
-revision: 0
-description: ''

@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: formal
-label: Formal
-locked: false
-pattern: t+if

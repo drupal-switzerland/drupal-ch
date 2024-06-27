@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: flexible
-label: Flexible
-weight: -9
-opened: true

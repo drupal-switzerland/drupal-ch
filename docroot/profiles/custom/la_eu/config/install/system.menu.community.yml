@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: community
-label: Community
-description: ''
-locked: false

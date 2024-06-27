@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: 'Audio Type'
-vid: audio_type
-description: 'Internal categorization used for audio organization in the Media Library and Entity Browsers'
-weight: 0
