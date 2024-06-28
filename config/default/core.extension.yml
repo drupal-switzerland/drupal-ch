@@ -124,6 +124,7 @@ module:
   serialization: 0
   shortcut: 0
   simple_sitemap: 0
+  sitemap: 0
   site_settings: 0
   smart_trim: 0
   svg_image_field: 0
@@ -150,11 +151,11 @@ module:
   views: 10
   eu_cookie_compliance: 11
   paragraphs: 11
-  la_eu: 1000
+  minimal: 1000
 theme:
   stable: 0
   claro: 0
   classy: 0
   gin: 0
   themekit: 0
-profile: la_eu
+profile: minimal

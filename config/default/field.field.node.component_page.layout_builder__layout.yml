@@ -1,4 +1,4 @@
-uuid: 845ba197-cd98-4bc1-a94c-2e6bb94e6dda
+uuid: d50701e5-b107-4342-b916-87a8a263661f
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: component_page
 label: Layout
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -97,7 +97,6 @@
         "drupal/site_settings": "1.x-dev@dev",
         "drupal/sitemap": "^2.0@beta",
         "drupal/smart_trim": "^2.1",
-        "drupal/stage_file_proxy": "^2.1",
         "drupal/svg_image_field": "^2.3",
         "drupal/svg_upload_sanitizer": "^1.4",
         "drupal/symfony_mailer": "^1.4",
@@ -190,20 +189,22 @@
         },
         "patches": {
             "drupal/core": {
-                "[#3171835] Field Groups marked as required are missing red asterisk": "https://www.drupal.org/files/issues/2023-10-09/3171835-79--D10.1.x.patch",
+                "[#3171835] Field Groups marked as required are missing red asterisk": "https://www.drupal.org/files/issues/2024-06-21/3171835-89--D10.3.x.patch",
                 "[#3326684] Deprecated function: mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in Drupal\\Component\\Utility\\Html::getId() (line 219 of core/lib/Drupal/Component/Utility/Html.php)": "https://www.drupal.org/files/issues/2023-11-21/3199.patch",
                 "[#3294680] PHP8.1 deprecation: str_replace(): Passing null to parameter #3": "https://www.drupal.org/files/issues/2023-06-07/3294680-22.patch",
                 "[#3049332] PHP message: Error: Call to a member function getEntityTypeId() on null (Layout Builder)": "https://www.drupal.org/files/issues/2023-08-16/call-null-inline-block-3049332-83.patch",
                 "[#3294474] Imported layout builder settings fail if inline blocks are present due to missing revisions": "https://www.drupal.org/files/issues/2023-11-23/3294474-12-imported-lb-settings.diff",
-                "[#2942975] [PP-1] Expose Layout Builder data to REST and JSON:API": "https://www.drupal.org/files/issues/2023-11-15/2942975-251.patch"
+                "[#2942975] [PP-1] Expose Layout Builder data to REST and JSON:API": "https://www.drupal.org/files/issues/2024-06-21/2942975-262-reroll.patch",
+                "https://drupal.org/i/2946333 - Allow synced Layout override Translations: translating labels and inline blocks": "https://www.drupal.org/files/issues/2023-09-04/2946333-310.patch",
+                "https://drupal.org/i/3044993 - Allow synced Layout default Translations: translating labels and inline blocks": "https://www.drupal.org/files/issues/2024-06-28/3044993-79.patch"
             },
             "drupal/default_content": {
                 "[#3160146] Add a Normalizer and Denormalizer to support Layout Builder": "https://www.drupal.org/files/issues/2022-12-06/default_content-3160146-53.patch",
                 "[#2698425] Do not reimport existing entities": "https://git.drupalcode.org/project/default_content/-/merge_requests/14.diff",
                 "[#3404830] Replace existing file on import": "https://www.drupal.org/files/issues/2023-11-29/3404830-2-replace-existing-file-on-import.patch"
             },
-            "drupal/draggableviews": {
-                "[#2867348] Not working with Group By feature": "https://www.drupal.org/files/issues/2021-10-11/not_working_with_group_by-draggableviews-2867348-48.patch"
+            "drupal/imageapi_optimize_webp": {
+                "[#3453941] PHP Fatal error: Declaration of Drupal\\imageapi_optimize_webp\\Controller\\ImageStyleDownloadController::deliver": "https://www.drupal.org/files/issues/2024-06-14/3453941-bc-break_0.patch"
             },
             "drupal/lazy": {
                 "[#3403052] PHP 8.2: ${var} string interpolation deprecated": "https://www.drupal.org/files/issues/2023-11-23/string_interpolation_deprecated-3403052-4.patch"
@@ -216,7 +217,7 @@
                 "[#3090200] Paragraphs do not render: access check for 'view' fail when using layout builder + custom blocks & content revisions because the incorrect parent revision ID is being passed in ParagraphAccessControlHandler::checkAccess(": "https://www.drupal.org/files/issues/2020-07-08/access-controll-issue-3090200-22.patch"
             },
             "drupal/redirect": {
-               "[#3373123] Setting 'Enforce clean and canonical URLs.' breaks CSS aggregation on multilingual Drupal 10.1.x with browser caching enabled": "https://www.drupal.org/files/issues/2023-11-01/3373123_redirect_dont-normalize-assets.patch" 
+               "[#3373123] Setting 'Enforce clean and canonical URLs.' breaks CSS aggregation on multilingual Drupal 10.1.x with browser caching enabled": "https://www.drupal.org/files/issues/2023-11-01/3373123_redirect_dont-normalize-assets.patch"
             },
             "drupal/views_bulk_edit": {
                 "[#3024419] Fix Required fields to really not be required": "https://www.drupal.org/files/issues/2022-06-07/views_bulk_edit-fix_required_fields-3024419-29.patch"
@@ -225,6 +226,8 @@
     },
     "require-dev": {
         "drupal/coder": "^8.3",
+        "drupal/devel": "^5.2",
+        "drupal/stage_file_proxy": "^2.1",
         "mglaman/drupal-check": "^1.4",
         "phpunit/phpunit": "^9.6"
     }
