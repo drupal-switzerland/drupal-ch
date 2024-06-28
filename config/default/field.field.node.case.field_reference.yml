@@ -1,0 +1,31 @@
+uuid: 0df3249d-31fd-4939-8771-5f0a90b04530
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reference
+    - node.type.case
+    - node.type.partner
+_core:
+  default_config_hash: N-zPBJajTi02p6RVk4GjneDC44npGQ_P_FjZF5R8VRg
+id: node.case.field_reference
+field_name: field_reference
+entity_type: node
+bundle: case
+label: 'Related Partner'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      partner: partner
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

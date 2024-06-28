@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 4e4ec39f-ee72-4901-b772-c4a3f686b0e4
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    0a9ef2fc-874d-4bdf-8b1b-cd5a4ba60857: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>With open source software you can use software that has been created by thousands of people and organizations. The international Drupal community shares its experiences and insights with customers and (potential) users. This means that every Drupal professional has access to frequently used channels where the global network of knowledge and experience can be directly consulted. Which supplier can say this?</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'A large community with talent and experience'
+  field_media:
+    -
+      entity: 0a9ef2fc-874d-4bdf-8b1b-cd5a4ba60857
+  field_media_position:
+    -
+      value: right

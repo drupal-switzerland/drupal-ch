@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 37583e1d-cd96-4cb3-a049-34a2b1d6bbb5
+  bundle: text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>In addition to the companies mentioned above, Drupal is also supported by a large number of individual professionals. They contribute their time, skills and code to the success, security and functionality of Drupal.</p>\r\n\r\n<ul>\r\n\t<li><a href=\"https://www.linkedin.com/in/bertboerland/\">Bert Boerland</a></li>\r\n\t<li><a href=\"https://www.timdejong.nl/\">Tim de Jong</a></li>\r\n\t<li><a href=\"http://wittehond.nl/\">Wouter Lenssen</a></li>\r\n\t<li><a href=\"https://www.linkedin.com/in/ricovandevin/\">Rico van de Vin</a></li>\r\n\t<li><a href=\"http://simorix.nl/\">Marcello Simone</a></li>\r\n\t<li><a href=\"https://www.linkedin.com/in/marjadoedens\">Marja Doedens</a></li>\r\n\t<li><a href=\"https://twitter.com/grootenboer\">Carole Grootenboer</a></li>\r\n\t<li><a href=\"http://puzzlingpanda.nl/\">Sidney Gijzen</a></li>\r\n\t<li><a href=\"http://build2be.nl/\">Clemens Tolboom</a></li>\r\n\t<li><a href=\"https://metrixanalytics.com/\">Ricardo Breeveld</a></li>\r\n\t<li><a href=\"https://writeupp.nl/\">Wilfred Waltman</a></li>\r\n\t<li><a href=\"https://sicse.dev/\">Niels Sluijs</a></li>\r\n</ul>\r\n"
+      format: full_html
+      summary: ''
+  field_frame:
+    -
+      value: false
+  field_heading:
+    -
+      value: 'Individual partners'

@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: b815e061-5909-4a3f-a4a5-9fc01443f265
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    27d1b31d-db91-41bf-abc9-9a32c0a75b24: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>With Drupal's intuitive content management environment you can convert the most complex information architecture into flexible content structures. Content editors can use the tools that Drupal offers as standard for content creation, workflow and publication. For example, permissions and roles, menus and content previews can be configured from the graphical interface. Drupal offers device-independent support for almost all common media types including video and PDF documents.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Flexible content structures'
+  field_media:
+    -
+      entity: 27d1b31d-db91-41bf-abc9-9a32c0a75b24
+  field_media_position:
+    -
+      value: right

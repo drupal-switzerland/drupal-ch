@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: f40b5158-ad19-4ed5-926f-1f7864df3aa8
+  bundle: categories
+  default_langcode: en
+  depends:
+    312d329f-1f18-479c-99df-86c85bc34035: taxonomy_term
+    9ec81603-e18a-498a-b097-303d4ada0e5c: taxonomy_term
+    1fc6ef93-8552-4dd0-9ab7-a4663dbe3c8b: taxonomy_term
+    c7b6e59e-2a47-4f73-b077-d5da6ec1b1f4: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_categories:
+    -
+      entity: 312d329f-1f18-479c-99df-86c85bc34035
+    -
+      entity: 9ec81603-e18a-498a-b097-303d4ada0e5c
+    -
+      entity: 1fc6ef93-8552-4dd0-9ab7-a4663dbe3c8b
+  field_description:
+    -
+      value: "<p>Drupal supports integration of your back office, e-mail, marketing automation or CRM. An API-first focus, supported by the development community and partner organisations, provides endless possibilities to integrate with traditional and modern backend systems.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Drupal can solve all your problems'
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 65078462-13e8-46c2-bb7b-f9bc32146dbc
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701187221
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: c7b6e59e-2a47-4f73-b077-d5da6ec1b1f4
+              title: 'More solutions'
+              options: {  }

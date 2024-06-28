@@ -1,0 +1,362 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c689114d-a0bf-4270-9baf-fb61b5d60e00
+  bundle: component_page
+  default_langcode: en
+  depends:
+    bf12ec18-d968-49ae-8e23-57f486e33445: block_content
+    5a3f68be-90b7-4beb-86cd-5b3fdc52ae30: block_content
+    0bc7cd96-36f9-4bd7-90d5-1d31b79f5bd1: block_content
+    e2ed036b-46ec-445a-8616-57bca08ce684: block_content
+    5af4f88e-135e-4a5e-aa06-d5b9fbb449a5: block_content
+    4b14a5b9-a85f-486d-a371-2bd56083ca16: block_content
+    b815e061-5909-4a3f-a4a5-9fc01443f265: block_content
+    ef7aa606-35f4-4dc6-aad5-68ee46df01c4: block_content
+    5f056199-100a-4172-9d69-1a7308c6c481: block_content
+    e26acff3-70f8-4ce6-8c1b-628e5ddc308f: block_content
+    ab65f665-6eab-444e-b179-30e2d9cee75f: block_content
+    3fcb997d-1066-4c4e-935b-861b4efa1cdc: block_content
+    4e4ec39f-ee72-4901-b772-c4a3f686b0e4: block_content
+    0e13e90e-ae5f-4689-9f96-0dd52c1bdbd2: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Why Drupal?'
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Why Drupal? | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/why-drupal'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Why Drupal?'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Why Drupal?'
+  path:
+    -
+      alias: /why-drupal
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: d646b990-99c0-4c41-afa5-309aeb6cf4dd
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '18'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: bf12ec18-d968-49ae-8e23-57f486e33445
+            weight: 1
+            additional:
+              target_uuid: bf12ec18-d968-49ae-8e23-57f486e33445
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'
+    -
+      section:
+        layout_id: dnl_layout_onecol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 51e4ca9b-ea0a-4188-a4fc-4de0141385b3
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '30'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 5a3f68be-90b7-4beb-86cd-5b3fdc52ae30
+            weight: 0
+            additional:
+              target_uuid: 5a3f68be-90b7-4beb-86cd-5b3fdc52ae30
+          -
+            uuid: ee0bcfc6-80a7-4871-8cba-fa5b70e4ffc6
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '10'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 0bc7cd96-36f9-4bd7-90d5-1d31b79f5bd1
+            weight: 1
+            additional:
+              target_uuid: 0bc7cd96-36f9-4bd7-90d5-1d31b79f5bd1
+          -
+            uuid: 23dfe2ff-bbc0-405b-bd0b-39760e52cac9
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '37'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: e2ed036b-46ec-445a-8616-57bca08ce684
+            weight: 2
+            additional:
+              target_uuid: e2ed036b-46ec-445a-8616-57bca08ce684
+          -
+            uuid: 5a1eed65-96f2-4980-91eb-6c28a15df398
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '42'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 5af4f88e-135e-4a5e-aa06-d5b9fbb449a5
+            weight: 3
+            additional:
+              target_uuid: 5af4f88e-135e-4a5e-aa06-d5b9fbb449a5
+          -
+            uuid: 1c074a19-11d6-4167-811b-6926e850b55b
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '11'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 4b14a5b9-a85f-486d-a371-2bd56083ca16
+            weight: 4
+            additional:
+              target_uuid: 4b14a5b9-a85f-486d-a371-2bd56083ca16
+          -
+            uuid: 6da6b2ba-3ed6-4b62-9864-d62c72da6d36
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '24'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: b815e061-5909-4a3f-a4a5-9fc01443f265
+            weight: 5
+            additional:
+              target_uuid: b815e061-5909-4a3f-a4a5-9fc01443f265
+          -
+            uuid: be8e0b51-ab43-477b-8716-ae7cb9ed747b
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '23'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: ef7aa606-35f4-4dc6-aad5-68ee46df01c4
+            weight: 6
+            additional:
+              target_uuid: ef7aa606-35f4-4dc6-aad5-68ee46df01c4
+          -
+            uuid: 9c5db4f1-1e34-43af-9563-f5517594078d
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '41'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 5f056199-100a-4172-9d69-1a7308c6c481
+            weight: 7
+            additional:
+              target_uuid: 5f056199-100a-4172-9d69-1a7308c6c481
+          -
+            uuid: 5472e86e-25ec-48f1-8c92-e6f589d800cd
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '36'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: e26acff3-70f8-4ce6-8c1b-628e5ddc308f
+            weight: 8
+            additional:
+              target_uuid: e26acff3-70f8-4ce6-8c1b-628e5ddc308f
+          -
+            uuid: 8971b4c0-69a2-4404-89fc-fb2728437782
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '38'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: ab65f665-6eab-444e-b179-30e2d9cee75f
+            weight: 9
+            additional:
+              target_uuid: ab65f665-6eab-444e-b179-30e2d9cee75f
+          -
+            uuid: 069746c6-8ab2-4ff9-8a1b-9f14a0f796bd
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '28'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 3fcb997d-1066-4c4e-935b-861b4efa1cdc
+            weight: 10
+            additional:
+              target_uuid: 3fcb997d-1066-4c4e-935b-861b4efa1cdc
+          -
+            uuid: a51525b9-2685-45a8-9766-b61a71a7196f
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '35'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 4e4ec39f-ee72-4901-b772-c4a3f686b0e4
+            weight: 11
+            additional:
+              target_uuid: 4e4ec39f-ee72-4901-b772-c4a3f686b0e4
+          -
+            uuid: 3c9ded0e-4189-4a45-bb52-6119c19f654f
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '43'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 0e13e90e-ae5f-4689-9f96-0dd52c1bdbd2
+            weight: 12
+            additional:
+              target_uuid: 0e13e90e-ae5f-4689-9f96-0dd52c1bdbd2
+        third_party_settings: {  }

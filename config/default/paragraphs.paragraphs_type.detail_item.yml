@@ -1,0 +1,12 @@
+uuid: c6b3b50f-1d9c-4797-af32-e1d270bef4e4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1FvnMnAefvMNXNxNBgeCzhi4ZY1q-MEpaRk2vX9wEGw
+id: detail_item
+label: 'Detail Item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

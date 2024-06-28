@@ -1,0 +1,20 @@
+uuid: e10e9ba4-550a-4301-a8e9-9bd2b9a0c747
+langcode: en
+status: true
+dependencies:
+  config:
+    - site_settings.site_setting_entity_type.footer_copyright
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 1NUnQTpKNAPR123tIn4PRiRLNm5c6yUS-uRNU9cCIds
+id: site_setting_entity.footer_copyright
+target_entity_type_id: site_setting_entity
+target_bundle: footer_copyright
+default_langcode: site_default
+language_alterable: false

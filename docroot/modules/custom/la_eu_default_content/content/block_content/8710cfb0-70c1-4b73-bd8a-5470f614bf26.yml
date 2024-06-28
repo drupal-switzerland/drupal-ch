@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 8710cfb0-70c1-4b73-bd8a-5470f614bf26
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    b9dc84cb-7ddf-4960-a1ed-91fd220e28a8: media
+    f498265d-5b6b-48f6-977b-6ecf020e0de7: node
+    36d2f31e-7b87-4da4-bd23-fbf767ed254e: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal Netherlands Foundation (Drupal.nl) is the interest group of Dutch Drupal users, companies and developers. Drupal is a popular digital experience management platform for websites and interactive applications. 1 in 40 websites use Drupal. Drupal is open source and has no vendor lock-in.</p>\r\n\r\n<p>The board of the Drupal Netherlands Foundation (SDN) consists of 7 volunteers who have committed themselves to the foundation for a period of 2 years with the aim of promoting Drupal in the Netherlands. SDN promotes Drupal by organizing events such as DrupalJam, Splash Awards and Drupal Training Day.</p>\r\n\r\n<p>The foundation is non-profit and run by volunteers. Our costs are mainly covered by sponsors (of events) and our partner program. More than 30 suppliers have now joined the foundation as partners.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: 'About the Dutch Drupal Association'
+  field_media:
+    -
+      entity: b9dc84cb-7ddf-4960-a1ed-91fd220e28a8
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3473a4cc-41be-47e0-8b06-5110ee0bb133
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701189634
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: f498265d-5b6b-48f6-977b-6ecf020e0de7
+              title: 'Find a partner'
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: efc849bd-2e51-4ca6-ab47-f4b1f9620ad7
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701189659
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: secondary
+          field_link:
+            -
+              target_uuid: 36d2f31e-7b87-4da4-bd23-fbf767ed254e
+              title: 'Become a partner'
+              options: {  }

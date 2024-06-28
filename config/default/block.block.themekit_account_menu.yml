@@ -1,0 +1,27 @@
+uuid: 07e360a1-af25-4d4f-b3ba-2e5ea87e319e
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - themekit
+_core:
+  default_config_hash: p5mZUlf7eY8lnpPiQpCesph7Qj5kqWWuDfumsIvsJJI
+id: themekit_account_menu
+theme: themekit
+region: header
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: 001daa52-9f83-4a12-83af-31ccd4bef302
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+id: node.event.publish_on
+field_name: publish_on
+entity_type: node
+bundle: event
+label: 'Publish on'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

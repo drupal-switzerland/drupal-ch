@@ -1,0 +1,21 @@
+uuid: cafee12c-72a6-4cd3-80d1-3b00410cd840
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sponsorship_level
+  module:
+    - text
+id: taxonomy_term.sponsorship_level.description
+field_name: description
+entity_type: taxonomy_term
+bundle: sponsorship_level
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

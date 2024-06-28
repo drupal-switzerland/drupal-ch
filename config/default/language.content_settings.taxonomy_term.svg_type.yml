@@ -1,0 +1,20 @@
+uuid: a28f9c6b-c941-4003-9223-d8908238ff80
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.svg_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: MDFMOD10wm4FdjrjFy_7z1O-98WME24an8xkk3LxSuw
+id: taxonomy_term.svg_type
+target_entity_type_id: taxonomy_term
+target_bundle: svg_type
+default_langcode: site_default
+language_alterable: false

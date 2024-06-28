@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4c59accf-d6eb-4af1-88be-d7bd88f814c0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: katt-yukawa-K0E6E0a0R3A-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/katt-yukawa-K0E6E0a0R3A-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 824142
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183784

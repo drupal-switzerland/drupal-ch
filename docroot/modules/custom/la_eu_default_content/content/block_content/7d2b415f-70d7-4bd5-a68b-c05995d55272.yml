@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 7d2b415f-70d7-4bd5-a68b-c05995d55272
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    81951717-0b31-4173-b75d-da7dfc4b8248: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal is being used, built, taught, documented and implemented by the Drupal community. This community consists of people from around the world, with shared values, working together in an open and loving community.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: 'The Drupal community'
+  field_media:
+    -
+      entity: 81951717-0b31-4173-b75d-da7dfc4b8248
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e0ddf86a-3ffa-4e70-92ba-f8b611b6f81b
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701190626
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: secondary
+          field_link:
+            -
+              uri: 'https://www.drupal.org/community'
+              title: 'Check out the international community'
+              options: {  }

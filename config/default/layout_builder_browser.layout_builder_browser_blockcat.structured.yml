@@ -1,0 +1,10 @@
+uuid: 35a3a9b4-180d-4b19-ba81-9218249bf530
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q-2TuStNtN0NWkIv-6O8vPEy7UMnRv5_YBrKtQCDrxQ
+id: structured
+label: Structured
+weight: -8
+opened: true

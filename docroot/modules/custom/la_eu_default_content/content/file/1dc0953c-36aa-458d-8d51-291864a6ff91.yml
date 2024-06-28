@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1dc0953c-36aa-458d-8d51-291864a6ff91
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: diabetes.nl-architecture-16-10.png
+  uri:
+    -
+      value: 'public://image/2023-11/diabetes.nl-architecture-16-10.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 31796
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701185082

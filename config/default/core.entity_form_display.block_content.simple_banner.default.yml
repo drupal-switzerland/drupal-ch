@@ -1,0 +1,25 @@
+uuid: aa2c8f26-9f73-46a4-af60-b5dfb2ab1b37
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.simple_banner
+    - field.field.block_content.simple_banner.field_heading
+_core:
+  default_config_hash: ZV8pEvO3U23wiuqL_D5ZINJJeoK0FNRYuh5aRU6asnw
+id: block_content.simple_banner.default
+targetEntityType: block_content
+bundle: simple_banner
+mode: default
+content:
+  field_heading:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  info: true
+  langcode: true

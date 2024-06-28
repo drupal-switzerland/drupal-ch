@@ -1,0 +1,31 @@
+uuid: 3b0d27dd-cfcb-43d5-97db-8ba2290e88a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_audio_type
+    - media.type.audio
+    - taxonomy.vocabulary.audio_type
+_core:
+  default_config_hash: R8ONZC3AsGgZ8s8Xg6qTejalE26uDE5eQGQJzExYpDM
+id: media.audio.field_audio_type
+field_name: field_audio_type
+entity_type: media
+bundle: audio
+label: 'Audio Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      audio_type: audio_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

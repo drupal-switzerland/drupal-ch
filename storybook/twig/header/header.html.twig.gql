@@ -1,4 +1,0 @@
-fragment Header on Query {
-  type: __typename
-  ...MainMenu
-}

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2c296089-11ed-449e-acee-8e22341f8a57
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: social-community-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/social-community-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 733853
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183870

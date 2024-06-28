@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5bea3c0d-5804-449d-9b89-e9a57266af4f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mike-petrucci-c9FQyqIECds-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/mike-petrucci-c9FQyqIECds-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 378657
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183384

@@ -1,0 +1,34 @@
+name: Local Association (EU)
+type: theme
+description: The Local Association (EU) theme.
+core_version_requirement: ^9.4 || ^10
+# Defines the base theme
+base theme: classy
+
+ckeditor_stylesheets:
+  - dist/css/wysiwyg.css
+
+libraries:
+  - core/Drupal
+  - themekit/base
+
+libraries-override:
+  classy/base:
+    css:
+      component:
+        css/components/menu.css: false
+        css/components/more-link.css: false
+        css/components/breadcrumb.css: false
+        css/components/pager.css: false
+  filter/caption: false
+
+components:
+  namespaces:
+    partials: partials
+
+regions:
+  highlighted: Highlighted
+  header: Header
+  content: Content
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'

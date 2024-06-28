@@ -1,0 +1,12 @@
+////
+/// Global Tabs
+////
+
+ul.tabs {
+  @include content-width(default);
+  position: relative;
+  padding-bottom: 0;
+  z-index: z(above);
+  font-size: rem-calc(14);
+  margin-bottom: 0;
+}

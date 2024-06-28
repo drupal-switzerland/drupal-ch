@@ -1,0 +1,27 @@
+uuid: 1c271672-b2ec-4da9-857e-b22eeb627bcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - classy
+_core:
+  default_config_hash: hrIkqTXI-Oej0zSdrunp0Dcx9m7E3nWEpa5wAGbsrn4
+id: classy_main_menu
+theme: classy
+region: header
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

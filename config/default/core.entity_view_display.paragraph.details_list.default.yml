@@ -1,0 +1,26 @@
+uuid: e2570e6d-fefb-4251-b0f1-3ae17edb12f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.details_list.field_p_items
+    - paragraphs.paragraphs_type.details_list
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: HK3bPavvslPCIi1-8fG8Qsc9K-iot4l3w58QAGpQO3U
+id: paragraph.details_list.default
+targetEntityType: paragraph
+bundle: details_list
+mode: default
+content:
+  field_p_items:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

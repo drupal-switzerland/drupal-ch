@@ -1,0 +1,21 @@
+uuid: c7c53545-c780-47eb-a5bd-312230d6d539
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_provider
+    - media.type.remote_video
+_core:
+  default_config_hash: PQm3Tui0JlG8AiqLDtyDtvD6NUaN4lxGJHQc3nXbcps
+id: media.remote_video.field_video_provider
+field_name: field_video_provider
+entity_type: media
+bundle: remote_video
+label: 'VIdeo Provider'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

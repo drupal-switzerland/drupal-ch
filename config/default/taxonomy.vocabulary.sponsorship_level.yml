@@ -1,0 +1,10 @@
+uuid: bb2ff245-2cb3-4700-b02b-c2bc967f16c9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 87cCwkoVoKuTMmAL6_l3jPzVdeOaasXtLyCdDuwj4_I
+name: 'Sponsorship Level'
+vid: sponsorship_level
+description: ''
+weight: 0

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2cde5646-9f4c-42e1-88c0-5142f105ee5b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: video.png
+  uri:
+    -
+      value: 'public://media-icons/generic/video_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 4156
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183166

@@ -1,0 +1,27 @@
+uuid: 3c9a41f3-2963-4788-a4a2-4df097013228
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - themekit
+_core:
+  default_config_hash: R4HVRuUUJAY1TXd2IUof9yoodgpZjnEKEmG5nZBr9Ns
+id: themekit_main_menu
+theme: themekit
+region: header
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

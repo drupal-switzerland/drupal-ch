@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ltW87nIAJKA2OUaHqcnrZ-YPy496CNMyDHN8KQjVxB4
+name: 'Drush Site-Install'
+mail: admin@example.com
+slogan: 'The Open Source DXP: Drupal.'
+page:
+  403: /403-forbidden
+  404: /404-not-found
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''
+langcode: en
+uuid: 5bab165b-a524-4fb5-9a78-d5dee61d0584

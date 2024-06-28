@@ -1,0 +1,10 @@
+uuid: a149ef64-bd09-4d36-b905-e5d66e4ab7fc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WVDPYmWrVe4xR3zqrKLnCnB0ID1zhMGwATauvidD53o
+id: cases_slider
+label: 'Cases Slider'
+revision: 0
+description: ''

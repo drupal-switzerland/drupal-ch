@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 74364c21-e67b-4a63-a7f9-b9f969a2c223
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: woman-with-laptop-on-blue-sofa.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/woman-with-laptop-on-blue-sofa.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 319611
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701186910

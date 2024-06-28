@@ -1,0 +1,39 @@
+uuid: c93ca8f3-9020-40e7-b81c-dda8a4d5b107
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cases_slider
+    - field.field.block_content.cases_slider.field_heading
+    - field.field.block_content.cases_slider.field_link
+  module:
+    - link
+_core:
+  default_config_hash: ufzm25I2bjzRdGqLWcCMXwJtY5x3PLGQqY2p5_gNeW0
+id: block_content.cases_slider.default
+targetEntityType: block_content
+bundle: cases_slider
+mode: default
+content:
+  field_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

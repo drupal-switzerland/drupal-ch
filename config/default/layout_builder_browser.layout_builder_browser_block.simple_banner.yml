@@ -1,0 +1,13 @@
+uuid: bafe99ec-844e-4fd2-924b-970b01dfa6b6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XNgejAyWDXo6LKzsKLSgEaXvbWS9EcwnmRA7GUejQ9M
+id: simple_banner
+block_id: 'inline_block:simple_banner'
+category: banners
+label: 'Simple Banner'
+weight: -100
+image_path: ''
+image_alt: ''

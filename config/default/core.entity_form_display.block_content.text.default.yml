@@ -1,0 +1,91 @@
+uuid: 1bfbf4e8-3590-4ce2-b351-03299520bdd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text
+    - field.field.block_content.text.field_description
+    - field.field.block_content.text.field_frame
+    - field.field.block_content.text.field_heading
+    - field.field.block_content.text.field_p_link
+  module:
+    - allowed_formats
+    - field_group
+    - paragraphs
+    - text
+third_party_settings:
+  field_group:
+    group_text_content:
+      children:
+        - field_heading
+        - field_description
+        - field_p_link
+      label: 'Text content'
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+_core:
+  default_config_hash: 30g5kim-X2X_xMYQCfT0HzXGQWtQK85H-_mGiw7bzuI
+id: block_content.text.default
+targetEntityType: block_content
+bundle: text
+mode: default
+content:
+  field_description:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 3
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings:
+      allowed_formats:
+        hide_help: '1'
+        hide_guidelines: '1'
+  field_frame:
+    type: boolean_checkbox
+    weight: 26
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_p_link:
+    type: paragraphs
+    weight: 4
+    region: content
+    settings:
+      title: Link
+      title_plural: Links
+      edit_mode: open
+      closed_mode: preview
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+hidden:
+  info: true
+  langcode: true

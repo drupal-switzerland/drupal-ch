@@ -1,0 +1,44 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+{% block node %}
+  {% set rendered_content = content|without(
+    'field_image',
+    'field_date_range',
+    'field_intro',
+    'field_address',
+  )
+  %}
+
+  <div class="field-banner">
+    <div class="field-text">
+{#      <a class="link--back" href="/events" >{{ 'Events'|t }}</a>#}
+      <h1 class="heading">{{ node.label }}</h1>
+      <div class="field-category">
+        {{ content.field_date_range }}
+      </div>
+
+      {{ content.field_intro }}
+    </div>
+    {% if node.field_image.value %}
+      <div class="media">
+        <span class="frame"></span>
+        {{ content.field_image }}
+      </div>
+    {% endif %}
+  </div>
+
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    <div class="field-content">
+      {{ rendered_content }}
+    </div>
+    <div class="field-info">
+      {% set address = node.field_address.value|first %}
+      {% if address.address_line1 or address.administrative_area or address.locality %}
+        <h4 class="heading">{{ 'Located at'|t }}</h4>
+        <div class="field-contact">
+          {{ content.field_address }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

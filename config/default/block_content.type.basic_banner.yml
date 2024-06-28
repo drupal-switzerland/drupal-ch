@@ -1,0 +1,10 @@
+uuid: c7f43a68-bcf7-4182-8df5-0c0ac1bea45d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nq3RKkjAGhA2C_fL1MUwstTpfE9bDBNCn1Q3fNqu6Cg
+id: basic_banner
+label: 'Basic banner'
+revision: 0
+description: ''

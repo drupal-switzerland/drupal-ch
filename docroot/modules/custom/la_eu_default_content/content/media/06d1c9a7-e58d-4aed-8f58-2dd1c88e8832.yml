@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 06d1c9a7-e58d-4aed-8f58-2dd1c88e8832
+  bundle: image
+  default_langcode: en
+  depends:
+    a25aa70e-f221-4491-8b85-0301420aaf08: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ben-kolde-bs2Ba7t69mM-unsplash.jpg
+  created:
+    -
+      value: 1701194356
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: a25aa70e-f221-4491-8b85-0301420aaf08
+      alt: 'A open laptop on a table'
+      title: ''
+      width: 3456
+      height: 4408

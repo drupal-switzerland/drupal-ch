@@ -1,0 +1,15 @@
+// Small teaser view mode
+
+.node--type-partner {
+  &.node--view-mode-small-teaser {
+    .field--name-field-category {
+      @include font-sizes(kicker-small);
+
+      color: $color-gray-500;
+      margin-bottom: 20px;
+    }
+    a.link-secondary {
+      @include link(secondary);
+    }
+  }
+}

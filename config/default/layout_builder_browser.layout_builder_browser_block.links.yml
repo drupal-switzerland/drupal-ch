@@ -1,0 +1,13 @@
+uuid: dfcafa5b-4a38-4f81-899f-ca2b033c0cff
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CeMNtZuMR-jfdhx5qIhEGPiHW3D8jyfhvvTr6IiIWzc
+id: links
+block_id: 'inline_block:links'
+category: flexible
+label: Links
+weight: -100
+image_path: ''
+image_alt: ''

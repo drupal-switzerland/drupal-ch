@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 87005680-84fa-4463-820c-fdec82f7b717
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: structure.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/structure.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 77326
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701200062

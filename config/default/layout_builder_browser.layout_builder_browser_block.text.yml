@@ -1,0 +1,13 @@
+uuid: a0d1fde3-08ba-476d-add5-4fada28bd8af
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ghcxZOyx2abeZWpmXCSp_x_lAuJbc5ABVRCS92DRveg
+id: text
+block_id: 'inline_block:text'
+category: flexible
+label: Text
+weight: -100
+image_path: ''
+image_alt: ''

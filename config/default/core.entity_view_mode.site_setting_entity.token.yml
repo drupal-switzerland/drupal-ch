@@ -1,0 +1,13 @@
+uuid: a90bdf0b-faeb-4381-b1b3-1159c4c9ecfa
+langcode: en
+status: true
+dependencies:
+  module:
+    - site_settings
+_core:
+  default_config_hash: omMRBYawGxYy9tqy6O9ln7ksJY6PvribJfYabjWdTTs
+id: site_setting_entity.token
+label: Token
+description: ''
+targetEntityType: site_setting_entity
+cache: true

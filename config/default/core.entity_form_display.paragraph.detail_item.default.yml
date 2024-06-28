@@ -1,0 +1,34 @@
+uuid: f213346c-7809-4e0b-b1ca-cea81323bf13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.detail_item.field_label
+    - field.field.paragraph.detail_item.field_value
+    - paragraphs.paragraphs_type.detail_item
+_core:
+  default_config_hash: HYFva0Gf4_nX0dT9hkJym-3idpu8qy2W2FFhtajDd80
+id: paragraph.detail_item.default
+targetEntityType: paragraph
+bundle: detail_item
+mode: default
+content:
+  field_label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_value:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

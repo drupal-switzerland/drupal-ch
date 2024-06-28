@@ -1,0 +1,43 @@
+uuid: e1356b03-dbba-4cbe-b6fc-010ac7ea403f
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large_hq
+    - image.style.medium_hq
+    - image.style.small_hq
+    - image.style.x_large_hq
+  theme:
+    - themekit
+_core:
+  default_config_hash: pwp1m_DmGgHqQJslEw8nk1sGIqBhVuKwX-IrmRY5drE
+id: full_column_hq
+label: 'Full Column HQ'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: x_large_hq
+    breakpoint_id: themekit.large
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: large_hq
+    breakpoint_id: themekit.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_hq
+    breakpoint_id: themekit.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: small_hq
+    breakpoint_id: themekit.x_small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: large_hq
+    breakpoint_id: themekit.x_small
+    multiplier: 2x
+breakpoint_group: themekit
+fallback_image_style: small_hq

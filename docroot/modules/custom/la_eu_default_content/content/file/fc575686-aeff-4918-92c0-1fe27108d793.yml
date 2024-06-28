@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fc575686-aeff-4918-92c0-1fe27108d793
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: commerce.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/commerce.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 1150
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183427

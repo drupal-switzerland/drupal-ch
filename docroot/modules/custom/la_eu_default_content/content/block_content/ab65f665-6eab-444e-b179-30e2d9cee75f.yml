@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: ab65f665-6eab-444e-b179-30e2d9cee75f
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    887e50e2-bce0-499a-a49c-0089bd3aa2fa: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal uses the modern LAMP stack with Linux, Apache, MySQL and PHP by default.&nbsp;<a href=\"https://w3techs.com/technologies/history_overview/operating_system\">Many organisations</a>&nbsp;and agencies worldwide use this stack to build fast, agile digital applications that enable them to grow with their online ambitions.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Using the tried and true LAMP Stack'
+  field_media:
+    -
+      entity: 887e50e2-bce0-499a-a49c-0089bd3aa2fa
+  field_media_position:
+    -
+      value: right

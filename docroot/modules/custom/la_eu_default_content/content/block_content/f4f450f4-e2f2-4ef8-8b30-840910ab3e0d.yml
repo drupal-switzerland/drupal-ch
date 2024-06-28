@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: f4f450f4-e2f2-4ef8-8b30-840910ab3e0d
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    84d66f0c-216e-48aa-b9d7-f070b2e1706f: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Björn (<a href=\"https://www.drupal.org/u/bbrala\">bbrala</a>) Brala started his own webshop in retro items in 2003&nbsp;during his computer science studies and started at SWIS in 2007. As technical director and CISO of SWIS, he provides technical guidance to the company. In 2013 he switched from his own CMS to Drupal with SWIS. Björn is the core maintainer for JSON:API and believes in the power and necessity of unlocking content via APIs. With a passion for APIs, privacy, security and the trusted web, he wants to advocate for an even safer, privacy-friendly Drupal that is part of every serious online landscape.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Björn Brala'
+  field_media:
+    -
+      entity: 84d66f0c-216e-48aa-b9d7-f070b2e1706f
+  field_media_position:
+    -
+      value: right

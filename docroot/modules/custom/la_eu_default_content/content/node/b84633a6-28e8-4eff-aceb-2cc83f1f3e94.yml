@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b84633a6-28e8-4eff-aceb-2cc83f1f3e94
+  bundle: component_page
+  default_langcode: en
+  depends:
+    fd7532ad-30c5-41d2-a553-85a37c06475e: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '403 Forbidden'
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '403 Forbidden | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/403-forbidden'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: '403 Forbidden'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: '403 Forbidden'
+  path:
+    -
+      alias: /403-forbidden
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: af160b71-bbef-42f1-aa8c-4ed0085d236e
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '3'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: fd7532ad-30c5-41d2-a553-85a37c06475e
+            weight: 1
+            additional:
+              target_uuid: fd7532ad-30c5-41d2-a553-85a37c06475e
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'

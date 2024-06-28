@@ -1,0 +1,13 @@
+uuid: 7cfafa1b-babb-4306-857c-44dfab867863
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lKZB0s7HNC1uCj0xAX-HaCg8REtv6F_Qw8uPR3Ac_ek
+id: news_slider
+block_id: 'inline_block:news_slider'
+category: structured
+label: 'News Slider'
+weight: -100
+image_path: ''
+image_alt: ''

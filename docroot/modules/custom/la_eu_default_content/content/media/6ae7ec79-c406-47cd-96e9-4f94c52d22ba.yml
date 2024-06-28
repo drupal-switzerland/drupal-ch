@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6ae7ec79-c406-47cd-96e9-4f94c52d22ba
+  bundle: image
+  default_langcode: en
+  depends:
+    1b938f9b-9f01-45c0-be07-1b48147a2e66: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: nick-fewings-IkjROahgUoo-unsplash.jpg
+  created:
+    -
+      value: 1701197657
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 1b938f9b-9f01-45c0-be07-1b48147a2e66
+      alt: 'A pile of suitcases'
+      title: ''
+      width: 4032
+      height: 3024

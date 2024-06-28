@@ -1,0 +1,31 @@
+uuid: 6ddcfa72-299c-4519-8c57-f3e14a436b76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media
+    - media.type.svg
+    - paragraphs.paragraphs_type.feature
+_core:
+  default_config_hash: qx8bBNaZSc-fhHQ5TzLkt8yBvJWug3xpVN_yL73zwm4
+id: paragraph.feature.field_media
+field_name: field_media
+entity_type: paragraph
+bundle: feature
+label: Logo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      svg: svg
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

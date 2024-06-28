@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: bdd941d1-de74-470e-ae21-e3f1a5dea65f
+  bundle: text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>You are welcome to use the software and read the documentation as a visitor, but the Drupal community hopes you will join in, find people who share your interests and grow your skills!</p>\r\n"
+      format: full_html
+      summary: ''
+  field_frame:
+    -
+      value: true
+  field_heading:
+    -
+      value: 'Meet the community and join!'

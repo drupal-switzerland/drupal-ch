@@ -1,9 +1,0 @@
-{% for paragraph in paragraphs %}
-  {% set paragraph = paragraph.entity %}
-  {% include '@twig/components/components.html.twig' with {
-    type: paragraph.type,
-    component: paragraph,
-    isHero: isHero,
-    heroTitle: heroTitle,
-  } only %}
-{% endfor %}

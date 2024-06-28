@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: a4f118cb-12ed-4f81-a70c-2ab001a1b543
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    856cfcad-7886-4287-a4f4-9719cca05d03: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p><strong>Become a partner of Stichting Drupal Nederland (SDN) and help make the Drupal community stronger.&nbsp;</strong></p>\r\n\r\n<p>Stichting Drupal Nederland (Drupal.nl) is the interest organization of Dutch Drupal users, companies and developers. Become a partner as an agency or individual, share your knowledge and experience with others in the industry and contribute to Drupal as a business.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Our partner program'
+  field_media:
+    -
+      entity: 856cfcad-7886-4287-a4f4-9719cca05d03
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bbdf06ac-004a-43d1-9189-1db27469fb9a
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701188781
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary

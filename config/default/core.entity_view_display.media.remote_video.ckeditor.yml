@@ -1,0 +1,45 @@
+uuid: 0708f4da-07d5-44b2-ba74-f402293d0fc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.ckeditor
+    - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_tags
+    - field.field.media.remote_video.field_video_provider
+    - field.field.media.remote_video.field_video_type
+    - media.type.remote_video
+  module:
+    - layout_builder
+    - media
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: 5bhdd-HfemZzagVvxCDpWJjjhzxcK0v7CmWudrQoCY0
+id: media.remote_video.ckeditor
+targetEntityType: media
+bundle: remote_video
+mode: ckeditor
+content:
+  field_media_oembed_video:
+    type: oembed
+    label: hidden
+    settings:
+      max_width: 0
+      max_height: 0
+      loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_tags: true
+  field_video_provider: true
+  field_video_type: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

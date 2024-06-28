@@ -1,0 +1,18 @@
+uuid: 746250f9-be18-41f0-8e6c-3e09a6c659e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.video_type
+id: taxonomy_term.video_type.name
+field_name: name
+entity_type: taxonomy_term
+bundle: video_type
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

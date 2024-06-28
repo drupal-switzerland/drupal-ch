@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2b59075b-162f-45b1-8775-6f85aa86c3d1
+  bundle: event
+  default_langcode: en
+  depends:
+    0f900d17-f11a-49e4-8c7b-fdf206354fbb: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Splash Awards 2022'
+  created:
+    -
+      value: 1701182236
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Splash Awards 2022 | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "The Splash Awards have been held in the Netherlands since 2014. This annual tradition was created by the Drupal community to put the best Drupal projects in a well-deserved spotlight. Germany followed in 2017 after which Denmark, France and Romania also organized their own Splash Awards. \_This was followed in 2019 by the first international Splash Awards from DrupalCon Amsterdam. Many countries have indicated their intention to follow suit. This year, the Splash Awards will take place online in October 2022. You can start submitting your projects soon!"
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/events/splash-awards-2022'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Splash Awards 2022'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "The Splash Awards have been held in the Netherlands since 2014. This annual tradition was created by the Drupal community to put the best Drupal projects in a well-deserved spotlight. Germany followed in 2017 after which Denmark, France and Romania also organized their own Splash Awards. \_This was followed in 2019 by the first international Splash Awards from DrupalCon Amsterdam. Many countries have indicated their intention to follow suit. This year, the Splash Awards will take place online in October 2022. You can start submitting your projects soon!"
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/splash-awards_400x400.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Splash Awards 2022'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: "The Splash Awards have been held in the Netherlands since 2014. This annual tradition was created by the Drupal community to put the best Drupal projects in a well-deserved spotlight. Germany followed in 2017 after which Denmark, France and Romania also organized their own Splash Awards. \_This was followed in 2019 by the first international Splash Awards from DrupalCon Amsterdam. Many countries have indicated their intention to follow suit. This year, the Splash Awards will take place online in October 2022. You can start submitting your projects soon!"
+  path:
+    -
+      alias: /events/splash-awards-2022
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>The Splash Awards have been held in the Netherlands since 2014. This annual tradition was created by the Drupal community to put the best Drupal projects in a well-deserved spotlight.</p>\r\n\r\n<p>Germany followed in 2017 after which Denmark, France and Romania also organized their own Splash Awards. &nbsp;This was followed in 2019 by the first international Splash Awards from DrupalCon Amsterdam. Many countries have indicated their intention to follow suit.</p>\r\n\r\n<p>This year, the Splash Awards will take place online in October 2022. You can start submitting your projects soon!</p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: NL
+      administrative_area: ''
+      locality: UTRECHT
+      postal_code: '3531 BG'
+      address_line1: 'Leidseweg 90'
+  field_date_range:
+    -
+      value: '2022-10-06T17:00:00'
+      end_value: '2022-10-06T20:00:00'
+  field_image:
+    -
+      entity: 0f900d17-f11a-49e4-8c7b-fdf206354fbb
+  field_intro:
+    -
+      value: 'What are the best Drupal projects of the past year?'
+      format: restricted_html

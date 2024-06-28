@@ -1,0 +1,51 @@
+uuid: a41003ce-f04a-4540-b2e1-2956302790ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_link
+    - paragraphs.paragraphs_type.link_default
+    - paragraphs.paragraphs_type.social_media
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: jMGirLneQm1SMJ8d7zsRwdbcqapUQ53Z1W0OfI4z3Y4
+id: paragraph.social_media.field_p_link
+field_name: field_p_link
+entity_type: paragraph
+bundle: social_media
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      link_default: link_default
+    negate: 0
+    target_bundles_drag_drop:
+      detail_item:
+        weight: 9
+        enabled: false
+      details_list:
+        weight: 8
+        enabled: false
+      header_banner_basic:
+        weight: 10
+        enabled: false
+      image_slider:
+        weight: 11
+        enabled: false
+      link_default:
+        weight: 12
+        enabled: true
+      link_file:
+        weight: 13
+        enabled: false
+      social_media:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

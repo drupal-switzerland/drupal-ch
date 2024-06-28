@@ -1,0 +1,20 @@
+uuid: d4a79d40-26e2-431f-8cef-3d63a808fae5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cases_slider
+  module:
+    - metatag
+id: block_content.cases_slider.metatag
+field_name: metatag
+entity_type: block_content
+bundle: cases_slider
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

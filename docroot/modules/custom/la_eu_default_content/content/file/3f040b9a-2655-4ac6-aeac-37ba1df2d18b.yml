@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3f040b9a-2655-4ac6-aeac-37ba1df2d18b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wouter-keuris-fotografie-40.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/wouter-keuris-fotografie-40.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5821527
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701203681

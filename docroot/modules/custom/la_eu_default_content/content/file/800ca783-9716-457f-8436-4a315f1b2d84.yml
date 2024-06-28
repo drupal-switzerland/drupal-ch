@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 800ca783-9716-457f-8436-4a315f1b2d84
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: opensocial.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/opensocial.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5944
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701203908

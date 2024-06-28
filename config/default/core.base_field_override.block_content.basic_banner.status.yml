@@ -1,0 +1,22 @@
+uuid: 6205c5ee-3f04-48c7-a5ca-874a480fb8f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_banner
+id: block_content.basic_banner.status
+field_name: status
+entity_type: block_content
+bundle: basic_banner
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

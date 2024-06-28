@@ -1,0 +1,12 @@
+uuid: 6064a7ea-f37a-437e-8204-ea69b3755300
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: k6x_rjFystq_Q6D8L5gSAZlJaJDIshuZb34YI8hggl8
+id: details_list
+label: 'Details List'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

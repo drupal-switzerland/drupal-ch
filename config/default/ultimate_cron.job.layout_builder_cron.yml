@@ -1,0 +1,19 @@
+uuid: be2a8704-fc2f-4b0f-ab97-fbec5f05eb56
+langcode: en
+status: true
+dependencies:
+  module:
+    - layout_builder
+_core:
+  default_config_hash: pw2aYWEoyE6oOqbW9aVRENIDyAVEovBef4P0Kj_iEjc
+title: 'Default cron handler'
+id: layout_builder_cron
+weight: 0
+module: layout_builder
+callback: layout_builder_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

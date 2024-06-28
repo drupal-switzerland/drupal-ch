@@ -1,0 +1,18 @@
+uuid: 1a2b8639-1b1c-4ed2-8089-aa3e4f0eafbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.publish_on
+field_name: publish_on
+entity_type: media
+bundle: image
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

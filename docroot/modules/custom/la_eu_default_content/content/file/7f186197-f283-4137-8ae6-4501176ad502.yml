@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7f186197-f283-4137-8ae6-4501176ad502
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupalcon-baltimore-group-foto.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/drupalcon-baltimore-group-foto.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 352150
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701200472

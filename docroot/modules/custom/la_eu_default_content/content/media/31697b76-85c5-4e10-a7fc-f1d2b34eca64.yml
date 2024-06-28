@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 31697b76-85c5-4e10-a7fc-f1d2b34eca64
+  bundle: image
+  default_langcode: en
+  depends:
+    4c59accf-d6eb-4af1-88be-d7bd88f814c0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: katt-yukawa-K0E6E0a0R3A-unsplash.jpg
+  created:
+    -
+      value: 1701183784
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 4c59accf-d6eb-4af1-88be-d7bd88f814c0
+      alt: "Open hands with some money and a note saying 'Make a change' "
+      title: ''
+      width: 3000
+      height: 2000

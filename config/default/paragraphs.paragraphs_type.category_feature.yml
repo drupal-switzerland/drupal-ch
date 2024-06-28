@@ -1,0 +1,12 @@
+uuid: 85b3617a-18af-4c28-871a-e53a7aeead80
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YPvJb-CWrQNakfT15DjRQxhTDm4l_s97vOqlEPgBQs4
+id: category_feature
+label: 'Category Feature'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

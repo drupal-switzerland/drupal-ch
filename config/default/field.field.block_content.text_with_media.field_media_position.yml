@@ -1,0 +1,23 @@
+uuid: 9effd798-c341-4701-81cf-e0892670af9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_media
+    - field.storage.block_content.field_media_position
+  module:
+    - options
+_core:
+  default_config_hash: 6E-PVpjkNA5DMDkOQihj3tYjTlnRpOxzoP9rs5iOnwY
+id: block_content.text_with_media.field_media_position
+field_name: field_media_position
+entity_type: block_content
+bundle: text_with_media
+label: 'Image position'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

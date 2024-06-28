@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 5fa78460-00c6-4ce8-8c18-2b376489b66a
+  bundle: text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Sign up as a partner using the button below. Someone from Stichting Drupal Nederland will contact you to arrange your partnership. You will of course get a listing with your own page on the <a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"90b1b38b-f588-4d01-b34b-c6860792606c\" href=\"/node/9\">partner page</a>.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_frame:
+    -
+      value: true
+  field_heading:
+    -
+      value: 'Become a partner'
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d829641c-1ae5-4a7b-a067-697699acf9fb
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701188902
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              uri: 'mailto:partner@drupal.eu'
+              title: 'Sign up as a partner'
+              options: {  }

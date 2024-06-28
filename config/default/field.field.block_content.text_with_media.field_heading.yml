@@ -1,0 +1,21 @@
+uuid: 9813eadc-c7fe-4463-8c5b-97ee4deacade
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_media
+    - field.storage.block_content.field_heading
+_core:
+  default_config_hash: 96DgxObYaKVLeLMxsHMPJxkSmwohaPn24PsxaVaRW7M
+id: block_content.text_with_media.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: text_with_media
+label: Heading
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

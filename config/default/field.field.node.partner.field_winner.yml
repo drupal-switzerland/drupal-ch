@@ -1,0 +1,27 @@
+uuid: 0c247385-13ee-46e1-ad27-c560300cf36d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_winner
+    - node.type.partner
+_core:
+  default_config_hash: VIP3-3XS2giiu50A48iJh8Bif12GF9l9WLVaRRQSx8g
+id: node.partner.field_winner
+field_name: field_winner
+entity_type: node
+bundle: partner
+label: Winner
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: x
+field_type: integer

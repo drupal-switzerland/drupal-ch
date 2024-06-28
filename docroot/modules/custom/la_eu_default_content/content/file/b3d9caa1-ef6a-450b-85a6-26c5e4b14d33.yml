@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b3d9caa1-ef6a-450b-85a6-26c5e4b14d33
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: healthcare-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/healthcare-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1284799
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183564

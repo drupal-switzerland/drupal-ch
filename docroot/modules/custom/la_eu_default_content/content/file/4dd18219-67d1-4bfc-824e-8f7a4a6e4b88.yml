@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4dd18219-67d1-4bfc-824e-8f7a4a6e4b88
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bank-phrom-Tzm3Oyu_6sk-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/bank-phrom-Tzm3Oyu_6sk-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2025514
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701191595

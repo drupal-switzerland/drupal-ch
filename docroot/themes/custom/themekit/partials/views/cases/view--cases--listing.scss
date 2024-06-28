@@ -1,0 +1,159 @@
+.view-cases-listing {
+  > .view-filters {
+    position: relative;
+    margin-bottom: 40px;
+    @include breakpoint(large) {
+      @include grid-column-size(7);
+    }
+
+    .form-item__wrapper {
+      @include breakpoint(medium) {
+        display: flex;
+      }
+
+      .form-item {
+        @include breakpoint(medium) {
+          flex: 1 auto;
+        }
+      }
+    }
+
+    .form-item {
+      margin: 0;
+    }
+
+    .form-item-title {
+      input {
+        @include font-sizes(kicker-large);
+        width: 100%;
+        height: 48px;
+        border: none;
+        padding: 12px 20px 12px 60px;
+        background: $color-gray-100;
+        @include breakpoint(medium) {
+          @include top-bottom(padding, 16px);
+          height: 56px;
+        }
+
+        &::placeholder {
+          @include font-sizes(kicker-large);
+          color: $color-gray-900;
+        }
+
+        &:focus {
+          box-shadow: inset 0 0 8px rgba($color-black, 0.08);
+        }
+
+        &:focus-visible {
+          outline: none;
+        }
+      }
+    }
+
+    .toggle-filters {
+      display: flex;
+      align-items: center;
+      padding: 12px 20px;
+      background-color: $color-white;
+      box-shadow: inset 0 0 0 2px $color-gray-100;
+      cursor: pointer;
+      @include global-transition(background-color);
+      @include font-sizes(kicker-large);
+      @include icon-after(angle-bottom) {
+        @include global-transition(transform);
+        margin-left: auto;
+        font-size: rem-calc(24);
+        @include breakpoint(medium) {
+          margin-left: 7px;
+        }
+      }
+      @include breakpoint(medium) {
+        padding: 16px 20px 16px 32px;
+      }
+      @include selectors(active) {
+        background-color: $color-gray-200;
+      }
+
+      body.active-filter &::after {
+        transform: scaleY(-1);
+      }
+    }
+
+    .form-submit {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 56px;
+      height: 48px;
+      border: none;
+      background: url(../../../assets/images/svg/icons/search.svg) 50% 50%
+        no-repeat;
+      background-size: 24px auto;
+      font: 0/0 transparent;
+      @include breakpoint(medium) {
+        height: 56px;
+      }
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+
+    .form-type-checkbox {
+      input {
+        @include visually-hidden;
+
+        &:checked + label {
+          @include label(default-active);
+        }
+      }
+
+      label {
+        @include label(default);
+        cursor: pointer;
+      }
+    }
+
+    .bef-checkboxes {
+      display: none;
+      float: none;
+      @include breakpoint(small down) {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 20px 20px 0;
+      }
+      @include breakpoint(medium) {
+        flex-wrap: wrap;
+        margin-top: 24px;
+      }
+
+      body.active-filter & {
+        display: flex;
+      }
+
+      > .form-item {
+        float: none;
+        margin: 0 12px 12px 0;
+      }
+    }
+  }
+
+  > .view-content {
+    @include breakpoint(medium) {
+      @include flex-grid-row(nest);
+    }
+
+    > .views-row {
+      margin-bottom: 32px;
+      @include breakpoint(medium) {
+        @include flex-grid-column(6);
+      }
+      @include breakpoint(large) {
+        @include flex-grid-column(4);
+      }
+      @include breakpoint(xlarge) {
+        @include flex-grid-column(3);
+      }
+    }
+  }
+}

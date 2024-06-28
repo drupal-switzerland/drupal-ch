@@ -1,0 +1,38 @@
+uuid: ef147d5a-3fa3-498e-9d98-808fffce0ffb
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large_square_1_1
+    - image.style.medium_square_1_1
+    - image.style.small_square_1_1
+    - image.style.x_small_square_1_1
+  theme:
+    - themekit
+_core:
+  default_config_hash: xAuoZ47np5V_9AJPi1y_4oPsOlKr_gy3gopF5DfH1gw
+id: square_1_1
+label: 'Square 1:1'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_square_1_1
+    breakpoint_id: themekit.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: large_square_1_1
+    breakpoint_id: themekit.small
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: x_small_square_1_1
+    breakpoint_id: themekit.x_small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: small_square_1_1
+    breakpoint_id: themekit.x_small
+    multiplier: 2x
+breakpoint_group: themekit
+fallback_image_style: x_small_square_1_1

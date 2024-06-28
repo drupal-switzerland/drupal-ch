@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 0e13e90e-ae5f-4689-9f96-0dd52c1bdbd2
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    5d57e1b7-5d08-4ca4-948c-353d77b41164: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>One of Drupal's core values is that everyone can participate. In the community, this is reflected via a strong focus on inclusivity.</p>\r\n\r\n<p>Drupal core complies with the WCAG 2.0 and ATAG 2.0 guidelines. By using Drupal, you make both the site and the CMS accessible to everyone without any extra effort. This makes obtaining an accessibility statement - mandatory for many organisations and their sites - much simpler.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Accessibility and inclusivity'
+  field_media:
+    -
+      entity: 5d57e1b7-5d08-4ca4-948c-353d77b41164
+  field_media_position:
+    -
+      value: left

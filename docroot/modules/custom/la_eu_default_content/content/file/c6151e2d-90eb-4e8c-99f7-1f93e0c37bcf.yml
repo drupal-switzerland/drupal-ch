@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c6151e2d-90eb-4e8c-99f7-1f93e0c37bcf
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: erik-mclean-sxiSod0tyYQ-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/erik-mclean-sxiSod0tyYQ-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4356041
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701186630

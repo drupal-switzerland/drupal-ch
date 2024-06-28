@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8ccf4af3-c9e9-4905-baf9-d83f9837b859
+  bundle: image
+  default_langcode: en
+  depends:
+    d6e8432a-b6f9-4a98-bce0-7360dbfe75d3: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: northamerica-med-opt.jpg
+  created:
+    -
+      value: 1701182666
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d6e8432a-b6f9-4a98-bce0-7360dbfe75d3
+      alt: 'DrupalCon logo'
+      title: ''
+      width: 1200
+      height: 675

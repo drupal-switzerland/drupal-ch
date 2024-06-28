@@ -1,0 +1,18 @@
+uuid: 39c6a3ed-8c2a-4a2c-b44d-40fc3900e302
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_slider
+id: block_content.news_slider.info
+field_name: info
+entity_type: block_content
+bundle: news_slider
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

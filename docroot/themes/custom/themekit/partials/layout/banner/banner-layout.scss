@@ -1,0 +1,28 @@
+////
+/// Layout - Banner
+////
+
+.banner-layout {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+
+  body.is-home-banner & {
+    margin-top: rem-calc(-72);
+    @include breakpoint(medium) {
+      margin-top: rem-calc(-104);
+    }
+  }
+
+  body.is-home-banner .layout-builder & {
+    margin-top: 0;
+  }
+
+  .layout-builder & {
+    overflow: hidden;
+  }
+
+  body:not(.is-home-banner) {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,26 @@
+uuid: 073b2943-5eb3-47eb-bc7c-7e79c2743f07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.site_setting_entity.field_text
+    - filter.format.basic_html
+    - site_settings.site_setting_entity_type.footer_copyright
+  module:
+    - text
+_core:
+  default_config_hash: NGI5aTq7mNGQi3qgF6FEISu69KoMgOVeN_twZyDgJcc
+id: site_setting_entity.footer_copyright.field_text
+field_name: field_text
+entity_type: site_setting_entity
+bundle: footer_copyright
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

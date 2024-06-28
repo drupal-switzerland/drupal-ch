@@ -1,0 +1,20 @@
+uuid: fc071e94-4745-4910-a630-60f08ab2f549
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.partner
+  module:
+    - options
+id: node.partner.unpublish_state
+field_name: unpublish_state
+entity_type: node
+bundle: partner
+label: 'Unpublish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

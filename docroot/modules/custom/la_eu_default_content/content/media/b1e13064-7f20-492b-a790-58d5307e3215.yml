@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b1e13064-7f20-492b-a790-58d5307e3215
+  bundle: svg
+  default_langcode: en
+  depends:
+    6b8a626c-6fbd-43a1-98b5-023b7b4bca54: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: logo.svg
+  created:
+    -
+      value: 1701190949
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_file_mime_type:
+    -
+      value: image/svg+xml
+  field_file_size:
+    -
+      value: 830
+  field_media_svg:
+    -
+      entity: 6b8a626c-6fbd-43a1-98b5-023b7b4bca54
+      alt: 'X Logo'
+      title: ''

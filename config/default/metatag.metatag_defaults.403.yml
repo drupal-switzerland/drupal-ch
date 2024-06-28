@@ -1,0 +1,11 @@
+uuid: e47526b4-63c0-4bf2-857b-d707086027c0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-WzrfV38BlT5WWqIMtGMoFXEsiSG_i8T5kaNcXby4GI'
+id: '403'
+label: '403 Forbidden'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'

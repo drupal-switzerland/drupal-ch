@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 6eaf6c28-368c-49c2-90b2-369fe59875e2
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    d85c2a56-821d-45a3-aa8d-881d7ccc7237: media
+    36d2f31e-7b87-4da4-bd23-fbf767ed254e: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>There would be no Drupal without partners. The organizations below are involved on a daily basis developing and implementing Drupal solutions for a large group of customers. In addition to applying the technology, Open Source is also about \"contribution\". Drupal's partners in the Netherlands do this in the form of code and technology, but also by contributing to the Dutch Drupal Assosiation.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: Partners
+  field_media:
+    -
+      entity: d85c2a56-821d-45a3-aa8d-881d7ccc7237
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d3b1d79e-9911-4703-bc7a-fdfd2f98b01d
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701189055
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: 36d2f31e-7b87-4da4-bd23-fbf767ed254e
+              title: 'Become a partner'
+              options: {  }

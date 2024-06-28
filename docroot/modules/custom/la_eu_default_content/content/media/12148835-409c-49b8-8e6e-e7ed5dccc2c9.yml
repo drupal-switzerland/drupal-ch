@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 12148835-409c-49b8-8e6e-e7ed5dccc2c9
+  bundle: image
+  default_langcode: en
+  depends:
+    c6151e2d-90eb-4e8c-99f7-1f93e0c37bcf: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: erik-mclean-sxiSod0tyYQ-unsplash.jpg
+  created:
+    -
+      value: 1701186630
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: c6151e2d-90eb-4e8c-99f7-1f93e0c37bcf
+      alt: 'A laptop showing a 404'
+      title: ''
+      width: 5472
+      height: 3648

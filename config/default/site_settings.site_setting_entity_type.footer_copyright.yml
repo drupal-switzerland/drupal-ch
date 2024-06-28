@@ -1,0 +1,10 @@
+uuid: 03e0a425-fc71-4132-8b86-9dfa6a87bdf3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wEZPk-W4lL_SbPA3A0_hKLWny9OPyWoeYjeP6dFn7hs
+id: footer_copyright
+label: 'Footer copyright'
+fieldset: Footer
+multiple: false

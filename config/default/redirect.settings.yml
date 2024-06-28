@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: 69tBMLpQgL5_qecWMM5ouhskFP0kN3jBNZ1ikfxXXXM
+auto_redirect: false
+default_status_code: 301
+passthrough_querystring: true
+warning: false
+ignore_admin_path: false
+access_check: false
+route_normalizer_enabled: true
+canonical: true
+content_location_header: false

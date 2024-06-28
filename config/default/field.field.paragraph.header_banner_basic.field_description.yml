@@ -1,0 +1,32 @@
+uuid: 2b588fb2-b9b6-4e86-b498-05a3761bcbd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.header_banner_basic
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    simple_html: simple_html
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: xsS77H512MA3jEUN7ZRN_EAR_pzXFXNgyDcM404Lz3o
+id: paragraph.header_banner_basic.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: header_banner_basic
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

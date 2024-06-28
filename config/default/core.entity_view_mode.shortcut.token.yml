@@ -1,0 +1,13 @@
+uuid: fce19410-ed98-46ce-90a5-4b39d74c5c34
+langcode: en
+status: true
+dependencies:
+  module:
+    - shortcut
+_core:
+  default_config_hash: Nds7t_cOU_ozeJ1CKz181O6eA_GDqfZjicuo81IAS4g
+id: shortcut.token
+label: Token
+description: ''
+targetEntityType: shortcut
+cache: true

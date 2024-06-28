@@ -1,0 +1,114 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+{% block node %}
+  {% set rendered_content = content|without(
+    'field_category',
+    'field_intro',
+    'field_image',
+    'field_logo',
+    'field_link',
+    'field_email',
+    'field_phone',
+    'field_address',
+    'field_links',
+    'field_website_of_the_year',
+    'field_winner',
+    'field_runner_up'
+  )
+  %}
+
+  <div class="field-banner">
+    <div class="field-text">
+      <a class="link--back" href="/partners" >{{ 'Partners'|t }}</a>
+      <h1 class="heading">{{ node.label }}</h1>
+      <div class="field-category">
+        {{ node.field_category.entity.label }} {{ 'Partner'|t }}
+      </div>
+      {{ content.field_intro }}
+    </div>
+    {% if node.field_image.value %}
+      <div class="media">
+        <span class="frame"></span>
+        {{ content.field_image }}
+      </div>
+    {% endif %}
+  </div>
+
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    <div class="field-content">
+      <div class="field-content-items">
+        {{ rendered_content }}
+      </div>
+      {% if drupal_view_result('cases', 'cases')|length %}
+        <div class="field-view">
+          <h2 class="heading">{{ 'Cases of'|t }} {{ node.label }} <br> {{ 'that we are proud of'|t }}</h2>
+          {{ drupal_view('cases', 'cases') }}
+        </div>
+      {% endif %}
+    </div>
+    <div class="field-info">
+      <div class="field-item-info">
+        {{ content.field_logo }}
+        <div class="field--name-field-category">
+          {{ node.field_category.entity.label }} {{ 'Partner'|t }}
+        </div>
+        <div class="field-contact">
+          {{ content.field_email }}
+          {{ content.field_phone }}
+          {{ content.field_address }}
+
+          {% if node.field_links|length %}
+            <div class="field--name-field-links">
+              {% for item in node.field_links %}
+                <div class="field__item">
+                  <a target="_blank" href="{{ item.uri }}">{{ item.title }}</a>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+        {% if node.field_link.uri %}
+          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Show website'|t }}</a>
+        {% endif %}
+      </div>
+      {% if node.field_website_of_the_year.value or node.field_winner.value or node.field_runner_up.value %}
+        <div class="field-item-info field-awards">
+          <h4 class="heading">{{ 'Splash Awards'|t }}</h4>
+          {% if node.field_website_of_the_year.value %}
+            <div class="field">
+              <img
+                width="96"
+                height="97"
+                src="/{{ base_path ~ directory }}/assets/images/svg/awards/website-of-the-year.svg"
+                alt="{{ 'Website of the year'|t }}">
+              {{ content.field_website_of_the_year }}
+              <div class="field-name">{{ 'Website of the year'|t }}</div>
+            </div>
+          {% endif %}
+          {% if node.field_winner.value %}
+            <div class="field">
+              <img
+                width="96"
+                height="97"
+                src="/{{ base_path ~ directory }}/assets/images/svg/awards/winner-bright-blue.svg"
+                alt="{{ 'Winner'|t }}">
+              {{ content.field_winner }}
+              <div class="field-name">{{ 'Winner'|t }}</div>
+            </div>
+          {% endif %}
+          {% if node.field_runner_up.value %}
+            <div class="field">
+              <img
+                width="96"
+                height="97"
+                src="/{{ base_path ~ directory }}/assets/images/svg/awards/runner-up-peach.svg"
+                alt="{{ 'Runner up'|t }}">
+              {{ content.field_runner_up }}
+              <div class="field-name">{{ 'Runner up'|t }}</div>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

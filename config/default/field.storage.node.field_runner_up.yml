@@ -1,0 +1,22 @@
+uuid: 84343e0a-72f4-4de9-a1f3-f736ebf71bb3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: pzu0n2JDCSrFeZGePC3namB8-dCF12M1bP5KmKG_40c
+id: node.field_runner_up
+field_name: field_runner_up
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

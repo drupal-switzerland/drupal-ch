@@ -1,0 +1,21 @@
+uuid: be80922a-ac35-4048-8d81-f0b7b85652ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: tf-4bJF3k-fT8m5HQ3nnykM8UENX_nUWL3zGjv8RurI
+id: node.field_intro
+field_name: field_intro
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,26 @@
+uuid: 74db5cac-c137-4621-a414-ac7a530b3cb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_description
+    - filter.format.plain_text
+    - taxonomy.vocabulary.category
+  module:
+    - text
+_core:
+  default_config_hash: MfaHk7kA4MqR9k2dn2HijjxzfYUcTiMtObE3ryAAtWk
+id: taxonomy_term.category.field_description
+field_name: field_description
+entity_type: taxonomy_term
+bundle: category
+label: 'Description Teaser'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - plain_text
+field_type: text_long

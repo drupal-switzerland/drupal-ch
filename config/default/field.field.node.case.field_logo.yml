@@ -1,0 +1,33 @@
+uuid: 0e6b4e03-be36-4eb6-965e-81a9413958d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_logo
+    - media.type.image
+    - media.type.svg
+    - node.type.case
+_core:
+  default_config_hash: 3xrtlQMFX2blScBJUtmDrz9_-YHBKVFyGTKjeQIhtuE
+id: node.case.field_logo
+field_name: field_logo
+entity_type: node
+bundle: case
+label: Logo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      svg: svg
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

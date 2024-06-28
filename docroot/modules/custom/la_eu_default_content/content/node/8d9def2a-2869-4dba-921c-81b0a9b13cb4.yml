@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8d9def2a-2869-4dba-921c-81b0a9b13cb4
+  bundle: event
+  default_langcode: en
+  depends:
+    f634ce48-f62c-4b02-8dfa-0015e1047a75: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drupal Developer Days 2023'
+  created:
+    -
+      value: 1701182498
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Drupal Developer Days 2023 | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Further information will follow but it is certain that the Drupal Developer Days will also take place in 2023. This time in beautiful Vienna.'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/events/drupal-developer-days-2023'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Drupal Developer Days 2023'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Further information will follow but it is certain that the Drupal Developer Days will also take place in 2023. This time in beautiful Vienna.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/ddd_final_logo-vienna.jpg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Drupal Developer Days 2023'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Further information will follow but it is certain that the Drupal Developer Days will also take place in 2023. This time in beautiful Vienna.'
+  path:
+    -
+      alias: /events/drupal-developer-days-2023
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Further information will follow but it is certain that the Drupal Developer Days will also take place in 2023. This time in beautiful Vienna.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: AT
+      administrative_area: ''
+      locality: Vienna
+      postal_code: '1090'
+      address_line1: 'Oskar-Morgenstern-Platz 1'
+  field_date_range:
+    -
+      value: '2023-07-19T06:00:00'
+      end_value: '2023-07-23T15:00:00'
+  field_image:
+    -
+      entity: f634ce48-f62c-4b02-8dfa-0015e1047a75
+  field_intro:
+    -
+      value: 'Drupal Developer Days is an annual gathering of people who love, learn and discuss the open source content management system Drupal. The event is organized by the Drupal community, which brings together people from around the world who contribute to the progress of Drupal, taking place every year in Europe.'
+      format: restricted_html

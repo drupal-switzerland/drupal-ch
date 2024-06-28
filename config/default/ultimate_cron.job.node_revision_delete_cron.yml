@@ -1,0 +1,19 @@
+uuid: b4931519-231d-48a5-9bda-6b7b278be7ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - node_revision_delete
+_core:
+  default_config_hash: Y0Z1slq3Gp0tTQwAHvZt2sJklkwE80Ronin1kPTMbJw
+title: 'Default cron handler'
+id: node_revision_delete_cron
+weight: 0
+module: node_revision_delete
+callback: node_revision_delete_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

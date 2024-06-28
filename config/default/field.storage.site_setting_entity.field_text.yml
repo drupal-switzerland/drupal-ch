@@ -1,0 +1,21 @@
+uuid: dcb9bca1-2dc7-48dd-9200-7fea25f04391
+langcode: en
+status: true
+dependencies:
+  module:
+    - site_settings
+    - text
+_core:
+  default_config_hash: 9BjVBmuUPWj_BytLO2wb0Mrvs_0cEmSqVQEWdzmfbE8
+id: site_setting_entity.field_text
+field_name: field_text
+entity_type: site_setting_entity
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7f4650db-cdd1-4647-a646-da6adaf806f5
+  bundle: component_page
+  default_langcode: en
+  depends:
+    6adea20e-efa2-4815-9f26-f1c9952231a5: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Cases
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Cases | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/cases'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Cases
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Cases
+  path:
+    -
+      alias: /cases
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: fed82d0d-5a37-4db0-b0c6-8921a72e10af
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '8'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: 6adea20e-efa2-4815-9f26-f1c9952231a5
+            weight: 1
+            additional:
+              target_uuid: 6adea20e-efa2-4815-9f26-f1c9952231a5
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'
+    -
+      section:
+        layout_id: dnl_layout_onecol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: d9a20f1d-dc5b-4ec7-bdae-c9ce75fa797d
+            region: first
+            configuration:
+              id: 'views_block:cases-listing'
+              label: ''
+              label_display: 0
+              provider: views
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }

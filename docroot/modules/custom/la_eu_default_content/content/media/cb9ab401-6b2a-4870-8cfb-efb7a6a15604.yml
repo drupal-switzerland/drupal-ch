@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: cb9ab401-6b2a-4870-8cfb-efb7a6a15604
+  bundle: svg
+  default_langcode: en
+  depends:
+    027c49d5-fbb1-4204-a14f-eaf007862668: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Health.svg
+  created:
+    -
+      value: 1701183614
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_file_mime_type:
+    -
+      value: image/svg+xml
+  field_file_size:
+    -
+      value: 730
+  field_media_svg:
+    -
+      entity: 027c49d5-fbb1-4204-a14f-eaf007862668
+      alt: ''
+      title: ''

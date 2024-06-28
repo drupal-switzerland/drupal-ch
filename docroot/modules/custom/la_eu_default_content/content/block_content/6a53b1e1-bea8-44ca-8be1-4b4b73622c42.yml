@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 6a53b1e1-bea8-44ca-8be1-4b4b73622c42
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    4654bb80-787d-4681-9ffc-6b6f0d5ac545: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p><strong>Portfolio:</strong> DrupalJam, Marcom, Secretary</p>\r\n\r\n<p>Jean-Paul (<a href=\"https://www.drupal.org/u/jean-paul-vosmeer\">jean-paul-vosmeer</a>) started programming at the age of 6 on a Philips p2000 and later on the Commodore Amiga. While studying higher computer science, he started his company, React online, in 1998. As an online strategist, Jean-Paul helps organizations with their online identity and digital transition. After working with a proprietary CMS for 14 years, he switched to Drupal 7 with React online in 2014. User experience is his priority, both for editors and online visitors.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Jean-Paul Vosmeer'
+  field_media:
+    -
+      entity: 4654bb80-787d-4681-9ffc-6b6f0d5ac545
+  field_media_position:
+    -
+      value: left

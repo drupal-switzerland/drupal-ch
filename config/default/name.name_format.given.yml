@@ -1,0 +1,10 @@
+uuid: 3d30bbbb-096e-42ca-b95e-94fdea051be1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: n-c8ugbO538_-ayOcU2bPxM_RNpeBAYTYPSlk8KVGSA
+id: given
+label: Given
+locked: false
+pattern: g

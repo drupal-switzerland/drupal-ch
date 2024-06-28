@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8ad23089-176b-4bca-90ef-5ec1d380a7e9
+  bundle: event
+  default_langcode: en
+  depends:
+    4437251d-4a19-46b8-80f5-3296dadaaa51: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drupal 10 release party'
+  created:
+    -
+      value: 1701182790
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Drupal 10 release party | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Further details including the ability to sign up will follow here in the near future.'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/events/drupal-10-release-party'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Drupal 10 release party'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Further details including the ability to sign up will follow here in the near future.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/Drupal-10.jpg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Drupal 10 release party'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Further details including the ability to sign up will follow here in the near future.'
+  path:
+    -
+      alias: /events/drupal-10-release-party
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Further details including the ability to sign up will follow here in the near future.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: NL
+      administrative_area: ''
+      locality: Utrecht
+      postal_code: ''
+      address_line1: ''
+  field_date_range:
+    -
+      value: '2022-12-14T18:00:00'
+      end_value: '2022-12-14T21:00:00'
+  field_image:
+    -
+      entity: 4437251d-4a19-46b8-80f5-3296dadaaa51
+  field_intro:
+    -
+      value: 'To celebrate the release of Drupal 10 together, we are organizing a get-together on December 14 at a central location in the Netherlands. We will start at 19:00 and it will last until 22:00 at the latest. Snacks and drinks are included. Please note that there will not be a full meal so make sure to provide that yourself before the drink starts.'
+      format: restricted_html

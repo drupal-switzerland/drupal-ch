@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 4b14a5b9-a85f-486d-a371-2bd56083ca16
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    f61e9ec4-9f9b-4cf9-afa4-7d47a5cce559: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal provides essential tools for content creation and publishing, including a flexible WYSIWYG editor, a flexible roles and permissions system as well as supporting custom workflows. Marketers, editors, website administrators and developers all use Drupal to meet the needs of their organization, where everyone has the right access to use Drupal for what they need it for.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Easy and powerful content creation'
+  field_media:
+    -
+      entity: f61e9ec4-9f9b-4cf9-afa4-7d47a5cce559
+  field_media_position:
+    -
+      value: left

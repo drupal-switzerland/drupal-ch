@@ -1,0 +1,612 @@
+////
+/// Framework - Custom Style Patterns
+/// @group frameworkComponents
+////
+
+@mixin node--full {
+  @include content-width(default);
+  margin-bottom: 110px;
+  @include breakpoint(medium) {
+    margin-bottom: 160px;
+  }
+
+  .link--back {
+    margin-top: 40px;
+    margin-bottom: 28px;
+
+    &:after {
+      transition: left 0.3s ease-in-out;
+    }
+  }
+
+  .node__title {
+    margin-bottom: 24px;
+  }
+
+  h1.heading {
+    @include heading(h1);
+
+    line-height: 1;
+    margin-bottom: 12px;
+    max-width: 625px;
+    overflow-wrap: break-word;
+    hyphens: auto;
+
+    &:first-child {
+      margin-top: 40px;
+    }
+  }
+
+  h4.heading {
+    @include heading(h4);
+  }
+
+  .field-category {
+    @include font-sizes(kicker-large);
+
+    color: $color-gray-500;
+    margin-bottom: 24px;
+  }
+
+  .field--name-field-intro {
+    @include font-sizes(text-large);
+
+    margin-top: 24px;
+    @include breakpoint(large) {
+      margin-bottom: 48px;
+    }
+  }
+
+  .field-banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+    @include breakpoint(medium down) {
+      flex-wrap: wrap;
+    }
+
+    .field-text {
+      width: 100%;
+
+      @include breakpoint(large up) {
+        max-width: 668px;
+        padding-right: 36px;
+        width: 60%;
+      }
+
+      @include breakpoint(medium down) {
+        order: 2;
+      }
+    }
+
+    .media {
+      @include banner-image;
+      @include breakpoint(large) {
+        align-self: flex-start;
+        text-align: right;
+      }
+      @include breakpoint(medium down) {
+        margin-bottom: 12px;
+        order: 1;
+        width: 100%;
+      }
+    }
+  }
+
+  .field-contact {
+    > .field {
+      margin-bottom: 12px;
+      &:last-child {
+        margin-bottom: 20px;
+      }
+    }
+
+    a {
+      color: $color-gray-900;
+      display: inline-block;
+      padding-left: 36px;
+      position: relative;
+      &:before {
+        color: $color-gray-500;
+        position: absolute;
+        left: 0;
+        top: 3px;
+        font-size: rem-calc(24);
+      }
+    }
+
+    .field--name-field-email {
+      a {
+        @include icon-before(mail);
+      }
+    }
+
+    .field--name-field-phone {
+      a {
+        @include icon-before(phone);
+      }
+    }
+
+    .field--name-field-address {
+      a {
+        @include icon-before(location);
+      }
+      .country {
+        display: none;
+      }
+      .address {
+        margin: 0;
+        br {
+          display: none;
+        }
+      }
+    }
+
+    a[href*="facebook"] {
+      @include icon-before(facebook);
+    }
+
+    a[href*="linkedin"] {
+      @include icon-before(linkedin);
+    }
+  }
+
+  > .node__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    > .field-content {
+      width: 100%;
+
+      @include breakpoint(large up) {
+        padding-right: 32px;
+        max-width: calc(100% - 304px);
+        width: $global-width-narrow;
+      }
+    }
+
+    > .field-info {
+      max-width: 100%;
+      width: 304px;
+      font-size: rem-calc(16);
+
+      h4.heading {
+        margin-bottom: 20px;
+      }
+
+      .field--name-field-category {
+        @include font-sizes(kicker-small);
+
+        color: $color-gray-500;
+        margin-bottom: 16px;
+      }
+
+      .field--name-field-links {
+        > .field__item {
+          margin-bottom: 12px;
+        }
+      }
+
+      @include breakpoint(medium down) {
+        margin-top: 32px;
+      }
+    }
+
+    .field-item-info {
+      border-left: 4px solid $color-gray-100;
+      margin-bottom: 48px;
+      padding-left: 24px;
+
+      &.mobile {
+        margin-top: 32px;
+      }
+
+      &.field-awards {
+        .field {
+          display: flex;
+          align-items: center;
+        }
+        .field--type-integer {
+          font-weight: $global-weight-bold;
+          margin: 0 12px;
+        }
+      }
+
+      .field--name-field-logo {
+        margin-bottom: 16px;
+        max-width: 116px;
+        @include breakpoint(medium down) {
+          display: inline-block;
+          background-color: $color-gray-100;
+          padding: 22px 18px;
+        }
+      }
+
+      @include breakpoint(large up) {
+        padding-left: 48px;
+      }
+    }
+  }
+
+  .mobile {
+    @include breakpoint(medium up) {
+      display: none;
+    }
+  }
+
+  .desktop {
+    @include breakpoint(small down) {
+      display: none;
+    }
+  }
+
+  .field-view {
+    margin-top: 32px;
+    @include breakpoint(medium) {
+      margin-top: 63px;
+    }
+    h2 {
+      &.heading {
+        margin-bottom: 40px;
+
+        @include breakpoint(medium up) {
+          margin-bottom: 56px;
+        }
+
+        @include breakpoint(small down) {
+          br {
+            display: none;
+          }
+        }
+      }
+      &.node__title {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+@mixin node--teaser {
+  height: 100%;
+  white-space: normal;
+
+  > a {
+    display: block;
+    min-height: 330px;
+    height: 100%;
+    background-color: $color-white;
+    will-change: transform, box-shadow;
+    transition: transform $global-transition-duration
+    $global-transition-timing-function,
+    box-shadow $global-transition-duration
+    $global-transition-timing-function;
+    box-shadow: 0 4px 24px rgba($color-black, 0.08);
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      transform: translate3d(0, -8px, 0);
+      box-shadow: 0 8px 24px rgba($color-black, 0.08);
+    }
+
+    &:active {
+      transform: translate3d(0, 0, 0);
+      box-shadow: 0 2px 16px rgba($color-black, 0.08);
+    }
+  }
+
+  .node__title {
+    @include heading(h4);
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  .node__intro {
+    padding: 20px 24px;
+    @include breakpoint(medium) {
+      padding: 24px 32px 32px;
+    }
+  }
+
+  .field--name-body {
+    @include font-sizes(text-card);
+    margin-top: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .field--name-field-image {
+    img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+  }
+
+  .field--name-field-category {
+    @include font-sizes(kicker-small);
+    margin-bottom: 12px;
+
+    .taxonomy-term--type-category & {
+      display: none;
+    }
+  }
+}
+
+@mixin banner-image($home-banner: false) {
+  position: relative;
+
+  @if ($home-banner == true) {
+    @include brand-shape-frame(home-banner-frame, z(above)) {
+      @include breakpoint(medium down) {
+        left: -128px;
+        top: -96px;
+        bottom: -8px;
+        width: 620px;
+        height: auto;
+      }
+      @include breakpoint(medium only) {
+        width: 538px;
+      }
+      @include breakpoint(large) {
+        right: -23px;
+        bottom: -21px;
+      }
+    }
+  } @else {
+    @include brand-shape-frame(banner-frame, z(above)) {
+      left: -4px;
+      @include breakpoint(medium down) {
+        top: -86px;
+        bottom: -8px;
+        width: 428px;
+        height: auto;
+      }
+      @include breakpoint(medium only) {
+        width: 538px;
+      }
+      @include breakpoint(large) {
+        left: 0;
+        bottom: 0;
+      }
+    }
+  }
+
+  img {
+    @if ($home-banner == true) {
+      @include brand-shape(home-banner, false);
+      margin: -16px 0 0 -132px;
+    } @else {
+      @include brand-shape(banner, false);
+      margin: -62px -82px 0 0;
+    }
+    max-width: none;
+    object-fit: cover;
+    @include breakpoint(small down) {
+      @if ($home-banner == true) {
+        width: 620px;
+        height: 400px;
+      } @else {
+        width: 436px;
+        height: 322px;
+      }
+    }
+    @include breakpoint(medium only) {
+      @if ($home-banner == true) {
+        width: 640px;
+        height: 500px;
+        min-height: calc(100% + 72px);
+        margin: -72px 0 0;
+      } @else {
+        width: 540px;
+        height: 400px;
+        margin-right: 0;
+      }
+    }
+    @include breakpoint(medium) {
+      @if ($home-banner == true) {
+        float: right;
+      }
+    }
+    @include breakpoint(large) {
+      @if ($home-banner == true) {
+        margin: -144px 0 0 -320px;
+      } @else {
+        margin: -86px -236px 16px 8px;
+      }
+    }
+  }
+}
+
+@mixin cta-list() {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 16px;
+  @include breakpoint(medium) {
+    row-gap: 24px;
+  }
+
+  > .field__item {
+    &:not(:last-child) {
+      margin-right: 24px;
+      @include breakpoint(medium) {
+        margin-right: 48px;
+      }
+    }
+  }
+}
+
+$shapes: (
+  default: (
+    width: auto,
+    height: auto,
+    background: transparent,
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%),
+  ),
+) !default;
+
+@mixin brand-shape($shape-name: default, $shape-el: before, $shape-z: z(under)) {
+  $shape-properties: extend-in-map($shapes, $shape-name);
+
+  @if $shape-el != false {
+    position: relative;
+
+    &::#{$shape-el} {
+      position: absolute;
+      z-index: $shape-z;
+      @if map-has-key($shape-properties, width) {
+        width: key($shape-properties, width);
+      }
+      @if map-has-key($shape-properties, height) {
+        height: key($shape-properties, height);
+      }
+      @if map-has-key($shape-properties, color) {
+        background: key($shape-properties, color) 0 0 no-repeat;
+      }
+      clip-path: key($shape-properties, path);
+      content: '';
+
+      @content;
+    }
+  } @else {
+    @if map-has-key($shape-properties, width) {
+      width: key($shape-properties, width);
+    }
+    @if map-has-key($shape-properties, height) {
+      height: key($shape-properties, height);
+    }
+    clip-path: key($shape-properties, path);
+    @if map-has-key($shape-properties, color) {
+      background: key($shape-properties, color);
+    }
+
+    @content;
+  }
+}
+
+@mixin brand-shape-frame($shape-name: default, $shape-z: z(under)) {
+  $shape-properties: extend-in-map($shapes, $shape-name);
+
+  position: relative;
+
+  .frame {
+    position: absolute;
+    z-index: $shape-z;
+    @if map-has-key($shape-properties, width) {
+      width: key($shape-properties, width);
+    }
+    @if map-has-key($shape-properties, height) {
+      height: key($shape-properties, height);
+    }
+    clip-path: key($shape-properties, path);
+    overflow: hidden;
+
+    @content;
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @if map-has-key($shape-properties, width) {
+        width: calc(#{key($shape-properties, width)} * 1.41);
+      } @else {
+        width: calc(500px * 1.8);
+      }
+      @if map-has-key($shape-properties, width) {
+        height: calc(#{key($shape-properties, width)} * 1.41);
+      } @else {
+        height: calc(500px * 1.8);
+      }
+      @if map-has-key($shape-properties, color) {
+        background: key($shape-properties, color);
+      }
+      @if map-has-key($shape-properties, width) {
+        margin-left: calc((#{key($shape-properties, width)} * 1.41) / -2);
+        margin-top: calc((#{key($shape-properties, width)} * 1.41) / -2);
+      } @else {
+        margin-left: calc((500px * 1.8) / -2);
+        margin-top: calc((500px * 1.8) / -2);
+      }
+      content: '';
+    }
+  }
+}
+
+@mixin block-slider {
+  @include breakpoint(medium) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .field--name-field-heading {
+    margin-bottom: 40px;
+    @include breakpoint(medium) {
+      @include flex-grid-size(6);
+      order: -2;
+      margin-bottom: 56px;
+      flex-shrink: 0;
+    }
+    @include breakpoint(large) {
+      @include flex-grid-size(4);
+    }
+  }
+
+  .field--name-field-link {
+    margin-top: 8px;
+    @include breakpoint(medium) {
+      order: -1;
+      margin-top: 0;
+      margin-bottom: 56px;
+    }
+
+    a {
+      @include btn(primary);
+    }
+  }
+
+  .block-view {
+    @include breakpoint(medium) {
+      width: 100%;
+      flex-shrink: 0;
+    }
+  }
+}
+
+// Animations
+$animations: (
+  default: (
+    '.field-1': 2s linear rotate,
+    '.field-2': 2s linear rotate,
+    '.field-3': 2s linear rotate,
+  ),
+) !default;
+
+@mixin themekit-animations($animations) {
+  @each $block-name, $values in $animations {
+    $block-elements: extend-in-map($animations, $block-name);
+
+    #{$block-name} {
+      // Init animation per each element of the block
+      @each $key, $value in $block-elements {
+        @if type-of($value) == 'map' {
+          $_value: '';
+          @each $single-value in $value {
+            $_value: $_value + $single-value;
+          }
+          $value: $_value;
+        }
+        #{$key} {
+          animation: $value;
+        }
+      }
+    }
+  }
+}

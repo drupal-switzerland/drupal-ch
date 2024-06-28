@@ -1,0 +1,12 @@
+uuid: 63ca4d03-7dae-459f-a953-a73085f7f426
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ux6vxZi7fKcTImyCxT1gHnBwZPe_6hF1P37TwhKvzEo
+id: image_slider
+label: 'Image Slider'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

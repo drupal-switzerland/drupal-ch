@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f74c77a5-d2f9-43ea-a940-02a7ed456f8b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: claudio-schwarz-k39rghmlov8-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/claudio-schwarz-k39rghmlov8-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7966421
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701189099

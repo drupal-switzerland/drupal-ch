@@ -1,0 +1,18 @@
+uuid: 078b249e-a26f-4777-b369-2868d1fa33a4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2XUtvedLyAU9nhdurXClENlkGF4thgOxwXpyQ8j2oWc
+name: 2x_small
+label: '2X Small (320W)'
+effects:
+  4752e398-c88b-4dce-bcac-c5211dc2582c:
+    uuid: 4752e398-c88b-4dce-bcac-c5211dc2582c
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: null
+      upscale: false
+pipeline: default

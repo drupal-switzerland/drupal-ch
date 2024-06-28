@@ -1,0 +1,65 @@
+_core:
+  default_config_hash: MOnrPoOT3xCbFA1mh9Jj9MkSnrgBOFyQbYtc40j9f0U
+page_title: Sitemap
+message:
+  value: ''
+  format: restricted_html
+plugins:
+  frontpage:
+    enabled: true
+    weight: -50
+    settings:
+      title: 'Front page'
+      rss: /rss.xml
+  'menu:main':
+    enabled: true
+    weight: -50
+    settings:
+      title: 'Main navigation'
+      show_disabled: false
+  'menu:account':
+    enabled: false
+    weight: -50
+    settings:
+      title: 'User account menu'
+      show_disabled: false
+  'menu:admin':
+    enabled: false
+    weight: -50
+    settings:
+      title: Administration
+      show_disabled: false
+  'menu:devel':
+    enabled: false
+    weight: -50
+    settings:
+      title: null
+      show_disabled: false
+  'menu:footer':
+    enabled: false
+    weight: -50
+    settings:
+      title: Footer
+      show_disabled: false
+  'menu:tools':
+    enabled: false
+    weight: -50
+    settings:
+      title: Tools
+      show_disabled: false
+  'vocabulary:tags':
+    enabled: false
+    weight: -50
+    settings:
+      title: Tags
+      show_description: true
+      show_count: true
+      term_depth: 9
+      term_count_threshold: 0
+      customize_link: null
+      term_link: entity.taxonomy_term.canonical|taxonomy_term
+      always_link: null
+      enable_rss: true
+      rss_link: view.taxonomy_term.feed_1|arg_0
+      rss_depth: 9
+include_css: false

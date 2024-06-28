@@ -1,0 +1,21 @@
+uuid: 0696c5c7-2e66-4700-b183-fd70f6f36d97
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_slider
+    - field.storage.block_content.field_heading
+_core:
+  default_config_hash: 9peHKQx0obqPFKsaxrsm15JE5KCw6C7iZlc8DOEiD2Q
+id: block_content.news_slider.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: news_slider
+label: Heading
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

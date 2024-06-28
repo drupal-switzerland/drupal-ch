@@ -1,0 +1,145 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 754e266a-5fa4-44d9-abdf-bc05ed4933d8
+  bundle: partner
+  default_langcode: en
+  depends:
+    bd3a94d9-5638-4b63-9c44-b85aa556073b: taxonomy_term
+    bc5e8a96-1265-44c9-8ced-0916bd17f21d: media
+    8962c773-0c1a-4d1e-bdf0-cd796b22ba4a: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Open Social'
+  created:
+    -
+      value: 1701180448
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Open Social | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Open Social places sharing at the heart of everything we do. Because sharing is what makes a group of individuals turn into a community. As people share their goals, their innovations, their knowledge and stories, they become a unified community that can change the world.\_ That is why we say Open Social is #MadeToShare.\_"
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/partners/open-social'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Open Social'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "Open Social places sharing at the heart of everything we do. Because sharing is what makes a group of individuals turn into a community. As people share their goals, their innovations, their knowledge and stories, they become a unified community that can change the world.\_ That is why we say Open Social is #MadeToShare.\_"
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/placeholder.jpg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Open Social'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: "Open Social places sharing at the heart of everything we do. Because sharing is what makes a group of individuals turn into a community. As people share their goals, their innovations, their knowledge and stories, they become a unified community that can change the world.\_ That is why we say Open Social is #MadeToShare.\_"
+  path:
+    -
+      alias: /partners/open-social
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Open Social places sharing at the heart of everything we do. Because sharing is what makes a group of individuals turn into a community. As people share their goals, their innovations, their knowledge and stories, they become a unified community that can change the world.&nbsp;</p>\r\n\r\n<p>That is why we say Open Social is #MadeToShare.&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: NL
+      administrative_area: ''
+      locality: Amsterdam
+      postal_code: '1062 HG'
+      address_line1: 'Kon. Wilhelminaplein 1'
+  field_category:
+    -
+      entity: bd3a94d9-5638-4b63-9c44-b85aa556073b
+  field_email:
+    -
+      value: info@getopensocial.com
+  field_image:
+    -
+      entity: bc5e8a96-1265-44c9-8ced-0916bd17f21d
+  field_intro:
+    -
+      value: "<h2>Open Social is made to share</h2>\r\n\r\n<p>Open Social is a top-tier SaaS company based in Amsterdam and Enschede, The Netherlands. Open Social is specialized in online community and membership management solutions. We have mastered the art of sharing, serving some of the biggest international NGOs as clients, including the UN, Greenpeace and Pachamama Alliance, and having won several international awards.</p>\r\n"
+      format: full_html
+  field_link:
+    -
+      uri: 'https://www.getopensocial.com'
+      title: ''
+      options: {  }
+  field_logo:
+    -
+      entity: 8962c773-0c1a-4d1e-bdf0-cd796b22ba4a
+  field_phone:
+    -
+      value: '+31 53 711 369 1'
+  field_runner_up:
+    -
+      value: 1
+  field_website_of_the_year:
+    -
+      value: 1
+  field_winner:
+    -
+      value: 2

@@ -1,0 +1,33 @@
+uuid: b9d9345d-a548-4bc7-873b-501e868b9558
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.community
+  module:
+    - menu_block
+  theme:
+    - themekit
+_core:
+  default_config_hash: uS1zne77Ttlf3A8MHXh1wRVLOl9olCsq_rMV1Kj-3OQ
+id: community
+theme: themekit
+region: footer_top
+weight: -4
+provider: null
+plugin: 'menu_block:community'
+settings:
+  id: 'menu_block:community'
+  label: Community
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  label_link: false
+  label_type: block
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'community:'
+  suggestion: community
+visibility: {  }

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c9501914-c46d-4ddb-9420-c89c6975f4a8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: swis-wordmark-with-payoff-rgb.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/swis-wordmark-with-payoff-rgb.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 19986
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701203722

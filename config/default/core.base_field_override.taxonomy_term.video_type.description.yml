@@ -1,0 +1,21 @@
+uuid: 82a13dd8-ddd8-4625-8afe-acab80e26edd
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.video_type
+  module:
+    - text
+id: taxonomy_term.video_type.description
+field_name: description
+entity_type: taxonomy_term
+bundle: video_type
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

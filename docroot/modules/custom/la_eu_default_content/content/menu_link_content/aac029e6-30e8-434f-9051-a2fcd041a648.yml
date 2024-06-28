@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: aac029e6-30e8-434f-9051-a2fcd041a648
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Linkedin
+  menu_name:
+    -
+      value: social
+  link:
+    -
+      uri: 'https://www.linkedin.com/groups/2735900'
+      title: ''
+      options:
+        attributes:
+          target: _blank
+          class:
+            - ''
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 10
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu

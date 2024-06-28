@@ -1,0 +1,18 @@
+uuid: 5e0055a0-c01b-4444-baa0-cfac4c2152eb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YDGy2505dWzFR-fWbs2QCFypb0_HzAS-8nU8_CiwYBU
+name: x_large
+label: 'X Large (1920W)'
+effects:
+  c646a3dd-dd24-4c0b-9dbd-eb33417b16e5:
+    uuid: c646a3dd-dd24-4c0b-9dbd-eb33417b16e5
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: null
+      upscale: false
+pipeline: default

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7370474a-a115-48c2-bce8-f210ce00fb2f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupal-10.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/Drupal-10.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 35830
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701182816

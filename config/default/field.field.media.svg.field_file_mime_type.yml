@@ -1,0 +1,21 @@
+uuid: 0e986cfe-ef33-409d-806d-f586a4f13bf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_file_mime_type
+    - media.type.svg
+_core:
+  default_config_hash: 4iLAP6MFd4WvWMzyrDp6mVr0dIXipB_r9w7-puAWmn8
+id: media.svg.field_file_mime_type
+field_name: field_file_mime_type
+entity_type: media
+bundle: svg
+label: 'File MIME Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

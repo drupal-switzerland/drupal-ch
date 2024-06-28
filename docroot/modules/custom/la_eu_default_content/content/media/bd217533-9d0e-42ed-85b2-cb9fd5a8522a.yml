@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bd217533-9d0e-42ed-85b2-cb9fd5a8522a
+  bundle: svg
+  default_langcode: en
+  depends:
+    0c8f3ee5-0420-4549-b759-1aa858d5633e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Nonprofit.svg
+  created:
+    -
+      value: 1701183840
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_file_mime_type:
+    -
+      value: image/svg+xml
+  field_file_size:
+    -
+      value: 2144
+  field_media_svg:
+    -
+      entity: 0c8f3ee5-0420-4549-b759-1aa858d5633e
+      alt: ''
+      title: ''

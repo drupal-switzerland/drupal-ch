@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 5a3f68be-90b7-4beb-86cd-5b3fdc52ae30
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    c4c7ce06-7f22-4e07-90a0-0da6f736f733: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Even for websites with high traffic demands, requiring rich user experiences, Drupal offers options to ensure that your website remains accessible, available and fast. Thanks to a flexible and scalable design, both websites with a daily load (such as Weather.com) and websites with a peak load (for example Grammy.com) continue to perform smoothly.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: Scalable
+  field_media:
+    -
+      entity: c4c7ce06-7f22-4e07-90a0-0da6f736f733
+  field_media_position:
+    -
+      value: left

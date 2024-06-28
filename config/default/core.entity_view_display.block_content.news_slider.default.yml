@@ -1,0 +1,39 @@
+uuid: ee180ffe-3300-4d2c-9700-cbd736e35ea1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_slider
+    - field.field.block_content.news_slider.field_heading
+    - field.field.block_content.news_slider.field_link
+  module:
+    - link
+_core:
+  default_config_hash: zQ9ICbHnniPpZF_rXbodKhNGv2OjK2HoOV2ED243Ou0
+id: block_content.news_slider.default
+targetEntityType: block_content
+bundle: news_slider
+mode: default
+content:
+  field_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

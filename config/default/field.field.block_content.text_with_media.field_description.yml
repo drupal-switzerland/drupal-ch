@@ -1,0 +1,28 @@
+uuid: 3d989e8f-202b-4891-a492-84ce3dec6596
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_media
+    - field.storage.block_content.field_description
+    - filter.format.full_html
+  module:
+    - text
+_core:
+  default_config_hash: j47QRjWYGOIlHRz7WnVQU_6qfGBZOANaJrueLyhZ7Ws
+id: block_content.text_with_media.field_description
+field_name: field_description
+entity_type: block_content
+bundle: text_with_media
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - full_html
+field_type: text_with_summary

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 278fff3a-1d35-40ba-a79a-79c629f2a2fb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: diabetes-signpost.png
+  uri:
+    -
+      value: 'public://image/2023-11/diabetes-signpost.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 40316
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701184985

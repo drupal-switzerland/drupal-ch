@@ -1,0 +1,20 @@
+uuid: c06cd2aa-2503-450a-b42c-155276c0282f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cases_slider
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: hIZkEctkx1BfHET6aeph3s9gfCcHE8HVkYuxVmK3M78
+id: block_content.cases_slider
+target_entity_type_id: block_content
+target_bundle: cases_slider
+default_langcode: site_default
+language_alterable: false

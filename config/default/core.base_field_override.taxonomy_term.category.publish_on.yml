@@ -1,0 +1,18 @@
+uuid: 7931c0cf-93bd-4a07-bf5f-9d1f8b750ce2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.category
+id: taxonomy_term.category.publish_on
+field_name: publish_on
+entity_type: taxonomy_term
+bundle: category
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

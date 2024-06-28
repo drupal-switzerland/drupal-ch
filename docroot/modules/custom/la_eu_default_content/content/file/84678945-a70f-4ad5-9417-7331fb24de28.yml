@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 84678945-a70f-4ad5-9417-7331fb24de28
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: el_blue_rgb.png
+  uri:
+    -
+      value: 'public://image/2023-11/el_blue_rgb.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 23629
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701179361

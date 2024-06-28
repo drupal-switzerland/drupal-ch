@@ -1,0 +1,44 @@
+uuid: c8efbd01-3af3-48c6-b4e2-6d23defe7719
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.entity_browser_image
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: KR7tm5NBuGPuhU9Jsp_EZpL6xjQL4GyOq3uIB0T_LVQ
+name: image_embed
+label: 'Image - Embed'
+display: iframe
+display_configuration:
+  width: '800'
+  height: '600'
+  link_text: 'Select Image'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  4a34aafc-dcea-4bdd-b1e2-c32ef1eff54c:
+    settings:
+      submit_text: 'Select Image'
+      auto_select: false
+      view: entity_browser_image
+      view_display: entity_browser_1
+    uuid: 4a34aafc-dcea-4bdd-b1e2-c32ef1eff54c
+    weight: 1
+    label: 'View Images'
+    id: view
+  d2f18fcc-b678-4a18-8b0c-389dbfa90a78:
+    settings:
+      submit_text: 'Save Image'
+      entity_type: media
+      bundle: image
+      form_mode: media_browser
+    uuid: d2f18fcc-b678-4a18-8b0c-389dbfa90a78
+    weight: 2
+    label: 'Add Image'
+    id: entity_form

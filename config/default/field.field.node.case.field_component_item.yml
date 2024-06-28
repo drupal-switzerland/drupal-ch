@@ -1,0 +1,54 @@
+uuid: 0a5f07c2-53d2-46cd-a300-219e3904285e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_component_item
+    - node.type.case
+    - paragraphs.paragraphs_type.image_slider
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: KVXnbsYe87DEOGcgExLpAUmEwiOplkEYvJK3xZRcasQ
+id: node.case.field_component_item
+field_name: field_component_item
+entity_type: node
+bundle: case
+label: Slider
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      image_slider: image_slider
+    negate: 0
+    target_bundles_drag_drop:
+      detail_item:
+        weight: 10
+        enabled: false
+      details_list:
+        weight: 9
+        enabled: false
+      header_banner_basic:
+        weight: 11
+        enabled: false
+      image_slider:
+        weight: 12
+        enabled: true
+      link_default:
+        weight: 13
+        enabled: false
+      link_file:
+        weight: 14
+        enabled: false
+      logo_with_link:
+        weight: 15
+        enabled: false
+      text:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

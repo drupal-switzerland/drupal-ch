@@ -1,0 +1,24 @@
+uuid: 065faf6b-fda7-41a5-8e67-dceb401195a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bUb7EN92vUqeud4v26tc4rdyutyLGGXx6ipvjmSznQI
+id: node_partner
+label: 'Node - Partner'
+type: 'canonical_entities:node'
+pattern: 'partners/[node:title]'
+selection_criteria:
+  099a5fde-3c9c-4fd7-bffa-18411458a0d4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 099a5fde-3c9c-4fd7-bffa-18411458a0d4
+    context_mapping:
+      node: node
+    bundles:
+      partner: partner
+selection_logic: and
+weight: -5
+relationships: {  }

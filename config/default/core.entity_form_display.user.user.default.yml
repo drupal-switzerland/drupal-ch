@@ -1,0 +1,50 @@
+uuid: 76fbf0a9-0583-4708-a8c9-37d4b326d0d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - path
+    - user
+_core:
+  default_config_hash: 8aHaFImsO_Zs1lMEtx_zugaGvkLv_vuteM3d8j2iw10
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  google_analytics:
+    weight: 3
+    region: content
+  language:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  matomo:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

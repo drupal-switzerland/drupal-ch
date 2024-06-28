@@ -1,0 +1,25 @@
+uuid: 7bffe876-f636-4874-8b46-c0366a659fd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text
+    - field.storage.block_content.field_frame
+_core:
+  default_config_hash: cbQYRgWFhtksxBTeleg1F_xUJk-7Zojkv3dpVdX3ZVE
+id: block_content.text.field_frame
+field_name: field_frame
+entity_type: block_content
+bundle: text
+label: 'Enable Frame'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

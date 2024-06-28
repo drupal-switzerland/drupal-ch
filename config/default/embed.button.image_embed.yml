@@ -1,0 +1,27 @@
+uuid: 7aefef27-2092-45e7-8f59-3612e2e6fb77
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.entity_embed
+    - entity_browser.browser.image_embed
+    - media.type.image
+  module:
+    - entity_embed
+    - media
+_core:
+  default_config_hash: G7q20Cfh9zg_cn4pqQ6YeagubqfaPkG1W1r_nyA9Tbw
+label: 'Image Embed'
+id: image_embed
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+  display_plugins:
+    - 'view_mode:media.entity_embed'
+  entity_browser: image_embed
+  entity_browser_settings:
+    display_review: true
+icon: {  }
+icon_uuid: null

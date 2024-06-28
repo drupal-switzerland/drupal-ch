@@ -1,0 +1,18 @@
+uuid: 1b3e755a-f793-40ae-bf26-f32559ac0fc2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OvjmM-NyXOVuKfUulC0huSzJ1fbOvBQpb35TMI2nmCw
+name: large_hq
+label: 'Large HQ (1366W)'
+effects:
+  22da5ebd-5ac8-4825-a936-30dbb48a7c99:
+    uuid: 22da5ebd-5ac8-4825-a936-30dbb48a7c99
+    id: image_scale
+    weight: 1
+    data:
+      width: 1366
+      height: null
+      upscale: false
+pipeline: default

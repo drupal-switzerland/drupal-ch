@@ -1,0 +1,29 @@
+uuid: 37d057e0-eca4-47c7-9413-c0e3908c7106
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themekit
+_core:
+  default_config_hash: VbZFnjX8EeT_9zQMpvLFk1Gr7TZ7QGt_gqfEgtoviJY
+id: themekit_local_tasks
+theme: themekit
+region: highlighted
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/user/login\r\n/user/register\r\n/user/reset\r\n/user/password"

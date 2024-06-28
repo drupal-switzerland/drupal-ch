@@ -1,0 +1,10 @@
+uuid: f29001a3-d009-4a12-a54b-51fd24b28dfa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ii7m7MskLXvzumtGrsJXeCoiWqaOXjmBbCme9wC14TE
+id: links
+label: Links
+revision: 0
+description: ''

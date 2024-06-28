@@ -1,0 +1,26 @@
+status: true
+id: fourth_column
+label: 'Fourth Column'
+image_style_mappings:
+  -
+    breakpoint_id: themekit.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 2x_small
+  -
+    breakpoint_id: themekit.small
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: small
+  -
+    breakpoint_id: themekit.x_small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: x_small
+  -
+    breakpoint_id: themekit.x_small
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: medium
+breakpoint_group: themekit
+fallback_image_style: x_small

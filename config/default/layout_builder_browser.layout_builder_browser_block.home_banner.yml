@@ -1,0 +1,13 @@
+uuid: 9ca6ee6b-9c10-46d9-897e-e1befb4c1688
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: E9CKxty9jODCC8Bq3l0vd_sNsszOFZhdWr4C9P8iMR4
+id: home_banner
+block_id: 'inline_block:home_banner'
+category: banners
+label: 'Homepage Banner'
+weight: -100
+image_path: ''
+image_alt: ''

@@ -1,0 +1,59 @@
+uuid: 72daa597-a06c-45bf-ae8d-20cd0004bee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_media
+    - field.field.block_content.text_with_media.field_description
+    - field.field.block_content.text_with_media.field_heading
+    - field.field.block_content.text_with_media.field_media
+    - field.field.block_content.text_with_media.field_media_position
+    - field.field.block_content.text_with_media.field_p_link
+    - responsive_image.styles.half_column_hq
+  module:
+    - entity_reference_revisions
+    - media_responsive_thumbnail
+    - text
+_core:
+  default_config_hash: AkWYsaukxYFa_N7nm_ER8asaKFTFlE5y2RdeAo3de40
+id: block_content.text_with_media.default
+targetEntityType: block_content
+bundle: text_with_media
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_media:
+    type: media_responsive_thumbnail
+    label: hidden
+    settings:
+      responsive_image_style: half_column_hq
+      image_link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_p_link:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_media_position: true
+  langcode: true

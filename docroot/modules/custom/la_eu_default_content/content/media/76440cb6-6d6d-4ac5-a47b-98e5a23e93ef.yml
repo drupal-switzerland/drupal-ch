@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 76440cb6-6d6d-4ac5-a47b-98e5a23e93ef
+  bundle: video
+  default_langcode: en
+  depends:
+    fbe91d5d-9a10-4b36-bda0-75a1b53ecf11: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Diabetes filmpje.mp4'
+  created:
+    -
+      value: 1701183164
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_file_mime_type:
+    -
+      value: video/mp4
+  field_media_video_file:
+    -
+      entity: fbe91d5d-9a10-4b36-bda0-75a1b53ecf11
+      display: false
+      description: ''

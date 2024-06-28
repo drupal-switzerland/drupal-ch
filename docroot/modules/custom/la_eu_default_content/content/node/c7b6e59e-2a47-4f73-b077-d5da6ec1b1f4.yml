@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c7b6e59e-2a47-4f73-b077-d5da6ec1b1f4
+  bundle: component_page
+  default_langcode: en
+  depends:
+    5de9b4f8-eff2-4a25-9772-e79e790dd946: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Solutions
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Solutions | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/solutions'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Solutions
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Solutions
+  path:
+    -
+      alias: /solutions
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 571f9f3f-9a26-4f01-a71c-d5cd89efa5b4
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '9'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: 5de9b4f8-eff2-4a25-9772-e79e790dd946
+            weight: 1
+            additional:
+              target_uuid: 5de9b4f8-eff2-4a25-9772-e79e790dd946
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'
+    -
+      section:
+        layout_id: dnl_layout_onecol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 31617a13-0d12-4e18-84f8-61221fc88c77
+            region: first
+            configuration:
+              id: 'views_block:categories-listing'
+              label: Categories
+              label_display: 0
+              provider: views
+              views_label: Categories
+              items_per_page: none
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }

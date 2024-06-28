@@ -1,0 +1,10 @@
+uuid: 99bbd4cf-e54a-4ff8-b74a-cd6293128b30
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fIrSkop6cFVas5TRAGOqVvjkX-K43bp_Tx_tMEPfsF4
+id: flexible
+label: Flexible
+weight: -9
+opened: true

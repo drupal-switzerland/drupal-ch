@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 729daa61-979d-4e64-bdb2-54868f0eec98
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: government.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/government.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 729
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183523

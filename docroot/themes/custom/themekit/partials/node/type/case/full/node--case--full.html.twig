@@ -1,0 +1,68 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+{% block node %}
+  {% set rendered_content = content|without(
+    'field_category',
+    'field_intro',
+    'field_image',
+    'field_logo',
+    'field_components',
+    'field_link',
+    'field_reference',
+    'field_component_item'
+  )
+  %}
+
+  <div class="field-banner">
+    <div class="field-text">
+      <a class="link--back" href="/cases" >{{ 'Cases'|t }}</a>
+      <h1 class="heading">{{ node.label }}</h1>
+      <div class="field-category">
+        {{ node.field_category.entity.label }}
+      </div>
+      {{ content.field_intro }}
+    </div>
+    {% if node.field_image.value %}
+      <div class="media">
+        <span class="frame"></span>
+        {{ content.field_image }}
+      </div>
+    {% endif %}
+  </div>
+
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    <div class="field-content">
+      {{ rendered_content }}
+      <div class="field-item-info mobile">
+        {{ content.field_logo }}
+        <h4 class="heading">{{ node.label }}</h4>
+        {% if node.field_link.uri %}
+          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Show website'|t }}</a>
+        {% endif %}
+      </div>
+      {{ content.field_component_item }}
+    </div>
+    <div class="field-info">
+      <div class="field-item-info desktop">
+        {{ content.field_logo }}
+        <h4 class="heading">{{ node.label }}</h4>
+        {% if node.field_link.uri %}
+          <a class="link--external" target="_blank" href="{{ node.field_link.uri }}"> {{ 'Show website'|t }}</a>
+        {% endif %}
+      </div>
+
+      {% if node.field_components.entity.field_p_items %}
+        <div class="field-item-info">
+          <h4 class="heading">{{ 'Technical details'|t }}</h4>
+          {{ content.field_components }}
+        </div>
+      {% endif %}
+
+      {% if content.field_reference.0 %}
+        <div class="field-item-info">
+          {{ content.field_reference }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

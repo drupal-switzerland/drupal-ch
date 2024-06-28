@@ -1,0 +1,23 @@
+uuid: cc92e0f3-960a-474e-a093-8f207101cd4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatags
+    - node.type.case
+  module:
+    - metatag
+_core:
+  default_config_hash: QEDsvoPzf33DI_O3DFCvAMglRI7AphXOrqZHavRGsow
+id: node.case.field_metatags
+field_name: field_metatags
+entity_type: node
+bundle: case
+label: Metatags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

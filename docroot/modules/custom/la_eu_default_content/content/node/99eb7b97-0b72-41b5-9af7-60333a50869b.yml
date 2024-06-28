@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 99eb7b97-0b72-41b5-9af7-60333a50869b
+  bundle: component_page
+  default_langcode: en
+  depends:
+    b6e0b00c-2f5d-42eb-bf82-fe5a4ad824ee: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '404 Not Found'
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '404 Not Found | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/404-not-found'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: '404 Not Found'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: '404 Not Found'
+  path:
+    -
+      alias: /404-not-found
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 77e7d170-7781-4aa3-8859-884b49b542f5
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '2'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: b6e0b00c-2f5d-42eb-bf82-fe5a4ad824ee
+            weight: 1
+            additional:
+              target_uuid: b6e0b00c-2f5d-42eb-bf82-fe5a4ad824ee
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'

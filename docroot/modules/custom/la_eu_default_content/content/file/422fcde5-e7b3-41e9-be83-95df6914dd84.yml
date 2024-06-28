@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 422fcde5-e7b3-41e9-be83-95df6914dd84
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: selcuk-demirci.png
+  uri:
+    -
+      value: 'public://image/2023-11/selcuk-demirci.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2189441
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701189935

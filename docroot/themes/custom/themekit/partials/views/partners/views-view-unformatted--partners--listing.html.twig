@@ -1,0 +1,44 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+<div class="level-wrapper">
+  {% if title %}
+    <h3>{{ title }}</h3>
+  {% endif %}
+  <div class="level-items">
+    {% for row in rows %}
+      {%
+        set row_classes = [
+        default_row_class ? 'views-row',
+      ]
+      %}
+      <div{{ row.attributes.addClass(row_classes) }}>
+        {{- row.content -}}
+      </div>
+    {% endfor %}
+    {% if title %}
+      {% set level = title|striptags|trim|clean_class %}
+      {% if level == 'zilver' %}
+        <div class="views-row">
+          <a class="become-partner" href="/ons-partnerprogramma">
+            <span>{{ 'Your logo could be here'|t }}</span>
+          </a>
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</div>

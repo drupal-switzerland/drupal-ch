@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: aebe41ff-bbdf-46d3-8eaa-d11adc6454fd
+  bundle: links
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_heading:
+    -
+      value: 'Drupal.nl is sponsored by Platform.sh'
+  field_links:
+    -
+      uri: 'https://platform.sh/?medium=referral&utm_campaign=sponsored_sites&utm_source=drupal_nl'
+      title: 'Drupal Cloud Hosting'
+      options:
+        attributes:
+          target: _blank

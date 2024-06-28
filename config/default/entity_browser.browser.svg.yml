@@ -1,0 +1,44 @@
+uuid: 8b61a3f7-12d4-449c-9d09-19cdc7059a5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.entity_browser_svg
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: eXVd2kEr7eQfuzbNOgq20xeJKLQTSSusbNM3NahldT8
+name: svg
+label: SVG
+display: modal
+display_configuration:
+  width: '800'
+  height: '600'
+  link_text: 'Select SVG'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  50a74b36-73ee-4465-81d5-0a114c737216:
+    settings:
+      submit_text: 'Select SVG'
+      auto_select: false
+      view: entity_browser_svg
+      view_display: entity_browser_1
+    uuid: 50a74b36-73ee-4465-81d5-0a114c737216
+    weight: 1
+    label: 'View SVG'
+    id: view
+  974a702f-7a51-410f-a418-b8f1e2195273:
+    settings:
+      submit_text: 'Save SVG'
+      entity_type: media
+      bundle: svg
+      form_mode: media_browser
+    uuid: 974a702f-7a51-410f-a418-b8f1e2195273
+    weight: 2
+    label: 'Add SVG'
+    id: entity_form

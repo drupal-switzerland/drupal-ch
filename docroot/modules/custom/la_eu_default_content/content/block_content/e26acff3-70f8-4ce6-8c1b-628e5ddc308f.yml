@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: e26acff3-70f8-4ce6-8c1b-628e5ddc308f
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    42800359-4c51-4062-9598-5c2435339bd5: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Over the past decade, Drupal has become increasingly aligned with the needs of marketing departments with business and commercial objectives and measurable Return on Investment (ROI). Where traditional CMS platforms often require organizations to adapt to the software, Drupal offers a flexible basis with which the variety of requirements and wishes can be met without the organization having to adapt.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Business tools without restrictions'
+  field_media:
+    -
+      entity: 42800359-4c51-4062-9598-5c2435339bd5
+  field_media_position:
+    -
+      value: left

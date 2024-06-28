@@ -1,0 +1,10 @@
+uuid: f2799b38-bd20-494a-b4ec-923bed5ff288
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LMbRd-XoIFkOkF8zUZnPw7s9_3Wja3J33AYP_f1GqMQ
+id: node__landing_page
+label: 'Content: Landing Page'
+tags:
+  description: '[node:field_meta_summary]'

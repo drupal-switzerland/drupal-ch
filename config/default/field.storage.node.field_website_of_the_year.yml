@@ -1,0 +1,22 @@
+uuid: 1ac7d840-a677-4c96-9610-3cf4bd99859b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: '-7r2fkxEcyBZ3nJcnYV6f54ZvAQx-6u523PDexaVRKM'
+id: node.field_website_of_the_year
+field_name: field_website_of_the_year
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

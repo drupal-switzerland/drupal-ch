@@ -1,0 +1,42 @@
+/**
+ * Colors
+ */
+
+$color-primary-400: #53b0eb;
+$color-primary-600: #0678be;
+$color-primary-700: #126699;
+
+$color-black: #000;
+$color-white: #fff;
+
+$color-gray-100: #f8f8f8;
+$color-gray-200: #e2e2e2;
+$color-gray-300: #eee;
+$color-gray-500: #929292;
+$color-gray-900: #1b1c1e;
+
+$color-red: #ef3934;
+$color-blue: #009cde;
+$color-purple-400: #9a41b9;
+$color-purple-600: #8017b3;
+$color-green-400: #15be11;
+$color-green-500: #0da40c;
+$color-green-600: #098147;
+
+$body-color: $color-gray-900;
+$input-color: $body-color;
+
+$layout-bg-colors: (
+  white: $white,
+);
+
+// Gradients
+$color-linear-horizontal: linear-gradient(259.21deg, $color-blue 4.15%, $color-purple-400 41.9%, $color-green-400 73.27%, $color-green-600 92.87%);
+$color-linear-horizontal-inverse: linear-gradient(259.21deg, $color-green-600 4.15%, $color-green-400 41.9%, $color-purple-400 73.27%, $color-blue 92.87%);
+$color-linear-vertical: linear-gradient(336.04deg, $color-blue 13.94%, $color-purple-400 44.83%, $color-green-400 70.5%, $color-green-600 86.54%);
+$color-linear-horizontal-green: linear-gradient(259.21deg, $color-green-400 4.15%, $color-green-600 92.87%);
+$color-linear-horizontal-purple: linear-gradient(265.07deg, $color-blue -133.86%, $color-purple-400 96.03%);
+$color-linear-horizontal-blue: linear-gradient(270.3deg, $color-blue -6.06%, $color-purple-400 185.45%);
+$color-linear-vertical-green: linear-gradient(329.09deg, $color-green-400 16.38%, $color-green-600 87.71%);
+$color-linear-vertical-purple: linear-gradient(330.66deg, $color-blue -108.22%, $color-purple-400 87.07%);
+$color-linear-vertical-blue: linear-gradient(328.35deg, $color-blue 14.89%, $color-purple-400 158.67%);

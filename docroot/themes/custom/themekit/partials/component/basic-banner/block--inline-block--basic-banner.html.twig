@@ -1,0 +1,16 @@
+{% extends "@partials/component/block.html.twig" %}
+
+{% set rendered_content = content|without('field_media') %}
+{% set block = content['#block_content'] %}
+
+{% block content %}
+  {% if block.field_media.value %}
+    <div class="media">
+      <span class="frame"></span>
+      {{ content.field_media }}
+    </div>
+  {% endif %}
+  <div class="content">
+    {{ rendered_content }}
+  </div>
+{% endblock %}

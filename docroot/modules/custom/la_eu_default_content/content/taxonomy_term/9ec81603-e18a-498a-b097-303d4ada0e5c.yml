@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9ec81603-e18a-498a-b097-303d4ada0e5c
+  bundle: category
+  default_langcode: en
+  depends:
+    221dc5e6-afd1-4053-88d4-4e4da2b7239f: media
+    cb9ab401-6b2a-4870-8cfb-efb7a6a15604: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Healthcare
+  description:
+    -
+      value: "<p>Knowledge is power</p>\r\n\r\n<p>Customize your healthcare solution with the power of Drupal.</p>\r\n\r\n<p><strong>Extendability</strong> - Turn data into knowledge. Integrate platforms and add new functionality with third-party technology and by building new features.</p>\r\n\r\n<p><strong>Security</strong> - Protect patient data with a platform built on security best practices.</p>\r\n\r\n<p><strong>Workflows</strong> - Customize the user experience to increase patient engagement and improve caregiver satisfaction.</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Healthcare | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Knowledge is power Customize your healthcare solution with the power of Drupal. Extendability - Turn data into knowledge. Integrate platforms and add new functionality with third-party technology and by building new features. Security - Protect patient data with a platform built on security best practices. Workflows - Customize the user experience to increase patient engagement and improve caregiver satisfaction.'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: /applications/healthcare
+      langcode: en
+      pathauto: 1
+  field_description:
+    -
+      value: 'A healthy and fit digital environment for healthy and fit patients'
+      format: plain_text
+  field_heading:
+    -
+      value: Healthcare
+  field_image:
+    -
+      entity: 221dc5e6-afd1-4053-88d4-4e4da2b7239f
+  field_media:
+    -
+      entity: cb9ab401-6b2a-4870-8cfb-efb7a6a15604

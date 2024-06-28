@@ -1,0 +1,13 @@
+uuid: 7bfa3876-9164-4970-a4f1-bd5ae28194e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: 1SlBRTscvyWy2wYdAHpNSnK6ALJseebQ_bIEtEpWb8I
+id: taxonomy_term.teaser
+label: Teaser
+description: ''
+targetEntityType: taxonomy_term
+cache: true

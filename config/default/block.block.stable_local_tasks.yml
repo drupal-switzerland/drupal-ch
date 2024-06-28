@@ -1,0 +1,29 @@
+uuid: 99ee0d85-aa7b-4433-a1a6-74404ffd8a5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: Ypkd_l_yN6LyX0-dvOtE9viLZ7MFvOzNshift3pkDjg
+id: stable_local_tasks
+theme: stable
+region: highlighted
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/user/login\r\n/user/register\r\n/user/reset\r\n/user/password"

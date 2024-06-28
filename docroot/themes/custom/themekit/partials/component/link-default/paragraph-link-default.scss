@@ -1,0 +1,13 @@
+////
+/// Link Default paragraph
+////
+
+.paragraph--type--link-default {
+  &.button-style--primary a {
+    @include btn(primary);
+  }
+
+  &.button-style--secondary a {
+    @include link(more);
+  }
+}

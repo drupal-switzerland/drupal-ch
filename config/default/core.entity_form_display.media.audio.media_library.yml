@@ -1,0 +1,34 @@
+uuid: a2506877-a7e5-4c01-a2d6-27fa59753d95
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.audio.field_audio_type
+    - field.field.media.audio.field_file_mime_type
+    - field.field.media.audio.field_media_audio_file
+    - field.field.media.audio.field_tags
+    - media.type.audio
+_core:
+  default_config_hash: 9NqVJhWsuVRWpGifSRVXNXEvjoVkw1ECoSUIdviGt0A
+id: media.audio.media_library
+targetEntityType: media
+bundle: audio
+mode: media_library
+content: {  }
+hidden:
+  created: true
+  field_audio_type: true
+  field_file_mime_type: true
+  field_media_audio_file: true
+  field_tags: true
+  langcode: true
+  name: true
+  path: true
+  publish_on: true
+  publish_state: true
+  scheduler_settings: true
+  status: true
+  uid: true
+  unpublish_on: true
+  unpublish_state: true

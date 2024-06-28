@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 659cd49e-e58d-41d1-be4a-d92373c8ea57
+  bundle: image
+  default_langcode: en
+  depends:
+    1dc0953c-36aa-458d-8d51-291864a6ff91: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: diabetes.nl-architectuur-16-10.png
+  created:
+    -
+      value: 1701185082
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 1dc0953c-36aa-458d-8d51-291864a6ff91
+      alt: 'Diabetes architecture'
+      title: ''
+      width: 1152
+      height: 720

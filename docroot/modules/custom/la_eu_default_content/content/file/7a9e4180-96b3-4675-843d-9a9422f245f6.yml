@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7a9e4180-96b3-4675-843d-9a9422f245f6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupaljam-group-foto.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/drupaljam-group-foto_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 412439
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701191398

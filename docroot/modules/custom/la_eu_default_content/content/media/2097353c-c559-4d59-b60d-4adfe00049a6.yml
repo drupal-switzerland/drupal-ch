@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2097353c-c559-4d59-b60d-4adfe00049a6
+  bundle: image
+  default_langcode: en
+  depends:
+    15416315-74d3-4d49-bb20-0d71a8eb6404: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: drupal-tech-talk-600_509946213.jpeg
+  created:
+    -
+      value: 1701181648
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 15416315-74d3-4d49-bb20-0d71a8eb6404
+      alt: 'Drupal Tech Talk Logo'
+      title: ''
+      width: 600
+      height: 338

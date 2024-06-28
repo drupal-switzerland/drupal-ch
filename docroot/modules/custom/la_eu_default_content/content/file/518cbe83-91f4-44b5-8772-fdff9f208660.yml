@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 518cbe83-91f4-44b5-8772-fdff9f208660
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: business-partner.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/business-partner.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 315168
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701188787

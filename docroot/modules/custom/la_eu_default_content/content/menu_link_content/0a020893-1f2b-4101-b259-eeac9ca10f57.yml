@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 0a020893-1f2b-4101-b259-eeac9ca10f57
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    388450f9-03a2-4525-94ce-bd3c79a8ad7b: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Community
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 388450f9-03a2-4525-94ce-bd3c79a8ad7b
+      title: ''
+      options:
+        attributes:
+          class:
+            - ''
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -44
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu

@@ -1,0 +1,38 @@
+uuid: 0dcbc252-b72a-43c1-9178-3a9c80663e04
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large_hq
+    - image.style.medium
+    - image.style.small
+    - image.style.x_small
+  theme:
+    - themekit
+_core:
+  default_config_hash: uG-JqbLK9obug-mBil0aqfFcnaIVY4AqtIa7zl5dWQE
+id: third_column
+label: 'Third Column'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: x_small
+    breakpoint_id: themekit.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium
+    breakpoint_id: themekit.small
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: small
+    breakpoint_id: themekit.x_small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: large_hq
+    breakpoint_id: themekit.x_small
+    multiplier: 2x
+breakpoint_group: themekit
+fallback_image_style: small

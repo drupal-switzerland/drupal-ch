@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: be443161-5819-4b6f-a7bf-a4a4fc3a093e
+  bundle: text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<h3>Platinum (all 3 slots occupied)</h3>\r\n\r\n<ul>\r\n\t<li>Platinum listing on website</li>\r\n\t<li>Platinum SDN Badge on own website</li>\r\n\t<li>Own page with cases on Drupal.nl</li>\r\n\t<li>Mention on all social channels of SDN</li>\r\n\t<li><strong>€ 5000 per year excl. VAT</strong></li>\r\n</ul>\r\n\r\n<h3>Gold</h3>\r\n\r\n<p>For agencies that stand out with Drupal.</p>\r\n\r\n<ul>\r\n\t<li>Gold SDN Sponsor Badge on own website.</li>\r\n\t<li>Logo on Drupal.nl in the gold category</li>\r\n\t<li>Own page on Drupal.nl</li>\r\n\t<li>Tweet from SDN</li>\r\n\t<li><strong>€ 1500 per year excl. VAT</strong></li>\r\n</ul>\r\n\r\n<h3>Silver</h3>\r\n\r\n<p>For smaller organizations and freelancers.</p>\r\n\r\n<ul>\r\n\t<li>Silver SDN Sponsor Badge on own website</li>\r\n\t<li>Listing on Drupal.nl in the silver category</li>\r\n\t<li>Tweet from SDN</li>\r\n\t<li><strong>€ 600 per year excl. VAT</strong></li>\r\n</ul>\r\n\r\n<h3>Individual</h3>\r\n\r\n<p>For all those who personally care about Drupal.</p>\r\n\r\n<ul>\r\n\t<li>Individual SDN Sponsor Badge on own website</li>\r\n\t<li>Name listing on Drupal.nl in the category individual</li>\r\n\t<li><strong>€ 30 per year excl. VAT</strong></li>\r\n</ul>\r\n"
+      format: full_html
+      summary: ''
+  field_frame:
+    -
+      value: false
+  field_heading:
+    -
+      value: 'Levels of partnerships'

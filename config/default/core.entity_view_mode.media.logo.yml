@@ -1,0 +1,13 @@
+uuid: dcd6bed3-d92c-4dd4-a9ff-ce524b0e1cd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: WK8SfEleaeJLMbhK6DVYQx22Kw5fWSgHKDV8oDlQL2s
+id: media.logo
+label: Logo
+description: ''
+targetEntityType: media
+cache: true

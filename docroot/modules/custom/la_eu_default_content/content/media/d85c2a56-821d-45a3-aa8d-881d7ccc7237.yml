@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d85c2a56-821d-45a3-aa8d-881d7ccc7237
+  bundle: image
+  default_langcode: en
+  depends:
+    f74c77a5-d2f9-43ea-a940-02a7ed456f8b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: claudio-schwarz-k39RGHmLoV8-unsplash.jpg
+  created:
+    -
+      value: 1701189099
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: f74c77a5-d2f9-43ea-a940-02a7ed456f8b
+      alt: 'Two hands reaching at each other'
+      title: ''
+      width: 7952
+      height: 5304

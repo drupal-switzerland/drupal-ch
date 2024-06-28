@@ -1,0 +1,10 @@
+uuid: 40768b5a-26f0-482a-957a-8d1fc7e6e75c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0mPfD4WN-8d1hPZVJ9Ouyo845IIogLiaIcFmrenWfhw
+name: 'SVG Type'
+vid: svg_type
+description: 'Internal categorization used for SVG organization in the Media Library and Entity Browsers'
+weight: 0

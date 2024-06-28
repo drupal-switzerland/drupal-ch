@@ -1,0 +1,13 @@
+uuid: 057e3b0f-852d-4a9b-b636-d211039b4951
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yllCcn_y80gDjGXeYMdyE-ANjqOCITH5EtsOfj1KSes
+id: categories
+block_id: 'inline_block:categories'
+category: structured
+label: Categories
+weight: -4
+image_path: ''
+image_alt: ''

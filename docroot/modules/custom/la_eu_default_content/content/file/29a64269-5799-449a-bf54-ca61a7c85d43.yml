@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 29a64269-5799-449a-bf54-ca61a7c85d43
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sandy-millar-4MoIqT9BEOQ-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/sandy-millar-4MoIqT9BEOQ-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1225743
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701186376

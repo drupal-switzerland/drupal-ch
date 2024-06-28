@@ -1,0 +1,10 @@
+uuid: 1bc22f79-596e-415c-b107-7e7f12542c15
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eS1YbSmrvWMkbpZKLXt1-_VXK7_iqvJUJjJfl3lGLp8
+id: formal
+label: Formal
+locked: false
+pattern: t+if

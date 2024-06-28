@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 31b77ca4-fbf1-4933-aa79-ff8d229e5fb2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: governments.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/governments.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 320067
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183478

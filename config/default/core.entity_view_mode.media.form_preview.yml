@@ -1,0 +1,13 @@
+uuid: 64d64a6f-c745-47a2-8709-cf5699b42b52
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: vyy-HFY46tRQ7wxpDwnrVdSyIZ8huH7H_RlYKho9Sy0
+id: media.form_preview
+label: 'Form Preview'
+description: ''
+targetEntityType: media
+cache: true

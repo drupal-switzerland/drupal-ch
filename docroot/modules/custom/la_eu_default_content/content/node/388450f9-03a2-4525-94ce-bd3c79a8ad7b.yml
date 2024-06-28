@@ -1,0 +1,206 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 388450f9-03a2-4525-94ce-bd3c79a8ad7b
+  bundle: component_page
+  default_langcode: en
+  depends:
+    7d2b415f-70d7-4bd5-a68b-c05995d55272: block_content
+    bdd941d1-de74-470e-ae21-e3f1a5dea65f: block_content
+    9f3e35b2-516d-401c-b392-731cca365ba4: block_content
+    9d1efea6-7305-4ef7-af8f-a6480dee560a: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Community
+  created:
+    -
+      value: 1701186057
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Community | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/community'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Community
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Community
+  path:
+    -
+      alias: /community
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 5e5f5077-1ff3-4c8f-8e85-f59bb8f72ebc
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '12'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic_banner
+              uuid: 7d2b415f-70d7-4bd5-a68b-c05995d55272
+            weight: 1
+            additional:
+              target_uuid: 7d2b415f-70d7-4bd5-a68b-c05995d55272
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'
+    -
+      section:
+        layout_id: dnl_layout_twocol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 837afff4-26fd-463f-8e91-b54c97aaac76
+            region: first
+            configuration:
+              id: 'inline_block:text'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '13'
+              block_serialized: null
+              context_mapping: {  }
+              type: text
+              uuid: bdd941d1-de74-470e-ae21-e3f1a5dea65f
+            weight: 0
+            additional:
+              target_uuid: bdd941d1-de74-470e-ae21-e3f1a5dea65f
+          -
+            uuid: 1c7be3ab-2d01-43a9-9532-3e448fd41c22
+            region: second
+            configuration:
+              id: 'inline_block:community_features'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '14'
+              block_serialized: null
+              context_mapping: {  }
+              type: community_features
+              uuid: 9f3e35b2-516d-401c-b392-731cca365ba4
+            weight: 0
+            additional:
+              target_uuid: 9f3e35b2-516d-401c-b392-731cca365ba4
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: dnl_layout_onecol_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 0b07e82e-1ca6-468a-a40c-fc926d8790f0
+            region: first
+            configuration:
+              id: 'inline_block:text_with_media'
+              label: 'Inline block'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '15'
+              block_serialized: null
+              context_mapping: {  }
+              type: text_with_media
+              uuid: 9d1efea6-7305-4ef7-af8f-a6480dee560a
+            weight: 0
+            additional:
+              target_uuid: 9d1efea6-7305-4ef7-af8f-a6480dee560a
+          -
+            uuid: 4fd2a149-f589-4b3c-8b9b-1c7440379bfc
+            region: first
+            configuration:
+              id: 'views_block:events-events'
+              label: 'Upcoming events'
+              label_display: visible
+              provider: views
+              views_label: 'Upcoming events'
+              items_per_page: '5'
+              context_mapping: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }

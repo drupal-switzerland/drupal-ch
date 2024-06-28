@@ -1,0 +1,27 @@
+uuid: ba8b0333-6e33-4c54-86c7-6678cc8d17fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.entity_embed
+    - entity_browser.browser.remote_video_embed
+    - media.type.remote_video
+  module:
+    - entity_embed
+    - media
+_core:
+  default_config_hash: X4cqSobvrmKFm5fG734wDuQIxpSPgR-ZY96dcKAEj0c
+label: 'Remote Video - Embed'
+id: remote_video_embed
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - remote_video
+  display_plugins:
+    - 'view_mode:media.entity_embed'
+  entity_browser: remote_video_embed
+  entity_browser_settings:
+    display_review: true
+icon: {  }
+icon_uuid: null

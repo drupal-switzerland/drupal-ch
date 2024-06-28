@@ -1,0 +1,36 @@
+uuid: 57689a5e-6924-476f-89d9-9fef23eeaf39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_svg
+    - media.type.svg
+  module:
+    - svg_image_field
+_core:
+  default_config_hash: FH-G1PWdOVD1onbJYqj8Yzlo8QCJ1NQENX8ueJW55Lg
+id: media.svg.field_media_svg
+field_name: field_media_svg
+entity_type: media
+bundle: svg
+label: SVG
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'svg/[date:custom:Y]-[date:custom:m]'
+  file_extensions: svg
+  max_filesize: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+field_type: svg_image_field

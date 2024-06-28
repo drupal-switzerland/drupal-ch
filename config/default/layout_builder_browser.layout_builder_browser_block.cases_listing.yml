@@ -1,0 +1,13 @@
+uuid: df5b90f7-b53b-4456-8815-59a4f78c241f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Jp1_LAs434Uac0NIDqxEzW31wRdVjN0fn2oqv_91BPA
+id: cases_listing
+block_id: 'views_block:cases-listing'
+category: overview
+label: 'Cases Listing'
+weight: -6
+image_path: ''
+image_alt: ''

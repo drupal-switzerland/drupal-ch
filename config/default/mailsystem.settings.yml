@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: LHInZyfUUIvQONLpv3Or4Due6tbHQ2gs6ktyGVo21Sg
+theme: themekit
+defaults:
+  sender: symfony_mailer
+  formatter: symfony_mailer
+modules: null

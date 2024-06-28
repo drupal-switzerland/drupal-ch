@@ -1,0 +1,12 @@
+////
+/// Global Labels
+////
+
+$_labels-keys: map-keys($labels);
+
+@each $label-key in $_labels-keys {
+  .label--#{$label-key} {
+    @include label($label-key);
+  }
+}
+

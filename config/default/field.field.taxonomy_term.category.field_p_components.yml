@@ -1,0 +1,54 @@
+uuid: 10837342-1bcf-400b-96fe-5d691eaba609
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_p_components
+    - paragraphs.paragraphs_type.category_feature
+    - taxonomy.vocabulary.category
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: WTVXQVdp-lDJ34T4quht1w_srz61Sre48TX8MYA07ao
+id: taxonomy_term.category.field_p_components
+field_name: field_p_components
+entity_type: taxonomy_term
+bundle: category
+label: 'Category Feature'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      category_feature: category_feature
+    negate: 0
+    target_bundles_drag_drop:
+      category_feature:
+        weight: 9
+        enabled: true
+      detail_item:
+        weight: 11
+        enabled: false
+      details_list:
+        weight: 10
+        enabled: false
+      header_banner_basic:
+        weight: 12
+        enabled: false
+      image_slider:
+        weight: 13
+        enabled: false
+      link_default:
+        weight: 14
+        enabled: false
+      link_file:
+        weight: 15
+        enabled: false
+      social_media:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

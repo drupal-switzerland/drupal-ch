@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 176b9d22-ab43-4149-8c0b-c8052d49eedf
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: markus-winkler-3Rn2EjoAC1g-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/markus-winkler-3Rn2EjoAC1g-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 809770
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701199109

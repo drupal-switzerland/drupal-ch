@@ -1,0 +1,113 @@
+uuid: 81614c5d-f661-4951-afe0-98e622cad254
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_banner
+    - core.entity_view_mode.node.full
+    - field.field.node.component_page.field_metatags
+    - field.field.node.component_page.layout_builder__layout
+    - node.type.component_page
+  module:
+    - dnl_layouts
+    - layout_builder
+    - layout_builder_restrictions
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: dnl_layout_banner_section
+        layout_settings:
+          label: ''
+          padding: default
+          size: default
+          valign: top
+          context_mapping: {  }
+        components:
+          -
+            uuid: 9bd52231-d3fa-43b0-9674-469bd6a906f2
+            region: first
+            configuration:
+              id: 'inline_block:basic_banner'
+              label: 'Inline block'
+              label_display: ''
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: 19
+              block_serialized: null
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              5: 5
+              6: 6
+              8: 8
+          layout_builder_limit:
+            limit:
+              section_minimum_enabled: 0
+              section_minimum: '1'
+              section_maximum_enabled: 1
+              section_maximum: '1'
+  layout_builder_restrictions:
+    allowed_block_categories: {  }
+    entity_view_mode_restriction:
+      allowed_layouts:
+        - dnl_layout_onecol_section
+        - dnl_layout_twocol_section
+      denylisted_blocks: {  }
+      allowlisted_blocks: {  }
+      restricted_categories: {  }
+    entity_view_mode_restriction_by_region:
+      allowed_layouts:
+        - dnl_layout_onecol_section
+        - dnl_layout_twocol_section
+      allowlisted_blocks:
+        dnl_layout_banner_section:
+          all_regions:
+            'Inline blocks':
+              - 'inline_block:basic_banner'
+              - 'inline_block:home_banner'
+              - 'inline_block:simple_banner'
+        dnl_layout_twocol_section:
+          all_regions:
+            'Inline blocks':
+              - 'inline_block:community_features'
+              - 'inline_block:text'
+            'Lists (Views)': {  }
+      denylisted_blocks:
+        dnl_layout_onecol_section:
+          all_regions:
+            'Inline blocks':
+              - 'inline_block:basic_banner'
+              - 'inline_block:community_features'
+              - 'inline_block:home_banner'
+              - 'inline_block:simple_banner'
+        dnl_layout_twocol_section:
+          all_regions:
+            'Inline blocks':
+              - 'inline_block:basic_banner'
+              - 'inline_block:home_banner'
+              - 'inline_block:simple_banner'
+      restricted_categories:
+        dnl_layout_banner_section:
+          all_regions:
+            - 'Custom block types'
+            - 'Lists (Views)'
+_core:
+  default_config_hash: AKB8jdXccEK6U_p8rNRcge8jMh0WPqrJvebiOV2WG94
+id: node.component_page.full
+targetEntityType: node
+bundle: component_page
+mode: full
+content: {  }
+hidden:
+  content_moderation_control: true
+  field_metatags: true
+  langcode: true
+  layout_builder__layout: true
+  links: true

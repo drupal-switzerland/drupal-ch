@@ -1,0 +1,23 @@
+uuid: fd4562a2-341b-4720-b5a8-d1ba0af695da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatags
+    - node.type.partner
+  module:
+    - metatag
+_core:
+  default_config_hash: s8vqzsE7G7RDWdBfPbUM75herXjbi5fhn59J7xKgzSQ
+id: node.partner.field_metatags
+field_name: field_metatags
+entity_type: node
+bundle: partner
+label: Metatags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

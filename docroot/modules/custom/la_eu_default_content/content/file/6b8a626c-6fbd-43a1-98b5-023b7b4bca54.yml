@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6b8a626c-6fbd-43a1-98b5-023b7b4bca54
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: x-logo.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/x-logo_0.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 830
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701204612

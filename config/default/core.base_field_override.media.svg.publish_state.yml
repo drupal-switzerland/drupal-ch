@@ -1,0 +1,20 @@
+uuid: 7e1ee874-ae54-4789-8f3c-7df46633efc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+  module:
+    - options
+id: media.svg.publish_state
+field_name: publish_state
+entity_type: media
+bundle: svg
+label: 'Publish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

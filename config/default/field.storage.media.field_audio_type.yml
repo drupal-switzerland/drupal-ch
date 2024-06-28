@@ -1,0 +1,22 @@
+uuid: b6e5a26c-3f77-47dc-95b5-ae6447e1754f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - taxonomy
+_core:
+  default_config_hash: SdYUBSAMYG_h2V9bO_1UtPOZi6n0UZTmFSYWQAxzyEg
+id: media.field_audio_type
+field_name: field_audio_type
+entity_type: media
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: eedff6c2-2ef5-422a-a75b-661b71879bd9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - views_bulk_edit
+_core:
+  default_config_hash: 4F4NTtdzOt2Ccgb-B3QG6rZvr6lXhOcTMh3KdkbcjoY
+id: node_edit_action
+label: 'Edit content'
+type: node
+plugin: 'entity:edit_action:node'
+configuration: {  }

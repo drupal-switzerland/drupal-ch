@@ -1,0 +1,10 @@
+uuid: cd2897b0-790e-43a0-a3b9-0d0ade7ba8e7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RO0z60DiaRd0MQ_xjG4PrOS1rs3V53V15pXxKLl_g2M
+name: 'Audio Type'
+vid: audio_type
+description: 'Internal categorization used for audio organization in the Media Library and Entity Browsers'
+weight: 0

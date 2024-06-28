@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0a9ef2fc-874d-4bdf-8b1b-cd5a4ba60857
+  bundle: image
+  default_langcode: en
+  depends:
+    7f186197-f283-4137-8ae6-4501176ad502: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: DrupalConBaltimore-GroupPhoto.jpg
+  created:
+    -
+      value: 1701200472
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 7f186197-f283-4137-8ae6-4501176ad502
+      alt: 'DrupalCon Baltimore group photo'
+      title: ''
+      width: 1204
+      height: 612

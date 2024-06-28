@@ -1,0 +1,7 @@
+{% extends "@partials/node/node-wrapper.html.twig" %}
+{% block node %}
+  {% set rendered_content = content|without('') %}
+  <a href="{{ url }}" {{ content_attributes.addClass('node__content') }}>
+    {{ rendered_content }}
+  </a>
+{% endblock %}

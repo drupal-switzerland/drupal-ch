@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e739e493-9d2a-4220-84a5-c6b973c59f9a
+  bundle: sponsorship_level
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Gold
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Gold | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

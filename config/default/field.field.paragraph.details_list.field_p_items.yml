@@ -1,0 +1,54 @@
+uuid: 25f5c682-699e-43ab-9c11-f264436fd18e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_items
+    - paragraphs.paragraphs_type.detail_item
+    - paragraphs.paragraphs_type.details_list
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: leGccLLN4lDSanohsuRNtGDFxnhPJdcv3zPwtLgrF7I
+id: paragraph.details_list.field_p_items
+field_name: field_p_items
+entity_type: paragraph
+bundle: details_list
+label: Items
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      detail_item: detail_item
+    negate: 0
+    target_bundles_drag_drop:
+      detail_item:
+        weight: 10
+        enabled: true
+      details_list:
+        weight: 9
+        enabled: false
+      header_banner_basic:
+        weight: 11
+        enabled: false
+      image_slider:
+        weight: 12
+        enabled: false
+      link_default:
+        weight: 13
+        enabled: false
+      link_file:
+        weight: 14
+        enabled: false
+      logo_with_link:
+        weight: 15
+        enabled: false
+      text:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

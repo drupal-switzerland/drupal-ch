@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 246a9792-b578-4c63-86d2-62bc6b28a07f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: media-monks-creative-app.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/media-monks-creative-app.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 314333
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701203762

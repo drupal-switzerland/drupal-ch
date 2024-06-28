@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1c460c66-f690-4d3c-b2b7-acc1c71e4f4f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: flexible.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/flexible.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 3629
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183919

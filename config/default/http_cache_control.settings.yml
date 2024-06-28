@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: I2X--UF330-2OpMtu5qyi36zpl12tzNeXTMOMabknuY
+cache:
+  http:
+    s_maxage: 3600
+    404_max_age: 86400
+    302_max_age: 300
+    301_max_age: 86400
+    5xx_max_age: 0
+    stale_while_revalidate: 0
+    stale_if_error: 0
+    vary: ''
+  surrogate:
+    maxage: 0
+    nostore: null

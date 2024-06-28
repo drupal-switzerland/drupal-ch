@@ -1,0 +1,22 @@
+uuid: d6eee876-c351-4e93-bac6-cc1705e305bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: FsvKW9ilP3VmWOSlrB0sDXhCB41zghQ8Yn_wPRy0Dn0
+id: stable_content
+theme: stable
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

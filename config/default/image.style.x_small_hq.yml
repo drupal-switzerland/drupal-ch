@@ -1,0 +1,18 @@
+uuid: 91aff0d2-1ba7-4fcf-8fb9-14ed28d01747
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1q63kSiipSsCde4NibrtJo_JFzqtEIF9AwYftruw9bI
+name: x_small_hq
+label: 'X Small HQ (480W)'
+effects:
+  78e69e76-d933-4f5b-94fb-905a9f285a8b:
+    uuid: 78e69e76-d933-4f5b-94fb-905a9f285a8b
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: null
+      upscale: false
+pipeline: default

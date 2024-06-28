@@ -1,0 +1,10 @@
+{% extends "@partials/taxonomy/taxonomy-term.html.twig" %}
+{% block term %}
+  {{ content.field_image }}
+  <div class="term-content">
+    <h5>
+      <a href="{{ url }}">{{ term.label }}</a>
+    </h5>
+    {{ content|without('field_image') }}
+  </div>
+{% endblock %}

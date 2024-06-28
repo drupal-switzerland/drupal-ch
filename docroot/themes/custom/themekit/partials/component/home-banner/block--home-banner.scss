@@ -1,0 +1,58 @@
+////
+/// Homepage Banner block
+////
+
+.block--home-banner {
+  @include content-width(default);
+  @include breakpoint(medium) {
+    display: flex;
+    align-items: center;
+  }
+
+  .content {
+    @include breakpoint(medium) {
+      @include flex-grid-size(6);
+      padding-top: 104px;
+      padding-left: 32px;
+    }
+    @include breakpoint(large) {
+      @include flex-grid-size(5);
+      @include top-bottom(padding, 104px);
+      padding-left: 48px;
+    }
+    @include breakpoint(xlarge) {
+      @include grid-column-offset(1);
+    }
+  }
+
+  .media {
+    @include banner-image($home-banner: true);
+    @include breakpoint(small down) {
+      margin-bottom: 40px;
+    }
+    @include breakpoint(medium) {
+      @include flex-grid-size(5);
+      margin-bottom: 21px;
+      align-self: stretch;
+    }
+    @include breakpoint(large) {
+      @include flex-grid-size(6);
+    }
+  }
+
+  .field--name-field-heading {
+    margin-bottom: 24px;
+  }
+
+  .field--name-field-description {
+    @include font-sizes(text-large);
+
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .field--name-field-p-link {
+    @include cta-list;
+  }
+}

@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6a7aa8df-dd08-4543-8f69-afded679f8c1
+  bundle: event
+  default_langcode: en
+  depends:
+    91567b58-3bc3-4292-a4cd-d41bdf7853e0: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'DrupalJam 2023'
+  created:
+    -
+      value: 1701182368
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'DrupalJam 2023 | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "You can also start thinking about the talks you would like to give at this annual and ever-growing event.\_ Would you like to put your agency in the spotlight? The lines are open for sponsors as well. Take a look back at DrupalJam 2022."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/events/drupaljam-2023'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'DrupalJam 2023'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "You can also start thinking about the talks you would like to give at this annual and ever-growing event.\_ Would you like to put your agency in the spotlight? The lines are open for sponsors as well. Take a look back at DrupalJam 2022."
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/drupaljam-group-foto.jpg'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'DrupalJam 2023'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: "You can also start thinking about the talks you would like to give at this annual and ever-growing event.\_ Would you like to put your agency in the spotlight? The lines are open for sponsors as well. Take a look back at DrupalJam 2022."
+  path:
+    -
+      alias: /events/drupaljam-2023
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>You can also start thinking about the talks you would like to give at this annual and ever-growing event.&nbsp;</p>\r\n\r\n<p>Would you like to put your agency in the spotlight? The lines are open for sponsors as well.</p>\r\n\r\n<p><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"9010b40d-7528-4c0e-9959-cb91a5c9120b\" href=\"/node/137\">Take a look back at DrupalJam 2022.</a></p>\r\n"
+      format: full_html
+      summary: ''
+  field_address:
+    -
+      langcode: en
+      country_code: NL
+      administrative_area: ''
+      locality: Utrecht
+      postal_code: ''
+      address_line1: ''
+  field_date_range:
+    -
+      value: '2023-06-01T07:00:00'
+      end_value: '2023-06-01T16:00:00'
+  field_image:
+    -
+      entity: 91567b58-3bc3-4292-a4cd-d41bdf7853e0
+  field_intro:
+    -
+      value: 'We are still busy preparing the 2023 edition of DrupalJam but the date to mark in your calendar is June 1, 2023. The location will again be central in the country and the layout of the day and agenda will follow the now familiar recipe.'
+      format: restricted_html

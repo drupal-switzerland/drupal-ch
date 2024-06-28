@@ -1,0 +1,22 @@
+uuid: 0f3b5485-c0ff-4703-be75-fd3d1a5eeca0
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: _none
+_core:
+  default_config_hash: 1cyB6jc6EZy9G6SCq3n5guUIl31_XCtrM_msFQrvFzM
+id: audio
+label: Audio
+description: 'A locally hosted audio file.'
+source: audio_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_audio_file
+field_map:
+  name: name
+  mimetype: field_file_mime_type

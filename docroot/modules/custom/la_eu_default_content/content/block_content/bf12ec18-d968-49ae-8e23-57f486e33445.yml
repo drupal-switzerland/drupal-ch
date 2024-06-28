@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: bf12ec18-d968-49ae-8e23-57f486e33445
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    c99fd827-7f6d-4c77-88fb-e138390ac212: media
+    c7b6e59e-2a47-4f73-b077-d5da6ec1b1f4: node
+    7f4650db-cdd1-4647-a646-da6adaf806f5: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal is a web content management platform that allows IT professionals, website developers and business managers to use content management for powerful online platforms. With Drupal you can create hands-on tools with which digital transformation and online ambitions can be realized. Drupal offers unprecedented possibilities for this with out-of-the-box functionality and more than 20,000 plug-ins (modules).</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: 'What is Drupal?'
+  field_media:
+    -
+      entity: c99fd827-7f6d-4c77-88fb-e138390ac212
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3d9b08c2-e864-482d-8258-54bed678138c
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701199670
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: c7b6e59e-2a47-4f73-b077-d5da6ec1b1f4
+              title: 'View these solutions'
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 48083163-7bee-41b5-a409-dbf722935834
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701199681
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: secondary
+          field_link:
+            -
+              target_uuid: 7f4650db-cdd1-4647-a646-da6adaf806f5
+              title: 'Case studies'
+              options: {  }

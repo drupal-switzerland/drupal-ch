@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 6b982390-e3cb-4046-a1d4-dca5e6479832
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    06d1c9a7-e58d-4aed-8f58-2dd1c88e8832: media
+    c7b6e59e-2a47-4f73-b077-d5da6ec1b1f4: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p dir=\"ltr\">Drupal enables the best of the Web, from large-scale media and publishing sites, to portals for higher education as well as for government to easy-to-manage sites for nonprofit organizations. Proudly open source. We've listed the benefits by industry for you. Is your industry not listed? Then take a look at the <a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"63b6a704-1d52-405d-87b5-546d84ddd372\" href=\"/node/10\">case studies</a> to see if you can find a similar example.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: Solutions
+  field_media:
+    -
+      entity: 06d1c9a7-e58d-4aed-8f58-2dd1c88e8832
+  field_media_position:
+    -
+      value: left
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bd4a041d-6b68-43d6-a0ea-fa288ca00587
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701194335
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: c7b6e59e-2a47-4f73-b077-d5da6ec1b1f4
+              title: 'View solutions'
+              options: {  }

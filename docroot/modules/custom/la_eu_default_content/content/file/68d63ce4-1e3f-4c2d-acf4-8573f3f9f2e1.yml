@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 68d63ce4-1e3f-4c2d-acf4-8573f3f9f2e1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: multisite.png
+  uri:
+    -
+      value: 'public://image/2023-11/multisite.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 72379
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701200121

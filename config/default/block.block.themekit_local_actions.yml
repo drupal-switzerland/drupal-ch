@@ -1,0 +1,20 @@
+uuid: dce431b1-f94f-4d6b-8f66-c916802cd868
+langcode: en
+status: true
+dependencies:
+  theme:
+    - themekit
+_core:
+  default_config_hash: KwrDsSK92ifFmOknDJEbrMbsoGDqYZ2XCL9LjofsjNU
+id: themekit_local_actions
+theme: themekit
+region: highlighted
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2c2a5e95-dc24-4622-897e-69e8cfb48e28
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Drupal-CEO-Network-Business-Survey-2023-1245x1245.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/Drupal-CEO-Network-Business-Survey-2023-1245x1245.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 180018
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701181503

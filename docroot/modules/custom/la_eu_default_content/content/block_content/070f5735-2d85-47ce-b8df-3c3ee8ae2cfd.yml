@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 070f5735-2d85-47ce-b8df-3c3ee8ae2cfd
+  bundle: text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Since January 1, 2023, the board of Stichting Drupal Nederland consists of the people listed below. They meet monthly and in-between make contact within various working groups to strengthen the Drupal brand in the Netherlands.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_frame:
+    -
+      value: false
+  field_heading:
+    -
+      value: 'The board of Stichting Drupal Nederland'

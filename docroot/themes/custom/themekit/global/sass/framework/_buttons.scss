@@ -1,0 +1,68 @@
+////
+/// Framework - Buttons
+/// @group frameworkComponents
+////
+
+
+$buttons: (
+  default: (
+    background: #777,
+    color: #fff,
+    border: #ccc,
+    active-background: #555,
+    active-color: #fff,
+    active-border: #ccc
+  )
+) !default;
+
+/// Standard button style mixin
+/// @param {String} $button-key - the key in the $buttons map to use from config
+/// @param {String} $size [small] - the button size, choose from defined keywords in the mixin
+@mixin btn($button-key, $size: large) {
+  $button: extend-in-map($buttons, $button-key);
+
+  @include disable-mouse-outline;
+  display: inline-block;
+  @if (map-has-key($button, border)) {
+    border: 2px solid key($button, border);
+  }
+  background: key($button, background);
+  color: key($button, color);
+  font-weight: $global-weight-medium;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  appearance: none;
+  @include global-transition;
+
+  @if ($size == small) {
+    padding: rem-calc(8) rem-calc(12);
+    font-size: rem-calc(12);
+    line-height: 1;
+  } @else if ($size == large) {
+    padding: rem-calc(12) rem-calc(20);
+    font-size: rem-calc(14);
+    line-height: rem-calc(24);
+    @include breakpoint(medium) {
+      padding: rem-calc(16) rem-calc(32);
+      font-size: rem-calc(15);
+    }
+  }
+
+  &:hover,
+  &:focus {
+    @if map-has-key($button, hover-border) {
+      border-color: key($button, hover-border);
+    }
+    box-shadow: 0 4px rem-calc(20) rgba($color-black, .25);
+    background: key($button, hover-background);
+    color: key($button, hover-color);
+  }
+
+  &:active {
+    @if map-has-key($button, active-border) {
+      border-color: key($button, active-border);
+    }
+    background: key($button, active-background);
+    color: key($button, active-color);
+  }
+}

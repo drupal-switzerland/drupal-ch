@@ -1,0 +1,22 @@
+uuid: 80caa27b-9fb9-4a75-960b-1884eab24fe2
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+id: media.svg.status
+field_name: status
+entity_type: media
+bundle: svg
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

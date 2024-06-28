@@ -1,0 +1,11 @@
+////
+/// Base block
+////
+
+.block {
+
+  // Block title
+  &__title {
+    @include heading(h2);
+  }
+}

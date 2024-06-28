@@ -1,0 +1,22 @@
+uuid: ac8bf203-5389-42a5-a3f3-57eec8ae47be
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - claro
+_core:
+  default_config_hash: WOuHXuzZYYiFcBjt8tPcz_bLCoT-b3rfan-Y1coSJlU
+id: claro_messages
+theme: claro
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

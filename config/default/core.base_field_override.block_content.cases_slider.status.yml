@@ -1,0 +1,22 @@
+uuid: 01b31151-c9e7-4f1b-8d81-4921325c481a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cases_slider
+id: block_content.cases_slider.status
+field_name: status
+entity_type: block_content
+bundle: cases_slider
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

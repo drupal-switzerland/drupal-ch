@@ -1,0 +1,20 @@
+uuid: 8ad51a01-298b-4649-ae69-19b358857631
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: MBsqEVfojHSfOLT7ZDXet9t2SEti4tyd6O-6VT2boLc
+name: x_small_square_1_1
+label: 'X Small Square 1:1 (100 x 100)'
+effects:
+  d804c225-2590-4c11-bed2-cd12caebd157:
+    uuid: d804c225-2590-4c11-bed2-cd12caebd157
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      crop_type: focal_point
+pipeline: default

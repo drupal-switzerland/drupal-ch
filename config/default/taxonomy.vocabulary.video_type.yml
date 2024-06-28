@@ -1,0 +1,10 @@
+uuid: 760739a3-a0d6-4c00-98f9-d750fe260d42
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0nLF9MahRqh634j3Vxjs-roPTiWR5O1C4jA_WJfnP6k
+name: 'Video Type'
+vid: video_type
+description: 'Internal categorization used for video organization in the Media Library and Entity Browsers'
+weight: 0

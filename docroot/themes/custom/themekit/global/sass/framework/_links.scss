@@ -1,0 +1,286 @@
+////
+/// Framework - Links
+/// @group frameworkComponents
+////
+
+$links: (
+  default: (
+    color: navy,
+    font-weight: 400,
+    active-color: skyblue,
+  ),
+) !default;
+
+/// Standard link style mixin
+/// @param {String} $link-key - the key in the $buttons map to use from config
+/// @example
+///   @include link(inline)
+@mixin link($link-key: default) {
+  $link-conf: extend-in-map($links, $link-key);
+
+  display: inline-block;
+  color: key($link-conf, color);
+  font-weight: key($link-conf, font-weight);
+  @if ($link-key == default) {
+    text-decoration: underline;
+
+    @include selectors(active) {
+      color: key($link-conf, active-color);
+    }
+  }
+
+  @if ($link-key == default) {
+    @include global-transition(color);
+  }
+
+  @if ($link-key == secondary) {
+    @include global-transition(color);
+
+    font-size: rem-calc(16);
+    padding-bottom: 4px;
+
+    &:hover,
+    &:focus {
+      color: key($link-conf, hover-color);
+      box-shadow: 0 -1px 0 0 key($link-conf, hover-color) inset,
+        0 -2px 0 0 key($link-conf, hover-color) inset;
+    }
+
+    &:active {
+      color: key($link-conf, active-color);
+    }
+  }
+
+  @if ($link-key == more) {
+    position: relative;
+    padding-right: rem-calc(52);
+    font-size: rem-calc(14);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    @include global-transition(color);
+    @include icon-after(arrow-right) {
+      position: absolute;
+      top: 0;
+      right: rem-calc(8);
+      display: flex;
+      justify-content: flex-end;
+      width: rem-calc(32);
+      font-size: rem-calc(40);
+      line-height: inherit;
+      overflow: hidden;
+      @include global-transition;
+    }
+
+    &:hover,
+    &:focus {
+      color: key($link-conf, hover-color);
+
+      &::after {
+        right: 0;
+        width: rem-calc(40);
+      }
+    }
+
+    &:active {
+      color: key($link-conf, active-color);
+
+      &::after {
+        right: 0;
+        width: rem-calc(40);
+      }
+    }
+  }
+
+  @if ($link-key == more-big) {
+    position: relative;
+    padding-right: rem-calc(52);
+    font-size: rem-calc(22);
+    line-height: rem-calc(26);
+    @include global-transition(color);
+    @include icon-after(arrow-right) {
+      position: absolute;
+      top: 0;
+      right: rem-calc(8);
+      display: flex;
+      justify-content: flex-end;
+      width: rem-calc(32);
+      font-size: rem-calc(40);
+      line-height: inherit;
+      overflow: hidden;
+      @include global-transition;
+    }
+
+    &:hover,
+    &:focus {
+      color: key($link-conf, hover-color);
+
+      &::after {
+        right: 0;
+        width: rem-calc(40);
+      }
+    }
+
+    &:active {
+      color: key($link-conf, active-color);
+
+      &::after {
+        right: 0;
+        width: rem-calc(40);
+      }
+    }
+  }
+
+  @if ($link-key == back) {
+    position: relative;
+    padding-left: rem-calc(52);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: rem-calc(14);
+    @include breakpoint(medium up) {
+      font-size: rem-calc(15);
+    }
+    @include icon-after(arrow-right) {
+      transform: rotate(180deg);
+      position: absolute;
+      top: 0;
+      left: rem-calc(8);
+      font-size: rem-calc(32);
+      line-height: inherit;
+      overflow: hidden;
+      @include global-transition(width);
+    }
+
+    &:hover,
+    &:focus {
+      color: key($link-conf, hover-color);
+
+      &::after {
+        left: 0;
+      }
+    }
+
+    &:active {
+      color: key($link-conf, active-color);
+
+      &::after {
+        right: 0;
+        width: rem-calc(40);
+      }
+    }
+  }
+
+  @if ($link-key == external) {
+    font-size: rem-calc(16);
+    position: relative;
+    padding-right: 24px;
+    padding-bottom: 4px;
+    @include global-transition(box-shadow);
+    @include icon-after(externallink) {
+      position: absolute;
+      top: 6px;
+      right: 0;
+    }
+
+    &::before {
+      position: absolute;
+      z-index: z(under);
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: key($link-conf, hover-color);
+      transform: scaleX(0);
+      transform-origin: right;
+      content: "";
+      @include global-transition(transform);
+    }
+
+    &:hover,
+    &:focus {
+      color: key($link-conf, hover-color);
+
+      &::before {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    }
+
+    &:active {
+      color: key($link-conf, active-color);
+
+      &::before {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    }
+  }
+}
+
+// Main navigation mouseover behavior
+@mixin main-menu-item($mobile: false, $active-class: true) {
+  > a {
+    display: block;
+    color: inherit;
+
+    @if ($mobile == true) {
+      position: relative;
+      color: $color-gray-900;
+      z-index: z(above);
+    } @else {
+      @include breakpoint(medium) {
+        position: relative;
+        color: $color-gray-900;
+        z-index: z(above);
+      }
+    }
+  }
+
+  > a::after {
+    position: absolute;
+    z-index: z(under);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: $color-primary-600;
+    transform: scaleX(0);
+    transform-origin: right;
+    @include global-transition(transform);
+    @if ($mobile == true) {
+      content: "";
+    } @else {
+      @include breakpoint(medium) {
+        content: "";
+      }
+    }
+  }
+
+  &:not(.menu__item--active-trail) > a {
+    @include selectors(active) {
+      &::after {
+        @if ($mobile == true) {
+          transform: scaleX(1);
+          transform-origin: left;
+        } @else {
+          @include breakpoint(medium) {
+            transform: scaleX(1);
+            transform-origin: left;
+          }
+        }
+      }
+    }
+  }
+
+  // Active state
+  @if ($active-class == true) {
+    &.menu__item--active-trail > a::after {
+      @if ($mobile == true) {
+        transform: scaleX(1);
+      } @else {
+        @include breakpoint(medium) {
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+}

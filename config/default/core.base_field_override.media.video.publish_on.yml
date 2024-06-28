@@ -1,0 +1,18 @@
+uuid: 5fa5d8d8-83a1-47e7-a7df-716e1c98cba1
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.publish_on
+field_name: publish_on
+entity_type: media
+bundle: video
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

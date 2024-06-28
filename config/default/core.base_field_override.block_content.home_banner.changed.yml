@@ -1,0 +1,18 @@
+uuid: dd2b646a-a18f-452b-b3d3-6b55f922b1a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_banner
+id: block_content.home_banner.changed
+field_name: changed
+entity_type: block_content
+bundle: home_banner
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

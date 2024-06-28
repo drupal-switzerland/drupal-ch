@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f8d0cafa-c873-47d3-870c-79fc282699f6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: splash-awards_400x400.png
+  uri:
+    -
+      value: 'public://image/2023-11/splash-awards_400x400.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 8132
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701182274

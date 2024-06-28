@@ -1,0 +1,14 @@
+{% extends "@partials/component/block.html.twig" %}
+
+{% set block = content['#block_content'] %}
+{% set classes = [
+  block.field_frame.value ? 'frame-background',
+] %}
+{% set attributes = attributes.addClass(classes) %}
+
+{% block content %}
+  {% if block.field_frame.value %}
+    <span class="frame"></span>
+  {% endif %}
+  {{ content }}
+{% endblock %}

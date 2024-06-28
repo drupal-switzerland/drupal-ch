@@ -1,0 +1,73 @@
+////
+/// Layouts - Global Styles
+////
+
+.layout {
+  max-width: 100vw; // fix issue with slider
+  overflow: hidden;
+
+  > .layout-content {
+    @include content-width(default);
+
+    > .layout__region {
+      @include breakpoint(medium) {
+        flex-shrink: 0;
+      }
+
+      &:not(:last-child) {
+        @include breakpoint(medium down) {
+          padding-bottom: rem-calc(64);
+        }
+      }
+
+      .block:not(.block--title) + .block {
+        margin-top: rem-calc(64);
+        @include breakpoint(large) {
+          margin-top: rem-calc(96);
+        }
+      }
+    }
+  }
+
+  // Spacing between sections
+  &.section-padding--default {
+    padding-top: 64px;
+    @include breakpoint(large) {
+      padding-top: 96px;
+    }
+  }
+
+  // Vertical alignment section blocks
+  &.section-valign--top {
+    > .layout-content {
+      @include breakpoint(medium) {
+        align-items: flex-start;
+      }
+    }
+  }
+
+  &.section-valign--middle {
+    > .layout-content {
+      @include breakpoint(medium) {
+        align-items: center;
+      }
+    }
+  }
+
+  &.section-valign--bottom {
+    > .layout-content {
+      @include breakpoint(medium) {
+        align-items: flex-end;
+      }
+    }
+  }
+}
+
+.layout-builder-block {
+  background: none !important;
+}
+
+.layout-builder__add-section,
+.layout-builder__section {
+  position: relative;
+}

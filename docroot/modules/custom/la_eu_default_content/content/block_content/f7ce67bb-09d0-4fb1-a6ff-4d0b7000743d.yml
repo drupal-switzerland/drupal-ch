@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: f7ce67bb-09d0-4fb1-a6ff-4d0b7000743d
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    5235cab6-0a1f-49eb-bca1-2673c7aafce0: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p><strong>Portfolio</strong>: Partner Program, Marketing</p>\r\n\r\n<p>Selcuk (<a href=\"https://www.drupal.org/u/mr_infinity\">mr_infinity</a>) Demirci, IT fanatic through and through. Education: Business &amp; ICT. Starting in 2004 he has been developing websites and his own CMSs. During his search to develop efficient, beautiful and secure apps, it was love at first sight with Drupal (and its community). He has been developing Drupal projects since 2010. His mission and passion are to introduce companies and developers to Drupal. He is often told that his enthusiasm is contagious. Maintainer of a number of modules on drupal.org, Selcuk works on large-scale Drupal projects and provides Drupal training. He is responsible for the partner program and marketing for the foundation.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Selcuk Demirci'
+  field_media:
+    -
+      entity: 5235cab6-0a1f-49eb-bca1-2673c7aafce0
+  field_media_position:
+    -
+      value: right

@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 0a48525d-3472-48fb-901f-4311aac93492
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    148bce4e-9a78-44b6-b23d-cd4c2f5b1c30: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Growing up with the Commodore 64, his interest in software and technology has never gone away. After studying Business Administration in Rotterdam, Bart was involved in various startups as an IT entrepreneur. He and his development team created various products and services. From personalized television guides with smart recommendation technology for tablet and mobile to web applications for dentists and other healthcare professionals.</p>\r\n\r\n<p>After an adventurous period, he joined Finalist in 2022 where he first came into contact with Drupal and its thriving community. He enjoys this so much that he is happy to contribute to bringing Drupal to the attention of the Netherlands as a modern CMS solution and keeping the community going.</p>\r\n\r\n<p>Bart currently works as an information analyst. In that role he tries to build bridges between Business and IT. He is happy to use his knowledge and experience for the Drupal Netherlands Foundation.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: 'Bart Vreugdenhil'
+  field_media:
+    -
+      entity: 148bce4e-9a78-44b6-b23d-cd4c2f5b1c30
+  field_media_position:
+    -
+      value: left

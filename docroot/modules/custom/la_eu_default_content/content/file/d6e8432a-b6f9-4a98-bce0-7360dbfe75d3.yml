@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d6e8432a-b6f9-4a98-bce0-7360dbfe75d3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: northamerica-med-opt.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/northamerica-med-opt.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 60195
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701182666

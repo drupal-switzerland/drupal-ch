@@ -1,0 +1,18 @@
+uuid: f2e72d1e-8e5e-4388-b180-cb669d67e0b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+id: media.svg.publish_on
+field_name: publish_on
+entity_type: media
+bundle: svg
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

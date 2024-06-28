@@ -1,0 +1,13 @@
+uuid: 0ea361fa-3c16-4c27-8f90-8192c1ca334c
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: QxGIpCsf4PkuI7y7BQWuYezZLE7DPaRGDQrjwdsWE0g
+id: media.token
+label: Token
+description: ''
+targetEntityType: media
+cache: true

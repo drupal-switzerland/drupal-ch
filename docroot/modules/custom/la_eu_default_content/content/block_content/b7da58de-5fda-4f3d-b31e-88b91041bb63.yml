@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: b7da58de-5fda-4f3d-b31e-88b91041bb63
+  bundle: partners
+  default_langcode: en
+  depends:
+    f498265d-5b6b-48f6-977b-6ecf020e0de7: node
+    36d2f31e-7b87-4da4-bd23-fbf767ed254e: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal is supported by many partners who implement our technology daily to make the ambitions of their clients reality. These partners support the community with their time, money, expertise but mostly with a lot of love.</p>\r\n\r\n<p>Thanks to these partners, we are able to organize great events and make Drupal better for everyone. Do you also want to help Drupal?</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_heading:
+    -
+      value: 'No Drupal without partners'
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: fa637500-e3fe-4ef2-ae52-500a1c5e5ab6
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701187267
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: f498265d-5b6b-48f6-977b-6ecf020e0de7
+              title: 'All partners'
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 27f8d874-af40-40cb-a1e2-1e673c7ceee3
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701187280
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              target_uuid: 36d2f31e-7b87-4da4-bd23-fbf767ed254e
+              title: 'Join us as partner'
+              options: {  }

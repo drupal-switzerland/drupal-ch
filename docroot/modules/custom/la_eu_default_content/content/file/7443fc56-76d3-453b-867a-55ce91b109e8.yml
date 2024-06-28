@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7443fc56-76d3-453b-867a-55ce91b109e8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: accessible.png
+  uri:
+    -
+      value: 'public://image/2023-11/accessible.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 4599351
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701200524

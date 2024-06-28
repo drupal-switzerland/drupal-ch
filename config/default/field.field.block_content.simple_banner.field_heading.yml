@@ -1,0 +1,21 @@
+uuid: 4ce17d62-e1c7-436b-96dd-3476d322cf64
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.simple_banner
+    - field.storage.block_content.field_heading
+_core:
+  default_config_hash: N0zFwPzjQtkmAd5_6sKkDdZhtJbOrk5zu3D-_k8YF3Y
+id: block_content.simple_banner.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: simple_banner
+label: Heading
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

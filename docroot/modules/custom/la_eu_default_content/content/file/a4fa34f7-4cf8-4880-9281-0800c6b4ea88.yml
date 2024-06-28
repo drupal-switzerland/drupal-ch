@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a4fa34f7-4cf8-4880-9281-0800c6b4ea88
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: media-and-publishing-houses-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/media-and-publishing-houses-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2025514
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701183643

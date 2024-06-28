@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1fc6ef93-8552-4dd0-9ab7-a4663dbe3c8b
+  bundle: category
+  default_langcode: en
+  depends:
+    37195162-9ce2-4694-a6ea-f963db2d97ec: media
+    3b88a2c1-68d8-4cb9-aba7-99fa1968a891: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: E-commerce
+  description:
+    -
+      value: "<p>Commerce in the context of the right content provides the conversion you are looking for. Stable, secure, easy to integrate and incredibly stable. Take advantage of Drupal's flexibility to connect the right content to the products and services you sell.&nbsp;</p>\r\n\r\n<p>Integration is a prerequisite for a well-functioning e-commerce platform, whether it's for your product information, digital assets, your ERP or CRM, we got you covered.</p>\r\n"
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'E-commerce | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Commerce in the context of the right content provides the conversion you are looking for. Stable, secure, easy to integrate and incredibly stable. Take advantage of Drupal's flexibility to connect the right content to the products and services you sell.\_ Integration is a prerequisite for a well-functioning e-commerce platform, whether it's for your product information, digital assets, your ERP or CRM, we got you covered."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: /applications/e-commerce
+      langcode: en
+      pathauto: 1
+  field_description:
+    -
+      value: 'Powerful and flexible solutions for e-commerce workflows'
+      format: plain_text
+  field_heading:
+    -
+      value: 'Drupal as e-commerce platform'
+  field_image:
+    -
+      entity: 37195162-9ce2-4694-a6ea-f963db2d97ec
+  field_media:
+    -
+      entity: 3b88a2c1-68d8-4cb9-aba7-99fa1968a891

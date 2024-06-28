@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: ef7aa606-35f4-4dc6-aad5-68ee46df01c4
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    7eaa1854-7809-4b9a-8391-58367bf2b4de: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Drupal offers many options for managing multiple websites in a single instance, allowing business units, labels, countries and campaigns to run independently on one and the same platform. This way, content can be published quickly and easily across multiple segments and the management burden is significantly reduced.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: Multisite
+  field_media:
+    -
+      entity: 7eaa1854-7809-4b9a-8391-58367bf2b4de
+  field_media_position:
+    -
+      value: left

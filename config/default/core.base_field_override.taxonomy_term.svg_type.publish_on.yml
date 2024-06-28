@@ -1,0 +1,18 @@
+uuid: e36e786f-2acf-4ef0-9128-95e633d73926
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.svg_type
+id: taxonomy_term.svg_type.publish_on
+field_name: publish_on
+entity_type: taxonomy_term
+bundle: svg_type
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

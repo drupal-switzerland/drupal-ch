@@ -1,0 +1,23 @@
+uuid: 143c7417-91b3-4803-8fce-685ff5ef3cbc
+langcode: en
+status: true
+dependencies:
+  module:
+    - site_settings
+_core:
+  default_config_hash: XnhKntznTAGNcJT5a9hYQ1KcSD5GbPaRKzekJTUtUR0
+id: site_setting_entity.field_heading
+field_name: field_heading
+entity_type: site_setting_entity
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

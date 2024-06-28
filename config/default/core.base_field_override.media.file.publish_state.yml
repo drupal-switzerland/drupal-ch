@@ -1,0 +1,20 @@
+uuid: fde4e179-774e-4492-ba74-ef53ec232b3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.file
+  module:
+    - options
+id: media.file.publish_state
+field_name: publish_state
+entity_type: media
+bundle: file
+label: 'Publish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

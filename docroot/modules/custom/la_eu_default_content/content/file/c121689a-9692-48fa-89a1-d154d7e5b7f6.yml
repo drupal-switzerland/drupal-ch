@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c121689a-9692-48fa-89a1-d154d7e5b7f6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: stichting-drupal-netherland.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/stichting-drupal-netherland.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 153901
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701189664

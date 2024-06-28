@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a25aa70e-f221-4491-8b85-0301420aaf08
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ben-kolde-bs2Ba7t69mM-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/ben-kolde-bs2Ba7t69mM-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1454297
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701194356

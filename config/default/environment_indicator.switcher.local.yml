@@ -1,0 +1,13 @@
+uuid: 76ab7f52-b705-47c4-a3c8-1708b57d7dab
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: f1lI5cVLRl-OggnkaMNaxUAWJoSIouXHgrZ2D-33E4k
+machine: local
+description: null
+name: Local
+url: 'http://paragon.lndo.site/'
+weight: null
+fg_color: '#fefdff'
+bg_color: '#005093'

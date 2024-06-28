@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c282570d-ceb2-4ae3-81c8-c23dfa170c06
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ian-battaglia-9drS5E_rguc-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/ian-battaglia-9drS5E_rguc-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 916969
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701200323

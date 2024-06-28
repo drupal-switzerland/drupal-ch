@@ -1,0 +1,20 @@
+uuid: a797ba07-21c7-4fd0-aefb-bb1f3dfed315
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.categories
+  module:
+    - metatag
+id: block_content.categories.metatag
+field_name: metatag
+entity_type: block_content
+bundle: categories
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

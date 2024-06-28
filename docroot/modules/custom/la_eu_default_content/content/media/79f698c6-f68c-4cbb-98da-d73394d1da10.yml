@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 79f698c6-f68c-4cbb-98da-d73394d1da10
+  bundle: image
+  default_langcode: en
+  depends:
+    74364c21-e67b-4a63-a7f9-b9f969a2c223: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: woman-with-laptop-on-blue-sofa.jpg
+  created:
+    -
+      value: 1701186910
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 74364c21-e67b-4a63-a7f9-b9f969a2c223
+      alt: 'Woman with laptop on blue sofa'
+      title: ''
+      width: 752
+      height: 470

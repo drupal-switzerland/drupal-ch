@@ -1,0 +1,18 @@
+uuid: 52600d1b-2846-4609-856e-0466ae87f44b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cases_slider
+id: block_content.cases_slider.changed
+field_name: changed
+entity_type: block_content
+bundle: cases_slider
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

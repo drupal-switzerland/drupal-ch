@@ -1,0 +1,12 @@
+uuid: db591f03-5570-42c1-9839-a796d7e8f775
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SJvIWrosxhOZxUD8W8ukeB-oL635m6ZHKSq6uWVXnAo
+id: header_banner_basic
+label: 'Header Banner - Basic'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

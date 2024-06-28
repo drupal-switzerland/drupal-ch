@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 02e388ee-d92c-4e9a-82d7-c573e43adf0c
+  bundle: basic_banner
+  default_langcode: en
+  depends:
+    4a878e53-f5bb-4ed6-b8e4-f9af2f5d7ce8: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>We would like to keep you informed about the news surrounding Drupal, the events, its partners and new cases. Drupal.nl and all content is maintained by the volunteers of the Dutch Drupal Assosiation. We do everything we can to stay up-to-date. If you have something that needs to be shared with the community, please report it to the board, we will handle it immediately.</p>\r\n"
+      format: simple_html
+      summary: ''
+  field_heading:
+    -
+      value: News
+  field_media:
+    -
+      entity: 4a878e53-f5bb-4ed6-b8e4-f9af2f5d7ce8
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a4115f9f-dc57-4894-a6f9-4304513f07b9
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701191527
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              uri: 'https://www.drupal.org/news'
+              title: 'News on drupal.org'
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c0b40ab2-3dc8-46a0-8464-574f2213bde1
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701191554
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              uri: 'mailto:me@drupal.eu'
+              title: 'Submit your news'
+              options: {  }

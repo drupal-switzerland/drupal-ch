@@ -1,0 +1,21 @@
+uuid: 30bdce54-62ea-4722-90af-06985a27834c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.links
+    - field.storage.block_content.field_heading
+_core:
+  default_config_hash: GAj4dfFLCp4uH3ga26YbtXLiHbBD1okNNUsJR_jT5lo
+id: block_content.links.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: links
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,62 @@
+uuid: aa648317-f729-454e-b025-58f45bfc431b
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.small_teaser
+    - field.field.node.case.body
+    - field.field.node.case.field_category
+    - field.field.node.case.field_component_item
+    - field.field.node.case.field_components
+    - field.field.node.case.field_image
+    - field.field.node.case.field_intro
+    - field.field.node.case.field_link
+    - field.field.node.case.field_logo
+    - field.field.node.case.field_metatags
+    - field.field.node.case.field_reference
+    - node.type.case
+    - responsive_image.styles.fourth_column_hq
+  module:
+    - layout_builder
+    - media_responsive_thumbnail
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: 5RbzcxmC6ithPcE4f1MBbHs92AV2dG5rzDvx1bN22ZU
+id: node.case.small_teaser
+targetEntityType: node
+bundle: case
+mode: small_teaser
+content:
+  field_category:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_logo:
+    type: media_responsive_thumbnail
+    label: hidden
+    settings:
+      responsive_image_style: fourth_column_hq
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  content_moderation_control: true
+  field_component_item: true
+  field_components: true
+  field_image: true
+  field_intro: true
+  field_link: true
+  field_metatags: true
+  field_reference: true
+  langcode: true
+  links: true

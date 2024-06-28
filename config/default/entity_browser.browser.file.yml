@@ -1,0 +1,44 @@
+uuid: a7105f3a-a13d-4270-8dc6-2195839f77f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.entity_browser_file
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: nArGk8wZefs9smM0I9N4lzvpltvIcwVUaga07pLXiQQ
+name: file
+label: File
+display: modal
+display_configuration:
+  width: '800'
+  height: '600'
+  link_text: 'Add File'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  dfa3193b-789a-473f-95ac-b94c370d2019:
+    settings:
+      submit_text: 'Select file'
+      auto_select: false
+      view: entity_browser_file
+      view_display: entity_browser_1
+    uuid: dfa3193b-789a-473f-95ac-b94c370d2019
+    weight: 1
+    label: 'View Files'
+    id: view
+  ef922d18-e133-4449-bd98-0dc40ddd58df:
+    settings:
+      submit_text: 'Save File'
+      entity_type: media
+      bundle: file
+      form_mode: media_browser
+    uuid: ef922d18-e133-4449-bd98-0dc40ddd58df
+    weight: 2
+    label: 'Upload File'
+    id: entity_form

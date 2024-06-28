@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3a8937d8-9951-4f49-bc4c-58bbf6790be5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: splashawards.svg
+  uri:
+    -
+      value: 'public://svg/2023-11/splashawards.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 35388
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701190840

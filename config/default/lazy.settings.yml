@@ -1,0 +1,34 @@
+_core:
+  default_config_hash: 0Q6tlRFW3QnfwVZhHDgibUDb_Ak-b0schKZ_DKLWMWA
+skipClass: no-lazy
+placeholderSrc: ''
+preferNative: false
+cssEffect: false
+lazysizes:
+  lazyClass: lazyload
+  loadedClass: lazyloaded
+  loadingClass: lazyloading
+  preloadClass: lazypreload
+  errorClass: lazyerror
+  autosizesClass: lazyautosizes
+  srcAttr: data-src
+  srcsetAttr: data-srcset
+  sizesAttr: data-sizes
+  minSize: 40
+  customMedia: {  }
+  init: true
+  expFactor: 1.5
+  hFac: 0.8
+  loadMode: 2
+  loadHidden: true
+  ricTimeout: 0
+  throttleDelay: 125
+  plugins: {  }
+image_fields: {  }
+alter_tag:
+  img: img
+  iframe: '0'
+formatters:
+  lazy_image: '0'
+  lazy_responsive_image: '0'
+disabled_paths: /rss.xml

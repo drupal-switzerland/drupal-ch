@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: site_setting_entity
+  uuid: f2a2b951-8805-48cc-8901-3c4bec7821bd
+  bundle: subscribe_form
+  default_langcode: en
+default:
+  user_id:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Subscribe form'
+  fieldset:
+    -
+      value: Footer
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701201867
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_heading:
+    -
+      value: 'Join the newsletter'
+  field_link:
+    -
+      uri: 'http://eepurl.com/hJVlrD'
+      title: Join
+      options: {  }
+  field_text:
+    -
+      value: "<p>And keep informed of the latest news</p>\r\n"
+      format: basic_html

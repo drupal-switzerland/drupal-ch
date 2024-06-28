@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 40a581ee-54fb-4ad5-b55d-a6b0a960b9fd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-andrea-piacquadio-3772621.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/pexels-andrea-piacquadio-3772621.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1976008
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701194283

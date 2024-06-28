@@ -1,0 +1,2 @@
+.view-cases-cases>.view-content{display:flex;flex-wrap:wrap;gap:16px}.view-cases-cases>.view-content>.views-row{width:100%;margin-bottom:4px}@media print, screen and (min-width: 48em){.view-cases-cases>.view-content>.views-row{width:calc(50% - 8px)}}@media print, screen and (min-width: 64em){.view-cases-cases>.view-content>.views-row{width:calc(33.3333% - 11px)}}.view-cases-cases>.view-content>.views-row .field--name-body{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+

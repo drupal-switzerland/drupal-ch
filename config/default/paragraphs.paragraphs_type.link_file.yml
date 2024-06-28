@@ -1,0 +1,12 @@
+uuid: e85bdf4d-5585-41f7-a1e6-daa087c5fd8e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: doCScxuRFQQx2WVrh5m5BJ7rm8C4sBj-E4U3tlRf7WA
+id: link_file
+label: 'Link - File'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,26 @@
+{% extends "@partials/component/block.html.twig" %}
+
+{% set rendered_content = content|without('field_categories', 'field_p_link') %}
+{% set block = content['#block_content'] %}
+{% block content %}
+  <div class="block-content">
+    <div class="shape-wrapper">
+      <span class="frame"></span>
+      {{ rendered_content }}
+      <div class="categories-links">
+        <h4>{{ 'Drupal for'|t }}</h4>
+        <ul>
+          {% for category in block.field_categories %}
+            <li>
+              <a href="{{ url('entity.taxonomy_term.canonical', { 'taxonomy_term': category.entity.id() }) }}">{{ category.entity.label() }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+      </div>
+      {{ content.field_p_link }}
+    </div>
+  </div>
+  {{ content.field_categories }}
+
+{% endblock %}

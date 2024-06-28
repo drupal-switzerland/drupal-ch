@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 9d1efea6-7305-4ef7-af8f-a6480dee560a
+  bundle: text_with_media
+  default_langcode: en
+  depends:
+    3a193410-f16f-48dd-ba6c-eeb780a8b272: media
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Inline block'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+  field_description:
+    -
+      value: "<p>Events around Drupal are organized by the community for the community. Not only are partners and developers welcome, but everyone who does something with Drupal is invited. We only list Dutch events here. You can find all international events on drupal.org.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_heading:
+    -
+      value: Events
+  field_media:
+    -
+      entity: 3a193410-f16f-48dd-ba6c-eeb780a8b272
+  field_media_position:
+    -
+      value: right
+  field_p_link:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 94461ba5-2073-46d8-8eff-91dedc0ee163
+          bundle: link_default
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1701191048
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_button_styling:
+            -
+              value: primary
+          field_link:
+            -
+              uri: 'https://www.drupal.org/community/events'
+              title: 'International events'
+              options: {  }

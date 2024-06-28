@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 56ce35dd-20ba-492a-9f91-8031c26d5118
+  bundle: case
+  default_langcode: en
+  depends:
+    9ec81603-e18a-498a-b097-303d4ada0e5c: taxonomy_term
+    8eb6e817-bcd2-4d8c-b2e7-445906d912c4: media
+    a53858e5-09bd-4954-8b41-77eb2febb1ad: media
+    ddb46e8d-0517-4192-bde3-6bc6b99b1257: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Diabetes.com helps you move forward. Knowing. Sharing. Do'
+  created:
+    -
+      value: 1701184719
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Diabetes.com helps you move forward. Knowing. Sharing. Do | Drupal.eu'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'All information in one place Diabetes.com is'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal, the open source DXP'
+    -
+      tag: meta
+      attributes:
+        name: keywords
+        content: 'Drupal, dxp, opensource, cms'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: Drupal.eu
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://local-association-site-de-10-2.ddev.site/en/cases/diabetescom-helps-you-move-forward-knowing-sharing-do'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Diabetes.com helps you move forward. Knowing. Sharing. Do'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'All information in one place Diabetes.com is'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://local-association-site-de-10-2.ddev.site/sites/default/files/image/2023-11/diabetes-homepage-mockup-landscape.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Diabetes.com helps you move forward. Knowing. Sharing. Do'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'All information in one place Diabetes.com is'
+  path:
+    -
+      alias: /cases/diabetescom-helps-you-move-forward-knowing-sharing-do
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<h2><strong>All information in one place</strong></h2>\r\n\r\n<p>Diabetes.com is for everyone, whether you have been dealing with it recently or for a long time. You will find information and inspiration if diabetes affects you. Regardless of diabetes type, life stage, disease stage, role or information needs. The platform features a library of reliable information about different types of diabetes, possible treatments, living with diabetes and scientific research. In addition, the community is a meeting place where you can exchange experiences, share tips and ask questions. And all in one place!</p>\r\n\r\n<h2><strong>Tailored information</strong></h2>\r\n\r\n<p>The platform was created to show people the way in the world of diabetes. A unique tool for this is the Signpost. This helps the new visitor who does not yet know where to start. By answering a few questions, the signpost knows exactly what suits his situation, without having to leave personal data.</p>\r\n\r\n<drupal-media data-entity-type=\"media\" data-entity-uuid=\"15226fd3-bba6-4004-a8fb-b06e38d93ff7\"></drupal-media>\r\n\r\n<h2><strong>Work that matters</strong></h2>\r\n\r\n<p>Diabetes.com meets the large and growing need for reliable health information. It was up to SWIS to get that information tailored to the visitor. There's more to that than meets the eye. And that's exactly the point.</p>\r\n\r\n<p>Diabetes.nl is a technical tour de force. Thanks to the headless architecture, the platform is lightning fast and responsive. Various systems are linked to bring together and share information. Thanks to a sophisticated information architecture, editors, community managers and visitors have control over what is shared with whom and when, or what should remain private. This is precise work in which information security is a major concern.&nbsp;</p>\r\n\r\n<p>The aforementioned points are what makes working on a platform like diabetes.nl so worthwhile. Technically challenging and socially relevant. That's what we go for at SWIS.</p>\r\n\r\n<h2><strong>Opensource components</strong></h2>\r\n\r\n<p>At SWIS, we are advocates of the open Internet, which is why we prefer to use open source components in the solutions we realize. We would like to share what the technical landscape of diatbetes.co.uk looks like. It is an application that consists of multiple components and must interact with other systems divided into 4 categories: Content, Services, Orchestration and Presentation.</p>\r\n\r\n<drupal-media data-entity-type=\"media\" data-entity-uuid=\"659cd49e-e58d-41d1-be4a-d92373c8ea57\"></drupal-media>\r\n"
+      format: full_html
+      summary: ''
+  field_category:
+    -
+      entity: 9ec81603-e18a-498a-b097-303d4ada0e5c
+  field_image:
+    -
+      entity: 8eb6e817-bcd2-4d8c-b2e7-445906d912c4
+  field_intro:
+    -
+      value: "<p>&nbsp;&nbsp;</p>\r\n\r\n<p>Diabetes is the most common chronic disease in the Netherlands. More than 1.2 million Dutch people have diabetes and another 1,000 people are diagnosed every week. Correct and reliable information is of great importance in order to cope with diabetes well. Sharing experiences and participating in activities is also a need of people with diabetes, research shows.</p>\r\n\r\n<drupal-media data-entity-type=\"media\" data-entity-uuid=\"76440cb6-6d6d-4ac5-a47b-98e5a23e93ef\"></drupal-media>\r\n"
+      format: full_html
+  field_link:
+    -
+      uri: 'https://www.diabetes.nl/'
+      title: ''
+      options: {  }
+  field_logo:
+    -
+      entity: a53858e5-09bd-4954-8b41-77eb2febb1ad
+  field_reference:
+    -
+      entity: ddb46e8d-0517-4192-bde3-6bc6b99b1257

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8e7e9b3b-a675-46ae-bc38-aec024f1c94a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: jj-ying-7JX0-bfiuxQ-unsplash.jpg
+  uri:
+    -
+      value: 'public://image/2023-11/jj-ying-7JX0-bfiuxQ-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 162480
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701199889

@@ -1,0 +1,13 @@
+uuid: 2bee0e5a-52bd-4306-84fe-6c84464d5e99
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3RPIuoCoNoB0fvd85r0GfV4d_FyJNG_NpcLo2KrilRc
+id: community_features
+block_id: 'inline_block:community_features'
+category: structured
+label: 'Community Features'
+weight: -100
+image_path: ''
+image_alt: ''

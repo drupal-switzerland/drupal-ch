@@ -1,0 +1,31 @@
+uuid: 7b4cfdf5-d9e3-4e36-9549-afdf97d9bfff
+langcode: en
+status: true
+dependencies:
+  module:
+    - simple_sitemap
+_core:
+  default_config_hash: AzoJQozy2Kb8pmZUj2FDuJnEdbom2XG_2_Sx18sXACc
+title: 'Default cron handler'
+id: simple_sitemap_cron
+weight: 0
+module: simple_sitemap
+callback: simple_sitemap_cron
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '*/15+@ * * * *'
+launcher:
+  id: serial
+  configuration:
+    timeouts:
+      lock_timeout: 3600
+    launcher:
+      thread: 0
+logger:
+  id: database
+  configuration:
+    method: '3'
+    expire: 1209600
+    retain: 1000

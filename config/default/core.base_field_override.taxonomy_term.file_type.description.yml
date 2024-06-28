@@ -1,0 +1,21 @@
+uuid: 1522f4de-9e27-46cb-a428-5c3a4ae44caa
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.file_type
+  module:
+    - text
+id: taxonomy_term.file_type.description
+field_name: description
+entity_type: taxonomy_term
+bundle: file_type
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

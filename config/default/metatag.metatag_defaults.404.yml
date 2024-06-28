@@ -1,0 +1,11 @@
+uuid: 24211281-ceb3-4767-a324-a84eda75f76a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ptyPsa9E_fZ4HvGxwh8YRd8BnYwmpputkkZadaZ96D0
+id: '404'
+label: '404 Not Found'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'
