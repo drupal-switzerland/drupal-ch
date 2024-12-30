@@ -1,7 +1,7 @@
 FROM uselagoon/php-8.2-cli-drupal as builder
 COPY composer.json composer.lock /app/
 COPY assets /app/assets
-RUN composer install --no-dev --prefer-dist
+RUN composer install --prefer-dist
 COPY . /app
 
 # Config directory should be non-writable.
