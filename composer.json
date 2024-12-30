@@ -97,6 +97,7 @@
         "drupal/site_settings": "1.x-dev@dev",
         "drupal/sitemap": "^2.0@beta",
         "drupal/smart_trim": "^2.1",
+        "drupal/stage_file_proxy": "^3.1",
         "drupal/svg_image_field": "^2.3",
         "drupal/svg_upload_sanitizer": "^1.4",
         "drupal/symfony_mailer": "^1.4",
@@ -220,7 +221,6 @@
     "require-dev": {
         "drupal/coder": "^8.3",
         "drupal/devel": "^5.2",
-        "drupal/stage_file_proxy": "^2.1",
         "mglaman/drupal-check": "^1.4",
         "phpunit/phpunit": "^9.6"
     }
