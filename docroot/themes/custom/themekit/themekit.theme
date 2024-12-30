@@ -440,7 +440,7 @@ function themekit_layouts_form_alter(&$form, FormStateInterface $form_state, $fo
 function themekit_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   if ($form['#id'] === 'views-exposed-form-cases-listing') {
     $form['title']['#prefix'] = '<div class="form-item__wrapper">';
-    $form['title']['#suffix'] = t('<span class="toggle-filters">@title</span></div>', ['@title' => 'Categorie']);
+    $form['title']['#suffix'] = t('<span class="toggle-filters">@title</span></div>', ['@title' => t('Category')]);
   }
 }
 
