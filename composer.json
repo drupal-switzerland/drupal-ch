@@ -69,12 +69,15 @@
     "config": {
         "sort-packages": true,
         "allow-plugins": {
-            "cweagans/composer-patches": true,
             "composer/installers": true,
-            "drupal/core-composer-scaffold": true,
-            "wikimedia/composer-merge-plugin": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/console-extend-plugin": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "drupal/core-composer-scaffold": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true,
+            "wikimedia/composer-merge-plugin": true
         }
     },
     "autoload": {

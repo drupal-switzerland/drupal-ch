@@ -29,4 +29,6 @@
   {% include '@twig/components/text-bg-media/text-bg-media.html.twig' with component %}
 {% elseif type == 'ParagraphTextWithMedia' %}
   {% include '@twig/components/text-with-media/text-with-media.html.twig' with component %}
+{% elseif type == 'ParagraphWebform' %}
+  {% include '@twig/components/webform/webform.html.twig' with component %}
 {% endif %}

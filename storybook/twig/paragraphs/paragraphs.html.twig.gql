@@ -15,4 +15,5 @@ fragment Paragraph on Paragraph {
   ...ParagraphText
   ...ParagraphTextBgMedia
   ...ParagraphTextWithMedia
+  ...ParagraphWebform
 }
