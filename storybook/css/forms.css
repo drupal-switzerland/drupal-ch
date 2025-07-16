@@ -72,6 +72,7 @@ input[type='radio'] {
   cursor: pointer;
   margin-bottom: 0;
 
+  & + label,
   & + span {
     display: inline-block;
     position: relative;
@@ -105,11 +106,13 @@ input[type='radio'] {
     }
   }
 
+  &:checked + label::after,
   &:checked + span::after {
     opacity: 1;
     transform: scale(1);
   }
 
+  &:disabled + label,
   &:disabled + span {
     opacity: var(--disabled-opacity);
   }
@@ -118,6 +121,7 @@ input[type='radio'] {
 input[type='radio'] {
   margin-bottom: 0;
 
+  & + label,
   & + span {
     &::after,
     &::before {

@@ -1485,21 +1485,28 @@ input[type='radio'] {
   cursor: pointer;
   margin-bottom: 0
 }
-input[type='checkbox'] + span, input[type='radio'] + span {
+input[type='checkbox'] + label,
+  input[type='checkbox'] + span,
+  input[type='radio'] + label,
+  input[type='radio'] + span {
     display: inline-block;
     position: relative;
     padding-left: calc(16px + 20px);
     padding-left: calc(var(--space-200) + var(--checkbox-radio-size))
   }
-input[type='checkbox'] + span::before,
+input[type='checkbox'] + label::before,
+    input[type='checkbox'] + label::after,
+    input[type='checkbox'] + span::before,
     input[type='checkbox'] + span::after,
+    input[type='radio'] + label::before,
+    input[type='radio'] + label::after,
     input[type='radio'] + span::before,
     input[type='radio'] + span::after {
       content: '';
       display: block;
       position: absolute;
     }
-input[type='checkbox'] + span::before, input[type='radio'] + span::before {
+input[type='checkbox'] + label::before, input[type='checkbox'] + span::before, input[type='radio'] + label::before, input[type='radio'] + span::before {
       background-color: #fff;
       background-color: var(--white);
       height: 20px;
@@ -1511,7 +1518,7 @@ input[type='checkbox'] + span::before, input[type='radio'] + span::before {
       left: 0;
       top: 1px;
     }
-input[type='checkbox'] + span::after, input[type='radio'] + span::after {
+input[type='checkbox'] + label::after, input[type='checkbox'] + span::after, input[type='radio'] + label::after, input[type='radio'] + span::after {
       background-color: #0678be;
       background-color: var(--blue);
       height: calc(20px - 6px);
@@ -1525,19 +1532,27 @@ input[type='checkbox'] + span::after, input[type='radio'] + span::after {
               transform: scale(0);
       transition: all 0.4s ease-out;
     }
-input[type='checkbox']:checked + span::after, input[type='radio']:checked + span::after {
+input[type='checkbox']:checked + label::after,
+  input[type='checkbox']:checked + span::after,
+  input[type='radio']:checked + label::after,
+  input[type='radio']:checked + span::after {
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-input[type='checkbox']:disabled + span, input[type='radio']:disabled + span {
+input[type='checkbox']:disabled + label,
+  input[type='checkbox']:disabled + span,
+  input[type='radio']:disabled + label,
+  input[type='radio']:disabled + span {
     opacity: 0.7;
     opacity: var(--disabled-opacity);
   }
 input[type='radio'] {
   margin-bottom: 0
 }
-input[type='radio'] + span::after,
+input[type='radio'] + label::after,
+    input[type='radio'] + label::before,
+    input[type='radio'] + span::after,
     input[type='radio'] + span::before {
       border-radius: 50%;
     }
@@ -1857,32 +1872,6 @@ input[type='radio'] + span::after,
     width: 75%;
   }
   }
-.manual-teaser {
-  padding-top: 48px;
-  padding-top: var(--space-600);
-  padding-bottom: 48px;
-  padding-bottom: var(--space-600);
-}
-@media (min-width: 1024px) {
-.manual-teaser {
-    padding-top: 112px;
-    padding-top: var(--space-1400);
-    padding-bottom: 112px;
-    padding-bottom: var(--space-1400);
-}
-  }
-.manual-teaser__content {
-    padding-top: 16px;
-    padding-top: var(--space-200)
-  }
-@media (min-width: 1024px) {
-
-  .manual-teaser__content {
-      padding-top: 0;
-      padding-left: 16px;
-      padding-left: var(--space-200)
-  }
-    }
 :root {
   --link-bg-media-height: 35rem;
 }
@@ -1975,6 +1964,32 @@ input[type='radio'] + span::after,
         margin-left: 40px;
         margin-left: var(--space-500);
       }
+    }
+.manual-teaser {
+  padding-top: 48px;
+  padding-top: var(--space-600);
+  padding-bottom: 48px;
+  padding-bottom: var(--space-600);
+}
+@media (min-width: 1024px) {
+.manual-teaser {
+    padding-top: 112px;
+    padding-top: var(--space-1400);
+    padding-bottom: 112px;
+    padding-bottom: var(--space-1400);
+}
+  }
+.manual-teaser__content {
+    padding-top: 16px;
+    padding-top: var(--space-200)
+  }
+@media (min-width: 1024px) {
+
+  .manual-teaser__content {
+      padding-top: 0;
+      padding-left: 16px;
+      padding-left: var(--space-200)
+  }
     }
 :root {
   --bullet-size: 8px;
@@ -2191,7 +2206,7 @@ input[type='radio'] + span::after,
           padding: 0 var(--space-400) var(--space-400) 0;
         }
 
-        .text-with-media__media--image::after {
+        :has(.border--offset) .text-with-media__media--image::after {
           content: '';
           border: 6px solid #0678be;
           border: 6px solid var(--blue);
@@ -2205,7 +2220,7 @@ input[type='radio'] + span::after,
           /* stylelint-enable max-nesting-depth */
         }
 
-          .left .text-with-media__media--image::after {
+          .left :has(.border--offset) .text-with-media__media--image::after {
             top: 32px;
             top: var(--space-400);
             left: 32px;
