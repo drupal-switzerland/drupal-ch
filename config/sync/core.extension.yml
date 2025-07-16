@@ -26,7 +26,6 @@ module:
   field_ui: 0
   file: 0
   filter: 0
-  git_deploy: 0
   graphql: 0
   graphql_core: 0
   graphql_twig: 0
