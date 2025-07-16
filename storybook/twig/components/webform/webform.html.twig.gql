@@ -1,11 +1,5 @@
 fragment ParagraphWebform on ParagraphWebform {
   webform: fieldWebform {
-    entity {
-      entityUuid
-    }
-    status
-    open
-    close
     targetId
   }
 }

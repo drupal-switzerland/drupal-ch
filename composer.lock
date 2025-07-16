@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1cda36e796b5b65736f1d8d95d610469",
+    "content-hash": "31d773c7770433d7406f50137d03d5e8",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2898,74 +2898,6 @@
                     "url": "https://paypal.me/saschaeggi"
                 }
             ]
-        },
-        {
-            "name": "drupal/git_deploy",
-            "version": "2.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/git_deploy.git",
-                "reference": "8.x-2.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/git_deploy-8.x-2.6.zip",
-                "reference": "8.x-2.6",
-                "shasum": "d5bf20b2fc25c91ab86b6b10e29ce194bf836729"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9 || ^10 || ^11"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-2.6",
-                    "datestamp": "1720518102",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "chx",
-                    "homepage": "https://www.drupal.org/user/9446"
-                },
-                {
-                    "name": "darren oh",
-                    "homepage": "https://www.drupal.org/user/30772"
-                },
-                {
-                    "name": "Freso",
-                    "homepage": "https://www.drupal.org/user/27504"
-                },
-                {
-                    "name": "gábor hojtsy",
-                    "homepage": "https://www.drupal.org/user/4166"
-                },
-                {
-                    "name": "halstead",
-                    "homepage": "https://www.drupal.org/user/301087"
-                },
-                {
-                    "name": "mikey_p",
-                    "homepage": "https://www.drupal.org/user/62496"
-                },
-                {
-                    "name": "sdboyer",
-                    "homepage": "https://www.drupal.org/user/146719"
-                }
-            ],
-            "description": "Gets version info from Git log.",
-            "homepage": "https://www.drupal.org/project/git_deploy",
-            "support": {
-                "source": "https://git.drupalcode.org/project/git_deploy"
-            }
         },
         {
             "name": "drupal/graphql",
