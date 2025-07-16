@@ -19,16 +19,15 @@
         "php": "*",
         "ext-json": "*",
         "ext-zip": "*",
-        "alchemy/zippy": "^0.4.9",
+        "alchemy/zippy": "v0.5.x-dev",
         "amazeeio/drupal_integrations": "^0.5.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/address": "^1.12",
         "drupal/admin_toolbar": "^3.6",
-        "drupal/components": "^2.4",
-        "drupal/console": "^1.9",
-        "drupal/core": "^9.5",
-        "drupal/core-composer-scaffold": "^11.2",
-        "drupal/core-recommended": "^9.5",
+        "drupal/components": "^3.0",
+        "drupal/core": "^10.0",
+        "drupal/core-composer-scaffold": "^10.0",
+        "drupal/core-recommended": "^10.0",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/environment_indicator": "^4.0",
         "drupal/gin": "^3.1",
@@ -51,15 +50,15 @@
         "drupal/varnish_purge": "^2.3",
         "drupal/video_embed_field": "^2.5",
         "drupal/webform": "^6.2",
-        "drush/drush": "^11.6",
+        "drush/drush": "^13.0",
         "vlucas/phpdotenv": "^5.6",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.0.0",
-        "phpunit/phpunit": "^8.4",
-        "sebastian/comparator": "^3.0",
-        "sebastian/diff": "^3.0"
+        "drupal/core-dev": "^10.0",
+        "phpunit/phpunit": "^9.6",
+        "sebastian/comparator": "^4.0",
+        "sebastian/diff": "^4.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -74,7 +73,10 @@
             "drupal/core-composer-scaffold": true,
             "wikimedia/composer-merge-plugin": true,
             "drupal/console-extend-plugin": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true
         }
     },
     "autoload": {
