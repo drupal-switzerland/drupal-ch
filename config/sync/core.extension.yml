@@ -30,6 +30,7 @@ module:
   graphql: 0
   graphql_core: 0
   graphql_twig: 0
+  graphql_webform: 0
   help: 0
   history: 0
   honeypot: 0

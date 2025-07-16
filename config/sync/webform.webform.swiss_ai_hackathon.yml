@@ -11,7 +11,7 @@ archive: false
 id: swiss_ai_hackathon
 title: 'Swiss AI Hackathon'
 description: ''
-category: ''
+categories: {  }
 elements: |-
   name:
     '#type': webform_name
@@ -20,9 +20,11 @@ elements: |-
     '#middle__access': false
     '#suffix__access': false
     '#degree__access': false
+    '#required': true
   email:
     '#type': email
     '#title': Email
+    '#required': true
 css: ''
 javascript: ''
 settings:

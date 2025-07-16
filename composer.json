@@ -35,6 +35,7 @@
         "drupal/git_deploy": "^2.4",
         "drupal/graphql": "<4.0",
         "drupal/graphql_twig": "1.x-dev@dev",
+        "drupal/graphql_webform": "^1",
         "drupal/honeypot": "^2.1",
         "drupal/lagoon_logs": "^2.0",
         "drupal/linkit": "6.0.x-dev@dev",
