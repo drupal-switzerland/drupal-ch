@@ -2,7 +2,9 @@
   <div class="webform__content">
     <h2>{{ title }}</h2>
   </div>
+  {% if webform and webform.form %}
   <div class="webform__form">
     {{ webform.form }}
   </div>
+  {% endif %}
 </section>
