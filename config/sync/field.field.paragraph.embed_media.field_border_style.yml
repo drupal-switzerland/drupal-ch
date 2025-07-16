@@ -1,0 +1,27 @@
+uuid: 7c610ea6-15b8-4c94-9e55-a9af9c3c10a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_border_style
+    - paragraphs.paragraphs_type.embed_media
+  module:
+    - options
+    - tmgmt_content
+third_party_settings:
+  tmgmt_content:
+    excluded: false
+id: paragraph.embed_media.field_border_style
+field_name: field_border_style
+entity_type: paragraph
+bundle: embed_media
+label: 'Border Style'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: offset
+default_value_callback: ''
+settings: {  }
+field_type: list_string

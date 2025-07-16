@@ -18,7 +18,7 @@
           padding: 0 var(--space-400) var(--space-400) 0;
         }
 
-        &::after {
+        :has(.border--offset) &::after {
           content: '';
           border: 6px solid var(--blue);
           position: absolute;

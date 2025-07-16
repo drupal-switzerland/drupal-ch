@@ -1,7 +1,10 @@
 {% if entity %}
   {% set media = entity %}
   {% if media is not empty %}
-    <section class="embed-media">
+    <section class="embed-media {{ border ? 'border--' ~ border : 'border--none' }}">
+      {% if link and link.url.path %}
+        <a href="{{ link.url.path }}" class="action {{ isInvert ? 'invert' : '' }}">
+      {% endif %}
       {% if media.type == 'MediaImage' %}
         {% include '@twig/components/media/media-image/media-image.html.twig' with {
           mediaImage: media.mediaImage,
@@ -15,6 +18,9 @@
         {% include '@twig/components/media/media-video/media-video.html.twig' with media only %}
       {% elseif media.type == 'MediaDocument' %}
         {% include '@twig/components/media/media-document/media-document.html.twig' with media.document.entity only %}
+      {% endif %}
+      {% if link and link.url.path %}
+        </a>
       {% endif %}
     </section>
   {% endif %}

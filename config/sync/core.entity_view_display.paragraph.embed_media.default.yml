@@ -3,16 +3,38 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.embed_media.field_border_style
+    - field.field.paragraph.embed_media.field_link
     - field.field.paragraph.embed_media.field_media
     - field.field.paragraph.embed_media.field_position
     - paragraphs.paragraphs_type.embed_media
   module:
+    - link
     - options
 id: paragraph.embed_media.default
 targetEntityType: paragraph
 bundle: embed_media
 mode: default
 content:
+  field_border_style:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
   field_media:
     type: entity_reference_entity_view
     label: hidden

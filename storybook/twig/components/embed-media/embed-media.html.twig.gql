@@ -5,4 +5,5 @@ fragment ParagraphEmbedMedia on ParagraphEmbedMedia {
     }
   }
   position: fieldPosition
+  border: fieldBorderStyle
 }
