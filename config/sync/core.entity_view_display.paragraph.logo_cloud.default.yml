@@ -1,0 +1,25 @@
+uuid: 322dffaf-6b74-43e9-95ff-47107e1609df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo_cloud.field_logos
+    - paragraphs.paragraphs_type.logo_cloud
+  module:
+    - entity_reference_revisions
+id: paragraph.logo_cloud.default
+targetEntityType: paragraph
+bundle: logo_cloud
+mode: default
+content:
+  field_logos:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

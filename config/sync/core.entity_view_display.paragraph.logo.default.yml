@@ -1,0 +1,47 @@
+uuid: 985d08c8-bcab-4964-995a-96a1914cf347
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo.field_image_logo
+    - field.field.paragraph.logo.field_link
+    - field.field.paragraph.logo.field_title
+    - paragraphs.paragraphs_type.logo
+  module:
+    - link
+id: paragraph.logo.default
+targetEntityType: paragraph
+bundle: logo
+mode: default
+content:
+  field_image_logo:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

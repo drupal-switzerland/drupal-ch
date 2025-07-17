@@ -1,0 +1,10 @@
+uuid: e7e63f49-7b4f-47f2-94df-cc0f4a619636
+langcode: en
+status: true
+dependencies: {  }
+id: logo_cloud
+label: 'Logo Cloud'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

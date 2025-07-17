@@ -1,0 +1,95 @@
+uuid: 8a941e1a-4ea9-4115-9165-cff510758539
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_logos
+    - paragraphs.paragraphs_type.logo
+    - paragraphs.paragraphs_type.logo_cloud
+  module:
+    - entity_reference_revisions
+    - tmgmt_content
+third_party_settings:
+  tmgmt_content:
+    excluded: false
+id: paragraph.logo_cloud.field_logos
+field_name: field_logos
+entity_type: paragraph
+bundle: logo_cloud
+label: Logos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      logo: logo
+    negate: 0
+    target_bundles_drag_drop:
+      embed_media:
+        weight: 22
+        enabled: false
+      gallery:
+        weight: 23
+        enabled: false
+      highlight:
+        weight: 24
+        enabled: false
+      highlight_slide:
+        weight: 25
+        enabled: false
+      highlight_slider:
+        weight: 26
+        enabled: false
+      icon_highlight:
+        weight: 27
+        enabled: false
+      icon_teaser:
+        weight: 28
+        enabled: false
+      image:
+        weight: 29
+        enabled: false
+      link:
+        weight: 30
+        enabled: false
+      link_bg_media:
+        weight: 31
+        enabled: false
+      logo:
+        weight: 32
+        enabled: true
+      logo_cloud:
+        weight: 33
+        enabled: false
+      manual_teaser:
+        weight: 34
+        enabled: false
+      media:
+        weight: 35
+        enabled: false
+      slide:
+        weight: 36
+        enabled: false
+      slider:
+        weight: 37
+        enabled: false
+      teaser:
+        weight: 38
+        enabled: false
+      text:
+        weight: 39
+        enabled: false
+      text_bg_media:
+        weight: 40
+        enabled: false
+      text_with_media:
+        weight: 41
+        enabled: false
+      webform:
+        weight: 42
+        enabled: false
+field_type: entity_reference_revisions
