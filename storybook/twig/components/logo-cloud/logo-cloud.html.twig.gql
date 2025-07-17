@@ -1,6 +1,11 @@
 fragment ParagraphLogoCloud on ParagraphLogoCloud {
   componentId: fieldParagraphId
   title: fieldTitle
+  tagline: fieldMetaEyebrow
+  text: fieldText {
+    processed
+  }
+  cloudTitle: fieldCloudTitle
   logos: fieldLogos {
     entity {
       ...ParagraphLogo

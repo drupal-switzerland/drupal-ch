@@ -1999,6 +1999,14 @@ input[type='radio'] + label::after,
       grid-template-columns: repeat(6, 1fr)
   }
     }
+.logo-cloud__text {
+    margin-bottom: 32px;
+    margin-bottom: var(--space-400);
+  }
+.logo-cloud__cloud-title {
+    margin-bottom: 32px;
+    margin-bottom: var(--space-400);
+  }
 .manual-teaser {
   padding-top: 48px;
   padding-top: var(--space-600);

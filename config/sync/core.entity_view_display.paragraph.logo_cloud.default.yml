@@ -3,17 +3,29 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.logo_cloud.field_cloud_title
     - field.field.paragraph.logo_cloud.field_logos
+    - field.field.paragraph.logo_cloud.field_meta_eyebrow
     - field.field.paragraph.logo_cloud.field_paragraph_id
+    - field.field.paragraph.logo_cloud.field_text
     - field.field.paragraph.logo_cloud.field_title
     - paragraphs.paragraphs_type.logo_cloud
   module:
     - entity_reference_revisions
+    - text
 id: paragraph.logo_cloud.default
 targetEntityType: paragraph
 bundle: logo_cloud
 mode: default
 content:
+  field_cloud_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
   field_logos:
     type: entity_reference_revisions_entity_view
     label: above
@@ -23,6 +35,14 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_meta_eyebrow:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_paragraph_id:
     type: string
     label: above
@@ -30,6 +50,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
     region: content
   field_title:
     type: string

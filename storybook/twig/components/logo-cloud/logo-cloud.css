@@ -15,4 +15,12 @@
       grid-template-columns: repeat(6, 1fr);
     }
   }
+
+  &__text {
+    margin-bottom: var(--space-400);
+  }
+
+  &__cloud-title {
+    margin-bottom: var(--space-400);
+  }
 }
