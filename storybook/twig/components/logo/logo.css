@@ -2,11 +2,4 @@
   &__title {
     margin-bottom: var(--space-300);
   }
-
-  &__image {
-    max-width: 100%;
-    max-height: 100px;
-    object-fit: contain;
-    object-position: center;
-  }
 }

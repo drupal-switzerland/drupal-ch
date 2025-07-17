@@ -1,4 +1,11 @@
 .logo-cloud {
+  padding-top: var(--space-400);
+  padding-bottom: var(--space-400);
+
+  &__title {
+    margin-bottom: var(--space-400);
+  }
+
   &__logos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
