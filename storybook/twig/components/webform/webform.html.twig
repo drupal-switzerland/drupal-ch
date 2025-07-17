@@ -1,3 +1,8 @@
 <section {{ componentId ? 'id=' ~ (componentId | clean_class) : '' }} class="webform inner">
-  {{ drupal_entity('webform', webform.targetId) }}
+  {% if title is not empty %}
+    <h2 class="webform__title h2">{{ title }}</h2>
+  {% endif %}
+  <div class="webform__content">
+    {{ drupal_entity('webform', webform.targetId) }}
+  </div>
 </section>

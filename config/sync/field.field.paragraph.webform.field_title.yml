@@ -1,0 +1,24 @@
+uuid: bf02cf81-8717-4f85-bf90-34a67e2cd3f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.webform
+  module:
+    - tmgmt_content
+third_party_settings:
+  tmgmt_content:
+    excluded: false
+id: paragraph.webform.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: webform
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

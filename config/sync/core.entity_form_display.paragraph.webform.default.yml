@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.webform.field_paragraph_id
+    - field.field.paragraph.webform.field_title
     - field.field.paragraph.webform.field_webform
     - paragraphs.paragraphs_type.webform
   module:
@@ -12,9 +14,25 @@ targetEntityType: paragraph
 bundle: webform
 mode: default
 content:
+  field_paragraph_id:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_webform:
     type: webform_entity_reference_select
-    weight: 0
+    weight: 2
     region: content
     settings:
       default_data: true
