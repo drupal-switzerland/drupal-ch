@@ -6,4 +6,9 @@ fragment ParagraphEmbedMedia on ParagraphEmbedMedia {
   }
   position: fieldPosition
   border: fieldBorderStyle
+  link: fieldLink {
+    url {
+      path
+    }
+  }
 }
