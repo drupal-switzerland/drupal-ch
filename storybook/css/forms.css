@@ -129,3 +129,8 @@ input[type='radio'] {
     }
   }
 }
+
+[type=submit].button {
+  margin-top: var(--space-400);
+  margin-bottom: var(--space-400);
+}

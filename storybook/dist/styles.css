@@ -1556,6 +1556,12 @@ input[type='radio'] + label::after,
     input[type='radio'] + span::before {
       border-radius: 50%;
     }
+[type=submit].button {
+  margin-top: 32px;
+  margin-top: var(--space-400);
+  margin-bottom: 32px;
+  margin-bottom: var(--space-400);
+}
 /* Import components styles. */
 .footer__sponsors {
     padding: 16px 0;
@@ -2264,7 +2270,7 @@ input[type='radio'] + label::after,
 .webform__content {
     padding: 32px;
     padding: var(--space-400);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(180, 220, 240, 0.2);
   }
 @media (min-width: 1024px) {
   .footer-menu__items {
