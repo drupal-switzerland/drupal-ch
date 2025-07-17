@@ -1,0 +1,9 @@
+fragment ParagraphLogoCloud on ParagraphLogoCloud {
+  componentId: fieldParagraphId
+  title: fieldTitle
+  logos: fieldLogos {
+    entity {
+      ...ParagraphLogo
+    }
+  }
+}

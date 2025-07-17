@@ -16,4 +16,6 @@ fragment Paragraph on Paragraph {
   ...ParagraphTextBgMedia
   ...ParagraphTextWithMedia
   ...ParagraphWebform
+  ...ParagraphLogoCloud
+  ...ParagraphLogo
 }

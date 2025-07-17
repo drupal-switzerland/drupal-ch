@@ -31,4 +31,8 @@
   {% include '@twig/components/text-with-media/text-with-media.html.twig' with component %}
 {% elseif type == 'ParagraphWebform' %}
   {% include '@twig/components/webform/webform.html.twig' with component %}
+{% elseif type == 'ParagraphLogoCloud' %}
+  {% include '@twig/components/logo-cloud/logo-cloud.html.twig' with component %}
+{% elseif type == 'ParagraphLogo' %}
+  {% include '@twig/components/logo/logo.html.twig' with component %}
 {% endif %}

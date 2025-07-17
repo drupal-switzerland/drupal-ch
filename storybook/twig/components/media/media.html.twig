@@ -3,7 +3,7 @@
   {% if media is not empty %}
     <section class="embed-media {{ border ? 'border--' ~ border : 'border--none' }}">
       {% if link and link.url.path %}
-        <a href="{{ link.url.path }}" class="action {{ isInvert ? 'invert' : '' }}">
+        <a href="{{ link.url.path }}" class="action {{ isInvert ? 'invert' : '' }}" target="_blank" rel="noopener noreferrer">
       {% endif %}
       {% if media.type == 'MediaImage' %}
         {% include '@twig/components/media/media-image/media-image.html.twig' with {

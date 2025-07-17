@@ -1,0 +1,15 @@
+fragment ParagraphLogo on ParagraphLogo {
+  title: fieldTitle
+  link: fieldLink {
+    title
+    uri
+    url {
+      path
+    }
+  }
+  image: fieldImageLogo {
+    entity {
+      ...MediaImage
+    }
+  }
+}

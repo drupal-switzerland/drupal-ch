@@ -1,6 +1,7 @@
 .webform {
   padding-top: var(--space-600);
   padding-bottom: var(--space-600);
+  background-color: rgba(180, 220, 240, 0.15);
 
   &__title {
     margin-bottom: var(--space-300);
@@ -8,6 +9,5 @@
 
   &__content {
     padding: var(--space-400);
-    background-color: rgba(180, 220, 240, 0.2);
   }
 }

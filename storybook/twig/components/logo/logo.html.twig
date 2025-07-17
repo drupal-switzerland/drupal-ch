@@ -1,0 +1,14 @@
+<section {{ componentId ? 'id=' ~ (componentId | clean_class) : '' }} class="logo">
+  {% if link %}
+    <a href="{{ link.url.path }}" class="logo__link" target="_blank" rel="noopener noreferrer">
+  {% endif %}
+  {% if title %}
+    <h5 class="logo__title">{{ title }}</h5>
+  {% endif %}
+  <div class="logo__image">
+    {% include '@twig/components/media/media.html.twig' with image only %}
+  </div>
+  {% if link %}
+    </a>
+  {% endif %}
+</section>
