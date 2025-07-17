@@ -1,0 +1,11 @@
+.logo-cloud {
+  &__logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-400);
+
+    @media (--desktop-up) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+}
