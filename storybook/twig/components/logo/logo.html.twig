@@ -6,7 +6,14 @@
     <h5 class="logo__title">{{ title }}</h5>
   {% endif %}
   <div class="logo__image">
-    {% include '@twig/components/media/media.html.twig' with image only %}
+    {% include '@twig/components/media/media.html.twig' with image | merge({
+      imageStyle: 'squareLarge',
+      responsiveStyle: responsiveStyle | default({
+        large: 'squareLarge',
+        medium: 'squareMedium',
+        small: 'squareSmall'
+      })
+    }) only %}
   </div>
   {% if link %}
     </a>
