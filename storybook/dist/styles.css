@@ -1556,6 +1556,10 @@ input[type='radio'] + label::after,
     input[type='radio'] + span::before {
       border-radius: 50%;
     }
+.webform-options-display-one-column {
+  margin-bottom: 32px;
+  margin-bottom: var(--space-400);
+}
 [type=submit].button {
   margin-top: 32px;
   margin-top: var(--space-400);

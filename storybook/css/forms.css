@@ -130,6 +130,10 @@ input[type='radio'] {
   }
 }
 
+.webform-options-display-one-column {
+  margin-bottom: var(--space-400);
+}
+
 [type=submit].button {
   margin-top: var(--space-400);
   margin-bottom: var(--space-400);
