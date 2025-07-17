@@ -2251,6 +2251,10 @@ input[type='radio'] + label::after,
 .text-with-media .text.inner {
     padding: 0;
   }
+.page .text:first-child,
+    .page .text + .text {
+      padding-top: 0;
+    }
 @media (min-width: 1024px) {
   .footer-menu__items {
       display: flex;
@@ -2433,10 +2437,6 @@ input[type='radio'] + label::after,
       color: var(--dark-blue);
       border-color: #0678be;
       border-color: var(--blue);
-    }
-.page .text:first-child,
-    .page .text + .text {
-      padding-top: 0;
     }
 @media (min-width: 1024px) {
   .highlight-slide__images {
