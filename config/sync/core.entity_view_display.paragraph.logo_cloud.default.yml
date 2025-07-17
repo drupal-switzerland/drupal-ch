@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.logo_cloud.field_logos
+    - field.field.paragraph.logo_cloud.field_paragraph_id
+    - field.field.paragraph.logo_cloud.field_title
     - paragraphs.paragraphs_type.logo_cloud
   module:
     - entity_reference_revisions
@@ -20,6 +22,22 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_paragraph_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
   search_api_excerpt: true
