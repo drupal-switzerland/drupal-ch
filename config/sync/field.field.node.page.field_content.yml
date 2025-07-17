@@ -9,9 +9,14 @@ dependencies:
     - paragraphs.paragraphs_type.highlight_slide
     - paragraphs.paragraphs_type.icon_teaser
     - paragraphs.paragraphs_type.link
+    - paragraphs.paragraphs_type.logo_cloud
     - paragraphs.paragraphs_type.slide
   module:
     - entity_reference_revisions
+    - tmgmt_content
+third_party_settings:
+  tmgmt_content:
+    excluded: false
 id: node.page.field_content
 field_name: field_content
 entity_type: node
@@ -31,6 +36,7 @@ settings:
       highlight_slide: highlight_slide
       link: link
       icon_teaser: icon_teaser
+      logo_cloud: logo_cloud
     negate: 1
     target_bundles_drag_drop:
       embed_media:
@@ -63,14 +69,17 @@ settings:
       link_bg_media:
         weight: 15
         enabled: false
+      logo:
+        weight: 32
+        enabled: false
+      logo_cloud:
+        weight: 33
+        enabled: true
       manual_teaser:
         weight: 21
         enabled: false
       media:
         weight: 7
-        enabled: false
-      multi_column:
-        weight: 9
         enabled: false
       slide:
         weight: 10
@@ -89,5 +98,8 @@ settings:
         enabled: false
       text_with_media:
         weight: 20
+        enabled: false
+      webform:
+        weight: 42
         enabled: false
 field_type: entity_reference_revisions
