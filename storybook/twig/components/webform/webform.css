@@ -8,6 +8,6 @@
   }
 
   &__content {
-    padding: var(--space-400);
+    padding: var(--space-400) 0;
   }
 }

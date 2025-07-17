@@ -2309,8 +2309,8 @@ input[type='radio'] + label::after,
     margin-bottom: var(--space-300);
   }
 .webform__content {
-    padding: 32px;
-    padding: var(--space-400);
+    padding: 32px 0;
+    padding: var(--space-400) 0;
   }
 @media (min-width: 1024px) {
   .footer-menu__items {
