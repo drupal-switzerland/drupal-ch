@@ -9,7 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.highlight_slide
     - paragraphs.paragraphs_type.icon_teaser
     - paragraphs.paragraphs_type.link
-    - paragraphs.paragraphs_type.logo_cloud
+    - paragraphs.paragraphs_type.logo
     - paragraphs.paragraphs_type.slide
   module:
     - entity_reference_revisions
@@ -36,7 +36,7 @@ settings:
       highlight_slide: highlight_slide
       link: link
       icon_teaser: icon_teaser
-      logo_cloud: logo_cloud
+      logo: logo
     negate: 1
     target_bundles_drag_drop:
       embed_media:
@@ -71,10 +71,10 @@ settings:
         enabled: false
       logo:
         weight: 32
-        enabled: false
+        enabled: true
       logo_cloud:
         weight: 33
-        enabled: true
+        enabled: false
       manual_teaser:
         weight: 21
         enabled: false
