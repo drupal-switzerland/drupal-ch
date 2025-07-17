@@ -9,5 +9,11 @@
 
   &__content {
     padding: var(--space-400) 0;
+    max-width: 80ch;
+  }
+
+  p,
+  label {
+    font-size: var(--font-s);
   }
 }

@@ -2311,6 +2311,12 @@ input[type='radio'] + label::after,
 .webform__content {
     padding: 32px 0;
     padding: var(--space-400) 0;
+    max-width: 80ch;
+  }
+.webform p,
+  .webform label {
+    font-size: 1.8rem;
+    font-size: var(--font-s);
   }
 @media (min-width: 1024px) {
   .footer-menu__items {
