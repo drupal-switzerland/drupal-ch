@@ -2545,15 +2545,19 @@ input[type="radio"] + span::before {
 }
 .media-video img,
 .media-video iframe {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  aspect-ratio: 16 / 9;
 }
 .media-video img {
+  position: absolute;
   -o-object-fit: cover;
   object-fit: cover;
+}
+.media-video iframe {
+  position: static;
 }
 .slide {
   padding-top: 48px;
