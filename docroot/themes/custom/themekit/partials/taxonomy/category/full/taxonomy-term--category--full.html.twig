@@ -9,7 +9,9 @@
   %}
   <div class="field-banner">
     <div class="field-text">
-      <a class="link--back" href="/solutions" >{{ 'Solutions'|t }}</a>
+      {% if site_settings.links.services_link %}
+        <a class="link--back" href="{{ site_settings.links.services_link.url }}" >{{ site_settings.links.services_link.title }}</a>
+      {% endif %}
       <h1 class="heading">{{ term.field_heading.value }}</h1>
 
       <div class="field--name-field-intro">
@@ -34,12 +36,6 @@
     </div>
   </div>
 
-  {% set view = drupal_view_result('cases', 'category')|length %}
-  {% if view > 0 %}
-    <div class="block-slider-cases field-view">
-      <h2 class="heading">{{ 'These cases show the power'|t }} <br> {{ 'of'|t }} {{ term.field_heading.value }}</h2>
-      {{ drupal_view('cases', 'category') }}
-    </div>
-  {% endif %}
+  {{ drupal_view('cases', 'category') }}
 
 {% endblock %}

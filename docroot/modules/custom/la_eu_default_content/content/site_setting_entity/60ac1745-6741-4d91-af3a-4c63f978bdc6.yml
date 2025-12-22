@@ -11,9 +11,9 @@ default:
   name:
     -
       value: 'Footer copyright'
-  fieldset:
+  group:
     -
-      value: Footer
+      target_id: footer
   status:
     -
       value: true

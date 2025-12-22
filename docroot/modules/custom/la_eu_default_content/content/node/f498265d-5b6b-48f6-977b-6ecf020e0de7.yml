@@ -130,7 +130,7 @@ default:
             uuid: aeddd964-acbe-4714-8aa4-a436c25eb895
             region: first
             configuration:
-              id: 'views_block:partners-listing'
+              id: 'views_block:partners-randomized_grouped'
               label: ''
               label_display: 0
               provider: views

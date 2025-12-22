@@ -18,7 +18,9 @@
 
   <div class="field-banner">
     <div class="field-text">
-      <a class="link--back" href="/partners" >{{ 'Partners'|t }}</a>
+      {% if site_settings.links.partners_link %}
+        <a class="link--back" href="{{ site_settings.links.partners_link.url }}" >{{ site_settings.links.partners_link.title }}</a>
+      {% endif %}
       <h1 class="heading">{{ node.label }}</h1>
       <div class="field-category">
         {{ node.field_category.entity.label }} {{ 'Partner'|t }}
@@ -39,12 +41,7 @@
       <div class="field-content-items">
         {{ rendered_content }}
       </div>
-      {% if drupal_view_result('cases', 'cases')|length %}
-        <div class="field-view">
-          <h2 class="heading">{{ 'Cases of'|t }} {{ node.label }} <br> {{ 'that we are proud of'|t }}</h2>
-          {{ drupal_view('cases', 'cases') }}
-        </div>
-      {% endif %}
+      {{ drupal_view('cases', 'cases') }}
     </div>
     <div class="field-info">
       <div class="field-item-info">

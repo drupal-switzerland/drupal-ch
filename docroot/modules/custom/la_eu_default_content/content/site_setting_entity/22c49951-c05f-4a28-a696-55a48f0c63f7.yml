@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: site_setting_entity
+  uuid: 22c49951-c05f-4a28-a696-55a48f0c63f7
+  bundle: partners_randomized_grouped
+  default_langcode: en
+  depends:
+    36d2f31e-7b87-4da4-bd23-fbf767ed254e: node
+default:
+  status:
+    -
+      value: true
+  user_id:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Partners - Randomized Grouped'
+  group:
+    -
+      target_id: views
+  created:
+    -
+      value: 1758229821
+  revision_translation_affected:
+    -
+      value: true
+  field_become_partner_link:
+    -
+      target_uuid: 36d2f31e-7b87-4da4-bd23-fbf767ed254e
+      title: 'Your logo can be here'
+      options: {  }

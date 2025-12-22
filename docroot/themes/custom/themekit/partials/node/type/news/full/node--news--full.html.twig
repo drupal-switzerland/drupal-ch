@@ -8,6 +8,9 @@
 
   <div class="field-banner">
     <div class="field-text">
+      {% if site_settings.links.news_link %}
+        <a class="link--back" href="{{ site_settings.links.news_link.url }}" >{{ site_settings.links.news_link.title }}</a>
+      {% endif %}
       <h1 class="heading">{{ node.label }}</h1>
       <div class="field-category">
         {{ node.getCreatedTime|format_date('short') }}

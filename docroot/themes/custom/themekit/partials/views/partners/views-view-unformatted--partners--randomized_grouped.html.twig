@@ -1,0 +1,46 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+<div class="level-wrapper">
+  {% if title %}
+    <h3>{{ title }}</h3>
+  {% endif %}
+  <div class="level-items">
+    {% for row in rows %}
+      {%
+        set row_classes = [
+        default_row_class ? 'views-row',
+      ]
+      %}
+      <div{{ row.attributes.addClass(row_classes) }}>
+        {{- row.content -}}
+      </div>
+    {% endfor %}
+    {#
+      Add a "Become a partner" link to the last row of the view. The last row of
+      the view is determined by checking if the index of the last row is equal
+      to the total number of rows minus one.
+    #}
+    {% if view.total_rows - 1 == rows|keys|last and site_settings.views.partners_randomized_grouped %}
+        <div class="views-row">
+          <a class="become-partner" href="{{ site_settings.views.partners_randomized_grouped.url }}">
+            <span>{{ site_settings.views.partners_randomized_grouped.title }}</span>
+          </a>
+        </div>
+    {% endif %}
+  </div>
+</div>

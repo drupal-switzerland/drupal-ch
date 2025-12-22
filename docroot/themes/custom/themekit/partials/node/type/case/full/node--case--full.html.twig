@@ -14,7 +14,9 @@
 
   <div class="field-banner">
     <div class="field-text">
-      <a class="link--back" href="/cases" >{{ 'Cases'|t }}</a>
+      {% if site_settings.links.cases_link %}
+        <a class="link--back" href="{{ site_settings.links.cases_link.url }}" >{{ site_settings.links.cases_link.title }}</a>
+      {% endif %}
       <h1 class="heading">{{ node.label }}</h1>
       <div class="field-category">
         {{ node.field_category.entity.label }}
