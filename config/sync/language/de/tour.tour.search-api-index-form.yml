@@ -11,7 +11,7 @@ tips:
     body: 'Datasources define the types of items that will be indexed in this index. By default, all content entities (like content, comments and taxonomy terms) will be available here, but modules can also add their own.'
   search-api-index-form-tracker:
     label: Tracker
-    body: 'An index''s tracker is the system that keeps track of which items there are available for the index, and which of them still need to be indexed. Changing the tracker of an existing index will lead to reindexing of all items.'
+    body: "An index's tracker is the system that keeps track of which items there are available for the index, and which of them still need to be indexed. Changing the tracker of an existing index will lead to reindexing of all items."
   search-api-index-form-server:
     label: Server
     body: 'The search server that the index should use for indexing and searching. If no server is selected here, the index cannot be enabled. An index can only have one server, but a server can have any number of indexes.'

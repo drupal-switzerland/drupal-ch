@@ -11,7 +11,7 @@ tips:
     body: 'A label for the field that will be used to refer to the field in most places in the user interface.'
   search-api-index-fields-machine-name:
     label: Systemname
-    body: 'The internal ID to use for this field. Can safely be ignored by inexperienced users in most cases. Changing a field''s machine name requires reindexing of the index.'
+    body: "The internal ID to use for this field. Can safely be ignored by inexperienced users in most cases. Changing a field's machine name requires reindexing of the index."
   search-api-index-fields-property-path:
     label: 'Property path'
     body: 'The internal relationship linking the indexed item to the field, with links being separated by colons (:). This can be useful information for advanced users, but can otherwise be ignored.'

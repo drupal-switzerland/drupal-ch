@@ -4,11 +4,13 @@ status: true
 dependencies:
   module:
     - config_translation
+    - file
     - locale
 id: translator
 label: Translator
 weight: 2
 is_admin: null
 permissions:
+  - 'delete own files'
   - 'translate configuration'
   - 'translate interface'

@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.blog.field_content
+    - field.field.node.blog.field_hero
+    - field.field.node.blog.field_metatags
     - node.type.blog
   module:
     - user

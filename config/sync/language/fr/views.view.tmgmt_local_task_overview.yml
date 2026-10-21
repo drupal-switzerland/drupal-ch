@@ -70,7 +70,7 @@ display:
             label: État
         source_language:
           expose:
-            label: 'Langue d''origine'
+            label: "Langue d'origine"
         title:
           expose:
             label: Étiquette
@@ -108,7 +108,7 @@ display:
             label: État
         source_language:
           expose:
-            label: 'Langue d''origine'
+            label: "Langue d'origine"
         title:
           expose:
             label: Étiquette
@@ -145,7 +145,7 @@ display:
             label: État
         source_language:
           expose:
-            label: 'Langue d''origine'
+            label: "Langue d'origine"
         title:
           expose:
             label: Étiquette
@@ -183,7 +183,7 @@ display:
             label: État
         source_language:
           expose:
-            label: 'Langue d''origine'
+            label: "Langue d'origine"
         title:
           expose:
             label: Étiquette
@@ -220,7 +220,7 @@ display:
             label: État
         source_language:
           expose:
-            label: 'Langue d''origine'
+            label: "Langue d'origine"
         title:
           expose:
             label: Étiquette
@@ -258,7 +258,7 @@ display:
             label: État
         source_language:
           expose:
-            label: 'Langue d''origine'
+            label: "Langue d'origine"
         title:
           expose:
             label: Étiquette

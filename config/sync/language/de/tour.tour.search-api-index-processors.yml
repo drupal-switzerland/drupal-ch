@@ -2,7 +2,7 @@ label: 'Processors used for this index'
 tips:
   search-api-index-processors-introduction:
     label: 'Processors used for this index'
-    body: 'Processors customize different aspects of an index''s functionality. They can keep items from being indexed, change how certain fields are indexed and influence searches.'
+    body: "Processors customize different aspects of an index's functionality. They can keep items from being indexed, change how certain fields are indexed and influence searches."
   search-api-index-processors-enable:
     label: 'Enable processors'
     body: 'This lists all processors available for this index and lets you choose the ones that should be active. (Note: Some processors cannot be disabled.)'

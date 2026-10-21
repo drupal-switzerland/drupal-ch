@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.page.field_content
+    - field.field.node.page.field_hero
+    - field.field.node.page.field_metatags
     - node.type.page
   module:
     - user

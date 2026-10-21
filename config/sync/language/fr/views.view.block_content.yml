@@ -1,10 +1,7 @@
-label: 'Bibliothèque de blocs personnalisés'
-description: 'Trouver et gérer les blocs personnalisés.'
 display:
   default:
     display_title: Maître
     display_options:
-      title: 'Bibliothèque de blocs personnalisés'
       fields:
         info:
           label: 'Description du bloc'
@@ -32,9 +29,6 @@ display:
           exposed_sorts_label: 'Trier par'
           sort_asc_label: Asc
           sort_desc_label: Desc
-      empty:
-        area_text_custom:
-          content: 'Il n''y a pas de bloc personnalisé disponible.'
       filters:
         info:
           expose:
@@ -46,4 +40,4 @@ display:
     display_title: Page
     display_options:
       menu:
-        title: 'Bibliothèque de blocs personnalisés'
+        title: Blocs
