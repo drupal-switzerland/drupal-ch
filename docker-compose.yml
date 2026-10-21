@@ -93,7 +93,7 @@ services:
 
 
   mariadb:
-    image: amazeeio/mariadb-drupal
+    image: uselagoon/mariadb-10.11-drupal
     labels:
       lagoon.type: mariadb
     ports:
@@ -103,7 +103,7 @@ services:
 
   ## Uncomment for Redis
   # redis:
-  #   image: amazeeio/redis
+  #   image: uselagoon/valkey-8
   #   labels:
   #     lagoon.type: redis
   #   environment:
@@ -111,7 +111,7 @@ services:
 
   ## Uncomment for Solr
   # solr:
-  #   image: amazeeio/solr:6.6-drupal
+  #   image: uselagoon/solr-9-drupal
   #   labels:
   #     lagoon.type: solr
   #   ports:
@@ -120,7 +120,7 @@ services:
   #     << : *default-environment
 
   varnish:
-    image: amazeeio/varnish-drupal
+    image: uselagoon/varnish-8-drupal
     labels:
       lagoon.type: varnish
     links:
