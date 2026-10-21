@@ -1,11 +1,11 @@
-FROM uselagoon/php-8.2-cli-drupal as builder
+FROM uselagoon/php-8.4-cli-drupal as builder
 COPY composer.json composer.lock load.environment.php /app/
 COPY scripts /app/scripts
 COPY patches /app/patches
 RUN composer --profile install --no-dev --prefer-dist
 COPY . /app
 
-FROM uselagoon/node-18-builder as nodebuilder
+FROM uselagoon/node-22-builder as nodebuilder
 COPY package.json package-lock.json /app/
 #RUN npm ci --legacy-peer-deps
 COPY . /app
@@ -15,7 +15,7 @@ COPY . /app
 # Config directory should be non-writable.
 RUN chmod 755 /app/web/sites/default && chmod 644 /app/web/sites/default/*
 
-FROM uselagoon/php-8.2-cli-drupal
+FROM uselagoon/php-8.4-cli-drupal
 COPY --from=nodebuilder /app /app
 COPY --from=builder /app /app
 
