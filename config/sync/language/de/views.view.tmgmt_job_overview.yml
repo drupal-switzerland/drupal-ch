@@ -1,3 +1,4 @@
+label: 'Job overview'
 display:
   default:
     display_title: Master
@@ -51,9 +52,16 @@ display:
         source_language:
           expose:
             label: Ausgangssprache
+        target_language:
+          expose:
+            label: 'Target language'
         translator:
           expose:
             label: Anbieter
+      title: 'Job overview'
+      empty:
+        area_text_custom:
+          content: 'No jobs available.'
   page_1:
     display_title: Seite
     display_options:

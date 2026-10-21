@@ -1,7 +1,10 @@
 uuid: 1c5ef03b-c67c-4f1d-9e9b-b283db3465de
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - config_translation
+    - locale
 id: translator
 label: Translator
 weight: 2

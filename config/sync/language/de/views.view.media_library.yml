@@ -3,6 +3,19 @@ display:
   default:
     display_title: Master
     display_options:
+      title: Medien
+      fields:
+        media_bulk_form:
+          action_title: Aktion
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
       exposed_form:
         options:
           submit_button: 'Filter anwenden'
@@ -10,18 +23,19 @@ display:
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
-      pager:
-        options:
+      empty:
+        area_text_custom:
+          content: 'Keine Medien verfügbar.'
+      sorts:
+        created:
           expose:
-            items_per_page_label: 'Elemente pro Seite'
-            items_per_page_options_all_label: '- Alle -'
-            offset_label: Versatz
-          tags:
-            previous: ‹‹
-            next: ››
-      fields:
-        media_bulk_form:
-          action_title: Aktion
+            label: 'Neueste zuerst'
+        name:
+          expose:
+            label: 'Name (A-Z)'
+        name_1:
+          expose:
+            label: 'Name (Z-A)'
       filters:
         status:
           expose:
@@ -44,20 +58,6 @@ display:
         langcode:
           expose:
             label: Sprache
-      sorts:
-        created:
-          expose:
-            label: 'Neueste zuerst'
-        name:
-          expose:
-            label: 'Name (A-Z)'
-        name_1:
-          expose:
-            label: 'Name (Z-A)'
-      title: Medien
-      empty:
-        area_text_custom:
-          content: 'Keine Medien verfügbar.'
   page:
     display_title: Seite
     display_options:
@@ -75,18 +75,18 @@ display:
           alter:
             text: '{{ name }} löschen'
             alt: '{{ name }} löschen'
-          text: Löschen
+          text: Delete
   widget:
     display_title: Steuerelement
     display_options:
-      filters:
-        name:
-          expose:
-            label: Name
       arguments:
         bundle:
           exception:
             title: Alle
+      filters:
+        name:
+          expose:
+            label: Name
       header:
         display_link_grid:
           label: Raster
@@ -104,14 +104,14 @@ display:
           label: Autor
         changed:
           label: Aktualisiert
-      filters:
-        name:
-          expose:
-            label: Name
       arguments:
         bundle:
           exception:
             title: Alle
+      filters:
+        name:
+          expose:
+            label: Name
       header:
         display_link_grid:
           label: Raster

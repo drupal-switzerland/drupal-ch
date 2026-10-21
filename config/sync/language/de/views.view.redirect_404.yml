@@ -24,6 +24,8 @@ display:
           label: Pfad
         count:
           label: Anzahl
+        daily_count:
+          label: 'Daily count'
         timestamp:
           label: 'Letzter Zugriff'
         langcode:
