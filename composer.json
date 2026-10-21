@@ -21,20 +21,20 @@
         "ext-zip": "*",
         "alchemy/zippy": "dev-master",
         "amazeeio/drupal_integrations": "^0.3.7",
+        "composer/installers": "^2.3",
         "cweagans/composer-patches": "^1.7",
         "drupal/address": "^1.11",
         "drupal/admin_toolbar": "^3.1",
         "drupal/components": "^2.4",
         "drupal/config_ignore": "^3.3",
-        "drupal/console": "^1.9",
         "drupal/core": "^9.5",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-recommended": "^9.5",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/environment_indicator": "^4.0",
         "drupal/gin": "^3.0@beta",
-        "drupal/graphql": "<4.0",
-        "drupal/graphql_twig": "1.x-dev@dev",
+        "drupal/graphql": "^3.9",
+        "drupal/graphql_twig": "^3.0@beta",
         "drupal/graphql_webform": "^1",
         "drupal/honeypot": "^2.1",
         "drupal/lagoon_logs": "^2.0",
@@ -135,6 +135,9 @@
         "patches": {
             "drupal/core": {
                 "#2998194 - Undefined index: #summary_attributes": "https://www.drupal.org/files/issues/2018-12-17/core-undefined-index-summary_attributes-2998194-9.patch"
+            },
+            "drupal/graphql": {
+                "graphql-php 15: resolve Query root type in type loader (fragment on Query)": "patches/graphql-3-query-type-loader.patch"
             }
         },
         "drupal-scaffold": {

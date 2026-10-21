@@ -10,9 +10,9 @@ core_version_requirement: ^8 || ^9
 regions:
   content: 'Content'
 
-component-libraries:
-  twig:
-    paths:
+components:
+  namespaces:
+    twig:
       - ../../../../storybook/twig
 
 libraries:
