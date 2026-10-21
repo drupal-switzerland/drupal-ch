@@ -1,1 +1,6 @@
 label: Telefontyp
+category: Demographic
+options: |
+  Home: Home
+  Office: Office
+  Cell: Cell

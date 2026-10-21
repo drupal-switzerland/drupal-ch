@@ -1,0 +1,80 @@
+name: Test
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  drupal:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['8.4']
+    services:
+      mysql:
+        # Matches production (Cloud SQL MySQL 8.0).
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: drupal
+          MYSQL_DATABASE: drupal
+        ports: ['3306:3306']
+        options: --health-cmd="mysqladmin ping" --health-interval=5s --health-retries=20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: gd, pdo_mysql, zip, intl
+          tools: composer:v2
+
+      - run: composer validate --no-check-all --no-check-publish
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.composer/cache
+          key: composer-${{ matrix.php }}-${{ hashFiles('composer.lock') }}
+
+      - run: composer install --no-interaction --no-progress
+
+      - name: Lint custom PHP
+        run: find web/themes/custom scripts -name '*.php' -o -name '*.theme' | xargs -r -n1 php -l
+
+      - name: Configure database
+        run: |
+          cat > web/sites/default/settings.local.php <<'EOF'
+          <?php
+          $databases['default']['default'] = [
+            'driver' => 'mysql', 'host' => '127.0.0.1', 'port' => 3306,
+            'database' => 'drupal', 'username' => 'root', 'password' => 'drupal', 'prefix' => '',
+          ];
+          $settings['hash_salt'] = 'ci';
+          EOF
+
+      - name: Install site from config
+        run: vendor/bin/drush si minimal --existing-config -y --account-pass=admin
+
+      # Locale translation import rewrites some config during install; cim (as on deploy) settles it.
+      - name: Config imports and is in sync
+        run: |
+          vendor/bin/drush cim -y
+          vendor/bin/drush config:status --format=list | tee /dev/stderr | (! grep .)
+
+      # Front page is /node/2 in config.
+      - name: Create content to render
+        run: vendor/bin/drush php:eval 'foreach ([1, 2] as $i) \Drupal\node\Entity\Node::create(["type" => "page", "title" => "CI page $i", "status" => 1])->save();'
+
+      - name: Smoke test
+        run: |
+          vendor/bin/drush rs 127.0.0.1:8888 >/tmp/server.log 2>&1 &
+          timeout 30 bash -c 'until curl -s 127.0.0.1:8888 >/dev/null; do sleep 1; done'
+          scripts/smoke-test.sh http://127.0.0.1:8888 / /user/login /node/1
+
+      - name: No PHP errors logged
+        run: |
+          vendor/bin/drush sqlq "select type, left(message, 200) from watchdog where type in ('php', 'components') and severity <= 4" | tee /dev/stderr | (! grep .)
+
+      - if: failure()
+        run: cat /tmp/server.log; vendor/bin/drush watchdog:show --count=50 || true

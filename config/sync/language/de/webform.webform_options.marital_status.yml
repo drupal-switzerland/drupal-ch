@@ -1,4 +1,5 @@
 label: Familienstand
+category: Demographic
 options: |
   Single: Single
   Verheiratet: verheiratet

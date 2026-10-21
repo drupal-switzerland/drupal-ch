@@ -2,17 +2,18 @@ uuid: 41ace034-23b6-4b15-8cc7-293f0a58dafc
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.blog
   module:
     - node
 id: blog_title
 label: 'Blog Title'
 type: 'canonical_entities:node'
-pattern: 'blog/[node:title]'
+pattern: '/blog/[node:title]'
 selection_criteria:
   d4c1afd2-fa07-4400-8c6c-dea62f7e2758:
     id: 'entity_bundle:node'
     negate: false
-    uuid: d4c1afd2-fa07-4400-8c6c-dea62f7e2758
     context_mapping:
       node: node
     bundles:

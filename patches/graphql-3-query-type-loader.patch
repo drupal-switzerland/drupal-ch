@@ -1,0 +1,29 @@
+--- a/src/Plugin/GraphQL/Schemas/SchemaPluginBase.php	2026-10-21 10:39:53
++++ b/src/Plugin/GraphQL/Schemas/SchemaPluginBase.php	2026-10-21 10:39:53
+@@ -216,19 +216,22 @@
+       ]));
+     }
+ 
+-    $config->setQuery(new ObjectType([
++    $query = new ObjectType([
+       'name' => 'Query',
+       'fields' => function () {
+         return $this->getFields('Root');
+       },
+-    ]));
++    ]);
++    $config->setQuery($query);
+ 
+     $config->setTypes(function () {
+       return $this->getTypes();
+     });
+ 
+-    $config->setTypeLoader(function ($name) {
+-      return $this->getType($name);
++    // graphql-php 15 resolves root types (e.g. "fragment X on Query") through
++    // the type loader, which only knows the plugin type map.
++    $config->setTypeLoader(function ($name) use ($query) {
++      return $name === 'Query' ? $query : $this->getType($name);
+     });
+ 
+     return new Schema($config);

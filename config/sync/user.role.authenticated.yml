@@ -1,7 +1,15 @@
 uuid: 719681ec-21aa-4a19-b156-5293c07d59e8
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.editor
+    - filter.format.webform_default
+  module:
+    - file
+    - filter
+    - media
+    - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
@@ -10,5 +18,7 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'delete own files'
   - 'use text format editor'
+  - 'use text format webform_default'
   - 'view media'
