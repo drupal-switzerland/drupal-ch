@@ -20,6 +20,11 @@ tasks:
         service: cli
         shell: bash
     - run:
+        # ponytail: one-off for the D9 -> D10 jump; harmless no-op once stable9 is installed.
+        name: drush theme:install stable9
+        command: drush -y theme:install stable9
+        service: cli
+    - run:
         name: drush updb
         command: drush -y updb --cache-clear=0 || (drush cr && drush -y updb --cache-clear=0)
         service: cli
