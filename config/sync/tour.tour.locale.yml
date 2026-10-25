@@ -8,7 +8,6 @@ _core:
   default_config_hash: IGyq02Zgyl_6WJczNqeYnXXQR_B_iM-yyOFXOUmVpLk
 id: locale
 label: Translation
-module: locale
 routes:
   -
     route_name: locale.translate_page
