@@ -5,8 +5,6 @@
  * Drupal 8 local development override configuration file.
  */
 
-use Drupal\Component\Assertion\Handle;
-
 /**
  * Default development database.
  */
@@ -16,9 +14,6 @@ $databases['default']['default'] = [
   'namespace' => 'Drupal\\Core\\Database\\Driver\\sqlite',
   'driver' => 'sqlite',
 ];
-
-assert_options(ASSERT_ACTIVE, TRUE);
-Handle::register();
 
 /**
  * Enable local development services.

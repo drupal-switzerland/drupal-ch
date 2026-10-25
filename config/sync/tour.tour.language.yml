@@ -8,7 +8,6 @@ _core:
   default_config_hash: K3KVksdkREnIdd2idoIA9TDHQew_WreFzTG-DHmz9Z4
 id: language
 label: Language
-module: language
 routes:
   -
     route_name: entity.configurable_language.collection

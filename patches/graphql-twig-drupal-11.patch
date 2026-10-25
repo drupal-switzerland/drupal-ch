@@ -1,0 +1,75 @@
+--- a/src/Controller/ArgumentResolver.php	2026-10-25 15:55:26
++++ b/src/Controller/ArgumentResolver.php	2026-10-25 15:55:26
+@@ -3,7 +3,7 @@
+ namespace Drupal\graphql_twig\Controller;
+ 
+ use Symfony\Component\HttpFoundation\Request;
+-use Symfony\Component\HttpKernel\Controller\ArgumentValueResolverInterface;
++use Symfony\Component\HttpKernel\Controller\ValueResolverInterface;
+ use Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata;
+ 
+ /**
+@@ -13,41 +13,26 @@
+  *
+  * @package Drupal\graphql_twig\Controller
+  */
+-class ArgumentResolver implements ArgumentValueResolverInterface {
++class ArgumentResolver implements ValueResolverInterface {
+ 
+   /**
+    * @inheritdoc
+    */
+-  public function supports(Request $request, ArgumentMetadata $argument): bool {
+-    return in_array($argument->getName(), [
+-      '_graphql_arguments',
+-      '_graphql_theme_hook',
+-      '_graphql_title',
+-      '_graphql_title_query',
+-    ]);
+-  }
+-
+-  /**
+-   * @inheritdoc
+-   */
+   public function resolve(Request $request, ArgumentMetadata $argument): iterable {
+     switch ($argument->getName()) {
+       case '_graphql_arguments':
+-        yield $request->attributes->get('_raw_variables')->all();
+-        break;
++        return [$request->attributes->get('_raw_variables')->all()];
+ 
+       case '_graphql_theme_hook':
+-        yield $request->attributes->get('_theme_hook');
+-        break;
++        return [$request->attributes->get('_theme_hook')];
+ 
+       case '_graphql_title':
+-        yield $request->attributes->get('_title');
+-        break;
++        return [$request->attributes->get('_title')];
+ 
+       case '_graphql_title_query':
+-        yield $request->attributes->get('_title_query');
+-        break;
++        return [$request->attributes->get('_title_query')];
+     }
++    return [];
+   }
+ 
+ }
+--- a/src/GraphQLFragmentNode.php	2026-10-25 16:03:20
++++ b/src/GraphQLFragmentNode.php	2026-10-25 16:03:20
+@@ -2,10 +2,13 @@
+ 
+ namespace Drupal\graphql_twig;
+ 
++use Twig\Attribute\YieldReady;
+ use Twig\Node\Node;
++
+ /**
+  * A Twig node for collecting GraphQL query fragments in twig templates.
+  */
++#[YieldReady]
+ class GraphQLFragmentNode extends Node {
+ 
+   /**
