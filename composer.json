@@ -132,7 +132,7 @@
                 "graphql-php 15: resolve Query root type in type loader (fragment on Query)": "patches/graphql-3-query-type-loader.patch"
             },
             "drupal/graphql_twig": {
-                "Symfony 7: ArgumentValueResolverInterface was removed, use ValueResolverInterface": "patches/graphql-twig-symfony7-value-resolver.patch"
+                "Drupal 11: Symfony 7 ValueResolverInterface, Twig use_yield": "patches/graphql-twig-drupal-11.patch"
             }
         },
         "drupal-scaffold": {

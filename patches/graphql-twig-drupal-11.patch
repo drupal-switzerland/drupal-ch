@@ -57,3 +57,19 @@
    }
  
  }
+--- a/src/GraphQLFragmentNode.php	2026-10-25 16:03:20
++++ b/src/GraphQLFragmentNode.php	2026-10-25 16:03:20
+@@ -2,10 +2,13 @@
+ 
+ namespace Drupal\graphql_twig;
+ 
++use Twig\Attribute\YieldReady;
+ use Twig\Node\Node;
++
+ /**
+  * A Twig node for collecting GraphQL query fragments in twig templates.
+  */
++#[YieldReady]
+ class GraphQLFragmentNode extends Node {
+ 
+   /**
